@@ -1,0 +1,5 @@
+baseURL = "https://wiki.fibra.click"
+languageCode = "it-it"
+title = "FibraClick Wiki"
+
+theme = "hugo-journal"
