@@ -1,7 +1,7 @@
 ---
 title: "Test"
-date: 2019-03-21T17:58:16+01:00
-lastmod: 2019-03-21T17:58:16+01:00
+date: 2019-03-21
+lastmod: 2019-03-21
 authors: ["Matteo", "Andrea"]
 description: "descrizione aaa"
 categories: ["FTTC", "FTTH"]

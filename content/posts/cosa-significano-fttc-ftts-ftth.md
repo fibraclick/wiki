@@ -1,7 +1,7 @@
 ---
 title: Cosa significano FTTC, FTTH e FTTS
-date: 2019-03-22T18:38:46+01:00
-lastmod: 2019-03-22T18:38:46+01:00
+date: 2019-03-22
+lastmod: 2019-03-22
 authors: [Matteo]
 description: Il significato delle sigle FTTC, FTTH e FTTS, usate per indicare diversi tipi di architetture di rete
 categories: [Definizioni, FTTC, FTTH]
