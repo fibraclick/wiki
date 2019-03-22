@@ -4,7 +4,8 @@ title = "FibraClick Wiki"
 
 theme = "hugo-journal"
 
-disableKinds = ["RSS"]
+disableKinds = ["RSS", "taxonomyTerm"]
+preserveTaxonomyNames = true
 
 [params]
   description = "Dubbi sugli operatori telefonici, fibra ottica, copertura? Su FibraClick Wiki troverai molte risposte"
@@ -12,3 +13,7 @@ disableKinds = ["RSS"]
 
 [permalinks]
   posts = "/:slug"
+  categories = "/:slug"
+
+[taxonomies]
+  category = "categories"
