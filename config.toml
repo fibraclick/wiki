@@ -3,3 +3,12 @@ languageCode = "it-it"
 title = "FibraClick Wiki"
 
 theme = "hugo-journal"
+
+disableKinds = ["RSS"]
+
+[params]
+  description = "Dubbi sugli operatori telefonici, fibra ottica, copertura? Su FibraClick Wiki troverai molte risposte"
+  logo = "/images/logo.png"
+
+[permalinks]
+  posts = "/:slug"
