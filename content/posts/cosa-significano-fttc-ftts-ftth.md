@@ -7,7 +7,7 @@ description: Il significato delle sigle FTTC, FTTH e FTTS, usate per indicare di
 categories: [Definizioni, FTTC, FTTH]
 ---
 
-Le sigle **FTTC** e **FTTH** sono acronimi che indicano diverse architetture di rete. Sono spesso accomunate dal più generico acronimo FTTx, che sta ad indicare tutte le architetture che prevedono l'uso della fibra ottica.
+Le sigle **FTTC** e **FTTH** sono acronimi che indicano diverse architetture di rete. Sono a volte accomunate dal più generico acronimo FTTx, che sta ad indicare tutte le architetture che prevedono l'uso della fibra ottica.
 
 FTTC e FTTH sono acronimi rispettivamente di *Fiber To The Cabinet* e *Fiber To The Home*.
 
