@@ -10,6 +10,7 @@ preserveTaxonomyNames = true
 [params]
   description = "Dubbi sugli operatori telefonici, fibra ottica, copertura? Su FibraClick Wiki troverai molte risposte"
   logo = "/images/logo.png"
+  analytics = "UA-65084561-3"
 
 [permalinks]
   posts = "/:slug"
