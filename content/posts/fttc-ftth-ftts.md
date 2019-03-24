@@ -37,7 +37,7 @@ Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della
 [^4]: Tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
 
 {{% info %}}
-Vedi anche [Cos'è la VDSL]({{< relref "cose-la-vdsl.md" >}}).
+Vedi anche [Cos'è la VDSL]({{< relref "vdsl.md" >}}).
 {{% /info %}}
 
 La FTTC è una soluzione frequentemente adottata nei Paesi che hanno una rete in rame consolidata, perché permette di ottenere prestazioni generalmente buone con costi di realizzazione bassi. Permette inoltre di coprire rapidamente molte abitazioni.
@@ -56,7 +56,7 @@ La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posat
 Inoltre, l'uso di alte frequenze genera tra i cavi in rame interferenze che non sono trascurabili come avveniva per l'ADSL. Il fenomeno della diafonia riduce infatti la velocità fino al 50%, in base al numero di linee VDSL interferenti.
 
 {{% info %}}
-Vedi anche [Cos'è la diafonia]({{< relref "cose-la-diafonia.md" >}}).
+Vedi anche [Cos'è la diafonia]({{< relref "diafonia.md" >}}).
 {{% /info %}}
 
 Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile.
@@ -76,7 +76,7 @@ A febbraio 2019 TIM dichiara di coprire 2701 comuni.[^8] Gli altri operatori tel
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
 {{% info %}}
-Per approfondire come gli operatori accedono e rivendono la rete TIM (con tutti vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "cosa-significano-vula-slu-nga.md" >}}).
+Per approfondire come gli operatori accedono e rivendono la rete TIM (con tutti vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
 {{% /info %}}
 
 {{% green %}}
@@ -91,7 +91,7 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 
 - utilizza un mezzo trasmissivo (la fibra ottica) che **soffre molto lievemente di dispersione**, consentendo quindi di coprire lunghe distanze senza bisogno di rigenerare il segnale;
 - supporta **velocità di trasmissione molto alte** e **latenze molto basse** (velocità della luce);
-- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona la GPON]({{< relref "cose-e-come-funziona-la-gpon.md" >}})).[^11]
+- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})).[^11]
 
 [^11]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 
@@ -110,10 +110,10 @@ Esistono anche molti operatori locali che realizzano e vendono reti in fibra ott
 {{% info %}}
 ###### Per approfondire i temi di questa pagina:
 
-- Cos'è la VDSL
-- Cos'è e come funziona la GPON
-- Cosa significano VULA, SLU e NGA
-- Cos'è la diafonia
+- [Cos'è la VDSL]({{< relref "vdsl.md" >}})
+- [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})
+- [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
+- [Cos'è la diafonia]({{< relref "diafonia.md" >}})
 - Cos'è Open Fiber
 - Cos'è Flash Fiber
 {{% /info %}}
