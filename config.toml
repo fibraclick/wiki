@@ -6,6 +6,7 @@ theme = "hugo-journal"
 
 disableKinds = ["RSS", "taxonomyTerm"]
 preserveTaxonomyNames = true
+footnoteReturnLinkContents = "⤴"
 
 [params]
   description = "Dubbi sugli operatori telefonici, fibra ottica, copertura? Su FibraClick Wiki troverai molte risposte"
