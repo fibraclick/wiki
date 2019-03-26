@@ -1,7 +1,7 @@
 ---
 title: Cosa significano FTTC, FTTH e FTTS
 date: 2019-03-22
-lastmod: 2019-03-22
+lastmod: 2019-03-27
 authors: [Matteo]
 description: Il significato delle sigle FTTC, FTTH e FTTS, usate per indicare diversi tipi di architetture di rete
 categories: [Definizioni, FTTC, FTTH]
@@ -90,7 +90,7 @@ FTTH è l'architettura che prevede di portare la **fibra ottica fino a dentro le
 L'architettura è considerata un modello per quanto riguarda le connessioni Internet, per diversi motivi:
 
 - utilizza un mezzo trasmissivo (la fibra ottica) che **soffre molto lievemente di dispersione**, consentendo quindi di coprire lunghe distanze senza bisogno di rigenerare il segnale;
-- supporta **velocità di trasmissione molto alte** e **latenze molto basse** (velocità della luce);
+- supporta **velocità di trasmissione molto alte** (1+ Gbps) e **latenze molto basse** (velocità della luce);
 - può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})).[^11]
 
 [^11]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
@@ -101,7 +101,7 @@ La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che
 
 #### Diffusione in Italia
 
-In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere 270 città entro il 2023.[^12]
+In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 città entro il 2023**.[^12] Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **download da 1 Gbps** e upload che varia da 100 a 300 Mbps.
 
 [^12]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
 
