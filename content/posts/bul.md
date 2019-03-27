@@ -7,11 +7,11 @@ description: ""
 categories: [Definizioni, Copertura]
 ---
 
-La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato nel marzo del 2015 dal Governo italiano per pianificare gli interventi volti al raggiungimento degli obiettivi europei in materia di banda larga e ultralarga.[^1]
+La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo italiano nel marzo del 2015, con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
 
-Il piano si divide in due fasi, con lo scopo di raggiungere gli obiettivi della Commissione Europa fissati per il 2020 e successivamene quelli per il 2025.
+Il piano si divide in due fasi, con l'intento di raggiungere gli obiettivi della Commissione Europa fissati per il 2020 e successivamente quelli per il 2025.
 
-I bandi per la prima fase sono stati tutti vinti dall'azienda **Open Fiber**, che coprirà **entro il 2020 le aree bianche del Paese**, adottando le architetture FTTH (~75%) e FWA (~25%).
+I bandi per la prima fase sono stati tutti vinti dall'azienda **Open Fiber**, che coprirà **entro il 2020 le aree bianche del Paese**, adottando le architetture FTTH (~80%) e FWA (~20%).
 
 I prossimi paragrafi approfondiscono più dettagliatamente la nascita e gli sviluppi del piano.
 
@@ -19,7 +19,7 @@ I prossimi paragrafi approfondiscono più dettagliatamente la nascita e gli svil
 Vedi anche:
 
 - [Cosa significano FTTC, FTTH, FTTS e FWA]({{< relref "fttc-ftth-ftts.md" >}})
-- [Cos'è l'intervento pubblico]({{< relref "intervento-pubblico.md" >}}), per capire come verificare la presenza di intervento pubblico  (???)
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
 {{% /info %}}
 
 ## Gli obiettivi europei per il 2020
@@ -33,7 +33,7 @@ La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiunger
 Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di dollari sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
 
 {{% green %}}
-In Italia, quando si parla di connessioni a **"30 Mbps" ci si riferisce all'architettura FTTC**, perché per limiti tecnologici la VDSL non riesce a garantire in modo consistente più di 100 Mbps in download.
+In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce all'architettura FTTC o FWA**. Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
 
 Ad oggi **con "100 Mbps" si intende invece esclusivamente la FTTH**.
 {{% /green %}}
@@ -65,7 +65,7 @@ Questo prevede che il coordinamento della rete sia gestito da un'autorità compl
 {{% warn %}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
-Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza escluse le aree coperte in [FTTC]({{< relref "fttc-ftth-ftts.md" >}}), cioè le cosiddette aree grigie o cluster B.
+Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza escluse le aree coperte in [FTTC]({{< relref "fttc-ftth-ftts.md" >}}), cioè le cosiddette aree grigie o cluster B. Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
 La questione è approfondita qua sotto quando si parla di consultazioni, aree e cluster 👇
 {{% /warn %}}
@@ -98,7 +98,7 @@ Ciascuno dei **tre bandi Infratel** ha riguardato un insieme di regioni o provin
 
 **Open Fiber** ha vinto tutti e tre i bandi Infratel (per il terzo bando c'è stato un solo candidato), grazie a delle offerte fortemente vantaggiose rispetto a quanto richiesto dal bando e dagli obiettivi europei.[^4]
 
-In particolare, la proposta di Open Fiber è così articolata (le percentuali si riferiscono alle unità immobiliari):
+In particolare, la proposta di Open Fiber è così articolata (le percentuali si riferiscono al totale delle unità immobiliari coinvolte nel progetto):
 
 - **Primo bando**[^6]
  - 87% di copertura FTTH (>100 Mbps)
@@ -116,7 +116,7 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 Vedi anche:
 
 - [Cosa significano FTTC, FTTH, FTTS e FWA]({{< relref "fttc-ftth-ftts.md" >}})
-- [Cos'è l'intervento pubblico]({{< relref "intervento-pubblico.md" >}}), per capire come verificare la presenza di intervento pubblico 
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
 {{% /info %}}
 
 ## L'avanzamento del progetto
@@ -144,7 +144,7 @@ A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tram
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
 
 {{% green %}}
-Quando si parla di area, non si intende territorio comunale. Ogni comune può essere suddiviso in più aree, in modo da distinguere tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8000 comuni.
+Quando si parla di area, non si intende territorio comunale. Ogni comune può essere suddiviso in più aree, in modo da distinguere tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
 {{% /green %}}
 
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato in materia di banda ultralarga**. Hanno tuttavia un difetto, quello di considerare il numero di infrastrutture presenti ma non il livello di qualità offerto.
@@ -154,6 +154,10 @@ Per questo motivo, l'Italia ha definito un'ulteriore distinzione[^12], basata su
 - **cluster A**: aree in cui sarà presente almeno un'infrastruttura che garantisca almeno 100 Mbps in download (in Italia equivale a **FTTH**)
 - **cluster B**: aree in cui sarà presente almeno un'infrastruttura che garantisca almeno 30 Mbps in download (in Italia equivale a **FTTC**, **le connessioni wireless non vengono considerate**)
 - **cluster C e D**: aree in cui non saranno previste connessioni >30 Mbps
+
+{{% green %}}
+Le aree interessate dal **piano BUL 2015-2020** (fase 1) sono quelle dei **cluster C e D**.
+{{% /green %}}
 
 La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.
 
@@ -167,13 +171,15 @@ Lo scopo è raggiungere gli obiettivi della Commissione Europea fissati per il 2
 
 In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni del cluster B**, cioè dove è presente solo la FTTC senza previsioni di ulteriori investimenti.
 
-Questa fase del piano è ancora in alto mare, ma si saprà di più durante il 2019 o 2020, man mano che la fase 2 si avvicina alla conclusione.
+Questa fase del piano è ancora in alto mare, ma si saprà di più durante il 2019 o 2020, man mano che la fase 1 si avvicina alla conclusione.
 
-{{% green %}}
-Se sei arrivato a questo punto, probabilmente vorrai sapere come si fa a vedere quali sono le aree bianche, grigie e nere. Il miglior strumento che abbiamo a disposizione è il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE.
+## Verificare gli interventi
 
-??? ci vuole un articolo per spiegare come interpretare il sito bul e la verifica per indirizzo
-{{% /green %}}
+Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se sarà presente intervento privato/pubblico a 30 o 100 Mbps.
+
+{{% info %}}
+Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}}).
+{{% /info %}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/
 [^2]: Gli obiettivi sono contenuti nel documento che descrive il piano *Agenda Digitale 2020*. Tra le varie cose, prevedeva anche che ogni Stato europeo presentasse entro il 2012 un piano di interventi per raggiungere gli obiettivi. Molti Stati europei, Italia inclusa, hanno presentato il piano con anni di ritardo. https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0245:FIN:EN:PDF
