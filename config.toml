@@ -19,3 +19,7 @@ footnoteReturnLinkContents = "⤴"
 
 [taxonomies]
   category = "categories"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
