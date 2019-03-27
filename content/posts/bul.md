@@ -7,18 +7,18 @@ description: ""
 categories: [Definizioni, Copertura]
 ---
 
-La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo italiano nel marzo del 2015, con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
+La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo italiano nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
 
 Il piano si divide in due fasi, con l'intento di raggiungere gli obiettivi della Commissione Europa fissati per il 2020 e successivamente quelli per il 2025.
 
 I bandi per la prima fase sono stati tutti vinti dall'azienda **Open Fiber**, che coprirà **entro il 2020 le aree bianche del Paese**, adottando le architetture FTTH (~80%) e FWA (~20%).
 
-I prossimi paragrafi approfondiscono più dettagliatamente la nascita e gli sviluppi del piano.
+I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi del piano.
 
 {{% info %}}
 Vedi anche:
 
-- [Cosa significano FTTC, FTTH, FTTS e FWA]({{< relref "fttc-ftth-ftts.md" >}})
+- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "architetture.md" >}})
 - [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
 {{% /info %}}
 
@@ -65,7 +65,7 @@ Questo prevede che il coordinamento della rete sia gestito da un'autorità compl
 {{% warn %}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
-Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza escluse le aree coperte in [FTTC]({{< relref "fttc-ftth-ftts.md" >}}), cioè le cosiddette aree grigie o cluster B. Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
+Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza escluse le aree coperte in [FTTC]({{< relref "architetture.md" >}}), cioè le cosiddette aree grigie o cluster B. Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
 La questione è approfondita qua sotto quando si parla di consultazioni, aree e cluster 👇
 {{% /warn %}}
@@ -115,7 +115,7 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 {{% info %}}
 Vedi anche:
 
-- [Cosa significano FTTC, FTTH, FTTS e FWA]({{< relref "fttc-ftth-ftts.md" >}})
+- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "architetture.md" >}})
 - [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
 {{% /info %}}
 
