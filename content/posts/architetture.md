@@ -1,16 +1,23 @@
 ---
-title: Cosa significano FTTC, FTTE, FTTH, FTTS e FWA
+title: Cosa significano FTTC, FTTS, FTTE, FTTH e FWA
 date: 2019-03-22
-lastmod: 2019-03-27
+lastmod: 2019-03-28
 authors: [Matteo]
 description: Il significato in dettaglio delle sigle FTTC, FTTE, FTTH, FTTS e FWA, usate per indicare diversi tipi di architetture di rete
 categories: [Definizioni, FTTC, FTTH, FWA]
 ---
 
-Le sigle **FTTC** e **FTTH** sono acronimi che indicano diverse architetture di rete. Sono a volte accomunate dal più generico acronimo FTTx, che sta ad indicare tutte le architetture che prevedono l'uso della fibra ottica.
+Le sigle **FTTC**, **FTTS**, **FTTE**, **FTTH**, **FWA** sono acronimi che indicano diverse architetture di rete. I primi quattro sono a volte accomunati dal più generico acronimo FTTx, che sta ad indicare tutte le architetture che prevedono l'uso della fibra ottica.
 
-- FTTC è acronimo di *Fiber To The Cabinet*, talvolta detta "fibra mista rame"
-- FTTH è acronimo di *Fiber To The Home*, semplicemente "fibra"
+In sintesi, gli acronimi significano:
+
+- **FTTC** = **Fiber To The Cabinet** (fibra fino all'armadio, o "fibra mista rame" secondo la nomenclatura Agcom)
+- **FTTS** = **Fiber To The Street** (equivalente a FTTC)
+- **FTTE** = **Fiber To The Exchange** (fibra ottica fino alla centrale, accesso in "rame")
+- **FTTH** = **Fiber To The Home** (fibra ottica fino in casa, accesso in "fibra")
+- **FWA** = **Fixed Wireless Access** (accesso wireless)
+
+I paragrafi che seguono approfondiscono singolarmente le architetture.
 
 {{< toc >}}
 
@@ -38,6 +45,10 @@ Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della
 
 [^4]: Tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
 
+{{% green %}}
+Si noti che **l'architettura FTTC non implica nessuna tecnologia specifica**. In altre parole, la FTTC può essere potenzialmente utilizzata per erogare anche l'ADSL. In Italia si usa quasi esclusivamente per la VDSL2.
+{{% /green %}}
+
 {{% info %}}
 Vedi anche [Cos'è la VDSL]({{< relref "vdsl.md" >}}).
 {{% /info %}}
@@ -45,6 +56,7 @@ Vedi anche [Cos'è la VDSL]({{< relref "vdsl.md" >}}).
 La FTTC è una soluzione frequentemente adottata nei Paesi che hanno una rete in rame consolidata, perché permette di ottenere prestazioni generalmente buone con costi di realizzazione bassi. Permette inoltre di coprire rapidamente molte abitazioni.
 
 {{% green %}}
+###### La tecnologia G.fast
 La tecnologia **G.fast** consente in condizioni ottimali di raggiungere anche 1000 Mbps in modalità TDD (significa che la banda è "condivisa e bilanciata" tra download e upload).
 
 In questo caso l'architettura di riferimento non si chiama FTTC ma **FTTDP** (*Fiber To The Distribution Point*), per esplicitare il fatto che il punto di raccordo tra fibra ottica e rame è flessibile e deve necessariamente essere vicino alle abitazioni.
@@ -81,9 +93,21 @@ A febbraio 2019 TIM dichiara di coprire 2701 comuni.[^8] Gli altri operatori tel
 Per approfondire come gli operatori accedono e rivendono la rete TIM (con tutti vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
 {{% /info %}}
 
-{{% green %}}
-La sigla **FTTS** (*Fiber To The Street*) è [equivalente a FTTC](https://www.fastweb.it/adsl-fibra-ottica/rete-fibra-ottica/). In Italia è utilizzata sostanzialmente solo da Fastweb per indicare la propria infrastruttura SLU.
-{{% /green %}}
+## FTTS (Fiber To The Street)
+
+La sigla **FTTS** (*Fiber To The Street*) è [equivalente a FTTC](https://www.fastweb.it/adsl-fibra-ottica/rete-fibra-ottica/). In Italia è utilizzata sostanzialmente solo da Fastweb per indicare la propria infrastruttura FTTC SLU.
+
+## FTTE (Fiber To The Exchange)
+
+Con **FTTE** (*Fiber To The Exchange*) si intende un'architettura in cui la fibra ottica arriva fino alla centrale dell'operatore.
+
+È quasi sempre il caso dell'ADSL, anche se il termine non è molto usato in quel contesto.
+
+Si parla di FTTE soprattutto in caso di linea telefonica su **rete rigida**, ossia una linea collegata **direttamente alla centrale** senza passare da un armadio ripartilinea.[^11]
+
+In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra DSLAM e centrale.
+
+[^11]: pagina 3 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
 ## FTTH (Fiber To The Home)
 
@@ -93,9 +117,9 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 
 - utilizza un mezzo trasmissivo (la fibra ottica) che **soffre molto lievemente di dispersione**, consentendo quindi di coprire lunghe distanze senza bisogno di rigenerare il segnale;
 - supporta **velocità di trasmissione molto alte** (1+ Gbps) e **latenze molto basse** (velocità della luce);
-- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})).[^11]
+- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})).[^12]
 
-[^11]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
+[^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 
 {{% green %}}
 La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo presso l'edificio in cui si trovano i clienti finali. È poco usata in Italia.
@@ -103,11 +127,25 @@ La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che
 
 #### Diffusione in Italia
 
-In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 città entro il 2023**.[^12] Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **download da 1 Gbps** e upload che varia da 100 a 300 Mbps.
+In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 città entro il 2023**.[^13] Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **download da 1 Gbps** e upload che varia da 100 a 300 Mbps.
 
-[^12]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
+[^13]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
 
 Esistono anche molti operatori locali che realizzano e vendono reti in fibra ottica (sia per privati che aziende), ad esempio Isiline, Intred, Unidata, ecc.
+
+## FWA (Fixed Wireless Access)
+
+**FWA** indica una connessione per l'accesso a Internet ottenuta tramite tecnologie wireless-senza fili.
+
+Alcuni esempi di operatori FWA e relative tecnologie sono:
+
+- **Eolo** con la tecnologia proprietaria EOLOwave. Nella versione "G" permette di raggiungere fino a 100 Mbps in download
+- **Linkem** in LTE (4G)
+- **Tiscali** in LTE (4G)
+
+I problemi principali delle connessioni wireless sono la latenza e le (talvolta) scarse prestazioni dei collegamenti radio condivisi.
+
+Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diventare una soluzione più praticabile per risolvere situazioni di divario digitale, grazie alle notevoli prestazioni offerte dal 5G in termini di latenza e throughput (velocità).
 
 {{% info %}}
 ###### Per approfondire i temi di questa pagina:
@@ -116,8 +154,8 @@ Esistono anche molti operatori locali che realizzano e vendono reti in fibra ott
 - [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})
 - [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
 - [Cos'è la diafonia]({{< relref "diafonia.md" >}})
-- Cos'è Open Fiber
-- Cos'è Flash Fiber
+- [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}})
+- [Cos'è Flash Fiber]({{< relref "flashfiber.md" >}})
 {{% /info %}}
 
 {{< footer >}}
