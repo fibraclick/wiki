@@ -83,14 +83,14 @@ In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, princip
 [^6]: https://rete.gruppotim.it/it/numeri/italia/2018/fibra
 [^7]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/en/
 
-A febbraio 2019 TIM dichiara di coprire 2701 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
+A marzo 2019 TIM dichiara di coprire 2714 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
 
 [^8]: https://www.tim.it/verifica-copertura
 [^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
 {{% info %}}
-Per approfondire come gli operatori accedono e rivendono la rete TIM (con tutti vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
+Per approfondire come gli operatori accedono alla rete TIM e la rivendono (con tutti i vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
 {{% /info %}}
 
 ## FTTS (Fiber To The Street)
@@ -122,7 +122,9 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 [^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 
 {{% green %}}
-La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo presso l'edificio in cui si trovano i clienti finali. È poco usata in Italia.
+###### FTTB
+
+La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo situato nell'edificio in cui si trovano i clienti finali. È poco usata in Italia.
 {{% /green %}}
 
 #### Diffusione in Italia
@@ -155,7 +157,7 @@ Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diven
 - [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
 - [Cos'è la diafonia]({{< relref "diafonia.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}})
-- [Cos'è Flash Fiber]({{< relref "flashfiber.md" >}})
+- [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}})
 {{% /info %}}
 
 {{< footer >}}
