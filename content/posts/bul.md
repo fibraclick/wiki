@@ -7,13 +7,15 @@ description: ""
 categories: [Definizioni, Copertura]
 ---
 
-La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo italiano nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
+La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo Renzi nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
 
 Il piano si divide in due fasi, con l'intento di raggiungere gli obiettivi della Commissione Europa fissati per il 2020 e successivamente quelli per il 2025.
 
 I bandi per la prima fase sono stati tutti vinti dall'azienda **Open Fiber**, che coprirà **entro il 2020 le aree bianche del Paese**, adottando le architetture FTTH (~80%) e FWA (~20%).
 
 I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi del piano.
+
+{{< toc >}}
 
 {{% info %}}
 Vedi anche:

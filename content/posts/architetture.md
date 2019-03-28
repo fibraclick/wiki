@@ -12,6 +12,8 @@ Le sigle **FTTC** e **FTTH** sono acronimi che indicano diverse architetture di 
 - FTTC è acronimo di *Fiber To The Cabinet*, talvolta detta "fibra mista rame"
 - FTTH è acronimo di *Fiber To The Home*, semplicemente "fibra"
 
+{{< toc >}}
+
 {{% fig src="/images/architetture.jpg" caption="Architetture di rete TIM. Premi l'immagine per ingrandire" %}}
 
 ## FTTC (Fiber To The Cabinet)
