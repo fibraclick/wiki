@@ -3,7 +3,7 @@ title: "Cos'è il piano BUL"
 date: 2019-03-24
 lastmod: 2019-03-28
 authors: [Matteo]
-description: ""
+description: "Il piano BUL è un progetto avviato nel 2015 per portare la banda ultralarga in tutte le case italiane. Com'è nato e come si è evolto il piano pubblico."
 categories: [Definizioni, Copertura]
 ---
 
@@ -32,7 +32,7 @@ La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiunger
 2. coprire tutti i cittadini con la **banda larga veloce (>30 Mbps) entro il 2020**;
 3. fare in modo che il **50% delle famiglie** europee siano abbonate a connessioni a **banda ultralarga (>100 Mbps) entro il 2020**.
 
-Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di dollari sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
+Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di euro sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
 
 {{% green %}}
 In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce all'architettura FTTC o FWA**. Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
@@ -50,7 +50,7 @@ Nel 2016 la Commissione Europea ha annunciato gli obiettivi per il 2025:
 
 ## Il piano BUL italiano
 
-Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. La prima fase è attualmente in corso e sarà completata entro il 2020, mentre la seconda fase è ancora da definire in dettaglio.
+Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. La prima fase è attualmente in corso e sarà completata entro il 2020, mentre la seconda fase non è stata ancora definita in dettaglio.
 
 La prima fase del piano BUL è stata finanziata tramite fondi FSC, FESR e FEASR e ha l'obiettivo di coprire il 24,6% della popolazione italiana, cioè la porzione considerata a rischio di divario digitale.[^9]
 
@@ -129,7 +129,7 @@ Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri dura
 
 Si noti che i comuni interessati dal bando sono poco più di 7000, e frequentemente ciascuno di questi ha più di un cantiere (FTTH e FWA).
 
-Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) e [Twitter](https://twitter.com/FibraClick).
+Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
 Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Alcune voci riportano che **la vendibilità** dei comuni con infrastruttura completata e collaudata **sarà aperta durante l'estate del 2019**.
 

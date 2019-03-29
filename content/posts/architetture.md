@@ -105,7 +105,7 @@ Con **FTTE** (*Fiber To The Exchange*) si intende un'architettura in cui la fibr
 
 Si parla di FTTE soprattutto in caso di linea telefonica su **rete rigida**, ossia una linea collegata **direttamente alla centrale** senza passare da un armadio ripartilinea.[^11]
 
-In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra DSLAM e centrale.
+In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra il DSLAM e le abitazioni.
 
 [^11]: pagina 3 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
