@@ -11,7 +11,9 @@ Il sito **Banda Ultralarga** del Governo italiano permette di verificare indiriz
 
 I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, che hanno lo scopo di identificare le cosiddette aree bianche o a fallimento di mercato. Gli interventi pubblici dello Stato mirati alla riduzione del digital divide si basano sui risultati delle consultazioni.
 
-Puoi inserire il tuo indirizzo su [questa pagina](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi che seguono per decifrarne il risultato.
+Puoi inserire il tuo indirizzo di casa su [questa pagina](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina seguono per decifrarne il risultato.
+
+{{< toc >}}
 
 ## Sfondo blu
 

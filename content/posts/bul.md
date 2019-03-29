@@ -17,13 +17,6 @@ I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi
 
 {{< toc >}}
 
-{{% info %}}
-Vedi anche:
-
-- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "architetture.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
-{{% /info %}}
-
 ## Gli obiettivi europei per il 2020
 
 La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiungere entro il 2020:
