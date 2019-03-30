@@ -43,9 +43,9 @@ Nel 2016 la Commissione Europea ha annunciato gli obiettivi per il 2025:
 
 ## Il piano BUL italiano
 
-Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. La prima fase è attualmente in corso e sarà completata entro il 2020, mentre la seconda fase non è stata ancora definita in dettaglio.
+Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. **La prima fase è attualmente in corso e sarà completata entro il 2020**, mentre la seconda fase non è stata ancora definita in dettaglio.
 
-La prima fase del piano BUL è stata finanziata tramite fondi FSC, FESR e FEASR e ha l'obiettivo di coprire il 24,6% della popolazione italiana, cioè la porzione considerata a rischio di divario digitale.[^9]
+La prima fase del piano BUL è stata finanziata tramite fondi FSC, FESR e FEASR e ha l'obiettivo di **coprire il 24,6% della popolazione italiana**, cioè la porzione considerata a rischio di divario digitale.[^9] Si tratta di tutte le aree non già coperte da una connessione ad almeno 30 Mbps, le cosiddette **aree bianche**. Vedi i capitoli successivi per i dettagli 👇.
 
 {{% green %}}
 ###### Cos'è l'intervento diretto
@@ -60,7 +60,9 @@ Questo prevede che il coordinamento della rete sia gestito da un'autorità compl
 {{% warn %}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
-Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza escluse le aree coperte in [FTTC]({{< relref "architetture.md" >}}), cioè le cosiddette aree grigie o cluster B. Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
+Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "architetture.md" >}})**, cioè le cosiddette aree grigie o cluster B, anche nei casi di linee in rame lunghe.
+
+Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
 La questione è approfondita qua sotto quando si parla di consultazioni, aree e cluster 👇
 {{% /warn %}}
@@ -137,6 +139,10 @@ A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tram
 - **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni
 
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
+
+{{% info %}}
+I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}}) per approfondimenti.
+{{% /info %}}
 
 {{% green %}}
 Quando si parla di area, non si intende territorio comunale. Ogni comune può essere suddiviso in più aree, in modo da distinguere tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.

@@ -73,7 +73,9 @@ Inoltre, l'uso di alte frequenze genera tra i cavi in rame interferenze che non 
 Vedi anche [Cos'è la diafonia]({{< relref "diafonia.md" >}}).
 {{% /info %}}
 
-Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile.
+Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe sono circa 3,3 milioni.[^14]
+
+[^14]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/107983114?p_r_p_564233524_categoryId=109100754&p_r_p_564233524_activePortletId=noportlet
 
 #### Diffusione in Italia
 
