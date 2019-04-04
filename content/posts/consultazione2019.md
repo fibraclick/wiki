@@ -48,5 +48,5 @@ Non si esclude, inoltre, che i dati aggiornati possano servire per definire più
 Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "bul.md" >}}).
 {{% /info %}}
 
-[^infratel1]: https://consultazione.infratelitalia.it/
+[^infratel1]: https://consultazione.infratelitalia.it/ oppure http://www.infratelitalia.it/documentazione/consultazioni/monitoraggio-consultazioni-aree-grigie-e-nere/
 [^infratel2]: https://consultazione.infratelitalia.it/doc/Manuale_Istruzioni_monitoraggio_2019.pdf

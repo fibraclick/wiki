@@ -21,7 +21,7 @@ I paragrafi che seguono approfondiscono singolarmente le architetture.
 
 {{< toc >}}
 
-{{% fig src="/images/architetture.jpg" caption="Architetture di rete TIM. Premi l'immagine per ingrandire" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" %}}
+{{% fig src="/images/architetture.jpg" caption="Architetture di rete TIM" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" %}}
 
 ## FTTC (Fiber To The Cabinet)
 

@@ -133,7 +133,7 @@ Puoi verificare la presenza effettiva di un operatore utilizzando i siti web uff
 
 Indica la presenza di **tre infrastrutture FTTH**, con una velocità che può andare **da 100 a 1000 Mbps (1 Gbps)** in download, e almeno 50 Mbps in upload.
 
-Si tratta frequentemente di copertura **Flash Fiber**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contatata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
+Si tratta frequentemente di copertura **Flash Fiber**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
 
 {{% warn %}}
 ⚠ Flash Fiber è presente in 29 città italiane, in cui non compare però la città di Milano. **A Milano Flash Fiber non è presente**: TIM ha la sua rete FTTH, mentre Fastweb utilizza la rete Open Fiber dopo che quest'ultima ha incorporato Metroweb (di cui Fastweb era principale sostenitrice).

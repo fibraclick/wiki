@@ -1,13 +1,13 @@
 ---
 title: "Cos'è il piano BUL"
 date: 2019-03-24
-lastmod: 2019-03-28
+lastmod: 2019-04-05
 authors: [Matteo]
 description: "Il piano BUL è un progetto avviato nel 2015 per portare la banda ultralarga in tutte le case italiane. Com'è nato e come si è evolto il piano pubblico."
 categories: [Definizioni, Copertura]
 ---
 
-La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo Renzi nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1]
+La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo Renzi nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1][^1b]
 
 Il piano si divide in due fasi, con l'intento di raggiungere gli obiettivi della Commissione Europa fissati per il 2020 e successivamente quelli per il 2025.
 
@@ -102,12 +102,23 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
  - 4% di copertura FTTH facoltativa (>100 Mbps)
  - 8% di copertura FWA facoltativa (>30 Mbps)
  - 1% non coperto
+
+{{% fig src="/images/bando1.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" %}}
+
 - **Secondo bando**[^7]
- - 74% di copertura FTTH (>100 Mbps)
- - 26% di copertura FWA (>30 Mbps)
+ - 75% di copertura FTTH (>100 Mbps)
+ - 8% di copertura FWA (>30 Mbps)
+ - 16% di copertura FWA facoltativa (>30 Mbps)
+ - 1% non coperto
+
+{{% fig src="/images/bando2.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" %}}
+
 - **Terzo bando**[^8]
  - 70% di copertura FTTH (>100 Mbps)
  - 30% di copertura FWA (>30 Mbps)
+ - (dati precisi non ancora disponibili)
+
+Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a pagina 10.
 
 {{% info %}}
 Vedi anche:
@@ -122,11 +133,13 @@ Per via dei numerosi ricorsi e della lentezza nell'organizzazione, la copertura 
 
 Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri durante il 2018, con l'obiettivo di aprirne altri 2000 entro la fine del 2019.[^10][^11]
 
-Si noti che i comuni interessati dal bando sono poco più di 7000, e frequentemente ciascuno di questi ha più di un cantiere (FTTH e FWA).
+Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dal bando.[^interrogazione]
 
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
-Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Alcune voci riportano che **la vendibilità** dei comuni con infrastruttura completata e collaudata **sarà aperta durante l'estate del 2019**.
+Open Fiber è un operatore che offre la sua rete **all'ingrosso** agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica.
+
+Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
 
 ## Le consultazioni Infratel
 
@@ -183,6 +196,7 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 {{% /info %}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/
+[^1b]: https://www.agid.gov.it/sites/default/files/repository_files/documentazione/bul_4_marzodef_0.pdf
 [^2]: Gli obiettivi sono contenuti nel documento che descrive il piano *Agenda Digitale 2020*. Tra le varie cose, prevedeva anche che ogni Stato europeo presentasse entro il 2012 un piano di interventi per raggiungere gli obiettivi. Molti Stati europei, Italia inclusa, hanno presentato il piano con anni di ritardo. https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0245:FIN:EN:PDF
 [^3]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/it/
 [^4]: http://bandaultralarga.italia.it/piano-bul/obiettivi/
@@ -195,5 +209,8 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^11]: https://www.tomshw.it/altro/infratel-e-open-fiber-2000-cantieri-fibra-aperti-nel-2019-per-il-grande-progetto-bul/
 [^12]: https://www.telecomitalia.com/tit/it/notiziariotecnico/edizioni-2016/n-2-2016/capitolo-3/approfondimenti-2.html
 [^13]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
+[^camera]: http://www.camera.it/temiap/documentazione/temi/pdf/1104721.pdf
+[^interrogazione]: http://www.astrid-online.it/static/upload/inte/interrogazione-5_00895-e-testo-della-risposta.pdf
+[^crescita]: http://www.crescitadigitaleincomune.it/wp-content/uploads/package_uploads/Webinar_Infratel/Presentazione%20Cudia.pdf
 
 {{< footer >}}
