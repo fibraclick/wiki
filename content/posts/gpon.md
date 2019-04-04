@@ -69,13 +69,13 @@ Infine, all'interno delle UI è presente una **borchia ottica e un ONT**, cioè 
 
 ## GPON in Italia
 
-In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber e Flash Fiber (TIM+Fastweb)**, e sono entrambe **realizzate utilizzando GPON**.
+In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber e Flash Fiber (TIM+Fastweb)**, e sono entrambe **realizzate utilizzando GPON** come tecnologia.
 
 ### Open Fiber
 
-Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati e pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "bul.md" >}}).
+Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "bul.md" >}}).
 
-Nelle aree a investimento privato l'infrastruttura prevede dei POP posizionati sul territorio, nei quali sono presenti gli OLT degli operatori. **Il fattore di splitting per ciascuna porta è di 1:64**, ed è effettuato in due diversi livelli tramite i *PFP* (_**P**unto di **F**lessibilità **P**rimario_) e i *PFS* (_**P**unto di **F**lessibilità **S**econdario_).[^ofglossario] I ROE di Open Fiber sono solitamente chiamati **PTE** e non svolgono mai la funzione di splitting ma soltanto di raccordo.
+Nelle aree a investimento privato l'infrastruttura prevede dei POP (_**P**oint **O**f **P**resence_) posizionati sul territorio, nei quali sono presenti gli OLT degli operatori. **Il fattore di splitting per ciascuna porta è 1:64**, e lo splitting è effettuato in due diversi livelli tramite i *PFP* (_**P**unto di **F**lessibilità **P**rimario_) e i *PFS* (_**P**unto di **F**lessibilità **S**econdario_).[^ofglossario] I ROE di Open Fiber vengono frequentemente chiamati **PTE** e non svolgono mai la funzione di splitting ma soltanto di raccordo.
 
 Nelle aree a investimento pubblico (aree bianche), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON. Il livello di splitting è soltanto uno ed è effettuato nel CNO (_**C**entro **N**odale **O**ttico_).[^ofinfratel]
 
@@ -91,8 +91,10 @@ In questo caso, gli OLT di TIM e Fastweb si trovano nelle **centrali TIM**, e **
 
 Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro interno vengono effettuati separatamente gli splitting per TIM e per Fastweb. Solitamente quindi un ROE Flash Fiber ha una capacità di 8 linee per TIM e 8 linee per Fastweb.
 
+Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT e creare i propri alberi GPON, ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA.
+
 {{% info %}}
-Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}).
+Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
 {{% /info %}}
 
 [^standard]: https://www.itu.int/rec/T-REC-G.984.1
