@@ -1,7 +1,7 @@
 ---
 title: "Cos'è e come funziona GPON"
 date: 2019-04-04
-lastmod: 2019-04-04
+lastmod: 2019-04-05
 authors: [Matteo]
 description: "Una panoramica sul funzionamento e sugli elementi di una rete GPON, tecnologia che permette di realizzare reti passive in fibra ottica per infrastrutture FTTH."
 categories: [Definizioni, FTTH]
@@ -80,7 +80,9 @@ Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Poi
 - **l'operatore installa i propri OLT nel POP**. Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
 - **Open Fiber offre gli OLT**. Si tratta in questo caso di *Open Stream* e la consegna del traffico all'operatore avviene tramite un apposito kit Ethernet all'interno nel POP.[^ofopenstream]
 
- **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] I ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di Terminazione di Edificio*) e non svolgono mai la funzione di splitting ma soltanto di raccordo.
+**Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi FTTC.
+
+Infine, i ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di Terminazione di Edificio*) e non svolgono mai la funzione di splitting ma soltanto di raccordo.
 
 Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON.
 
