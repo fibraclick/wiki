@@ -15,9 +15,9 @@ Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25
 
 {{% fig src="/images/pon.png" caption="Differenze tra gli standard PON. Fonte: Open Fiber." alt="GPON: 2,5 Gigabit in download e 1,25 Gigabit in upload. XG-PON: 10 Gigabit in download e 2,5 Gigabit in upload. XGS-PON: 10 Gigabit in download e 10 Gigabit in upload. NG-PON2: 40 Gigabit in download e 2,5 Gigabit in upload" %}}
 
-La caratteristica fondamentale che rende GPON la soluzione più frequentemente adottata per la FTTH è il fatto che **la rete ottica è passiva**, e cioè che tra i due estremi della rete (centrale e abitazioni) non sono presenti punti alimentati.
+La caratteristica fondamentale che rende GPON la soluzione più frequentemente adottata per la FTTH è il fatto che **la rete ottica è passiva**, e cioè che tra i due estremi della rete (centrale e abitazioni) non sono presenti punti alimentati. Questo è un importante vantaggio della tecnologia, perché riduce i costi e la possibilità di guasti. In una città di grande dimensioni coperta in FTTC sono presenti centinaia di apparati attivi (ONU) sparsi sulle strade, mentre in FTTH-GPON soltanto le centrali/POP devono essere alimentati.
 
-GPON è la tecnologia attualmente utilizzata in Italia per realizzare reti FTTH.
+**GPON è la tecnologia attualmente utilizzata in Italia per realizzare reti FTTH.**
 
 I contenuti di questa pagina:
 

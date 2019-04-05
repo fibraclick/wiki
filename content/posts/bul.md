@@ -137,7 +137,9 @@ Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun co
 
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
-Open Fiber è un operatore che offre la sua rete **all'ingrosso** agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica.
+{{% warn %}}
+⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica.
+{{% /warn %}}
 
 Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
 
