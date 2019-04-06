@@ -1,7 +1,7 @@
 ---
 title: "Cos'è e cosa fa Flash Fiber"
 date: 2019-04-05
-lastmod: 2019-04-05
+lastmod: 2019-04-06
 authors: [Matteo]
 description: "Flash Fiber è la joint venture di TIM e Fastweb per la copertura in FTTH delle principali città italiane. Tutte le informazioni sulla copertura e le caratteristiche tecniche della rete."
 categories: [Definizioni, Copertura, FTTH]
@@ -49,11 +49,13 @@ Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livell
 
 Va tenuto presente il fatto che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture di TIM e Fastweb**. Ad esempio, ad un ROE Flash Fiber arriva la fibra ottica sia di TIM che di Fastweb, e viene quindi effettuato uno splitting indipendente per ciascun operatore (1:8 a testa). Anche gli OLT in centrale sono separati per i due operatori.
 
-{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
 
-{{% fig src="/images/roe-ff2.jpg" caption="ROE Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un ROE legata a un palo della rete TIM" vertical="true" %}}
+{{% fig src="/images/roe-ff2.jpg" caption="ROE Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un ROE legata a un palo della rete TIM" %}}
 
-{{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" vertical="true" %}}
+{{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" %}}
+
+{{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
 
 [^ff1]: https://www.flashfiber.it/chi-siamo/lazienda/
 [^ff2]: https://www.flashfiber.it/chi-siamo/

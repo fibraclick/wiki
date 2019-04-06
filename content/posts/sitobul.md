@@ -1,7 +1,7 @@
 ---
 title: "Come controllare la presenza di intervento pubblico o privato"
 date: 2019-03-26
-lastmod: 2019-03-29
+lastmod: 2019-04-06
 authors: [Matteo]
 description: "Il sito BUL del Governo italiano permette di controllare le prospettive future per la banda ultralarga al propio indirizzo di casa. Ecco come si interpreta."
 categories: [Copertura, FTTH, FWA, FTTC]
@@ -140,6 +140,8 @@ Indica la presenza di **tre infrastrutture FTTH**, con una velocità che può an
 Si tratta frequentemente di copertura **Flash Fiber**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+
+{{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
 
 {{% warn %}}
 ⚠ Flash Fiber è presente in 29 città italiane, in cui non compare però la città di Milano. **A Milano Flash Fiber non è presente**: TIM ha la sua rete FTTH, mentre Fastweb utilizza la rete Open Fiber dopo che quest'ultima ha incorporato Metroweb (di cui Fastweb era principale sostenitrice).
