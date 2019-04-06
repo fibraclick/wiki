@@ -77,8 +77,8 @@ Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seco
 
 Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete Open Fiber possono scegliere principalmente due modalità:
 
-- **l'operatore installa i propri OLT nel POP**. Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
-- **Open Fiber offre gli OLT**. Si tratta in questo caso di *Open Stream* e la consegna del traffico all'operatore avviene tramite un apposito kit Ethernet all'interno nel POP.[^ofopenstream]
+- **l'operatore installa i propri OLT nel POP** e Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
+- **Open Fiber offre gli OLT** e si tratta in questo caso di FTTH *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante.[^ofopenstream]
 
 **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi FTTC.
 
