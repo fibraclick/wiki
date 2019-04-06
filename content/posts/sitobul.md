@@ -59,6 +59,8 @@ Significa che l'indirizzo sarà coperto **in FTTH** tramite il [piano BUL]({{< r
 
 La copertura sarà coordinata da Infratel e **realizzata da Open Fiber**, l’azienda specializzata in reti in fibra ottica che ha vinto i tre bandi pubblici del piano BUL 2015-2020.
 
+{{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca che sarà coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
+
 {{% info %}}
 Consulta [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}) e [Cos'è il piano BUL]({{< relref "bul.md" >}}) per approfondimenti.
 {{% /info %}}
@@ -87,6 +89,8 @@ Nella pratica, la presenza di un operatore indica sostanzialmente sempre **TIM c
 In rari casi l'operatore può essere un operatore locale che investe in FTTC SLU (ad esempio Planetel). Si tratta, sintetizzando, di una rete proprietaria indipendente da TIM ad eccezione della tratta secondaria in rame tra armadio ripartilinea e abitazioni. Le prestazioni sono quasi identiche rispetto a un eventuale copertura TIM con la stessa architettura e tecnologia.
 
 **Gli operatori wireless (ad esempio Eolo e Linkem) non sono contati come operatore a 30 Mbps** (e nemmeno 100 Mbps).
+
+{{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
 
 {{% info %}}
 Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "architetture.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
@@ -135,10 +139,14 @@ Indica la presenza di **tre infrastrutture FTTH**, con una velocità che può an
 
 Si tratta frequentemente di copertura **Flash Fiber**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
 
+{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+
 {{% warn %}}
 ⚠ Flash Fiber è presente in 29 città italiane, in cui non compare però la città di Milano. **A Milano Flash Fiber non è presente**: TIM ha la sua rete FTTH, mentre Fastweb utilizza la rete Open Fiber dopo che quest'ultima ha incorporato Metroweb (di cui Fastweb era principale sostenitrice).
 
 Se per un indirizzo di Milano risultano tre operatori, è molto probabile che si tratti di Open Fiber e TIM, mentre **il terzo operatore si ipotizza possa essere l'infrastruttura Metroweb. La stessa situazione potrebbe ripetersi in altre città con copertura Metroweb.**
+
+{{% fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a Irenicusss per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" %}}
 {{% /warn %}}
 
 {{% info %}}

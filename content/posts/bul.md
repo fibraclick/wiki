@@ -67,6 +67,10 @@ Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 La questione è approfondita qua sotto quando si parla di consultazioni, aree e cluster 👇
 {{% /warn %}}
 
+{{% fig src="/images/mappabul1.jpg" caption="La copertura >30 Mbps (FTTC) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >30 Mbps al 2020 è 48,9%" %}}
+
+{{% fig src="/images/mappabul2.jpg" caption="La copertura >100 Mbps (FTTH) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >100 Mbps al 2020 è 50,7%" %}}
+
 ## I bandi pubblici
 
 La realizzazione della rete pubblica è stata affidata tramite tre bandi pubblici all'azienda **Open Fiber**, controllata al 50% da Enel e al 50% da Cassa Depositi Prestiti (CDP). Open Fiber avrà in concessione la rete per i prossimi vent'anni, e sarà responsabile anche della sua manutenzione.
@@ -138,10 +142,12 @@ Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun co
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
 {{% warn %}}
-⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica.
+⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica. Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
 {{% /warn %}}
 
 Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
+
+{{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
 
 ## Le consultazioni Infratel
 

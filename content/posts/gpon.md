@@ -102,7 +102,9 @@ In questo caso, gli OLT di TIM e Fastweb si trovano nelle **centrali TIM**, e **
 
 Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro interno vengono effettuati separatamente gli splitting per TIM e per Fastweb. Solitamente quindi un ROE Flash Fiber ha una capacità di 8 linee per TIM e 8 linee per Fastweb.
 
-Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in Open Stream consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, in VULA il kit prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.
+{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+
+Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in Open Stream consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, in VULA il kit prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.[^vula]
 
 {{% info %}}
 Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
@@ -114,5 +116,6 @@ Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}) e [Cos
 [^offibraspenta]: https://openfiber.it/it/fibra-ottica/area-infratel/servizi-infratel/gpon-ftth-passiva
 [^ofopenstream]: https://openfiber.it/it/fibra-ottica/area-infratel/servizi-infratel/open-stream-ftth
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
+[^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
 
 {{< footer >}}

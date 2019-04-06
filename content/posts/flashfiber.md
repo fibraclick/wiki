@@ -13,6 +13,10 @@ Flash Fiber non è un operatore di vendita al dettaglio, e cioè non vende abbon
 
 La lista delle 29 città in corso di copertura è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
 
+{{% warn %}}
+⚠ **Nella città di Milano non è presente Flash Fiber**, ma ci sono invece separatamente le infrastrutture **TIM** (dai tempi di Telecom Italia) e **Metroweb**. Metroweb ha realizzato per quasi 20 anni la rete FTTH utilizzata da Fastweb, per poi essere fusa con Open Fiber. Oggi, Fastweb continua ad utilizzare e attivare sulla ex rete Metroweb.
+{{% /warn %}}
+
 {{< toc >}}
 
 ## Lavori di copertura
