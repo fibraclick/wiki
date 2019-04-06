@@ -84,6 +84,12 @@ Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Poi
 
 Infine, i ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di Terminazione di Edificio*) e non svolgono mai la funzione di splitting ma soltanto di raccordo.
 
+{{% green %}}
+###### La rete Metroweb
+
+Quando **Open Fiber è nata, nel 2016, ha incorporato la rete Metroweb** realizzata nel decennio precedente a Milano e in poche altre città italiane. Anche la rete Metroweb prevede due livelli di splitting, ma uno dei due avviene direttamente nel ROE, come nel caso di Flash Fiber.
+{{% /green %}}
+
 Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON.
 
 Come conseguenza, il livello di splitting è soltanto uno ed è effettuato nel CNO (**Centro Nodale Ottico**), collegato a un **PCN** (*Punto di Consegna Neutro*), che è l'equivalente del POP ma è quasi sempre condiviso tra più comuni.[^offibraspenta][^pcn]
@@ -104,7 +110,7 @@ Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro 
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
 
-Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in Open Stream consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, in VULA il kit prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.[^vula]
+Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in *Open Stream* consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, con TIM il kit VULA prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.[^vula]
 
 {{% info %}}
 Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
