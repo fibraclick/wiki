@@ -159,7 +159,7 @@ Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diven
 ###### Per approfondire i temi di questa pagina:
 
 - [Cos'è la VDSL]({{< relref "vdsl.md" >}})
-- [Cos'è e come funziona la GPON]({{< relref "gpon.md" >}})
+- [Cos'è e come funziona GPON]({{< relref "gpon.md" >}})
 - [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
 - [Cos'è la diafonia]({{< relref "diafonia.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}})

@@ -35,7 +35,7 @@ Si distinguono ora ulteriori casi, in base alla scritta che vedi sul sito.
 Decifrare l'intervento pubblico non è sempre facile. Se hai bisogno di aiuto, chiedi pure sul [forum di FibraClick](https://forum.fibra.click) e ti aiuteremo.
 {{% /green %}}
 
-{{% fig src="/images/sitobul1.png" caption="Intervento pubblico 30/100 Mbps" alt="Scritta bianca su sfondo blu che dice intervento pubblico 30 o 100 Mbps" %}}
+{{% fig src="/images/sitobul1.png" caption="Intervento pubblico 30 / 100 Mbps" alt="Scritta bianca su sfondo blu che dice intervento pubblico 30 o 100 Mbps" %}}
 
 Significa che l'indirizzo sarà coperto nell'ambito del piano BUL 2015-2020, ma non è ancora stata stabilita la tecnologia che verrà utilizzata per la copertura. Nell'ambito del piano, **con 30 Mbps si intende copertura wireless (FWA), mentre con 100 Mbps FTTH** fino a 1 Gbps.
 

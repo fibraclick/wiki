@@ -9,19 +9,19 @@ categories: [Definizioni, Copertura, FTTH]
 
 **Flash Fiber** è un'azienda partecipata all'**80% da TIM e al 20% da Fastweb**, nata nel 2016 con l'obiettivo di realizzare o completare reti in [FTTH]({{< relref "architetture.md" >}}) in **29 città italiane entro il 2020**.[^ff1][^ff2]
 
-Flash Fiber non è un operatore di vendita al dettaglio, e cioè non vende abbonamenti direttamente ai clienti. Bisogna invece rivolgersi a TIM, Fastweb o altri operatori che rivendono la rete per poter attivare una linea FTTH Flash Fiber.
+Flash Fiber è un operatore *wholesale-only*, e cioè di vendita all'ingrosso. Per poter attivare una linea su rete Flash Fiber bisogna quindi rivolgersi a un operatore al dettaglio come TIM, Fastweb o altri operatori che ne rivendono la rete.
 
 La lista delle 29 città in corso di copertura è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
 
 {{% warn %}}
-⚠ **Nella città di Milano non è presente Flash Fiber**, ma ci sono invece separatamente le infrastrutture **TIM** (dai tempi di Telecom Italia) e **Metroweb**. Metroweb ha realizzato per quasi 20 anni la rete FTTH utilizzata da Fastweb, per poi essere fusa con Open Fiber. Oggi, Fastweb continua ad utilizzare e attivare sulla ex rete Metroweb.
+⚠ **Nella città di Milano Flash Fiber non è presente**, ma esistono invece le infrastrutture separate di **TIM** (dai tempi di Telecom Italia) e **Metroweb**. Metroweb ha realizzato per quasi 20 anni la rete FTTH utilizzata da Fastweb, per poi essere fusa con Open Fiber. Oggi, Fastweb continua a utilizzare e ad attivare utenze sulla ex rete Metroweb.
 {{% /warn %}}
 
 {{< toc >}}
 
 ## Lavori di copertura
 
-La copertura prevede l'**installazione di un ROE** (_Ripartitore Ottico di Edificio_), una scatola che viene montata o nel locale contatori del palazzo o su una parete esterna.
+La copertura FTTH prevede l'**installazione di un ROE** (_Ripartitore Ottico di Edificio_), una scatola che viene montata nel locale contatori del palazzo o su una parete esterna dell'edificio.
 
 Nel caso di un condominio, Flash Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^legge]
 
@@ -31,11 +31,13 @@ Nel caso di un condominio, Flash Fiber chiederà l'autorizzazione per procedere 
 
 Salvo imprevisti, dopo circa 2-3 mesi dall'installazione del ROE il numero civico risulterà come coperto sulla [pagina di verifica copertura](https://www.flashfiber.it/copertura/) del sito Flash Fiber.[^ff4]
 
-Si può procedere quindi al controllo anche sui siti TIM, Fastweb e Tiscali, che è l'unico operatore nazionale che rivende la rete Flash Fiber. In particolare:
+Si può procedere quindi al controllo anche sui siti **TIM, Fastweb e Tiscali**. Quest'ultimo è l'unico operatore nazionale che rivende la rete Flash Fiber.
 
-- per **TIM**, conviene prima controllare se la FTTH risulta pianificata/attiva sul sito [Fibermap.it](https://fibermap.it). Se non è indicata come "disponibile" o "a breve", significa che bisogna attendere. Si può restare in questa fase anche per mesi o talvolta anni. La pagina di verifica copertura di TIM si trova [qua](https://www.tim.it/verifica-copertura), ma in caso negativo conviene fare un controllo anche sul sito [TIM Business](https://timbusiness.it/), per escludere bug del sito TIM che ogni tanto "capitano"
+In particolare:
+
+- per **TIM**, conviene prima verificare se la FTTH risulta pianificata/attiva sul sito [Fibermap.it](https://fibermap.it). Se non è indicata come "disponibile" o "a breve", significa che bisogna attendere. Si può restare in questa fase anche per mesi o talvolta anni. La pagina di verifica copertura di TIM si trova [qua](https://www.tim.it/verifica-copertura), ma in caso di esito negativo è consigliabile fare un controllo anche sul sito [TIM Business](https://timbusiness.it/), per escludere bug del sito TIM, che ogni tanto "capitano"
 - per **Fastweb**, si può verificare la copertura [sul sito ufficiale](https://www.fastweb.it/) nelle pagine delle offerte
-- per **Tiscali**, la copertura è disponibile su rete TIM (nelle centrali abilitate al VULA) oppure su rete Fastweb.[^forum]
+- per **Tiscali**, la copertura è disponibile sia su rete TIM (nelle centrali abilitate al VULA) che su rete Fastweb.[^forum] La copertura si verifica [sul sito ufficiale](https://casa.tiscali.it/)
 
 ## Tecnologia
 
@@ -45,9 +47,9 @@ La rete FTTH di Flash Fiber è realizzata esclusivamente utilizzando la **tecnol
 Se non conosci la terminologia della GPON, visita la pagina [Cos'è e come funziona GPON]({{< relref "gpon.md" >}}).
 {{% /info %}}
 
-Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livelli: il primo in un **CNO** (_Centro Nodale Ottico_), solitamente dislocato in prossimità degli armadi ripartilinea di TIM, mentre il secondo nel **ROE**. Il fattore di splitting in entrambi i casi è di 1:8, per un **fattore complessivo di 1:64** per albero.
+Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livelli: il primo in un **CNO** (_Centro Nodale Ottico_), solitamente dislocato in prossimità degli armadi ripartilinea di TIM, mentre il secondo nel **ROE**, posizionato in prossimità dell'edificio da cablare. In genere, il fattore di splitting è in entrambi i casi di 1:8, per un **fattore complessivo di 1:64** per albero.
 
-Va tenuto presente il fatto che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture di TIM e Fastweb**. Ad esempio, ad un ROE Flash Fiber arriva la fibra ottica sia di TIM che di Fastweb, e viene quindi effettuato uno splitting indipendente per ciascun operatore (1:8 a testa). Anche gli OLT in centrale sono separati per i due operatori.
+Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture TIM e Fastweb**. Una delle conseguenze è che nei punti di splitting di Flash Fiber (ad esempio nei ROE) entra la fibra ottica sia di TIM che di Fastweb, e lo splitting avviene indipendentemente per ciascun operatore (fattore di 1:8 per operatore). Anche gli OLT in centrale sono separati per i due operatori.
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
 
