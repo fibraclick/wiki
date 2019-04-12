@@ -31,6 +31,10 @@ Con **intervento pubblico** si intende la copertura a banda larga ottenuta trami
 
 Le risorse per questi interventi sono molto spesso ottenute tramite i fondi SIE, cioè fondi strutturali e di investimento messi a disposizione degli Stati e delle regioni dalla Commissione Europea, l'organo esecutivo dell'Unione Europea.
 
+{{% green %}}
+Per questioni legate alla normativa sugli **aiuti di Stato**, l'intervento pubblico deve essere **limitato e non danneggiare la concorrenza privata**. Per questo motivo può riguardare solo le aree svantaggiate del paese, cioè quelle in cui il mercato non è in grado di fornire livelli di servizio definiti accettabili.
+{{% /green %}}
+
 Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 
 - **investimento diretto**: le infrastrutture realizzate sono di **proprietà dello Stato** o di una sua azienda (es. Infratel), che ne detiene il controllo. Le reti a investimento diretto sono a disposizione di tutti gli operatori tramite **vendità all'ingrosso**
@@ -39,7 +43,7 @@ Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 
 **In Italia, a partire dal 2015 si utilizza a livello nazionale il modello di investimento diretto.**
 
-Il piano BUL 2015-2020 prevede infatti la realizzazione di una imponente rete pubblica in più di 7000 comuni (25% della popolazione), che è e resterà di proprietà dello Stato. La rete è data in concessione per un periodo di tempo limitato a una azienda privata, che ne gestirà l'operatività pratica.
+Il piano BUL 2015-2020 prevede infatti di coprire circa il 25% della popolazione con la realizzazione di una imponente rete pubblica in tutte le aree a fallimento di mercato. La rete realizzata è e resterà di proprietà dello Stato, ma sarà data in concessione per un periodo di tempo limitato a una azienda privata, che ne gestirà l'operatività pratica.
 
 {{% info %}}
 Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "bul.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}), l'azienda vincitrice degli appalti per la realizzazione di una rete pubblica nell'ambito del piano BUL 2015-2020.
