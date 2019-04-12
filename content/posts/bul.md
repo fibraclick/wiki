@@ -1,7 +1,7 @@
 ---
 title: "Cos'è il piano BUL"
 date: 2019-03-24
-lastmod: 2019-04-05
+lastmod: 2019-04-12
 authors: [Matteo]
 description: "Il piano BUL è un progetto avviato nel 2015 per portare la banda ultralarga in tutte le case italiane. Com'è nato e come si è evolto il piano pubblico."
 categories: [Definizioni, Copertura]
@@ -166,7 +166,7 @@ I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come co
 {{% /info %}}
 
 {{% green %}}
-Quando si parla di area, non si intende territorio comunale. Ogni comune può essere suddiviso in più aree, in modo da distinguere tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
+Quando si parla di area, non si intende l'intero territorio di un comune. Ogni comune può essere suddiviso in più aree, in modo da distinguere ad esempio tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
 {{% /green %}}
 
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato in materia di banda ultralarga**. Hanno tuttavia un difetto, quello di considerare il numero di infrastrutture presenti ma non il livello di qualità offerto.

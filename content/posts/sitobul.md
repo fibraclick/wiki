@@ -1,7 +1,7 @@
 ---
 title: "Come controllare la presenza di intervento pubblico o privato"
 date: 2019-03-26
-lastmod: 2019-04-06
+lastmod: 2019-04-12
 authors: [Matteo]
 description: "Il sito BUL del Governo italiano permette di controllare le prospettive future per la banda ultralarga al propio indirizzo di casa. Ecco come si interpreta."
 categories: [Copertura, FTTH, FWA, FTTC]
@@ -11,7 +11,7 @@ Il sito **Banda Ultralarga** del Governo italiano permette di verificare indiriz
 
 I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, che hanno lo scopo di identificare le cosiddette aree bianche o a fallimento di mercato. Gli interventi pubblici dello Stato mirati alla riduzione del digital divide si basano sui risultati delle consultazioni.
 
-Puoi inserire il tuo indirizzo di casa su [questa pagina](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per decifrarne il risultato.
+Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per decifrarne il risultato.
 
 {{< toc >}}
 
@@ -25,8 +25,6 @@ Consulta [Cos'è il piano BUL]({{< relref "bul.md" >}}) per un approfondimento d
 
 {{% warn %}}
 ⚠ I bandi pubblici prevedono a volte una percentuale di **copertura facoltativa**, che viene decisa in fase di progettazione della rete. Purtroppo non è chiaro se e come il sito BUL gestisca questi casi, e bisogna quindi evitare di prendere le informazioni come una certezza assoluta.
-
-⚠ Va notato anche che per alcune regioni il sito BUL indica come intervento pubblico anche interventi separati rispetto al piano BUL 2015-2020, in particolare quelli effettuati da TIM per coprire in FTTC con fondi pubblici.
 {{% /warn %}}
 
 Si distinguono ora ulteriori casi, in base alla scritta che vedi sul sito.
@@ -130,7 +128,7 @@ Vedi anche le pagine [Open Fiber]({{< relref "openfiber.md" >}}) e [Flash Fiber]
 Puoi verificare la presenza effettiva di un operatore utilizzando i siti web ufficiali, oppure cercando gli apparati per la FTTH sui muri esterni dell'edificio o nel locale contatori/TIM.
 
 {{% warn %}}
-⚠ Esistono anche dei casi in cui **un operatore può aver dichiarato la presenza dell'infrastruttura con molto anticipo (anche di anni)**. In questi casi purtroppo non è possibile sapere qual è l'operatore né richiedere maggiori informazioni sullo stato della copertura.
+⚠ Esistono dei casi in cui **un operatore può aver dichiarato la presenza dell'infrastruttura con molto anticipo (anche di anni)**. In questi casi purtroppo non è possibile sapere qual è l'operatore, né richiedere maggiori informazioni sullo stato della copertura.
 {{% /warn %}}
 
 {{% fig src="/images/sitobul7.png" caption="Intervento privato 100 Mbps, tre operatori" alt="Schema che dice intervento privato 100 Mbps con tre operatori" %}}

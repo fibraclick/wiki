@@ -1,7 +1,7 @@
 ---
 title: Cosa significano FTTC, FTTS, FTTE, FTTH e FWA
 date: 2019-03-22
-lastmod: 2019-03-28
+lastmod: 2019-04-12
 authors: [Matteo]
 description: Il significato in dettaglio delle sigle FTTC, FTTE, FTTH, FTTS e FWA, usate per indicare diversi tipi di architetture di rete
 categories: [Definizioni, FTTC, FTTH, FWA]
@@ -87,7 +87,7 @@ In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, princip
 [^6]: https://rete.gruppotim.it/it/numeri/italia/2018/fibra
 [^7]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/en/
 
-A marzo 2019 TIM dichiara di coprire 2714 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
+Ad aprile 2019 TIM dichiara di coprire 2719 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
 
 [^8]: https://www.tim.it/verifica-copertura
 [^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
