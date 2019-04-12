@@ -1,7 +1,7 @@
 ---
 title: "La consultazione Infratel 2019"
 date: 2019-04-04
-lastmod: 2019-04-04
+lastmod: 2019-04-12
 authors: [Matteo]
 description: "Infratel, l'azienda pubblica controllata dal MiSE, ha avviato nel 2019 il monitoraggio delle aree nere e grigie del Paese, per pianificare interventi futuri di miglioramento delle connessioni a Internet in aree con scarsi investimenti."
 categories: [Copertura]
@@ -42,7 +42,7 @@ Per quanto riguarda i dati già raccolti (punto primo) si tratta quindi di confe
 
 Nel momento in cui questo articolo è stato aggiornato, i dati del monitoraggio, terminato il 15 marzo 2019, non sono ancora stati pubblicati sul [sito BUL](https://bandaultralarga.italia.it).
 
-Non si esclude, inoltre, che i dati aggiornati possano servire per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni del cluster B.
+I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni del cluster B (FTTC).
 
 {{% info %}}
 Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "bul.md" >}}).
