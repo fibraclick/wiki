@@ -23,7 +23,11 @@ Gli operatori privati **concentrano gli investimenti nelle aree considerate remu
 Vedi anche [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md" >}}) per un approfondimento.
 {{% /info %}}
 
-**Un'azienda privata può ricevere anche fondi pubblici** dallo Stato o dalle regioni, per realizzare infrastrutture in aree a divario digitale, cioè le cosiddette aree bianche o a fallimento di mercato.
+**Un'azienda che investe privatamente può anche ricevere fondi pubblici** dallo Stato o dalle regioni, per realizzare infrastrutture in aree a divario digitale, cioè le cosiddette aree bianche o a fallimento di mercato.
+
+{{% green %}}
+È importante tenere presente che **nello stesso comune ci possono essere sia aree nere/grigie che bianche**. Infatti, in Italia sono state definite quasi 100mila aree per circa 8mila comuni. Ciò si traduce molto frequentemente nella presenza di intervento sia privato che pubblico nello stesso comune.
+{{% /green %}}
 
 ## Intervento pubblico
 

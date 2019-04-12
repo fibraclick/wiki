@@ -155,9 +155,9 @@ Come menzionato, la fase 1 del piano BUL ha l'obiettivo di ridurre il divario di
 
 A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tramite delle apposite **consultazioni pubbliche**. Le aree, aggiornate ogni circa due anni, si distinguono in:[^12]
 
-- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi
-- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga
-- **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni
+- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga di operatori diversi
+- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga
+- **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
 
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
 
