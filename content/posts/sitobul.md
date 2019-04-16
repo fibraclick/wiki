@@ -111,6 +111,8 @@ In Italia, **gli operatori che operano in SLU a livello nazionale sono Fastweb (
 
 Altri operatori locali, tra cui il caso notevole di Planetel, hanno realizzato infrastrutture SLU in qualche comune.
 
+{{% fig src="/images/slu.jpg" caption="Da sinistra, ONU SLU Fastweb, ONU SLU Vodafone, colonnina di alimentazione TIM, ARL e ONU TIM e due chiostrine TIM. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
+
 {{% info %}}
 Per approfondire, leggi [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "architetture.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
 {{% /info %}}
@@ -127,6 +129,8 @@ Vedi anche le pagine [Open Fiber]({{< relref "openfiber.md" >}}) e [Flash Fiber]
 
 Puoi verificare la presenza effettiva di un operatore utilizzando i siti web ufficiali, oppure cercando gli apparati per la FTTH sui muri esterni dell'edificio o nel locale contatori/TIM.
 
+{{% fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" %}}
+
 {{% warn %}}
 ⚠ Esistono dei casi in cui **un operatore può aver dichiarato la presenza dell'infrastruttura con molto anticipo (anche di anni)**. In questi casi purtroppo non è possibile sapere qual è l'operatore, né richiedere maggiori informazioni sullo stato della copertura.
 {{% /warn %}}
@@ -139,14 +143,14 @@ Si tratta frequentemente di copertura **Flash Fiber**, una **joint venture tra T
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
 
-{{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
+{{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a \"Augmentin\" per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
 
 {{% warn %}}
 ⚠ Flash Fiber è presente in 29 città italiane, in cui non compare però la città di Milano. **A Milano Flash Fiber non è presente**: TIM ha la sua rete FTTH, mentre Fastweb utilizza la rete Open Fiber dopo che quest'ultima ha incorporato Metroweb (di cui Fastweb era principale sostenitrice).
 
 Se per un indirizzo di Milano risultano tre operatori, è molto probabile che si tratti di Open Fiber e TIM, mentre **il terzo operatore si ipotizza possa essere l'infrastruttura Metroweb. La stessa situazione potrebbe ripetersi in altre città con copertura Metroweb.**
 
-{{% fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a Irenicusss per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" %}}
+{{% fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a \"Irenicusss\" per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" %}}
 {{% /warn %}}
 
 {{% info %}}
@@ -160,7 +164,9 @@ Significa che sono previste **quattro infrastrutture FTTH**, con una velocità c
 Indica in realtà molto spesso la presenza di due infrastrutture: **Open Fiber** e **Flash Fiber**. Quest'ultima è una **joint venture tra TIM e Fastweb**, e viene contatata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
 
 {{% info %}}
-Visita le pagine [Open Fiber]({{< relref "openfiber.md" >}}) e [Flash Fiber]({{ relref "flashiber.md" }}) per altre informazioni.
+Visita le pagine [Open Fiber]({{< relref "openfiber.md" >}}) e [Flash Fiber]({{< relref "flashfiber.md" >}}) per altre informazioni.
 {{% /info %}}
+
+{{% fig src="/images/roe-ff-of.jpg" caption="ROE Flash Fiber (in alto) e doppio ROE Open Fiber. Grazie a Luca Z. per la foto" alt="Tre scatole di ROE attaccate al muro di una casa" vertical="true" %}}
 
 {{< footer >}}

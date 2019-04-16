@@ -53,7 +53,9 @@ Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
 
-{{% fig src="/images/roe-ff2.jpg" caption="ROE Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un ROE legata a un palo della rete TIM" %}}
+{{% fig src="/images/roe-ff2.jpg" caption="CNO Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un CNO legata a un palo della rete TIM" %}}
+
+{{% fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" %}}
 
 {{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" %}}
 
