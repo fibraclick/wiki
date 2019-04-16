@@ -1,5 +1,6 @@
 ---
 title: "Cos'è e cosa fa Flash Fiber"
+slug: flashfiber
 date: 2019-04-05
 lastmod: 2019-04-06
 authors: [Matteo]

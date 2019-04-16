@@ -1,5 +1,6 @@
 ---
 title: "Come controllare la presenza di intervento pubblico o privato"
+slug: bul-verifica-per-indirizzo
 date: 2019-03-26
 lastmod: 2019-04-12
 authors: [Matteo]

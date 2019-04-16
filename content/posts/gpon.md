@@ -1,5 +1,6 @@
 ---
 title: "Cos'è e come funziona GPON"
+slug: gpon
 date: 2019-04-04
 lastmod: 2019-04-06
 authors: [Matteo]

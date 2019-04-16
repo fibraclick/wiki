@@ -1,5 +1,6 @@
 ---
 title: Cosa significano FTTC, FTTS, FTTE, FTTH e FWA
+slug: architetture
 date: 2019-03-22
 lastmod: 2019-04-12
 authors: [Matteo]

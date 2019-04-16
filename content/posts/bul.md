@@ -1,5 +1,6 @@
 ---
 title: "Cos'è il piano BUL"
+slug: piano-bul
 date: 2019-03-24
 lastmod: 2019-04-12
 authors: [Matteo]

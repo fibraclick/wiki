@@ -1,5 +1,6 @@
 ---
 title: "La consultazione Infratel 2019"
+slug: consultazione-2019
 date: 2019-04-04
 lastmod: 2019-04-12
 authors: [Matteo]

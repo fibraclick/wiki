@@ -1,5 +1,6 @@
 ---
 title: "Cosa cambia tra intervento pubblico e privato"
+slug: intervento-pubblico-privato
 date: 2019-04-12T11:36:57+02:00
 lastmod: 2019-04-12
 authors: [Matteo]
