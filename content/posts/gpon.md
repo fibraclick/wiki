@@ -44,6 +44,8 @@ Vedi la sezione *GPON in Italia* più in basso per i dettagli sui fattori di spl
 Da un OLT di proprietà dell'operatore esce un certo numero di fibre ottiche, e ciascuna di queste viene *splittata* in un numero di fibre ottiche determinato dal fattore di splitting. Ciascuna fibra risultante collega una linea Internet.
 {{% /green %}}
 
+{{% fig src="/images/gpon1.jpg" caption="Schema di una rete GPON FTTH. Fonte: Telecom Italia" %}}
+
 Nelle reti PON lo **splitting** della fibra ottica avviene **in modo passivo**, e cioè a livello fisico senza bisogno di apparati alimentati. I dispositivi che si occupano di effettuare lo splitting si chiamano **splitter ottici** (o *diramatori ottici*, in italiano).
 
 In una rete GPON ci possono essere diversi livelli di splitting, ma spesso sono due.
@@ -66,7 +68,11 @@ L'elemento GPON di interesse principale per le utenze finali è però il **ROE**
 
 Il ROE può opzionalmente agire da splitter, ma il suo scopo principale è quello di **dare flessibilità alla rete**. In assenza di splitting, in un ROE entra un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico), e ne escono altrettante, che andranno direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
 
+{{% fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" %}}
+
 Infine, all'interno delle UI è presente una **borchia ottica e un ONT**, cioè un dispositivo alimentato che demodula e decifra il segnale trasmesso sulla fibra ottica e lo converte in un segnale elettrico (uscita Ethernet), adatto per il collegamento a un router.
+
+{{% fig src="/images/cavo-fibra.jpg" caption="Cavo di fibra ottica per FTTH con connettore SC" vertical="true" %}}
 
 ## GPON in Italia
 
@@ -85,6 +91,8 @@ Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Poi
 
 Infine, i ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di Terminazione di Edificio*) e non svolgono mai la funzione di splitting ma soltanto di raccordo.
 
+{{% fig src="/images/gpon-of.jpg" caption="Infrastruttura di rete Open Fiber (cluster A). Fonte: Open Fiber" %}}
+
 {{% green %}}
 ###### La rete Metroweb
 
@@ -97,6 +105,10 @@ Come conseguenza, il livello di splitting è soltanto uno ed è effettuato nel C
 
 Un'altra differenza è l'uso dei **PTA** interrati (**Punto di Terminazione Avanzato**) in aggiunta ai **PTE**, per le aree a bassa densità.
 
+{{% fig src="/images/gpon-of-infratel.jpg" caption="Infrastruttura di rete Open Fiber nei cluster C e D (aree bianche). Fonte: Open Fiber" %}}
+
+{{% fig src="/images/gpon-of-infratel2.jpg" caption="Infrastruttura di rete Open Fiber nei cluster C e D. Esempio con comuni multipli connessi allo stesso PCN. Fonte: Open Fiber" %}}
+
 {{% info %}}
 Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
 {{% /info %}}
@@ -106,6 +118,8 @@ Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
 L'infrastruttura Flash Fiber è particolare, perché comprende in realtà due infrastrutture parzialmente distinte, quella di TIM e quella di Fastweb.
 
 In questo caso, gli OLT di TIM e Fastweb si trovano nelle **centrali TIM**, e **il fattore di splitting è 1:64**. I livelli di splitting sono due e avvengono rispettivamente in un **CNO** (*Centro Nodale Ottico*), posizionato indicativamente in prossimità degli armadi ripartilinea, e nei ROE. Per ciascuno dei due livelli di splitting si applica generalmente un fattore di 1:8 (8 x 8 = 64).
+
+{{% fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" %}}
 
 Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro interno vengono effettuati separatamente gli splitting per TIM e per Fastweb. Solitamente quindi un ROE Flash Fiber ha una capacità di 8 linee per TIM e 8 linee per Fastweb.
 
