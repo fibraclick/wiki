@@ -50,6 +50,8 @@ Se non conosci la terminologia della GPON, visita la pagina [Cos'è e come funzi
 
 Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livelli: il primo in un **CNO** (_Centro Nodale Ottico_), solitamente dislocato in prossimità degli armadi ripartilinea di TIM, mentre il secondo nel **ROE**, posizionato in prossimità dell'edificio da cablare. In genere, il fattore di splitting è in entrambi i casi di 1:8, per un **fattore complessivo di 1:64** per albero.
 
+{{% fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." %}}
+
 Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture TIM e Fastweb**. Una delle conseguenze è che nei punti di splitting di Flash Fiber (ad esempio nei ROE) entra la fibra ottica sia di TIM che di Fastweb, e lo splitting avviene indipendentemente per ciascun operatore (fattore di 1:8 per operatore). Anche gli OLT in centrale sono separati per i due operatori.
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
@@ -57,6 +59,8 @@ Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba
 {{% fig src="/images/roe-ff2.jpg" caption="CNO Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un CNO legata a un palo della rete TIM" %}}
 
 {{% fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" %}}
+
+{{% fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" %}}
 
 {{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" %}}
 
