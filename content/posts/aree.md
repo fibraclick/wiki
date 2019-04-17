@@ -19,12 +19,17 @@ In dettaglio, le aree si definiscono così[^lex]:
 - **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
 
 {{% green %}}
+###### Aree vs comuni
 Quando si parla di area, non si intende il territorio di un comune. Ogni comune può essere suddiviso in più aree, in modo da distinguere ad esempio tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
 {{% /green %}}
 
+È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "vula-slu-nga.md" >}}) dedicati, come nella foto che segue.
+
+{{% fig src="/images/slu.jpg" caption="Armadi per la FTTC di Fastweb, Vodafone e TIM. La zona coperta dagli armadi è un'area nera. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
+
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato in materia di banda larga e ultralarga**.
 
-In Italia la definizione delle aree è un compito che spetta a Infratel, l'azienda controllata dal Ministero dello Sviluppo Economico che ha l'obiettivo di incentivare lo sviluppo delle reti di accesso a Internet.
+In Italia la delimitazione delle aree è un compito che spetta a Infratel, l'azienda controllata dal Ministero dello Sviluppo Economico che ha l'obiettivo di incentivare lo sviluppo delle reti di accesso a Internet.
 
 Infratel aggiorna periodicamente una **mappatura delle aree** tramite delle apposite **consultazioni pubbliche**, a cui gli operatori possono rispondere dichiarando la copertura prevista per i prossimi tre anni.
 

@@ -22,21 +22,23 @@ I paragrafi che seguono approfondiscono singolarmente le architetture.
 
 {{< toc >}}
 
-{{% fig src="/images/architetture.jpg" caption="Architetture di rete TIM" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" %}}
+{{% fig src="/images/architetture.jpg" caption="Architetture di rete. Fonte: TIM" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" %}}
 
 ## FTTC (Fiber To The Cabinet)
 
-In un'architettura di rete FTTC, la fibra ottica arriva fino al cosiddetto *cabinet*, in italiano *armadio* (più precisamente *armadio ripartilinea*, **ARL**). In Italia l'armadio è lo stesso utilizzato per la rete telefonica e l'ADSL. Si trova su strada e ha lo scopo di connettere la tratta primaria (quella tra centrale e armadio) e la tratta secondaria (tra armadio e abitazioni).
+In un'architettura di rete FTTC, **la fibra ottica termina presso un armadio ripartilinea** (ARL), posizionato in media a poche centinaia di metri dalle abitazioni. L'ARL viene spesso chiamato semplicemente *armadio* o *cabinet*, e in Italia è lo stesso utilizzato per la rete telefonica e l'ADSL.
 
-Nel caso di reti telefoniche in rame, dall'armadio partono centinaia di coppie di cavi intrecciati (i doppini), una per ciascuna linea collegata.[^1]
+Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che collegano le abitazioni finali dei clienti. La tratta tra la centrale e l'armadio si definisce **tratta primaria**, mentre quella tra l'armadio e le abitazioni è la **tratta secondaria**.[^1]
 
 [^1]: pagina 5 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
+{{% fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" %}}
+
 {{% green %}}
-Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**.
+Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**. In FTTC la distanza conta molto, perché ad alte frequenze (alte velocità) il segnale elettrico si degrada rapidamente con la distanza.
 {{% /green %}}
 
-In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questo avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*).[^2] Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^3]
+In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*).[^2] Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^3]
 
 [^2]: pagina 3 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 [^3]: pagina 2 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo10.pdf
@@ -44,7 +46,7 @@ In corrispondenza dell'armadio deve essere effettuata la conversione del segnale
 {{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
 
 #### Perché adottare la FTTC
-Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della tratta secondaria in rame. Le tecnologie DSL infatti funzionano meglio su brevi distanze e permettono in combinazione con le alte frequenze di **raggiungere anche 100 o 200 Mbps in download** (VDSL2).[^4]
+Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della tratta secondaria in rame. Le tecnologie xDSL infatti funzionano meglio su brevi distanze e permettono in combinazione con le alte frequenze di **raggiungere anche 100 o 200 Mbps in download** (VDSL2).[^4]
 
 [^4]: Tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
 
@@ -68,9 +70,9 @@ Per approfondimenti, fare riferimento a [[A]](https://www.telecomitalia.com/tit/
 {{% /green %}}
 
 #### Perché la FTTC è criticata
-La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posata decine di anni fa. Di conseguenza, il degrado del rame spesso influisce anche in modo pesante sulla qualità della linea fibra mista rame.
+La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posata decine di anni fa. Di conseguenza, il **degrado del rame** spesso influisce anche in modo pesante sulla qualità della linea fibra mista rame.
 
-Inoltre, l'uso di alte frequenze genera tra i cavi in rame interferenze che non sono trascurabili come avveniva per l'ADSL. Il fenomeno della diafonia riduce infatti la velocità fino al 50%, in base al numero di linee VDSL interferenti.
+Inoltre, l'uso di alte frequenze genera tra i cavi delle interferenze, che non sono più trascurabili come avveniva per l'ADSL. Il fenomeno della **diafonia** può infatti ridurre la velocità della connessione anche del 50%, in base al numero di linee VDSL interferenti.
 
 {{% info %}}
 Vedi anche [Cos'è la diafonia]({{< relref "diafonia.md" >}}).
@@ -114,6 +116,8 @@ In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e
 
 [^11]: pagina 3 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
+{{% fig src="/images/architetture-ftte.png" caption="Architettura di rete FTTE con erogazione da centrale" %}}
+
 ## FTTH (Fiber To The Home)
 
 FTTH è l'architettura che prevede di portare la **fibra ottica fino a dentro le case**/appartamenti delle utenze.
@@ -125,6 +129,10 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 - può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona GPON]({{< relref "gpon.md" >}})).[^12]
 
 [^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
+
+{{% fig src="/images/architetture-ftth.png" caption="Schema generale di una rete FTTH. Le abitazioni sono collegate in fibra ottica" %}}
+
+{{% fig src="/images/architetture-ftth-gpon.png" caption="Schema avanzato di una rete FTTH GPON. Tra l'OLT e gli ONT sono presenti degli elementi passivi che fanno lo \"splitting\" della fibra ottica" %}}
 
 {{% green %}}
 ###### FTTB

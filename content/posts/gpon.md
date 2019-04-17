@@ -38,19 +38,13 @@ Per questo motivo, nella pratica il fattore di splitting non è quasi mai 128 ma
 Vedi la sezione *GPON in Italia* più in basso per i dettagli sui fattori di splitting usati in Italia.
 {{% /info %}}
 
-{{% green %}}
-###### Ricapitolando...
-
-Da un OLT di proprietà dell'operatore esce un certo numero di fibre ottiche, e ciascuna di queste viene *splittata* in un numero di fibre ottiche determinato dal fattore di splitting. Ciascuna fibra risultante collega una linea Internet.
-{{% /green %}}
-
-{{% fig src="/images/gpon1.jpg" caption="Schema di una rete GPON FTTH. Fonte: Telecom Italia" %}}
-
 Nelle reti PON lo **splitting** della fibra ottica avviene **in modo passivo**, e cioè a livello fisico senza bisogno di apparati alimentati. I dispositivi che si occupano di effettuare lo splitting si chiamano **splitter ottici** (o *diramatori ottici*, in italiano).
 
-In una rete GPON ci possono essere diversi livelli di splitting, ma spesso sono due.
+{{% fig src="/images/gpon1.png" caption="Schema di una rete GPON con fattore di splitting 1:16. Ogni fibra ottica in uscita dall'OLT realizza un albero. Lo splitter divide la fibra ottica in 16 fibre, ciascuna delle quali connette un ONT." %}}
 
-Ad esempio, Open Fiber in Italia applica due livelli di splitting, il primo presso un *PFP* (*Punto di Flessibilità Primario*) e il secondo presso un *PFS* (*Punto di Flessibilità Secondario*).[^ofglossario] Questi punti si possono trovare in armadi posizionati sulla strada oppure interrati o sospesi.
+In una rete GPON ci possono essere diversi livelli di splitting, ma spesso sono due. Questi punti si possono trovare in armadi posizionati sulla strada oppure interrati o sospesi.
+
+Per fare un esempio, Open Fiber in Italia applica due livelli di splitting, il primo presso un *PFP* (*Punto di Flessibilità Primario*) e il secondo presso un *PFS* (*Punto di Flessibilità Secondario*).[^ofglossario]
 
 {{% green %}}
 ###### Come funziona uno splitter ottico?
@@ -67,6 +61,8 @@ In direzione **upstream** (ONT -> OLT) lo splitter si occupa di **sommare i cont
 L'elemento GPON di interesse principale per le utenze finali è però il **ROE** (**Ripartitore Ottico di Edificio**), talvolta chiamato anche **PTE** (**Punto di Terminazione di Edificio**). Il ROE viene installato a pochi metri dalle abitazioni: molto spesso si trova nel locale contatori dell'edificio, ma può anche essere montato su una parete esterna, oppure interrato o inserito in una chiostrina.
 
 Il ROE può opzionalmente agire da splitter, ma il suo scopo principale è quello di **dare flessibilità alla rete**. In assenza di splitting, in un ROE entra un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico), e ne escono altrettante, che andranno direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
+
+{{% fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." %}}
 
 {{% fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" %}}
 
