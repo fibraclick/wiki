@@ -5,7 +5,7 @@ date: 2019-04-04
 lastmod: 2019-04-12
 authors: [Matteo]
 description: "Infratel, l'azienda pubblica controllata dal MiSE, ha avviato nel 2019 il monitoraggio delle aree nere e grigie del Paese, per pianificare interventi futuri di miglioramento delle connessioni a Internet in aree con scarsi investimenti."
-categories: [Copertura]
+categories: [Copertura, Piano BUL]
 ---
 
 **Infratel** è l'azienda controllata dal Ministero dello Sviluppo Economico che si occupa di pianificare gli incentivi per lo sviluppo della banda larga e ultralarga sul territorio nazionale.

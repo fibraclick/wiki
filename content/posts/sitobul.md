@@ -5,7 +5,7 @@ date: 2019-03-26
 lastmod: 2019-04-12
 authors: [Matteo]
 description: "Il sito BUL del Governo italiano permette di controllare le prospettive future per la banda ultralarga al propio indirizzo di casa. Ecco come si interpreta."
-categories: [Copertura, FTTH, FWA, FTTC]
+categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
 ---
 
 Il sito **Banda Ultralarga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura per i prossimi anni.
@@ -58,7 +58,7 @@ Significa che l'indirizzo sarà coperto **in FTTH** tramite il [piano BUL]({{< r
 
 La copertura sarà coordinata da Infratel e **realizzata da Open Fiber**, l’azienda specializzata in reti in fibra ottica che ha vinto i tre bandi pubblici del piano BUL 2015-2020.
 
-{{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca che sarà coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
+{{% fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
 
 {{% info %}}
 Consulta [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}) e [Cos'è il piano BUL]({{< relref "bul.md" >}}) per approfondimenti.
