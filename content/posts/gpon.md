@@ -89,6 +89,8 @@ Infine, i ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di T
 
 {{% fig src="/images/gpon-of.jpg" caption="Infrastruttura di rete Open Fiber (cluster A). Fonte: Open Fiber" %}}
 
+{{% fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" %}}
+
 {{% green %}}
 ###### La rete Metroweb
 

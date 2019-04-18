@@ -10,7 +10,9 @@ categories: [Definizioni, Copertura, FTTH]
 
 **Flash Fiber** è un'azienda partecipata all'**80% da TIM e al 20% da Fastweb**, nata nel 2016 con l'obiettivo di realizzare o completare reti in [FTTH]({{< relref "architetture.md" >}}) in **29 città italiane entro il 2020**.[^ff1][^ff2]
 
-Flash Fiber è un operatore *wholesale-only*, e cioè di vendita all'ingrosso. Per poter attivare una linea su rete Flash Fiber bisogna quindi rivolgersi a un operatore al dettaglio come TIM, Fastweb o altri operatori che ne rivendono la rete.
+Flash Fiber è un operatore *wholesale-only*, e cioè di vendita all'ingrosso. Per poter attivare una linea su rete Flash Fiber bisogna quindi rivolgersi a un operatore al dettaglio come **TIM, Fastweb o altri operatori che ne rivendono la rete**.
+
+L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "gpon.md" >}}), che consente di fornire connessioni con velocità di **1 Gbps in download**. La velocità offerta (nominale ed effettiva) dipende però dall'operatore scelto.
 
 La lista delle 29 città in corso di copertura è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
 
