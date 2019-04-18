@@ -16,7 +16,7 @@ removePathAccents = true
 
 [permalinks]
   posts = "/:slug"
-  categories = "/:slug"
+  categories = "/c/:slug"
 
 [taxonomies]
   category = "categories"
