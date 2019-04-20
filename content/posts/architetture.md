@@ -75,7 +75,7 @@ La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posat
 Inoltre, l'uso di alte frequenze genera tra i cavi delle interferenze, che non sono più trascurabili come avveniva per l'ADSL. Il fenomeno della **diafonia** può infatti ridurre la velocità della connessione anche del 50%, in base al numero di linee VDSL interferenti.
 
 {{% info %}}
-Vedi anche [Cos'è la diafonia]({{< relref "diafonia.md" >}}).
+Vedi anche [Cos'è il vectoring]({{< relref "posts/vectoring.md" >}}), la tecnologia che cura la diafonia.
 {{% /info %}}
 
 Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe sono circa 3,3 milioni.[^14]
@@ -170,7 +170,7 @@ Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diven
 - [Cos'è la VDSL]({{< relref "vdsl.md" >}})
 - [Cos'è e come funziona GPON]({{< relref "gpon.md" >}})
 - [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
-- [Cos'è la diafonia]({{< relref "diafonia.md" >}})
+- [Cos'è il vectoring]({{< relref "vectoring.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}})
 - [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}})
 {{% /info %}}

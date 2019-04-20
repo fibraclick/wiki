@@ -44,7 +44,7 @@ L'uso di alte frequenze per offrire alte velocità ha un altro svantaggio, cioè
 Questo fenomeno è definito **diafonia** (*crosstalk*), e può ridurre la velocità della connessione anche del 50%, a seconda del numero di linee VDSL/2 interferenti.
 
 {{% info %}}
-Gli effetti della diafonia sono quasi annullabili con l'utilizzo del **vectoring**. [Leggi di più qua]({{< relref "posts/diafonia.md" >}}).
+Gli effetti della diafonia sono quasi annullabili con l'utilizzo del **vectoring**. [Leggi di più qua]({{< relref "posts/vectoring.md" >}}).
 {{% /info %}}
 
 ## VDSL2 in Italia
