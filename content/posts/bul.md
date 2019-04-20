@@ -61,7 +61,7 @@ Questo prevede che il coordinamento della rete sia gestito da un'autorità compl
 {{% warn %}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
-Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "architetture.md" >}})**, cioè le cosiddette aree grigie o cluster B, anche nei casi di linee in rame lunghe.
+Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "/posts/architetture.md" >}})**, cioè le cosiddette aree grigie o cluster B, anche nei casi di linee in rame lunghe.
 
 Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
@@ -77,7 +77,7 @@ La questione è approfondita qua sotto quando si parla di consultazioni, aree e 
 La realizzazione della rete pubblica è stata affidata tramite tre bandi pubblici all'azienda **Open Fiber**, controllata al 50% da Enel e al 50% da Cassa Depositi Prestiti (CDP). Open Fiber avrà in concessione la rete per i prossimi vent'anni, e sarà responsabile anche della sua manutenzione.
 
 {{% info %}}
-Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
+Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
 {{% /info %}}
 
 I bandi pubblici hanno rispettato il principio della **neutralità tecnologica**[^5], e cioè il criterio di scelta della proposta vincitrice non è stato la tecnologia utilizzata (es. VDSL, LTE, ecc.) ma piuttosto le caratteristiche di qualità garantite dalla proposta.
@@ -128,8 +128,8 @@ Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a 
 {{% info %}}
 Vedi anche:
 
-- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "architetture.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
+- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/architetture.md" >}})
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}})
 {{% /info %}}
 
 ## L'avanzamento del progetto
@@ -143,7 +143,7 @@ Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun co
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
 {{% warn %}}
-⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica. Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
+⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica. Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
 {{% /warn %}}
 
 Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
@@ -163,7 +163,7 @@ A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tram
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
 
 {{% info %}}
-I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}}) per approfondimenti.
+I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}) per approfondimenti.
 {{% /info %}}
 
 {{% green %}}
@@ -203,7 +203,7 @@ Man mano che la fase 1 del piano BUL si avvicina alla conclusione, l'attenzione 
 Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se sarà presente intervento privato/pubblico a 30 o 100 Mbps.
 
 {{% info %}}
-Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}}).
+Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}).
 {{% /info %}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/

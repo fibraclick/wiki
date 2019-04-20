@@ -8,7 +8,7 @@ description: "Una panoramica sul funzionamento e sugli elementi di una rete GPON
 categories: [Definizioni, FTTH]
 ---
 
-**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti [**FTTH**]({{< relref "architetture.md" >}}) (*Fiber To The Home*), cioè un'architettura in cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
+**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti [**FTTH**]({{< relref "/posts/architetture.md" >}}) (*Fiber To The Home*), cioè un'architettura in cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
 
 GPON fa parte di un insieme di standard *PON*, i quali si differenziano in base alla velocità massima raggiungibile per ciascun albero ottico, una struttura spesso condivisa anche con 64 utenze (il significato di albero ottico è spiegato in dettaglio sotto).
 
@@ -76,7 +76,7 @@ In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber
 
 ### Open Fiber
 
-Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "bul.md" >}}).
+Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
 
 Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete Open Fiber possono scegliere principalmente due modalità:
 
@@ -108,7 +108,7 @@ Un'altra differenza è l'uso dei **PTA** interrati (**Punto di Terminazione Avan
 {{% fig src="/images/gpon-of-infratel2.jpg" caption="Infrastruttura di rete Open Fiber nei cluster C e D. Esempio con comuni multipli connessi allo stesso PCN. Fonte: Open Fiber" %}}
 
 {{% info %}}
-Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}).
+Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
 {{% /info %}}
 
 ### Flash Fiber
@@ -126,7 +126,7 @@ Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro 
 Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in *Open Stream* consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, con TIM il kit VULA prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.[^vula]
 
 {{% info %}}
-Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
+Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 {{% /info %}}
 
 [^standard]: https://www.itu.int/rec/T-REC-G.984.1

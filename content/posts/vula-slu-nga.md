@@ -12,7 +12,7 @@ Con gli acronimi **VULA, SLU e NGA** ci si riferisce ad alcune modalità che gli
 
 In Italia, l'operatore dominante è l'ex monopolista **TIM/Telecom Italia**, che possiede le centrali telefoniche e soprattutto la **rete in rame**, che raggiunge quasi tutte le abitazioni del Paese. Si tratta del cosiddetto "**ultimo miglio**".
 
-I termini VULA, SLU e NGA si utilizzando nell'ambito delle reti di nuova generazione (**NGA**, Next Generation Access), e cioè infrastrutture [FTTC e FTTH]({{< relref "architetture.md" >}}) per la banda larga e ultralarga.
+I termini VULA, SLU e NGA si utilizzando nell'ambito delle reti di nuova generazione (**NGA**, Next Generation Access), e cioè infrastrutture [FTTC e FTTH]({{< relref "/posts/architetture.md" >}}) per la banda larga e ultralarga.
 
 {{< toc >}}
 

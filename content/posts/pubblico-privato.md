@@ -16,7 +16,7 @@ Nell'ambito degli investimenti per la diffusione della banda larga e ultralarga,
 
 La copertura con **intervento privato** avviene da parte di un'**azienda privata**, che utilizza fondi propri per la realizzazione delle infrastrutture.
 
-Due esempi notevoli di intervento privato sono quelli messi in atto da **TIM** e [**Open Fiber**]({{< relref "openfiber.md" >}}) negli ultimi anni, con miliardi di euro destinati all'evoluzione delle reti di accesso a Internet in Italia.
+Due esempi notevoli di intervento privato sono quelli messi in atto da **TIM** e [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) negli ultimi anni, con miliardi di euro destinati all'evoluzione delle reti di accesso a Internet in Italia.
 
 Gli operatori privati **concentrano gli investimenti nelle aree considerate remunerative**, cioè quelle in cui le risorse spese possono essere recuperate in un tempo ragionevole. Queste aree si definiscono **nere o grigie**, a differenza delle aree bianche in cui non sono presenti interventi privati rilevanti.
 
@@ -51,7 +51,7 @@ Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 Il piano BUL 2015-2020 prevede infatti di coprire circa il 25% della popolazione con la realizzazione di una imponente rete pubblica in tutte le aree a fallimento di mercato. La rete realizzata è e resterà di proprietà dello Stato, ma sarà data in concessione per un periodo di tempo limitato a una azienda privata, che ne gestirà l'operatività pratica.
 
 {{% info %}}
-Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "bul.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}}), l'azienda vincitrice degli appalti per la realizzazione di una rete pubblica nell'ambito del piano BUL 2015-2020.
+Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}), l'azienda vincitrice degli appalti per la realizzazione di una rete pubblica nell'ambito del piano BUL 2015-2020.
 {{% /info %}}
 
 {{% green %}}

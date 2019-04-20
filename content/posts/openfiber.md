@@ -8,16 +8,16 @@ description: "Open Fiber è l'azienda che dal 2016 realizza reti FTTH in Italia.
 categories: [Definizioni, Copertura, FTTH]
 ---
 
-**Open Fiber** è un'azienda nata a dicembre 2015 con l'obiettivo di realizzare reti [FTTH]({{< relref "architetture.md" >}}) sul territorio italiano. La società è partecipata **al 50% da Enel e al 50% da CDP**, l'azienda statale che finanzia opere e infrastrutture che offrono servizi pubblici.[^of1]
+**Open Fiber** è un'azienda nata a dicembre 2015 con l'obiettivo di realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) sul territorio italiano. La società è partecipata **al 50% da Enel e al 50% da CDP**, l'azienda statale che finanzia opere e infrastrutture che offrono servizi pubblici.[^of1]
 
 Open Fiber è un operatore *wholesale-only*, e cioè di vendità all'ingrosso. Per poter attivare una linea Internet su rete Open Fiber bisogna quindi rivolgersi a un operatore al dettaglio, come Vodafone, Tiscali, Wind Tre, Fastweb, ecc.
 
-L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "gpon.md" >}}), che consente di fornire connessioni con velocità anche di **1 Gbps in download**. La velocità offerta (nominale ed effettiva) dipende però dall'operatore scelto.
+L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/gpon.md" >}}), che consente di fornire connessioni con velocità anche di **1 Gbps in download**. La velocità offerta (nominale ed effettiva) dipende però dall'operatore scelto.
 
 Le attività di Open Fiber sono finanziate **sia con investimenti propri che con fondi pubblici**. Nel primo caso si tratta di copertura delle aree considerate remunerative (grandi città), mentre nel secondo caso prevalentemente di "aree bianche", cioè zone a fallimento di mercato dove la banda larga non è presente.
 
 {{% info %}}
-Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel** nell'ambito del [piano BUL]({{< relref "bul.md" >}}), leggi la sezione "Finanziamenti pubblici e aree bianche".
+Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel** nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}), leggi la sezione "Finanziamenti pubblici e aree bianche".
 {{% /info %}}
 
 {{< toc >}}
@@ -26,7 +26,7 @@ Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel*
 
 Open Fiber prevede di coprire in FTTH **circa 270 città entro il 2022**, con un investimento stimato di circa 6,5 miliardi di euro.[^of2][^adnk]
 
-La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "sitobul.md" >}}) il sito istituzionale Banda Ultralarga.
+La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul.md" >}}) il sito istituzionale Banda Ultralarga.
 
 {{% green %}}
 ###### La rete Metroweb
@@ -57,7 +57,7 @@ Gli operatori disponibili **dipendono da città a città**, e sono indicati più
 {{% green %}}
 ###### TIM e Fastweb
 
-TIM e Fastweb stanno realizzando in parallelo a Open Fiber reti FTTH in 29 città italiane, tramite la joint venture [Flash Fiber]({{< relref "flashfiber.md" >}}). Per questo motivo, nel momento in cui scriviamo (aprile 2019) **non è possibile sottoscrivere contratti su rete Open Fiber con gli operatori TIM e Fastweb**.
+TIM e Fastweb stanno realizzando in parallelo a Open Fiber reti FTTH in 29 città italiane, tramite la joint venture [Flash Fiber]({{< relref "/posts/flashfiber.md" >}}). Per questo motivo, nel momento in cui scriviamo (aprile 2019) **non è possibile sottoscrivere contratti su rete Open Fiber con gli operatori TIM e Fastweb**.
 
 Va notato che per quanto riguarda **Fastweb** fanno eccezione le zone coperte tramite la ex rete Metroweb (**Milano** e poche altre città).
 {{% /green %}}
@@ -65,12 +65,12 @@ Va notato che per quanto riguarda **Fastweb** fanno eccezione le zone coperte tr
 ## Tecnologia GPON
 
 {{% info %}}
-I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "openfiber.md#open-fiber" >}}).
+I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/openfiber.md#open-fiber" >}}).
 {{% /info %}}
 
 ## Finanziamenti pubblici e aree bianche
 
-Nell'ambito del [piano BUL]({{< relref "bul.md" >}}) 2015-2020, Open Fiber ha vinto **tre gare pubbliche** per la realizzazione di infrastrutture a banda ultralarga nelle aree svantaggiate del Paese. Queste aree sono le cosiddette "**aree bianche**", o a fallimento di mercato, e sono quelle in cui è presente solo l'ADSL o una tecnologia inferiore. Rappresentano **circa il 25% della popolazione** italiana.
+Nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, Open Fiber ha vinto **tre gare pubbliche** per la realizzazione di infrastrutture a banda ultralarga nelle aree svantaggiate del Paese. Queste aree sono le cosiddette "**aree bianche**", o a fallimento di mercato, e sono quelle in cui è presente solo l'ADSL o una tecnologia inferiore. Rappresentano **circa il 25% della popolazione** italiana.
 
 L'offerta di Open Fiber è di molto superiore a quanto richiesto dai bandi, e prevede di coprire circa il **75% delle aree bianche in FTTH**, e il restante in **FWA** (*Fixed Wireless Access*).
 
@@ -91,10 +91,10 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 
 {{% info %}}
 ###### Per approfondire i temi di questa sezione:
-- [Cos'è il piano BUL]({{< relref "bul.md" >}})
-- [Cosa sono le aree nere, grigie, e bianche]({{< relref "aree.md" >}})
-- [Cosa cambia tra intervento pubblico e privato]({{< relref "pubblico-privato.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}})
+- [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
+- [Cosa sono le aree nere, grigie, e bianche]({{< relref "/posts/aree.md" >}})
+- [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}})
 {{% /info %}}
 
 {{< footer >}}

@@ -8,7 +8,7 @@ description: "La VDSL2 è la tecnologia più utilizzata per realizzare reti FTTC
 categories: [Definizioni, FTTC]
 ---
 
-La **VDSL2** (*Very high speed Digital Subscriber Line 2*) è una tecnologia di accesso che sfrutta le **linee telefoniche in rame esistenti** per realizzare reti [FTTC]({{< relref "posts/architetture.md" >}}) con velocità di trasmissione **fino a 300 Mbps** in download.[^itu]
+La **VDSL2** (*Very high speed Digital Subscriber Line 2*) è una tecnologia di accesso che sfrutta le **linee telefoniche in rame esistenti** per realizzare reti [FTTC]({{< relref "/posts/architetture.md" >}}) con velocità di trasmissione **fino a 300 Mbps** in download.[^itu]
 
 La tecnologia è un'**evoluzione dell'ADSL**, e permette di raggiungere velocità così alte utilizzando un intervallo di frequenze più largo rispetto alle altre tecnologie.
 
@@ -44,7 +44,7 @@ L'uso di alte frequenze per offrire alte velocità ha un altro svantaggio, cioè
 Questo fenomeno è definito **diafonia** (*crosstalk*), e può ridurre la velocità della connessione anche del 50%, a seconda del numero di linee VDSL/2 interferenti.
 
 {{% info %}}
-Gli effetti della diafonia sono quasi annullabili con l'utilizzo del **vectoring**. [Leggi di più qua]({{< relref "posts/vectoring.md" >}}).
+Gli effetti della diafonia sono quasi annullabili con l'utilizzo del **vectoring**. [Leggi di più qua]({{< relref "/posts/vectoring.md" >}}).
 {{% /info %}}
 
 ## VDSL2 in Italia
@@ -53,7 +53,7 @@ La diffusione della VDSL2 in Italia è iniziata **a partire dal 2012** per opera
 
 La copertura TIM raggiunge nel 2019 circa **3000 comuni**, cioè circa l'80% delle case italiane, attraverso ~108mila armadi.[^rete1][^rete2]
 
-La copertura FTTC-VDSL2 è accessibile anche agli operatori non dominanti (Vodafone, Fastweb, ecc.), in particolare tramite le modalità [VULA e NGA]({{< relref "posts/vula-slu-nga.md" >}}).
+La copertura FTTC-VDSL2 è accessibile anche agli operatori non dominanti (Vodafone, Fastweb, ecc.), in particolare tramite le modalità [VULA e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 
 {{< footer >}}
 

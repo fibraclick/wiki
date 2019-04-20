@@ -46,7 +46,7 @@ Nel momento in cui questo articolo è stato aggiornato, i dati del monitoraggio,
 I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni nelle **aree grigie**.
 
 {{% info %}}
-Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "bul.md" >}}).
+Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
 {{% /info %}}
 
 [^infratel1]: https://consultazione.infratelitalia.it/ oppure http://www.infratelitalia.it/documentazione/consultazioni/monitoraggio-consultazioni-aree-grigie-e-nere/

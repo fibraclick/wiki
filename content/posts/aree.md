@@ -23,7 +23,7 @@ In dettaglio, le aree si definiscono così[^lex]:
 Quando si parla di area, non si intende il territorio di un comune. Ogni comune può essere suddiviso in più aree, in modo da distinguere ad esempio tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
 {{% /green %}}
 
-È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "vula-slu-nga.md" >}}) dedicati, come nella foto che segue.
+È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "/posts/vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "/posts/vula-slu-nga.md" >}}) dedicati, come nella foto che segue.
 
 {{% fig src="/images/slu.jpg" caption="Armadi per la FTTC di Fastweb, Vodafone e TIM. La zona coperta dagli armadi è un'area nera. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
 
@@ -38,13 +38,13 @@ Infratel aggiorna periodicamente una **mappatura delle aree** tramite delle appo
 
 La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avviato nel 2015 con l'obiettivo di coprire tutte le aree bianche del paese, riguardanti circa il 25% della popolazione. Si tratta quindi di tutte le abitazioni coperte da ADSL, wireless o tecnologia inferiore.
 
-Il piano prevede un [intervento diretto]({{< relref "pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "openfiber.md" >}}) per vent'anni.
+Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "/posts/openfiber.md" >}}) per vent'anni.
 
-Per approfondimenti, visita [Cos'è il piano BUL]({{< relref "bul.md" >}}).
+Per approfondimenti, visita [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
 {{% /green %}}
 
 {{% info %}}
-I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "sitobul.md" >}}) per approfondimenti.
+I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}) per approfondimenti.
 {{% /info %}}
 
 ## I cluster
@@ -66,7 +66,7 @@ Le **aree bianche** equivalgono ai cluster C e D, che sono quindi l'oggetto del 
 Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano pubblico per la banda ultralarga, che prevede la copertura in FTTH delle abitazioni coperte in FTTC (cluster B).
 
 {{% info %}}
-Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "bul.md" >}}).
+Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
 {{% /info %}}
 
 [^lex]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52013XC0126%2801%29

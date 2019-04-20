@@ -8,7 +8,7 @@ description: "Il vectoring è una tecnologia che permette di ridurre i disturbi 
 categories: [Definizioni, FTTC]
 ---
 
-L'uso di alte frequenze per offrire connessioni ad **alta velocità** su doppini in rame ([VDSL2]({{< relref "posts/vdsl.md" >}})) ha lo svantaggio di generare **interferenze elettromagnetiche tra i cavi** che si trovano a stretto contatto.
+L'uso di alte frequenze per offrire connessioni ad **alta velocità** su doppini in rame ([VDSL2]({{< relref "/posts/vdsl.md" >}})) ha lo svantaggio di generare **interferenze elettromagnetiche tra i cavi** che si trovano a stretto contatto.
 
 Questo fenomeno è definito **diafonia** (*crosstalk*), e può ridurre la velocità di trasmissione anche del 50%, a seconda del numero di linee VDSL/2 interferenti.
 
@@ -32,7 +32,7 @@ Una conseguenza del processo di cancellazione del rumore è che per poter funzio
 
 Questo è il principale motivo per cui **in Italia il vectoring non è ancora stato applicato**, se non in fase sperimentale.
 
-In Italia è infatti consentito che un operatore alternativo a TIM installi i propri DSLAM su strada ([wholesale SLU]({{< relref "posts/vula-slu-nga.md" >}})). La delibera Agcom 747/13/CONS[^agcom1] prevede quindi l'obbligo di applicare il **Vectoring Multi-Operatore** (MOV), cioè di fare in modo che tutti gli operatori telefonici che operano in SLU si coordino per attivare il vectoring in maniera congiunta.
+In Italia è infatti consentito che un operatore alternativo a TIM installi i propri DSLAM su strada ([wholesale SLU]({{< relref "/posts/vula-slu-nga.md" >}})). La delibera Agcom 747/13/CONS[^agcom1] prevede quindi l'obbligo di applicare il **Vectoring Multi-Operatore** (MOV), cioè di fare in modo che tutti gli operatori telefonici che operano in SLU si coordino per attivare il vectoring in maniera congiunta.
 
 Nella realtà questo non è spesso fattibile, per via dei vincoli irrealistici richiesti per l'applicazione del MOV.
 

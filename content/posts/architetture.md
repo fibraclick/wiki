@@ -55,7 +55,7 @@ Si noti che **l'architettura FTTC non implica nessuna tecnologia specifica**. In
 {{% /green %}}
 
 {{% info %}}
-Vedi anche [Cos'è la VDSL]({{< relref "vdsl.md" >}}).
+Vedi anche [Cos'è la VDSL]({{< relref "/posts/vdsl.md" >}}).
 {{% /info %}}
 
 La FTTC è una soluzione frequentemente adottata nei Paesi che hanno una rete in rame consolidata, perché permette di ottenere prestazioni generalmente buone con costi di realizzazione bassi. Permette inoltre di coprire rapidamente molte abitazioni.
@@ -75,7 +75,7 @@ La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posat
 Inoltre, l'uso di alte frequenze genera tra i cavi delle interferenze, che non sono più trascurabili come avveniva per l'ADSL. Il fenomeno della **diafonia** può infatti ridurre la velocità della connessione anche del 50%, in base al numero di linee VDSL interferenti.
 
 {{% info %}}
-Vedi anche [Cos'è il vectoring]({{< relref "posts/vectoring.md" >}}), la tecnologia che cura la diafonia.
+Vedi anche [Cos'è il vectoring]({{< relref "/posts/vectoring.md" >}}), la tecnologia che cura la diafonia.
 {{% /info %}}
 
 Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe sono circa 3,3 milioni.[^14]
@@ -97,7 +97,7 @@ Ad aprile 2019 TIM dichiara di coprire 2719 comuni.[^8] Gli altri operatori tele
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
 {{% info %}}
-Per approfondire come gli operatori accedono alla rete TIM e la rivendono (con tutti i vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}}).
+Per approfondire come gli operatori accedono alla rete TIM e la rivendono (con tutti i vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 {{% /info %}}
 
 ## FTTS (Fiber To The Street)
@@ -126,7 +126,7 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 
 - utilizza un mezzo trasmissivo (la fibra ottica) che **soffre molto lievemente di dispersione**, consentendo quindi di coprire lunghe distanze senza bisogno di rigenerare il segnale;
 - supporta **velocità di trasmissione molto alte** (1+ Gbps) e **latenze molto basse** (velocità della luce);
-- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona GPON]({{< relref "gpon.md" >}})).[^12]
+- può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}})).[^12]
 
 [^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 
@@ -167,12 +167,12 @@ Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diven
 {{% info %}}
 ###### Per approfondire i temi di questa pagina:
 
-- [Cos'è la VDSL]({{< relref "vdsl.md" >}})
-- [Cos'è e come funziona GPON]({{< relref "gpon.md" >}})
-- [Cosa significano VULA, SLU e NGA]({{< relref "vula-slu-nga.md" >}})
-- [Cos'è il vectoring]({{< relref "vectoring.md" >}})
-- [Cos'è e cosa fa Open Fiber]({{< relref "openfiber.md" >}})
-- [Cos'è e cosa fa Flash Fiber]({{< relref "flashfiber.md" >}})
+- [Cos'è la VDSL]({{< relref "/posts/vdsl.md" >}})
+- [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}})
+- [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}})
+- [Cos'è il vectoring]({{< relref "/posts/vectoring.md" >}})
+- [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
+- [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}})
 {{% /info %}}
 
 {{< footer >}}
