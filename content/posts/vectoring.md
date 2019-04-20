@@ -43,7 +43,7 @@ Nella realtà questo non è spesso fattibile, per via dei vincoli irrealistici r
 {{< footer >}}
 
 [^itu2]: https://www.itu.int/rec/T-REC-G.993.5
-[^agcom1]: https://www.agcom.it/documentazione/documento?p_p_auth=fLw7zRht&p_p_id=101_INSTANCE_ls3TZlzsK0hm&p_p_lifecycle=0&p_p_col_id=column-1&p_p_col_count=1&_101_INSTANCE_ls3TZlzsK0hm_struts_action=%2Fasset_publisher%2Fview_content&_101_INSTANCE_ls3TZlzsK0hm_assetEntryId=794719&_101_INSTANCE_ls3TZlzsK0hm_type=document
+[^agcom1]: https://www.agcom.it/visualizza-documento/85ee38d8-8977-4fd6-858f-d58e72d58268
 [^vect]: http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html
 [^agcom2]: https://www.agcom.it/visualizza-documento/06a476ac-14de-48d9-8dcf-a615dea621c8
 [^fcvect]: https://forum.fibra.click/d/2606-vectoring-e-delibera-agcom-n-613-18-cons-dicembre-2018/72
