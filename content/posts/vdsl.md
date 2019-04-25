@@ -6,6 +6,7 @@ lastmod: 2019-04-19
 authors: [Matteo]
 description: "La VDSL2 è la tecnologia più utilizzata per realizzare reti FTTC (fibra mista rame). Scopri come funziona, cosa sono i profili, e quanto è diffusa in Italia."
 categories: [Definizioni, FTTC]
+image: /social/vdsl.jpg
 ---
 
 La **VDSL2** (*Very high speed Digital Subscriber Line 2*) è una tecnologia di accesso che sfrutta le **linee telefoniche in rame esistenti** per realizzare reti [FTTC]({{< relref "/posts/architetture.md" >}}) con velocità di trasmissione **fino a 300 Mbps** in download.[^itu]

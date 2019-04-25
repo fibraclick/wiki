@@ -12,7 +12,7 @@ categories: [Copertura, Piano BUL]
 
 Ha anche il compito di **aggiornare periodicamente una mappatura** (civico per civico) dello **stato della banda larga in Italia**.
 
-Nel **gennaio 2019**, Infratel ha avviato il **monitoraggio dell'ultima consultazione (tenuta nel 2017)**, in particolare per verificare lo **stato di attuazione degli interventi nelle aree nere e grigie**.
+Nel **gennaio 2019** Infratel ha avviato il **monitoraggio dell'ultima consultazione (tenuta nel 2017)**, in particolare per verificare lo **stato di attuazione degli interventi nelle aree nere e grigie**.
 
 Lo scopo della nuova consultazione è quindi limitato all'aggiornamento delle aree che sono state dichiarate come nere o grigie, e cioè **19,8 milioni di numeri civici**.[^infratel2]
 

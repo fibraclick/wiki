@@ -6,6 +6,7 @@ lastmod: 2019-04-12
 authors: [Matteo]
 description: "Il sito BUL del Governo italiano permette di controllare le prospettive future per la banda ultralarga al propio indirizzo di casa. Ecco come si interpreta."
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
+image: /social/piano-bul.jpg
 ---
 
 Il sito **Banda Ultralarga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura per i prossimi anni.

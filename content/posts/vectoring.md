@@ -6,6 +6,7 @@ lastmod: 2019-04-20
 authors: [Matteo]
 description: "Il vectoring è una tecnologia che permette di ridurre i disturbi (diafonia) causati da altre linee VDSL2 (fibra mista rame) i cui cavi si trovano a stretto contatto. Ecco come funziona."
 categories: [Definizioni, FTTC]
+image: /social/vectoring.jpg
 ---
 
 L'uso di alte frequenze per offrire connessioni ad **alta velocità** su doppini in rame ([VDSL2]({{< relref "/posts/vdsl.md" >}})) ha lo svantaggio di generare **interferenze elettromagnetiche tra i cavi** che si trovano a stretto contatto.

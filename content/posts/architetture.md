@@ -6,6 +6,7 @@ lastmod: 2019-04-12
 authors: [Matteo]
 description: Il significato in dettaglio delle sigle FTTC, FTTE, FTTH, FTTS e FWA, usate per indicare diversi tipi di architetture di rete
 categories: [Definizioni, FTTC, FTTH, FWA]
+image: /social/architetture.jpg
 ---
 
 Le sigle **FTTC**, **FTTS**, **FTTE**, **FTTH**, **FWA** sono acronimi che indicano diverse architetture di rete. I primi quattro sono a volte accomunati dal più generico acronimo FTTx, che sta ad indicare tutte le architetture che prevedono l'uso della fibra ottica.

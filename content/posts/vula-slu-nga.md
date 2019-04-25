@@ -6,6 +6,7 @@ lastmod: 2019-04-19
 authors: [Matteo]
 description: "VULA, SLU e NGA sono tre modalità con cui gli operatori rivendono le reti FTTC/FTTH di TIM. Quali sono le differenze? Quale è meglio per la propria connessione? Quale tipologia utilizzano gli operatori?"
 categories: [Definizioni, FTTC, FTTH]
+image: /social/vula-slu-nga.jpg
 ---
 
 Con gli acronimi **VULA, SLU e NGA** ci si riferisce ad alcune modalità che gli operatori di rete hanno a disposizione per accedere alla rete di un operatore dominante (*incumbent*), cioè un operatore che possiede gran parte delle infrastrutture di un Paese.

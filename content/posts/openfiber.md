@@ -6,6 +6,7 @@ lastmod: 2019-04-17
 authors: [Matteo]
 description: "Open Fiber è l'azienda che dal 2016 realizza reti FTTH in Italia. Tutte le informazioni su dove e come opera, gli operatori disponibili e le caratteristiche della rete."
 categories: [Definizioni, Copertura, FTTH]
+image: /social/openfiber.jpg
 ---
 
 **Open Fiber** è un'azienda nata a dicembre 2015 con l'obiettivo di realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) sul territorio italiano. La società è partecipata **al 50% da Enel e al 50% da CDP**, l'azienda statale che finanzia opere e infrastrutture che offrono servizi pubblici.[^of1]

@@ -6,6 +6,7 @@ lastmod: 2019-04-12
 authors: [Matteo]
 description: "Nell'ambito degli investimenti per la banda ultralarga, qual è la differenza fondamentale tra l'investimento pubblico e privato?"
 categories: [Definizioni, Copertura, Piano BUL]
+image: /social/piano-bul.jpg
 ---
 
 Nell'ambito degli investimenti per la diffusione della banda larga e ultralarga, la differenza tra **intervento privato e pubblico** riguarda i **fondi che vengono utilizzati per la realizzazione delle reti**. Vediamo i casi in dettaglio.

@@ -6,6 +6,7 @@ lastmod: 2019-04-19
 authors: [Matteo]
 description: "Il piano BUL è un progetto avviato nel 2015 per portare la banda ultralarga in tutte le case italiane. Com'è nato e come si è evolto il piano pubblico."
 categories: [Definizioni, Copertura, Piano BUL]
+image: /social/piano-bul.jpg
 ---
 
 La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è il progetto avviato dal Governo Renzi nel marzo del 2015 con lo scopo di pianificare gli interventi in materia di banda larga e ultralarga.[^1][^1b]

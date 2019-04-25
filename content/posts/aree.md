@@ -6,6 +6,7 @@ lastmod: 2019-04-12
 authors: [Matteo]
 description: "La distinzione tra aree nere, grigie e bianche serve a classificare il grado di investimenti per la banda larga presenti sul territorio. Ma come sono definite le aree? E cosa sono i cluster?"
 categories: [Definizioni, Copertura, Piano BUL]
+image: /social/aree-nere-grigie-bianche.jpg
 ---
 
 Le **aree nere, grigie e bianche** sono una distinzione stabilita dalla Commissione Europea per determinare il livello di concorrenza per quanto riguarda le reti a banda larga e ultralarga sui territori.
