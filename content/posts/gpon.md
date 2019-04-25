@@ -9,7 +9,7 @@ categories: [Definizioni, FTTH]
 image: /social/gpon.jpg
 ---
 
-**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti [**FTTH**]({{< relref "/posts/architetture.md" >}}) (*Fiber To The Home*), cioè un'architettura in cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
+**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti [**FTTH**]({{< relref "/posts/architetture.md" >}}) (*Fiber To The Home*), in cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
 
 GPON fa parte di un insieme di standard *PON*, i quali si differenziano in base alla velocità massima raggiungibile per ciascun albero ottico, una struttura spesso condivisa anche con 64 utenze (il significato di albero ottico è spiegato in dettaglio sotto).
 
