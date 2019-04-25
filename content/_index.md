@@ -1,6 +1,7 @@
 ---
 title: "Benvenuto/a!"
 date: 2019-04-24T13:52:47+02:00
+fb: /cover-fb.jpg
 ---
 
 **FibraClick Wiki** è il sito dove trovare risposte alle domande più frequenti in ambito di **connessioni a Internet e banda larga**.
