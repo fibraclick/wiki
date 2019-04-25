@@ -23,13 +23,15 @@ description: "Collezione di link utili legati alla fibra ottica, copertura, appr
 - [Ovus](https://www.ovus.it/verifica_copertura_ehiveco.php), ricerca informazioni sulla centrale dato il numero di telefono
 - [Mappa banda larga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura fissa, mobile e wireless in Italia
 - [Open Fiber copertura](https://openfiber.it/it/fibra-ottica/coperturaftth), per controllare la copertura FTTH per indirizzo
+- [Open Fiber copertura aree bianche](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel), per verificare lo stato dei lavori nelle aree bianche, comune per comune
 - [Flash Fiber](https://www.flashfiber.it/verifica-copertura/), mappa di copertura città per città
 - [Flash Fiber](https://www.flashfiber.it/copertura/), verifica copertura per indirizzo
 
 ## Fibra di Stato (BUL)
-- [Infratel](http://www.infratelitalia.it/)
+- [Sito Infratel](http://www.infratelitalia.it/)
 - [Sito istituzionale BUL](http://bandaultralarga.italia.it/)
 - [Gare Infratel](https://www.gareinfratel.it/esop/guest/go/public/opportunity/current)
+- [Area Infratel Open Fiber](https://openfiber.it/it/fibra-ottica/area-infratel)
 
 ## Approfondimenti
 - [Notiziario tecnico Telecom Italia](https://www.telecomitalia.com/tit/it/innovazione/notiziario-tecnico.html)
