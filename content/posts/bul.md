@@ -192,9 +192,9 @@ Ad aprile 2018 Infratel ha pubblicato un documento in cui esprime delle intenzio
 
 Lo scopo è raggiungere gli obiettivi della Commissione Europea fissati per il 2025, e in particolare la copertura della totalità della popolazione con connessioni che garantiscano almeno 100 Mbps in download.
 
-In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni nelle aree grigie**, cioè dove è presente un solo operatore FTTC senza previsioni di ulteriori investimenti.
+In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni nelle aree grigie**, cioè dove è presente una sola infrastruttura FTTC senza previsioni di ulteriori investimenti.
 
-Nel momento in cui questo articolo è stato aggiornato, non è chiaro se le aree nere con 2 o più operatori (non FTTH) saranno coinvolte nel piano.
+Nel momento in cui questo articolo è stato aggiornato, non è chiaro se le aree nere con 2 o più infrastrutture (non FTTH) saranno coinvolte nel piano.
 
 Man mano che la fase 1 del piano BUL si avvicina alla conclusione, l'attenzione si concentrerà sulla fase 2 e saranno chiariti i dettagli.
 
