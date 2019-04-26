@@ -66,7 +66,7 @@ Va notato che per quanto riguarda **Fastweb** fanno eccezione le zone coperte tr
 ## Tecnologia GPON
 
 {{% info %}}
-I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/openfiber.md#open-fiber" >}}).
+I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/gpon.md#open-fiber" >}}).
 {{% /info %}}
 
 ## Finanziamenti pubblici e aree bianche
