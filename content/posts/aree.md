@@ -64,7 +64,7 @@ La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consen
 Le **aree bianche** equivalgono ai cluster C e D, che sono quindi l'oggetto del piano BUL 2015-2020.
 {{% /green %}}
 
-Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano pubblico per la banda ultralarga, che prevede la copertura in FTTH delle abitazioni coperte in FTTC (cluster B).
+Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano pubblico per la banda ultralarga, che prevede la copertura in FTTH delle abitazioni coperte in FTTC con un solo operatore (aree grigie, parte del cluster B).
 
 {{% info %}}
 Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
