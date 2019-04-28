@@ -4,7 +4,7 @@ slug: flashfiber
 date: 2019-04-05
 lastmod: 2019-04-06
 authors: [Matteo]
-description: "Flash Fiber è la joint venture di TIM e Fastweb per la copertura in FTTH delle principali città italiane. Tutte le informazioni sulla copertura e le caratteristiche tecniche della rete."
+description: "Flash Fiber è la joint venture di TIM e Fastweb per la copertura in FTTH di 29 grandi città italiane entro il 2020. Ecco la lista completa."
 categories: [Definizioni, Copertura, FTTH]
 image: /social/flashfiber.jpg
 ---

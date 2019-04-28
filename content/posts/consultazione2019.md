@@ -4,7 +4,7 @@ slug: consultazione-2019
 date: 2019-04-04
 lastmod: 2019-04-19
 authors: [Matteo]
-description: "Infratel, l'azienda pubblica controllata dal MiSE, ha avviato nel 2019 il monitoraggio delle aree nere e grigie del Paese, per pianificare interventi futuri di miglioramento delle connessioni a Internet in aree con scarsi investimenti."
+description: "La consultazione Infratel 2019 ha lo scopo di aggiornare le aree nere e grigie, per poi pianificare gli interventi pubblici per la copertura FTTH."
 categories: [Copertura, Piano BUL]
 ---
 

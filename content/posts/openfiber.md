@@ -4,7 +4,7 @@ slug: openfiber
 date: 2019-04-17T21:34:32+02:00
 lastmod: 2019-04-17
 authors: [Matteo]
-description: "Open Fiber è l'azienda che dal 2016 realizza reti FTTH in Italia. Tutte le informazioni su dove e come opera, gli operatori disponibili e le caratteristiche della rete."
+description: "Open Fiber realizza reti FTTH in Italia, con l'obiettivo di coprire migliaia di comuni entro il 2022, sia con fondi privati che pubblici."
 categories: [Definizioni, Copertura, FTTH]
 image: /social/openfiber.jpg
 ---

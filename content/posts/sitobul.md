@@ -4,7 +4,7 @@ slug: bul-verifica-per-indirizzo
 date: 2019-03-26
 lastmod: 2019-04-12
 authors: [Matteo]
-description: "Il sito BUL del Governo italiano permette di controllare le prospettive future per la banda ultralarga al propio indirizzo di casa. Ecco come si interpreta."
+description: "Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo."
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
 image: /social/piano-bul.jpg
 ---

@@ -10,7 +10,8 @@ footnoteReturnLinkContents = "⤴"
 removePathAccents = true
 
 [params]
-  description = "Dubbi sulla fibra ottica, copertura o intervento pubblico? FibraClick Wiki è lo spazio dedicato dove trovare risposte precise e curate"
+  homeTitle = "FibraClick Wiki, risposte sulla fibra ottica"
+  description = "Dubbi sulla fibra ottica, copertura o intervento pubblico? FibraClick Wiki è lo spazio dedicato dove trovare risposte precise e curate."
   analytics = "UA-65084561-3"
 
 [permalinks]

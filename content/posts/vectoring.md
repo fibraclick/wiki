@@ -4,7 +4,7 @@ slug: vectoring
 date: 2019-04-20T11:40:36+02:00
 lastmod: 2019-04-20
 authors: [Matteo]
-description: "Il vectoring è una tecnologia che permette di ridurre i disturbi (diafonia) causati da altre linee VDSL2 (fibra mista rame) i cui cavi si trovano a stretto contatto. Ecco come funziona."
+description: "Il vectoring è una tecnologia che permette di ridurre i disturbi causati da altre linee VDSL2 adiacenti. Come funziona e come si applica."
 categories: [Definizioni, FTTC]
 image: /social/vectoring.jpg
 ---
