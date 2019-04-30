@@ -1,5 +1,5 @@
 ---
-title: "Cosa sono le aree nere, grigie, e bianche"
+title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
 lastmod: 2019-04-12
