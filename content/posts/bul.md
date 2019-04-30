@@ -30,7 +30,7 @@ La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiunger
 Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di euro sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
 
 {{% green %}}
-In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce all'architettura FTTC**. Questo perché per limiti tecnologici la VDSL non riesce a garantire in modo consistente più di 100 Mbps in download.
+In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce di solito all'architettura FTTC o FWA**. Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
 
 Ad oggi **con "100 Mbps" si intende invece esclusivamente la FTTH**.
 {{% /green %}}
