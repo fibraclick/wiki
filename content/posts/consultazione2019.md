@@ -2,7 +2,7 @@
 title: "La consultazione Infratel 2019"
 slug: consultazione-2019
 date: 2019-04-04
-lastmod: 2019-04-19
+lastmod: 2019-05-04
 authors: [Matteo]
 description: "La consultazione Infratel 2019 ha lo scopo di aggiornare le aree nere e grigie, per poi pianificare gli interventi pubblici per la copertura FTTH."
 categories: [Copertura, Piano BUL]
@@ -41,7 +41,7 @@ Per quanto riguarda la nuova consultazione 2019, Infratel riporta che gli scopi 
 
 Per quanto riguarda i dati già raccolti (punto primo) si tratta quindi di confermare o aggiornare le scadenze di copertura, mentre per i nuovi operatori (punto secondo) di dichiarare la copertura al 31 dicembre 2018, 2019, 2020, e 2021.[^infratel2]
 
-Nel momento in cui questo articolo è stato aggiornato, i dati del monitoraggio, terminato il 15 marzo 2019, non sono ancora stati pubblicati sul [sito BUL](https://bandaultralarga.italia.it).
+Il monitoraggio è terminato il 15 marzo 2019, e i risultati saranno pubblicati a giugno 2019 sul [sito BUL](https://bandaultralarga.italia.it).
 
 I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni nelle **aree grigie**.
 
