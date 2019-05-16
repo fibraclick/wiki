@@ -1,7 +1,7 @@
 ---
 title: "Link utili"
 date: 2019-04-07
-lastmod: 2019-04-10
+lastmod: 2019-05-16
 description: "Collezione di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
@@ -18,7 +18,6 @@ description: "Collezione di link utili legati alla fibra ottica, copertura, appr
 - [Planetel accesso alternativo](https://www.planetel.it/verificare-copertura-fibra-ottica/)
 - [Fibermap](https://fibermap.it/), per controllare la pianificazione FTTC/FTTH per indirizzo
 - [Vodafone GEA Corporate](http://gea.dsl.vodafone.it/corporate), per controllare i dettagli della copertura Vodafone per indirizzo
-- [Fastweb AVT](http://avt.fastweb.it/avt-operatori/AvtHome?SELLER_CODE=&canale=AGENZIE), per controllare la copertura Fastweb in dettaglio per indirizzo. Se la pagina dà un errore, prova a ricaricarla
 - [Portale LIDO](http://adsl2.csi.telecomitalia.it/), per controllare la vendibilità TIM
 - [Ovus](https://www.ovus.it/verifica_copertura_ehiveco.php), ricerca informazioni sulla centrale dato il numero di telefono
 - [Mappa banda larga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura fissa, mobile e wireless in Italia
