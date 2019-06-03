@@ -8,11 +8,11 @@ description: "La consultazione Infratel 2019 ha lo scopo di aggiornare le aree n
 categories: [Copertura, Piano BUL]
 ---
 
-La **consultazione Infratel 2019** è un'attività di raccolta dati svolta nel primo semestre 2019 con lo scopo di aggiornare le previsioni di copertura a banda larga nelle cosiddette aree nere e grigie.
+La **consultazione Infratel 2019** è un'attività di raccolta dati svolta nel primo semestre 2019 con lo scopo di aggiornare le previsioni di copertura a banda ultralarga nelle cosiddette aree nere e grigie.
 
 L'attività è coordinata da **Infratel**, l'azienda controllata dal Ministero dello Sviluppo Economico che si occupa di pianificare gli investimenti per lo sviluppo della banda larga e ultralarga sul territorio nazionale.
 
-L'obiettivo è **produrre una mappatura (civico per civico)** dello stato della banda larga in Italia, e nello specifico **la copertura esistente a dicembre 2018 e le previsioni per fine 2019, 2020 e 2021**.
+L'obiettivo è **produrre una mappatura (civico per civico)** dello stato della banda ultralarga in Italia, e nello specifico **la copertura esistente a dicembre 2018 e le previsioni per fine 2019, 2020 e 2021**.
 
 La consultazione 2019 è stata avviata a gennaio 2019 ed è terminata il 15 maggio 2019, dopo tre rinvii.
 
@@ -28,9 +28,9 @@ Le aree bianche già oggetto di intervento pubblico nel [piano BUL 2015-2020]({{
 ###### Ripasso sulle aree nere e grigie
 La Commissione Europea definisce così le aree nere, grigie e bianche:
 
-- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga di operatori diversi
-- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga
-- **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
+- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi
+- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga
+- **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni
 {{% /green %}}
 
 ## A cosa serve la consultazione
