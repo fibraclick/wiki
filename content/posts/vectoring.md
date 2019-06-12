@@ -39,7 +39,7 @@ Nella realtà questo non è spesso fattibile, per via dei vincoli irrealistici r
 
 {{% fig src="/images/agcom-vectoring.png" caption="Vincoli stabiliti da Agcom nel 2013 per l'applicazione del vectoring" %}}
 
-È attesa entro l'estate del 2019 una **nuova delibera di Agcom che aprirà finalmente alla possibilità di vectoring nelle aree in cui lo SLU non è presente (circa il 95%)**.[^agcom2][^fcvect]
+È attesa entro l'estate del 2019 una **nuova delibera di Agcom che aprirà finalmente alla possibilità di vectoring nelle aree in cui lo SLU non è presente (circa il 95% dei comuni)**.[^agcom2][^fcvect][^slu]
 
 {{< footer >}}
 
@@ -48,3 +48,4 @@ Nella realtà questo non è spesso fattibile, per via dei vincoli irrealistici r
 [^vect]: http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html
 [^agcom2]: https://www.agcom.it/visualizza-documento/06a476ac-14de-48d9-8dcf-a615dea621c8
 [^fcvect]: https://forum.fibra.click/d/2606-vectoring-e-delibera-agcom-n-613-18-cons-dicembre-2018/72
+[^slu]: https://it.wikipedia.org/wiki/VDSL2#Copertura_in_Italia
