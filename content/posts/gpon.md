@@ -4,7 +4,7 @@ slug: gpon
 date: 2019-04-04
 lastmod: 2019-04-06
 authors: [Matteo]
-description: "Come funziona e quali sono gli elementi di una rete GPON, tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home."
+description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
 image: /social/gpon.jpg
 ---

@@ -4,7 +4,7 @@ slug: piano-bul
 date: 2019-03-24
 lastmod: 2019-04-19
 authors: [Matteo]
-description: "Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020."
+description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/piano-bul.jpg
 ---

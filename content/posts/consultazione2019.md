@@ -4,7 +4,7 @@ slug: consultazione-2019
 date: 2019-04-04
 lastmod: 2019-06-03T20:49:00+02:00
 authors: [Matteo]
-description: "La consultazione Infratel 2019 ha lo scopo di aggiornare le aree nere e grigie, per poi pianificare gli interventi pubblici per la copertura FTTH."
+description: La consultazione Infratel 2019 ha lo scopo di aggiornare le aree nere e grigie, per poi pianificare gli interventi pubblici per la copertura FTTH.
 categories: [Copertura, Piano BUL]
 ---
 

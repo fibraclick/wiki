@@ -4,7 +4,7 @@ slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
 lastmod: 2019-04-12
 authors: [Matteo]
-description: "La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda larga presenti sul territorio."
+description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda larga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/aree-nere-grigie-bianche.jpg
 ---

@@ -4,7 +4,7 @@ slug: intervento-pubblico-privato
 date: 2019-04-12T11:36:57+02:00
 lastmod: 2019-04-12
 authors: [Matteo]
-description: "Nell'ambito degli investimenti per la banda ultralarga, qual è la differenza fondamentale tra l'investimento pubblico e privato?"
+description: La differenza fondamentale sta nei fondi che vengono utilizzati per attuare la copertura. Non tutti gli operatori ricevono però fondi pubblici.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/piano-bul.jpg
 ---
