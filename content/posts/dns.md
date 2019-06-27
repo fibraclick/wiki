@@ -2,7 +2,7 @@
 title: "A cosa serve cambiare i DNS"
 slug: dns
 date: 2019-06-26T19:38:28+02:00
-lastmod: 2019-06-27T10:23:00+02:00
+lastmod: 2019-06-27T12:24:00+02:00
 authors: [Matteo]
 description: "I server DNS hanno lo scopo di convertire i nomi di dominio in indirizzi IP, ma in quali casi ha senso cambiarli e in quali non porta benefici?"
 categories: [Reti]
@@ -13,14 +13,14 @@ I server <abbr title="Domain Name System">DNS</abbr> hanno lo scopo di effettuar
 Ad esempio, per caricare il sito `https://fibra.click` viene prima contattato un server DNS per trovare l'indirizzo IP del server che ospita il sito di FibraClick, cioè `116.203.133.130`.
 
 {{% warn %}}
-I server DNS possono essere *authoritative* ("autorevoli") oppure *non-authoritative*. La differenza è che i primi danno informazioni solo per i domini che sono sotto il loro controllo, mentre i secondi "danno una mano" facendo da intermediari per i server authoritative.
+I server DNS possono essere *authoritative* ("autorevoli") oppure *non-authoritative*. La differenza è che i primi danno informazioni sempre aggiornate, ma solo per i domini che sono sotto il loro controllo, mentre i secondi "danno una mano" ai server authoritative facendo da intermediari e memorizzando in cache le richieste di risoluzione.
 
 In questo articolo ci si riferisce ai server DNS non-authoritative, o DNS pubblici.
 {{% /warn %}}
 
 Essendo il DNS un sistema gerarchico e distribuito, **esistono numerosi server DNS pubblici** che si occupano di risolvere i nomi di dominio.
 
-Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contatta altri server DNS esterni, solitamente quelli del proprio <abbr title="Internet Service Provider, il gestore della connessione">ISP</abbr>.
+Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contatta altri server DNS esterni, solitamente quelli del proprio <abbr title="Internet Service Provider, l'operatore telefonico">ISP</abbr>.
 
 {{% toc %}}
 
@@ -28,10 +28,11 @@ Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contat
 
 - ✅ **Privacy**: i server DNS predefiniti sono quelli del proprio gestore Internet, che ha quindi la possibilità di leggere, analizzare e archiviare la lista completa dei siti web che vengono visitati. La maggior parte dei server DNS alternativi ha politiche sulla privacy più facilmente accessibili e trasparenti di quelle del proprio ISP.
 - ✅ **Per aggirare la censura**: i DNS sono spesso usati dagli ISP per attuare provvedimenti di censura di siti web su richiesta delle autorità. Se un sito web è bloccato impedendone la risoluzione DNS, cambiare il server DNS potrebbe permettere di aggirare il blocco.
+- ✅ **Per evitare i redirect**: alcuni DNS manipolano le risposte e fanno in modo che venga mostrata una pagina di errore personalizzata (a volte contenente pubblicità) quando si prova a contattare un dominio che non esiste. I DNS menzionati in questo articolo non hanno questo comportamento.
 - ❓ **Affidabilità e prestazioni**: i server DNS pubblici di Google e CloudFlare sono una garanzia di affidabilità, mentre per i DNS degli operatori si hanno meno informazioni. A seconda di quanto sono curati o trascurati, potrebbero avere prestazioni eccellenti, nella media, oppure pessime.
 
 {{% green %}}
-In ogni caso, la risoluzione DNS è un processo che impiega **pochi decine di millisecondi**, anche nel peggiore dei casi, e i risultati della risoluzione vengono memorizzati in una cache locale potenzialmente per ore. **Il tempo di risoluzione potrebbe quindi essere trascurabile.**
+In ogni caso, la risoluzione DNS è un processo che impiega **poche decine di millisecondi**, anche nel peggiore dei casi, e i risultati della risoluzione vengono memorizzati in una cache locale potenzialmente per ore. **Il tempo di risoluzione potrebbe quindi essere trascurabile.**
 {{% /green %}}
 
 ## Perché non cambiarli
