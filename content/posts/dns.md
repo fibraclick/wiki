@@ -2,7 +2,7 @@
 title: "A cosa serve cambiare i DNS"
 slug: dns
 date: 2019-06-26T19:38:28+02:00
-lastmod: 2019-06-27T12:24:00+02:00
+lastmod: 2019-06-27T15:39:00+02:00
 authors: [Matteo]
 description: "I server DNS hanno lo scopo di convertire i nomi di dominio in indirizzi IP, ma in quali casi ha senso cambiarli e in quali non porta benefici?"
 categories: [Reti]
