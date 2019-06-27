@@ -4,7 +4,7 @@ slug: dns
 date: 2019-06-26T19:38:28+02:00
 lastmod: 2019-06-27T10:23:00+02:00
 authors: [Matteo]
-description: "Chiariamo definitivamente i casi in cui ha senso cambiare i server DNS per la risoluzione dei nomi e quelli in cui non ha tecnicamente senso farlo"
+description: "I server DNS hanno lo scopo di convertire i nomi di dominio in indirizzi IP, ma in quali casi ha senso cambiarli e in quali non porta benefici?"
 categories: [Reti]
 ---
 
