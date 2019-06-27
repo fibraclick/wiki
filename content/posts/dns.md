@@ -32,6 +32,8 @@ Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contat
 - ❓ **Affidabilità e prestazioni**: i server DNS pubblici di Google e CloudFlare sono una garanzia di affidabilità, mentre per i DNS degli operatori si hanno meno informazioni. A seconda di quanto sono curati o trascurati, potrebbero avere prestazioni eccellenti, nella media, oppure pessime.
 
 {{% green %}}
+Esistono degli strumenti gratuiti per eseguire **benchmark** e trovare i server DNS migliori per la propria connessione, tra cui [questo](https://www.grc.com/dns/benchmark.htm) (i DNS del proprio ISP devono essere inseriti manualmente).
+
 In ogni caso, la risoluzione DNS è un processo che impiega **poche decine di millisecondi**, anche nel peggiore dei casi, e i risultati della risoluzione vengono memorizzati in una cache locale potenzialmente per ore. **Il tempo di risoluzione potrebbe quindi essere trascurabile.**
 {{% /green %}}
 
@@ -39,7 +41,7 @@ In ogni caso, la risoluzione DNS è un processo che impiega **poche decine di mi
 
 Ci sono diversi **falsi miti** sui presunti benefici che deriverebbero dal cambio dei server DNS:
 
-- ❓ **Migliore velocità di risoluzione**: tendenzialmente, un server DNS è più veloce a rispondere se si trova più "vicino" al proprio router. È quindi probabile che il DNS predefinito del proprio ISP, raggiungibile senza nemmeno uscire dalla rete dell'operatore, risponda in tempi inferiori rispetto a un DNS alternativo presente su Internet.
+- ❓ **Migliore velocità di risoluzione**: tendenzialmente, un server DNS è più veloce a rispondere se si trova più "vicino" al proprio router. È quindi probabile che il DNS predefinito del proprio ISP, raggiungibile senza nemmeno uscire dalla rete dell'operatore, risponda in tempi inferiori rispetto a un DNS alternativo presente su Internet. Inoltre, il fatto che i DNS degli ISP sono utilizzati da milioni di linee ha l'effetto che le risposte del server possano essere servite direttamente dalla cache, in tempi molto bassi (~1 millisecondo in più rispetto alla latenza di rete).
 - ❌ **Ping migliore**: il ping misura il tempo necessario per raggiungere un indirizzo IP e tornare indietro, mentre la risoluzione DNS avviene prima dell'avvio del ping. A parità di risoluzione, il DNS non influisce quindi sul ping.
 - ❌ **Download più veloce**: per lo stesso motivo del ping, il DNS non influisce sulla velocità della propria connessione. Anche nel caso in cui vengano usate tecniche di geolocalizzazione per individuare l'indirizzo IP del server più vicino[^anycast], il server DNS di un ISP italiano si trova in Italia e consente quindi una corretta geolocalizzazione.
 - ❌ **Risolvere problemi con un sito**: al netto di censura e complotti, i server DNS non hanno ruolo nel caricamento delle pagine web. Problemi di caricamento non possono essere risolti cambiando il server DNS.
