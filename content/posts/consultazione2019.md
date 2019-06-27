@@ -2,7 +2,7 @@
 title: "La consultazione Infratel 2019"
 slug: consultazione-2019
 date: 2019-04-04
-lastmod: 2019-06-03T20:49:00+02:00
+lastmod: 2019-06-27T18:51:00+02:00
 authors: [Matteo]
 description: La consultazione Infratel 2019 ha lo scopo di aggiornare le aree nere e grigie, per poi pianificare gli interventi pubblici per la copertura FTTH.
 categories: [Copertura, Piano BUL]
@@ -78,7 +78,9 @@ A questi dati, riguardanti le aree nere e grigie, vanno aggiunte le aree già co
 
 ## I risultati dettagliati
 
-I dati comune per comune, e probabilmente anche indirizzo per indirizzo, saranno pubblicati entro giugno sul sito [Banda Ultra Larga](http://bandaultralarga.italia.it).
+I dati comune dettagliati (per comune e per indirizzo) sono stati pubblicati il 27 giugno 2019 sul sito [Banda Ultra Larga](http://bandaultralarga.italia.it).
+
+Segui [la nostra guida]({{% relref "/posts/sitobul2019.md" %}}) per verificare le previsioni di intervento fino al 2021.
 
 [^infratel1]: https://consultazione.infratelitalia.it/doc/Manuale_Istruzioni_monitoraggio_2019.pdf
 [^infratel2]: http://bandaultralarga.italia.it/infratel-ha-completato-il-monitoraggio-2019-della-consultazione-aree-grigie-e-nere/

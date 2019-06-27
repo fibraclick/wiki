@@ -27,7 +27,7 @@ Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel*
 
 Open Fiber prevede di coprire in FTTH **circa 270 città entro il 2022**, con un investimento stimato di circa 6,5 miliardi di euro.[^of2][^adnk]
 
-La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul.md" >}}) il sito istituzionale Banda Ultralarga.
+La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul2019.md" >}}) il sito istituzionale Banda Ultralarga.
 
 {{% green %}}
 ###### La rete Metroweb
@@ -95,7 +95,7 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 - [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
 - [Cosa sono le aree nere, grigie, e bianche]({{< relref "/posts/aree.md" >}})
 - [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}})
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 {{% /info %}}
 
 {{< footer >}}

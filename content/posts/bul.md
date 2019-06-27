@@ -130,7 +130,7 @@ Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a 
 Vedi anche:
 
 - [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/architetture.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}})
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 {{% /info %}}
 
 ## L'avanzamento del progetto
@@ -164,7 +164,7 @@ A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tram
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
 
 {{% info %}}
-I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}) per approfondimenti.
+I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
 {{% /info %}}
 
 {{% green %}}
@@ -204,7 +204,7 @@ Man mano che la fase 1 del piano BUL si avvicina alla conclusione, l'attenzione 
 Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se sarà presente intervento privato/pubblico a 30 o 100 Mbps.
 
 {{% info %}}
-Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}).
+Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}).
 {{% /info %}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/

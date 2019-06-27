@@ -45,7 +45,7 @@ Per approfondimenti, visita [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}
 {{% /green %}}
 
 {{% info %}}
-I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul.md" >}}) per approfondimenti.
+I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
 {{% /info %}}
 
 ## I cluster
