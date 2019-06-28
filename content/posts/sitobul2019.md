@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-06-28T11:05:00+02:00
+lastmod: 2019-06-28T15:52:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -84,7 +84,7 @@ In seguito riportiamo alcuni esempi con relativa spiegazione del loro significat
 
 Questa è la situazione più comune, e indica che un operatore ha intenzione di realizzare un'infrastruttura che garantisca almeno 30 Mbps in download e 15 in upload (NGA).
 
-Nella pratica, la presenza di un operatore indica sostanzialmente sempre **TIM con la sua FTTC**, che in casi ottimali può offrire **fino a 100 o 200 Mbps in download e 20 Mbps in upload**.
+Nella pratica, la presenza di un operatore indica frequentemente **TIM con la sua FTTC**, che in casi ottimali può offrire **fino a 100 o 200 Mbps in download e 20 Mbps in upload**.
 
 {{% info %}}
 La **fase 2** del piano nazionale **Banda Ultra Larga** prevede la copertura in FTTH a 100 Mbps/1 Gbps delle aree grigie, cioè le aree con presenza di una sola infrastruttura NGA. [Scopri di più sul piano BUL]({{% relref "/posts/bul.md" %}}).
@@ -92,7 +92,9 @@ La **fase 2** del piano nazionale **Banda Ultra Larga** prevede la copertura in 
 
 In rari casi l'operatore può essere un operatore locale che investe in FTTC SLU (ad esempio Planetel). Si tratta, sintetizzando, di una rete proprietaria indipendente da TIM ad eccezione della tratta secondaria in rame tra armadio ripartilinea e abitazioni. Le prestazioni sono quasi identiche rispetto a un eventuale copertura TIM con la stessa architettura e tecnologia.
 
-**Non è chiaro se gli operatori wireless (ad esempio Eolo e Linkem) sono contati come operatore a 30 Mbps**.
+Anche gli operatori di rete wireless (ad esempio Eolo e Linkem) sono contati come operatore NGA, sia nel caso in cui offrano connessioni a 30 che 100 Mbps.[^cons2019]
+
+[^cons2019]: pagina 10 http://www.infratelitalia.it/wp-content/uploads/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
 
 {{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
 
@@ -107,7 +109,7 @@ Se il sito indica un operatore 30 Mbps ma sai che l'indirizzo **non è coperto**
 
 {{% fig src="/images/bul2019/sitobul5.png" caption="Intervento privato NGA, due operatori" alt="Schema che dice intervento privato NGA con due operatori" %}}
 
-Questo caso è un'"evoluzione" del precedente e **indica la presenza di una seconda infrastruttura NGA**. Si tratta spesso di una seconda rete FTTC >30 Mbps.
+Questo caso è un'"evoluzione" del precedente e **indica la presenza di una seconda infrastruttura NGA**. Si tratta spesso di una seconda rete FTTC, oppure di un operatore wireless.
 
 Si faccia attenzione al fatto che "due infrastrutture" non è la stessa cosa di dire "due operatori". Un operatore può rivendere il servizio FTTC di TIM utilizzando l'infrastruttura TIM già esistente, e in questo caso non comparirebbe come secondo operatore sul sito BUL.
 
