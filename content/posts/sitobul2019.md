@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-06-27T20:00:00+02:00
+lastmod: 2019-06-28T11:05:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -92,7 +92,7 @@ La **fase 2** del piano nazionale **Banda Ultra Larga** prevede la copertura in 
 
 In rari casi l'operatore può essere un operatore locale che investe in FTTC SLU (ad esempio Planetel). Si tratta, sintetizzando, di una rete proprietaria indipendente da TIM ad eccezione della tratta secondaria in rame tra armadio ripartilinea e abitazioni. Le prestazioni sono quasi identiche rispetto a un eventuale copertura TIM con la stessa architettura e tecnologia.
 
-**Gli operatori wireless (ad esempio Eolo e Linkem) non sono contati come operatore a 30 Mbps** (e nemmeno 100 Mbps).
+**Non è chiaro se gli operatori wireless (ad esempio Eolo e Linkem) sono contati come operatore a 30 Mbps**.
 
 {{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
 
@@ -102,12 +102,12 @@ Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/ar
 
 Se il sito indica un operatore 30 Mbps ma sai che l'indirizzo **non è coperto**, ci possono essere diversi motivi:
 
-- la copertura potrebbe essere in ritardo;
+- la copertura potrebbe essere in ritardo o rimandata;
 - l'indirizzo potrebbe trovarsi in un'**ex area bianca**, ossia una zona dove TIM aveva inizialmente dichiarato di non voler coprire in FTTC, ma poi l'ha fatto. **Questi interventi sono illegali e sono stati in molti casi sospesi dalle autorità**, per consentire invece la copertura pubblica tramite il [piano BUL]({{< relref "/posts/bul.md" >}}). Il sito BUL non viene aggiornato in caso di sospensione della copertura.
 
 {{% fig src="/images/bul2019/sitobul5.png" caption="Intervento privato NGA, due operatori" alt="Schema che dice intervento privato NGA con due operatori" %}}
 
-Questo caso è un'"evoluzione" del precedente e **indica la presenza di una seconda infrastruttura per la FTTC**.
+Questo caso è un'"evoluzione" del precedente e **indica la presenza di una seconda infrastruttura NGA**. Si tratta spesso di una seconda rete FTTC >30 Mbps.
 
 Si faccia attenzione al fatto che "due infrastrutture" non è la stessa cosa di dire "due operatori". Un operatore può rivendere il servizio FTTC di TIM utilizzando l'infrastruttura TIM già esistente, e in questo caso non comparirebbe come secondo operatore sul sito BUL.
 
@@ -123,9 +123,11 @@ Altri operatori locali, tra cui il caso notevole di Planetel, hanno realizzato i
 Per approfondire, leggi [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 {{% /info %}}
 
+**Non è chiaro se gli operatori wireless (ad esempio Eolo e Linkem) sono contati come infrastruttura a 30 Mbps**.
+
 {{% fig src="/images/bul2019/sitobul6.png" caption="Intervento privato NGA-VHCN, un operatore" alt="Schema che dice intervento privato NGA VHCN con un operatore" %}}
 
-Indica che è prevista un'infrastruttura che possa garantire una velocità notevolmente maggiore di 100 Mbps con picchi di 1 Gbps (*Very High Capacity Network*). **Equivale sempre a una infrastruttura FTTH**.
+Indica che è prevista un'infrastruttura che possa garantire una velocità notevolmente maggiore di 100 Mbps con picchi di 1 Gbps (*Very High Capacity Network*). **Equivale solitamente a una infrastruttura FTTH**, ma non è per ora chiaro se in questa definizione rientrano anche le reti FWA 5G.
 
 Si tratta molto spesso di copertura da parte di **Open Fiber**, ma non sempre. In alcuni casi potrebbe trattarsi di un **operatore locale**, come ad esempio Isiline, Intred, Unidata, ecc., oppure della rete **TIM realizzata precedentemente alla nascita di Flash Fiber** (2016).
 
