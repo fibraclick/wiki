@@ -15,6 +15,10 @@ I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, che hann
 
 Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per decifrarne il risultato.
 
+{{% warn %}}
+⚠ La guida è in aggiornamento in seguito all'aggiornamento del sito BUL del 27 giugno 2019. Alcune parti potrebbero contenere imprecisioni.
+{{% /warn %}}
+
 {{< toc >}}
 
 ## Sfondo blu
