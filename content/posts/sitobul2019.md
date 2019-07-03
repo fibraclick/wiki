@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-06-28T19:10:00+02:00
+lastmod: 2019-07-03T16:06:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -28,7 +28,9 @@ Decifrare le intenzioni di copertura non è sempre facile. Se hai bisogno di aiu
 Significa che l'indirizzo sarà coperto tramite **intervento dello Stato con fondi pubblici**. Può essere indicata anche una velocità minima prevista per il cablaggio, e in particolare:
 
 - **100 Mbps**: copertura in <abbr title="Fiber To The Home, fibra fino a casa">**FTTH**</abbr> con velocità in download tra i 100 Mbps e i 1000 Mbps (1 Gbps), a seconda del taglio offerto dall'operatore scelto;
-- **30 Mbps**: copertura in <abbr title="Fixed Wireless Access">**FWA**</abbr>, cioè **wireless**, con una tecnologia che possa garantire almeno 30 Mbps in download e 15 in upload. In alcuni casi la scritta 30 Mbps indica copertura realizzata da TIM in FTTC utilizzando fondi pubblici. È un caso frequente in Sardegna, dove Infratel e la regione hanno firmato un accordo speciale con TIM. Per approfondimenti visita il sito [Sardegna Digital](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/). In questo caso la copertura FTTC può in realtà arrivare a 100 o anche 200 Mbps, a seconda della distanza dall'armadio TIM e altri fattori.
+- **30 Mbps**: copertura in <abbr title="Fixed Wireless Access">**FWA**</abbr>, cioè **wireless**, con una tecnologia che possa garantire almeno 30 Mbps in download e 15 in upload. In alcuni casi la scritta 30 Mbps indica copertura realizzata da TIM in FTTC utilizzando fondi pubblici. È un caso frequente in [Sardegna](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/), Abruzzo, Puglia e Calabria[^bulfttn]. In questo caso la copertura FTTC può in realtà arrivare a 100 o anche 200 Mbps, a seconda della distanza dall'armadio TIM e altri fattori.
+
+[^bulfttn]: La lista dei comuni è disponibile in questa pagina, nella barra laterale (solo su desktop) http://www.infratelitalia.it/operatori/
 
 La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del piano BUL 2020, che prevede un intervento diretto dello Stato con un modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di proprietà dello Stato.
 
