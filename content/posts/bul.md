@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2019-04-19
+lastmod: 2019-07-07T12:08:00+02:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -147,7 +147,7 @@ Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al 
 ⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica. Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
 {{% /warn %}}
 
-Al momento (aprile 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
+Al momento (luglio 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
 
 {{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
 
