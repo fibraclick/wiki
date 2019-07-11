@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-07-03T16:06:00+02:00
+lastmod: 2019-07-11T22:36:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -78,7 +78,7 @@ I numeri indicano il **numero di infrastrutture** installate o previste. Si teng
 
 A questo punto, se risulta un numero maggiore di 0 nella casella NGA-VHCN:
 
-- **1 VHCN** equivale molto spesso a copertura da parte di **[Open Fiber]({{< relref "/posts/openfiber.md" >}})**, ma non sempre. Potrebbe anche trattarsi di un **operatore locale**, come ad esempio Isiline, Intred, Unidata, ecc., oppure della rete **TIM** realizzata precedentemente alla nascita di Flash Fiber (2016);
+- **1 VHCN** equivale molto spesso a copertura da parte di **[Open Fiber]({{< relref "/posts/openfiber.md" >}})**, ma non sempre. Potrebbe anche trattarsi di un **operatore locale**, come ad esempio Isiline, Intred, Unidata, ecc., oppure della rete **TIM** realizzata precedentemente alla nascita di Flash Fiber (2016) o tramite i bandi Eurosud;
 - **3 VHCN** corrisponde frequentemente alla copertura **[Flash Fiber]({{< relref "/posts/flashfiber.md" >}})**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
 
 {{% warn %}}
@@ -118,5 +118,7 @@ Per approfondire:
 {{% fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" %}}
 
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+
+{{% fig src="/images/roe-timsud.jpg" caption="ROE TIM realizzato tramite bandi Eurosud. Grazie a \"Gatsu\" per la foto" alt="Scatola di un ROE con le etichette TIM e Eurosud, con il logo dell'unione europea" vertical="true" %}}
 
 {{< footer >}}
