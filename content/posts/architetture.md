@@ -2,7 +2,7 @@
 title: Cosa significano FTTC, FTTS, FTTE, FTTH e FWA
 slug: architetture
 date: 2019-03-22
-lastmod: 2019-04-12
+lastmod: 2019-07-12T12:07:00+02:00
 authors: [Matteo]
 description: Le sigle indicano diversi tipi di architetture di rete, in particolare in base all'estensione della tratta in fibra ottica della connessione.
 categories: [Definizioni, FTTC, FTTH, FWA]
@@ -91,7 +91,7 @@ In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, princip
 [^6]: https://rete.gruppotim.it/it/numeri/italia/2018/fibra
 [^7]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/en/
 
-Ad aprile 2019 TIM dichiara di coprire 2719 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
+A luglio 2019 TIM dichiara di coprire 2776 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
 
 [^8]: https://www.tim.it/verifica-copertura
 [^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
@@ -145,7 +145,7 @@ La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che
 
 #### Diffusione in Italia
 
-In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 città entro il 2023**.[^13] Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **download da 1 Gbps** e upload che varia da 100 a 300 Mbps.
+In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 grandi città entro il 2023**[^13] e migliaia di piccoli comuni nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}). Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **1 Gbps in download** e upload tra 100 e 300 Mbps.
 
 [^13]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
 
