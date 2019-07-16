@@ -2,7 +2,7 @@
 title: "Cosa significano VULA, SLU e NGA"
 slug: vula-slu-nga
 date: 2019-04-18T22:39:45+02:00
-lastmod: 2019-04-19
+lastmod: 2019-07-16T20:45:00+02:00
 authors: [Matteo]
 description: Le sigle indicano le modalità con cui gli operatori telefonici possono rivendere la rete fissa di TIM, cioè l'operatore dominante in Italia.
 categories: [Definizioni, FTTC, FTTH]
@@ -47,7 +47,7 @@ Questo comporta che l'operatore alternativo duplichi l'infrastruttura di TIM, in
 - **ONU** (*Optical Network Unit*) è la terminazione su strada della rete ottica. In questo caso svolge il ruolo di **DSLAM** (*Digital Subscriber Line Access Multiplexer*), e cioè consente di gestire il **collegamento di molte linee in rame** (ADSL o VDSL). **L'operatore installa un proprio ONU accanto a quello TIM**;
 - **ARL** è l'armadio ripartilinea, cioè il punto di raccordo del rame che collega le abitazioni tramite la tratta secondaria. **Tutti gli operatori SLU utilizzano l'ARL TIM**.
 
-I due principali operatori che in Italia hanno installato infrastrutture SLU sono **Fastweb e Vodafone**, entrambi in poco più di 100 comuni. La rete SLU di Vodafone viene talvolta chiamata anche "MAKE".
+I due principali operatori che in Italia hanno installato infrastrutture SLU sono **Fastweb e Vodafone**, entrambi in poco più di 100 comuni. La rete SLU di Vodafone viene talvolta chiamata anche "MAKE", mentre quella di Fastweb "FTTS". In aggiunta, **Tiscali** ha un accordo con Fastweb per la rivendita della FTTS.
 
 Altri operatori locali, tra cui il caso notevole di Planetel, hanno realizzato infrastrutture SLU in qualche comune.
 
