@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2019-07-07T12:08:00+02:00
+lastmod: 2019-07-22T19:36:00+02:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -135,19 +135,21 @@ Vedi anche:
 
 ## L'avanzamento del progetto
 
-Per via dei numerosi ricorsi e della lentezza nell'organizzazione, la copertura è stata avviata con notevole ritardo.
+Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata con notevole ritardo durante il 2018.
 
-Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri durante il 2018, con l'obiettivo di aprirne altri 2000 entro la fine del 2019.[^10][^11]
+Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri nel 2018, con l'obiettivo di aprirne altri 2000 entro la fine del 2019.[^10][^11]
 
-Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dal bando.[^interrogazione]
+Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dal bando.[^interrogazione][^interrogazione2]
 
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
-{{% warn %}}
-⚠ Open Fiber non vende abbonamenti direttamente ai clienti finali, ma è un operatore **all'ingrosso** che offre la rete agli altri operatori, che devono quindi manifestare l'interesse nell'utilizzare la rete pubblica. Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
-{{% /warn %}}
+Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria. A luglio 2019, gli operatori che hanno confermato di avere accordi con Open Fiber per i cluster C e D sono **Vodafone, Tiscali e Fastweb**.
 
-Al momento (luglio 2019) **nessun utente è stato ancora attivato su rete BUL**, e non sono ancora noti con certezza i nomi degli operatori che saranno disponibili. Il Governo dichiara che l'obiettivo è aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
+È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 100 Mbps/1 Gbps e prevede l'attivazione di alcuni clienti scelti dall'operatore partner di Open Fiber. Maggiori informazioni sulla sperimentazione sono disponibili [qui](https://t.me/FibraClick/268).
+
+{{% fig src="/images/sperimentazione-of-2019.jpg" caption="Lista dei 70 comuni che fanno parte della sperimentazione Open Fiber FTTH nei cluster C e D" %}}
+
+Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
 
 {{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
 
@@ -223,6 +225,7 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^13]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
 [^camera]: http://www.camera.it/temiap/documentazione/temi/pdf/1104721.pdf
 [^interrogazione]: http://www.astrid-online.it/static/upload/inte/interrogazione-5_00895-e-testo-della-risposta.pdf
+[^interrogazione2]: pagina 11 http://documenti.camera.it/leg18/resoconti/commissioni/bollettini/pdf/2019/07/11/leg.18.bol0220.data20190711.com09.pdf
 [^crescita]: http://www.crescitadigitaleincomune.it/wp-content/uploads/package_uploads/Webinar_Infratel/Presentazione%20Cudia.pdf
 
 {{< footer >}}
