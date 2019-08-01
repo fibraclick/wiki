@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2019-07-22T19:36:00+02:00
+lastmod: 2019-08-01T23:00:00+02:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -30,14 +30,14 @@ La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiunger
 Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di euro sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
 
 {{% green %}}
-In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce di solito all'architettura FTTC o FWA**. Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
+In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce di solito all'architettura FTTC o FWA** (fibra misto rame/radio). Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
 
-Ad oggi **con "100 Mbps" si intende invece esclusivamente la FTTH**.
+Ad oggi **con "100 Mbps" si intende invece esclusivamente FTTH** (fibra ottica fino a casa).
 {{% /green %}}
 
 ## Gli obiettivi europei per il 2025
 
-Nel 2016 la Commissione Europea ha annunciato gli obiettivi per il 2025:
+Nel 2016 la Commissione Europea ha annunciato gli **obiettivi per il 2025**:
 
 1. connettività di almeno 1 Gbps per scuole e uffici pubblici;
 2. connettività di **almeno 100 Mbps, espandibile a Gigabit, per tutte le famiglie europee**;
@@ -45,24 +45,22 @@ Nel 2016 la Commissione Europea ha annunciato gli obiettivi per il 2025:
 
 ## Il piano BUL italiano
 
-Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. **La prima fase è attualmente in corso e sarà completata entro il 2020**, mentre la seconda fase non è stata ancora definita in dettaglio.
+Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, corrispondenti rispettivamente agli obiettivi europei per il 2020 e per il 2025. **La prima fase è attualmente in corso**, mentre la seconda fase non è stata ancora definita in dettaglio (2019).
 
 La prima fase del piano BUL è stata finanziata tramite fondi FSC, FESR e FEASR e ha l'obiettivo di **coprire il 24,6% della popolazione italiana**, cioè la porzione considerata a rischio di divario digitale.[^9] Si tratta di tutte le aree non già coperte da una connessione ad almeno 30 Mbps, le cosiddette **aree bianche**. Vedi i capitoli successivi per i dettagli 👇.
 
 {{% green %}}
 ###### Cos'è l'intervento diretto
 
-A differenza di quanto avveniva in precedenza, il piano BUL 2015-2020 ha adottato in modo esclusivo il modello di **intervento diretto**.
+Il piano BUL 2015-2020 ha adottato in modo esclusivo il modello di **intervento diretto**. Questo prevede che il coordinamento della rete sia gestito da un'autorità completamente pubblica, in particolare **Infratel**, un'azienda controllata dal Ministero dello Sviluppo Economico.
 
-Questo prevede che il coordinamento della rete sia gestito da un'autorità completamente pubblica, in particolare **Infratel**, un'azienda controllata dal Ministero dello Sviluppo Economico.
-
-**La rete realizzata è perciò di proprietà pubblica** e ad accesso aperto all'ingrosso (*open access wholesale*). In altre parole, significa che **tutti gli operatori possono utilizzarla** dietro pagamento di un canone.
+**La rete realizzata è perciò di proprietà pubblica** e ad accesso aperto all'ingrosso (*open access wholesale*). In altre parole, significa che **tutti gli operatori possono utilizzarla** senza discriminazione dietro pagamento di un canone.
 {{% /green %}}
 
 {{% warn %}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
-Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "/posts/architetture.md" >}})**, cioè le cosiddette aree grigie o cluster B, anche nei casi di linee in rame lunghe.
+Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "/posts/architetture.md" >}})**, cioè le cosiddette aree grigie/nere o cluster B, anche nei casi di linee in rame lunghe.
 
 Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
@@ -135,7 +133,7 @@ Vedi anche:
 
 ## L'avanzamento del progetto
 
-Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata con notevole ritardo durante il 2018.
+Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
 Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri nel 2018, con l'obiettivo di aprirne altri 2000 entro la fine del 2019.[^10][^11]
 
@@ -143,9 +141,11 @@ Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun co
 
 Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
 
-Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria. A luglio 2019, gli operatori che hanno confermato di avere accordi con Open Fiber per i cluster C e D sono **Vodafone, Tiscali e Fastweb**.
+Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria.
 
-È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 100 Mbps/1 Gbps e prevede l'attivazione di alcuni clienti scelti dall'operatore partner di Open Fiber. Maggiori informazioni sulla sperimentazione sono disponibili [qui](https://t.me/FibraClick/268).
+Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche Fastweb ha [annunciato](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) accordi con Open Fiber per le aree bianche.
+
+È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 100 Mbps/1 Gbps e prevede l'attivazione di alcuni clienti nei comuni interessati.
 
 {{% fig src="/images/sperimentazione-of-2019.jpg" caption="Lista dei 70 comuni che fanno parte della sperimentazione Open Fiber FTTH nei cluster C e D" %}}
 

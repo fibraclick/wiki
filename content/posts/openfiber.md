@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Open Fiber"
 slug: openfiber
 date: 2019-04-17T21:34:32+02:00
-lastmod: 2019-04-17
+lastmod: 2019-08-01T22:56:32+02:00
 authors: [Matteo]
 description: Open Fiber realizza reti Fiber To The Home in Italia, con l'obiettivo di coprire migliaia di comuni entro il 2022, sia con fondi privati che pubblici.
 categories: [Definizioni, Copertura, FTTH]
@@ -32,9 +32,7 @@ La lista completa delle città non è pubblica, ma le città in cui la rete è i
 {{% green %}}
 ###### La rete Metroweb
 
-Open Fiber ha incorporato alla sua nascita la rete di Metroweb, realizzata a partire dagli anni 2000 a Milano e in poche altre città italiane, con il sostegno di Fastweb.
-
-Fastweb ha conservato la possibilità di vendere la ex rete Metroweb, ma nel momento in cui scriviamo (aprile 2019) non è presente in altre città coperte da Open Fiber.
+Open Fiber ha incorporato alla sua nascita la rete di Metroweb, realizzata con il sostegno di Fastweb a partire dagli anni 2000 a Milano e in poche altre città italiane. Fastweb ha conservato la possibilità di vendere la ex rete Metroweb, e nel 2019 ha [annunciato](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) di voler estendere la copertura ad altre città Open Fiber.
 {{% /green %}}
 
 ## Lavori di copertura
@@ -54,14 +52,6 @@ Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere a
 La rete Open Fiber è ad "accesso aperto", e cioè resa disponibile a tutti gli operatori, che possono quindi utilizzarla per vendere connessioni a Internet alla velocità che preferiscono.
 
 Gli operatori disponibili **dipendono da città a città**, e sono indicati più precisamente sul [sito ufficiale](https://openfiber.it/it). Sono in genere presenti alcuni operatori nazionali (Vodafone, Wind Tre, Tiscali, ecc.), e a volte altri operatori locali.
-
-{{% green %}}
-###### TIM e Fastweb
-
-TIM e Fastweb stanno realizzando in parallelo a Open Fiber reti FTTH in 29 città italiane, tramite la joint venture [Flash Fiber]({{< relref "/posts/flashfiber.md" >}}). Per questo motivo, nel momento in cui scriviamo (aprile 2019) **non è possibile sottoscrivere contratti su rete Open Fiber con gli operatori TIM e Fastweb**.
-
-Va notato che per quanto riguarda **Fastweb** fanno eccezione le zone coperte tramite la ex rete Metroweb (**Milano** e poche altre città).
-{{% /green %}}
 
 ## Tecnologia GPON
 

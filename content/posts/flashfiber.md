@@ -57,6 +57,8 @@ Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livell
 
 Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture TIM e Fastweb**. Una delle conseguenze è che nei punti di splitting di Flash Fiber (ad esempio nei ROE) entra la fibra ottica sia di TIM che di Fastweb, e lo splitting avviene indipendentemente per ciascun operatore (fattore di 1:8 per operatore). Anche gli OLT in centrale sono separati per i due operatori.
 
+## Foto
+
 {{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
 
 {{% fig src="/images/roe-ff2.jpg" caption="CNO Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un CNO legata a un palo della rete TIM" %}}

@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-07-11T22:36:00+02:00
+lastmod: 2019-08-01T22:46:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -32,11 +32,11 @@ Significa che l'indirizzo sarà coperto tramite **intervento dello Stato con fon
 
 [^bulfttn]: La lista dei comuni è disponibile in questa pagina, nella barra laterale (solo su desktop) http://www.infratelitalia.it/operatori/
 
-La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del piano BUL 2020, che prevede un intervento diretto dello Stato con un modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di proprietà dello Stato.
+La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2020, che prevede un intervento diretto dello Stato con modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di **proprietà dello Stato**.
 
 Per avere la certezza della tecnologia con cui il proprio indirizzo sarà coperto, conviene **contattare il proprio comune**, anche scrivendo all'<abbr title="Ufficio Relazioni con il Pubblico">URP</abbr> oppure all'assessore con delega ai lavori pubblici o alle reti.
 
-Lo stato della realizzazione può essere verificato nella pagina del comune sul sito Banda Ultra Larga, e una volta realizzata sarà aperta a tutti gli operatori telefonici, a cui i clienti dovranno rivolgersi per poter attivare una linea. 
+Lo stato della realizzazione può essere verificato nella pagina del comune sul sito Banda Ultra Larga oppure nell'[area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) del sito Open Fiber. Una volta terminati i lavori, la rete sarà messa a disposizione di tutti gli operatori telefonici, a cui i clienti dovranno rivolgersi per poter attivare una linea. 
 
 {{% info %}}
 Per approfondire:
@@ -110,6 +110,8 @@ Per approfondire:
 - [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}})
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
 {{% /info %}}
+
+### Foto
 
 {{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
 
