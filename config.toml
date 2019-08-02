@@ -14,6 +14,7 @@ removePathAccents = true
   description = "Dubbi sulla fibra ottica, copertura o intervento pubblico? FibraClick Wiki è lo spazio dedicato dove trovare risposte precise e curate."
   analytics = "UA-65084561-3"
   propaganda = true
+  propagandaBaseUrl = "https://propaganda.fibra.click"
 
 [permalinks]
   posts = "/:slug"
