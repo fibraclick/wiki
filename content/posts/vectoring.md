@@ -2,7 +2,7 @@
 title: "Cos'è il vectoring"
 slug: vectoring
 date: 2019-04-20T11:40:36+02:00
-lastmod: 2019-08-09T12:00:00+02:00
+lastmod: 2019-08-09T13:10:00+02:00
 authors: [Matteo]
 description: Il vectoring è una tecnologia che permette di ridurre i disturbi causati da altre linee VDSL2 adiacenti. Come funziona e come si applica.
 categories: [Definizioni, FTTC]
@@ -15,7 +15,7 @@ Questo fenomeno è definito **diafonia** (*crosstalk*), e può ridurre la veloci
 
 La diafonia è curabile tramite una tecnica chiamata **vectoring** (*G.993.5*), un **metodo di trasmissione** che **coordina la trasmissione dei segnali** per annullare quasi completamente la diafonia.[^itu2]
 
-La diafonia riduce il problema della diafonia ma **non risolve le limitazioni delle linee in rame**: la lunghezza della tratta in rame resta infatti il principale fattore che determina la velocità della linea. Il vectoring è d'aiuto in presenza di sintomi che fanno pensare alla diafonia, cioè la perdita di velocità con il passare del tempo senza aumento dell'attenuazione del segnale.
+Il vectoring riduce il problema della diafonia ma **non risolve le limitazioni delle linee in rame**: la lunghezza della tratta in rame resta infatti il principale fattore che determina la velocità della linea. Il vectoring è d'aiuto in presenza di sintomi che fanno pensare alla diafonia, cioè la perdita di velocità con il passare del tempo senza aumento dell'attenuazione del segnale.
 
 {{< toc >}}
 
