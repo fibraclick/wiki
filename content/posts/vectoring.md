@@ -37,6 +37,8 @@ Questo è il principale motivo per cui **in Italia il vectoring non è stato app
 
 La delibera Agcom 348/19/CONS[^agcom2] del 18 luglio 2019 **apre finalmente alla possibilità di utilizzare il vectoring** senza MOV nelle aree in cui lo SLU non è presente, cioè circa il 95% dei comuni.[^slu] Prevede anche che in presenza di SLU gli operatori possano procedere con l'attivazione del vectoring anche in assenza di un accordo, una voltra trascorsi 2 mesi dalla proposta.[^fcvect]
 
+Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta attivo solo in via sperimentale su un numero limitato di DSLAM TIM.
+
 {{< footer >}}
 
 [^itu2]: https://www.itu.int/rec/T-REC-G.993.5
