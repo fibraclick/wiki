@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Flash Fiber"
 slug: flashfiber
 date: 2019-04-05
-lastmod: 2019-04-06
+lastmod: 2019-08-22
 authors: [Matteo]
 description: Flash Fiber è la joint venture di TIM e Fastweb che prevede la copertura in fibra ottica di 29 grandi città italiane entro il 2020.
 categories: [Definizioni, Copertura, FTTH]
@@ -70,6 +70,8 @@ Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba
 {{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" %}}
 
 {{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
+
+{{% fig src="/images/muffola-ff.jpg" vertical="true" caption="Muffola compatta, da non confondere con il ROE, con lo scopo di fare da giunto per collegare più ROE. Grazie a @DDR per la foto" %}}
 
 [^ff1]: https://www.flashfiber.it/chi-siamo/lazienda/
 [^ff2]: https://www.flashfiber.it/chi-siamo/
