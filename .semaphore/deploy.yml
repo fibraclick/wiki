@@ -28,7 +28,7 @@ blocks:
           - git submodule init
           - git submodule update
       jobs:
-        - name: Build and push
+        - name: Build and push files
           commands:
             - hugo -v
             - ls -lah public/
@@ -46,6 +46,6 @@ blocks:
 
           - checkout
       jobs:
-        - name: SSH
+        - name: Publish website
           commands:
             - ssh deploy@$IP REVISION=$SEMAPHORE_GIT_SHA DESTINATION=$WIKI_DESTINATION 'bash -s' < .semaphore/deploy.sh
