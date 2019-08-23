@@ -8,7 +8,7 @@ agent:
     os_image: ubuntu1804
 
 execution_time_limit:
-  minutes: 6
+  minutes: 3
 
 blocks:
   - name: Hugo
