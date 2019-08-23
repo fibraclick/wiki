@@ -1,0 +1,23 @@
+version: v1.0
+
+name: Main
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+execution_time_limit:
+  minutes: 1
+
+blocks:
+  - name: Empty
+    task:
+      jobs:
+        - name: 'Echo-ing something'
+          commands:
+            - echo "I am useless"
+
+promotions:
+  - name: Deploy
+    pipeline_file: deploy.yml
