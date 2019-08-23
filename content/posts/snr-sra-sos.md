@@ -60,7 +60,7 @@ Il valore _target_ di 6 dB menzionato in precedenza vale per gran parte delle li
 Avere il margine a 12 dB porta un vantaggio e uno svantaggio:
 
 - **la linea è più stabile**, e cioè è meno suscettibile al rumore. Per fare un esempio, se un'improvvisa interferenza causata da un apparato elettronico causa una perdita di 3 dB di margine, il rischio di perdere la connessione è molto più alto con un margine di 3 dB rispetto ad averlo a 9 dB. In altre parole, con un _target_ a 12 dB viene aumentato il "cuscinetto" che permette di attutire gli effetti del rumore;
-- **la linea perde qualche Mbps di velocità**, perché... perché? Non so spiegarlo.
+- **la linea perde qualche Mbps di velocità**, perché...
 
 ## SOS (Save Our Showtime)
 
