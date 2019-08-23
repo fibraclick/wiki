@@ -3,7 +3,7 @@ title: "Cosa indicano SNR, SRA e SOS in VDSL2"
 slug: snr-sra-sos
 date: 2019-08-22T13:22:09+02:00
 lastmod: 2019-08-23T15:10:00+02:00
-authors: [Andrea (Hadx), Matteo]
+authors: [Andrea (Hadx) e Matteo]
 description: "In VDSL2 il margine di rumore e le tecniche SRA e SOS assumono maggiore importanza. Una spiegazione elementare del loro significato."
 categories: [Definizioni, FTTC]
 hidden: true
