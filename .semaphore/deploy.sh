@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-cd /usr/local/openresty/nginx/www/fibraclick-wiki
+cd $DESTINATION
 
 if [ -d "releases/$REVISION" ];
 then

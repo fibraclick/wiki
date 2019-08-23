@@ -18,10 +18,7 @@ blocks:
         - name: fibraclick
       prologue:
         commands:
-          - sudo apt-get update
-          - sudo apt-get install -y wget
-          - wget "https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz"
-          - tar zxvf "hugo_extended_0.54.0_Linux-64bit.tar.gz"
+          - curl -L https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz | tar xzv
           - sudo mv hugo /usr/local/bin
 
           - chmod 0600 ~/.keys/*
@@ -34,7 +31,8 @@ blocks:
         - name: Build and push
           commands:
             - hugo -v
-            - scp -r public/ deploy@$IP:/usr/local/openresty/nginx/www/fibraclick-wiki/deploy-cache
+            - ls -lah public/
+            - rsync -v -e ssh --exclude '.*' -r public/ deploy@$IP:$WIKI_DESTINATION/deploy-cache
 
   - name: web1
     task:
@@ -50,4 +48,4 @@ blocks:
       jobs:
         - name: SSH
           commands:
-            - ssh deploy@$IP REVISION=$SEMAPHORE_GIT_SHA 'bash -s' < .semaphore/deploy.sh
+            - ssh deploy@$IP REVISION=$SEMAPHORE_GIT_SHA DESTINATION=$WIKI_DESTINATION 'bash -s' < .semaphore/deploy.sh
