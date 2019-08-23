@@ -24,8 +24,6 @@ blocks:
           - chmod 0600 ~/.keys/*
           - ssh-add ~/.keys/*
 
-          - rsync --version
-
           - checkout
           - git submodule init
           - git submodule update
@@ -34,7 +32,7 @@ blocks:
           commands:
             - hugo -v
             - ls -lah public/
-            - rsync -v -e ssh --delete -r public/ deploy@$IP:$WIKI_DESTINATION/deploy-cache
+            - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
 
   - name: web1
     task:
