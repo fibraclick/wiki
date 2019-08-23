@@ -17,7 +17,8 @@ blocks:
         - name: web1
       prologue:
         commands:
-          - sudo apt-get update && apt-get install -y wget
+          - sudo apt-get update
+          - sudo apt-get install -y wget
           - wget "https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz"
           - tar zxvf "hugo_extended_0.54.0_Linux-64bit.tar.gz"
           - sudo mv hugo /usr/local/bin
