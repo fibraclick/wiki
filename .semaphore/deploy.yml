@@ -15,6 +15,7 @@ blocks:
     task:
       secrets:
         - name: web1
+        - name: fibraclick
       prologue:
         commands:
           - sudo apt-get update
@@ -37,6 +38,7 @@ blocks:
     task:
       secrets:
         - name: web1
+        - name: fibraclick
       prologue:
         commands:
           - chmod 0600 ~/.keys/*
