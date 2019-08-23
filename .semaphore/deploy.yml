@@ -28,6 +28,8 @@ blocks:
           - ssh-add ~/.keys/*
 
           - checkout
+          - git submodule init
+          - git submodule update
       jobs:
         - name: Build and push
           commands:
