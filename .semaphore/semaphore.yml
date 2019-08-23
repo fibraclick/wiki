@@ -1,0 +1,35 @@
+version: v1.0
+
+name: Main
+
+execution_time_limit:
+  minutes: 1
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+execution_time_limit:
+  minutes: 1
+
+blocks:
+  - name: Hugo
+    task:
+      prologue:
+        commands:
+          - curl -L https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz | tar xzv
+          - sudo mv hugo /usr/local/bin
+
+          - checkout
+          - git submodule init
+          - git submodule update
+      jobs:
+        - name: Build
+          commands:
+            - hugo -v
+            - ls -lah public/
+
+promotions:
+  - name: Deploy
+    pipeline_file: deploy.yml

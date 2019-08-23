@@ -1,0 +1,51 @@
+version: v1.0
+
+name: Deploy
+
+agent:
+  machine:
+    type: e1-standard-2
+    os_image: ubuntu1804
+
+execution_time_limit:
+  minutes: 3
+
+blocks:
+  - name: Hugo
+    task:
+      secrets:
+        - name: web1
+        - name: fibraclick
+      prologue:
+        commands:
+          - curl -L https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz | tar xzv
+          - sudo mv hugo /usr/local/bin
+
+          - chmod 0600 ~/.keys/*
+          - ssh-add ~/.keys/*
+
+          - checkout
+          - git submodule init
+          - git submodule update
+      jobs:
+        - name: Build and push
+          commands:
+            - hugo -v
+            - ls -lah public/
+            - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
+
+  - name: web1
+    task:
+      secrets:
+        - name: web1
+        - name: fibraclick
+      prologue:
+        commands:
+          - chmod 0600 ~/.keys/*
+          - ssh-add ~/.keys/*
+
+          - checkout
+      jobs:
+        - name: SSH
+          commands:
+            - ssh deploy@$IP REVISION=$SEMAPHORE_GIT_SHA DESTINATION=$WIKI_DESTINATION 'bash -s' < .semaphore/deploy.sh
