@@ -2,7 +2,7 @@
 title: "Cosa indicano SNR, SRA e SOS in VDSL2"
 slug: snr-sra-sos
 date: 2019-08-22T13:22:09+02:00
-lastmod: 2019-08-23T15:10:00+02:00
+lastmod: 2019-08-27T10:30:00+02:00
 authors: [Andrea (Hadx) e Matteo]
 description: "In VDSL2 il margine di rumore e le tecniche SRA e SOS assumono maggiore importanza. Una spiegazione elementare del loro significato."
 categories: [Definizioni, FTTC]
@@ -60,7 +60,7 @@ Il valore _target_ di 6 dB menzionato in precedenza vale per gran parte delle li
 Avere il margine a 12 dB porta un vantaggio e uno svantaggio:
 
 - **la linea è più stabile**, e cioè è meno suscettibile al rumore. Per fare un esempio, se un'improvvisa interferenza causata da un apparato elettronico causa una perdita di 3 dB di margine, il rischio di perdere la connessione è molto più alto con un margine di 3 dB rispetto ad averlo a 9 dB. In altre parole, con un _target_ a 12 dB viene aumentato il "cuscinetto" che permette di attutire gli effetti del rumore;
-- **la linea perde qualche Mbps di velocità**, perché...
+- **la linea perde qualche Mbps di velocità**, perché è possibile allocare un numero inferiore di bit per tono rispetto ad un SNR più basso.
 
 ## SOS (Save Our Showtime)
 
@@ -69,5 +69,9 @@ Un'altra tecnica per il controllo del margine di rumore è l'**SOS** (Save Our S
 L'SOS permette quindi di reagire rapidamente a disturbi inaspettati, senza dover necessariamente ricorrere alla modifica del _target_ SNR a 12 dB. Ci si può accorgere che l'SOS è attivo controllando sul proprio modem il valore "INP" e verificando se si aggira intorno a 100 piuttosto che a 60.
 
 Va notato a questo punto che **12 dB e SOS non sono direttamente collegati**. I due meccanismi vengono abilitati in modo indipendente a seconda dei parametri di configurazione del DSLAM, anche se è possibile che le due cose spesso coincidano.
+
+{{% info %}}
+Alcuni dettagli tecnici sull'SOS sono disponibili in fondo a [questo messaggio](https://forum.fibra.click/d/3481-profilo-sos-e-seccature-varie/9), da cui questo articolo è estratto.
+{{% /info %}}
 
 {{< footer >}}
