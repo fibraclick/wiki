@@ -13,7 +13,7 @@ La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/op
 
 Un buon inizio per provare a capire se si è coinvolti dal piano è seguire la guida [*Come controllare la presenza di intervento pubblico o privato*]({{< relref "/posts/sitobul2019.md" >}}), che però dà a volte risultati imprecisi o non sufficientemente dettagliati. Il sito [Open Fiber-Area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) fornisce informazioni più affidabili, ma si limita a indicare il numero di unità immobiliari previste o coperte nel comune.
 
-Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che nei prossimi anni vedrà una [notevole espansione]({< relref "/posts/bul.md#la-fase-2-le-aree-grigie" >}}).
+Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che nei prossimi anni vedrà una [notevole espansione]({{< relref "/posts/bul.md#la-fase-2-le-aree-grigie" >}}).
 
 {{< toc >}}
 
