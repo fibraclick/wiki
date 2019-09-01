@@ -6,6 +6,6 @@ lastmod: {{ .Date }}
 authors: []
 description: ""
 categories: []
-draft: true
+hidden: true
 ---
 
