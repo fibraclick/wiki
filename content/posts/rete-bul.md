@@ -6,6 +6,7 @@ lastmod: 2019-09-02T00:00:00+02:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
+image: /social/piano-bul.jpg
 ---
 
 La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, e ha l'obiettivo di coprire il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa il 75%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
