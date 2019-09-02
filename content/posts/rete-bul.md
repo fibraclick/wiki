@@ -6,7 +6,7 @@ lastmod: 2019-09-02T00:00:00+02:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
-image: /social/piano-bul.jpg
+image: /social/riconoscere-rete-bul.jpg
 ---
 
 La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, e ha l'obiettivo di coprire il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa il 75%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
@@ -25,13 +25,13 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e son
 [^pozz2]: http://www.regione.marche.it/Portals/0/Agenda_Digitale/Piano_BUL/TaskForceBUL/2019%2007%2001%20Regione%20%20Marche%20Task%20Force%20Infratel.pdf
 [^pozz3]: http://www.crescitadigitaleincomune.it/wp-content/uploads/2018/04/Presentazione-Cudia.pdf
 
-{{% fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)" %}}
+{{% fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)." %}}
 
 {{% fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." %}}
 
 ## ROE su edifici e pali
 
-Nelle zone ad alta densità di unità immobiliari possono essere installati dei ROE sui pali o sulle pareti degli edifici. I ROE possono essere anonimi o avere un'etichetta con scritto #BUL o Infratel.
+Nelle zone ad alta densità di unità immobiliari possono essere installati dei ROE (Ripartitori Ottici di Edificio), con lo stesso scopo dei PTA. I ROE possono essere montati sui pali o sulle pareti degli edifici, ed essere anonimi o avere un'etichetta con scritto #BUL o Infratel.
 
 {{% fig src="/images/rete-bul/roe-bul-1.jpg" caption="ROE BUL su palo. Grazie a @Stregone84 per la foto." vertical="true" %}}
 
