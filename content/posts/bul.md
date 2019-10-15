@@ -143,9 +143,9 @@ Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al 
 
 Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria.
 
-Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche Fastweb ha [annunciato](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) accordi con Open Fiber per le aree bianche.
+Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
 
-È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 100 Mbps/1 Gbps e prevede l'attivazione di alcuni clienti nei comuni interessati.
+È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 1 Gbps e prevede l'attivazione di linee nel momento in cui la rete risulta collaudata.
 
 {{% fig src="/images/sperimentazione-of-2019.jpg" caption="Lista dei 70 comuni che fanno parte della sperimentazione Open Fiber FTTH nei cluster C e D" %}}
 
