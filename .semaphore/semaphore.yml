@@ -28,6 +28,7 @@ blocks:
             - cd scripts
             - python3 -V
             - sudo pip3 install -r requirements.txt
+            - pip3 list
             - python3 bul.py
             - hugo -v
             - ls -lah public/
