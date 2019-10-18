@@ -8,7 +8,9 @@ from openpyxl import load_workbook
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
-OUTPUT_DIR = "../static/json-bul/"
+LAST_UPDATE = "7-10-19"
+
+OUTPUT_DIR = "../static/stato-bul/"
 
 MAPPINGS = {
     'emiliaromagna-polesinezibello': 'emiliaromagna-polesineparmense',
@@ -74,7 +76,7 @@ def process_sheet(ws, date, type):
 
         if not key in comuni:
             comuni[key] = dict(key=key, regione=regione, nome=nome)
-        if date == "9-9-19" and not key in most_recent:
+        if date == LAST_UPDATE and not key in most_recent:
             most_recent[key] = dict(key=key, regione=regione, nome=nome)
 
 
@@ -97,13 +99,13 @@ for ws in reversed(wb.worksheets):
 
 logging.info("Done")
 
-logging.info("New in last update:")
+logging.info("MISSING in last update:")
 
 for key in comuni:
     if not key in most_recent:
         logging.info(f"{comuni[key]['regione']} - {comuni[key]['nome']} - [{key}]")
 
-logging.info("Preparing directories")
+logging.info("Cleaning directories...")
 
 # Ensure output dir is empty
 if os.path.exists(OUTPUT_DIR):
@@ -112,13 +114,13 @@ if os.path.exists(OUTPUT_DIR):
 os.mkdir(OUTPUT_DIR)
 os.mkdir(OUTPUT_DIR + "comuni")
 
-logging.info("Writing files")
+logging.info("Writing files...")
 
 for key in data:
     with open(f"{OUTPUT_DIR}comuni/{key}.json", "w") as file:
         json.dump(data[key], file)
 
-logging.info("Writing index")
+logging.info("Writing index...")
 
 with open(OUTPUT_DIR + "index.json", "w") as file:
     json.dump(list(comuni.values()), file)

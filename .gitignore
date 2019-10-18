@@ -69,5 +69,5 @@ $RECYCLE.BIN/
 # End of https://www.gitignore.io/api/hugo,linux,windows,visualstudiocode
 
 .idea
-static/json-bul
+static/stato-bul
 venv

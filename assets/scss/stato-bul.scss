@@ -1,0 +1,51 @@
+#statobul {
+  .statobul-loading {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  .statobul-input {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+
+  ul {
+    margin: 0;
+
+    li {
+      list-style: none;
+    }
+
+    &.statobul-filter {
+      margin-top: 15px;
+
+      li {
+        cursor: pointer;
+      }
+    }
+  }
+
+  em {
+    font-style: normal;
+    background-color: #a4e3b0;
+  }
+
+  h2 {
+    margin: 1.5rem 0;
+  }
+
+  dt {
+    float: left;
+    clear: left;
+    padding-right: 1rem;
+    font-weight: bold;
+    font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+  }
+
+  dd {
+    margin: 0;
+    padding: 0 0 0.25rem 0;
+  }
+}
