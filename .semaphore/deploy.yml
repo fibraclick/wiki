@@ -11,7 +11,7 @@ execution_time_limit:
   minutes: 3
 
 blocks:
-  - name: Hugo
+  - name: Build and push
     task:
       secrets:
         - name: web1
@@ -28,8 +28,16 @@ blocks:
           - git submodule init
           - git submodule update
       jobs:
-        - name: Build and push files
+        - name: Build BUL data, run Hugo and sync files
           commands:
+            - cd scripts
+            - virtualenv venv
+            - source venv/bin/activate
+            - python3 -V
+            - pip3 install -r requirements.txt
+            - pip3 list
+            - python3 bul.py
+            - cd ..
             - hugo -v
             - ls -lah public/
             - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
