@@ -3,16 +3,21 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const State = {
+    isLoading: true,
     comuni: [],
     loadComuni: function() {
+        this.isLoading = true;
         m.request("index.json").then(data => {
             this.comuni = data;
+            this.isLoading = false;
         });
     },
     filter: {
         results: [],
+        term: null,
         load: function(term) {
             term = term.toLowerCase().trim();
+            this.term = term;
 
             if (!term) {
                 this.results = [];
@@ -55,8 +60,11 @@ const State = {
     comune: {
         data: null,
         load: function(key) {
+            State.isLoading = true;
+
             m.request("comuni/" + key + ".json").then(data => {
                 this.data = data;
+                State.isLoading = false;
             });
         }
     }
@@ -65,17 +73,15 @@ const State = {
 const FilterField = {
     value: '',
     view: function () {
-        return m("div", [
-            m("input[type=text][class=statobul-input][placeholder='Cerca comune...'][autofocus]", {
-                oninput: e => State.filter.load(e.target.value)
-            })
-        ]);
+        return m("input[type=text][class=statobul-input][placeholder='Cerca comune...'][autofocus]", {
+            oninput: e => State.filter.load(e.target.value)
+        });
     }
 };
 
 const LoadingStatus = {
     view: function() {
-        return State.isLoading ? m("div[class=statobul-loading]", m("img[src=/loading.gif]")) : m("div");
+        return State.isLoading ? m("div[class=statobul-loading]", m("img[src=/loading.gif]")) : [];
     }
 };
 
@@ -84,13 +90,23 @@ const FilterResults = {
         State.loadComuni();
     },
     view: function() {
-        return m("ul[class=statobul-filter]",
-            State.filter.results.map(x => {
-                return m("li", {
-                    onclick: e => State.comune.load(x.key)
-                }, m("a", m.trust(x.regione + " - " + x.hl)));
-            })
-        );
+        if (State.filter.results.length) {
+            return m("ul[class=statobul-filter]",
+                State.filter.results.map(x => {
+                    return m("li", {
+                        onclick: e => State.comune.load(x.key)
+                    }, m("a", m.trust(x.regione + " - " + x.hl)));
+                })
+            );
+        }
+        else if (State.filter.term) {
+            return m("p", [
+                m("strong", "Nessun risultato."),
+                " Se il comune non è presente potrebbe significare che non è incluso nel piano nazionale. Se ritieni si tratti di un errore, segnalacelo ",
+                m("a", { href: "https://forum.fibra.click", target: "_blank" }, "sul forum"),
+                "."
+            ]);
+        }
     }
 };
 
