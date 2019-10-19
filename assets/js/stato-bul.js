@@ -31,13 +31,17 @@ const State = {
                     exactMatches.unshift(cur);
                 }
                 else {
-                    let startIndex = name.split(' ').findIndex(x => x.indexOf(term) == 0);
+                    let startIndex = name.indexOf(term); // start of string
+
+                    if (startIndex != 0) {
+                        startIndex = name.indexOf(' ' + term); // preceded by space
+                        if (startIndex != -1) startIndex += 1; // add 1 to ignore the space 
+                    }
 
                     if (startIndex >= 0) {
-                        cur.hl = cur.nome.replace(
-                            new RegExp(term, 'i'),
-                            '<em>' + cur.nome.slice(startIndex, term.length) + '</em>'
-                        );
+                        cur.hl = cur.nome.substr(0, startIndex)
+                            + "<em>" + cur.nome.substr(startIndex, term.length) + "</em>"
+                            + cur.nome.substr(startIndex + term.length);
 
                         matches.push(cur);
                     }
