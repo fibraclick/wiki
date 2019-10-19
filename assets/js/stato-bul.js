@@ -144,8 +144,8 @@ const Root = {
     view: () => {
         return m("div", [
             m(FilterField),
-            m(LoadingStatus),
             m(FilterResults),
+            m(LoadingStatus),
             m(LookupResult),
         ]);
     }
