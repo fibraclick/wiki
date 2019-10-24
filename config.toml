@@ -4,7 +4,7 @@ title = "FibraClick Wiki"
 
 theme = "hugo-journal"
 
-disableKinds = ["RSS", "taxonomyTerm", "section"]
+disableKinds = ["RSS", "taxonomyTerm"]
 preserveTaxonomyNames = true
 footnoteReturnLinkContents = "⤴"
 removePathAccents = true
