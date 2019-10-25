@@ -14,7 +14,7 @@ description: "La newsletter settimanale di FibraClick è il miglior modo per res
 <style>
 /* https://codepen.io/blehnert/pen/tfdmI */
 
-#mc_embed_signup { border: none; text-align: center; width: 100%; margin-bottom: 10px; } /* Signup form container */
+#mc_embed_signup { border: none; text-align: center; width: 100%; margin: 30px auto; } /* Signup form container */
 
 .mc-field-group { display: inline-block; } /* positions input field horizontally */
 
@@ -22,7 +22,9 @@ description: "La newsletter settimanale di FibraClick è il miglior modo per res
 
 .clear { display: inline-block; } /* positions button horizontally in line with input */
 
-.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1rem; letter-spacing: .03em; color: #fff; background-color: #43c160 ; padding: .8em 2em; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; } /* Button Styles */
+.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1rem; letter-spacing: .03em; color: #fff; background-color: #43c160 ; padding: .8em 2em; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; cursor: pointer; } /* Button Styles */
+
+.button:hover { background-color: #3FB85A; }
 
 :-webkit-input-placeholder { color: #ABB0B2 ; } /* WebKit browsers */ 
 :-moz-placeholder { color: #ABB0B2 ; } /* Mozilla Firefox 4 to 18 */
