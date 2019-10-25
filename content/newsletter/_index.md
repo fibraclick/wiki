@@ -22,7 +22,7 @@ description: "La newsletter settimanale di FibraClick è il miglior modo per res
 
 .clear { display: inline-block; } /* positions button horizontally in line with input */
 
-.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1rem; letter-spacing: .03em; color: #fff; background-color: #43c160 ; padding: .8em 2em; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; cursor: pointer; } /* Button Styles */
+.button { font-family: 'Helvetica Neue', Helvetica,  Arial, sans-serif; font-size: 1rem; letter-spacing: .03em; color: #fff; background-color: #43c160 ; padding: .8em 2em; border: none; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; display: inline-block; margin: 0; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; } /* Button Styles */
 
 .button:hover { background-color: #3FB85A; }
 
