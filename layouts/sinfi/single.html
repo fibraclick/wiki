@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Visualizzatore SINFI</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        crossorigin=""></script>
+
+    <!-- <script src="http://calvinmetcalf.github.io/leaflet.shapefile/catiline.js"></script> -->
+    <script src="https://unpkg.com/shpjs@3.4.3/dist/shp.js"></script>
+    <script src="http://calvinmetcalf.github.io/leaflet.shapefile/leaflet.shpfile.js"></script>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .overlay {
+            padding: 5px;
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <script>
+        var colors = ['#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928'];
+        var colorMappings = {};
+
+        // https://stackoverflow.com/a/7616484/1633924
+        String.prototype.hashCode = function () {
+            var hash = 0, i, chr;
+            if (this.length === 0) return hash;
+            for (i = 0; i < this.length; i++) {
+                chr = this.charCodeAt(i);
+                hash = ((hash << 5) - hash) + chr;
+                hash |= 0; // Convert to 32bit integer
+            }
+            return hash;
+        };
+
+        function assignColor(s) {
+            if (!s) { // no path type
+                return '#000000';
+            }
+
+            if (colorMappings[s]) {
+                return colorMappings[s];
+            }
+            else {
+                colorMappings[s] = colors[Math.abs(s.hashCode() % 11)];
+            }
+        }
+
+        var InputControl = L.Control.extend({
+            options: {
+                position: 'topleft'
+            },
+            onAdd: function (map) {
+                var el = L.DomUtil.create('div', 'overlay');
+                el.innerHTML = '<input type="file" onchange="onFileChange(this.files)" accept=".zip">';
+                return el;
+            }
+        });
+
+        var map = L.map('map').setView([43, 11], 6);
+        map.zoomControl.setPosition('topright');
+        new InputControl().addTo(map);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            maxZoom: 20
+        }).addTo(map);
+
+        function onFileChange(files) {
+            if (files.length == 0) return;
+            handleZipFile(files[0]);
+        }
+
+        function handleZipFile(file) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                if (reader.readyState != 2 || reader.error) {
+                    return;
+                } else {
+                    convertToLayer(reader.result);
+                }
+            }
+            reader.readAsArrayBuffer(file);
+        }
+
+        var features;
+
+        function convertToLayer(buffer) {
+            if (features) features.remove();
+
+            var shp = new L.Shapefile(buffer, {
+                //importUrl: 'https://unpkg.com/shpjs@3.4.3/dist/shp.js',
+                onEachFeature: function (feature, layer) {
+                    if (feature.properties) {
+                        layer.bindPopup(Object.keys(feature.properties).map(function (k) {
+                            return k + ": " + feature.properties[k];
+                        }).join("<br />"), {
+                            maxHeight: 200
+                        });
+                    }
+
+                    layer.on({
+                        mouseover: function (e) {
+                            e.target.setStyle({
+                                color: '#ff3300',
+                                fillOpacity: 0.7,
+                                weight: 15,
+                                opacity: 0.7
+                            });
+                        },
+                        mouseout: function (e) {
+                            e.target.setStyle({
+                                weight: 3,
+                                opacity: 1.0,
+                                fillOpacity: 0.7,
+                                color: assignColor(feature.properties['TIPO'])
+                            })
+                        }
+                    })
+                },
+                style: function (feature) {
+                    return {
+                        fillOpacity: 0.7,
+                        weight: 3,
+                        color: assignColor(feature.properties['TIPO'])
+                    }
+                }
+            });
+
+            features = shp.addTo(map);
+
+            shp.on('data:error', function (err) {
+                console.error(err);
+            });
+
+            shp.on('data:loaded', function () {
+                map.fitBounds(features.getBounds());
+            });
+        }
+    </script>
+</body>
+
+</html>
