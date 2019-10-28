@@ -33,6 +33,15 @@
             background: #fff;
         }
 
+        #file {
+            display: none;
+        }
+
+        .overlay a {
+            float: right;
+            padding: 3px 5px 0 5px;
+        }
+
         label {
             display: block;
         }
@@ -87,7 +96,9 @@
             },
             onAdd: (map) => {
                 var el = L.DomUtil.create('div', 'overlay');
-                el.innerHTML += '<input type="file" id="file" onchange="onFileChange(this.files)" accept=".zip" /><br>';
+                el.innerHTML += '<button onclick="document.getElementById(\'file\').click()">Seleziona ZIP</button>';
+                el.innerHTML += ' <span id="fileName"></span><input type="file" id="file" onchange="onFileChange(this.files)" accept=".zip" />';
+                el.innerHTML += '<a href="/bul-sinfi/" target="_blank">Guida</a><br>';
                 el.innerHTML += '<label id="colors"><input type="checkbox" onchange="toggleColors(this.checked)" />Colori tipo tratta</label>';
                 el.innerHTML += '<div id="layers"></div>';
                 return el;
@@ -105,7 +116,9 @@
 
         function onFileChange(files) {
             if (files.length == 0) return;
-            handleZipFile(files[0]);
+            var file = files[0];
+            document.getElementById('fileName').textContent = file.name;
+            handleZipFile(file);
         }
 
         function toggleColors(val) {
