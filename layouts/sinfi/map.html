@@ -181,6 +181,8 @@
             shp(buffer).then((data) => {
                 geojson = data;
 
+                if (!Array.isArray(geojson)) geojson = [geojson];
+
                 var enabledLayers = 0;
                 geojson.forEach(l => {
                     // disable if missing data
