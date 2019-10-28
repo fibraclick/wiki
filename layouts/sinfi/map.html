@@ -209,6 +209,9 @@
                 });
 
                 document.getElementById('layers').innerHTML = html;
+            }).catch(err => {
+                alert('Si è verificato un errore. L\'errore è stato registrato nella console per sviluppatori');
+                console.log(err);
             });
         }
 
