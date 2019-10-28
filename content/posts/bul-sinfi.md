@@ -35,7 +35,7 @@ Se tutto va bene, sulla mappa verrà mostrato il tracciato della fibra ottica. P
 
 Il tracciato della fibra ottica può dare un'idea delle abitazioni che saranno cablate in fibra ottica (FTTH).
 
-È possibile che la fibra ottica non passi da tutte le vie, però un'abitazione può essere cablata solo se ha un ROE/PTA a una distanza inferiore a 50 metri. Il punto dove si trova il ROE/PTA deve essere quindi "toccato" dal tracciato.
+È possibile che la fibra ottica non passi da tutte le vie, però un'abitazione può essere cablata anche se ha un ROE/PTA a una distanza inferiore a 50 metri. Il punto dove si trova il ROE/PTA deve essere quindi "toccato" dal tracciato.
 
 Nella mappa che segue, si riesce anche a intuire che la lunga tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS (stazione radio base) per la telefonia, che verrà in questo caso utilizzata anche per erogare il segnale FWA di Open Fiber.
 
