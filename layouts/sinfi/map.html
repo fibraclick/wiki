@@ -199,7 +199,7 @@
                 var enabledLayers = 0;
                 geojson.forEach(l => {
                     // disable if missing data
-                    if (!l['features'][0]['properties']['TIPO']) {
+                    if (l['features'].length == 0 || !l.features[0]['properties']['TIPO']) {
                         toggleLayer(l.fileName, false);
                     }
                     else {
