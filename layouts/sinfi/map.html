@@ -14,7 +14,6 @@
 
     <!-- <script src="http://calvinmetcalf.github.io/leaflet.shapefile/catiline.js"></script> -->
     <script src="https://unpkg.com/shpjs@3.4.3/dist/shp.js"></script>
-    <script src="https://calvinmetcalf.github.io/leaflet.shapefile/leaflet.shpfile.js"></script>
 
     <style>
         html,
@@ -33,6 +32,14 @@
             padding: 5px;
             background: #fff;
         }
+
+        label {
+            display: block;
+        }
+
+        label#colors {
+            padding: 5px 0;
+        }
     </style>
 </head>
 
@@ -42,6 +49,8 @@
     <script>
         var colors = ['#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928'];
         var colorMappings = {};
+        var colorsEnabled = false;
+        var disabledLayers = {};
 
         // https://stackoverflow.com/a/7616484/1633924
         String.prototype.hashCode = function () {
@@ -56,6 +65,10 @@
         };
 
         function assignColor(s) {
+            if (!colorsEnabled) {
+                return colors[0];
+            }
+
             if (!s) { // no path type
                 return '#000000';
             }
@@ -72,9 +85,11 @@
             options: {
                 position: 'topleft'
             },
-            onAdd: function (map) {
+            onAdd: (map) => {
                 var el = L.DomUtil.create('div', 'overlay');
-                el.innerHTML = '<input type="file" onchange="onFileChange(this.files)" accept=".zip">';
+                el.innerHTML += '<input type="file" id="file" onchange="onFileChange(this.files)" accept=".zip" /><br>';
+                el.innerHTML += '<label id="colors"><input type="checkbox" onchange="toggleColors(this.checked)" />Colori tipo tratta</label>';
+                el.innerHTML += '<div id="layers"></div>';
                 return el;
             }
         });
@@ -93,71 +108,113 @@
             handleZipFile(files[0]);
         }
 
+        function toggleColors(val) {
+            colorsEnabled = val;
+            reloadMap();
+        }
+
+        function toggleLayer(layer, checked) {
+            if (!checked) {
+                disabledLayers[layer] = true;
+            }
+            else {
+                disabledLayers[layer] = false;
+            }
+
+            reloadMap();
+        }
+
         function handleZipFile(file) {
             var reader = new FileReader();
             reader.onload = function () {
                 if (reader.readyState != 2 || reader.error) {
                     return;
                 } else {
-                    convertToLayer(reader.result);
+                    loadBuffer(reader.result);
                 }
-            }
+            };
             reader.readAsArrayBuffer(file);
         }
 
         var features;
+        var geojson;
 
-        function convertToLayer(buffer) {
-            if (features) features.remove();
-
-            var shp = new L.Shapefile(buffer, {
-                //importUrl: 'https://unpkg.com/shpjs@3.4.3/dist/shp.js',
-                onEachFeature: function (feature, layer) {
-                    if (feature.properties) {
-                        layer.bindPopup(Object.keys(feature.properties).map(function (k) {
-                            return k + ": " + feature.properties[k];
-                        }).join("<br />"), {
-                            maxHeight: 200
-                        });
-                    }
-
-                    layer.on({
-                        mouseover: function (e) {
-                            e.target.setStyle({
-                                color: '#ff3300',
-                                fillOpacity: 0.7,
-                                weight: 15,
-                                opacity: 0.7
-                            });
-                        },
-                        mouseout: function (e) {
-                            e.target.setStyle({
-                                weight: 3,
-                                opacity: 1.0,
-                                fillOpacity: 0.7,
-                                color: assignColor(feature.properties['TIPO'])
-                            })
-                        }
-                    })
-                },
-                style: function (feature) {
-                    return {
-                        fillOpacity: 0.7,
-                        weight: 3,
-                        color: assignColor(feature.properties['TIPO'])
-                    }
+        var options = {
+            onEachFeature: function (feature, layer) {
+                if (feature.properties) {
+                    layer.bindPopup(Object.keys(feature.properties).map(function (k) {
+                        return k + ": " + feature.properties[k];
+                    }).join("<br />"), {
+                        maxHeight: 200
+                    });
                 }
-            });
 
-            features = shp.addTo(map);
+                layer.on({
+                    mouseover: function (e) {
+                        e.target.setStyle({
+                            color: '#ff3300',
+                            fillOpacity: 0.7,
+                            weight: 15,
+                            opacity: 0.7
+                        });
+                    },
+                    mouseout: function (e) {
+                        e.target.setStyle({
+                            weight: 3,
+                            opacity: 1.0,
+                            fillOpacity: 0.7,
+                            color: assignColor(feature.properties['TIPO'])
+                        })
+                    }
+                })
+            },
+            style: function (feature) {
+                return {
+                    fillOpacity: 0.7,
+                    weight: 3,
+                    color: assignColor(feature.properties['TIPO'])
+                }
+            }
+        };
 
-            shp.on('data:error', function (err) {
-                console.error(err);
-            });
+        function loadBuffer(buffer) {
+            shp(buffer).then((data) => {
+                geojson = data;
 
-            shp.on('data:loaded', function () {
+                var enabledLayers = 0;
+                geojson.forEach(l => {
+                    // disable if missing data
+                    if (!l['features'][0]['properties']['TIPO']) {
+                        toggleLayer(l.fileName, false);
+                    }
+                    else {
+                        enabledLayers++;
+                    }
+                });
+
+                if (enabledLayers == 0) {
+                    // re-enable all layers if nothing was enabled
+                    disabledLayers = {};
+                }
+
+                reloadMap();
+
                 map.fitBounds(features.getBounds());
+                
+                var html = '';
+
+                geojson.forEach(l => {
+                    var fn = l.fileName.substring(l.fileName.indexOf('/') + 1);
+                    html += '<label><input name="layers" ' + (disabledLayers[l.fileName] ? '' : 'checked') +' type="checkbox" value="' + l.fileName +'" onchange="toggleLayer(this.value, this.checked)" /> ' + fn + '</label>';
+                });
+
+                document.getElementById('layers').innerHTML = html;
             });
+        }
+
+        function reloadMap() {
+            if (features) features.remove();
+            features = L.geoJson(geojson.filter(x => disabledLayers[x.fileName] != true), options).addTo(map);
         }
     </script>
 </body>
