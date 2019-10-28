@@ -6,6 +6,7 @@ lastmod: 2019-10-28T11:32:11+01:00
 authors: [Matteo]
 description: "Come consultare i dati pubblicati dal SINFI per capire quali aree di un comune saranno coperte con fondi pubblici in fibra ottica."
 categories: [Piano BUL, FTTH, Copertura]
+image: /social/sinfi.jpg
 ---
 
 Da ottobre 2019 il [SINFI](https://www.sinfi.it) (il catasto nazionale delle infrastrutture) mette a disposizione pubblicamente i **tracciati della fibra ottica** posata nell'ambito del [piano nazionale Banda Ultra Larga]({{< relref "/posts/bul.md" >}}).
