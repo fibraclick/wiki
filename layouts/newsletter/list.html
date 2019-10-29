@@ -27,7 +27,17 @@
         
         <!--End mc_embed_signup-->
         
-        In futuro l'archivio della newsletter sarà pubblicato in questa pagina.
+        <section class="posts">
+          <h1>Archivio</h1>
+          <ol>
+            {{ range (where .Pages "Type" "newsletter").ByDate.Reverse -}}
+            <li>
+              <time datetime="{{ .Date.Format "2006-01-02 MST" }}">{{ .Date.Format "02/01/2006"}}</time>
+              #{{ .Params.num }}: <a target="_blank" href="{{ .Params.link }}">{{ .Title }}</a>
+            </li>
+            {{- end }}
+          </ol>
+        </section>
       </div>
 
     </article>
