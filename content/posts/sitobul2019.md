@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-08-01T22:46:00+02:00
+lastmod: 2019-11-01T14:00:00+02:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]

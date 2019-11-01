@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Open Fiber"
 slug: openfiber
 date: 2019-04-17T21:34:32+02:00
-lastmod: 2019-08-01T22:56:32+02:00
+lastmod: 2019-11-01T15:00:00+01:00
 authors: [Matteo]
 description: Open Fiber realizza reti Fiber To The Home in Italia, con l'obiettivo di coprire migliaia di comuni entro il 2022, sia con fondi privati che pubblici.
 categories: [Definizioni, Copertura, FTTH]
@@ -86,6 +86,7 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 - [Cosa sono le aree nere, grigie, e bianche]({{< relref "/posts/aree.md" >}})
 - [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
 - [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
+- [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
 {{% /info %}}
 
 {{< footer >}}

@@ -2,7 +2,7 @@
 title: "Come consultare le tratte in fibra ottica del piano BUL con il SINFI"
 slug: bul-sinfi
 date: 2019-10-28T11:32:11+01:00
-lastmod: 2019-10-28T11:32:11+01:00
+lastmod: 2019-10-28T15:15:00+01:00
 authors: [Matteo]
 description: "Come consultare i dati pubblicati dal SINFI per capire quali aree di un comune saranno coperte con fondi pubblici in fibra ottica."
 categories: [Piano BUL, FTTH, Copertura]
