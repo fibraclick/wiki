@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2019-09-02T00:00:00+02:00
+lastmod: 2019-11-01T16:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -13,7 +13,7 @@ La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/op
 
 Un buon inizio per provare a capire se si è coinvolti dal piano è seguire la guida [*Come controllare la presenza di intervento pubblico o privato*]({{< relref "/posts/sitobul2019.md" >}}), che però dà a volte risultati imprecisi o non sufficientemente dettagliati. Il sito [Open Fiber-Area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) fornisce informazioni più affidabili, ma si limita a indicare il numero di unità immobiliari previste o coperte nel comune.
 
-Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che nei prossimi anni vedrà una [notevole espansione]({{< relref "/posts/bul.md#la-fase-2-le-aree-grigie" >}}).
+Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che nei prossimi anni vedrà una notevole espansione.
 
 {{< toc >}}
 
@@ -53,7 +53,9 @@ I CNO (Centri Nodali Ottici) rappresentano il punto di splitting della rete pass
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
 {{% /info %}}
 
-{{% fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica proprietaria della rete)." %}}
+{{% fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica proprietaria della rete). Grazie a @Hadx per la foto." %}}
+
+{{% fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." %}}
 
 ## PCN (centrali)
 
@@ -68,8 +70,13 @@ Contengono gli apparati attivi che costituiscono il "bordo" tra rete di accesso 
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
 {{% /info %}}
 
-{{% fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" %}}
+{{% fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" %}}
 
 {{% fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" %}}
 
+{{% green %}}
+Hai una foto di un PCN Infratel/BUL? Inviacela a [info@fibra.click](mailto:info@fibra.click) (sono preferite foto scattate in orizzontale e inviate senza compressione). Grazie!
+{{% /green %}}
+
 {{< footer >}}
+ 

@@ -2,7 +2,7 @@
 title: "Cosa significano VULA, SLU e NGA"
 slug: vula-slu-nga
 date: 2019-04-18T22:39:45+02:00
-lastmod: 2019-11-01T18:00:00+01:00
+lastmod: 2019-11-01T16:00:00+01:00
 authors: [Matteo]
 description: Le sigle indicano le modalità con cui gli operatori telefonici possono rivendere la rete fissa di TIM, cioè l'operatore dominante in Italia.
 categories: [Definizioni, FTTC, FTTH]
