@@ -125,31 +125,34 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a pagina 10.
 
 {{% info %}}
-Vedi anche:
-
-- [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/architetture.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
+Vedi anche: [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/architetture.md" >}}).
 {{% /info %}}
 
 ## L'avanzamento del progetto
 
 Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
-Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri nel 2018, con l'obiettivo di aprirne altri 2000 entro la fine del 2019.[^10][^11]
+Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri nel 2018, con l'obiettivo di averne tra 2000 e 2500 aperti entro la fine del 2019.[^10][^11][^11b]
 
-Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dal bando.[^interrogazione][^interrogazione2]
+Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dai bandi.[^interrogazione][^interrogazione2]
 
-Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui il [canale Telegram di FibraClick](https://t.me/FibraClick) oppure gli account [Facebook](https://fb.me/FibraClick) o [Twitter](https://twitter.com/FibraClick).
+Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui i canali social di FibraClick ([Telegram](https://t.me/FibraClick), [Facebook](https://fb.me/FibraClick) e [Twitter](https://twitter.com/FibraClick)) oppure iscriviti alla [newsletter]({{< relref "/newsletter" >}}).
 
 Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria.
 
 Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
 
-È inoltre in corso fino al 31 ottobre 2019 una **sperimentazione di vendita dei servizi in 70 comuni** con lavori terminati. La sperimentazione riguarda solo la FTTH 1 Gbps e prevede l'attivazione di linee nel momento in cui la rete risulta collaudata.
-
-{{% fig src="/images/sperimentazione-of-2019.jpg" caption="Lista dei 70 comuni che fanno parte della sperimentazione Open Fiber FTTH nei cluster C e D" %}}
+È inoltre in corso una **sperimentazione di vendita dei servizi FTTH 1 Gbps** in molti comuni con lavori completati. Tra i comuni della sperimentazione ci sono [questi 70 comuni](/images/sperimentazione-of-2019.jpg), ma la lista completa non è più disponibile pubblicamente.
 
 Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
+
+{{% info %}}
+Per approfondire:
+
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
+- [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
+- [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
+{{% /info %}}
 
 {{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
 
@@ -203,7 +206,7 @@ Man mano che la fase 1 del piano BUL si avvicina alla conclusione, l'attenzione 
 
 ## Verificare gli interventi
 
-Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se sarà presente intervento privato/pubblico a 30 o 100 Mbps.
+Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se è previsto intervento privato/pubblico e di che tipo.
 
 {{% info %}}
 Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}).
@@ -221,6 +224,7 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^9]: http://bandaultralarga.italia.it/piano-aree-bianche/obiettivi/
 [^10]: http://www.infratelitalia.it/per-saperne-di-piu/archivio-news/banda-ultra-larga-oltre-1000-cantieri-aperti-raggiunto-lobiettivo-del-2018/
 [^11]: https://www.tomshw.it/altro/infratel-e-open-fiber-2000-cantieri-fibra-aperti-nel-2019-per-il-grande-progetto-bul/
+[^11b]: https://twitter.com/OpenFiberIT/status/1188846493077311489
 [^12]: https://www.telecomitalia.com/tit/it/notiziariotecnico/edizioni-2016/n-2-2016/capitolo-3/approfondimenti-2.html
 [^13]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
 [^camera]: http://www.camera.it/temiap/documentazione/temi/pdf/1104721.pdf

@@ -9,15 +9,15 @@ categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
 image: /social/piano-bul.jpg
 ---
 
-Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura per i prossimi anni.
+Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura della banda larga per i prossimi anni.
 
 I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, e costituiscono la base per gli interventi pubblici dello Stato mirati alla riduzione del digital divide.
 
 Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per comprenderne il risultato.
 
-{{% green %}}
-Decifrare le intenzioni di copertura non è sempre facile. Se hai bisogno di aiuto, chiedi pure sul [forum di FibraClick](https://forum.fibra.click) e ti aiuteremo.
-{{% /green %}}
+{{% warn %}}
+⚠ Il sito BUL mostra i risultati delle consultazioni ma **non tiene in considerazione le fasi successive di realizzazione e approvazione dei progetti di copertura**. Le informazioni sono quindi da prendere con le pinze. Se qualcosa non ti torna, chiedi sul [forum di FibraClick](https://forum.fibra.click) e proveremo ad aiutarti.
+{{% /warn %}}
 
 {{< toc >}}
 
@@ -25,26 +25,31 @@ Decifrare le intenzioni di copertura non è sempre facile. Se hai bisogno di aiu
 
 {{% fig src="/images/sitobul-pubblico.png" caption="Intervento pubblico" alt="Scritta bianca su sfondo blu che dice intervento pubblico" %}}
 
-Significa che l'indirizzo sarà coperto tramite **intervento dello Stato con fondi pubblici**. Può essere indicata anche una velocità minima prevista per il cablaggio, e in particolare:
+Significa che l'indirizzo è classificato come [area bianca]({{< relref "/posts/aree.md" >}}) e potrebbe essere coperto tramite **intervento dello Stato con fondi pubblici**. Può essere indicata anche una velocità minima prevista per il cablaggio, e in particolare:
 
 - **100 Mbps**: copertura in <abbr title="Fiber To The Home, fibra fino a casa">**FTTH**</abbr> con velocità in download tra i 100 Mbps e i 1000 Mbps (1 Gbps), a seconda del taglio offerto dall'operatore scelto;
-- **30 Mbps**: copertura in <abbr title="Fixed Wireless Access">**FWA**</abbr>, cioè **wireless**, con una tecnologia che possa garantire almeno 30 Mbps in download e 15 in upload. In alcuni casi la scritta 30 Mbps indica copertura realizzata da TIM in FTTC utilizzando fondi pubblici. È un caso frequente in [Sardegna](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/), Abruzzo, Puglia e Calabria[^bulfttn]. In questo caso la copertura FTTC può in realtà arrivare a 100 o anche 200 Mbps, a seconda della distanza dall'armadio TIM e altri fattori.
+- **30 Mbps**: copertura in <abbr title="Fixed Wireless Access">**FWA**</abbr>, cioè **wireless**, con una tecnologia che possa garantire almeno 30 Mbps in download e 15 in upload. In alcuni casi la scritta 30 Mbps indica copertura realizzata da TIM in FTTC utilizzando fondi pubblici. È un caso frequente in [Sardegna](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/), Abruzzo, Puglia e Calabria[^bulfttn]. In questo caso la copertura FTTC può in realtà arrivare a 100 o anche 200 Mbps, a seconda della distanza dall'armadio TIM e [altri fattori]({{< relref "/posts/vdsl.md" >}}).
 
 [^bulfttn]: La lista dei comuni è disponibile in questa pagina, nella barra laterale (solo su desktop) http://www.infratelitalia.it/operatori/
 
 La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2020, che prevede un intervento diretto dello Stato con modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di **proprietà dello Stato**.
 
-Per avere la certezza della tecnologia con cui il proprio indirizzo sarà coperto, conviene **contattare il proprio comune**, anche scrivendo all'<abbr title="Ufficio Relazioni con il Pubblico">URP</abbr> oppure all'assessore con delega ai lavori pubblici o alle reti.
+Per avere la certezza della tecnologia con cui il proprio indirizzo sarà coperto, conviene **contattare il proprio comune**, anche scrivendo all'<abbr title="Ufficio Relazioni con il Pubblico">URP</abbr> oppure all'assessore con delega ai lavori pubblici o alle reti. In alcuni casi è possibile ricevere risposta anche scrivendo a [Infratel](http://www.infratelitalia.it/).
 
-Lo stato della realizzazione può essere verificato nella pagina del comune sul sito Banda Ultra Larga oppure nell'[area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) del sito Open Fiber. Una volta terminati i lavori, la rete sarà messa a disposizione di tutti gli operatori telefonici, a cui i clienti dovranno rivolgersi per poter attivare una linea. 
+Lo stato della realizzazione può essere verificato nella pagina del comune sul [sito BUL](http://bandaultralarga.italia.it/), oppure nell'[area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) del sito Open Fiber. Una volta terminati i lavori, la rete sarà messa a disposizione di tutti gli operatori telefonici, a cui i clienti dovranno rivolgersi per poter attivare una linea.
+
+Se il comune si trova nello stato "In attesa di autorizzazioni" o "In esecuzione", è anche possibile [consultare il catasto delle infrastrutture]({{< relref "/posts/bul-sinfi.md" >}}) (SINFI) per vedere le tratte in fibra ottica che saranno posate sul territorio.
 
 {{% info %}}
 Per approfondire:
 
 - [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
-- [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
+- [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
+- [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
+- [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md" >}})
 - [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
+- [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
 {{% /info %}}
 
 {{% fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
