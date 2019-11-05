@@ -65,9 +65,10 @@ Utilizza i pulsanti con le frecce per spostarti tra gli anni, e tieni presente c
 Il significato delle due sigle è:
 
 - <abbr title="Next Generation Access">**NGA**</abbr>: connessioni che offrono almeno 30 Mbps in download, cioè <abbr title="Fiber To The Cabinet">FTTC</abbr>, <abbr title="Fixed Wireless Access">FWA</abbr>[^cons2019] e <abbr title="Fiber To The Home">FTTH</abbr>;
-- **NGA-**<abbr title="Very High Capacity Networks">**VHCN**</abbr>: solo connessioni FTTH, che possono offrire velocità notevolmente superiori a 100 Mbps e fino a 1 Gbps.
+- **NGA-**<abbr title="Very High Capacity Networks">**VHCN**</abbr>: solo connessioni FTTH, che possono offrire velocità notevolmente superiori a 100 Mbps e fino a 1 Gbps.[^cons2019][^vhcn]
 
 [^cons2019]: pagina 10 http://www.infratelitalia.it/wp-content/uploads/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
+[^vhcn]: pagina 43 https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=17183
 
 {{% warn %}}
 ⚠ Il numero indicato nella casella NGA include anche il numero di infrastrutture NGA-VHCN.
