@@ -1,8 +1,8 @@
 ---
 title: "Link utili"
-date: 2019-04-07
-lastmod: 2019-05-16
-description: "Collezione di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
+date: 2019-04-07T00:00:00+02:00
+lastmod: 2019-11-01T23:00:00+01:00
+description: "Lista di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
 ## Per restare aggiornati
@@ -27,10 +27,11 @@ description: "Collezione di link utili legati alla fibra ottica, copertura, appr
 - [Flash Fiber](https://www.flashfiber.it/copertura/), verifica copertura per indirizzo
 
 ## Fibra di Stato (BUL)
-- [Sito Infratel](http://www.infratelitalia.it/)
+- [News Infratel](http://www.infratelitalia.it/categoria/per-saperne-di-piu/archivio-news/)
 - [Sito istituzionale BUL](http://bandaultralarga.italia.it/)
-- [Gare Infratel](https://www.gareinfratel.it/esop/guest/go/public/opportunity/current)
+- [GareInfratel.it](https://www.gareinfratel.it/esop/guest/go/public/opportunity/current)
 - [Area Infratel Open Fiber](https://openfiber.it/it/fibra-ottica/area-infratel)
+- [Progetti esecutivi SINFI](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione)
 
 ## Approfondimenti
 - [Notiziario tecnico Telecom Italia](https://www.telecomitalia.com/tit/it/innovazione/notiziario-tecnico.html)
