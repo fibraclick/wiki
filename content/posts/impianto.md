@@ -17,6 +17,10 @@ Se da una parte su tutto il tratto che va dall'armadio a casa gli utenti possono
 
 Questa guida spiega **come sistemare l'impianto domestico per ottenere il massimo dalla connessione ed essere pronti al passaggio alla VDSL**.
 
+{{% warn %}}
+Nel caso di attivazioni TIM con intervento del tecnico, il sezionamento dell'impianto con isolamento della presa principale e collegamento del modem viene effettuato in fase di attivazione, mentre l'abilitazione delle altre prese telefoniche è un servizio offerto a pagamento. Con altri operatori l'adeguamento dell'impianto non è solitamente previsto.
+{{% /warn %}}
+
 {{< toc >}}
 
 ## Obiettivo: eliminare le derivazioni
