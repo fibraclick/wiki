@@ -3,7 +3,7 @@ title: "Come sezionare l'impianto telefonico di casa"
 slug: sezionare-impianto
 date: 2019-11-05T18:00:00+01:00
 lastmod: 2019-11-05T18:00:00+01:00
-authors: [Hadx (Andrea)]
+authors: [Andrea (Hadx)]
 description: "Per ottimizzare le connessioni fibra mista rame è necessario eliminare le derivazioni e sezionare l'impianto. Vi spieghiamo come fare."
 categories: [FTTC, Reti]
 image: /social/sezionare-impianto.jpg
