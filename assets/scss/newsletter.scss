@@ -19,7 +19,8 @@
         border: 2px solid #ABB0B2;
         color: #343434;
         background-color: #fff;
-        padding: .7em 9em .7em 1em;
+        padding: .7em 1em;
+        width: 370px;
         -webkit-border-radius: 3px;
         -moz-border-radius: 3px;
         border-radius: 3px;
@@ -89,9 +90,7 @@
         }
 
         #mce-EMAIL {
-            padding: .7em 0 .7em 1em;
             width: 100%;
-            margin: 0;
         }
 
         .clear {
