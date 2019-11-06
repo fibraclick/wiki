@@ -47,7 +47,7 @@ In Italia esistono due situazioni comuni quando in una abitazione si hanno più 
 
 - **CASO 1**: al *drop* è collegato un solo doppino che va verso una presa di casa, e da questa presa parte un altro doppino che va ad un'altra presa, e così via.
 
-{{% fig src="/images/sezionare-impianto/01.jpg" caption="Un solo doppino (una coppia di cavi bianco e rosso) collega \"in serie\" le prese telefoniche della casa." %}}
+{{% fig src="/images/sezionare-impianto/01.jpg" caption="Un solo doppino (una coppia di cavi bianco e rosso) collega in cascata le prese telefoniche della casa." %}}
 
 - **CASO 2**: al *drop* sono collegati più doppini che collegano le altre prese della casa.
 
