@@ -59,7 +59,7 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 
 {{% fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." %}}
 
-{{% fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL. A destra si vedono gli splitter." %}}
+{{% fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL." %}}
 
 ## PCN (centrali)
 
