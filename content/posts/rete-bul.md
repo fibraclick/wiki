@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2019-11-01T16:00:00+01:00
+lastmod: 2019-11-08T21:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -28,6 +28,8 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e son
 {{% fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)." %}}
 
 {{% fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." %}}
+
+{{% fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 125 x 80 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" %}}
 
 ## ROE su edifici e pali
 
@@ -57,6 +59,8 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 
 {{% fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." %}}
 
+{{% fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL. A destra si vedono gli splitter." %}}
+
 ## PCN (centrali)
 
 I PCN (Punti di Consegna Neutri) o POP sono le centrali a cui fanno capo i ROE e le antenne FWA di una determinata zona (tipicamente si tratta di più comuni, per un totale di qualche decina di migliaia di unità immobiliari collegate).[^pozz2][^pcn1][^pcn2]
@@ -70,13 +74,15 @@ Contengono gli apparati attivi che costituiscono il "bordo" tra rete di accesso 
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
 {{% /info %}}
 
-{{% fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" %}}
-
-{{% fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" %}}
-
 {{% green %}}
 Hai una foto di un PCN Infratel/BUL? Inviacela a [info@fibra.click](mailto:info@fibra.click) (sono preferite foto scattate in orizzontale e inviate senza compressione). Grazie!
 {{% /green %}}
+
+{{% fig src="/images/rete-bul/pcn-bul-4.jpg" caption="PCN BUL di Vo'. Grazie a Igor T. per la foto." %}}
+
+{{% fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" %}}
+
+{{% fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" %}}
 
 {{< footer >}}
  
