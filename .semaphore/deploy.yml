@@ -18,7 +18,7 @@ blocks:
         - name: fibraclick
       prologue:
         commands:
-          - curl -L https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_extended_0.54.0_Linux-64bit.tar.gz | tar xzv
+          - curl -L https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_extended_0.59.1_Linux-64bit.tar.gz | tar xzv
           - sudo mv hugo /usr/local/bin
 
           - chmod 0600 ~/.keys/*
