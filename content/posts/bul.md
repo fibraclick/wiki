@@ -142,9 +142,11 @@ Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti 
 
 Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
 
-È inoltre in corso una **sperimentazione di vendita dei servizi FTTH 1 Gbps** in molti comuni con lavori completati. Tra i comuni della sperimentazione ci sono [questi 70 comuni](/images/sperimentazione-of-2019.jpg), ma la lista completa non è più disponibile pubblicamente.
+È inoltre in corso una **sperimentazione di vendita dei servizi FTTH 1 Gbps** in molti comuni con lavori completati. Tra questi comuni ce ne sono [70 in sperimentazione da luglio 2019](/images/sperimentazione-of-2019.jpg)[^sperim1], più [altri 36](https://forum.fibra.click/d/4107-scoperti-i-comuni-oggetto-di-sperimentazione-novembre-2019) aggiunti a novembre 2019.
 
-Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**.[^interrogazione]
+[^sperim1]: pagina 34 https://openfiber.it/contents/wp-content/uploads/2019/08/Accordo-Sperimentazione-Aree-Bianche-Estensione-e-Allegati_082019.pdf
+
+Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**[^interrogazione], obiettivo che sembra largamente improbabile da raggiungere.
 
 {{% info %}}
 Per approfondire:
