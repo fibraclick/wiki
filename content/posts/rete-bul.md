@@ -45,7 +45,7 @@ Nelle zone ad alta densità di unità immobiliari possono essere installati dei 
 
 In alcuni casi i ROE/PTA sono posizionati ai lati delle strade all'interno di scatole che assomigliano alle chiostrine TIM, ma di colore blu e con l'etichetta #BUL.
 
-{{% fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE BUL su palo. Grazie a Leonardo F. per la foto." vertical="true" %}}
+{{% fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE/PTA BUL su strada. Grazie a Leonardo F. per la foto." vertical="true" %}}
 
 ## CNO
 
