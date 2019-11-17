@@ -8,5 +8,3 @@ image: /social/newsletter.png
 ---
 
 **Riflessione ottica** è una pubblicazione settimanale curata manualmente con le notizie più importanti dal settore delle telecomunicazioni, della banda larga e del digitale in Italia. **Il modo migliore per non restare fuori dal giro.**
-
-*La newsletter parte domenica 27 ottobre 2019 e per le prime settimane sarà sperimentale. Facci sapere cosa ne pensi rispondendo alla newsletter.*
