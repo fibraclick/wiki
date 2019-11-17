@@ -19,9 +19,9 @@ La transizione si articolerà in due fasi:[^mise]
 
 - un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264);
 
-- il passaggio al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**.
+- il passaggio al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**, opzionalmente con il cambio di formato video in HEVC/H.265.
 
-Si tratta di due modifiche di portate ben diverse, e come vedremo si stima che solo la seconda richiederà a un numero rilevante di famiglie di acquistare un decoder o una tv nel 2022. Porterà invece benefici in termini di qualità del servizio, tra cui una maggiore **diffusione dei canali HD e la possibilità di inserire canali UHD (4K)**.
+Si tratta di due modifiche di portate ben diverse, e come vedremo si stima che solo la seconda richiederà a un numero rilevante di famiglie di acquistare un decoder o una tv nel 2022. Porterà invece benefici in termini di qualità del servizio, tra cui una maggiore **diffusione dei canali HD e la possibilità di inserire canali UHD/4K**.
 
 {{% warn %}}
 ⚠ Chi sostiene che dal 2021 o 2022 sarà necessario cambiare tutti i decoder o tutte le tv **diffonde informazioni errate che non trovano riscontro nella realtà**.
@@ -52,19 +52,19 @@ Il passaggio a H.264 avverrà in momenti diversi per le tv nazionali e locali:
 
 Il formato H.265 o HEVC permette di ottenere la stessa qualità di H.264 utilizzando circa il 50% dei dati. È tuttavia ancora scarsamente diffuso sulle tv (nonostante l'obbligo sulle nuove vendite) e **non è quindi stato disposto l'obbligo di utilizzarlo**.
 
-Le singole emittenti possono scegliere di adottare HEVC se lo ritengono opportuno.
+Le singole emittenti possono scegliere di adottare HEVC se lo ritengono opportuno, a partire da settembre 2021 (fanno eccezione alcuni canali Rai, per cui c'è l'obbligo di usare H.264).
 {{% /green %}}
 
 ## Il passaggio a DVB-T2 (giugno 2022)
 
 Nell'ultima settimana di **giugno 2022** è disposto il **passaggio definitivo** allo standard di trasmissione **DVB-T2**. Attualmente è invece in uso DVB-T, che risale al 1997 e sta diventando obsoleto.
 
-A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD (4K)**, ipotesi che la Rai [sta studiando](https://www.digital-forum.it/showthread.php?201779-Nel-2022-lo-switch-off-al-DVB-T2&p=6358486&viewfull=1#post6358486).
+A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD/4K**, ipotesi che la Rai sta studiando.
 
 {{% green %}}
 **Tutte le tv in vendita in Italia dal 1° gennaio 2017 supportano obbligatoriamente DVB-T2 e il formato di codifica HEVC** (D.L. 192 / 2014).
 
-Per le tv vendute prima del 2017 la situazione potrebbe invece essere diversa, ed è quindi opportuno verificare le specifiche del dispositivo.
+Per le tv vendute prima del 2017 la situazione potrebbe essere diversa, ed è quindi opportuno verificare le specifiche del modello.
 {{% /green %}}
 
 Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della transizione) la percentuale di famiglie senza possibilità di ricevere il DVB-T2 sarà del 48,4% nello scenario di ricambio naturale, oppure del 29,9% considerando gli incentivi economici.[^auditel]
@@ -72,8 +72,12 @@ Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della tr
 Chi non si adeguerà in tempo dovrà acquistare un decoder per poter continuare a ricevere il segnale (il costo base di un decoder è di circa 30 €).
 
 {{% warn %}}
-⚠ È facoltà delle singole emittenti anticipare la transizione al DVB-T2 al periodo transitorio, quindi dal 1° settembre 2021 a giugno 2022. Queste iniziative devono essere opportunamente comunicate agli utenti (DM 19 giugno 2019, art. 6, comma 5).
+⚠ È facoltà delle singole emittenti anticipare la transizione al DVB-T2 al periodo transitorio, quindi tra il 1° settembre 2021 e giugno 2022. Queste iniziative devono essere opportunamente comunicate agli utenti (DM 19 giugno 2019, art. 6, comma 5).
 {{% /warn %}}
+
+Per quanto riguarda la **Rai**, gli scenari in considerazione sono illustrati nell'immagine seguente, e prevedono **diverse combinazioni di DVB-T e DVB-T2** con relativi vantaggi e svantaggi. Si ipotizzano: l'aumento del numero di **canali in HD**, la rimozione dei canali SD e l'**inserimento di un canale UHD/4K**. Non è invece ancora chiaro se sarà necessario l'uso di HEVC.
+
+{{% fig src="/images/scenari-rai.png" caption="Fonte: Digital Forum" %}}
 
 ## Gli incentivi per l'acquisto di decoder e tv
 
