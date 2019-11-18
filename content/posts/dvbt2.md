@@ -2,11 +2,10 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2019-11-17T20:23:57+01:00
+lastmod: 2019-11-18T10:30:00+01:00
 authors: [Matteo]
-description: ""
+description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché non c'è da preoccuparsi."
 categories: []
-hidden: true
 ---
 
 A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**.
@@ -24,7 +23,7 @@ La transizione si articolerà in due fasi:[^mise]
 Si tratta di due modifiche di portate ben diverse, e come vedremo si stima che solo la seconda richiederà a un numero rilevante di famiglie di acquistare un decoder o una tv nel 2022. Porterà invece benefici in termini di qualità del servizio, tra cui una maggiore **diffusione dei canali HD e la possibilità di inserire canali UHD/4K**.
 
 {{% warn %}}
-⚠ Chi sostiene che dal 2021 o 2022 sarà necessario cambiare tutti i decoder o tutte le tv **diffonde informazioni errate che non trovano riscontro nella realtà**.
+⚠️ Chi sostiene che dal 2021 o 2022 sarà necessario cambiare tutti i decoder o tutte le tv **diffonde informazioni errate che non trovano riscontro nella realtà**.
 {{% /warn %}}
 
 Vediamo più nello specifico che cosa comporteranno le due transizioni.
@@ -35,7 +34,7 @@ Vediamo più nello specifico che cosa comporteranno le due transizioni.
 
 In questo periodo avverrà il cambio del **formato di compressione video** dei canali tv. Si passerà dall'attuale MPEG-2 **al formato di codifica H.264** (chiamato anche AVC o MPEG-4 Part 10).
 
-Si tratta di un formato già molto diffuso, standardizzato nel 2003 e **già supportato dalla stragrande maggioranza delle tv** nelle case italiane. Tutte le tv vendute nell'ultima decina di anni supportano H.264. Inoltre, i **canali in HD** sul digitale terrestre **trasmettono già ora in H.264** (ad esempio i canali tra le LCN 501 e 509), per cui chi riesce a vedere i canali HD ora non avrà problemi.
+Si tratta di un formato già molto diffuso, standardizzato nel 2003 e **già supportato dalla stragrande maggioranza delle tv** nelle case italiane. Tutte le tv vendute nell'ultima decina di anni supportano H.264. Inoltre, i **canali in HD** sul digitale terrestre **trasmettono già ora in H.264** (ad esempio i canali tra le LCN 501 e 509), per cui chi riesce a vedere almeno un canale HD ora non avrà problemi.
 
 H.264 consente di trasmettere con la stessa qualità di MPEG-2 (il vecchio formato) utilizzando circa la **metà della capacità trasmissiva**.
 
@@ -52,14 +51,14 @@ Il passaggio a H.264 avverrà in momenti diversi per le tv nazionali e locali:
 
 Il formato H.265 o HEVC permette di ottenere la stessa qualità di H.264 utilizzando circa il 50% dei dati. È tuttavia ancora scarsamente diffuso sulle tv (nonostante l'obbligo sulle nuove vendite) e **non è quindi stato disposto l'obbligo di utilizzarlo**.
 
-Le singole emittenti possono scegliere di adottare HEVC se lo ritengono opportuno, a partire da settembre 2021 (fanno eccezione alcuni canali Rai, per cui c'è l'obbligo di usare H.264).
+👉 Le singole emittenti potranno scegliere di adottare HEVC se lo riterranno opportuno, a partire da settembre 2021 (fanno eccezione alcuni canali Rai, per cui c'è l'obbligo di usare H.264). Nel momento in cui questo articolo è stato aggiornato, **non c'è alcuna certezza sull'eventuale uso di HEVC**.
 {{% /green %}}
 
 ## Il passaggio a DVB-T2 (giugno 2022)
 
 Nell'ultima settimana di **giugno 2022** è disposto il **passaggio definitivo** allo standard di trasmissione **DVB-T2**. Attualmente è invece in uso DVB-T, che risale al 1997 e sta diventando obsoleto.
 
-A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD/4K**, ipotesi che la Rai sta studiando.
+A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD/4K**, ipotesi che ad esempio la Rai sta studiando.
 
 {{% green %}}
 **Tutte le tv in vendita in Italia dal 1° gennaio 2017 supportano obbligatoriamente DVB-T2 e il formato di codifica HEVC** (D.L. 192 / 2014).
@@ -72,7 +71,9 @@ Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della tr
 Chi non si adeguerà in tempo dovrà acquistare un decoder per poter continuare a ricevere il segnale (il costo base di un decoder è di circa 30 €).
 
 {{% warn %}}
-⚠ È facoltà delle singole emittenti anticipare la transizione al DVB-T2 al periodo transitorio, quindi tra il 1° settembre 2021 e giugno 2022. Queste iniziative devono essere opportunamente comunicate agli utenti (DM 19 giugno 2019, art. 6, comma 5).
+⚠️ È facoltà delle singole emittenti **anticipare la transizione** al DVB-T2 al periodo transitorio, quindi tra il 1° settembre 2021 e giugno 2022. Queste iniziative dovranno essere opportunamente comunicate agli utenti (D.M. 19 giugno 2019, art. 6, comma 5).
+
+👉 Le emittenti potranno anche decidere di adottare il formato di codifica **HEVC**, sempre nello stesso periodo.
 {{% /warn %}}
 
 Per quanto riguarda la **Rai**, gli scenari in considerazione sono illustrati nell'immagine seguente, e prevedono **diverse combinazioni di DVB-T e DVB-T2** con relativi vantaggi e svantaggi. Si ipotizzano: l'aumento del numero di **canali in HD**, la rimozione dei canali SD e l'**inserimento di un canale UHD/4K**. Non è invece ancora chiaro se sarà necessario l'uso di HEVC.
