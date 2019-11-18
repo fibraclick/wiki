@@ -4,7 +4,7 @@ slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
 lastmod: 2019-11-18T10:30:00+01:00
 authors: [Matteo]
-description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché non c'è da preoccuparsi."
+description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
 ---
 
