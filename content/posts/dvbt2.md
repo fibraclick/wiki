@@ -16,9 +16,9 @@ La liberazione delle frequenze sarà accompagnata da due cambiamenti importanti 
 
 La transizione si articolerà in due fasi:[^mise]
 
-- un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264 o superiore);
+- un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264 o HEVC) e opzionalmente il passaggio al sistema di trasmissione DVB-T2;
 
-- il passaggio al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**, opzionalmente con il cambio di formato video in HEVC/H.265.
+- il passaggio definitivo al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**.
 
 Si tratta di due modifiche di portate ben diverse, e come vedremo si stima che solo la seconda richiederà a un numero rilevante di famiglie di acquistare un decoder o una tv nel 2022. Porterà invece benefici in termini di qualità del servizio, tra cui una maggiore **diffusione dei canali HD e la possibilità di inserire canali UHD/4K**.
 
