@@ -2,7 +2,7 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2019-11-19T10:00:00+01:00
+lastmod: 2019-11-19T10:40:00+01:00
 authors: [Matteo]
 description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
@@ -34,7 +34,7 @@ Vediamo più nello specifico che cosa comporteranno le due transizioni.
 
 In questo periodo avverrà il cambio del **formato di compressione video** dei canali tv. Si passerà dall'attuale MPEG-2 **al formato di codifica H.264** (chiamato anche AVC o MPEG-4 Part 10).
 
-Si tratta di un formato già molto diffuso, standardizzato nel 2003 e **già supportato dalla stragrande maggioranza delle tv** nelle case italiane. Tutte le tv vendute nell'ultima decina di anni supportano H.264. Inoltre, i **canali in HD** sul digitale terrestre **trasmettono già ora in H.264** (ad esempio i canali tra le LCN 501 e 509), per cui chi riesce a vedere almeno un canale HD ora non avrà problemi.
+Si tratta di un formato già molto diffuso, standardizzato nel 2003 e **già supportato dalla stragrande maggioranza delle tv** nelle case italiane. Tutte le tv vendute nell'ultima decina di anni supportano H.264. Inoltre, i **canali in HD** sul digitale terrestre **trasmettono già ora in H.264** (ad esempio i canali tra le LCN 501 e 507), per cui chi riesce a vedere almeno un canale HD ora non avrà problemi.
 
 H.264 consente di trasmettere con la stessa qualità di MPEG-2 (il vecchio formato) utilizzando circa la **metà della capacità trasmissiva**.
 
