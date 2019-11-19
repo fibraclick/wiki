@@ -2,7 +2,7 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2019-11-18T10:30:00+01:00
+lastmod: 2019-11-19T10:00:00+01:00
 authors: [Matteo]
 description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
@@ -82,9 +82,17 @@ Per quanto riguarda la **Rai**, gli scenari in considerazione sono illustrati ne
 
 ## Gli incentivi per l'acquisto di decoder e tv
 
-{{% green %}}
-Questa sezione sarà aggiornata in seguito alla pubblicazione del decreto che istituisce i contributi economici.
-{{% /green %}}
+A partire dal 18 dicembre 2019, le famiglie residenti in Italia possono chiedere uno **sconto di 50 €** all'acquisto di un nuovo decoder o tv idoneo alla ricezione del segnale DVB-T2 e del formato HEVC Main 10.
+
+L'incentivo viene erogato alle famiglie con **ISEE** (indicatore della situazione economica) **inferiore a 20.000 €**. In fase di acquisto è necessario presentare, oltre a codice fiscale e documento d'identità, un'autocertificazione di possedere ISEE inferiore a 20.000 €.
+
+Il venditore verificherà che l'acquisto sia idoneo per lo sconto (cioè che non sia già stato fruito, che ci siano ancora fondi disponibili, e che il dispositivo da acquistare sia idoneo), e applicherà lo sconto sul prezzo di vendità IVA inclusa.
+
+Si stima che i fondi attualmente stanziati saranno sufficienti per tre milioni di famiglie.
+
+{{% info %}}
+Per maggiori dettagli sul contributo si rimanda al [D.M. 18 ottobre 2019](https://www.gazzettaufficiale.it/eli/id/2019/11/18/19A07234/sg) del MiSE.
+{{% /info %}}
 
 [^mise]: https://www.mise.gov.it/images/stories/documenti/dm%20calendario%20rilascio%20banda%20700%20MHz%20con%20estremi%20reg%20CdC.pdf
 [^auditel]: https://www.mise.gov.it/images/stories/documenti/Report-scenari-diffusione-TV-marzo-2019.pdf
