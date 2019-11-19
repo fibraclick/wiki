@@ -2,7 +2,7 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2019-11-19T10:40:00+01:00
+lastmod: 2019-11-19T22:00:00+01:00
 authors: [Matteo]
 description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
@@ -16,7 +16,7 @@ La liberazione delle frequenze sarà accompagnata da due cambiamenti importanti 
 
 La transizione si articolerà in due fasi:[^mise]
 
-- un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264 o HEVC) e opzionalmente il passaggio al sistema di trasmissione DVB-T2;
+- un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264 o superiore);
 
 - il passaggio definitivo al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**.
 
@@ -61,9 +61,11 @@ Nell'ultima settimana di **giugno 2022** è disposto il **passaggio definitivo**
 A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD/4K**, ipotesi che ad esempio la Rai sta studiando.
 
 {{% green %}}
-**Tutte le tv in vendita in Italia dal 1° gennaio 2017 supportano obbligatoriamente DVB-T2 e il formato di codifica HEVC** (D.L. 192 / 2014).
+**Tutte le tv in vendita in Italia dal 1° gennaio 2017 supportano obbligatoriamente DVB-T2 e il formato di codifica HEVC Main 10** (D.L. 192 / 2014).
 
 Per le tv vendute prima del 2017 la situazione potrebbe essere diversa, ed è quindi opportuno verificare le specifiche del modello.
+
+👉 Entro il 2019 sarà trasmesso sui canali 100 e 200 del digitale terrestre (DVB-T) un "cartello" codificato in HEVC Main 10. Chi riceverà questo canale sarà già pronto per la transizione del 2022.
 {{% /green %}}
 
 Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della transizione) la percentuale di famiglie senza possibilità di ricevere il DVB-T2 sarà del 48,4% nello scenario di ricambio naturale, oppure del 29,9% considerando gli incentivi economici.[^auditel]
@@ -91,7 +93,7 @@ Il venditore verificherà che l'acquisto sia idoneo per lo sconto (cioè che non
 Si stima che i fondi attualmente stanziati saranno sufficienti per tre milioni di famiglie.
 
 {{% info %}}
-Per maggiori dettagli sul contributo si rimanda al [D.M. 18 ottobre 2019](https://www.gazzettaufficiale.it/eli/id/2019/11/18/19A07234/sg) del MiSE.
+Per maggiori dettagli sul contributo si rimanda alla [pagina ufficiale del MiSE](https://www.mise.gov.it/index.php/it/incentivi/comunicazioni/bonus-tv).
 {{% /info %}}
 
 [^mise]: https://www.mise.gov.it/images/stories/documenti/dm%20calendario%20rilascio%20banda%20700%20MHz%20con%20estremi%20reg%20CdC.pdf
