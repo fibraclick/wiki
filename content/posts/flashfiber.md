@@ -77,7 +77,7 @@ Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba
 [^ff2]: https://www.flashfiber.it/chi-siamo/
 [^ff3]: https://www.flashfiber.it/verifica-copertura/
 [^ff4]: https://www.flashfiber.it/larrivo-di-flash-fiber-nel-tuo-edificio/
-[^legge]: Decreto legislativo 33 / 2016, articolo 91, comma 2 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+[^legge]: Decreto legislativo 33 / 2016, articolo 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
 [^forum]: https://forum.fibra.click/d/2552-tiscali-espansione-sulla-rete-open-fiber-e-non-solo/6
 
 {{< footer >}}

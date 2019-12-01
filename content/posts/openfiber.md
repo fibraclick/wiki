@@ -94,4 +94,4 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 [^of1]: https://openfiber.it/it/fibra-ottica/societa
 [^of2]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
 [^adnk]: https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
-[^lex]: Decreto legislativo 33 / 2016, articolo 91, comma 2 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+[^lex]: Decreto legislativo 33 / 2016, articolo 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
