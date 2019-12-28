@@ -21,24 +21,32 @@ I dati sono pubblicati solo per i comuni con progetto esecutivo per la fibra app
 
 ## Come consultare i dati
 
-I dati comune per comune sono accessibili tramite [questa pagina](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione) del SINFI. Dopo aver scelto la regione, seleziona il comune per scaricare il file ZIP contenente i dati Shapefile.
+I dati comune per comune sono scaricabili dal **sito web del SINFI**. Dopo aver scelto la regione, seleziona il comune per scaricare il file ZIP contenente i dati Shapefile.
+
+<p style="text-align: center">
+<a href="https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione" target="_blank">VAI AL SINFI</a>
+</p>
 
 {{% warn %}}
 Per alcuni comuni sono presenti più file ZIP. In tal caso, conviene scaricarli tutti e consultarli poi uno alla volta.
 {{% /warn %}}
 
-Per facilitare la consultazione dei dati Shapefile, FibraClick offre una pagina web appositamente realizzata. [Premi qui]({{< relref "/sinfi.md" >}}) per aprire il visualizzatore SINFI, poi premi il tasto "Sfoglia" e seleziona il file ZIP.
+Per facilitare la consultazione dei dati Shapefile, FibraClick offre una pagina web appositamente realizzata. Apri il **visualizzatore SINFI**, poi premi il tasto "Sfoglia" e seleziona il file ZIP.
 
-Se tutto va bene, sulla mappa verrà mostrato il tracciato della fibra ottica. Premendo su una tratta verranno mostrati i relativi attributi, tra cui il tipo della tratta (aerea, interrata, trincea, ecc.) e la lunghezza.
+<p style="text-align: center">
+<a href="{{< relref "/sinfi.md" >}}" target="_blank">VAI AL VISUALIZZATORE</a>
+</p>
+
+Se tutto va bene, sulla mappa verrà mostrato il tracciato della fibra ottica. Premendo su una tratta verranno mostrati, se disponibili, i relativi attributi, tra cui il tipo della tratta (aerea, interrata, trincea, ecc.) e la lunghezza.
 
 ## Come interpretare i dati
 
 Il tracciato della fibra ottica può dare un'idea delle abitazioni che saranno cablate in fibra ottica (FTTH).
 
-È possibile che la fibra ottica non passi da tutte le vie, però un'abitazione può essere cablata anche se ha un ROE/PTA a una distanza inferiore a 50 metri. Il punto dove si trova il ROE/PTA deve essere quindi "toccato" dal tracciato.
+È possibile che la fibra ottica non passi da tutte le vie, ma considera che un'abitazione può essere cablata anche se ha un ROE/PTA a una distanza inferiore a 50 metri. Il punto dove si trova il ROE/PTA deve essere quindi "toccato" dal tracciato.
 
 Nella mappa che segue, si riesce anche a intuire che la lunga tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS (stazione radio base) per la telefonia, che verrà in questo caso utilizzata anche per erogare il segnale FWA di Open Fiber.
 
-{{% fig src="/images/bul-sinfi-fwa.jpg" caption="La tratta in fibra ottica che attraversa la ferrovia serve a cablare la BTS Open Fiber." alt="" %}}
+{{% fig src="/images/bul-sinfi-fwa.jpg" caption="La tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS Open Fiber." alt="" %}}
 
 {{< footer >}}
