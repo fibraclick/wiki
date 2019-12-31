@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2019-11-01T14:00:00+02:00
+lastmod: 2019-12-31T21:00:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -200,11 +200,11 @@ Ad aprile 2018 Infratel ha pubblicato un documento in cui esprime delle intenzio
 
 Lo scopo è raggiungere gli obiettivi della Commissione Europea fissati per il 2025, e in particolare la copertura della totalità della popolazione con connessioni che garantiscano almeno 100 Mbps in download.
 
-In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni nelle aree grigie**, cioè dove è presente una sola infrastruttura FTTC senza previsioni di ulteriori investimenti.
+In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni nelle aree grigie**, cioè dove è presente una sola infrastruttura "30 Mbps" senza previsioni di ulteriori investimenti.
 
-Nel momento in cui questo articolo è stato aggiornato, non è chiaro se le aree nere con 2 o più infrastrutture (non FTTH) saranno coinvolte nel piano.
+Non sono per ora noti altri dettagli. Ad esempio, non si sa ancora se le aree nere con 2 o più infrastrutture (non FTTH) saranno coinvolte, oppure se le risorse economiche disponibili sono sufficienti.
 
-Man mano che la fase 1 del piano BUL si avvicina alla conclusione, l'attenzione si concentrerà sulla fase 2 e saranno chiariti i dettagli.
+Ci si attende che **il piano di investimento sarà inviato alla Commissione Europea durante il 2020**, e successivamente approvato in pochi mesi.
 
 ## Verificare gli interventi
 
