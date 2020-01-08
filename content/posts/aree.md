@@ -65,3 +65,7 @@ Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md"
 {{% info %}}
 Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
 {{% /info %}}
+
+{{% warn %}}
+⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base al tipo di architettura offerto (FTTC, FTTH, ecc.). La definizione era errata.
+{{% /warn %}}
