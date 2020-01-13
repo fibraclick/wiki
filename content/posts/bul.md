@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2019-12-31T21:00:00+01:00
+lastmod: 2020-01-13T19:30:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -194,17 +194,19 @@ La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consen
 
 Anche **nel cluster B è consentito l'intervento diretto dello Stato fino al 70%** degli investimenti totali, il che ci porta alla fase 2 del piano BUL.
 
-## La fase 2: le aree grigie
+## La fase 2: le aree "grigie"
 
-Ad aprile 2018 Infratel ha pubblicato un documento in cui esprime delle intenzioni generali per quanto riguarda la fase 2 del piano BUL.[^13]
+Ad aprile 2018 Infratel ha annunciato[^13] l'inizio della pianificazione della fase 2 del piano BUL, che ha lo scopo di avvicinarsi agli obiettivi della Gigabit Society fissati dalla Commissione Europea.[^gigabitsoc]
 
-Lo scopo è raggiungere gli obiettivi della Commissione Europea fissati per il 2025, e in particolare la copertura della totalità della popolazione con connessioni che garantiscano almeno 100 Mbps in download.
+Gli obiettivi, fissati per il 2025, prevedono di espandere la copertura a banda ultralarga in modo da **offrire a tutte le famiglie una velocità in download maggiore di 100 Mbps ed espandibile al Gigabit**.
 
-In pratica questo si traduce in un **intervento pubblico diretto per portare la FTTH a tutte le abitazioni nelle aree grigie**, cioè dove è presente una sola infrastruttura "30 Mbps" senza previsioni di ulteriori investimenti.
+Le tecnologie che possiedono queste caratteristiche sono classificate come **VHCN** (*Very High Capacity Network*), una categoria che al momento comprende solo le linee in fibra ottica fino a casa (FTTH/FTTB). Durante il 2020 saranno pubblicate le linee guida del BEREC che stabiliranno se altre tecnologie come il 5G FWA (*Fixed Wireless Access*) potranno essere considerate come VHCN.[^berec]
 
-Non sono per ora noti altri dettagli. Ad esempio, non si sa ancora se le aree nere con 2 o più infrastrutture (non FTTH) saranno coinvolte, oppure se le risorse economiche disponibili sono sufficienti.
+La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di costruire reti VHCN nelle aree che ne sono sprovviste** (in cui sono presenti solo FTTC, FWA o inferiore). Ci si riferisce a questo intervento anche come "piano aree grigie", nonostante non riguardi solo le aree grigie ma anche le aree nere. Si tratta più precisamente di 17 milioni di unità immobiliari.[^grigie17]
 
-Ci si attende che **il piano di investimento sarà inviato alla Commissione Europea durante il 2020**, e successivamente approvato in pochi mesi.
+Non sono al momento disponibili altri dettagli, e non è nemmeno chiaro se saranno disponibili i fondi per coprire un numero così alto di UI.
+
+Ci si attende che il piano di investimento pubblico sarà inviato alla Commissione Europea per l'approvazione nel corso del 2020, come previsto dalle regole in materia di aiuti di Stato.[^aiutidistato]
 
 ## Verificare gli interventi
 
@@ -233,5 +235,9 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^interrogazione]: http://www.astrid-online.it/static/upload/inte/interrogazione-5_00895-e-testo-della-risposta.pdf
 [^interrogazione2]: pagina 11 http://documenti.camera.it/leg18/resoconti/commissioni/bollettini/pdf/2019/07/11/leg.18.bol0220.data20190711.com09.pdf
 [^crescita]: http://www.crescitadigitaleincomune.it/wp-content/uploads/package_uploads/Webinar_Infratel/Presentazione%20Cudia.pdf
+[^gigabitsoc]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52016DC0587
+[^grigie17]: http://www.infratelitalia.it/uncategorized/imprese-e-banda-ultralarga-al-telco-per-litalia/
+[^berec]: articolo 82 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L1972
+[^aiutidistato]: sezione 3.6 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52013XC0126(01)
 
 {{< footer >}}
