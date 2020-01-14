@@ -202,9 +202,9 @@ Gli obiettivi, fissati per il 2025, prevedono di espandere la copertura a banda 
 
 Le tecnologie che possiedono queste caratteristiche sono classificate come **VHCN** (*Very High Capacity Network*), una categoria che al momento comprende solo le linee in fibra ottica fino a casa (FTTH/FTTB). Durante il 2020 saranno pubblicate le linee guida del BEREC che stabiliranno se altre tecnologie come il 5G FWA (*Fixed Wireless Access*) potranno essere considerate come VHCN.[^berec]
 
-La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di costruire reti VHCN nelle aree che ne sono sprovviste** (in cui sono presenti solo FTTC, FWA o inferiore). Ci si riferisce a questo intervento anche come "piano aree grigie", nonostante non riguardi solo le aree grigie ma anche le aree nere. Si tratta più precisamente di 17 milioni di unità immobiliari.[^grigie17]
+La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di costruire reti VHC nelle aree che ne sono sprovviste** (in cui sono presenti solo FTTC, FWA o inferiore). Ci si riferisce a questo intervento anche come "piano aree grigie", nonostante non riguardi solo le aree grigie ma anche le aree nere. Si tratta più precisamente di 17 milioni di unità immobiliari.[^grigie17]
 
-Non sono al momento disponibili altri dettagli, e non è nemmeno chiaro se saranno disponibili i fondi per coprire un numero così alto di UI.
+Non sono al momento disponibili altri dettagli, e non è nemmeno chiaro se saranno disponibili i fondi per coprire un numero così alto di UI (il fabbisogno stimato è di più di 5 miliardi di euro[^grigiefabb]).
 
 Ci si attende che il piano di investimento pubblico sarà inviato alla Commissione Europea per l'approvazione nel corso del 2020, come previsto dalle regole in materia di aiuti di Stato.[^aiutidistato]
 
@@ -239,5 +239,6 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^grigie17]: http://www.infratelitalia.it/uncategorized/imprese-e-banda-ultralarga-al-telco-per-litalia/
 [^berec]: articolo 82 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L1972
 [^aiutidistato]: sezione 3.6 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52013XC0126(01)
+[^grigiefabb]: https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20190717153044008
 
 {{< footer >}}
