@@ -2,7 +2,7 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2019-11-29T20:30:00+01:00
+lastmod: 2020-01-14T18:00:00+01:00
 authors: [Matteo]
 description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
@@ -65,7 +65,7 @@ A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissi
 
 Per le tv vendute prima del 2017 la situazione potrebbe essere diversa, ed è quindi opportuno verificare le specifiche del modello.
 
-👉 Entro il 2019 sarà trasmesso sui canali 100 e 200 del digitale terrestre (DVB-T) un "cartello" codificato in HEVC Main 10. Chi riceverà questo canale sarà già pronto per la transizione del 2022.
+👉 Entro gennaio 2020 sarà trasmesso sui canali 100 e 200 del digitale terrestre (DVB-T) un "cartello" codificato in HEVC Main 10. Chi riceverà questo canale sarà già pronto per la transizione del 2022.
 {{% /green %}}
 
 Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della transizione) la percentuale di famiglie senza possibilità di ricevere il DVB-T2 sarà del 48,4% nello scenario di ricambio naturale, oppure del 29,9% considerando gli incentivi economici.[^auditel]
