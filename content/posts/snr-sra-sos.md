@@ -2,7 +2,7 @@
 title: "Cosa indicano SNR, SRA e SOS in VDSL2"
 slug: snr-sra-sos
 date: 2019-08-22T13:22:09+02:00
-lastmod: 2019-08-27T14:25:00+02:00
+lastmod: 2020-01-14T18:00:00+01:00
 authors: [Andrea (Hadx) e Matteo]
 description: "In VDSL2 il margine di rumore e le tecniche SRA e SOS assumono maggiore importanza. Una spiegazione semplificata del loro significato."
 categories: [Definizioni, FTTC]
@@ -67,7 +67,7 @@ Un'altra tecnica per il controllo del margine di rumore è l'**SOS** (Save Our S
 
 L'SOS permette quindi di reagire rapidamente a disturbi inaspettati, senza dover necessariamente ricorrere alla modifica del _target_ SNR a 12 dB. Ci si può accorgere che l'SOS è attivo controllando sul proprio modem il valore "INP" e verificando se si aggira intorno a 100 piuttosto che a 60.
 
-Va notato a questo punto che **12 dB e SOS non sono direttamente collegati**. I due meccanismi vengono abilitati in modo indipendente a seconda dei parametri di configurazione del DSLAM, anche se è possibile che le due cose spesso coincidano.
+Va notato a questo punto che **12 dB e SOS non sono direttamente collegati**. I due meccanismi vengono abilitati in modo indipendente a discrezione dell'operatore, anche se è possibile che le due cose spesso coincidano.
 
 {{% info %}}
 Alcuni dettagli tecnici sull'SOS sono disponibili in fondo a [questo messaggio](https://forum.fibra.click/d/3481-profilo-sos-e-seccature-varie/9), da cui questo articolo è estratto.
