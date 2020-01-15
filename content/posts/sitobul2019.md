@@ -2,7 +2,7 @@
 title: "Come controllare la presenza di intervento pubblico o privato"
 slug: bul-verifica-per-indirizzo
 date: 2019-03-26
-lastmod: 2019-11-01T14:00:00+02:00
+lastmod: 2020-01-15T21:00:00+01:00
 authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
@@ -70,10 +70,6 @@ Il significato delle due sigle è:
 [^cons2019]: pagina 10 http://www.infratelitalia.it/wp-content/uploads/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
 [^vhcn]: pagina 43 https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=17183
 
-{{% warn %}}
-⚠ Il numero indicato nella casella NGA include anche il numero di infrastrutture NGA-VHCN.
-{{% /warn %}}
-
 {{% green %}}
 ###### Cosa indicano i numeri
 I numeri indicano il **numero di infrastrutture** installate o previste. Si tenga però presente che "due infrastrutture" non è la stessa cosa di dire "due operatori". Ad esempio:
@@ -82,19 +78,16 @@ I numeri indicano il **numero di infrastrutture** installate o previste. Si teng
 - un operatore può utilizzare la rete in fibra ottica di Open Fiber ma non per questo comparirebbe come secondo operatore, perché l'infrastruttura è la stessa.
 {{% /green %}}
 
-A questo punto, se risulta un numero maggiore di 0 nella casella NGA-VHCN:
+A questo punto, se risulta un numero **maggiore di 0** nella casella **NGA-VHCN** si possono seguire queste linee guida per interpretare il risultato:
 
-- **1 VHCN** equivale molto spesso a copertura da parte di **[Open Fiber]({{< relref "/posts/openfiber.md" >}})**, ma non sempre. Potrebbe anche trattarsi di un **operatore locale**, come ad esempio Isiline, Intred, Unidata, ecc., oppure della rete **TIM** realizzata precedentemente alla nascita di Flash Fiber (2016) o tramite i bandi Eurosud;
-- **3 VHCN** corrisponde frequentemente alla copertura **[Flash Fiber]({{< relref "/posts/flashfiber.md" >}})**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura.
+- **1 VHCN** equivale molto spesso a copertura da parte di **[Open Fiber]({{< relref "/posts/openfiber.md" >}})**, ma non sempre. Potrebbe anche trattarsi di un **operatore locale**, come ad esempio Isiline, Lenfiber, Intred, MyNet, Unidata, ecc., oppure della rete **TIM** realizzata precedentemente alla nascita di Flash Fiber (2016) o tramite i bandi Eurosud;
+- **3 VHCN** corrisponde frequentemente alla copertura **[Flash Fiber]({{< relref "/posts/flashfiber.md" >}})**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura;
+- **combinazioni**  dei due punti sopra, tenendo presente che non esiste un modo per sapere realmente quali operatori hanno dichiarato la copertura, e che in alcuni casi un operatore potrebbe aver dichiarato la presenza dell'infrastruttura anche con molto anticipo.
 
 {{% warn %}}
 ⚠ **A Milano Flash Fiber non è presente**: se risultano tre operatori, è possibile che si tratti di Open Fiber, TIM, e la "vecchia" infrastruttura Metroweb. La stessa situazione potrebbe ripetersi in altre città con copertura Metroweb.
 
 {{% fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a \"Irenicusss\" per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" %}}
-{{% /warn %}}
-
-{{% warn %}}
-⚠ Esistono dei casi in cui **un operatore può aver dichiarato la presenza dell'infrastruttura con molto anticipo (anche di anni)**. In questi casi purtroppo non è possibile sapere qual è l'operatore per chiedere maggiori informazioni.
 {{% /warn %}}
 
 Se ti risulta un numero maggiore di 0 nella casella NGA:
@@ -105,7 +98,7 @@ Se ti risulta un numero maggiore di 0 nella casella NGA:
 - comprende le connessioni **FWA** come Eolo, Linkem o Fastweb.
 
 {{% info %}}
-La **fase 2** del piano nazionale **Banda Ultra Larga** prevede la copertura in FTTH a 100 Mbps/1 Gbps delle aree grigie, cioè le aree con assenza di infrastrutture NGA-VHCN. [Scopri di più sul piano BUL]({{% relref "/posts/bul.md" %}}).
+La **fase 2** del piano nazionale **Banda Ultra Larga** (piano "aree grigie") prevede la copertura con reti ad alta capacità (VHCN) delle aree che ne sono sprovviste. [Scopri di più sul piano BUL]({{% relref "/posts/bul.md" %}}).
 {{% /info %}}
 
 {{% info %}}
