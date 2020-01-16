@@ -2,16 +2,17 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2020-01-15T21:00:00+01:00
+lastmod: 2020-01-16T22:00:00+01:00
 authors: [Matteo]
 description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
 categories: []
 image: /social/digitale-terrestre-2022.jpg
 ---
 
-A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**.
+A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**[^eulex].
 
 [^freq]: La banda in questione è quella tra i 694 e 790 MHz.
+[^eulex]: https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32017D0899R(02)&from=IT
 
 La liberazione delle frequenze sarà accompagnata da due cambiamenti importanti nel sistema di diffusione del segnale televisivo, necessari per poter offrire gli stessi canali con una disponibilità inferiore di frequenze.
 
@@ -19,17 +20,17 @@ La transizione si articolerà in due fasi:[^mise]
 
 - un **periodo transitorio tra il 1° settembre 2021 e il 20 giugno 2022**, durante il quale sarà disposto il cambio del formato di codifica video dei canali tv (da MPEG-2 a H.264 o superiore);
 
-- il passaggio al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022** ed eventualmente al formato video H.265/HEVC.
+- il passaggio al sistema di trasmissione **DVB-T2 tra il 21 e il 30 giugno 2022**, ed eventualmente al formato video H.265/HEVC.
 
 Si tratta di due modifiche di portate ben diverse, e come vedremo si stima che solo la seconda richiederà a un numero rilevante di famiglie di acquistare un decoder o una tv nel 2022. Porterà invece benefici in termini di qualità del servizio, tra cui una maggiore **diffusione dei canali HD e la possibilità di inserire canali UHD/4K**.
 
-Vediamo più nello specifico che cosa comporteranno le due transizioni.
+Vediamo più nello specifico che cosa comporteranno le due transizioni, come verificare se la propria tv o decoder è compatibile, e quali incentivi economici sono previsti.
 
 {{< toc >}}
 
 ## Il periodo transitorio (2021-2022)
 
-In questo periodo avverrà il cambio del **formato di compressione video** dei canali tv. Si passerà dall'attuale MPEG-2 **al formato di codifica H.264** (chiamato anche AVC o MPEG-4 Part 10).
+In questo periodo avverrà il cambio del **formato di compressione video** dei canali tv. Si passerà dall'attuale MPEG-2 **al formato di codifica H.264** (chiamato anche AVC o MPEG-4 Part 10)[^mise].
 
 Si tratta di un formato già molto diffuso, standardizzato nel 2003 e **già supportato dalla stragrande maggioranza delle tv** nelle case italiane. Tutte le tv vendute nell'ultima decina di anni supportano H.264. Inoltre, i **canali in HD** sul digitale terrestre **trasmettono già ora in H.264** (ad esempio i canali tra le LCN 501 e 507), per cui chi riesce a vedere almeno un canale HD ora non avrà problemi.
 
@@ -59,7 +60,7 @@ In concomitanza con la transizione al DVB-T2, **è possibile** che le emittenti 
 
 Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della transizione) la percentuale di famiglie senza possibilità di ricevere il DVB-T2 sarà del 48,4% nello scenario di ricambio naturale, oppure del 29,9% considerando gli incentivi economici.[^auditel]
 
-Chi non si adeguerà in tempo dovrà acquistare un decoder per poter continuare a ricevere il segnale (il costo base di un decoder è di circa 30 €).
+Chi non è in possesso di una tv compatibile dovrà acquistare un decoder (dal costo base di circa 30 €) oppure sostituire la tv.
 
 ## I canali di test
 
@@ -71,10 +72,11 @@ Dopo aver effettuato una risintonizzazione dei canali, **se riesci a vedere alme
 
 [^cartelli]: https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset
 
-Se non vedi il canale:
+Se non vedi i due canali, è più complicato, e si distinguono almeno due casi:
 
-- la tua tv *potrebbe* supportare lo standard DVB-T2 ma non HEVC Main 10, per cui la visione di alcuni canali potrebbe non essere garantita nel 2022;
-- la tua tv potrebbe non supportare lo standard DVB-T2, e non riceverà quindi le trasmissioni dal 2022.
+- la tua tv *potrebbe* **supportare lo standard DVB-T2 ma non HEVC Main 10**, per cui *potresti* non riuscire a vedere alcuni canali da luglio 2022. Per capire se ti trovi in questo caso, devi verificare le specifiche del tuo modello di tv;
+
+- la tua tv potrebbe non supportare lo standard DVB-T2, e non riceverà quindi nessuna trasmissione da luglio 2022.
 
 {{% fig src="/images/canale-hevc.jpg" caption="Il cartello visibile sui canali 100 e 200 del digitale terrestre. Fonte: [Digital News](https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset)" %}}
 
