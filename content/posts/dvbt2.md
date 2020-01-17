@@ -66,7 +66,9 @@ Chi non è in possesso di una tv compatibile dovrà acquistare un decoder (dal c
 
 Da metà gennaio 2020 sono disponibili sul digitale terrestre **due canali di test** per verificare se la propria tv supporta gli standard più recenti[^cartelli].
 
-I canali sono visibili sulle **LCN 100 e 200** (il primo emesso dalla Rai, il secondo da Mediaset), si chiamano "Test HEVC Main10" e sono trasmessi in DVB-T con compressione HEVC Main 10 e risoluzione 720p50.
+I canali sono visibili sulle **LCN 100 e 200** (il primo emesso dalla Rai, il secondo da Mediaset), si chiamano "Test HEVC Main10" e sono trasmessi in DVB-T con compressione HEVC Main 10 e risoluzione 720p/50[^datitecnici].
+
+[^datitecnici]: https://www.digital-forum.it/showthread.php?p=6415854
 
 Dopo aver effettuato una risintonizzazione dei canali, **se riesci a vedere almeno uno dei due canali significa che la tua tv è sicuramente pronta per la transizione del 2022**.
 
