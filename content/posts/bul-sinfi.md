@@ -13,9 +13,9 @@ Da ottobre 2019 il [SINFI](https://www.sinfi.it) (il catasto nazionale delle inf
 
 I dati sono pubblicati sotto forma di Shapefile ESRI, un formato vettoriale standard per la condivisione di dati georeferenziati, e risultano utili per capire **quali aree di un comune sono coperte** da Open Fiber con fondi pubblici, e con quale **tecnologia (FTTH o FWA)**.
 
-{{% green %}}
+{{< green >}}
 I dati sono pubblicati solo per i comuni con progetto esecutivo per la fibra approvato, cioè i comuni che si trovano nello stato "In attesa di autorizzazioni", "In esecuzione", "Lavori completati" o "Terminato".
-{{% /green %}}
+{{< /green >}}
 
 {{< toc >}}
 
@@ -27,9 +27,9 @@ I dati comune per comune sono scaricabili dal **sito web del SINFI**. Dopo aver 
 <a href="https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione" target="_blank">VAI AL SINFI</a>
 </p>
 
-{{% warn %}}
+{{< warn >}}
 Per alcuni comuni sono presenti più file ZIP. In tal caso, conviene scaricarli tutti e consultarli poi uno alla volta.
-{{% /warn %}}
+{{< /warn >}}
 
 Per facilitare la consultazione dei dati Shapefile, FibraClick offre una pagina web appositamente realizzata. Apri il **visualizzatore SINFI**, poi premi il tasto "Sfoglia" e seleziona il file ZIP.
 
@@ -47,6 +47,6 @@ Il tracciato della fibra ottica può dare un'idea delle abitazioni che saranno c
 
 Nella mappa che segue, si riesce anche a intuire che la lunga tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS (stazione radio base) per la telefonia, che verrà in questo caso utilizzata anche per erogare il segnale FWA di Open Fiber.
 
-{{% fig src="/images/bul-sinfi-fwa.jpg" caption="La tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS Open Fiber." alt="" %}}
+{{< fig src="/images/bul-sinfi-fwa.jpg" caption="La tratta in fibra ottica che attraversa la ferrovia serve a cablare una BTS Open Fiber." alt="" >}}
 
 {{< footer >}}

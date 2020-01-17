@@ -14,13 +14,13 @@ Nel caso di una **linea <abbr title="Fiber To The Cabinet">FTTC</abbr>** ([VDSL]
 
 Nel caso di una **linea <abbr title="Fiber To The Home">FTTH</abbr>** ([GPON]({{< relref "/posts/gpon.md" >}})), a meno di guasti la velocità negoziata è sempre il massimo supportato dalla tecnologia GPON, cioè 2,5 Gbps in download e 1,25 in upload. La velocità viene poi limitata dall'operatore in base al profilo del proprio contratto, e quella effettiva può [dipendere da molti altri fattori]({{< relref "/posts/ftth-1000.md" >}}). Non esiste comunque un periodo di assestamento.
 
-{{% info %}}
+{{< info >}}
 Vedi anche:
 
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
 - [Cos'è la VDSL]({{< relref "/posts/vdsl.md" >}})
 - [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}})
 - [Perché la FTTH non va a 1000 Mbps?]({{< relref "/posts/ftth-1000.md" >}})
-{{% /info %}}
+{{< /info >}}
 
 {{< footer >}}

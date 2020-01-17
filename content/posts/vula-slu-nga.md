@@ -23,19 +23,19 @@ Il VULA è una tipologia di accesso che prevede che **l'operatore sia presente n
 
 Il traffico generato dai clienti viene **consegnato all'operatore a livello di centrale**, tramite un kit VULA. Ciascun operatore può avere un suo kit VULA, ma il collegamento tra kit e OLT (*Optical Line Terminal*, cioè l'apparato a cui sono collegate le fibre ottiche che vanno verso gli armadi) avviene con un collegamento unico di 10 Gbps condivisi tra tutti gli operatori VULA.[^vula]
 
-{{% fig src="/images/vula.png" caption="Schema di accesso VULA per due operatori alternativi (\"OLO\" in gergo) in centrale TIM. Al di fuori della centrale, lungo la rete di accesso, l'OLO non è presente ma si affida completamente a TIM." %}}
+{{< fig src="/images/vula.png" caption="Schema di accesso VULA per due operatori alternativi (\"OLO\" in gergo) in centrale TIM. Al di fuori della centrale, lungo la rete di accesso, l'OLO non è presente ma si affida completamente a TIM." >}}
 
 In Italia, i principali operatori disponibili in VULA sono **Fastweb, Vodafone, Tiscali e Wind Tre**, in un numero di comuni comunque inferiore rispetto alla copertura completa di TIM. I dati aggiornati sono indicati [su Wikipedia](https://it.wikipedia.org/wiki/VDSL2#Copertura_in_Italia) (si noti che Tiscali rivende il VULA Fastweb, quindi il conteggio include la copertura Fastweb).
 
 A livello di prestazioni, **una linea TIM e una linea VULA sono sostanzialmente identiche**. Talvolta possono però sorgere problemi di saturazione, nello specifico nel caso in cui il kit di consegna dell'operatore sia saturo, oppure nel (raro) caso in cui lo sia il collegamento OLT-switch di 10 Gbps.
 
-{{% green %}}
+{{< green >}}
 ###### "Virtual Unbundled"
 
 L'accesso VULA si definisce **unbundled** (U), cioè **disaggregato**, perché l'operatore alternativo affitta solo **parte dell'infrastruttura** TIM, in questo caso l'ultimo miglio.
 
 L'accesso è però **virtuale**, perché l'operatore non affitta fisicamente il collegamento e non può quindi usarlo in modo esclusivo. Infatti, sia nel caso di FTTC che FTTH la fibra ottica trasporta il traffico di tutti gli operatori, separato tramite l'uso delle VLAN (Virtual LAN).
-{{% /green %}}
+{{< /green >}}
 
 ## SLU (Sub-Loop Unbundling)
 
@@ -43,18 +43,18 @@ Il termine SLU è utilizzato nell'ambito delle reti FTTC per indicare **l'affitt
 
 Questo comporta che l'operatore duplichi l'infrastruttura di TIM, installando degli **apparati sia in strada** (ONU) che in centrale (OLT). L'armadio TIM da cui partono i doppini resta lo stesso di TIM (ARL nello schema), ma l'operatore installa un secondo ONU in aggiunta a quello di TIM, completamente indipendente.
 
-{{% fig src="/images/slu.png" caption="Schema di accesso SLU per un operatore alternativo (OLO)." %}}
+{{< fig src="/images/slu.png" caption="Schema di accesso SLU per un operatore alternativo (OLO)." >}}
 
 I due principali operatori che in Italia hanno installato infrastrutture SLU sono **Fastweb e Vodafone**, entrambi in poco più di 100 comuni. La rete SLU di Vodafone viene talvolta chiamata anche "MAKE", mentre quella di Fastweb "FTTS". In aggiunta, **Tiscali** ha un accordo con Fastweb per la rivendita della FTTS.
 
 Altri operatori locali, tra cui il caso notevole di Planetel, hanno realizzato infrastrutture SLU in qualche comune.
 
-{{% fig src="/images/slu.jpg" caption="Da sinistra, ONU Fastweb, ONU Vodafone, colonnina di alimentazione TIM, ARL e ONU TIM e due chiostrine TIM. La fibra ottica degli operatori SLU, proveniente dalla centrale, entra nei rispettivi ONU, e i cavi in rame che ne escono vengono collegati all'armadio TIM. **L'ONU non è necessariamente inserito in un armadio, ma può anche essere interrato**. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
+{{< fig src="/images/slu.jpg" caption="Da sinistra, ONU Fastweb, ONU Vodafone, colonnina di alimentazione TIM, ARL e ONU TIM e due chiostrine TIM. La fibra ottica degli operatori SLU, proveniente dalla centrale, entra nei rispettivi ONU, e i cavi in rame che ne escono vengono collegati all'armadio TIM. **L'ONU non è necessariamente inserito in un armadio, ma può anche essere interrato**. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" >}}
 
 La copertura SLU può risultare conveniente all'operatore, ma **non porta quasi nessun beneficio in termini di prestazioni**. Su infrastruttura Fastweb SLU un vantaggio è che i profili di velocità non sono bloccati, e cioè, ad esempio, che l'upload può arrivare anche a 30 Mbps anziché ai classici 20 Mbps.
 
 
-{{% green %}}
+{{< green >}}
 ###### Per la precisione
 
 Ricapitolando, questi sono gli elementi coinvolti:
@@ -62,7 +62,7 @@ Ricapitolando, questi sono gli elementi coinvolti:
 - **OLT** (*Optical Line Terminal*) è la **terminazione a livello di centrale** della rete di accesso in fibra ottica;
 - **ONU** (*Optical Network Unit*) è la terminazione su strada della rete ottica. In questo caso svolge il ruolo di **DSLAM** (*Digital Subscriber Line Access Multiplexer*), e cioè consente di gestire il **collegamento di molte linee in rame** (ADSL o VDSL). In presenza di SLU, l'operatore installa un proprio ONU accanto a quello TIM;
 - **ARL** è l'armadio ripartilinea, cioè il punto di raccordo del rame che collega le abitazioni tramite la tratta secondaria. **Tutti gli operatori SLU utilizzano l'ARL TIM**.
-{{% /green %}}
+{{< /green >}}
 
 ## NGA (Next Generation Access)
 
@@ -74,7 +74,7 @@ Un accesso NGA è notevolmente più **costoso** per l'operatore alternativo, per
 
 Inoltre, in NGA **l'operatore perde il controllo sia della rete di accesso che di parte della rete di trasporto**. La risoluzione dei **guasti** deve quindi passare quasi sempre da TIM.
 
-{{% fig src="/images/nga.png" caption="Schema di accesso NGA per un operatore alternativo (OLO)." %}}
+{{< fig src="/images/nga.png" caption="Schema di accesso NGA per un operatore alternativo (OLO)." >}}
 
 {{< footer >}}
 

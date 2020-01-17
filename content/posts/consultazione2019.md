@@ -24,14 +24,14 @@ Per essere precisi, la consultazione 2019 è un **monitoraggio della precedente,
 
 Le aree bianche già oggetto di intervento pubblico nel [piano BUL 2015-2020]({{< relref "bul.md" >}}) non sono di interesse della consultazione, per cui eventuali interventi privati in queste aree non sono stati rilevati.
 
-{{% green %}}
+{{< green >}}
 ###### Ripasso sulle aree nere e grigie
 La Commissione Europea definisce così le aree nere, grigie e bianche:
 
 - **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga
 - **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni
-{{% /green %}}
+{{< /green >}}
 
 ## A cosa serve la consultazione
 
@@ -41,9 +41,9 @@ I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano 
 
 Maggiori dettagli sulla fase 2 sono attesi nella seconda metà del 2019.
 
-{{% info %}}
+{{< info >}}
 Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 ## I risultati aggregati
 
@@ -53,7 +53,7 @@ I primi risultati sono stati pubblicati il 3 giugno 2019 sul sito Infratel:[^inf
 - le aree bianche (circa 12 milioni di numeri civici) sono già oggetto di intervento pubblico e sono quindi escluse da questi dati;
 - alla consultazione hanno partecipato **37 operatori**, tra cui tutti i grandi operatori italiani **ad eccezione di Vodafone**.
 
-{{% fig src="/images/cons19-operatori.jpg" caption="Operatori che hanno risposto alla consultazione" %}}
+{{< fig src="/images/cons19-operatori.jpg" caption="Operatori che hanno risposto alla consultazione" >}}
 
 La novità più importante che emerge dai risultati è che **le linee FTTC/FTTE** in VDSL2 o eVDSL **non sono più classificate come "30 Mbps" ma come "100 Mbps"**. Dai dati risulta infatti che già a dicembre 2018 le linee VDSL2 con velocità inferiore a 100 Mbps sarebbero quasi lo 0%.[^percentuale]
 
@@ -74,13 +74,13 @@ Sintetizzando, le previsioni di copertura per il 2021 sono le seguenti:
 
 A questi dati, riguardanti le aree nere e grigie, vanno aggiunte le aree già coperte o in fase di copertura tramite fondi pubblici, cioè circa il 36% dei numeri civici:
 
-{{% fig src="/images/cons19-totale.jpg" caption="Percentuale di copertura sul totale dei civici italiani al 2021. La provincia autonoma di Bolzano prevede rilevazioni e piani di copertura interni a livello provinciale." %}}
+{{< fig src="/images/cons19-totale.jpg" caption="Percentuale di copertura sul totale dei civici italiani al 2021. La provincia autonoma di Bolzano prevede rilevazioni e piani di copertura interni a livello provinciale." >}}
 
 ## I risultati dettagliati
 
 I dati comune dettagliati (per comune e per indirizzo) sono stati pubblicati il 27 giugno 2019 sul sito [Banda Ultra Larga](http://bandaultralarga.italia.it).
 
-Segui [la nostra guida]({{% relref "/posts/sitobul2019.md" %}}) per verificare le previsioni di intervento fino al 2021.
+Segui [la nostra guida]({{< relref "/posts/sitobul2019.md" >}}) per verificare le previsioni di intervento fino al 2021.
 
 [^infratel1]: https://consultazione.infratelitalia.it/doc/Manuale_Istruzioni_monitoraggio_2019.pdf
 [^infratel2]: http://bandaultralarga.italia.it/infratel-ha-completato-il-monitoraggio-2019-della-consultazione-aree-grigie-e-nere/

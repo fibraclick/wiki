@@ -27,7 +27,7 @@ Il processo per la rimozione della diafonia è continuo, e si può dividere in t
 - il DSLAM combina i dati raccolti in modo da ottenere una **misura della diafonia tra ogni linea disturbata-linea disturbante**. Questo calcolo è un'operazione estremamente complessa e richiede un utilizzo elevato della CPU;
 - infine, viene generato un **segnale di "anti-rumore"**, che viene applicato al segnale VDSL2 per pre-compensare la diafonia. La diafonia può essere così rimossa **quasi completamente**, a seconda di come è configurato il DSLAM.
 
-{{% fig src="/images/vectoring-fasi.jpg" caption="Le tre fasi del vectoring. Fonte: [Gazzettabyte](http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html) (CC-BY-ND)" %}}
+{{< fig src="/images/vectoring-fasi.jpg" caption="Le tre fasi del vectoring. Fonte: [Gazzettabyte](http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html) (CC-BY-ND)" >}}
 
 ## Il vectoring in Italia
 

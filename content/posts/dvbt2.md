@@ -54,9 +54,9 @@ A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissi
 
 In concomitanza con la transizione al DVB-T2, **è possibile** che le emittenti decidano anche di passare a un **formato di compressione più all'avanguardia**, in particolare **HEVC** (anche chiamato H.265). Questo formato permette di ottenere la stessa qualità offerta da H.264 utilizzando circa il 50% dei dati.
 
-{{% green %}}
+{{< green >}}
 **Tutte le tv in vendita in Italia dal 1° gennaio 2017 supportano obbligatoriamente DVB-T2 e il formato di codifica HEVC Main 10** (D.L. 192 / 2014).
-{{% /green %}}
+{{< /green >}}
 
 Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della transizione) la percentuale di famiglie senza possibilità di ricevere il DVB-T2 sarà del 48,4% nello scenario di ricambio naturale, oppure del 29,9% considerando gli incentivi economici.[^auditel]
 
@@ -78,7 +78,7 @@ Se non vedi i due canali, è più complicato, e si distinguono almeno due casi:
 
 - la tua tv potrebbe non supportare lo standard DVB-T2, e non riceverà quindi nessuna trasmissione da luglio 2022.
 
-{{% fig src="/images/canale-hevc.jpg" caption="Il cartello visibile sui canali 100 e 200 del digitale terrestre. Fonte: [Digital News](https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset)" %}}
+{{< fig src="/images/canale-hevc.jpg" caption="Il cartello visibile sui canali 100 e 200 del digitale terrestre. Fonte: [Digital News](https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset)" >}}
 
 ## Evoluzione dell'offerta Rai
 
@@ -86,7 +86,7 @@ Le transizioni tecnologiche che vedremo nel 2021 e 2022 permetteranno anche una 
  
 Per quanto riguarda la **Rai**, gli scenari in considerazione sono illustrati nell'immagine seguente, e prevedono **diverse combinazioni di DVB-T e DVB-T2** con relativi vantaggi e svantaggi. Si ipotizzano: l'aumento del numero di **canali in HD**, la rimozione dei canali SD e l'**inserimento di un canale UHD/4K**. Non è invece ancora sicuro se sarà necessario l'uso di HEVC.
 
-{{% fig src="/images/scenari-rai.png" caption="Fonte: Digital Forum" %}}
+{{< fig src="/images/scenari-rai.png" caption="Fonte: Digital Forum" >}}
 
 ## Gli incentivi per l'acquisto di decoder e tv
 
@@ -98,9 +98,9 @@ Il venditore verificherà che l'acquisto sia idoneo per lo sconto (cioè che non
 
 Si stima che i fondi attualmente stanziati saranno sufficienti per tre milioni di famiglie.
 
-{{% info %}}
+{{< info >}}
 Per maggiori dettagli sul contributo si rimanda alla [pagina ufficiale del MiSE](https://www.mise.gov.it/index.php/it/incentivi/comunicazioni/bonus-tv), dove è anche possibile consultare la lista dei prodotti idonei.
-{{% /info %}}
+{{< /info >}}
 
 [^mise]: https://www.mise.gov.it/images/stories/documenti/dm%20calendario%20rilascio%20banda%20700%20MHz%20con%20estremi%20reg%20CdC.pdf
 [^auditel]: https://www.mise.gov.it/images/stories/documenti/Report-scenari-diffusione-TV-marzo-2019.pdf

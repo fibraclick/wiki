@@ -21,14 +21,14 @@ In dettaglio, le aree si definiscono così[^lex]:
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga
 - **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
 
-{{% green %}}
+{{< green >}}
 ###### Aree vs comuni
 Quando si parla di area, non si intende il territorio di un comune. Ogni comune è suddiviso in più aree, che ricalcano approssimativamente il concetto di "località" definito da ISTAT. In Italia sono state definite 94˙645 aree, su circa 8˙000 comuni, e ciascuna area viene classificata come nera, grigia o bianca per mezzo delle consultazioni svolte annualmente da Infratel.
-{{% /green %}}
+{{< /green >}}
 
 È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "/posts/vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "/posts/vula-slu-nga.md" >}}) dedicati, come nella foto che segue.
 
-{{% fig src="/images/slu.jpg" caption="Armadi per la FTTC di Fastweb, Vodafone e TIM. La zona coperta dagli armadi è un'area nera. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
+{{< fig src="/images/slu.jpg" caption="Armadi per la FTTC di Fastweb, Vodafone e TIM. La zona coperta dagli armadi è un'area nera. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" >}}
 
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato**.
 
@@ -36,9 +36,9 @@ In Italia la classificazione delle aree è un compito che spetta a Infratel, cio
 
 Infratel aggiorna periodicamente una **mappatura delle aree** tramite delle apposite **consultazioni pubbliche**, a cui gli operatori possono rispondere dichiarando la copertura prevista per i prossimi tre anni.
 
-{{% info %}}
+{{< info >}}
 I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
-{{% /info %}}
+{{< /info >}}
 
 ## I cluster
 
@@ -62,9 +62,9 @@ La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avvi
 Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "/posts/openfiber.md" >}}) per vent'anni.
 {{% /green %}}
 
-{{% info %}}
+{{< info >}}
 Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 {{% warn %}}
 ⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base al tipo di architettura offerto (FTTC, FTTH, ecc.). La definizione era errata.

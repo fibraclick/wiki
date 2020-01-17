@@ -15,11 +15,11 @@ La tecnologia è un'**evoluzione dell'ADSL**, e permette di raggiungere velocit�
 
 Lo svantaggio è che **la velocità diminuisce rapidamente** con l'aumentare della lunghezza dei cavi in rame. Per questo motivo, solitamente la VDSL2 viene erogata tramite punti di distribuzione posizionati su strada, vicino agli armadi ripartilinea. Questi punti si trovano in media a una distanza di 300 metri rispetto alle abitazioni.[^telecom]
 
-{{% fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" %}}
+{{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
 L'erogazione di una linea VDSL2 avviene tramite un **apparato attivo**, cioè alimentato, chiamato **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Il DLSAM (o ONU) viene spesso collocato all'interno di un sopralzo, installato sull'armadio ripartilinea di TIM.
 
-{{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
+{{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
 ## I profili VDSL2
 
@@ -30,7 +30,7 @@ I due profili più usati sono:
 - **17a** (17 MHz di banda): velocità massima di **100 Mbps** in download e 50 in upload;
 - **35b** (35 MHZ di banda): velocità massima di **300 Mbps** in download e 100 in upload.[^itu] \(nella realtà, la velocità è limitata a 200 Mbps)
 
-{{% fig src="/images/vdsl.png" caption="Grafico che mostra la relazione approssimata tra distanza dall'armadio (e quindi lunghezza del doppino telefonico) e la velocità in download. Oltre i 500 metri, i due profili sono equivalenti. Nel mondo reale, la velocità effettiva dipende da molti fattori e potrebbe discostarsi di molto da quanto mostrato nel grafico. Grafico realizzato con [dati Vodafone](https://www.vodafone.it/portal/Privati/Tariffe-e-Prodotti/Fibra--ADSL-e-telefono/fibra-ottica-vodafone)." %}}
+{{< fig src="/images/vdsl.png" caption="Grafico che mostra la relazione approssimata tra distanza dall'armadio (e quindi lunghezza del doppino telefonico) e la velocità in download. Oltre i 500 metri, i due profili sono equivalenti. Nel mondo reale, la velocità effettiva dipende da molti fattori e potrebbe discostarsi di molto da quanto mostrato nel grafico. Grafico realizzato con [dati Vodafone](https://www.vodafone.it/portal/Privati/Tariffe-e-Prodotti/Fibra--ADSL-e-telefono/fibra-ottica-vodafone)." >}}
 
 ## Attenuazione del segnale
 
@@ -44,9 +44,9 @@ L'uso di alte frequenze per offrire alte velocità ha un altro svantaggio, cioè
 
 Questo fenomeno è definito **diafonia** (*crosstalk*), e può ridurre la velocità della connessione anche del 50%, a seconda del numero di linee VDSL/2 interferenti.
 
-{{% info %}}
+{{< info >}}
 Gli effetti della diafonia sono quasi annullabili con l'utilizzo del **vectoring**. [Leggi di più qua]({{< relref "/posts/vectoring.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 ## VDSL2 in Italia
 

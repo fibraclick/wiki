@@ -17,9 +17,9 @@ L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/
 
 La lista delle 29 città in corso di copertura è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
 
-{{% warn %}}
+{{< warn >}}
 ⚠ **Nella città di Milano Flash Fiber non è presente**, ma esistono invece le infrastrutture separate di **TIM** (dai tempi di Telecom Italia) e **Metroweb**. Metroweb ha realizzato per quasi 20 anni la rete FTTH utilizzata da Fastweb, per poi essere fusa con Open Fiber. Oggi, Fastweb continua a utilizzare e ad attivare utenze sulla ex rete Metroweb.
-{{% /warn %}}
+{{< /warn >}}
 
 {{< toc >}}
 
@@ -29,7 +29,7 @@ La copertura FTTH prevede l'**installazione di un ROE** (_Ripartitore Ottico di 
 
 Nel caso di un condominio, Flash Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^legge]
 
-{{% fig src="/images/ffcartello.jpg" caption="Avviso che anticipa l'intervento di Flash Fiber in un condominio" alt="Foglio di carta appeso con il logo Flash Fiber, che dice \"stiamo posando la fibra ottica\"" %}}
+{{< fig src="/images/ffcartello.jpg" caption="Avviso che anticipa l'intervento di Flash Fiber in un condominio" alt="Foglio di carta appeso con il logo Flash Fiber, che dice \"stiamo posando la fibra ottica\"" >}}
 
 ## Verifica copertura
 
@@ -47,31 +47,31 @@ In particolare:
 
 La rete FTTH di Flash Fiber è realizzata esclusivamente utilizzando la **tecnologia GPON**, che ha la peculiarità di non richiedere elementi di rete attivi (alimentati) tra la centrale e l'abitazione del cliente.
 
-{{% info %}}
+{{< info >}}
 Se non conosci la terminologia della GPON, visita la pagina [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livelli: il primo in un **CNO** (_Centro Nodale Ottico_), solitamente dislocato in prossimità degli armadi ripartilinea di TIM, mentre il secondo nel **ROE**, posizionato in prossimità dell'edificio da cablare. In genere, il fattore di splitting è in entrambi i casi di 1:8, per un **fattore complessivo di 1:64** per albero.
 
-{{% fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." %}}
+{{< fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." >}}
 
 Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture TIM e Fastweb**. Una delle conseguenze è che nei punti di splitting di Flash Fiber (ad esempio nei ROE) entra la fibra ottica sia di TIM che di Fastweb, e lo splitting avviene indipendentemente per ciascun operatore (fattore di 1:8 per operatore). Anche gli OLT in centrale sono separati per i due operatori.
 
 ## Foto
 
-{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" %}}
+{{< fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" >}}
 
-{{% fig src="/images/roe-ff2.jpg" caption="CNO Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un CNO legata a un palo della rete TIM" %}}
+{{< fig src="/images/roe-ff2.jpg" caption="CNO Flash Fiber esterno. Grazie a Francesco B. per la foto" alt="Scatola di un CNO legata a un palo della rete TIM" >}}
 
-{{% fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" %}}
+{{< fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" >}}
 
-{{% fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" %}}
+{{< fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" >}}
 
-{{% fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" %}}
+{{< fig src="/images/roe-ff3.jpg" caption="ROE Flash Fiber esterno. Grazie a Manuel M. per la foto" alt="Scatola di un ROE fissata su una parete esterna di una casa" >}}
 
-{{% fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" %}}
+{{< fig src="/images/roe-ff4.jpg" caption="Contenitore di ROE Flash Fiber da interno. Grazie a Augmentin per la foto" alt="Scatola di un ROE larga e bassa, fissata su una parete, con le etichette Flash Fiber e TIM" >}}
 
-{{% fig src="/images/muffola-ff.jpg" vertical="true" caption="Muffola compatta, da non confondere con il ROE, con lo scopo di fare da giunto per collegare più ROE. Grazie a @DDR per la foto" %}}
+{{< fig src="/images/muffola-ff.jpg" vertical="true" caption="Muffola compatta, da non confondere con il ROE, con lo scopo di fare da giunto per collegare più ROE. Grazie a @DDR per la foto" >}}
 
 [^ff1]: https://www.flashfiber.it/chi-siamo/lazienda/
 [^ff2]: https://www.flashfiber.it/chi-siamo/

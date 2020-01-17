@@ -12,9 +12,9 @@ categories: [Definizioni, FTTC]
 
 Tuttavia, a differenza dell'ADSL, la VDSL2 utilizza frequenze molto più alte e maggiormente suscettibili a interferenze. Di conseguenza, assumono maggiore importanza concetti come il **margine SNR** e le tecniche **SRA (Seamless Rate Adaption)** e **SOS (Save Our Showtime)**.
 
-{{% green %}}
+{{< green >}}
 Questo articolo è un'introduzione volutamente semplificata a questi tre concetti. Se ti interessa approfondire, puoi tentare di leggere lo standard VDSL2 ([G.993.2](https://www.itu.int/rec/T-REC-G.993.2)) oppure aprire una discussione [sul forum](https://forum.fibra.click) menzionando @Hadx.
-{{% /green %}}
+{{< /green >}}
 
 {{< toc >}}
 
@@ -69,8 +69,8 @@ L'SOS permette quindi di reagire rapidamente a disturbi inaspettati, senza dover
 
 Va notato a questo punto che **12 dB e SOS non sono direttamente collegati**. I due meccanismi vengono abilitati in modo indipendente a discrezione dell'operatore, anche se è possibile che le due cose spesso coincidano.
 
-{{% info %}}
+{{< info >}}
 Alcuni dettagli tecnici sull'SOS sono disponibili in fondo a [questo messaggio](https://forum.fibra.click/d/3481-profilo-sos-e-seccature-varie/9), da cui questo articolo è estratto.
-{{% /info %}}
+{{< /info >}}
 
 {{< footer >}}

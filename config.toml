@@ -5,7 +5,6 @@ title = "FibraClick Wiki"
 theme = "hugo-journal"
 
 disableKinds = ["RSS", "taxonomyTerm"]
-footnoteReturnLinkContents = "⤴"
 removePathAccents = true
 
 [params]
@@ -20,6 +19,9 @@ removePathAccents = true
 [taxonomies]
   category = "categories"
 
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingIDType = "blackfriday"

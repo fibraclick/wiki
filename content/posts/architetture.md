@@ -23,7 +23,7 @@ I paragrafi che seguono approfondiscono singolarmente le architetture.
 
 {{< toc >}}
 
-{{% fig src="/images/architetture.jpg" caption="Architetture di rete. Fonte: TIM" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" %}}
+{{< fig src="/images/architetture.jpg" caption="Architetture di rete. Fonte: TIM" alt="Schema delle architetture di rete TIM: ADSL, FTTC, FTTB e FTTH" >}}
 
 ## FTTC (Fiber To The Cabinet)
 
@@ -33,51 +33,51 @@ Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che 
 
 [^1]: pagina 5 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
-{{% fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" %}}
+{{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
-{{% green %}}
+{{< green >}}
 Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**. In FTTC la distanza conta molto, perché ad alte frequenze (alte velocità) il segnale elettrico si degrada rapidamente con la distanza.
-{{% /green %}}
+{{< /green >}}
 
 In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*).[^2] Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^3]
 
 [^2]: pagina 3 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 [^3]: pagina 2 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo10.pdf
 
-{{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
+{{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
 #### Perché adottare la FTTC
 Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della tratta secondaria in rame. Le tecnologie xDSL infatti funzionano meglio su brevi distanze e permettono in combinazione con le alte frequenze di **raggiungere anche 100 o 200 Mbps in download** (VDSL2).[^4]
 
 [^4]: Tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
 
-{{% green %}}
+{{< green >}}
 Si noti che **l'architettura FTTC non implica nessuna tecnologia specifica**. In altre parole, la FTTC può essere potenzialmente utilizzata per erogare anche l'ADSL. In Italia si usa quasi esclusivamente per la VDSL2.
-{{% /green %}}
+{{< /green >}}
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cos'è la VDSL]({{< relref "/posts/vdsl.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 La FTTC è una soluzione frequentemente adottata nei Paesi che hanno una rete in rame consolidata, perché permette di ottenere prestazioni generalmente buone con costi di realizzazione bassi. Permette inoltre di coprire rapidamente molte abitazioni.
 
-{{% green %}}
+{{< green >}}
 ###### La tecnologia G.fast
 La tecnologia **G.fast** consente in condizioni ottimali di raggiungere anche 1000 Mbps in modalità TDD (significa che la banda è "condivisa e bilanciata" tra download e upload).
 
 In questo caso l'architettura di riferimento non si chiama FTTC ma **FTTDP** (*Fiber To The Distribution Point*), per esplicitare il fatto che il punto di raccordo tra fibra ottica e rame è flessibile e deve necessariamente essere vicino alle abitazioni.
 
 Per approfondimenti, fare riferimento a [[A]](https://www.telecomitalia.com/tit/it/notiziariotecnico/edizioni-2016/n-2-2016/capitolo-2/approfondimenti-1.html), [[B]](https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/2016/2-2016/Notiziario-Tecnico-2-2016.pdf) e [[C]](https://forum.fibra.click/d/1392-sperimentazione-g-fast-tim/18).
-{{% /green %}}
+{{< /green >}}
 
 #### Perché la FTTC è criticata
 La FTTC sfrutta come tratta secondaria la rete in rame esistente, talvolta posata decine di anni fa. Di conseguenza, il **degrado del rame** spesso influisce anche in modo pesante sulla qualità della linea fibra mista rame.
 
 Inoltre, l'uso di alte frequenze genera tra i cavi delle interferenze, che non sono più trascurabili come avveniva per l'ADSL. Il fenomeno della **diafonia** può infatti ridurre la velocità della connessione anche del 50%, in base al numero di linee VDSL interferenti.
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cos'è il vectoring]({{< relref "/posts/vectoring.md" >}}), la tecnologia che cura la diafonia.
-{{% /info %}}
+{{< /info >}}
 
 Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe sono circa 3,3 milioni.[^14]
 
@@ -97,9 +97,9 @@ A luglio 2019 TIM dichiara di coprire 2776 comuni.[^8] Gli altri operatori telef
 [^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
-{{% info %}}
+{{< info >}}
 Per approfondire come gli operatori accedono alla rete TIM e la rivendono (con tutti i vantaggi e gli svantaggi), consulta la pagina [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 ## FTTS (Fiber To The Street)
 
@@ -117,7 +117,7 @@ In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e
 
 [^11]: pagina 3 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
 
-{{% fig src="/images/architetture-ftte.png" caption="Architettura di rete FTTE con erogazione da centrale" %}}
+{{< fig src="/images/architetture-ftte.png" caption="Architettura di rete FTTE con erogazione da centrale" >}}
 
 ## FTTH (Fiber To The Home)
 
@@ -131,17 +131,17 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 
 [^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 
-{{% fig src="/images/architetture-ftth.png" caption="Schema generale di una rete FTTH. Le abitazioni sono collegate in fibra ottica" %}}
+{{< fig src="/images/architetture-ftth.png" caption="Schema generale di una rete FTTH. Le abitazioni sono collegate in fibra ottica" >}}
 
-{{% fig src="/images/architetture-ftth-gpon.png" caption="Schema avanzato di una rete FTTH GPON. Tra l'OLT e gli ONT sono presenti degli elementi passivi che fanno lo \"splitting\" della fibra ottica" %}}
+{{< fig src="/images/architetture-ftth-gpon.png" caption="Schema avanzato di una rete FTTH GPON. Tra l'OLT e gli ONT sono presenti degli elementi passivi che fanno lo \"splitting\" della fibra ottica" >}}
 
-{{% green %}}
+{{< green >}}
 ###### FTTB
 
 La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo situato nell'edificio in cui si trovano i clienti finali. È poco usata in Italia.
-{{% /green %}}
+{{< /green >}}
 
-{{% fig src="/images/roe-ff1.jpg" caption="Un ROE Flash Fiber, elemento passivo (non alimentato) delle reti FTTH-GPON. Viene installato nel locale contatori dell'edificio da cablare, oppure su una parete esterna, e ha il ruolo o di \"raccordo\" o di *splitting* della fibra ottica. Grazie a Edoardo C. per la foto." alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+{{< fig src="/images/roe-ff1.jpg" caption="Un ROE Flash Fiber, elemento passivo (non alimentato) delle reti FTTH-GPON. Viene installato nel locale contatori dell'edificio da cablare, oppure su una parete esterna, e ha il ruolo o di \"raccordo\" o di *splitting* della fibra ottica. Grazie a Edoardo C. per la foto." alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" >}}
 
 #### Diffusione in Italia
 
@@ -165,7 +165,7 @@ I problemi principali delle connessioni wireless sono la latenza e le (talvolta)
 
 Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diventare una soluzione più praticabile per risolvere situazioni di divario digitale, grazie alle notevoli prestazioni offerte dal 5G in termini di latenza e throughput (velocità).
 
-{{% info %}}
+{{< info >}}
 ###### Per approfondire i temi di questa pagina:
 
 - [Cos'è la VDSL]({{< relref "/posts/vdsl.md" >}})
@@ -174,6 +174,6 @@ Con la standardizzazione del 5G, le tecnologie wireless stanno iniziando a diven
 - [Cos'è il vectoring]({{< relref "/posts/vectoring.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
 - [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}})
-{{% /info %}}
+{{< /info >}}
 
 {{< footer >}}

@@ -15,15 +15,15 @@ I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, e costit
 
 Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per comprenderne il risultato.
 
-{{% warn %}}
+{{< warn >}}
 ⚠ Il sito BUL mostra i risultati delle consultazioni ma **non tiene in considerazione le fasi successive di realizzazione e approvazione dei progetti di copertura**. Le informazioni sono quindi da prendere con le pinze. Se qualcosa non ti torna, chiedi sul [forum di FibraClick](https://forum.fibra.click) e proveremo ad aiutarti.
-{{% /warn %}}
+{{< /warn >}}
 
 {{< toc >}}
 
 ## Sfondo blu
 
-{{% fig src="/images/sitobul-pubblico.png" caption="Intervento pubblico" alt="Scritta bianca su sfondo blu che dice intervento pubblico" %}}
+{{< fig src="/images/sitobul-pubblico.png" caption="Intervento pubblico" alt="Scritta bianca su sfondo blu che dice intervento pubblico" >}}
 
 Significa che l'indirizzo è classificato come [area bianca]({{< relref "/posts/aree.md" >}}) e potrebbe essere coperto tramite **intervento dello Stato con fondi pubblici**. Può essere indicata anche una velocità minima prevista per il cablaggio, e in particolare:
 
@@ -40,7 +40,7 @@ Lo stato della realizzazione può essere verificato nella pagina del comune sul 
 
 Se il comune si trova nello stato "In attesa di autorizzazioni" o "In esecuzione", è anche possibile [consultare il catasto delle infrastrutture]({{< relref "/posts/bul-sinfi.md" >}}) (SINFI) per vedere le tratte in fibra ottica che saranno posate sul territorio.
 
-{{% info %}}
+{{< info >}}
 Per approfondire:
 
 - [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
@@ -50,13 +50,13 @@ Per approfondire:
 - [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md" >}})
 - [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
-{{% /info %}}
+{{< /info >}}
 
-{{% fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
+{{< fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" >}}
 
 ## Sfondo arancione
 
-{{% fig src="/images/sitobul-privato.png" caption="Intervento privato con 3 operatori NGA di cui 1 NGA-VHCN" alt="Pagina web con due caselle che indicano il numero 3 in corrispondenza della sigla NGA e il numero 1 in corrispondenza di NGA-VHCN" %}}
+{{< fig src="/images/sitobul-privato.png" caption="Intervento privato con 3 operatori NGA di cui 1 NGA-VHCN" alt="Pagina web con due caselle che indicano il numero 3 in corrispondenza della sigla NGA e il numero 1 in corrispondenza di NGA-VHCN" >}}
 
 Lo sfondo arancione indica la presenza o la pianificazione di **copertura da parte di uno o più operatori con fondi privati**.
 
@@ -70,13 +70,13 @@ Il significato delle due sigle è:
 [^cons2019]: pagina 10 http://www.infratelitalia.it/wp-content/uploads/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
 [^vhcn]: pagina 43 https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=17183
 
-{{% green %}}
+{{< green >}}
 ###### Cosa indicano i numeri
 I numeri indicano il **numero di infrastrutture** installate o previste. Si tenga però presente che "due infrastrutture" non è la stessa cosa di dire "due operatori". Ad esempio:
 
 - un operatore può rivendere il servizio FTTC di TIM utilizzando l'infrastruttura TIM già esistente, e in questo caso non comparirebbe come secondo operatore. Soltanto se installasse la sua infrastruttura [SLU]({{< relref "/posts/vula-slu-nga.md" >}}) (e quindi un armadio su strada) comparirebbe come secondo operatore;
 - un operatore può utilizzare la rete in fibra ottica di Open Fiber ma non per questo comparirebbe come secondo operatore, perché l'infrastruttura è la stessa.
-{{% /green %}}
+{{< /green >}}
 
 A questo punto, se risulta un numero **maggiore di 0** nella casella **NGA-VHCN** si possono seguire queste linee guida per interpretare il risultato:
 
@@ -84,11 +84,11 @@ A questo punto, se risulta un numero **maggiore di 0** nella casella **NGA-VHCN*
 - **3 VHCN** corrisponde frequentemente alla copertura **[Flash Fiber]({{< relref "/posts/flashfiber.md" >}})**, una **joint venture tra TIM e Fastweb**. L'infrastruttura Flash Fiber viene contata tre volte perché Flash Fiber, TIM e Fastweb hanno partecipato separatamente alla consultazione, dichiarando ciascuno la presenza della stessa infrastruttura;
 - **combinazioni**  dei due punti sopra, tenendo presente che non esiste un modo per sapere realmente quali operatori hanno dichiarato la copertura, e che in alcuni casi un operatore potrebbe aver dichiarato la presenza dell'infrastruttura anche con molto anticipo.
 
-{{% warn %}}
+{{< warn >}}
 ⚠ **A Milano Flash Fiber non è presente**: se risultano tre operatori, è possibile che si tratti di Open Fiber, TIM, e la "vecchia" infrastruttura Metroweb. La stessa situazione potrebbe ripetersi in altre città con copertura Metroweb.
 
-{{% fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a \"Irenicusss\" per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" %}}
-{{% /warn %}}
+{{< fig src="/images/roe-of-mw-telecom.jpg" caption="Scatole contenenti i ROE in un condominio di Milano. Dall'alto: Metroweb, TIM e Open Fiber. Grazie a \"Irenicusss\" per la foto." alt="Tre scatole fissate sul muro di un locale contatori" vertical="true" >}}
+{{< /warn >}}
 
 Se ti risulta un numero maggiore di 0 nella casella NGA:
 
@@ -97,29 +97,29 @@ Se ti risulta un numero maggiore di 0 nella casella NGA:
 - comprende la **[FTTC SLU]({{< relref "/posts/vula-slu-nga.md" >}})** di Fastweb (FTTS), Planetel e altri operatori locali, esclusa la rete Vodafone MAKE;
 - comprende le connessioni **FWA** come Eolo, Linkem o Fastweb.
 
-{{% info %}}
+{{< info >}}
 La **fase 2** del piano nazionale **Banda Ultra Larga** (piano "aree grigie") prevede la copertura con reti ad alta capacità (VHCN) delle aree che ne sono sprovviste. [Scopri di più sul piano BUL]({{% relref "/posts/bul.md" %}}).
-{{% /info %}}
+{{< /info >}}
 
-{{% info %}}
+{{< info >}}
 Per approfondire:
 
 - [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
 - [Cos'è e cosa fa Flash Fiber]({{ relref "/posts/flashiber.md" }})
 - [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}})
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
-{{% /info %}}
+{{< /info >}}
 
 ### Foto
 
-{{% fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." %}}
+{{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
-{{% fig src="/images/slu.jpg" caption="Da sinistra, ONU SLU Fastweb, ONU SLU Vodafone, colonnina di alimentazione TIM, ARL e ONU TIM e due chiostrine TIM. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" %}}
+{{< fig src="/images/slu.jpg" caption="Da sinistra, ONU SLU Fastweb, ONU SLU Vodafone, colonnina di alimentazione TIM, ARL e ONU TIM e due chiostrine TIM. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" >}}
 
-{{% fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" %}}
+{{< fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" >}}
 
-{{% fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" %}}
+{{< fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" >}}
 
-{{% fig src="/images/roe-timsud.jpg" caption="ROE TIM realizzato tramite bandi Eurosud. Grazie a \"Gatsu\" per la foto" alt="Scatola di un ROE con le etichette TIM e Eurosud, con il logo dell'unione europea" vertical="true" %}}
+{{< fig src="/images/roe-timsud.jpg" caption="ROE TIM realizzato tramite bandi Eurosud. Grazie a \"Gatsu\" per la foto" alt="Scatola di un ROE con le etichette TIM e Eurosud, con il logo dell'unione europea" vertical="true" >}}
 
 {{< footer >}}

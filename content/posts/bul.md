@@ -29,11 +29,11 @@ La **Commissione Europea** ha stabilito[^2] nel 2010 tre obiettivi da raggiunger
 
 Il piano è ambizioso, ed è stato stimato che avrebbe richiesto in totale 250 miliardi di euro di investimenti. Circa 15 miliardi di euro sono stati messi a disposizione dall'UE nel periodo 2014-2020 per agevolare i piani nazionali.[^3]
 
-{{% green %}}
+{{< green >}}
 In Italia quando si parla di connessioni a **"30 Mbps" ci si riferisce di solito all'architettura FTTC o FWA** (fibra misto rame/radio). Questo perché per limiti tecnologici né la VDSL né il wireless riescono (per ora) a garantire in modo consistente più di 100 Mbps in download.
 
 Ad oggi **con "100 Mbps" si intende invece esclusivamente FTTH** (fibra ottica fino a casa).
-{{% /green %}}
+{{< /green >}}
 
 ## Gli obiettivi europei per il 2025
 
@@ -49,15 +49,15 @@ Il piano BUL in Italia è stato presentato nel 2015 ed è diviso in due fasi, co
 
 La prima fase del piano BUL è stata finanziata tramite fondi FSC, FESR e FEASR e ha l'obiettivo di **coprire il 24,6% della popolazione italiana**, cioè la porzione considerata a rischio di divario digitale.[^9] Si tratta di tutte le aree non già coperte da una connessione ad almeno 30 Mbps, le cosiddette **aree bianche**. Vedi i capitoli successivi per i dettagli 👇.
 
-{{% green %}}
+{{< green >}}
 ###### Cos'è l'intervento diretto
 
 Il piano BUL 2015-2020 ha adottato in modo esclusivo il modello di **intervento diretto**. Questo prevede che il coordinamento della rete sia gestito da un'autorità completamente pubblica, in particolare **Infratel**, un'azienda controllata dal Ministero dello Sviluppo Economico.
 
 **La rete realizzata è perciò di proprietà pubblica** e ad accesso aperto all'ingrosso (*open access wholesale*). In altre parole, significa che **tutti gli operatori possono utilizzarla** senza discriminazione dietro pagamento di un canone.
-{{% /green %}}
+{{< /green >}}
 
-{{% warn %}}
+{{< warn >}}
 ⚠ L'intervento diretto previsto dal piano BUL è considerato un aiuto di Stato e deve quindi sottostare a determinate norme in tutela del mercato e degli investimenti privati.
 
 Per questo motivo, il piano si occupa di **coprire soltanto le aree non già coperte da altri operatori privati**. Sono di conseguenza **escluse le aree coperte in [FTTC]({{< relref "/posts/architetture.md" >}})**, cioè le cosiddette aree grigie/nere o cluster B, anche nei casi di linee in rame lunghe.
@@ -65,19 +65,19 @@ Per questo motivo, il piano si occupa di **coprire soltanto le aree non già cop
 Sono invece incluse le aree coperte solo con tecnologie wireless (es. Eolo).
 
 La questione è approfondita qua sotto quando si parla di consultazioni, aree e cluster 👇
-{{% /warn %}}
+{{< /warn >}}
 
-{{% fig src="/images/mappabul1.jpg" caption="La copertura >30 Mbps (FTTC) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >30 Mbps al 2020 è 48,9%" %}}
+{{< fig src="/images/mappabul1.jpg" caption="La copertura >30 Mbps (FTTC) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >30 Mbps al 2020 è 48,9%" >}}
 
-{{% fig src="/images/mappabul2.jpg" caption="La copertura >100 Mbps (FTTH) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >100 Mbps al 2020 è 50,7%" %}}
+{{< fig src="/images/mappabul2.jpg" caption="La copertura >100 Mbps (FTTH) stimata al 2020 (privato + pubblico). Fonte: sito BUL" alt="Mappa dell'Italia che mostra le percentuali di copertura regione per regione. Il totale di copertura >100 Mbps al 2020 è 50,7%" >}}
 
 ## I bandi pubblici
 
 La realizzazione della rete pubblica è stata affidata tramite tre bandi pubblici all'azienda **Open Fiber**, controllata al 50% da Enel e al 50% da Cassa Depositi Prestiti (CDP). Open Fiber avrà in concessione la rete per i prossimi vent'anni, e sarà responsabile anche della sua manutenzione.
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 I bandi pubblici hanno rispettato il principio della **neutralità tecnologica**[^5], e cioè il criterio di scelta della proposta vincitrice non è stato la tecnologia utilizzata (es. VDSL, LTE, ecc.) ma piuttosto le caratteristiche di qualità garantite dalla proposta.
 
@@ -87,13 +87,13 @@ Ciascuno dei **tre bandi Infratel** ha riguardato un insieme di regioni o provin
 - **BUL2**: Basilicata, Campania, Friuli Venezia Giulia, Lazio, Liguria, Marche, Piemonte, Provincia Autonoma di Trento, Sicilia, Umbria e Valle d’Aosta;
 - **BUL3**: Calabria, Puglia e Sardegna.
 
-{{% warn %}}
+{{< warn >}}
 ⚠ La provincia di Bolzano non partecipa al piano BUL.
-{{% /warn %}}
+{{< /warn >}}
 
-{{% warn %}}
+{{< warn >}}
 ⚠ La Sardegna ha preferito ampliare la copertura in modo indipendente con un accordo con TIM (FTTC). La copertura Open Fiber in Sardegna è quindi limitata. Per approfondimenti, visita il sito web [Sardegna Digital](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/).
-{{% /warn %}}
+{{< /warn >}}
 
 ## L'offerta di Open Fiber
 
@@ -107,7 +107,7 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
  - 8% di copertura FWA facoltativa (>30 Mbps)
  - 1% non coperto
 
-{{% fig src="/images/bando1.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" %}}
+{{< fig src="/images/bando1.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
 - **Secondo bando**[^7]
  - 75% di copertura FTTH (>100 Mbps)
@@ -115,7 +115,7 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
  - 16% di copertura FWA facoltativa (>30 Mbps)
  - 1% non coperto
 
-{{% fig src="/images/bando2.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" %}}
+{{< fig src="/images/bando2.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
 - **Terzo bando**[^8]
  - 70% di copertura FTTH (>100 Mbps)
@@ -124,9 +124,9 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 
 Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a pagina 10.
 
-{{% info %}}
+{{< info >}}
 Vedi anche: [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/architetture.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 ## L'avanzamento del progetto
 
@@ -148,15 +148,15 @@ Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo c
 
 Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**[^interrogazione], obiettivo che sembra largamente improbabile da raggiungere.
 
-{{% info %}}
+{{< info >}}
 Per approfondire:
 
 - [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 - [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
 - [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
-{{% /info %}}
+{{< /info >}}
 
-{{% fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
+{{< fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" >}}
 
 ## Le consultazioni Infratel
 
@@ -170,13 +170,13 @@ A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tram
 
 **Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
 
-{{% info %}}
+{{< info >}}
 I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
-{{% /info %}}
+{{< /info >}}
 
-{{% green %}}
+{{< green >}}
 Quando si parla di area, non si intende l'intero territorio di un comune. Ogni comune può essere suddiviso in più aree, in modo da distinguere ad esempio tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
-{{% /green %}}
+{{< /green >}}
 
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato in materia di banda ultralarga**. Hanno tuttavia un difetto, quello di considerare il numero di infrastrutture presenti ma non il livello di qualità offerto.
 
@@ -186,9 +186,9 @@ Per questo motivo, l'Italia ha definito un'ulteriore distinzione[^12], basata su
 - **cluster B**: aree in cui sarà presente almeno un'infrastruttura che garantisca almeno 30 Mbps in download (in Italia equivale a **FTTC**, **le connessioni wireless non vengono considerate**)
 - **cluster C e D**: aree in cui non saranno previste connessioni >30 Mbps
 
-{{% green %}}
+{{< green >}}
 Le aree interessate dal **piano BUL 2015-2020** (fase 1) sono quelle dei **cluster C e D**.
-{{% /green %}}
+{{< /green >}}
 
 La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.
 
@@ -212,9 +212,9 @@ Ci si attende che il piano di investimento pubblico sarà inviato alla Commissio
 
 Tramite il sito [Banda Ultralarga](http://bandaultralarga.italia.it/) del MiSE è possibile verificare indirizzo per indirizzo i risultati delle consultazioni Infratel, fino al 2020, e di conseguenza capire se è previsto intervento privato/pubblico e di che tipo.
 
-{{% info %}}
+{{< info >}}
 Per approfondire, consulta la pagina [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}).
-{{% /info %}}
+{{< /info >}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/
 [^1b]: https://www.agid.gov.it/sites/default/files/repository_files/documentazione/bul_4_marzodef_0.pdf

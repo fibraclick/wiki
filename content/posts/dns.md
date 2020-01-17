@@ -12,17 +12,17 @@ I server <abbr title="Domain Name System">DNS</abbr> hanno lo scopo di effettuar
 
 Ad esempio, per caricare il sito `https://fibra.click` viene prima contattato un server DNS per trovare l'indirizzo IP del server che ospita il sito di FibraClick, cioè `116.203.133.130`.
 
-{{% warn %}}
+{{< warn >}}
 I server DNS possono essere *authoritative* ("autorevoli") oppure *non-authoritative*. La differenza è che i primi danno informazioni sempre aggiornate, ma solo per i domini che sono sotto il loro controllo, mentre i secondi "danno una mano" ai server authoritative facendo da intermediari e memorizzando in cache le richieste di risoluzione.
 
 In questo articolo ci si riferisce ai server DNS non-authoritative, o DNS pubblici.
-{{% /warn %}}
+{{< /warn >}}
 
 Essendo il DNS un sistema gerarchico e distribuito, **esistono numerosi server DNS pubblici** che si occupano di risolvere i nomi di dominio.
 
 Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contatta altri server DNS esterni, solitamente quelli del proprio <abbr title="Internet Service Provider, l'operatore telefonico">ISP</abbr>.
 
-{{% toc %}}
+{{< toc >}}
 
 ## Perché cambiarli
 
@@ -31,11 +31,11 @@ Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contat
 - ✅ **Per evitare i redirect**: alcuni DNS manipolano le risposte e fanno in modo che venga mostrata una pagina di errore personalizzata (a volte contenente pubblicità) quando si prova a contattare un dominio che non esiste. I DNS menzionati in questo articolo non hanno questo comportamento.
 - ❓ **Affidabilità e prestazioni**: i server DNS pubblici di Google e CloudFlare sono una garanzia di affidabilità, mentre per i DNS degli operatori si hanno meno informazioni. A seconda di quanto sono curati o trascurati, potrebbero avere prestazioni eccellenti, nella media, oppure pessime.
 
-{{% green %}}
+{{< green >}}
 Esistono degli strumenti gratuiti per eseguire **benchmark** e trovare i server DNS migliori per la propria connessione, tra cui [questo](https://www.grc.com/dns/benchmark.htm) (i DNS del proprio ISP devono essere inseriti manualmente).
 
 In ogni caso, la risoluzione DNS è un processo che impiega **poche decine di millisecondi**, anche nel peggiore dei casi, e i risultati della risoluzione vengono memorizzati in una cache locale potenzialmente per ore. **Il tempo di risoluzione potrebbe quindi essere trascurabile.**
-{{% /green %}}
+{{< /green >}}
 
 ## Perché non cambiarli
 
@@ -60,9 +60,9 @@ I server DNS pubblici più popolari sono quelli di Google[^g] e di CloudFlare[^c
 
 Ce ne sono due per ciascun servizio perché è possibile fare in modo che se il server DNS primario non risponde venga contattato quello secondario.
 
-{{% green %}}
+{{< green >}}
 È comunque consigliabile **scegliere due server DNS di fornitori diversi**, ad esempio uno di CloudFlare e uno di Google, in modo da escludere disservizi generalizzati di uno dei due servizi.
-{{% /green %}}
+{{< /green >}}
 
 ## Quale scegliere
 
@@ -75,4 +75,4 @@ Google mantiene invece un registro dettagliato per 24-48 ore, dopodiché anonimi
 [^privacy-cf]: https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/
 [^privacy-google]: https://developers.google.com/speed/public-dns/privacy
 
-{{% footer %}}
+{{< footer >}}

@@ -21,15 +21,15 @@ Due esempi notevoli di intervento privato sono quelli messi in atto da **TIM** e
 
 Gli operatori privati **concentrano gli investimenti nelle aree considerate remunerative**, cioè quelle in cui le risorse spese possono essere recuperate in un tempo ragionevole. Queste aree si definiscono **nere o grigie**, a differenza delle aree bianche in cui non sono presenti interventi privati rilevanti.
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md" >}}) per un approfondimento.
-{{% /info %}}
+{{< /info >}}
 
 **Un'azienda che investe privatamente può anche ricevere fondi pubblici** dallo Stato o dalle regioni, per realizzare infrastrutture in aree a divario digitale, cioè le cosiddette aree bianche o a fallimento di mercato.
 
-{{% green %}}
+{{< green >}}
 È importante tenere presente che **nello stesso comune ci possono essere sia aree nere/grigie che bianche**. Infatti, in Italia sono state definite quasi 100mila aree per circa 8mila comuni. Ciò si traduce molto frequentemente nella presenza di intervento sia privato che pubblico nello stesso comune.
-{{% /green %}}
+{{< /green >}}
 
 ## Intervento pubblico
 
@@ -37,9 +37,9 @@ Con **intervento pubblico** si intende la copertura a banda larga ottenuta trami
 
 Le risorse per questi interventi sono molto spesso ottenute tramite i fondi SIE, cioè fondi strutturali e di investimento messi a disposizione degli Stati e delle regioni dalla Commissione Europea, l'organo esecutivo dell'Unione Europea.
 
-{{% green %}}
+{{< green >}}
 Per questioni legate alla normativa sugli **aiuti di Stato**, l'intervento pubblico deve essere **limitato e non danneggiare la concorrenza privata**. Per questo motivo può riguardare solo le aree svantaggiate del paese, cioè quelle in cui il mercato non è in grado di fornire livelli di servizio definiti accettabili.
-{{% /green %}}
+{{< /green >}}
 
 Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 
@@ -51,15 +51,15 @@ Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 
 Il piano BUL 2015-2020 prevede infatti di coprire circa il 25% della popolazione con la realizzazione di una imponente rete pubblica in tutte le aree a fallimento di mercato. La rete realizzata è e resterà di proprietà dello Stato, ma sarà data in concessione per un periodo di tempo limitato a una azienda privata, che ne gestirà l'operatività pratica.
 
-{{% info %}}
+{{< info >}}
 Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}), l'azienda vincitrice degli appalti per la realizzazione di una rete pubblica nell'ambito del piano BUL 2015-2020.
-{{% /info %}}
+{{< /info >}}
 
-{{% green %}}
+{{< green >}}
 ###### Investimenti indiretti e TIM
 
 Il modello di investimento pubblico indiretto è stato usato per anni per finanziare interventi da parte di TIM in aree a digital divide. Ha riguardato la realizzazione di infrastrutture ADSL, FTTC e FTTH, a seconda del periodo e dei fondi stanziati.
-{{% /green %}}
+{{< /green >}}
 
 [^eca]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/it/#box6
 

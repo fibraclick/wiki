@@ -25,41 +25,41 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e son
 [^pozz2]: http://www.regione.marche.it/Portals/0/Agenda_Digitale/Piano_BUL/TaskForceBUL/2019%2007%2001%20Regione%20%20Marche%20Task%20Force%20Infratel.pdf
 [^pozz3]: http://www.crescitadigitaleincomune.it/wp-content/uploads/2018/04/Presentazione-Cudia.pdf
 
-{{% fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)." %}}
+{{< fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)." >}}
 
-{{% fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." %}}
+{{< fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." >}}
 
-{{% fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 125 x 80 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" %}}
+{{< fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 125 x 80 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" >}}
 
 ## ROE su edifici e pali
 
 Nelle zone ad alta densità di unità immobiliari possono essere installati dei ROE (Ripartitori Ottici di Edificio), con lo stesso scopo dei PTA. I ROE possono essere montati sui pali o sulle pareti degli edifici, ed essere anonimi o avere un'etichetta con scritto #BUL o Infratel.
 
-{{% fig src="/images/rete-bul/roe-bul-1.jpg" caption="ROE BUL su palo. Grazie a @Stregone84 per la foto." vertical="true" %}}
+{{< fig src="/images/rete-bul/roe-bul-1.jpg" caption="ROE BUL su palo. Grazie a @Stregone84 per la foto." vertical="true" >}}
 
-{{% fig src="/images/rete-bul/roe-bul-2.jpg" caption="ROE BUL su palo. Grazie a @TrtRndS per la foto." vertical="true" %}}
+{{< fig src="/images/rete-bul/roe-bul-2.jpg" caption="ROE BUL su palo. Grazie a @TrtRndS per la foto." vertical="true" >}}
 
-{{% fig src="/images/rete-bul/roe-bul-3.jpg" caption="ROE BUL su palo. Grazie a @TrtRndS per la foto." vertical="true" %}}
+{{< fig src="/images/rete-bul/roe-bul-3.jpg" caption="ROE BUL su palo. Grazie a @TrtRndS per la foto." vertical="true" >}}
 
 ## PTA su strada
 
 In alcuni casi i ROE/PTA sono posizionati ai lati delle strade all'interno di scatole che assomigliano alle chiostrine TIM, ma di colore blu e con l'etichetta #BUL.
 
-{{% fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE/PTA BUL su strada. Grazie a Leonardo F. per la foto." vertical="true" %}}
+{{< fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE/PTA BUL su strada. Grazie a Leonardo F. per la foto." vertical="true" >}}
 
 ## CNO
 
 I CNO (Centri Nodali Ottici) rappresentano il punto di splitting della rete passiva GPON (FTTH). A ciascun CNO fanno capo fino a 256 unità immobiliari[^pozz3], e ne sono quindi presenti alcuni per ogni comune, a seconda della copertura prevista.
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
-{{% /info %}}
+{{< /info >}}
 
-{{% fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica proprietaria della rete). Grazie a @Hadx per la foto." %}}
+{{< fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica proprietaria della rete). Grazie a @Hadx per la foto." >}}
 
-{{% fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." %}}
+{{< fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." >}}
 
-{{% fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL." %}}
+{{< fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL." >}}
 
 ## PCN (centrali)
 
@@ -70,19 +70,19 @@ I PCN (Punti di Consegna Neutri) o POP sono le centrali a cui fanno capo i ROE e
 
 Contengono gli apparati attivi che costituiscono il "bordo" tra rete di accesso e rete di trasporto. Gli operatori possono richiedere l'installazione dei propri OLT (terminazioni ottiche) all'interno del PCN.
 
-{{% info %}}
+{{< info >}}
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
-{{% /info %}}
+{{< /info >}}
 
-{{% green %}}
+{{< green >}}
 Hai una foto di un PCN Infratel/BUL? Inviacela a [info@fibra.click](mailto:info@fibra.click) (sono preferite foto scattate in orizzontale e inviate senza compressione). Grazie!
-{{% /green %}}
+{{< /green >}}
 
-{{% fig src="/images/rete-bul/pcn-bul-4.jpg" caption="PCN BUL di Vo'. Grazie a Igor T. per la foto." %}}
+{{< fig src="/images/rete-bul/pcn-bul-4.jpg" caption="PCN BUL di Vo'. Grazie a Igor T. per la foto." >}}
 
-{{% fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" %}}
+{{< fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" >}}
 
-{{% fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" %}}
+{{< fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" >}}
 
 {{< footer >}}
  

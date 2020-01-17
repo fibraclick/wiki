@@ -17,9 +17,9 @@ L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/
 
 Le attività di Open Fiber sono finanziate **sia con investimenti propri che con fondi pubblici**. Nel primo caso si tratta di copertura delle aree considerate remunerative (grandi città), mentre nel secondo caso prevalentemente di "aree bianche", cioè zone a fallimento di mercato dove la banda larga non è presente.
 
-{{% info %}}
+{{< info >}}
 Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel** nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}), leggi la sezione "Finanziamenti pubblici e aree bianche".
-{{% /info %}}
+{{< /info >}}
 
 {{< toc >}}
 
@@ -29,11 +29,11 @@ Open Fiber prevede di coprire in FTTH **circa 270 città entro il 2022**, con un
 
 La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul2019.md" >}}) il sito istituzionale Banda Ultralarga.
 
-{{% green %}}
+{{< green >}}
 ###### La rete Metroweb
 
 Open Fiber ha incorporato alla sua nascita la rete di Metroweb, realizzata con il sostegno di Fastweb a partire dagli anni 2000 a Milano e in poche altre città italiane. Fastweb ha conservato la possibilità di vendere la ex rete Metroweb, e nel 2019 ha [annunciato](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) di voler estendere la copertura ad altre città Open Fiber.
-{{% /green %}}
+{{< /green >}}
 
 ## Lavori di copertura
 
@@ -41,11 +41,11 @@ La copertura FTTH prevede l'**installazione di un ROE** (*Ripartitore Ottico di 
 
 Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^lex]
 
-{{% fig src="/images/ofcartello.jpg" caption="Avviso che anticipa l'intervento di Open Fiber in un condominio" alt="Foglio di carta appeso con il logo Open Fiber, che dice \"Arriva OpEn Fiber\"" vertical="true" %}}
+{{< fig src="/images/ofcartello.jpg" caption="Avviso che anticipa l'intervento di Open Fiber in un condominio" alt="Foglio di carta appeso con il logo Open Fiber, che dice \"Arriva OpEn Fiber\"" vertical="true" >}}
 
-{{% fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" %}}
+{{< fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" >}}
 
-{{% fig src="/images/roe-ff-of.jpg" caption="ROE Flash Fiber (in alto) e doppio ROE Open Fiber. Grazie a Luca Z. per la foto" alt="Tre scatole di ROE attaccate al muro di una casa" vertical="true" %}}
+{{< fig src="/images/roe-ff-of.jpg" caption="ROE Flash Fiber (in alto) e doppio ROE Open Fiber. Grazie a Luca Z. per la foto" alt="Tre scatole di ROE attaccate al muro di una casa" vertical="true" >}}
 
 ## Operatori disponibili
 
@@ -55,9 +55,9 @@ Gli operatori disponibili **dipendono da città a città**, e sono indicati più
 
 ## Tecnologia GPON
 
-{{% info %}}
+{{< info >}}
 I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/gpon.md#open-fiber" >}}).
-{{% /info %}}
+{{< /info >}}
 
 ## Finanziamenti pubblici e aree bianche
 
@@ -65,29 +65,29 @@ Nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, Open Fibe
 
 L'offerta di Open Fiber è di molto superiore a quanto richiesto dai bandi, e prevede di coprire circa il **75% delle aree bianche in FTTH**, e il restante in **FWA** (*Fixed Wireless Access*).
 
-{{% green %}}
+{{< green >}}
 ###### Requisiti minimi di velocità
 La velocità di accesso che deve essere garantita secondo i bandi è di **100 Mbps nel caso di FTTH** e **30 Mbps nel caso di FWA**.
 
 Le tecnologie utilizzate da Open Fiber sono quindi calibrate per garantire queste prestazioni. Ad esempio, per la FTTH è stata scelta la GPON con un fattore di splitting 1:16, che a differenza di quanto avviene nelle aree nere e grigie riesce ad offrire circa 150 Mbps per linea, anche in caso di contemporaneità.
 
 La FTTH Open Fiber viene offerta agli operatori in due profili: 100 Mbps oppure 1 Gbps *best-effort*.
-{{% /green %}}
+{{< /green >}}
 
 La rete realizzata è di **proprietà pubblica**, ma è data in gestione a Open Fiber con una concessione rinnovabile di 20 anni.
 
 Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi pozzetti con la scritta "#BUL rete pubblica", come nella foto seguente.
 
-{{% fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" %}}
+{{< fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" >}}
 
-{{% info %}}
+{{< info >}}
 ###### Per approfondire i temi di questa sezione:
 - [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
 - [Cosa sono le aree nere, grigie, e bianche]({{< relref "/posts/aree.md" >}})
 - [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
 - [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 - [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
-{{% /info %}}
+{{< /info >}}
 
 {{< footer >}}
 
