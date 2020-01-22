@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2019-11-08T21:00:00+01:00
+lastmod: 2020-01-22T15:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -63,26 +63,22 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 
 ## PCN (centrali)
 
-I PCN (Punti di Consegna Neutri) o POP sono le centrali a cui fanno capo i ROE e le antenne FWA di una determinata zona (tipicamente si tratta di più comuni, per un totale di qualche decina di migliaia di unità immobiliari collegate).[^pozz2][^pcn1][^pcn2]
+I PCN (Punti di Consegna Neutri) sono le centrali a cui fanno capo le fibre ottiche che collegano gli altri elementi della rete per una determinata zona (antenne FWA incluse). Un PCN tipicamente copre più comuni, per un totale di qualche decina di migliaia di unità immobiliari connesse.[^pozz2][^pcn1][^pcn2]
 
 [^pcn1]: https://www.to.camcom.it/sites/default/files/pid/Martucci_OpenFiber_Presentazione_Torino_20181120.pdf
 [^pcn2]: https://www.provinceditalia.it/wp-content/uploads/docs/contenuti/2018/05/OpenFiber_UPI.pdf
 
-Contengono gli apparati attivi che costituiscono il "bordo" tra rete di accesso e rete di trasporto. Gli operatori possono richiedere l'installazione dei propri OLT (terminazioni ottiche) all'interno del PCN.
+I PCN contengono gli apparati attivi che costituiscono il confine tra la rete di accesso e la rete di trasporto. Gli operatori possono richiedere l'installazione dei propri OLT (terminazioni ottiche) all'interno del PCN.
 
 {{< info >}}
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
 {{< /info >}}
 
-{{< green >}}
-Hai una foto di un PCN Infratel/BUL? Inviacela a [info@fibra.click](mailto:info@fibra.click) (sono preferite foto scattate in orizzontale e inviate senza compressione). Grazie!
-{{< /green >}}
+{{< fig src="/images/rete-bul/pcn-bul-5.jpg" caption="PCN BUL Sant'Angelo a Cupolo (BN). Grazie al sindaco Fabrizio d'Orta per la foto." >}}
 
 {{< fig src="/images/rete-bul/pcn-bul-4.jpg" caption="PCN BUL di Vo'. Grazie a Igor T. per la foto." >}}
 
 {{< fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" >}}
-
-{{< fig src="/images/rete-bul/pcn-bul-3.jpg" caption="PCN BUL di dimensione ridotta." vertical="true" >}}
 
 {{< footer >}}
  
