@@ -105,7 +105,7 @@ La **fase 2** del piano nazionale **Banda Ultra Larga** (piano "aree grigie") pr
 Per approfondire:
 
 - [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
-- [Cos'è e cosa fa Flash Fiber]({{ relref "/posts/flashiber.md" }})
+- [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}})
 - [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}})
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
 {{< /info >}}
