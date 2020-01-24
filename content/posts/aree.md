@@ -2,7 +2,7 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2019-04-12
+lastmod: 2020-01-24T19:15:00+01:00
 authors: [Matteo]
 description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda larga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -17,9 +17,15 @@ In dettaglio, le aree si definiscono così[^lex]:
 
 [^lex]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52013XC0126%2801%29
 
-- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga di operatori diversi
-- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga
-- **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
+- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga veloce di operatori diversi;
+- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga veloce;
+- **aree bianche**: nessuna previsione di investimento privato per banda larga veloce nei prossimi tre anni.
+
+Con "banda larga veloce" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Si tratta quindi di reti FTTC e FWA su frequenze licenziate.
+
+{{< info >}}
+Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}).
+{{< /info >}}
 
 {{< green >}}
 ###### Aree vs comuni
@@ -46,13 +52,15 @@ In Italia, spesso si usa il termine cluster per identificare un insieme di aree[
 
 [^strategia]: https://www.mise.gov.it/images/stories/documenti/ITALIA_Strategia_BUL-Piano_di_investimenti_fin.pdf
 
-- **cluster A**: aree nere
-- **cluster B**: aree grigie
-- **cluster C e D**: aree bianche
+- **cluster A**: tutte le aree nere
+- **cluster B**: tutte le aree grigie
+- **cluster C e D**: tutte le aree bianche
 
-La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.
+La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.[^cipe]
 
-Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano pubblico per la banda ultralarga, che prevede la copertura in FTTH (o equivalente) delle abitazioni coperte in FTTC con un solo operatore (aree grigie/cluster B).
+[^cipe]: https://www.gazzettaufficiale.it/eli/id/2015/10/14/15A07661/sg
+
+Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano banda ultralarga, che prevede la copertura con reti ad alta capacità delle aree che ne sono sprovviste.
 
 {{% green %}}
 ###### Il piano BUL
@@ -67,5 +75,5 @@ Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/post
 {{< /info >}}
 
 {{% warn %}}
-⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base al tipo di architettura offerto (FTTC, FTTH, ecc.). La definizione era errata.
+⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base alla velocità minima offerta (30/100 Mbps). La definizione era errata e basata sul linguaggio ambiguo della delibera CIPE 65/2015.
 {{% /warn %}}
