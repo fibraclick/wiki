@@ -60,7 +60,7 @@ La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consen
 
 [^cipe]: https://www.gazzettaufficiale.it/eli/id/2015/10/14/15A07661/sg
 
-Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano banda ultralarga, che prevede la copertura con reti ad alta capacità delle aree che ne sono sprovviste.
+Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano banda ultralarga, che prevede la copertura con reti ad alta capacità (VHCN, >100 Mbps) delle aree che ne sono sprovviste.
 
 {{% green %}}
 ###### Il piano BUL
