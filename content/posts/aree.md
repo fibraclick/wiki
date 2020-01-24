@@ -2,14 +2,14 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2020-01-24T19:15:00+01:00
+lastmod: 2020-01-24T20:15:00+01:00
 authors: [Matteo]
-description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda larga presenti sul territorio.
+description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda ultralarga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/aree-nere-grigie-bianche.jpg
 ---
 
-Le **aree nere, grigie e bianche** sono una classificazione del territorio stabilita dalla Commissione Europea per misurare il livello di investimenti privati per quanto riguarda le reti a banda larga e ultralarga.
+Le **aree nere, grigie e bianche** sono una classificazione del territorio stabilita dalla Commissione Europea per misurare il livello di investimenti privati per quanto riguarda le reti a banda ultralarga.
 
 ## Le aree
 
@@ -17,11 +17,11 @@ In dettaglio, le aree si definiscono così[^lex]:
 
 [^lex]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52013XC0126%2801%29
 
-- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga veloce di operatori diversi;
-- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga veloce;
-- **aree bianche**: nessuna previsione di investimento privato per banda larga veloce nei prossimi tre anni.
+- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi;
+- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga;
+- **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni.
 
-Con "banda larga veloce" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Si tratta quindi di reti FTTC e FWA su frequenze licenziate.
+Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Si tratta quindi di reti FTTC oppure FWA su frequenze licenziate.
 
 {{< info >}}
 Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}).
