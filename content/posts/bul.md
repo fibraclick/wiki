@@ -217,7 +217,7 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 {{< /info >}}
 
 [^1]: http://bandaultralarga.italia.it/piano-bul/strategia/
-[^1b]: https://www.agid.gov.it/sites/default/files/repository_files/documentazione/bul_4_marzodef_0.pdf
+[^1b]: http://www.governo.it/sites/governo.it/files/strategia_banda_ultralarga.pdf
 [^2]: Gli obiettivi sono contenuti nel documento che descrive il piano *Agenda Digitale 2020*. Tra le varie cose, prevedeva anche che ogni Stato europeo presentasse entro il 2012 un piano di interventi per raggiungere gli obiettivi. Molti Stati europei, Italia inclusa, hanno presentato il piano con anni di ritardo. https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0245:FIN:EN:PDF
 [^3]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/it/
 [^4]: http://bandaultralarga.italia.it/piano-bul/obiettivi/
