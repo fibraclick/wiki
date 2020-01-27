@@ -2,7 +2,7 @@
 title: "Cosa indicano SNR, SRA e SOS in VDSL2"
 slug: snr-sra-sos
 date: 2019-08-22T13:22:09+02:00
-lastmod: 2020-01-14T18:00:00+01:00
+lastmod: 2020-01-27T15:00:00+01:00
 authors: [Andrea (Hadx) e Matteo]
 description: "In VDSL2 il margine di rumore e le tecniche SRA e SOS assumono maggiore importanza. Una spiegazione semplificata del loro significato."
 categories: [Definizioni, FTTC]
@@ -28,9 +28,13 @@ L'SNR si esprime solitamente in decibel (dB), dove 0 dB significa che segnale e 
 
 Nelle linee ADSL o VDSL esiste un valore minimo accettabile che l'SNR deve assumere per consentire la sincronizzazione della linea. **Il margine SNR determina quanto l'SNR effettivo si discosta dall'SNR minimo**. Maggiore è il margine, maggiore è la "garanzia" che la linea sia stabile, grazie alla distanza dal valore limite. Un margine vicino a zero risulta invece "pericoloso" per la stabilità della linea.
 
-Sui modem il margine di rumore viene indicato in diversi modi, tra cui "SNR margin", "Noise margin", o a volte anche solo "SNR", imprecisamente. Tra amici viene a volte chiamato anche "SNRm".
+Sui modem il margine di rumore viene indicato in diversi modi, tra cui "SNR margin", "Noise margin", o a volte anche solo "SNR", imprecisamente. A volte si usa anche l'abbreviazione "SNRm".
 
 La variazione dell'SNR ha la conseguenza di determinare anche la **velocità della linea**. Un SNR più alto permette di avere più stabilità a discapito della velocità della linea, mentre un SNR più basso sacrifica (potenzialmente) la stabilità della linea per una maggiore velocità di allineamento.
+
+{{< info >}}
+Altri dettagli su SNR, SNRm e la loro relazione sono disponibili in [questo messaggio](https://forum.fibra.click/d/4824-presunto-errore-sulla-wiki/6) del forum e in quelli successivi.
+{{< /info >}}
 
 ## SRA (Seamless Rate Adaption)
 
@@ -70,7 +74,7 @@ L'SOS permette quindi di reagire rapidamente a disturbi inaspettati, senza dover
 Va notato a questo punto che **12 dB e SOS non sono direttamente collegati**. I due meccanismi vengono abilitati in modo indipendente a discrezione dell'operatore, anche se è possibile che le due cose spesso coincidano.
 
 {{< info >}}
-Alcuni dettagli tecnici sull'SOS sono disponibili in fondo a [questo messaggio](https://forum.fibra.click/d/3481-profilo-sos-e-seccature-varie/9), da cui questo articolo è estratto.
+Alcuni dettagli tecnici sull'SOS sono disponibili in fondo a [questo messaggio](https://forum.fibra.click/d/3481-profilo-sos-e-seccature-varie/9) del forum, da cui questo articolo è estratto.
 {{< /info >}}
 
 {{< footer >}}
