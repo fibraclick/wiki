@@ -29,7 +29,7 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e son
 
 {{< fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." >}}
 
-{{< fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 125 x 80 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" >}}
+{{< fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 76 x 40 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" >}}
 
 ## ROE su edifici e pali
 
