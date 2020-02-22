@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2020-01-13T19:30:00+01:00
+lastmod: 2020-02-22T16:00:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -132,21 +132,20 @@ Vedi anche: [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/a
 
 Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
-Infratel e Open Fiber hanno dichiarato di aver aperto più di 1000 cantieri nel 2018, con l'obiettivo di averne tra 2000 e 2500 aperti entro la fine del 2019.[^10][^11][^11b]
+A fine 2019, Infratel e Open Fiber hanno dichiarato di aver aperto **cantieri in più di 2000 comuni in totale**, con l'obiettivo di aprirne altri 1500 circa nel corso del 2020. I lavori sono invece già **completati in più di 400 comuni**.[^dati2019]
 
-Si noti che il numero totale di cantieri previsti è 13˙506, perché ciascun comune può avere più di un cantiere (FTTH e FWA). Il Governo stesso afferma che è probabile che la copertura termini nel 2021, con un anno di ritardo rispetto a quanto previsto dai bandi.[^interrogazione][^interrogazione2]
+Su 9 milioni di unità immobiliari da coprire, risultano già coperte 2,2 milioni di abitazioni, mentre altre 3,2 milioni sono in corso di copertura.[^dati2019] Si stima che il piano terminerà complessivamente nel 2022 o 2023.[^wired]
 
-Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultralarga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui i canali social di FibraClick ([Telegram](https://t.me/FibraClick), [Facebook](https://fb.me/FibraClick) e [Twitter](https://twitter.com/FibraClick)) oppure iscriviti alla [newsletter]({{< relref "/newsletter" >}}).
+[^dati2019]: https://www.mise.gov.it/index.php/it/per-i-media/notizie/it/198-notizie-stampa/2040714-comunicazioni-il-ministro-presenta-le-linee-programmatiche
+[^wired]: https://www.wired.it/internet/tlc/2020/02/11/banda-ultralarga-open-fiber/
 
-Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria.
+Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultra Larga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui i canali social di FibraClick ([Telegram](https://t.me/FibraClick), [Facebook](https://fb.me/FibraClick) e [Twitter](https://twitter.com/FibraClick)) oppure iscriviti alla [newsletter]({{< relref "/newsletter" >}}).
 
-Il **1 agosto 2019** è stata aperta la **vendibilità** dei servizi nel primo comune collaudato, [Castel Giorgio](https://openfiber.it/it/fibra-ottica/comunicati/castel-giorgio) (TR, Umbria). Al momento del lancio la copertura era disponibile con gli operatori Tiscali, Vodafone, Connesi, Unidata, Fibra City e Techno ADSL. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
+Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria. Alcuni degli operatori che vendono in area bianca sono Tiscali, Vodafone, Connesi, Unidata, WIC e Fibra City. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
 
-È inoltre in corso una **sperimentazione di vendita dei servizi FTTH 1 Gbps** in molti comuni con lavori completati. Tra questi comuni ce ne sono [70 in sperimentazione da luglio 2019](/images/sperimentazione-of-2019.jpg)[^sperim1], più [altri 36](https://forum.fibra.click/d/4107-scoperti-i-comuni-oggetto-di-sperimentazione-novembre-2019) aggiunti a novembre 2019.
+Dalla seconda metà del 2019, i comuni con lavori FTTH completati vengono gradualmente inseriti da Open Fiber in una **sperimentazione di vendita dei servizi**, che permette di iniziare ad attivare linee con velocità a 1 Gbps anche in assenza di collaudo della rete. Quando un comune viene collaudato, la sperimentazione termina e il comune è considerato definitivamente in commercializzazione.
 
-[^sperim1]: pagina 34 https://openfiber.it/contents/wp-content/uploads/2019/08/Accordo-Sperimentazione-Aree-Bianche-Estensione-e-Allegati_082019.pdf
-
-Secondo un'interrogazione parlamentare, l'obiettivo di Infratel è di aprire **la vendibilità dei servizi in 500 comuni entro il 2019**[^interrogazione], obiettivo che sembra largamente improbabile da raggiungere.
+La lista completa dei comuni in sperimentazione non è pubblica, ma ogni volta che nuovi comuni vengono aggiunti alla sperimentazione, FibraClick lo comunica tramite i canali social e nella sezione [News](https://forum.fibra.click/t/news) del forum. È possibile invece verificare se un comune è collaudato ("Terminato") tramite [questa pagina](https://fibra.click/stato-bul/).
 
 {{< info >}}
 Per approfondire:
@@ -226,14 +225,9 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^7]: https://openfiber.it/it/fibra-ottica/area-infratel/bandi-gara/seconda-gara
 [^8]: https://www.tomshw.it/altro/open-fiber-si-aggiudica-anche-il-terzo-bando-infratel-cablera-in-fibra-le-aree-bianche-di-puglia-calabria-e-sardegna/
 [^9]: http://bandaultralarga.italia.it/piano-aree-bianche/obiettivi/
-[^10]: http://www.infratelitalia.it/per-saperne-di-piu/archivio-news/banda-ultra-larga-oltre-1000-cantieri-aperti-raggiunto-lobiettivo-del-2018/
-[^11]: https://www.tomshw.it/altro/infratel-e-open-fiber-2000-cantieri-fibra-aperti-nel-2019-per-il-grande-progetto-bul/
-[^11b]: https://twitter.com/OpenFiberIT/status/1188846493077311489
 [^12]: https://www.telecomitalia.com/tit/it/notiziariotecnico/edizioni-2016/n-2-2016/capitolo-3/approfondimenti-2.html
 [^13]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
 [^camera]: http://www.camera.it/temiap/documentazione/temi/pdf/1104721.pdf
-[^interrogazione]: http://www.astrid-online.it/static/upload/inte/interrogazione-5_00895-e-testo-della-risposta.pdf
-[^interrogazione2]: pagina 11 http://documenti.camera.it/leg18/resoconti/commissioni/bollettini/pdf/2019/07/11/leg.18.bol0220.data20190711.com09.pdf
 [^crescita]: http://www.crescitadigitaleincomune.it/wp-content/uploads/package_uploads/Webinar_Infratel/Presentazione%20Cudia.pdf
 [^gigabitsoc]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52016DC0587
 [^grigie17]: http://www.infratelitalia.it/uncategorized/imprese-e-banda-ultralarga-al-telco-per-litalia/
