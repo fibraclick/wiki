@@ -5,6 +5,7 @@ date: 2020-02-29T16:00:00+01:00
 lastmod: 2020-02-29T16:00:00+01:00
 js: ["hlog.js"]
 rawjs: ["Chart.min.js"]
+scss: ["hlog.scss"]
 ---
 
 Carica il file statistiche avanzate generato dal FRITZ!Box.
@@ -17,10 +18,9 @@ Carica il file statistiche avanzate generato dal FRITZ!Box.
     <span id="profile"></span>
 </p>
 
-<h2>HLOG</h2>
-
-<canvas id="chartHLOG"></canvas>
-
-<h2>QLN</h2>
-
-<canvas id="chartQLN" ></canvas>
+<div id="charts">
+    <canvas id="chartHLOG"></canvas>
+    <a onclick="window.app.export('hlog')">Esporta come immagine</a>
+    <canvas id="chartQLN"></canvas>
+    <a onclick="window.app.export('qln')">Esporta come immagine</a>
+</div>

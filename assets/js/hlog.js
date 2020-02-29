@@ -1,13 +1,21 @@
 window.app = {
     stepMapping: {
         '17a': 8,
-        '35b': 16
+        '35b': 16,
+        '8b': 1971 / 512,
+        '12a': 2782 / 512
     }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    window.app.export = exportChart;
     run();
 });
+
+function exportChart(what) {
+    let canvas = document.getElementById('chart' + what.toUpperCase());
+    window.open(canvas.toDataURL(), '_blank');
+}
 
 function run() {
     document.getElementById('file').onchange = function () {
@@ -70,7 +78,7 @@ function run() {
 
         let labels = [];
         for (let i = step; i <= step * 512; i += step) {
-            labels.push(i);
+            labels.push(Math.round(i));
         }
 
         let options = {
@@ -87,6 +95,11 @@ function run() {
                         stepSize: step
                     }
                 }]
+            },
+            title: {
+                display: true,
+                text: 'HLOG',
+                fontSize: 14
             }
         };
 
@@ -120,6 +133,7 @@ function run() {
 
         ctx = document.getElementById('chartQLN');
         options.legend.display = false;
+        options.title.text = 'QLN';
 
         new Chart(ctx, {
             type: 'line',
@@ -138,5 +152,7 @@ function run() {
             },
             options
         });
+
+        document.getElementById('charts').style.display = 'block';
     }
 }
