@@ -6,7 +6,7 @@ description: "Una pagina per consultare l'archivio dello stato dei lavori del pi
 slug: stato-bul
 js: ["stato-bul.js"]
 scss: ["stato-bul.scss"]
-dynamic: true
+rawjs: ["mithril.min.js"]
 ---
 
 In questa pagina puoi consultare l'archivio dello stato dei cantieri nei comuni coinvolti dal [piano BUL]({{< relref "/posts/bul.md" >}}).
