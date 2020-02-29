@@ -82,7 +82,6 @@ function run() {
         }
 
         let options = {
-            responsive: true,
             legend: {
                 position: 'bottom'
             },
@@ -93,6 +92,11 @@ function run() {
                         max: step * 512,
                         min: 0,
                         stepSize: step
+                    }
+                }],
+                yAxes: [{
+                    afterFit: function(scaleInstance) {
+                        scaleInstance.width = 50;
                     }
                 }]
             },
