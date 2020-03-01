@@ -18,7 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function exportChart(what) {
     let canvas = document.getElementById('chart' + what.toUpperCase());
-    window.open(canvas.toDataURL(), '_blank');
+    let w = window.open('', '_blank');
+    w.document.write('<meta name="viewport" content="width=device-width, initial-scale=1">'); 
+    w.document.write('<img style="max-width: 100%" src="' + canvas.toDataURL() + '">'); 
 }
 
 function toggleHideFrequencies() {

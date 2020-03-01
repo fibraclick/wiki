@@ -23,7 +23,7 @@ Carica il file [statistiche avanzate](https://forum.fibra.click/d/3948-statistic
         <label for="hideFrequencies">Nascondi toni non utilizzati</label>
     </p>
     <canvas id="chartHLOG"></canvas>
-    <a onclick="window.app.exportChart('hlog')">Esporta come immagine</a>
+    <a onclick="window.app.exportChart('hlog')">Genera immagine</a>
     <canvas id="chartQLN"></canvas>
-    <a onclick="window.app.exportChart('qln')">Esporta come immagine</a>
+    <a onclick="window.app.exportChart('qln')">Genera immagine</a>
 </div>
