@@ -4,17 +4,26 @@ window.app = {
         '35b': 16,
         '8b': 1971 / 512,
         '12a': 2782 / 512
-    }
+    },
+    hideFrequencies: true,
+    plot,
+    exportChart,
+    toggleHideFrequencies
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    window.app.export = exportChart;
+    document.getElementById('hideFrequencies').checked = window.app.hideFrequencies;
     run();
 });
 
 function exportChart(what) {
     let canvas = document.getElementById('chart' + what.toUpperCase());
     window.open(canvas.toDataURL(), '_blank');
+}
+
+function toggleHideFrequencies() {
+    window.app.hideFrequencies = !window.app.hideFrequencies;
+    plot();
 }
 
 function run() {
@@ -44,119 +53,152 @@ function run() {
 
         reader.readAsText(file);
     };
+}
 
-    function plot() {
-        if (!window.app.profile) {
-            alert('Profilo non trovato.');
-            return;
+function findLastNonNullIndex(arr) {
+    for (let i = arr.length - 1; i >= 0; i -= 1) {
+        if (arr[i] != null) {
+            return i;
         }
-
-        document.getElementById('profile').innerText = 'Profilo: ' + window.app.profile;
-
-        let step = window.app.stepMapping[window.app.profile];
-
-        if (!step) {
-            alert('Profilo non riconosciuto.');
-            return;
-        }
-
-        if (!window.app.hlogDS || !window.app.hlogUS || !window.app.qln) {
-            alert('Dati non trovati.');
-            return;
-        }
-
-        function filterOutliers(val) {
-            if (val == -963 || val == -1505) {
-                return null;
-            }
-            return +val;
-        }
-
-        window.app.hlogDS = window.app.hlogDS.split(',').map(filterOutliers);
-        window.app.hlogUS = window.app.hlogUS.split(',').map(filterOutliers);
-        window.app.qln = window.app.qln.split(',').map(filterOutliers);
-
-        let labels = [];
-        for (let i = step; i <= step * 512; i += step) {
-            labels.push(Math.round(i));
-        }
-
-        let options = {
-            legend: {
-                position: 'bottom'
-            },
-            tooltips: { enabled: false },
-            scales: {
-                xAxes: [{
-                    ticks: {
-                        max: step * 512,
-                        min: 0,
-                        stepSize: step
-                    }
-                }],
-                yAxes: [{
-                    afterFit: function(scaleInstance) {
-                        scaleInstance.width = 50;
-                    }
-                }]
-            },
-            title: {
-                display: true,
-                text: 'HLOG',
-                fontSize: 14
-            }
-        };
-
-        let ctx = document.getElementById('chartHLOG');
-
-        new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'DS',
-                        data: window.app.hlogDS,
-                        borderWidth: 2,
-                        borderColor: '#006ecc',
-                        pointRadius: 0,
-                        fill: false
-                    },
-                    {
-                        label: 'US',
-                        data: window.app.hlogUS,
-                        borderWidth: 2,
-                        borderColor: '#0fc420',
-                        pointRadius: 0,
-                        fill: false
-                    }
-                ]
-            },
-            options
-        });
-
-        ctx = document.getElementById('chartQLN');
-        options.legend.display = false;
-        options.title.text = 'QLN';
-
-        new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'QLN',
-                        data: window.app.qln,
-                        borderWidth: 2,
-                        borderColor: '#006ecc',
-                        pointRadius: 0,
-                        fill: false
-                    }
-                ]
-            },
-            options
-        });
-
-        document.getElementById('charts').style.display = 'block';
     }
+
+    return arr.length;
+}
+
+function plot() {
+    if (!window.app.profile) {
+        alert('Profilo non trovato.');
+        return;
+    }
+
+    document.getElementById('profile').innerText = window.app.profile;
+
+    let step = window.app.stepMapping[window.app.profile];
+
+    if (!step) {
+        alert('Profilo non riconosciuto.');
+        return;
+    }
+
+    if (!window.app.hlogDS || !window.app.hlogUS || !window.app.qln) {
+        alert('Dati non trovati.');
+        return;
+    }
+
+    function filterOutliers(val) {
+        if (val == -963 || val == -1505) {
+            return null;
+        }
+        return +val;
+    }
+
+    let hlogDS = window.app.hlogDS.split(',').map(filterOutliers);
+    let hlogUS = window.app.hlogUS.split(',').map(filterOutliers);
+    let qln = window.app.qln.split(',').map(filterOutliers);
+
+    let maxSamples;
+
+    if (window.app.hideFrequencies) {
+        let lastIndexToRender = Math.max(
+            findLastNonNullIndex(hlogDS),
+            findLastNonNullIndex(hlogUS)
+        );
+
+        maxSamples = Math.min(
+            lastIndexToRender + step, // add some padding to the right
+            512 // avoid going above 512
+        );
+
+        hlogDS = hlogDS.slice(0, maxSamples);
+        hlogUS = hlogUS.slice(0, maxSamples);
+        qln = qln.slice(0, maxSamples);
+    }
+    else {
+        maxSamples = 512;
+    }
+
+    let maxX = step * maxSamples;
+
+    let labels = [];
+    for (let i = step; i <= maxX; i += step) {
+        labels.push(Math.round(i));
+    }
+
+    let options = {
+        legend: {
+            position: 'bottom'
+        },
+        tooltips: { enabled: false },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    max: maxX,
+                    min: 0,
+                    stepSize: step
+                }
+            }],
+            yAxes: [{
+                afterFit: function (scaleInstance) {
+                    scaleInstance.width = 50;
+                }
+            }]
+        },
+        title: {
+            display: true,
+            text: 'HLOG',
+            fontSize: 14
+        }
+    };
+
+    let ctx = document.getElementById('chartHLOG');
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'DS',
+                    data: hlogDS,
+                    borderWidth: 2,
+                    borderColor: '#006ecc',
+                    pointRadius: 0,
+                    fill: false
+                },
+                {
+                    label: 'US',
+                    data: hlogUS,
+                    borderWidth: 2,
+                    borderColor: '#0fc420',
+                    pointRadius: 0,
+                    fill: false
+                }
+            ]
+        },
+        options
+    });
+
+    ctx = document.getElementById('chartQLN');
+    options.legend.display = false;
+    options.title.text = 'QLN';
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'QLN',
+                    data: qln,
+                    borderWidth: 2,
+                    borderColor: '#006ecc',
+                    pointRadius: 0,
+                    fill: false
+                }
+            ]
+        },
+        options
+    });
+
+    document.getElementById('charts').style.display = 'block';
 }
