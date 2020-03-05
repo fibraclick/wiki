@@ -102,25 +102,25 @@ Ciascuno dei **tre bandi Infratel** ha riguardato un insieme di regioni o provin
 In particolare, la proposta di Open Fiber è così articolata (le percentuali si riferiscono al totale delle unità immobiliari coinvolte nel progetto):
 
 - **Primo bando**[^6]
- - 87% di copertura FTTH (>100 Mbps)
- - 4% di copertura FTTH facoltativa (>100 Mbps)
- - 8% di copertura FWA facoltativa (>30 Mbps)
- - 1% non coperto
+  - 87% di copertura FTTH (>100 Mbps)
+  - 4% di copertura FTTH facoltativa (>100 Mbps)
+  - 8% di copertura FWA facoltativa (>30 Mbps)
+  - 1% non coperto
 
 {{< fig src="/images/bando1.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
 - **Secondo bando**[^7]
- - 75% di copertura FTTH (>100 Mbps)
- - 8% di copertura FWA (>30 Mbps)
- - 16% di copertura FWA facoltativa (>30 Mbps)
- - 1% non coperto
+  - 75% di copertura FTTH (>100 Mbps)
+  - 8% di copertura FWA (>30 Mbps)
+  - 16% di copertura FWA facoltativa (>30 Mbps)
+  - 1% non coperto
 
 {{< fig src="/images/bando2.jpg" caption="Confronto tra requisiti del bando e offerta Open Fiber. Fonte: Crescita digitale in comune" alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
 - **Terzo bando**[^8]
- - 70% di copertura FTTH (>100 Mbps)
- - 30% di copertura FWA (>30 Mbps)
- - (dati precisi non ancora disponibili)
+  - 70% di copertura FTTH (>100 Mbps)
+  - 30% di copertura FWA (>30 Mbps)
+  - (dati precisi non disponibili)
 
 Una sintesi grafica congiunta per i bandi 1 e 2 è disponibile qua[^crescita] a pagina 10.
 
