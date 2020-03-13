@@ -7,6 +7,7 @@ authors: [Matteo]
 description: "Come funziona Internet? Con un linguaggio semplice, spieghiamo cos'è il modello a strati, i sistemi autonomi, il peering e il transito."
 categories: [Reti]
 hidden: true
+image: /social/mix.jpg
 ---
 
 **Internet** è la **rete globale** che utilizziamo tutti i giorni, ed è realizzata grazie all'**interconnessione di decine di migliaia di reti più piccole**, che collegano a loro volta al loro interno un numero più o meno grande di computer[^computer].
@@ -33,7 +34,7 @@ Per quanto riguarda Internet, la suite di protocolli di riferimento è **TCP/IP*
 
 Se una trasmissione usa i protocolli TCP + IP + Ethernet, sul "filo" vengono trasmessi pacchetti di tipo Ethernet (più precisamente trame, o **frame**), che contengono pacchetti del protocollo IP, che a loro volta contengono segmenti del protocollo TCP. **Servono così tanti livelli perché ciascun livello svolge un ruolo diverso.**
 
-Ad esempio, il protocollo IP si occupa dell'**indirizzamento**, e cioè indica quali sono gli **indirizzi IP pubblici** del mittente e del destinatario della trasmissione, che sono unici nella rete Internet. Si dice inoltre che IP è un protocollo di *livello 3*, perché è il terzo livello partendo dal "basso".
+Ad esempio, il protocollo IP si occupa dell'**indirizzamento**, e cioè indica quali sono gli **indirizzi IP pubblici** del mittente e del destinatario della trasmissione, che sono unici a livello globale. Si dice inoltre che IP è un protocollo di *livello 3*, perché è il terzo livello partendo dal "basso".
 
 Il **protocollo Ethernet** (livello 2) si occupa invece della trasmissione su cavo, e utilizza gli **indirizzi MAC** per indirizzare i frame **all'interno della rete locale**.
 
@@ -45,7 +46,7 @@ Il router incapsula quindi  nuovamente il pacchetto IP, ma non è detto che util
 
 ## I sistemi autonomi (AS)
 
-Un sistema autonomo, **Autonomous System** in inglese (**AS**), è definito come un **insieme di indirizzi IP**, e quindi come un insieme di destinazioni solitamente riconducibili alla stessa organizzazione (aziende, governi, istituti, ecc.). Ad esempio, l'AS più grande in Italia è l'AS3269 di Telecom Italia S.p.A, che comprende più di 19 milioni di indirizzi IP tra cui anche utenze di rete fissa e mobile (e quindi i loro router di casa).[^astelecom]
+Un sistema autonomo, **Autonomous System** in inglese (**AS**), è definito come un **insieme di indirizzi IP**, e quindi come un insieme di destinazioni solitamente riconducibili alla stessa organizzazione (aziende, governi, istituti di ricerca, ecc.). Per esempio, l'AS più grande in Italia è l'AS3269 di Telecom Italia S.p.A, che comprende più di 19 milioni di indirizzi IP tra cui anche utenze di rete fissa e mobile (e di conseguenza i loro router di casa).[^astelecom]
 
 [^astelecom]: https://ipinfo.io/countries/it
 
@@ -76,7 +77,7 @@ Il **traceroute** è uno strumento che permette di tracciare il percorso di un p
 
 {{< fig src="/images/internet/tracert1.jpg" caption="In questo traceroute fatto da rete Fastweb nel nord Italia, si vede chiaramente al passo 8 che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda CloudFlare presso il MIX di Milano (spiegato più avanti)." >}}
 
-{{< fig src="/images/internet/tracert2.jpg" caption="In questo caso il traffico da rete Fastweb verso un sito web statunitense (ospitato da Amazon Web Services in Arizona) transita tramite Telecom Italia Sparkle (righe 9 e 10). La traccia in questo caso non termina mai perché il server di destinazione è configurato per non essere \"rilevato\", per cui il meccanismo con cui funziona traceroute fallisce." >}}
+{{< fig src="/images/internet/tracert2.jpg" caption="In questo caso il traffico da rete Fastweb verso un sito web statunitense (ospitato da Amazon Web Services) transita tramite Telecom Italia Sparkle (righe 9 e 10). La traccia in questo caso non termina mai perché il server di destinazione è configurato per non essere \"rilevato\", per cui il meccanismo con cui funziona traceroute \"fallisce\"." >}}
 {{% /green %}}
 
 ## Il transito e il peering
@@ -94,7 +95,7 @@ Ad esempio, **un operatore potrebbe voler siglare un accordo di peering con Netf
 {{% green %}}
 ###### Transito vs peering
 
-La differenza fondamentale tra transito e peering è che il primo permette a un operatore di raggiungere il resto di Internet, mentre il peering serve a scambiare traffico tra due specifici sistemi autonomi (es. operatore vs Netflix, e viceversa, come abbiamo visto). **Il peering serve a migliorare la qualità del servizio**, perché permette di consegnare il traffico direttamente alla rete di destinazione senza transitare tramite router che possono essere geograficamente anche molto distanti.
+La differenza fondamentale tra transito e peering è che il primo permette a un operatore di raggiungere il resto di Internet, mentre il peering serve a scambiare traffico tra due specifici sistemi autonomi (es. un ISP e Netflix, come abbiamo visto). **Il peering serve a migliorare la qualità del servizio**, perché permette di consegnare il traffico direttamente alla rete di destinazione senza transitare tramite router che possono essere geograficamente anche molto distanti.
 {{% /green %}}
 
 ### Dove avviene il peering
@@ -109,6 +110,8 @@ In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha
 
 [^ixp2]: https://en.wikipedia.org/wiki/List_of_Internet_exchange_points
 [^mix]: https://www.mix-it.net/2020/01/15/5-tb-di-capacita-connessa/
+
+{{< fig src="/images/internet/mix.jpg" caption="Un datacenter di Caldera21, che ospita anche il MIX di Milano. Si trova al Caldera Park di via Caldera 21 a Milano. [Fonte](https://www.linkedin.com/showcase/caldera21%C2%AE/about/)." >}}
 
 In alternativa **il peering può essere anche privato**, e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
 
