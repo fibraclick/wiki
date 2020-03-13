@@ -30,19 +30,23 @@ L'imbustamento avviene in più livelli, e ciascun livello che effettua l'imbusta
 
 Per quanto riguarda Internet, la suite di protocolli di riferimento è **TCP/IP**, che prende il nome dei due protocolli fondamentali **TCP** (*Transmission Control Protocol*) e **IP** (*Internet Protocol*). Per quanto riguarda le reti locali cablate si aggiunge inoltre **Ethernet**, mentre per le reti wireless **IEEE 802.11** (Wi-Fi).
 
-{{< fig src="/images/internet/incapsulamento.png" caption="Schema di modello a strati/livelli. Ogni livello, partendo dall'alto, imbusta i dati del livello superiore aggiungendo dei dati al loro inizio, fino ad arrivare al livello 1, cioè il livello fisico." >}}
+{{< fig src="/images/internet/incapsulamento.png" caption="Schema a strati di TCP/IP. Ogni livello, partendo dall'alto, imbusta i dati del livello superiore aggiungendo dei dati al loro inizio, fino ad arrivare al livello di accesso fisico alla rete." >}}
 
 Se una trasmissione usa i protocolli TCP + IP + Ethernet, sul "filo" vengono trasmessi pacchetti di tipo Ethernet (più precisamente trame, o **frame**), che contengono pacchetti del protocollo IP, che a loro volta contengono segmenti del protocollo TCP. **Servono così tanti livelli perché ciascun livello svolge un ruolo diverso.**
 
-Ad esempio, il protocollo IP si occupa dell'**indirizzamento**, e cioè indica quali sono gli **indirizzi IP pubblici** del mittente e del destinatario della trasmissione, che sono unici a livello globale. Si dice inoltre che IP è un protocollo di *livello 3*, perché è il terzo livello partendo dal "basso".
+Ad esempio, il protocollo IP si occupa dell'**indirizzamento**, e cioè indica quali sono gli **indirizzi IP pubblici** del mittente e del destinatario della trasmissione, che sono unici a livello globale.
 
-Il **protocollo Ethernet** (livello 2) si occupa invece della trasmissione su cavo, e utilizza gli **indirizzi MAC** per indirizzare i frame **all'interno della rete locale**.
+Il **protocollo Ethernet** si occupa invece della trasmissione su cavo, e utilizza gli **indirizzi MAC** per indirizzare i frame **all'interno della rete locale**.
 
-I **router**, come quelli che tutti abbiamo in casa, sono dispositivi che **operano (almeno) a livello 3**, e cioè riescono a "leggere" e interpretare pacchetti di tipo IP. Quando un router riceve un pacchetto, lo analizza per capire se e come è in grado di gestirlo. **È cruciale che questa decisione avvenga in tempi rapidissimi, in modo da non introdurre latenza.**
+I **router**, come quelli che tutti abbiamo in casa, sono dispositivi che **operano (almeno) a livello Internet**, e cioè riescono a "leggere" e interpretare pacchetti di tipo IP. Quando un router riceve un pacchetto, lo analizza per capire se e come è in grado di gestirlo. **È cruciale che questa decisione avvenga in tempi rapidissimi, in modo da non introdurre latenza.**
 
 Nella maggior parte dei casi, un router non può gestire direttamente un pacchetto ma deve inoltrarlo verso un altro dispositivo (un computer, un altro router, uno switch, ecc.), e cioè ritrasmetterlo fisicamente su un'altra porta. Questa operazione fa parte del processo di **instradamento**, o **routing**, che è la funzione principale dei router.
 
 Il router incapsula quindi  nuovamente il pacchetto IP, ma non è detto che utilizzi sempre Ethernet. Ad esempio, nelle connessioni DSL residenziali per la trasmissione verso l'esterno si usa solitamente il protocollo <abbr title="Point to Point Protocol over Ethernet">PPPoE</abbr>.
+
+{{< green >}}
+TCP/IP deriva da un modello a strati ideale chiamato **ISO/OSI**, che è più articolato e prevede **7 livelli**. Per questo motivo spesso **i router vengono anche chiamati apparati *di livello 3***, perché il terzo strato di ISO/OSI è equivalente al livello Internet.
+{{< /green >}}
 
 ## I sistemi autonomi (AS)
 
@@ -71,9 +75,9 @@ La parola *peer* in inglese significa "pari", e infatti gli accordi di peering s
 **Tutti gli operatori di tipo Tier I sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier I note sono ad esempio quelle di AT&T, NTT o Telia, nomi che si trovano spesso quando si eseguono *traceroute*.
 
 {{% green %}}
-###### Cos'è il traceroute?
+###### Cos'è traceroute?
 
-Il **traceroute** è uno strumento che permette di tracciare il percorso di un pacchetto nella rete globale. Permette di elencare la lista dei router tramite cui un pacchetto passa, e di conseguenza di sapere tramite quali reti e sistemi autonomi il traffico verso una determina destinazione transita.
+**Traceroute** è uno strumento che permette di tracciare il percorso di un pacchetto nella rete globale. Permette di elencare la lista dei router tramite cui un pacchetto passa, e di conseguenza di sapere tramite quali reti e sistemi autonomi il traffico verso una determina destinazione transita.
 
 {{< fig src="/images/internet/tracert1.jpg" caption="In questo traceroute fatto da rete Fastweb nel nord Italia, si vede chiaramente al passo 8 che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda CloudFlare presso il MIX di Milano (spiegato più avanti)." >}}
 
