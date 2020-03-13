@@ -66,7 +66,7 @@ Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti clas
 
 [^tier1]: https://en.wikipedia.org/wiki/Tier_1_network
 
-La parola *peer* in inglese significa "pari", e infatti gli accordi di peering si hanno di solito tra operatori approssimativamente della stessa dimensione e che devono scambiarsi quantità simili di dati. Un accordo di peering prevede spesso lo scambio del traffico a costo zero (in questo caso viene chiamato *settlement-free peering*), perché permette ad entrambe le parti di accedere reciprocamente a due parti di Internet a cui altrimenti potrebbero non avere accesso.
+La parola *peer* in inglese significa "pari", e infatti gli accordi di peering si hanno di solito tra operatori approssimativamente della stessa dimensione e che devono scambiarsi quantità simili di dati. Un accordo di peering prevede spesso lo scambio del traffico a costo zero (in questo caso viene chiamato *settlement-free peering*), perché permette ad entrambe le parti di accedere a una porzione di Internet a cui altrimenti potrebbero non avere accesso.
 
 **Tutti gli operatori di tipo Tier I sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier I note sono ad esempio quelle di AT&T, NTT o Telia, nomi che si trovano spesso quando si eseguono *traceroute*.
 
@@ -111,7 +111,7 @@ In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha
 [^ixp2]: https://en.wikipedia.org/wiki/List_of_Internet_exchange_points
 [^mix]: https://www.mix-it.net/2020/01/15/5-tb-di-capacita-connessa/
 
-{{< fig src="/images/internet/mix.jpg" caption="Un datacenter di Caldera21, che ospita anche il MIX di Milano. Si trova al Caldera Park di via Caldera 21 a Milano. [Fonte](https://www.linkedin.com/showcase/caldera21%C2%AE/about/)." >}}
+{{< fig src="/images/internet/mix.jpg" caption="Un datacenter di Caldera21, che ospita anche il MIX. Si trova al Caldera Park di via Caldera 21 a Milano. [Fonte](https://www.linkedin.com/showcase/caldera21%C2%AE/about/)." >}}
 
 In alternativa **il peering può essere anche privato**, e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
 
@@ -120,7 +120,7 @@ In alternativa **il peering può essere anche privato**, e cioè due "operatori"
 
 [Dal 2013](https://www.chimerarevo.com/guide/internet/telecom-italia-depeering-146284/) Telecom Italia ha avviato una politica di depeering, e cioè ha smesso quasi completamente di fare peering pubblico negli IXP (al MIX fa peering solo con il GARR, la rete degli istituti di ricerca e delle università).
 
-Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet](https://www.linux.it/~md/text/depeering-topix.pdf), perché il traffico degli operatori non poteva più essere consegnato direttamente a Telecom Italia se non tramite singoli accordi di peering privato (potenzialmente a pagamento per gli operatori più piccoli).
+Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet](https://www.linux.it/~md/text/depeering-topix.pdf) in Italia, perché il traffico degli operatori non poteva più essere consegnato direttamente a Telecom Italia se non tramite singoli accordi di peering privato (potenzialmente a pagamento per gli operatori più piccoli).
 {{< /green >}}
 
 {{< footer >}}
