@@ -100,6 +100,10 @@ Ad esempio, **un operatore potrebbe voler siglare un accordo di peering con Netf
 ###### Transito vs peering
 
 La differenza fondamentale tra transito e peering è che il primo permette a un operatore di raggiungere il resto di Internet, mentre il peering serve a scambiare traffico tra due specifici sistemi autonomi (es. un ISP e Netflix, come abbiamo visto). **Il peering serve a migliorare la qualità del servizio**, perché permette di consegnare il traffico direttamente alla rete di destinazione senza transitare tramite router che possono essere geograficamente anche molto distanti.
+
+###### Lessico
+
+Il transito può essere chiamato anche *upstream peering*, proprio perché dipende dalla presenza di una rete di livello superiore. Inoltre una rete può avere più transiti, e in questo caso si dice che è *multi-homed*.
 {{% /green %}}
 
 ### Dove avviene il peering
@@ -128,3 +132,5 @@ Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet
 {{< /green >}}
 
 {{< footer >}}
+
+*Grazie a x_term, Emilio e Andrea per aver revisionato questo articolo.*
