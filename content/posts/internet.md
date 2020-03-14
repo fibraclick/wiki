@@ -2,11 +2,10 @@
 title: "Come funziona la rete Internet"
 slug: internet
 date: 2020-03-13T16:00:00+01:00
-lastmod: 2020-03-13T16:00:00+01:00
+lastmod: 2020-03-14T10:30:00+01:00
 authors: [Matteo]
 description: "Come funziona Internet? Con un linguaggio semplice, spieghiamo cos'è il modello a strati, i sistemi autonomi, il peering e il transito."
 categories: [Reti]
-hidden: true
 image: /social/mix.jpg
 ---
 
