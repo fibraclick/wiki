@@ -79,9 +79,9 @@ La parola *peer* in inglese significa "pari", e infatti gli accordi di peering s
 
 **Traceroute** è uno strumento che permette di tracciare il percorso di un pacchetto nella rete globale. Permette di elencare la lista dei router tramite cui un pacchetto passa, e di conseguenza di sapere tramite quali reti e sistemi autonomi il traffico verso una determina destinazione transita.
 
-{{< fig src="/images/internet/tracert1.jpg" caption="In questo traceroute fatto da rete Fastweb nel nord Italia, si vede chiaramente al passo 8 che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda CloudFlare presso il MIX di Milano (spiegato più avanti)." >}}
+{{< fig src="/images/internet/tracert2.jpg" caption="In questo traceroute fatto da rete Fastweb verso un sito web statunitense (ospitato da Amazon Web Services), il traffico transita tramite Telecom Italia Sparkle (righe 9 e 10). La traccia in questo caso non termina mai perché il server di destinazione è configurato per non essere \"rilevato\", per cui il meccanismo con cui funziona traceroute \"fallisce\"." >}}
 
-{{< fig src="/images/internet/tracert2.jpg" caption="In questo caso il traffico da rete Fastweb verso un sito web statunitense (ospitato da Amazon Web Services) transita tramite Telecom Italia Sparkle (righe 9 e 10). La traccia in questo caso non termina mai perché il server di destinazione è configurato per non essere \"rilevato\", per cui il meccanismo con cui funziona traceroute \"fallisce\"." >}}
+{{< fig src="/images/internet/tracert3.jpg" caption="In questo caso l'indirizzo IP di destinazione è interno alla rete Cogent, un operatore molto grande ma non classificabile come Tier I. Il traceroute mostra in modo molto evidente tutti i luoghi fisici tramite cui i dati transitano: Zurigo, Monaco, Francoforte, Amsterdam per poi passare negli Stati Uniti." >}}
 {{% /green %}}
 
 ## Il transito e il peering
@@ -120,6 +120,8 @@ In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha
 [^mix]: https://www.mix-it.net/2020/01/15/5-tb-di-capacita-connessa/
 
 {{< fig src="/images/internet/mix.jpg" caption="Un datacenter di Caldera21, che ospita anche il MIX. Si trova al Caldera Park di via Caldera 21 a Milano. [Fonte](https://www.linkedin.com/showcase/caldera21%C2%AE/about/)." >}}
+
+{{< fig src="/images/internet/tracert1.jpg" caption="Un traceroute fatto da rete Fastweb nel nord Italia mostra chiaramente che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda CloudFlare presso il MIX di Milano (passo 8). CloudFlare è un'importante azienda che fornisce servizi CDN (Content Delivery Network) e protezione da attacchi DDoS." >}}
 
 In alternativa **il peering può essere anche privato**, e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
 
