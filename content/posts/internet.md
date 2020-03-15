@@ -65,13 +65,13 @@ Nel mondo ci sono decine di migliaia di sistemi autonomi[^asstats], e per fare i
 
 Per farlo utilizzano un protocollo chiamato **BGP** (*Border Gateway Protocol*), tramite un'operazione che in gergo si chiama "annunciare". **Un AS annuncia ai suoi "vicini" l'insieme degli indirizzi IP che sono sotto il suo controllo**, in modo che possano essere raggiunti dal resto della rete.
 
-Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti classificate come **Tier I** (di "primo livello"). Queste reti sono molto poche, ma sono in grado di raggiungere l'intera rete Internet[^tier1]: lo fanno esclusivamente tramite **accordi di peering**, e cioè con lo scambio reciproco di traffico.
+Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti classificate come **Tier 1** (di "primo livello"). Queste reti sono molto poche, ma sono in grado di raggiungere l'intera rete Internet[^tier1]: lo fanno esclusivamente tramite **accordi di peering**, e cioè con lo scambio reciproco di traffico.
 
 [^tier1]: https://en.wikipedia.org/wiki/Tier_1_network
 
 La parola *peer* in inglese significa "pari", e infatti gli accordi di peering si hanno di solito tra operatori approssimativamente della stessa dimensione e che devono scambiarsi quantità simili di dati. Un accordo di peering prevede spesso lo scambio del traffico a costo zero (in questo caso viene chiamato *settlement-free peering*), perché permette ad entrambe le parti di accedere a una porzione di Internet a cui altrimenti potrebbero non avere accesso.
 
-**Tutti gli operatori di tipo Tier I sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier I note sono ad esempio quelle di AT&T, NTT o Telia, nomi che si trovano spesso quando si eseguono *traceroute*.
+**Tutti gli operatori di tipo Tier 1 sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier 1 note sono ad esempio quelle di AT&T, NTT o Telia, nomi che si trovano spesso quando si eseguono *traceroute*.
 
 {{% green %}}
 ###### Cos'è traceroute?
@@ -80,14 +80,14 @@ La parola *peer* in inglese significa "pari", e infatti gli accordi di peering s
 
 {{< fig src="/images/internet/tracert2.jpg" caption="In questo traceroute fatto da rete Fastweb verso un sito web statunitense (ospitato da Amazon Web Services), il traffico transita tramite Telecom Italia Sparkle (righe 9 e 10). La traccia in questo caso non termina mai perché il server di destinazione è configurato per non essere \"rilevato\", per cui il meccanismo con cui funziona traceroute \"fallisce\"." >}}
 
-{{< fig src="/images/internet/tracert3.jpg" caption="In questo caso l'indirizzo IP di destinazione è interno alla rete Cogent, un operatore molto grande ma non classificabile come Tier I. Il traceroute mostra in modo molto evidente tutti i luoghi fisici tramite cui i dati transitano: Zurigo, Monaco, Francoforte, Amsterdam per poi passare negli Stati Uniti." >}}
+{{< fig src="/images/internet/tracert3.jpg" caption="In questo caso l'indirizzo IP di destinazione è interno alla rete Cogent, un operatore molto grande ma non classificabile come Tier 1. Il traceroute mostra in modo molto evidente tutti i luoghi fisici tramite cui i dati transitano: Zurigo, Monaco, Francoforte, Amsterdam per poi passare negli Stati Uniti." >}}
 {{% /green %}}
 
 ## Il transito e il peering
 
-Oltre alle reti di tipo Tier I, esistono anche reti di secondo e terzo livello. Le reti **Tier III corrispondono ai piccoli operatori** (<abbr title="Internet Service Provider">ISP</abbr>) o ad altre piccole organizzazioni che gestiscono un sistema autonomo. Per connettersi al resto di Internet, questi operatori siglano degli **accordi di transito con almeno un altro operatore di livello superiore**.
+Oltre alle reti di tipo Tier 1, esistono anche reti di secondo e terzo livello. Le reti **Tier 3 corrispondono ai piccoli operatori** (<abbr title="Internet Service Provider">ISP</abbr>) o ad altre piccole organizzazioni che gestiscono un sistema autonomo. Per connettersi al resto di Internet, questi operatori siglano degli **accordi di transito con almeno un altro operatore di livello superiore**.
 
-In questo modo tutto il traffico Internet generato dall'operatore Tier III viene inoltrato all'operatore di livello superiore, che si occuperà poi in modo trasparente di recapitarlo nel modo che preferisce.
+In questo modo tutto il traffico Internet generato dall'operatore Tier 3 viene inoltrato all'operatore di livello superiore, che si occuperà poi in modo trasparente di recapitarlo nel modo che preferisce.
 
 Affidarsi a un operatore per il transito ha i suoi vantaggi, ma **quando il traffico cresce può essere limitante**. Entra quindi in gioco di nuovo il **peering**: oltre agli accordi di transito, l'operatore può decidere di fare peering con altri operatori e fornitori di contenuti.
 
