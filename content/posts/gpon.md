@@ -59,46 +59,49 @@ Da questo comportamento segue anche il fatto che **ciascun ONT riceve anche il t
 In direzione **upstream** (ONT -> OLT) lo splitter si occupa di **sommare i contributi di luce portati dalle N fibre ottiche**. Considerato che più ONT possono trasmettere in contemporanea, gli OLT prevedono dei meccanismi di sincronizzazione per fare in modo che la trasmissione sia coordinata e non sovrapposta.
 {{< /green >}}
 
-L'elemento GPON di interesse principale per le utenze finali è però il **ROE** (**Ripartitore Ottico di Edificio**), talvolta chiamato anche **PTE** (**Punto di Terminazione di Edificio**). Il ROE viene installato a pochi metri dalle abitazioni: molto spesso si trova nel locale contatori dell'edificio, ma può anche essere montato su una parete esterna, oppure interrato o inserito in una chiostrina.
+L'elemento GPON di interesse principale per le utenze finali è però il **ROE** (**Ripartitore Ottico di Edificio**), o in alternativa il **PTE** (**Punto di Terminazione di Edificio**). Il ROE o il PTE vengono installati a pochi metri dalle abitazioni: molto spesso si trovano nel locale contatori dell'edificio, ma possono anche essere montati su una parete esterna, oppure interrati o inseriti in una chiostrina.
 
-Il ROE può opzionalmente agire da splitter, ma il suo scopo principale è quello di **dare flessibilità alla rete**. In assenza di splitting, in un ROE entra un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico), e ne escono altrettante, che andranno direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
+In un ROE trova anche posto uno splitter - l'ultimo prima dell'ONT in casa - ma il suo scopo principale è quello di **dare flessibilità alla rete**. In assenza di splitting, si parla invece di PTE all'interno del quale entrano un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico a monte), e ne escono altrettante, che andranno direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
 
 {{< fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." >}}
 
 {{< fig src="/images/roe-ff5.jpg" caption="Interno di un ROE Flash Fiber con 16 fibre ottiche. Grazie a \"evilways\" per la foto" alt="Interno di un ROE Flash Fiber che mostra i cavi delle fibre ottiche" >}}
 
-Infine, all'interno delle UI è presente una **borchia ottica e un ONT**, cioè un dispositivo alimentato che demodula e decifra il segnale trasmesso sulla fibra ottica e lo converte in un segnale elettrico (uscita Ethernet), adatto per il collegamento a un router.
+Infine, all'interno delle UI è presente una **borchia ottica e un ONT**, cioè un dispositivo alimentato, concettualmente analogo ad un modem DSL, che comunica a mezzo segnale ottico verso la rete in fibra e vi da accesso tramite un collegamento Ethernet elettrico, adatto per il collegamento a un router. In alcuni casi, l'ONT e il router formano un dispositivo unico, o mediante ONT in forma modulare SFP (una cartuccia metallica da inserire nel router), o mediante ONT totalmente integrato nel router, proprio come io sono i comunissimi modem DSL.
 
 {{< fig src="/images/cavo-fibra.jpg" caption="Cavo di fibra ottica per FTTH con connettore SC" vertical="true" >}}
 
 ## GPON in Italia
 
-In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber e Flash Fiber (TIM+Fastweb)**, e sono entrambe **realizzate utilizzando GPON** come tecnologia.
+In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber**, **Flash Fiber** (TIM+Fastweb) e **TIM**, e tutte realizzate con **tecnologia PON** (GPON o superiore).
 
 ### Open Fiber
 
 Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
 
-Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete Open Fiber possono scegliere principalmente due modalità:
+Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete passiva Open Fiber possono scegliere tre modalità:
 
-- **l'operatore installa i propri OLT nel POP** e Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
-- **Open Fiber offre gli OLT** e si tratta in questo caso di FTTH *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante.[^ofopenstream]
+- **l'operatore installa i propri OLT nel POP** e i **propri ONT in casa** del cliente, Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
+- **Open Fiber offre anche gli OLT** e gli **ONT**, si tratta in questo caso del servizio *Open Stream* di Open Fiber. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante.[^ofopenstream]
+- **Open Fiber offre anche l'interconnessione ad internet e il router**, si tratta in questo caso del servizio *Open Internet* di Open Fiber. La consegna del traffico arriva sino ai nodi di interscambio facenti parte di internet, in questo caso l'operatore (in certi sensi "virtuale") si affida totalmente ad Open Fiber.
 
 **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi FTTC.
 
-Infine, i ROE di Open Fiber vengono frequentemente chiamati **PTE** (*Punto di Terminazione di Edificio*) e non svolgono mai la funzione di splitting ma soltanto di raccordo.
+Infine, i **PTE** (*Punto di Terminazione di Edificio*) di Open Fiber generalmente non accolgono al loro interno l'ultimo elemento di splitting, ma fungono soltanto da raccordo.
 
 {{< fig src="/images/gpon-of.jpg" caption="Infrastruttura di rete Open Fiber (cluster A). Fonte: Open Fiber" >}}
 
-{{< fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" >}}
+{{< fig src="/images/roe-of1.jpg" caption="PTE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un PTE con l'etichetta Open Fiber" vertical="true" >}}
 
 {{< green >}}
 ###### La rete Metroweb
 
-Quando **Open Fiber è nata, nel 2016, ha incorporato la rete Metroweb** realizzata nel decennio precedente a Milano e in poche altre città italiane. Anche la rete Metroweb prevede due livelli di splitting, ma uno dei due avviene direttamente nel ROE, come nel caso di Flash Fiber.
+Quando **Open Fiber è nata, nel 2016, ha incorporato la rete Metroweb** realizzata nel decennio precedente a Milano, Torino, Bologna e Genova. Anche la rete Metroweb prevede due livelli di splitting, ma uno dei due avviene direttamente all'edificio, in quello che quindi prende il nome di ROE, come nel caso di Flash Fiber.
 {{< /green >}}
 
 Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON. La scelta è dovuta al fatto che i bandi pubblici del piano BUL richiedono di garantire almeno 100 Mbps in download e 50 in upload per utenza, anche in caso di collegamenti contemporanei.
+
+Va anche tenuto conto del fatto che ad ogni splitting, la potenza del segnale luminoso emesso viene equamente sudddiviso, Pertanto, un minore fattore di splitting consente anche realizzare tratte finali OLT-ONT più lunghe a parità di potenza emessa.
 
 Come conseguenza, il livello di splitting è soltanto uno ed è effettuato nel CNO (**Centro Nodale Ottico**), collegato a un **PCN** (*Punto di Consegna Neutro*), che è l'equivalente del POP ma è quasi sempre condiviso tra più comuni.[^offibraspenta][^pcn]
 
@@ -120,11 +123,15 @@ In questo caso, gli OLT di TIM e Fastweb si trovano nelle **centrali TIM**, e **
 
 {{< fig src="/images/cno-ff.jpg" caption="CNO Flash Fiber inserito in un box-chiostrina. Grazie a Luca Z. per la foto" alt="Interno di una chiostrina TIM su strada, contenente il CNO" >}}
 
-Nell'infrastruttura Flash Fiber i ROE TIM e Fastweb sono gli stessi, ma al loro interno vengono effettuati separatamente gli splitting per TIM e per Fastweb. Solitamente quindi un ROE Flash Fiber ha una capacità di 8 linee per TIM e 8 linee per Fastweb.
+Nell'infrastruttura Flash Fiber i ROE sono condivisi tra TIM e Fastweb, ma al loro interno vengono effettuati separatamente gli splitting per TIM e per Fastweb. Solitamente quindi un ROE Flash Fiber ha una capacità di 8 linee per TIM e 8 linee per Fastweb.
 
 {{< fig src="/images/roe-ff1.jpg" caption="ROE Flash Fiber. Grazie a Edoardo C. per la foto" alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" >}}
 
-Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre di TIM oppure di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT ma deve condividere la rete con TIM o Fastweb, ad esempio in modalità VULA. Inoltre, mentre Open Fiber in *Open Stream* consente ad ogni operatore di collegarsi con 10 Gbps per la consegna del traffico, con TIM il kit VULA prevede 10 Gbps condivisi tra tutti gli operatori VULA presenti in centrale.[^vula]
+Un'altra differenza importante rispetto a Open Fiber è che **gli OLT Flash Fiber sono sempre o di TIM o di Fastweb**. Ciò significa che se un operatore terzo vuole accedere alla rete Flash Fiber non può installare il proprio OLT e i propri ONT ma deve condividere la rete con TIM o Fastweb, ad esempio con modalità come la VULA di TIM, l'analoga Fastweb, o la già citata Open Stream offerta da Open Fiber. 
+
+{{< green >}}
+Mentre Open Fiber in Open Stream consente ad ogni singolo operatore di collegarsi ad una porta dedicata da 10 Gbps per la consegna del traffico, TIM con la VULA prevede solo 10 Gbps in totale da condividere tra tutti gli operatori presenti in centrale.[^vula]
+{{< /green >}}
 
 {{< info >}}
 Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
