@@ -2,7 +2,7 @@
 title: "Come funziona la rete Internet"
 slug: internet
 date: 2020-03-13T16:00:00+01:00
-lastmod: 2020-03-14T10:30:00+01:00
+lastmod: 2020-03-22T10:30:00+01:00
 authors: [Matteo]
 description: "Come funziona Internet? Con un linguaggio semplice, spieghiamo cos'è il modello a strati, i sistemi autonomi, il peering e il transito."
 categories: [Reti]
@@ -122,7 +122,7 @@ In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha
 
 {{< fig src="/images/internet/tracert1.jpg" caption="Un traceroute fatto da rete Fastweb nel nord Italia mostra chiaramente che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda CloudFlare presso il MIX di Milano (passo 8). CloudFlare è un'importante azienda che fornisce servizi CDN (Content Delivery Network) e protezione da attacchi DDoS." >}}
 
-In alternativa **il peering può essere anche privato**, e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
+In alternativa **il peering può essere anche privato** (anche detto <abbr title="Private Network Interconnect">PNI</abbr>), e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
 
 {{< green >}}
 ###### Telecom Italia e il depeering
