@@ -2,7 +2,7 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2019-04-06
+lastmod: 2020-03-22T11:15:00+01:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
