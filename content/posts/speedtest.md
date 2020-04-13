@@ -33,9 +33,11 @@ Ma torniamo in tema...
 
 ## Prima di iniziare
 
-Se il tuo obiettivo è testare la **velocità massima** della tua linea devi utilizzare una connessione cablata, collegando quindi il computer al router tramite un **cavo Ethernet**.
+Se il tuo obiettivo è testare la **velocità massima** della linea devi utilizzare una connessione cablata, collegando quindi il computer al router tramite un **cavo Ethernet**.
 
 Assicurati di usare il computer più recente che hai a disposizione, perché la **velocità del processore** può influire in modo significativo sui risultati.
+
+Le istruzioni variano a seconda del sistema operativo. Di seguito trovi quelle per Windows e macOS.
 
 ## Windows
 
@@ -43,7 +45,7 @@ Prima di iniziare, devi sapere che Speedtest CLI funziona solo su **processori c
 
 Per scaricare Speedtest CLI, vai su [questa pagina](https://www.speedtest.net/it/apps/cli), scorri verso il fondo e premi il pulsante *Download per Windows*. Salva il file ZIP e poi estrailo (tasto destro => *Estrai tutto*).
 
-Nella cartella in cui hai estratto i file, premi sulla barra dell'indirizzo che trovi in alto, scrivi `cmd` e premi *Invio* sulla tastiera:
+Nella cartella in cui hai estratto i file, clicca sulla barra dell'indirizzo che trovi in alto, scrivi `cmd` e premi *Invio* sulla tastiera:
 
 {{< fig src="/images/speedtest/windows-1.gif" >}}
 
@@ -59,7 +61,9 @@ Dopo qualche secondo verrà mostrato il risultato:
 
 È anche possibile selezionare un server specifico, di cui bisogna però conoscere l'identificativo numerico. Per ottenere una lista dei server più "vicini", scrivi `speedtest -L`, e nella prima colonna troverai l'ID dei server.
 
-Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio con questo comando puoi fare uno speedtest verso il server Vodafone di Milano: `speedtest -s 4302`.
+Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
+- per il server Vodafone di Milano: `speedtest -s 4302`
+- per il server EOLO di Milano: `speedtest -s 3997`
 
 {{< info >}}
 Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
@@ -99,12 +103,16 @@ Dopo qualche secondo verrà mostrato il risultato:
 
 È anche possibile selezionare un server specifico, di cui bisogna però conoscere l'identificativo numerico. Per ottenere una lista dei server più "vicini", scrivi `speedtest -L`, e nella prima colonna troverai l'ID dei server.
 
-Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio con questo comando puoi fare uno speedtest verso il server Vodafone di Milano: `speedtest -s 4302`.
+Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
+- per il server Vodafone di Milano: `speedtest -s 4302`
+- per il server EOLO di Milano: `speedtest -s 3997`
 
 {{< info >}}
 Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
 {{< /info >}}
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
+
+Le volte successive che dovrai eseguire uno speedtest potrai semplicemente aprire il terminale e scrivere `speedtest`.
 
 {{< footer >}}
