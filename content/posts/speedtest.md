@@ -113,6 +113,6 @@ Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
 
-Le volte successive che dovrai eseguire uno speedtest potrai semplicemente aprire il terminale e scrivere `speedtest`.
+Le volte successive che vorrai eseguire uno speedtest potrai semplicemente aprire il terminale e scrivere `speedtest`.
 
 {{< footer >}}
