@@ -62,7 +62,7 @@ Dopo qualche secondo verrà mostrato il risultato:
 Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio con questo comando puoi fare uno speedtest verso il server Vodafone di Milano: `speedtest -s 4302`.
 
 {{< info >}}
-Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://c.speedtest.net/speedtest-servers-static.php), da cui puoi estrarre l'ID del server.
+Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
 {{< /info >}}
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
@@ -102,7 +102,7 @@ Dopo qualche secondo verrà mostrato il risultato:
 Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio con questo comando puoi fare uno speedtest verso il server Vodafone di Milano: `speedtest -s 4302`.
 
 {{< info >}}
-Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://c.speedtest.net/speedtest-servers-static.php), da cui puoi estrarre l'ID del server.
+Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
 {{< /info >}}
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
