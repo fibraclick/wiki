@@ -9,7 +9,7 @@ categories: [Reti]
 image: /social/speedtest.jpg
 ---
 
-Eseguire gli speedtest tramite il browser, ad esempio tramite i siti web Speedtest.net, Fast.com o SpeedOf.me è un metodo **non sempre affidabile, specialmente con alte velocità**.
+Eseguire gli speedtest tramite il browser, ad esempio tramite i siti web Speedtest.net, Fast.com o SpeedOf.me, è un metodo **non sempre affidabile, specialmente con alte velocità**.
 
 Infatti, il codice che esegue lo speedtest può incorrere in certi **limiti di prestazioni** dovuti al browser, che fa da tramite per le operazioni di rete.[^limiti]
 
