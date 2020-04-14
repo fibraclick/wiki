@@ -2,7 +2,7 @@
 title: "Come fare uno speedtest da terminale"
 slug: speedtest
 date: 2020-04-13T21:00:00+02:00
-lastmod: 2020-04-13T21:00:00+02:00
+lastmod: 2020-04-14T12:00:00+02:00
 authors: [Matteo]
 description: "Eseguire gli speedtest tramte il browser non è sempre un metodo affidabile. Questa guida spiega come eseguirli tramite terminale, su Windows e macOS"
 categories: [Reti]
@@ -73,11 +73,11 @@ Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
 
 ## macOS
 
-Per poter installare Speedtest CLI su macOS, è prima necessario installare uno strumento chiamato `brew`, che serve a facilitare l'installazione e l'aggiornamento di alcuni software.
+Per poter installare Speedtest CLI su macOS, è prima necessario installare uno strumento chiamato **Homebrew**, che serve a facilitare l'installazione e l'aggiornamento di alcuni software.
 
 Per prima cosa devi aprire una finestra del terminale. Per farlo, apri il Launchpad e scrivi "terminale", poi clicca su **Terminale**.
 
-Recati ora sul [sito ufficiale di Brew](https://brew.sh/index_it) e copia la riga di comando che trovi al centro dello schermo. Incollala nel terminale, e premi *Invio* sulla tastiera.
+Recati ora sul [sito ufficiale di Homebrew](https://brew.sh/index_it) e copia la riga di comando che trovi al centro dello schermo. Incollala nel terminale, e premi *Invio* sulla tastiera.
 
 Ti verrà chiesto di premere *Invio* per continuare, e poi di inserire la password del tuo utente macOS:
 
