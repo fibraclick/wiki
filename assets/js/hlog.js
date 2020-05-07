@@ -34,12 +34,17 @@ function run() {
         let reader = new FileReader();
 
         reader.onload = function() {
+            window.app.profile = null;
+            window.app.hlogDS = null;
+            window.app.hlogUS = null;
+            window.app.qln = null;
+
             let lines = this.result.split('\n');
             lines.forEach((line) => {
-                if (line.startsWith('VDSL2 Profile')) {
+                if (line.startsWith('VDSL2 Profile:')) {
                     window.app.profile = line.split(': ')[1].trim();
                 }
-                else if (line.startsWith('HLOG DS Array')) {
+                else if (line.startsWith('HLOG DS Array') || line.startsWith('HLOG Array')) {
                     window.app.hlogDS = line.split(': ')[1].trim();
                 }
                 else if (line.startsWith('HLOG US Array')) {
@@ -82,7 +87,7 @@ function plot() {
         return;
     }
 
-    if (!window.app.hlogDS || !window.app.hlogUS || !window.app.qln) {
+    if (!window.app.hlogDS || !window.app.qln) {
         alert('Dati non trovati.');
         return;
     }
@@ -95,7 +100,9 @@ function plot() {
     }
 
     let hlogDS = window.app.hlogDS.split(',').map(filterOutliers);
-    let hlogUS = window.app.hlogUS.split(',').map(filterOutliers);
+    let hlogUS = window.app.hlogUS
+        ? window.app.hlogUS.split(',').map(filterOutliers)
+        : [];
     let qln = window.app.qln.split(',').map(filterOutliers);
 
     let maxSamples;
@@ -203,4 +210,5 @@ function plot() {
     });
 
     document.getElementById('charts').style.display = 'block';
+    document.getElementById('noUsData').style.display = (hlogUS.length ? 'none' : 'block');
 }

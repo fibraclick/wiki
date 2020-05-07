@@ -2,7 +2,7 @@
 title: "Grafici HLOG/QLN"
 slug: hlog
 date: 2020-02-29T16:00:00+01:00
-lastmod: 2020-03-01T23:00:00+01:00
+lastmod: 2020-05-07T19:00:00+02:00
 js: ["hlog.js"]
 rawjs: ["Chart.min.js"]
 scss: ["hlog.scss"]
@@ -17,6 +17,9 @@ Carica il file [statistiche avanzate](https://forum.fibra.click/d/3948-statistic
 <div id="charts">
     <p>
         <strong>Profilo</strong>: <span id="profile"></span>
+    </p>
+    <p id="noUsData">
+        ❗ <strong>Dati US mancanti</strong>
     </p>
     <p>
         <input type="checkbox" id="hideFrequencies" onchange="window.app.toggleHideFrequencies()">
