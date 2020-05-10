@@ -19,7 +19,7 @@ Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che
 
 ## Pozzetti #BUL
 
-Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e sono posizionati ogni circa 40-50 metri sulle vie da coprire in fibra ottica.[^pozz1][^pozz2] Sono l'equivalente di un PTA (Punto di Terminazione Avanzato), e cioè il punto da cui partono le fibre ottiche per le abitazioni.
+Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e sono posizionati ogni circa 40-50 metri sulle vie da coprire in fibra ottica.[^pozz1][^pozz2] Sono l'equivalente di un PTA (Punto di Terminazione Arretrato), e cioè il punto da cui partono le fibre ottiche per le abitazioni.
 
 [^pozz1]: https://forum.fibra.click/d/1439-incontro-openfiber-volano-tn
 [^pozz2]: http://www.regione.marche.it/Portals/0/Agenda_Digitale/Piano_BUL/TaskForceBUL/2019%2007%2001%20Regione%20%20Marche%20Task%20Force%20Infratel.pdf

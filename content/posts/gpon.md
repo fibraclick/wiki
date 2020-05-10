@@ -93,7 +93,7 @@ Vedi anche [Come funziona la rete Internet]({{< relref "/posts/internet.md" >}})
 
 **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi di TIM.
 
-Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati anche **PTA** (*Punto di Terminazione Avanzato*) se sono interrati.
+Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati anche **PTA** (*Punto di Terminazione Arretrato*) se sono interrati.
 
 {{< fig src="/images/gpon-of.jpg" caption="Infrastruttura di rete Open Fiber (cluster A). Fonte: Open Fiber" >}}
 
