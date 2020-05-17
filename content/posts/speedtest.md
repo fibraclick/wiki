@@ -45,13 +45,13 @@ Prima di iniziare, devi sapere che Speedtest CLI funziona solo su **processori c
 
 Per scaricare Speedtest CLI, vai su [questa pagina](https://www.speedtest.net/it/apps/cli), scorri verso il fondo e premi il pulsante *Download per Windows*. Salva il file ZIP e poi estrailo (tasto destro => *Estrai tutto*).
 
-Nella cartella in cui hai estratto i file, clicca sulla barra dell'indirizzo che trovi in alto, scrivi `cmd` e premi *Invio* sulla tastiera:
+Nella cartella in cui hai estratto i file clicca sulla barra dell'indirizzo che trovi in alto, scrivi `cmd` e premi *Invio* sulla tastiera:
 
 {{< fig src="/images/speedtest/windows-1.gif" >}}
 
 Si aprirà un prompt dei comandi, cioè la shell di Windows.
 
-Per avviare uno speedtest, scrivi semplicemente `speedtest` e premi *Invio*. La prima volta ti chiederà di accettare i termini del servizio. Scrivi **YES** per confermare.
+Per avviare uno speedtest scrivi semplicemente `speedtest` e premi *Invio*. La prima volta ti chiederà di accettare i termini del servizio. Scrivi **YES** per confermare.
 
 {{< fig src="/images/speedtest/windows-2.png" >}}
 
@@ -73,17 +73,17 @@ Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
 
 ## macOS
 
-Per poter installare Speedtest CLI su macOS, è prima necessario installare uno strumento chiamato **Homebrew**, che serve a facilitare l'installazione e l'aggiornamento di alcuni software.
+Per poter installare Speedtest CLI su macOS è prima necessario installare uno strumento chiamato **Homebrew**, che serve a facilitare l'installazione e l'aggiornamento di alcuni software.
 
 Per prima cosa devi aprire una finestra del terminale. Per farlo, apri il Launchpad e scrivi "terminale", poi clicca su **Terminale**.
 
-Recati ora sul [sito ufficiale di Homebrew](https://brew.sh/index_it) e copia la riga di comando che trovi al centro dello schermo. Incollala nel terminale, e premi *Invio* sulla tastiera.
+Recati ora sul [sito ufficiale di Homebrew](https://brew.sh/index_it) e copia la riga di comando che trovi al centro dello schermo. Incollala nel terminale e premi *Invio* sulla tastiera.
 
-Ti verrà chiesto di premere *Invio* per continuare, e poi di inserire la password del tuo utente macOS:
+Ti verrà chiesto di premere *Invio* per continuare e poi di inserire la password del tuo utente macOS:
 
 {{< fig src="/images/speedtest/macos-1.jpg" >}}
 
-Dopo qualche secondo il comando terminerà l'installazione, e potrai quindi procedere con l'installazione di Speedtest CLI, eseguendo questi tre comandi, uno dopo l'altro[^speedtestcli]:
+Dopo qualche secondo il comando terminerà l'installazione, e potrai quindi procedere con l'installazione di Speedtest CLI eseguendo questi tre comandi, uno dopo l'altro[^speedtestcli]:
 
 [^speedtestcli]: https://www.speedtest.net/apps/cli
 
