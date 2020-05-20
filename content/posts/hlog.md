@@ -64,13 +64,13 @@ Di seguito è riportata una tabella con alcuni valori di kl0 per alcuni cavi Tel
 
 Un HLog ideale dovrebbe essere, volendo utilizzare un linguaggio rigoroso, **monotono decrescente**, ossia simile a questo grafico:
 
-{{< fig src="/images/hlog/hlog-ideale.png" caption="Un HLog ideale." alt="Un grafico che mostra una linea con valore decrescente." >}}
+{{< fig src="/images/hlog/hlog-ideale.png" alt="Un grafico che mostra una linea con valore decrescente." >}}
 
 In altre parole, significa che ogni punto del grafico dovrebbe avere un valore più "alto" del punto successivo. (Ci perdonino i matematici.)
 
 In un caso reale, un "buon" HLog si presenta così:
 
-{{< fig src="/images/hlog/hlog-ideale2.png" caption="Un HLog ideale ma più realistico." alt="Un grafico che mostra una linea con tendenza descrescente ma con alcune leggere incertezze." >}}
+{{< fig src="/images/hlog/hlog-ideale2.png" alt="Un grafico che mostra una linea con tendenza descrescente ma con alcune leggere incertezze." >}}
 
 Tuttavia nella realtà è normale avere una leggera oscillazione dei valori. Per esempio, si consideri il seguente grafico:
 
@@ -104,7 +104,7 @@ Questo spezzone di cavo "morto" provoca degli **aumenti periodici di attenuazion
 
 Se ci sono più derivazioni, il loro effetto si sommerà su alcune frequenze specifiche.
 
-Osservando un grafico HLog è possibile individuare la presenza di una derivazione: se invece di avere una linea sostanzialmente "lineare", come quella dei grafici ideali (dove ogni punto ha un valore leggermente più grande del punto successivo), si hanno dei "picchi negativi" (ossia delle **gobbe**, o quello che visivamente può sembrare il profilo di una montagna capovolto), allora la linea ha delle derivazioni.
+Osservando un grafico HLog è possibile individuare la presenza di una derivazione: se invece di avere una linea sostanzialmente "lineare", come quella dei primi due grafici (dove ogni punto ha un valore leggermente più grande del punto successivo), si hanno dei "picchi negativi" (ossia delle **gobbe**, o quello che visivamente può sembrare il profilo di una montagna capovolto), allora la linea ha delle derivazioni.
 
 Per esempio:
 
