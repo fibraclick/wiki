@@ -2,7 +2,7 @@
 title: "Come interpretare i grafici HLog e QLN"
 slug: hlog
 date: 2020-05-20T14:08:39+02:00
-lastmod: 2020-05-20T22:30:00+02:00
+lastmod: 2020-05-21T23:00:00+02:00
 authors: [Andrea (Hadx)]
 description: "Sulle linee VDSL i grafici HLog e QLN sono utili per estrarre caratteristiche sulla linea. Con questa guida imparerai ad interpretarli."
 categories: [FTTC]

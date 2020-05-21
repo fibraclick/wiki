@@ -2,7 +2,7 @@
 title: "Grafici HLog/QLN"
 slug: hlog/generatore
 date: 2020-02-29T16:00:00+01:00
-lastmod: 2020-05-07T19:00:00+02:00
+lastmod: 2020-05-21T23:00:00+02:00
 js: ["hlog.js"]
 rawjs: ["Chart.min.js"]
 scss: ["hlog.scss"]
