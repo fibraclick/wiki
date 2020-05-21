@@ -22,8 +22,11 @@ Carica il file [statistiche avanzate](https://forum.fibra.click/d/3948-statistic
         ❗ <strong>Dati US mancanti</strong>
     </p>
     <p>
-        <input type="checkbox" id="hideFrequencies" onchange="window.app.toggleHideFrequencies()">
-        <label for="hideFrequencies">Nascondi toni non utilizzati</label>
+        <input type="checkbox" id="hideUnusedTones" onchange="window.app.toggleHideUnusedTones()">
+        <label for="hideUnusedTones">Nascondi toni non utilizzati</label>
+        <br>
+        <input type="checkbox" id="useFrequencies" onchange="window.app.toggleUseFrequencies()">
+        <label for="useFrequencies">Mostra frequenze sulle ascisse</label>
     </p>
     <canvas id="chartHLOG"></canvas>
     <a onclick="window.app.exportChart('hlog')">Genera immagine</a>

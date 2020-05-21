@@ -5,14 +5,18 @@ window.app = {
         '8b': 1971 / 512,
         '12a': 2782 / 512
     },
-    hideFrequencies: true,
+    hideUnusedTones: true,
+    useFrequencies: false,
     plot,
     exportChart,
-    toggleHideFrequencies
+    toggleHideUnusedTones,
+    toggleUseFrequencies,
+    toneToFrequency
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('hideFrequencies').checked = window.app.hideFrequencies;
+    document.getElementById('hideUnusedTones').checked = window.app.hideUnusedTones;
+    document.getElementById('useFrequencies').checked = window.app.useFrequencies;
     run();
 });
 
@@ -23,9 +27,18 @@ function exportChart(what) {
     w.document.write('<img style="max-width: 100%" src="' + canvas.toDataURL() + '">'); 
 }
 
-function toggleHideFrequencies() {
-    window.app.hideFrequencies = !window.app.hideFrequencies;
+function toggleHideUnusedTones() {
+    window.app.hideUnusedTones = !window.app.hideUnusedTones;
     plot();
+}
+
+function toggleUseFrequencies() {
+    window.app.useFrequencies = !window.app.useFrequencies;
+    plot();
+}
+
+function toneToFrequency(value) {
+    return value * 4.3125;
 }
 
 function run() {
@@ -107,7 +120,7 @@ function plot() {
 
     let maxSamples;
 
-    if (window.app.hideFrequencies) {
+    if (window.app.hideUnusedTones) {
         let lastIndexToRender = Math.max(
             findLastNonNullIndex(hlogDS),
             findLastNonNullIndex(hlogUS)
@@ -137,13 +150,31 @@ function plot() {
         legend: {
             position: 'bottom'
         },
-        tooltips: { enabled: false },
+        tooltips: { 
+            enabled: true,
+            intersect: false,
+            mode: 'index',
+            callbacks: {
+                title: function (tooltipItem, data) {
+                    return 'Tono ' + tooltipItem[0].label
+                        + '\nFreq: ' + toneToFrequency(tooltipItem[0].label) + ' kHz';
+                }
+            }
+        },
         scales: {
             xAxes: [{
                 ticks: {
                     max: maxX,
                     min: 0,
-                    stepSize: step
+                    stepSize: step,
+                    callback: function(value, index, values) {
+                        if (window.app.useFrequencies) {
+                            return value * 4.3125;
+                        }
+                        else {
+                            return value;
+                        }
+                    }
                 }
             }],
             yAxes: [{
@@ -156,6 +187,9 @@ function plot() {
             display: true,
             text: 'HLOG',
             fontSize: 14
+        },
+        animation: {
+            duration: 0
         }
     };
 

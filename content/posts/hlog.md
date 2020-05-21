@@ -23,7 +23,7 @@ Se possiedi un modem FRITZ!Box, puoi generare i grafici HLog e QLN tramite il [g
 
 Partiamo dal grafico in sé e per sé:
 
-- sull'asse delle ascisse (le `x`) sono indicate alternativamente **le frequenze o le portanti** (al momento il generatore del forum fornisce le portanti). Le frequenze più comuni in VDSL2 sono:
+- sull'asse delle ascisse (le `x`) sono indicate alternativamente **le frequenze o le portanti**. Le frequenze più comuni in VDSL2 sono:
   
   - Profilo 17a: 17,664 MHz (4096 portanti)
   - Profilo 35b: 35,328 MHz (8192 portanti)
@@ -138,7 +138,7 @@ Il calcolo della lunghezza approssimativa degli stub è molto semplice (quantome
 
 Innanzitutto è necessario prendere la frequenza del primo picco di attenuazione (il punto "più in basso", o minimo locale, della prima gobba).
 
-Nel caso in cui sul grafico non vi sia indicata la frequenza ma la portante (come avviene al momento sul generatore di FibraClick) è sufficiente moltiplicare il valore della portante corrispondente per lo spacing (4,3125 KHz).
+Nel caso in cui sul grafico non vi sia indicata la frequenza ma la portante è sufficiente moltiplicare il valore della portante corrispondente per lo spacing (4,3125 KHz).
 
 Procediamo con un esempio e proviamo a calcolare la lunghezza della derivazione di questo grafico:
 
