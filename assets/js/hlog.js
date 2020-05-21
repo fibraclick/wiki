@@ -195,7 +195,11 @@ function plot() {
 
     let ctx = document.getElementById('chartHLOG');
 
-    new Chart(ctx, {
+    if (window.app.chart1) {
+        window.app.chart1.destroy();
+    }
+
+    window.app.chart1 = new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
@@ -225,7 +229,11 @@ function plot() {
     options.legend.display = false;
     options.title.text = 'QLN';
 
-    new Chart(ctx, {
+    if (window.app.chart2) {
+        window.app.chart2.destroy();
+    }
+
+    window.app.chart2 = new Chart(ctx, {
         type: 'line',
         data: {
             labels: labels,
