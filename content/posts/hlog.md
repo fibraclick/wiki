@@ -49,11 +49,11 @@ La lunghezza della tratta viene calcolata considerando il kl0 della linea, ossia
 
 Di seguito è riportata una tabella con alcuni valori di kl0 per alcuni cavi Telecom Italia, per farsi un'idea.
 
-| Cavo           | Attenuazione a 1 MHz /1000 metri |
-| -------------- | -------------------------------- |
-| TI 1240 0,4 mm | <= 27 dB                         |
-| TI 1240 0,6 mm | <= 19 dB                         |
-| CT 948 0,75 mm (alluminio) |<= 19 dB              |
+| Cavo           | Attenuazione a 1 MHz / 1000 metri |
+| -------------- | --------------------------------- |
+| TI 1240 0,4 mm | <= 27 dB                          |
+| TI 1240 0,6 mm | <= 19 dB                          |
+| CT 948 0,75 mm (alluminio) |<= 19 dB               |
 
 
 {{< warn >}}

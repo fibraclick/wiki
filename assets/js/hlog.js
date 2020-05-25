@@ -41,6 +41,10 @@ function toneToFrequency(value) {
     return value * 4.3125;
 }
 
+function todB(value) {
+    return (value ? value / 10 : null);
+}
+
 function run() {
     document.getElementById('file').onchange = function () {
         let file = this.files[0];
@@ -112,11 +116,11 @@ function plot() {
         return +val;
     }
 
-    let hlogDS = window.app.hlogDS.split(',').map(filterOutliers);
+    let hlogDS = window.app.hlogDS.split(',').map(filterOutliers).map(todB);
     let hlogUS = window.app.hlogUS
-        ? window.app.hlogUS.split(',').map(filterOutliers)
+        ? window.app.hlogUS.split(',').map(filterOutliers).map(todB)
         : [];
-    let qln = window.app.qln.split(',').map(filterOutliers);
+    let qln = window.app.qln.split(',').map(filterOutliers).map(todB);
 
     let maxSamples;
 
@@ -169,17 +173,25 @@ function plot() {
                     stepSize: step,
                     callback: function(value, index, values) {
                         if (window.app.useFrequencies) {
-                            return value * 4.3125;
+                            return Math.round(value * 4.3125);
                         }
                         else {
                             return value;
                         }
                     }
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: (window.app.useFrequencies ? 'Frequenza [kHz]' : 'Tono')
                 }
             }],
             yAxes: [{
                 afterFit: function (scaleInstance) {
                     scaleInstance.width = 50;
+                },
+                scaleLabel: {
+                    display: true,
+                    labelString: 'Attenuazione [dB]'
                 }
             }]
         },

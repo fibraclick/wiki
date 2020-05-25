@@ -1,5 +1,5 @@
 ---
-title: "Grafici HLog/QLN"
+title: "Generatore grafici HLog/QLN"
 slug: hlog/generatore
 date: 2020-02-29T16:00:00+01:00
 lastmod: 2020-05-21T23:00:00+02:00
@@ -9,6 +9,10 @@ scss: ["hlog.scss"]
 ---
 
 Carica il file [statistiche avanzate](https://forum.fibra.click/d/3948-statistiche-avanzate-fritz) esportato dal FRITZ!Box per generare i grafici HLog e QLN.
+
+{{< info >}}
+Leggi anche la [guida]({{< relref "/posts/hlog.md" >}}) che spiega come interpretare i grafici.
+{{< /info >}}
 
 <p>
     <input type="file" name="file" id="file">
