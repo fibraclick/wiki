@@ -240,6 +240,7 @@ function plot() {
     ctx = document.getElementById('chartQLN');
     options.legend.display = false;
     options.title.text = 'QLN';
+    options.scales.yAxes[0].scaleLabel.labelString = 'Rumore [dBm]';
 
     if (window.app.chart2) {
         window.app.chart2.destroy();
