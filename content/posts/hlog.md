@@ -2,7 +2,7 @@
 title: "Come interpretare i grafici HLog e QLN"
 slug: hlog
 date: 2020-05-20T14:08:39+02:00
-lastmod: 2020-05-21T23:00:00+02:00
+lastmod: 2020-05-27T22:30:00+02:00
 authors: [Andrea (Hadx)]
 description: "Sulle linee VDSL i grafici HLog e QLN sono utili per estrarre caratteristiche sulla linea. Con questa guida imparerai ad interpretarli."
 categories: [FTTC]
@@ -28,7 +28,7 @@ Partiamo dal grafico in sé e per sé:
   - Profilo 17a: 17,664 MHz (4096 portanti)
   - Profilo 35b: 35,328 MHz (8192 portanti)
 
-- sull'asse delle ordinate (le `y`) è indicata l'attenuazione del cavo (espressa in dB x 0,1, ossia -100 = -10 dB). In FTTC il valore massimo per cui si può utilizzare una portante per allocare bit è approssimabile a circa -60 dB.
+- sull'asse delle ordinate (le `y`) è indicata l'attenuazione del cavo espressa in decibel (dB). In FTTC il valore massimo per cui si può utilizzare una portante per allocare bit è approssimabile a circa -60 dB.
 
 In altre parole, il grafico HLog rappresenta l'attenuazione del cavo alle diverse frequenze utilizzate.
 
@@ -188,9 +188,9 @@ Il QLN è relativamente semplice da valutare: maggiore è il valore sull'asse de
 
 | Da | a | Significato |
 | -- | - | ----------- |
-| -1450 | -1300 | Rumore pressoché assente |
-| -1300 | -1200 | Rumore basso |
-| -1200 | -1100 | Rumore medio |
-| -1100 | -900 | Rumore elevato |
+| -145 | -130 | Rumore pressoché assente |
+| -130 | -120 | Rumore basso |
+| -120 | -110 | Rumore medio |
+| -110 | -90 | Rumore elevato |
 
 {{< footer >}}
