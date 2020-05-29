@@ -2,7 +2,7 @@
 title: "Generatore grafici HLog/QLN"
 slug: hlog/generatore
 date: 2020-02-29T16:00:00+01:00
-lastmod: 2020-05-21T23:00:00+02:00
+lastmod: 2020-05-29T16:15:00+02:00
 js: ["hlog.js"]
 rawjs: ["Chart.min.js"]
 scss: ["hlog.scss"]
@@ -20,7 +20,8 @@ Leggi anche la [guida]({{< relref "/posts/hlog.md" >}}) che spiega come interpre
 
 <div id="charts">
     <p>
-        <strong>Profilo</strong>: <span id="profile"></span>
+        <strong>Profilo</strong>: <span id="profile"></span><br>
+        <strong>Vectoring</strong>: <span id="vectoring"></span>
     </p>
     <p id="noUsData">
         ❗ <strong>Dati US mancanti</strong>

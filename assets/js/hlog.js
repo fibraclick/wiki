@@ -55,6 +55,7 @@ function run() {
             window.app.hlogDS = null;
             window.app.hlogUS = null;
             window.app.qln = null;
+            window.app.vectoring = false;
 
             let lines = this.result.split('\n');
             lines.forEach((line) => {
@@ -69,6 +70,12 @@ function run() {
                 }
                 else if (line.startsWith('QLN Array')) {
                     window.app.qln = line.split(': ')[1].trim();
+                }
+                else if (line.startsWith('VDSL2 GVECT error sample packets request') && !window.app.vectoring) {
+                    window.app.vectoring = parseInt(line.split(': ')[1].trim()) > 0;
+                }
+                else if (line.startsWith('VDSL2 GVECT error sample packets send') && !window.app.vectoring) {
+                    window.app.vectoring = parseInt(line.split(': ')[1].trim()) > 0;
                 }
             });
 
@@ -96,6 +103,7 @@ function plot() {
     }
 
     document.getElementById('profile').innerText = window.app.profile;
+    document.getElementById('vectoring').innerText = (window.app.vectoring ? 'Sì 🎉' : 'No');
 
     let step = window.app.stepMapping[window.app.profile];
 
