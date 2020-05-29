@@ -35,9 +35,9 @@ Una conseguenza del processo di cancellazione del rumore è che per poter funzio
 
 Questo è il principale motivo per cui **in Italia il vectoring non è stato applicato per anni**, se non in fase sperimentale. In Italia è infatti consentito che un operatore alternativo a TIM possa installare i propri DSLAM su strada ([wholesale SLU]({{< relref "/posts/vula-slu-nga.md" >}})). La delibera Agcom 747/13/CONS[^agcom1] prevede quindi l'obbligo di applicare il **Vectoring Multi-Operatore** (MOV), cioè di fare in modo che tutti gli operatori telefonici che operano in SLU si coordino per attivare il vectoring in maniera congiunta. Nella realtà questo non è spesso fattibile, per via dei vincoli irrealistici richiesti per l'applicazione del MOV.
 
-La delibera Agcom 348/19/CONS[^agcom2] del 18 luglio 2019 **apre finalmente alla possibilità di utilizzare il vectoring** senza MOV nelle aree in cui lo SLU non è presente, cioè circa il 95% dei comuni.[^slu] Prevede anche che in presenza di SLU gli operatori possano procedere con l'attivazione del vectoring anche in assenza di un accordo, una voltra trascorsi 2 mesi dalla proposta.[^fcvect]
+La delibera Agcom 348/19/CONS[^agcom2] del 18 luglio 2019 **apre finalmente alla possibilità di utilizzare il vectoring** senza MOV nelle aree in cui lo SLU non è presente, cioè circa il 95% dei comuni.[^slu] Prevede anche che in presenza di SLU gli operatori possano procedere con l'attivazione del vectoring anche in assenza di un accordo, una voltra trascorsi 2 mesi dalla proposta.[^fcvect1]
 
-Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta attivo solo in via sperimentale su un numero limitato di DSLAM TIM.
+Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta attivo solo in via sperimentale su un numero limitato di DSLAM TIM.[^fcvect2]
 
 {{< footer >}}
 
@@ -45,5 +45,6 @@ Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta 
 [^agcom1]: https://www.agcom.it/visualizza-documento/85ee38d8-8977-4fd6-858f-d58e72d58268
 [^vect]: http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html
 [^agcom2]: https://www.agcom.it/visualizza-documento/1fe1fd57-1b27-4755-bfd6-89455e12ce09
-[^fcvect]: https://forum.fibra.click/d/3450-agcom-via-libera-al-vectoring
+[^fcvect1]: https://forum.fibra.click/d/3450-agcom-via-libera-al-vectoring
 [^slu]: https://it.wikipedia.org/wiki/VDSL2#Copertura_in_Italia
+[^fcvect2]: https://forum.fibra.click/d/7439-vectoring-attivo-in-area-bianca
