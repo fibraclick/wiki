@@ -2,7 +2,7 @@
 title: "Cos'è il vectoring"
 slug: vectoring
 date: 2019-04-20T11:40:36+02:00
-lastmod: 2019-08-09T13:10:00+02:00
+lastmod: 2020-05-29T16:20:00+02:00
 authors: [Matteo]
 description: Il vectoring è una tecnologia che permette di migliorare la qualità delle linee fibra misto rame. Come funziona e a che punto siamo in Italia.
 categories: [Definizioni, FTTC]
@@ -37,7 +37,7 @@ Questo è il principale motivo per cui **in Italia il vectoring non è stato app
 
 La delibera Agcom 348/19/CONS[^agcom2] del 18 luglio 2019 **apre finalmente alla possibilità di utilizzare il vectoring** senza MOV nelle aree in cui lo SLU non è presente, cioè circa il 95% dei comuni.[^slu] Prevede anche che in presenza di SLU gli operatori possano procedere con l'attivazione del vectoring anche in assenza di un accordo, una voltra trascorsi 2 mesi dalla proposta.[^fcvect]
 
-Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta attivo solo in via sperimentale su un numero limitato di DSLAM TIM.
+Durante il 2019 TIM ha avviato una sperimentazione del vectoring molto ristretta e solo in alcune aree geografiche[^piemonte], mentre **da maggio 2020 risulta in fase di attivazione su molti DSLAM nelle aree bianche**.[^areebianche]
 
 {{< footer >}}
 
@@ -47,3 +47,5 @@ Nel momento in cui articolo è stato aggiornato, in Italia il vectoring risulta 
 [^agcom2]: https://www.agcom.it/visualizza-documento/1fe1fd57-1b27-4755-bfd6-89455e12ce09
 [^fcvect]: https://forum.fibra.click/d/3450-agcom-via-libera-al-vectoring
 [^slu]: https://it.wikipedia.org/wiki/VDSL2#Copertura_in_Italia
+[^piemonte]: https://www.ilpuntotecnico.com/tim-avvia-la-sperimentazione-del-vectoring-in-piemonte/
+[^areebianche]: https://forum.fibra.click/d/7439-vectoring-attivo-in-area-bianca
