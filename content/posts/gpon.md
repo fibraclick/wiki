@@ -81,10 +81,10 @@ In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber
 
 Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
 
-Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete di accesso di Open Fiber possono scegliere tre modalità:
+Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete di accesso di Open Fiber possono scegliere principalmente tre modalità[^ofservizi]:
 
-- **l'operatore può installare i propri OLT nel POP** e fornire anche gli **ONT** ai propri clienti. In questo caso Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;[^offibraspenta]
-- **Open Fiber offre sia OLT che ONT**, e si tratta in questo caso del servizio *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante;[^ofopenstream]
+- **l'operatore può installare i propri OLT nel POP** e fornire anche gli **ONT** ai propri clienti. In questo caso Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;
+- **Open Fiber offre sia OLT che ONT**, e si tratta in questo caso del servizio *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante;
 - infine, **Open Fiber può offrire anche l'interconnessione con la rete Internet**. Questo servizio si chiama *Open Internet* e permette a un operatore di offrire connessioni a Internet senza nessun investimento in infrastrutture di rete. L'operatore (che è in un certo senso un operatore "virtuale") si affida quindi completamente a Open Fiber, che fornisce anche il router ai clienti.
 
 {{< info >}}
@@ -144,8 +144,7 @@ Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}})
 [^standard]: https://www.itu.int/rec/T-REC-G.984.1
 [^notiziario]: pagina 9 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
 [^ofglossario]: https://openfiber.it/it/fibra-ottica/glossario/P
-[^offibraspenta]: https://openfiber.it/it/fibra-ottica/area-infratel/servizi-infratel/gpon-ftth-passiva
-[^ofopenstream]: https://openfiber.it/it/fibra-ottica/area-infratel/servizi-infratel/open-stream-ftth
+[^ofservizi]: https://openfiber.it/area-infratel/servizi/commercializzazione-aree-bianche/
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
 [^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
 
