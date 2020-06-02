@@ -14,7 +14,7 @@ blocks:
   - name: Build and push
     task:
       secrets:
-        - name: web1
+        - name: web2
         - name: fibraclick
       prologue:
         commands:
@@ -42,10 +42,10 @@ blocks:
             - ls -lah public/
             - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
 
-  - name: web1
+  - name: web2
     task:
       secrets:
-        - name: web1
+        - name: web2
         - name: fibraclick
       prologue:
         commands:
