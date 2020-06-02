@@ -65,4 +65,4 @@ blocks:
       jobs:
         - name: curl APIs
           commands:
-            - curl --retry 3 --fail -X POST "https://api.cloudflare.com/client/v4/zones/$FIBRA_CLICK_ZONE_ID/purge_cache" --header "Authorization: Bearer $TOKEN" --data-raw '{ "purge_everything": true }'
+            - 'curl --retry 3 --fail -X POST "https://api.cloudflare.com/client/v4/zones/$FIBRA_CLICK_ZONE_ID/purge_cache" --header "Authorization: Bearer $TOKEN" --data-raw ''{ "purge_everything": true }'''
