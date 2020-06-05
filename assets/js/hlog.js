@@ -229,7 +229,8 @@ function plot() {
         },
         animation: {
             duration: 0
-        }
+        },
+        maintainAspectRatio: false
     };
 
     let ctx = document.getElementById('chartHLOG');

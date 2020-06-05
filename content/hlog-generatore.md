@@ -35,8 +35,8 @@ Leggi anche la [guida]({{< relref "/posts/hlog.md" >}}) che spiega come interpre
         <input type="checkbox" id="useFrequencies" onchange="window.app.toggleUseFrequencies()">
         <label for="useFrequencies">Mostra frequenze sulle ascisse</label>
     </p>
-    <canvas id="chartHLOG"></canvas>
+    <div class="chart-container"><canvas id="chartHLOG"></canvas></div>
     <a onclick="window.app.exportChart('hlog')">Genera immagine</a>
-    <canvas id="chartQLN"></canvas>
+    <div class="chart-container"><canvas id="chartQLN"></canvas></div>
     <a onclick="window.app.exportChart('qln')">Genera immagine</a>
 </div>
