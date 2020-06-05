@@ -96,6 +96,29 @@ function findLastNonNullIndex(arr) {
     return arr.length;
 }
 
+function filterOutliers(val) {
+    if (val == -963 || val == -1505) {
+        return null;
+    }
+    return +val;
+}
+
+function estimateLineLength(cablekl0, attenuations, step) {
+    const tone = 232;
+    const index = tone / step;
+    
+    let kl0;
+    if (Number.isInteger(index)) {
+        kl0 = attenuations[index];
+    }
+    else {
+        kl0 = (attenuations[Math.floor(index)] + attenuations[Math.ceil(index)]) / 2;
+    }
+
+    let length = (-kl0 / cablekl0) * 1000;
+    return Math.round(length);
+}
+
 function plot() {
     if (!window.app.profile) {
         alert('Profilo non trovato.');
@@ -117,18 +140,14 @@ function plot() {
         return;
     }
 
-    function filterOutliers(val) {
-        if (val == -963 || val == -1505) {
-            return null;
-        }
-        return +val;
-    }
-
     let hlogDS = window.app.hlogDS.split(',').map(filterOutliers).map(todB);
     let hlogUS = window.app.hlogUS
         ? window.app.hlogUS.split(',').map(filterOutliers).map(todB)
         : [];
     let qln = window.app.qln.split(',').map(filterOutliers).map(todB);
+
+    document.getElementById('length1').innerText = estimateLineLength(27, hlogDS, step);
+    document.getElementById('length2').innerText = estimateLineLength(19, hlogDS, step);
 
     let maxSamples;
 

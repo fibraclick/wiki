@@ -21,7 +21,9 @@ Leggi anche la [guida]({{< relref "/posts/hlog.md" >}}) che spiega come interpre
 <div id="charts">
     <p>
         <strong>Profilo</strong>: <span id="profile"></span><br>
-        <strong>Vectoring</strong>: <span id="vectoring"></span>
+        <strong>Vectoring</strong>: <span id="vectoring"></span><br>
+        <strong>Lunghezza (cavo 0,4 mm)</strong>: <span id="length1"></span> m<br>
+        <strong>Lunghezza (cavo 0,6 mm)</strong>: <span id="length2"></span> m
     </p>
     <p id="noUsData">
         ❗ <strong>Dati US mancanti</strong>
