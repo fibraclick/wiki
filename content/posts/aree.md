@@ -21,7 +21,7 @@ In dettaglio, le aree si definiscono così[^lex]:
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga;
 - **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni.
 
-Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Si tratta quindi di reti FTTC oppure FWA su frequenze licenziate.
+Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Nel contesto italiano si tratta quindi di reti FTTC, FTTH, oppure FWA su frequenze licenziate.
 
 {{< info >}}
 Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}).
