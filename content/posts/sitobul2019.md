@@ -9,6 +9,10 @@ categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
 image: /social/piano-bul.jpg
 ---
 
+{{< warn >}}
+⚠ **Il sito BUL sarà aggiornato a metà giugno 2020, per cui questa guida potrebbe fare temporaneamente riferimento alla vecchia versione.**
+{{< /warn >}}
+
 Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura della banda larga per i prossimi anni.
 
 I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, e costituiscono la base per gli interventi pubblici dello Stato mirati alla riduzione del digital divide.
