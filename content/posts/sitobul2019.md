@@ -10,7 +10,7 @@ image: /social/piano-bul.jpg
 ---
 
 {{< warn >}}
-⚠ **Il sito BUL sarà aggiornato a metà giugno 2020, per cui questa guida potrebbe fare temporaneamente riferimento alla vecchia versione.**
+⚠ **Il sito BUL è stato aggiornato a metà giugno 2020, per cui questa guida fa temporaneamente riferimento alla vecchia versione. I concetti sono comunque molto simili anche nella nuova versione.**
 {{< /warn >}}
 
 Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura della banda larga per i prossimi anni.

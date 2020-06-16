@@ -2,7 +2,7 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2020-01-24T20:15:00+01:00
+lastmod: 2020-06-24T18:00:00+02:00
 authors: [Matteo]
 description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda ultralarga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -10,6 +10,8 @@ image: /social/aree-nere-grigie-bianche.jpg
 ---
 
 Le **aree nere, grigie e bianche** sono una classificazione del territorio stabilita dalla Commissione Europea per misurare il livello di investimenti privati per quanto riguarda le reti a banda ultralarga.
+
+{{< toc >}}
 
 ## Le aree
 
@@ -60,20 +62,18 @@ La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consen
 
 [^cipe]: https://www.gazzettaufficiale.it/eli/id/2015/10/14/15A07661/sg
 
-Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale. Questa regola è infatti la base per la fase 2 del piano banda ultralarga, che prevede la copertura con reti ad alta capacità (VHCN, >100 Mbps) delle aree che ne sono sprovviste.
-
-{{% green %}}
-###### Il piano BUL
-
-La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avviato nel 2015 con l'obiettivo di coprire tutte le aree bianche del paese (cluster C e D), riguardanti circa il 25% della popolazione. Si tratta quindi di tutte le abitazioni non coperte da reti NGA (>30 Mbps).
-
-Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "/posts/openfiber.md" >}}) per vent'anni.
-{{% /green %}}
-
-{{< info >}}
-Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
-{{< /info >}}
+Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale.
 
 {{% warn %}}
 ⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base alla velocità minima offerta (30/100 Mbps). La definizione era errata e basata sul linguaggio ambiguo della delibera CIPE 65/2015.
 {{% /warn %}}
+
+## Il piano BUL
+
+La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avviato nel 2015 con l'obiettivo di coprire tutte le aree bianche del paese (cluster C e D), riguardanti circa il 25% della popolazione. Si tratta quindi di tutte le abitazioni non coperte da reti NGA (>30 Mbps).
+
+Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "/posts/openfiber.md" >}}) per vent'anni.
+
+{{< info >}}
+Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
+{{< /info >}}

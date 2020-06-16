@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Flash Fiber"
 slug: flashfiber
 date: 2019-04-05
-lastmod: 2019-08-22
+lastmod: 2020-06-16T18:00:00+02:00
 authors: [Matteo]
 description: Flash Fiber è la joint venture di TIM e Fastweb che prevede la copertura in fibra ottica di 29 grandi città italiane entro il 2020.
 categories: [Definizioni, Copertura, FTTH]
@@ -48,14 +48,8 @@ In particolare:
 La rete FTTH di Flash Fiber è realizzata esclusivamente utilizzando la **tecnologia GPON**, che ha la peculiarità di non richiedere elementi di rete attivi (alimentati) tra la centrale e l'abitazione del cliente.
 
 {{< info >}}
-Se non conosci la terminologia della GPON, visita la pagina [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}).
+I dettagli della rete Flash Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/gpon.md#flash-fiber" >}}).
 {{< /info >}}
-
-Nella rete Flash Fiber lo **splitting** della fibra ottica avviene in due livelli: il primo in un **CNO** (_Centro Nodale Ottico_), solitamente dislocato in prossimità degli armadi ripartilinea di TIM, mentre il secondo nel **ROE**, posizionato in prossimità dell'edificio da cablare. In genere, il fattore di splitting è in entrambi i casi di 1:8, per un **fattore complessivo di 1:64** per albero.
-
-{{< fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." >}}
-
-Va tenuto presente che Flash Fiber è in realtà un'infrastruttura che **ingloba le due infrastrutture TIM e Fastweb**. Una delle conseguenze è che nei punti di splitting di Flash Fiber (ad esempio nei ROE) entra la fibra ottica sia di TIM che di Fastweb, e lo splitting avviene indipendentemente per ciascun operatore (fattore di 1:8 per operatore). Anche gli OLT in centrale sono separati per i due operatori.
 
 ## Foto
 

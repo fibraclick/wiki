@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2020-02-22T16:00:00+01:00
+lastmod: 2020-06-16T18:30:00+02:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -132,27 +132,25 @@ Vedi anche: [Cosa significano FTTC, FTTE, FTTH, FTTS e FWA]({{< relref "/posts/a
 
 Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
-A fine 2019, Infratel e Open Fiber hanno dichiarato di aver aperto **cantieri in più di 2000 comuni in totale**, con l'obiettivo di aprirne altri 1500 circa nel corso del 2020. I lavori sono invece già **completati in più di 400 comuni**.[^dati2019]
+A metà 2020, i comuni con cantiere FTTH aperto erano poco più di 2000, su un totale previsto di più di 7000. Le **unità immobiliari** inizialmente previste erano 9,6 milioni, poi ridotte a 6,4 milioni, di cui circa **il 56% risulta in corso di lavorazione o con lavori completati a metà 2020**.[^buldashboard]
 
-Su 9 milioni di unità immobiliari da coprire, risultano già coperte 2,2 milioni di abitazioni, mentre altre 3,2 milioni sono in corso di copertura.[^dati2019] Si stima che il piano terminerà complessivamente nel 2022 o 2023.[^wired]
+Secondo Infratel, l'obiettivo per il 2020 è di avviare i lavori in più di 3000 comuni in totale, e di collaudare e rendere disponibili agli operatori la rete in circa 400 comuni.[^bulmappa]
 
-[^dati2019]: https://www.mise.gov.it/index.php/it/per-i-media/notizie/it/198-notizie-stampa/2040714-comunicazioni-il-ministro-presenta-le-linee-programmatiche
-[^wired]: https://www.wired.it/internet/tlc/2020/02/11/banda-ultralarga-open-fiber/
+[^buldashboard]: https://bandaultralarga.italia.it/dashboard/
+[^bulmappa]: https://bandaultralarga.italia.it/mappa/
 
-Lo **stato dei lavori** (comune per comune) viene pubblicato circa una volta al mese sul sito [Banda Ultra Larga](http://bandaultralarga.italia.it/). Se vuoi ricevere in automatico gli aggiornamenti, segui i canali social di FibraClick ([Telegram](https://t.me/FibraClick), [Facebook](https://fb.me/FibraClick) e [Twitter](https://twitter.com/FibraClick)) oppure iscriviti alla [newsletter]({{< relref "/newsletter" >}}).
+Lo **stato dei lavori** è pubblicato e aggiornato periodicamente sul sito istituzionale [Banda Ultra Larga](https://bandaultralarga.italia.it/), dove si possono trovare anche le stime di avvio e termine dei lavori per ciascun comune. Alcune informazioni aggiuntive sono pubblicate anche da Open Fiber nell'[Area Infratel](https://openfiber.it/area-infratel/piano-copertura/) del sito ufficiale.
 
-Open Fiber è un operatore **all'ingrosso**, e non vende quindi gli abbonamenti direttamente ai clienti finali. Sono gli operatori terzi a dover manifestare l'interesse nell'utilizzare la rete pubblica, di cui Open Fiber è concessionaria. Alcuni degli operatori che vendono in area bianca sono Tiscali, Vodafone, Connesi, Unidata, WIC e Fibra City. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/) e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
+Open Fiber è un operatore **wholesale-only** (all'ingrosso), e non vende quindi gli abbonamenti direttamente ai clienti finali. Tramite la homepage del [sito di Open Fiber](https://openfiber.it/) è possibile **cercare se la vendibilità è stata aperta** nel proprio comune e vedere la **lista degli operatori** tramite cui è possibile richiedere il servizio.
 
-Dalla seconda metà del 2019, i comuni con lavori FTTH completati vengono gradualmente inseriti da Open Fiber in una **sperimentazione di vendita dei servizi**, che permette di iniziare ad attivare linee con velocità a 1 Gbps anche in assenza di collaudo della rete. Quando un comune viene collaudato, la sperimentazione termina e il comune è considerato definitivamente in commercializzazione.
-
-La lista completa dei comuni in sperimentazione non è pubblica, ma ogni volta che nuovi comuni vengono aggiunti alla sperimentazione, FibraClick lo comunica tramite i canali social e nella sezione [News](https://forum.fibra.click/t/news) del forum. È possibile invece verificare se un comune è collaudato ("Terminato") tramite [questa pagina](https://fibra.click/stato-bul/).
+Alcuni grandi operatori che vendono in area bianca sono attualmente: **Tiscali**. Anche [Fastweb](https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-e-open-fiber-accordo-per-l-utilizzo-da-parte-di-fastweb-delle-connessioni-ftth-di-open-fiber-e-l-accesso-reciproco-alle-rispettive-infrastrutture-di-rete/), [Vodafone](http://www.vodafone.it/portal/StreamLine/Vodafone-Italia---TEST-COMUNICATI/Dettaglio-Comunicato-stampa-test?idCom=236), e [Wind Tre](https://www.windtre.it/IT/Press-&-Events/comunicati-stampa/Comunicati-Istituzionali/2019/wind_tre_open_fiber_ftth.aspx) hanno annunciato accordi con Open Fiber per le aree bianche.
 
 {{< info >}}
 Per approfondire:
 
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 - [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
 - [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
+- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 {{< /info >}}
 
 {{< fig src="/images/pozzetto-bul1.jpg" caption="Chiusino di un pozzetto realizzato da Open Fiber in un'area bianca" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" >}}
@@ -201,11 +199,11 @@ Gli obiettivi, fissati per il 2025, prevedono di espandere la copertura a banda 
 
 Le tecnologie che possiedono queste caratteristiche sono classificate come **VHCN** (*Very High Capacity Network*), una categoria che al momento comprende solo le linee in fibra ottica fino a casa (FTTH/FTTB). Durante il 2020 saranno pubblicate le linee guida del BEREC che stabiliranno se altre tecnologie come il 5G FWA (*Fixed Wireless Access*) potranno essere considerate come VHCN.[^berec]
 
-La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di costruire reti VHC nelle aree che ne sono sprovviste** (in cui sono presenti solo FTTC, FWA o inferiore). Ci si riferisce a questo intervento anche come "piano aree grigie", nonostante non riguardi solo le aree grigie ma anche le aree nere. Si tratta più precisamente di 17 milioni di unità immobiliari.[^grigie17]
+La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di costruire reti VHC nelle aree che ne sono sprovviste** (in cui sono presenti solo FTTC, FWA o inferiore). Ci si riferisce a questo intervento anche come "piano aree grigie", nonostante è probabile che riguarderà non solo le aree grigie ma anche le aree nere. Si tratta più precisamente di 17 milioni di unità immobiliari.[^grigie17]
 
-Non sono al momento disponibili altri dettagli, e non è nemmeno chiaro se saranno disponibili i fondi per coprire un numero così alto di UI (il fabbisogno stimato è di più di 5 miliardi di euro[^grigiefabb]).
+Secondo una stima di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, da identificare nel prossimo ciclo di programmazione europea[^grigiefabb].
 
-Ci si attende che il piano di investimento pubblico sarà inviato alla Commissione Europea per l'approvazione nel corso del 2020, come previsto dalle regole in materia di aiuti di Stato.[^aiutidistato]
+È attesa per la fine dell'estate 2020 la pubblicazione di un **primo bando** di gara per la copertura delle aree grigie, che avrà a disposizione 1,126 miliardi di euro e si concentrerà quindi nelle **zone ad alta densità di imprese** rispetto alla popolazione.[^grigiebando]
 
 ## Verificare gli interventi
 
@@ -232,7 +230,7 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^gigabitsoc]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52016DC0587
 [^grigie17]: http://www.infratelitalia.it/uncategorized/imprese-e-banda-ultralarga-al-telco-per-litalia/
 [^berec]: articolo 82 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L1972
-[^aiutidistato]: sezione 3.6 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52013XC0126(01)
-[^grigiefabb]: https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20190717153044008
+[^grigiefabb]: https://innovazione.gov.it/it/progetti/cobul/
+[^grigiebando]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
 
 {{< footer >}}

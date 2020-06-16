@@ -2,7 +2,7 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2020-03-22T11:15:00+01:00
+lastmod: 2020-06-16T18:00:00+02:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
@@ -20,8 +20,6 @@ Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25
 La caratteristica fondamentale che rende GPON la soluzione più frequentemente adottata per la FTTH è il fatto che **la rete ottica è passiva**, e cioè che tra i due estremi della rete (centrale e abitazioni) non sono presenti punti alimentati. Questo è un importante vantaggio della tecnologia, perché riduce i costi e la possibilità di guasti. Se in una città di grandi dimensioni coperta in FTTC sono presenti centinaia di apparati attivi (ONU) sparsi sulle strade, in FTTH-GPON gli unici elementi che l'operatore si deve preoccupare di alimentare sono le centrali/POP.
 
 **GPON è la tecnologia attualmente utilizzata in Italia per realizzare reti FTTH.**
-
-I contenuti di questa pagina:
 
 {{< toc >}}
 
@@ -79,17 +77,9 @@ In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber
 
 ### Open Fiber
 
-Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
+Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 grandi città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree bianche cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
 
-Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**. Gli operatori che vogliono utilizzare la rete di accesso di Open Fiber possono scegliere principalmente tre modalità[^ofservizi]:
-
-- **l'operatore può installare i propri OLT nel POP** e fornire anche gli **ONT** ai propri clienti. In questo caso Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT;
-- **Open Fiber offre sia OLT che ONT**, e si tratta in questo caso del servizio *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante;
-- infine, **Open Fiber può offrire anche l'interconnessione con la rete Internet**. Questo servizio si chiama *Open Internet* e permette a un operatore di offrire connessioni a Internet senza nessun investimento in infrastrutture di rete. L'operatore (che è in un certo senso un operatore "virtuale") si affida quindi completamente a Open Fiber, che fornisce anche il router ai clienti.
-
-{{< info >}}
-Vedi anche [Come funziona la rete Internet]({{< relref "/posts/internet.md" >}}).
-{{< /info >}}
+Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**.
 
 **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi di TIM.
 
@@ -117,8 +107,14 @@ Nelle aree a investimento pubblico viene inoltre fatto ampio uso dei **PTA** int
 
 {{< fig src="/images/gpon-of-infratel2.jpg" caption="Infrastruttura di rete Open Fiber nei cluster C e D. Esempio con comuni multipli connessi allo stesso PCN. Fonte: Open Fiber" >}}
 
+Gli operatori che vogliono utilizzare la rete di accesso di Open Fiber possono scegliere principalmente tre modalità[^ofservizi]:
+
+- **l'operatore può installare i propri OLT nel POP** e fornire anche gli **ONT** ai propri clienti. In questo caso Open Fiber offre solo la "fibra spenta" in uscita dal POP verso gli ONT. Per confronto, è l'equivalente dell'*ULL* di TIM;
+- **Open Fiber offre sia OLT che ONT**, e si tratta in questo caso del servizio *Open Stream*. La consegna del traffico all'operatore può avvenire tramite un apposito kit Ethernet presente nel POP, oppure in un qualsiasi altro POP di Open Fiber o dell'operatore, anche geograficamente distante. Nel primo caso è l'equivalente del *VULA* di TIM, nel secondo caso del *Bitstream NGA*;
+- infine, **Open Fiber può offrire anche l'interconnessione con la rete Internet**. Questo servizio si chiama *Open Internet* e permette a un operatore di offrire connessioni a Internet senza nessun investimento in infrastrutture di rete. L'operatore (che è in un certo senso un operatore "virtuale") si affida quindi completamente a Open Fiber, che fornisce anche il router ai clienti. È simile al servizio *Easy IP NGA* di TIM.
+
 {{< info >}}
-Vedi anche [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
+Vedi anche [Come funziona la rete Internet]({{< relref "/posts/internet.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}).
 {{< /info >}}
 
 ### Flash Fiber

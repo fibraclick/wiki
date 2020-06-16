@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Open Fiber"
 slug: openfiber
 date: 2019-04-17T21:34:32+02:00
-lastmod: 2019-11-01T15:00:00+01:00
+lastmod: 2020-06-16T18:00:00+02:00
 authors: [Matteo]
 description: Open Fiber realizza reti Fiber To The Home in Italia, con l'obiettivo di coprire migliaia di comuni entro il 2022, sia con fondi privati che pubblici.
 categories: [Definizioni, Copertura, FTTH]
@@ -53,7 +53,9 @@ La rete Open Fiber è ad "accesso aperto", e cioè resa disponibile a tutti gli 
 
 Gli operatori disponibili **dipendono da città a città**, e sono indicati più precisamente sul [sito ufficiale](https://openfiber.it/it). Sono in genere presenti alcuni operatori nazionali (Vodafone, Wind Tre, Tiscali, ecc.), e a volte altri operatori locali.
 
-## Tecnologia GPON
+## Tecnologia
+
+La rete FTTH di Open Fiber è realizzata esclusivamente utilizzando la tecnologia GPON, che ha la peculiarità di non richiedere elementi di rete attivi (alimentati) tra la centrale e l’abitazione del cliente.
 
 {{< info >}}
 I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pagina [Cos'è e come funziona la GPON]({{< relref "/posts/gpon.md#open-fiber" >}}).
