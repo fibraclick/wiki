@@ -79,7 +79,7 @@
     </div>
 
     <script>
-        let geojson;
+        var geojson;
         let hovered;
         let styles = [
             'mapbox://styles/matteocontrini/ckbjwv9ac07gi1imsbknmhrdt', // outdoors
@@ -142,8 +142,10 @@
         function loadBuffer(buffer) {
             shp(buffer).then((data) => {
                 geojson = data;
-
                 if (!Array.isArray(geojson)) geojson = [geojson];
+
+                // Get rid of the useless META layer
+                geojson = geojson.filter(x => !x.fileName.endsWith('/META'));
                 
                 for (let i = 0; i < geojson.length; i++) {
                     geojson[i].id = 'infratel/' + (i+1);
@@ -152,6 +154,7 @@
                 reloadMap();
 
                 boundingBox = getBoundingBox(geojson);
+                console.log('Setting bounding box: ', boundingBox);
                 map.fitBounds([[boundingBox.xMin, boundingBox.yMin], [boundingBox.xMax, boundingBox.yMax]], { padding: 50 });
                 
                 let html = '';
@@ -185,7 +188,7 @@
             });
             
             geojson.forEach((layer) => {
-                console.log('Adding ' + layer.id);
+                console.log('Adding ' + layer.id + ' (' + layer.fileName + ')');
 
                 map.addSource(layer.id, {
                     type: 'geojson',
@@ -277,11 +280,12 @@
             geojson.forEach(layer => {
                 layer.features.forEach(feature => {
                     feature.geometry.coordinates.forEach(coord => {
-                        // Pretty sure there's a smarter way...
-                        bounds.xMin = Math.min(bounds.xMin, coord[0]);
-                        bounds.xMax = Math.max(bounds.xMax, coord[0]);
-                        bounds.yMin = Math.min(bounds.yMin, coord[1]);
-                        bounds.yMax = Math.max(bounds.yMax, coord[1]);
+                        let longitude = coord[0];
+                        let latitude = coord[1];
+                        bounds.xMin = bounds.xMin < longitude ? bounds.xMin : longitude;
+                        bounds.xMax = bounds.xMax > longitude ? bounds.xMax : longitude;
+                        bounds.yMin = bounds.yMin < latitude ? bounds.yMin : latitude;
+                        bounds.yMax = bounds.yMax > latitude ? bounds.yMax : latitude;
                     });
                 });
             });
