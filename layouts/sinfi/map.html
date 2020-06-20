@@ -4,15 +4,11 @@
     <title>Visualizzatore SINFI</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
-        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-        crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
-        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
-        crossorigin=""></script>
-
-    <script src="https://unpkg.com/shpjs@3.4.3/dist/shp.js"></script>
+    <script src="https://unpkg.com/shpjs@3.5.0/dist/shp.js"></script>
 
     {{ with .Site.Params.Analytics -}}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
@@ -42,6 +38,10 @@
         .overlay {
             padding: 5px;
             background: #fff;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
         }
 
         #file {
@@ -57,8 +57,8 @@
             display: block;
         }
 
-        label#colors {
-            padding: 5px 0;
+        #satelliteLabel {
+            margin-top: 5px;
         }
     </style>
 </head>
@@ -66,184 +66,253 @@
 <body>
     <div id="map"></div>
 
+    <div class="overlay" style="position: absolute">
+        <button onclick="document.getElementById('file').click()">Seleziona ZIP</button>
+        <span id="fileName"></span><input type="file" id="file" onchange="onFileChange(this.files)" accept=".zip" />
+        <a href="/bul-sinfi/" target="_blank">Guida</a>
+
+        <label id="satelliteLabel">
+            <input id="satelliteCheckbox" type="checkbox" onchange="toggleSatellite(this.checked)" /> Satellite
+        </label>
+
+        <div id="layers"></div>
+    </div>
+
     <script>
-        var colors = ['#1f78b4', '#b2df8a', '#33a02c', '#fb9a99', '#e31a1c', '#fdbf6f', '#ff7f00', '#cab2d6', '#6a3d9a', '#ffff99', '#b15928'];
-        var colorMappings = {};
-        var colorsEnabled = false;
-        var disabledLayers = {};
+        var geojson;
+        let hovered;
+        let styles = [
+            'mapbox://styles/matteocontrini/ckbjwv9ac07gi1imsbknmhrdt', // outdoors
+            'mapbox://styles/matteocontrini/ckbjwz0gj01jq1ip8130yqd24', // satellite
+        ];
 
-        // https://stackoverflow.com/a/7616484/1633924
-        String.prototype.hashCode = function () {
-            var hash = 0, i, chr;
-            if (this.length === 0) return hash;
-            for (i = 0; i < this.length; i++) {
-                chr = this.charCodeAt(i);
-                hash = ((hash << 5) - hash) + chr;
-                hash |= 0; // Convert to 32bit integer
-            }
-            return hash;
-        };
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWF0dGVvY29udHJpbmkiLCJhIjoiY2tianAxM3dmMHB3bTJxczc4NWpnYmpsaiJ9.hAL3fT--AvIr7vqWmgVU6Q';
 
-        function assignColor(s) {
-            if (!colorsEnabled) {
-                return colors[0];
-            }
-
-            if (!s) { // no path type
-                return '#000000';
-            }
-
-            if (colorMappings[s]) {
-                return colorMappings[s];
-            }
-            else {
-                colorMappings[s] = colors[Math.abs(s.hashCode() % 11)];
-            }
-        }
-
-        var InputControl = L.Control.extend({
-            options: {
-                position: 'topleft'
-            },
-            onAdd: (map) => {
-                var el = L.DomUtil.create('div', 'overlay');
-                el.innerHTML += '<button onclick="document.getElementById(\'file\').click()">Seleziona ZIP</button>';
-                el.innerHTML += ' <span id="fileName"></span><input type="file" id="file" onchange="onFileChange(this.files)" accept=".zip" />';
-                el.innerHTML += '<a href="/bul-sinfi/" target="_blank">Guida</a><br>';
-                el.innerHTML += '<label id="colors"><input type="checkbox" onchange="toggleColors(this.checked)" />Colori tipo tratta</label>';
-                el.innerHTML += '<div id="layers"></div>';
-                return el;
-            }
+        let map = new mapboxgl.Map({
+            container: 'map',
+            style: styles[0],
+            center: [11, 43],
+            zoom: 5,
+            minZoom: 5
         });
+        
+        map.addControl(new mapboxgl.NavigationControl(), 'top-right');
+        
+        map.on('style.load', () => {
+            reloadMap();   
+        });
+        
+        document.getElementById('satelliteCheckbox').checked = false;
 
-        var map = L.map('map').setView([43, 11], 6);
-        map.zoomControl.setPosition('topright');
-        new InputControl().addTo(map);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            maxZoom: 20
-        }).addTo(map);
+        function toggleSatellite(flag) {
+            map.setStyle(flag ? styles[1] : styles[0]);
+            reloadMap();
+        }
 
         function onFileChange(files) {
             if (files.length == 0) return;
-            var file = files[0];
+            let file = files[0];
             document.getElementById('fileName').textContent = file.name;
             handleZipFile(file);
         }
 
-        function toggleColors(val) {
-            colorsEnabled = val;
-            reloadMap();
-        }
-
-        function toggleLayer(layer, checked) {
+        function toggleLayer(layerId, checked) {
             if (!checked) {
-                disabledLayers[layer] = true;
+                console.log('Hiding ' + layerId);
+                map.setLayoutProperty(layerId, 'visibility', 'none');
             }
             else {
-                disabledLayers[layer] = false;
+                console.log('Showing ' + layerId);
+                map.setLayoutProperty(layerId, 'visibility', 'visible');
             }
-
-            reloadMap();
         }
 
         function handleZipFile(file) {
-            var reader = new FileReader();
-            reader.onload = function () {
-                if (reader.readyState != 2 || reader.error) {
-                    return;
-                } else {
+            let reader = new FileReader();
+
+            reader.onload = () => {
+                if (reader.readyState == 2 && !reader.error) {
                     loadBuffer(reader.result);
                 }
             };
+
             reader.readAsArrayBuffer(file);
         }
-
-        var features;
-        var geojson;
-
-        var options = {
-            onEachFeature: function (feature, layer) {
-                if (feature.properties) {
-                    layer.bindPopup(Object.keys(feature.properties).map(function (k) {
-                        return k + ": " + feature.properties[k];
-                    }).join("<br />"), {
-                        maxHeight: 200
-                    });
-                }
-
-                layer.on({
-                    mouseover: function (e) {
-                        e.target.setStyle({
-                            color: '#ff3300',
-                            fillOpacity: 0.7,
-                            weight: 15,
-                            opacity: 0.7
-                        });
-                    },
-                    mouseout: function (e) {
-                        e.target.setStyle({
-                            weight: 3,
-                            opacity: 1.0,
-                            fillOpacity: 0.7,
-                            color: assignColor(feature.properties['TIPO'] || feature.properties['tipo'])
-                        })
-                    }
-                })
-            },
-            style: function (feature) {
-                return {
-                    fillOpacity: 0.7,
-                    weight: 3,
-                    color: assignColor(feature.properties['TIPO'] || feature.properties['tipo'])
-                }
-            }
-        };
 
         function loadBuffer(buffer) {
             shp(buffer).then((data) => {
                 geojson = data;
-
                 if (!Array.isArray(geojson)) geojson = [geojson];
 
-                var enabledLayers = 0;
-                geojson.forEach(l => {
-                    // disable if missing data
-                    if (l['features'].length == 0 || (!l.features[0]['properties']['TIPO'] && !l.features[0]['properties']['tipo'])) {
-                        toggleLayer(l.fileName, false);
-                    }
-                    else {
-                        enabledLayers++;
-                    }
-                });
-
-                if (enabledLayers == 0) {
-                    // re-enable all layers if nothing was enabled
-                    disabledLayers = {};
+                // Get rid of the useless META layer
+                geojson = geojson.filter(x => !x.fileName.endsWith('/META'));
+                
+                for (let i = 0; i < geojson.length; i++) {
+                    geojson[i].id = 'infratel/' + (i+1);
                 }
 
                 reloadMap();
 
-                map.fitBounds(features.getBounds());
+                boundingBox = getBoundingBox(geojson);
+                console.log('Setting bounding box: ', boundingBox);
+                map.fitBounds([[boundingBox.xMin, boundingBox.yMin], [boundingBox.xMax, boundingBox.yMax]], { padding: 50 });
                 
-                var html = '';
+                let html = '';
 
                 geojson.forEach(l => {
-                    var fn = l.fileName.substring(l.fileName.indexOf('/') + 1);
-                    html += '<label><input name="layers" ' + (disabledLayers[l.fileName] ? '' : 'checked') +' type="checkbox" value="' + l.fileName +'" onchange="toggleLayer(this.value, this.checked)" /> ' + fn + '</label>';
+                    let fn = l.fileName.substring(l.fileName.indexOf('/') + 1);
+                    html += '<label><input name="layers" checked type="checkbox" value="' + l.id +'" onchange="toggleLayer(this.value, this.checked)" /> ' + fn + '</label>';
                 });
 
                 document.getElementById('layers').innerHTML = html;
             }).catch(err => {
                 alert('Si è verificato un errore. L\'errore è stato registrato nella console per sviluppatori');
-                console.log(err);
+                console.error(err);
             });
         }
 
         function reloadMap() {
-            if (features) features.remove();
-            features = L.geoJson(geojson.filter(x => disabledLayers[x.fileName] != true), options).addTo(map);
+            if (!geojson) {
+                return;
+            }
+
+            map.getStyle().layers.forEach((layer) => {
+                if (layer.id.startsWith('infratel')) {
+                    console.log('Removing ' + layer.id);
+                    map.removeLayer(layer.id);
+                    map.removeSource(layer.source);
+                    map.off('click', layer.id, onClick);
+                    map.off('mousemove', layer.id, onMouseMove);
+                    map.off('mouseleave', layer.id, onMouseLeave);
+                }
+            });
+            
+            geojson.forEach((layer) => {
+                console.log('Adding ' + layer.id + ' (' + layer.fileName + ')');
+
+                map.addSource(layer.id, {
+                    type: 'geojson',
+                    data: layer,
+                    generateId: true
+                });
+
+                map.addLayer({
+                    'id': layer.id,
+                    'type': 'line',
+                    'source': layer.id,
+                    'layout': {
+                        'line-cap': 'round',
+                        'line-join': 'round'
+                    },
+                    'paint': {
+                        'line-color': [
+                            'case',
+                            ['boolean', ['feature-state', 'hover'], false],
+                            '#ff3300', // hover
+                            '#4285F4' // normal
+                        ],
+                        'line-width': [
+                            'case',
+                            ['boolean', ['feature-state', 'hover'], false],
+                            10,
+                            3
+                        ],
+                        'line-opacity': [
+                            'case',
+                            ['boolean', ['feature-state', 'hover'], false],
+                            0.7,
+                            1
+                        ]
+                    }
+                });
+
+                map.on('click', layer.id, onClick);
+                map.on('mousemove', layer.id, onMouseMove);
+                map.on('mouseleave', layer.id, onMouseLeave);
+            });
+        }
+
+        function onClick(e) {
+            if (e.features && e.features.length) {
+                let f = e.features[0];
+
+                if (f.properties) {
+                    console.log('Showing popup ', f);
+
+                    new mapboxgl.Popup()
+                        .setLngLat(e.lngLat)
+                        .setHTML(Object.keys(f.properties).map((k) => {
+                            return k + ": " + f.properties[k];
+                        }).join("<br>"))
+                        .addTo(map);
+                }
+            }
+        }
+
+        function onMouseMove(e) {
+            map.getCanvas().style.cursor = 'pointer';
+
+            if (e.features && e.features.length > 0) {
+                if (hovered) {
+                    deHighlightFeature(hovered);
+                }
+
+                highlightFeature(e.features[0]);
+            }
+        }
+
+        function onMouseLeave() {
+            map.getCanvas().style.cursor = '';
+
+            if (hovered) {
+                deHighlightFeature(hovered);
+            }
+        }
+        
+        function getBoundingBox(geojson) {
+            let bounds = {
+                xMin: +180,
+                xMax: -180,
+                yMin: 90,
+                yMax: -90
+            };
+
+            geojson.forEach(layer => {
+                layer.features.forEach(feature => {
+                    feature.geometry.coordinates.forEach(coord => {
+                        let longitude = coord[0];
+                        let latitude = coord[1];
+                        bounds.xMin = bounds.xMin < longitude ? bounds.xMin : longitude;
+                        bounds.xMax = bounds.xMax > longitude ? bounds.xMax : longitude;
+                        bounds.yMin = bounds.yMin < latitude ? bounds.yMin : latitude;
+                        bounds.yMax = bounds.yMax > latitude ? bounds.yMax : latitude;
+                    });
+                });
+            });
+
+            return bounds;
+        }
+
+        function highlightFeature(f) {
+            console.log('Highlighting ', f);
+
+            hovered = f;
+
+            map.setFeatureState(
+                { source: f.layer.source, id: f.id },
+                { hover: true }
+            );
+        }
+
+        function deHighlightFeature(f) {
+            console.log('Removing highlight ', f);
+
+            map.setFeatureState(
+                { source: hovered.layer.source, id: hovered.id },
+                { hover: false }
+            );
+
+            hovered = null;
         }
     </script>
 </body>
