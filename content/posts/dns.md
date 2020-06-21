@@ -29,7 +29,7 @@ Anche **il router che abbiamo in casa è un server DNS**, che a sua volta contat
 - ✅ **Privacy**: i server DNS predefiniti sono quelli del proprio gestore Internet, che ha quindi la possibilità di leggere, analizzare e archiviare la lista completa dei siti web che vengono visitati. La maggior parte dei server DNS alternativi ha politiche sulla privacy più facilmente accessibili e trasparenti di quelle del proprio ISP.
 - ✅ **Per aggirare la censura**: i DNS sono spesso usati dagli ISP per attuare provvedimenti di censura di siti web su richiesta delle autorità. Se un sito web è bloccato impedendone la risoluzione DNS, cambiare il server DNS potrebbe permettere di aggirare il blocco.
 - ✅ **Per evitare i redirect**: alcuni DNS manipolano le risposte e fanno in modo che venga mostrata una pagina di errore personalizzata (a volte contenente pubblicità) quando si prova a contattare un dominio che non esiste. I DNS menzionati in questo articolo non hanno questo comportamento.
-- ❓ **Affidabilità e prestazioni**: i server DNS pubblici di Google e CloudFlare sono una garanzia di affidabilità, mentre per i DNS degli operatori si hanno meno informazioni. A seconda di quanto sono curati o trascurati, potrebbero avere prestazioni eccellenti, nella media, oppure pessime.
+- ❓ **Affidabilità e prestazioni**: i server DNS pubblici di Google e Cloudflare sono una garanzia di affidabilità, mentre per i DNS degli operatori si hanno meno informazioni. A seconda di quanto sono curati o trascurati, potrebbero avere prestazioni eccellenti, nella media, oppure pessime.
 
 {{< green >}}
 Esistono degli strumenti gratuiti per eseguire **benchmark** e trovare i server DNS migliori per la propria connessione, tra cui [questo](https://www.grc.com/dns/benchmark.htm) (i DNS del proprio ISP devono essere inseriti manualmente).
@@ -50,10 +50,10 @@ Ci sono diversi **falsi miti** sui presunti benefici che deriverebbero dal cambi
 
 ## I server DNS alternativi
 
-I server DNS pubblici più popolari sono quelli di Google[^g] e di CloudFlare[^cf], che corrispondono a questi indirizzi IP:
+I server DNS pubblici più popolari sono quelli di Google[^g] e di Cloudflare[^cf], che corrispondono a questi indirizzi IP:
 
 - Google: `8.8.8.8` e `8.8.4.4`
-- CloudFlare: `1.1.1.1` e `1.0.0.1`
+- Cloudflare: `1.1.1.1` e `1.0.0.1`
 
 [^g]: https://developers.google.com/speed/public-dns/
 [^cf]: https://1.1.1.1/
@@ -61,14 +61,14 @@ I server DNS pubblici più popolari sono quelli di Google[^g] e di CloudFlare[^c
 Ce ne sono due per ciascun servizio perché è possibile fare in modo che se il server DNS primario non risponde venga contattato quello secondario.
 
 {{< green >}}
-È comunque consigliabile **scegliere due server DNS di fornitori diversi**, ad esempio uno di CloudFlare e uno di Google, in modo da escludere disservizi generalizzati di uno dei due servizi.
+È comunque consigliabile **scegliere due server DNS di fornitori diversi**, ad esempio uno di Cloudflare e uno di Google, in modo da escludere disservizi generalizzati di uno dei due servizi.
 {{< /green >}}
 
 ## Quale scegliere
 
-I server DNS di **CloudFlare** offrono generalmente **prestazioni leggermente migliori** di quelli di Google. CloudFlare ha punti di presenza **sia a Milano che a Roma**, mentre Google solo a Milano. Gli utenti che si trovano nel centro o sud Italia dovrebbero quindi avere una latenza inferiore con CloudFlare.
+I server DNS di **Cloudflare** offrono generalmente **prestazioni leggermente migliori** di quelli di Google. Cloudflare ha punti di presenza **sia a Milano che a Roma**, mentre Google solo a Milano. Gli utenti che si trovano nel centro o sud Italia dovrebbero quindi avere una latenza inferiore con Cloudflare.
 
-Dal punto di vista della privacy, CloudFlare non memorizza gli indirizzi IP degli utenti che contattano i server DNS, e in ogni caso rimuove ogni traccia dopo 24 ore.[^privacy-cf]
+Dal punto di vista della privacy, Cloudflare non memorizza gli indirizzi IP degli utenti che contattano i server DNS, e in ogni caso rimuove ogni traccia dopo 24 ore.[^privacy-cf]
 
 Google mantiene invece un registro dettagliato per 24-48 ore, dopodiché anonimizza i dati per un paio di settimane e in seguito ne mantiene un piccolo campione in un archivio permanente.[^privacy-google]
 
