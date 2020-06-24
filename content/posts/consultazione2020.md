@@ -22,18 +22,9 @@ Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazio
 
 ## Aree oggetto di consultazione
 
-La consultazione ha come oggetto **le aree già precedentemente dichiarate come nere o grigie**, cioè tutti gli indirizzi in cui in precedenza almeno un operatore aveva dichiarato di coprire o voler coprire il numero civico.
+La consultazione ha come oggetto **le aree già precedentemente dichiarate come nere o grigie**, cioè tutti gli indirizzi in cui almeno un operatore aveva dichiarato di coprire o voler coprire il numero civico.
 
-Dalla consultazione sono quindi **escluse le aree bianche**, in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL 2015-2020]({{< relref "bul.md" >}}). Non risulta che le aree escluse dal piano aree bianche, ad esempio perché "opzionali", saranno censite da questa consultazione.
-
-{{< green >}}
-###### Ripasso sulle aree nere e grigie
-La Commissione Europea definisce così le aree nere, grigie e bianche:
-
-- **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi
-- **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga
-- **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni
-{{< /green >}}
+Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL 2015-2020]({{< relref "bul.md" >}}). Non risulta che le aree escluse dal piano aree bianche, ad esempio perché "opzionali", saranno censite da questa consultazione.
 
 ## A cosa serve la consultazione
 
@@ -41,7 +32,15 @@ I dati raccolti serviranno per definire più in dettaglio la fase 2 del piano BU
 
 Le aree coinvolte dal piano saranno quindi tutte quelle che risulteranno **scoperte nel breve periodo da tecnologie in grado di offrire queste prestazioni**. Non è ancora del tutto chiaro quali tecnologie rientreranno in questa classificazione.
 
-FibraClick è inoltre in grado di confermare che il piano "aree grigie" non riguarderà solo le aree grigie ma anche le aree nere, ovviamente solo dove non sono presenti impegni di copertura per reti ad alta velocità.
+{{< green >}}
+FibraClick è in grado di confermare che **il piano potrà coinvolgere sia le aree grigie** (presenza di 1 operatore privato BUL) **sia le aree nere** (2+ operatori), a patto che le reti non offrano velocità superiori a 100 Mbps espandibili al Gbps.
+
+Ad esempio:
+
+- 1 o più reti FTTC: ✅
+- 1 rete FTTC e 1 rete FWA non Gigabit: ✅
+- 1 o più reti FTTH: ❌
+{{< /green >}}
 
 ## I dati raccolti
 
@@ -69,7 +68,7 @@ Un altro vincolo è che **un'abitazione può essere dichiarata coperta solo se l
 
 Nel caso delle reti wireless, l'abitazione deve trovarsi in prossimità di una stazione radio base (BTS), «tipicamente in visbilità diretta», e il «livello di campo e il rapporto segnale/rumore devono consentire l'attivazione del servizio».
 
-Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore che dichiara copertura, ma **Infratel dice che viligerà su «informazioni fuorvianti, errate o incomplete»** segnalando eventualmente le condotte alle autorità competenti.[^cons]
+Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore che dichiara copertura, ma **Infratel dice che vigilerà su «informazioni fuorvianti, errate o incomplete»** segnalando eventualmente le condotte alle autorità competenti.[^cons]
 
 ## I risultati
 
