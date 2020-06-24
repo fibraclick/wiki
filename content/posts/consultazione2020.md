@@ -2,7 +2,7 @@
 title: "La consultazione Infratel 2020"
 slug: consultazione-2020
 date: 2020-06-24T13:30:00+02:00
-lastmod: 2020-06-24T13:30:00+02:00
+lastmod: 2020-06-24T15:30:00+02:00
 authors: [Matteo]
 description: La consultazione 2020 ha lo scopo di mappare la copertura a banda ultralarga del Paese, per rilevare le aree in cui c'è carenza di reti ad alta velocità.
 categories: [Copertura, Piano BUL]
@@ -55,7 +55,7 @@ Una delle novità della consultazione 2020 è che per ciascun civico vengono rac
 [^vhcn]: https://forum.fibra.click/d/5314-bozza-linee-guida-reti-vhcn
 
 {{< warn >}}
-Le **connessioni wireless fisse** (FWA) sono accettate come copertura a banda ultralarga **solo se sono erogate su frequenze licenziate**. Per fare un esempio, la copertura EOLO 100 (EOLOwave G) è classificabile come NGA, mentre EOLO 30 non lo è perché usa frequenze libere ISM.
+Le **connessioni wireless fisse** (FWA) sono accettate come copertura a banda ultralarga **solo se erogate su frequenze licenziate**. Per fare un esempio, la copertura EOLO 100 (EOLOwave G) è classificabile come NGA, mentre EOLO 30 non lo è perché usa frequenze libere ISM.
 {{< /warn >}}
 
 ## I vincoli per gli operatori
@@ -64,7 +64,7 @@ I dati forniti dagli operatori in fase di consultazione non sono vincolanti, ma 
 
 Ad esempio, agli operatori viene chiesto di inviare a Infratel **aggiornamenti semestrali** sullo stato di avanzamento dei piani di copertura. Se l'operatore non rispetta i piani o non invia gli aggiornamenti, Infratel si riserva la facoltà di «di **procedere con l'esecuzione del piano di intervento pubblico** nonché a **dare comunicazione dell'inadempimento** dell'operatore sul proprio sito istituzionale».[^cons]
 
-Un altro vincolo è che **un'abitazione può essere dichiarata coperta solo se l'attivazione non comporta costi eccessivi e la rete raggiunge il confine della proprietà privata**.[^manuale]
+Un altro vincolo è che **un'abitazione può essere dichiarata coperta solo se l'attivazione non comporta costi eccessivi e la rete raggiunge il confine della proprietà privata** (nel caso di FTTH/FTTB, a non più di 50 metri di distanza).[^manuale]
 
 Nel caso delle reti wireless, l'abitazione deve trovarsi in prossimità di una stazione radio base (BTS), «tipicamente in visbilità diretta», e il «livello di campo e il rapporto segnale/rumore devono consentire l'attivazione del servizio».
 
