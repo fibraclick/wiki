@@ -39,8 +39,6 @@ I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano 
 
 **I risultati aggregati della consultazione non danno informazioni sulla suddivisione delle aree, ma si può ipotizzare che saranno coinvolte buona parte delle abitazioni indicate come VDSL.**
 
-Maggiori dettagli sulla fase 2 sono attesi nella seconda metà del 2019.
-
 {{< info >}}
 Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
 {{< /info >}}
