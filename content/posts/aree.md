@@ -2,7 +2,7 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2020-06-24T18:00:00+02:00
+lastmod: 2020-06-23T18:00:00+02:00
 authors: [Matteo]
 description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda ultralarga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
