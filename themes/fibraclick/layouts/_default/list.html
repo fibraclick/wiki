@@ -2,7 +2,7 @@
 
 <article class="posts">
 
-    <h1>Articoli in "{{ .Title }}"</h1>
+    <h1>{{ if eq .Kind "term" }}Articoli in "{{ .Title }}"{{ else }}Tutti gli articoli{{ end }}</h1>
     <ol>
         {{ range (where .Pages ".Params.hidden" "!=" true).ByTitle.Reverse -}}
         <li>

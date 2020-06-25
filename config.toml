@@ -4,9 +4,6 @@ title = "FibraClick Wiki"
 
 theme = "fibraclick"
 
-disableKinds = ["RSS", "taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
-
 removePathAccents = true
 
 [params]
@@ -27,3 +24,6 @@ removePathAccents = true
       unsafe = true
     [markup.goldmark.parser]
       autoHeadingIDType = "blackfriday"
+
+[author]
+  email = "info@fibra.click"
