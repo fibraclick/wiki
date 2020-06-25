@@ -4,7 +4,9 @@ title = "FibraClick Wiki"
 
 theme = "hugo-journal"
 
-disableKinds = ["RSS", "taxonomyTerm"]
+disableKinds = ["RSS", "taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
 removePathAccents = true
 
 [params]
