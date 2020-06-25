@@ -1,0 +1,42 @@
+{{ partial "top.html" . }}
+
+    <article class="post" itemscope itemtype="http://schema.org/Article">
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name">{{ .Title }}</h1>
+        <span class="post-line"></span>
+        <div class="post-date">
+          Aggiornato il
+          <time datetime="{{ .Lastmod.Format "2006-01-02 15:04:05 MST" }}" itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}">
+            {{ .Lastmod.Format "02/01/2006" }}
+          </time>
+          {{ if .Params.authors -}}
+          - Scritto da
+          {{ $authorLen := len .Params.authors -}}
+          <span itemprop="author">
+            {{- range $k, $v := .Params.authors -}}
+            {{- $v -}}
+            {{- if lt $k (sub $authorLen 1) -}}, {{ end -}}
+            {{- end -}}
+          </span>
+          {{ end }}
+
+          {{ if gt .ReadingTime 1 }}<br>{{ .ReadingTime }} minuti di lettura{{ end }}
+
+          {{ with .Params.categories }}
+          <ul class="categories">
+            {{ range . -}}
+            <li><a href="/c/{{ . | urlize }}">{{ . }}</a></li>
+            {{- end }}
+          </ul>
+          {{ end }}
+          
+        </div>
+      </header>
+
+      <div class="post-content" itemprop="articleBody">
+        {{ .Content }}
+      </div>
+
+    </article>
+
+{{ partial "bottom.html" . }}

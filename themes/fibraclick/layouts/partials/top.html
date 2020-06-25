@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  <head>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Permalink }}
+    <link rel="canonical" href="{{ . }}">
+    <meta property="og:url" content="{{ . }}">
+    {{ end }}
+
+    {{- if .Params.hidden -}}
+    <meta name="robots" value="noindex">
+    {{- end }}
+
+    {{ if eq .Permalink "" -}}
+    <title>Pagina non trovata - {{ .Site.Title }}</title>
+    <meta property="og:title" content="Pagine non trovata - {{ .Site.Title }}">
+    {{- else if .IsHome -}}
+    <title>{{ .Site.Params.homeTitle }}</title>
+    <meta property="og:title" content="{{ .Site.Params.homeTitle }}">
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}">
+    {{- else if eq .Kind "term" -}}
+    <title>Articoli in "{{ .Title }}" - {{ .Site.Title }}</title>
+    <meta property="og:title" content="Articoli in &quot;{{ .Title }}&quot; - {{ .Site.Title }}">
+    {{- else -}}
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Title }} - {{ .Site.Title }}">
+    <meta property="og:type" content="article">
+    <meta name="description" content="{{ .Description }}">
+    <meta property="og:description" content="{{ .Description }}">
+    {{- if not .PublishDate.IsZero }}
+    <meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">
+    {{- else if not .Date.IsZero }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">
+    {{ end }}
+    {{- if not .Lastmod.IsZero }}
+    <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">
+    {{ end }}
+    {{- end }}
+
+    {{ if not (isset .Params "image") }}
+    <meta property="og:image" content="{{ "cover-fb.jpg" | absURL }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@FibraClick">
+    <meta name="twitter:image" content="{{ "cover-tw.jpg" | absURL }}">
+    {{ else }}
+    <meta property="og:image" content="{{ .Params.image | absURL }}">
+    <meta property="og:image:width" content="{{ (imageConfig (printf "/static%s" .Params.image)).Width }}">
+    <meta property="og:image:height" content="{{ (imageConfig (printf "/static%s" .Params.image)).Height }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@FibraClick">
+    <meta name="twitter:image" content="{{ .Params.image | absURL }}">
+    {{ end }}
+
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+
+    {{ $styles := resources.Get "scss/main.scss" | toCSS (dict "targetPath" "css/main.css" "enableSourceMap" true) | minify | fingerprint -}}
+    <link rel="stylesheet"
+          href="{{ $styles.RelPermalink }}"
+          integrity="{{ $styles.Data.Integrity }}"
+          media="screen">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#3fc160">
+    <meta name="msapplication-TileColor" content="#3fc160" />
+    <meta name="theme-color" content="#ffffff">
+
+    {{ with .Site.Params.Analytics -}}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', '{{ . }}');
+      gtag('config', '{{ . }}', { 'anonymize_ip': true });
+    </script>
+    {{- end }}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('article h2[id], article h3[id], article h4[id]').forEach(function(element) {
+        element.insertAdjacentHTML('beforeend', '<a href="#' + element.id + '" class="hanchor" ariaLabel="Ancora">🔗</a>');
+      });
+    });
+    </script>
+
+    {{ if and (.Section) (eq .Section "posts") }}
+    {{ $js := resources.Get "js/propaganda.js" |  minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+    {{- end }}
+
+    {{- range .Params.js }}
+    {{ $js := resources.Get (printf "js/%s" .) |  minify | fingerprint -}}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+    {{- end }}
+
+    {{- range .Params.rawjs }}
+    <script src="/js/{{ . }}"></script>
+    {{- end }}
+
+    {{- range .Params.scss }}
+    {{ $styles := resources.Get (printf "scss/%s" .) | toCSS (dict "targetPath" (printf "css/%s.css" (replace . ".scss" ".css")) "enableSourceMap" true) | minify | fingerprint -}}
+    <link rel="stylesheet"
+          href="{{ $styles.RelPermalink }}"
+          integrity="{{ $styles.Data.Integrity }}"
+          media="screen">
+    {{- end }}
+
+    {{- with .Params.katex }}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+      integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+      integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+      integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+      onload=""></script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.getElementsByClassName('katex-container');
+        for (let i = 0; i < elems.length; i++) {
+          renderMathInElement(elems[i], {
+            delimiters: [
+              { left: "$$", right: "$$", display: true },
+              { left: "$", right: "$", display: false },
+            ]
+          });
+        }
+      });
+    </script>
+    {{- end }}
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="desktop">
+        <a href="/">
+          <img class="logo" alt="Logo FibraClick" src="{{ (resources.Get "logo.svg" | fingerprint).RelPermalink }}">
+        </a>
+
+        <nav>
+          <a target="_blank" href="https://forum.fibra.click" class="hl">Vai al forum</a>
+          <a href="{{ relref . "/link-utili.md" }}">Link utili</a>
+          <a href="{{ relref . "/newsletter" }}">Newsletter</a>
+          
+          <span class="separator">|</span>
+          
+          <div class="social">
+            <a href="https://t.me/FibraClick" target="_blank">
+              <img src="/social-telegram.svg">
+            </a>
+            <a href="https://twitter.com/FibraClick" target="_blank">
+              <img src="/social-twitter.svg">
+            </a>
+            <a href="https://www.facebook.com/FibraClick/" target="_blank">
+              <img src="/social-facebook.svg">
+            </a>
+          </div>
+        </nav>
+      </div>
+      
+      <div class="mobile">
+        <a href="/" class="logo-wrapper">
+          <img class="logo" alt="Logo FibraClick" src="{{ (resources.Get "logo.svg" | fingerprint).RelPermalink }}">
+        </a>
+
+        <input id="burger" type="checkbox" />
+        
+        <label for="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      
+        <nav>
+          <ul>
+            <li><a class="hl" href="https://forum.fibra.click">Vai al forum</a></li>
+            <li><a href="{{ relref . "/link-utili.md" }}">Link utili</a></li>
+            <li><a href="{{ relref . "/newsletter" }}">Newsletter</a></li>
+            <li class="social">
+              <a href="https://t.me/FibraClick" target="_blank">
+                <img src="/social-telegram.svg">
+              </a>
+              <a href="https://twitter.com/FibraClick" target="_blank">
+                <img src="/social-twitter.svg">
+              </a>
+              <a href="https://www.facebook.com/FibraClick/" target="_blank">
+                <img src="/social-facebook.svg">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main" class="container">

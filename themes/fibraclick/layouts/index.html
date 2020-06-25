@@ -1,0 +1,63 @@
+{{ partial "top.html" . }}
+
+  <article class="home">
+
+    <section>
+      <h1>{{ .Title }}</h1>
+
+      {{ .Content }}
+    </section>
+
+    <section>
+      <h1>Categorie</h1>
+
+      <ul class="categories">
+        {{ range .Site.Taxonomies.categories -}}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{- end }}
+      </ul>
+    </section>
+
+    <section>
+      <h1>Strumenti</h1>
+    
+      <ul>
+        <li>
+          <a href="/bul-sinfi/mappa/">Visualizzatore tratte SINFI</a>
+          (<a href="/bul-sinfi/">istruzioni</a>)
+        </li>
+        <li><a href="/stato-bul/">Archivio stato piano BUL</a></li>
+        <li><a href="/hlog/generatore">Generatore grafici HLog/QLN</a> (<a href="/hlog/">guida</a>)</li>
+      </ul>
+
+      <p style="font-size: 14px">Se stai cercando il sito per la verifica copertura FTTC di TIM, <a
+          href="https://forum.fibra.click/d/1420-il-sito-per-la-verifica-copertura-fibraclick-chiude">non esiste più</a> da
+        ottobre 2018. Potrebbe invece interessarti la guida <a href="/bul-verifica-per-indirizzo">Come verificare la presenza
+          di intervento pubblico o privato</a>.</p>
+    </section>
+
+    <section class="posts">
+      <h1>Ultimi aggiornamenti</h1>
+      <ol>
+        {{ range first 5 (where (where .Site.RegularPages "Type" "posts") ".Params.hidden" "!=" true).ByLastmod.Reverse -}}
+        <li>
+          📄 <a href="{{ .RelPermalink }}">{{ .Title }}</a> <time datetime="{{ .Lastmod.Format "2006-01-02 15:04:05 MST" }}">({{ .Lastmod.Format "02/01"}})</time>
+        </li>
+        {{- end }}
+      </ol>
+    </section>
+
+    <section class="posts">
+      <h1>Tutti gli articoli</h1>
+      <ol>
+        {{ range (where (where .Site.RegularPages "Type" "posts") ".Params.hidden" "!=" true).ByTitle -}}
+        <li>
+          📄 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{- end }}
+      </ol>
+    </section>
+
+  </article>
+
+{{ partial "bottom.html" . }}

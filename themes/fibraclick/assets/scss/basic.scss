@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: $white;
+
+  color: $black;
+
+  font-family: $body;
+  font-size: $fs-large;
+}
+
+body {
+  line-height: 1.6;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+::selection {
+  background: $highlight;
+}
+
+h1,
+p,
+figure,
+pre,
+blockquote {
+  margin: $std-margin;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 0;
+  margin: 2rem 0;
+
+  border: 0;
+  border-top: 1px solid $gray;
+}
+
+figure {
+  img {
+    display: block;
+    margin: 0 0 .5rem;
+  }
+
+  &.vertical {
+    img {
+      max-height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    figcaption {
+      text-align: center;
+    }
+  }
+}
+
+figcaption {
+  padding: 0 .5rem .5rem;
+  font-size: .8125rem;
+  text-align: left;
+  color: $gray;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  padding: 1rem;
+  border-left: 5px solid $gray3;
+  color: $gray;
+  font-style: italic;
+
+  p {
+    margin: 0;
+  }
+
+  cite {
+    display: block;
+    margin: 1rem 0 0;
+    font-size: .875rem;
+    text-align: right;
+  }
+}
+
+a {
+  border-bottom: 1px solid currentColor;
+  color: currentColor;
+  text-decoration: none;
+  word-wrap: break-word;
+
+  &:hover {
+    border-bottom-color: currentColor;
+    color: $gray;
+  }
+}
+
+ol,
+ul {
+  margin: 0 0 1rem 1.25rem;
+  padding: 0;
+  list-style-position: outside;
+
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+}
+
+li {
+  margin: 0 0 .4rem 0;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+abbr {
+  border-bottom: 1px dashed currentColor;
+  text-decoration: none;
+  cursor: help;
+}
+
+kbd,
+code,
+pre {
+  font-family: monospace;
+  border-radius: 0.25rem;
+}
+
+pre {
+  max-width: 100%;
+  background-color: #e5e5e5;
+  padding: 0.75rem 1rem;
+}
+
+kbd,
+code {
+  margin: 0;
+  padding: .125rem .25rem 0;
+  background-color: $gray3;
+}
+
+article,
+section {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $title;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 .5rem;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+sup {
+  padding: 0 0.2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+
+  @media screen and (min-width: $break-small) {
+    padding: 1rem 0;
+  }
+
+  &::before, &::after {
+    content: '';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+#main {
+  margin-top: 80px;
+
+  @media screen and (min-width: $break-menu) {
+    margin-top: 0;
+  }
+}

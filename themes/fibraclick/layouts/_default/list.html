@@ -1,0 +1,16 @@
+{{ partial "top.html" . }}
+
+<article class="posts">
+
+    <h1>Articoli in "{{ .Title }}"</h1>
+    <ol>
+        {{ range (where .Pages ".Params.hidden" "!=" true).ByTitle.Reverse -}}
+        <li>
+            📄 <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{- end }}
+    </ol>
+
+</article>
+
+{{ partial "bottom.html" . }}
