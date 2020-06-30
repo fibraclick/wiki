@@ -59,22 +59,25 @@ function run() {
 
             let lines = this.result.split('\n');
             lines.forEach((line) => {
-                if (line.startsWith('VDSL2 Profile:')) {
+                if (!window.app.profile && line.startsWith('VDSL2 Profile:')) {
                     window.app.profile = line.split(': ')[1].trim();
                 }
-                else if (line.startsWith('HLOG DS Array') || line.startsWith('HLOG Array')) {
+                else if (!window.app.hlogDS && line.startsWith('HLOG DS Array')
+                    || line.startsWith('HLOG Array')) {
                     window.app.hlogDS = line.split(': ')[1].trim();
                 }
-                else if (line.startsWith('HLOG US Array')) {
+                else if (!window.app.hlogUS && line.startsWith('HLOG US Array')) {
                     window.app.hlogUS = line.split(': ')[1].trim();
                 }
-                else if (line.startsWith('QLN Array')) {
+                else if (!window.app.qln && line.startsWith('QLN Array')) {
                     window.app.qln = line.split(': ')[1].trim();
                 }
-                else if (line.startsWith('VDSL2 GVECT error sample packets request') && !window.app.vectoring) {
+                else if (!window.app.vectoring
+                    && line.startsWith('VDSL2 GVECT error sample packets request')) {
                     window.app.vectoring = parseInt(line.split(': ')[1].trim()) > 0;
                 }
-                else if (line.startsWith('VDSL2 GVECT error sample packets send') && !window.app.vectoring) {
+                else if (!window.app.vectoring
+                    && line.startsWith('VDSL2 GVECT error sample packets send')) {
                     window.app.vectoring = parseInt(line.split(': ')[1].trim()) > 0;
                 }
             });
