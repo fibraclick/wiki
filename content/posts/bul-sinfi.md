@@ -14,7 +14,7 @@ Da ottobre 2019 il [SINFI](https://www.sinfi.it) (il catasto nazionale delle inf
 I dati sono pubblicati sotto forma di Shapefile ESRI, un formato vettoriale standard per la condivisione di dati georeferenziati, e risultano utili per capire **quali aree di un comune sono coperte** da Open Fiber con fondi pubblici, e con quale **tecnologia (FTTH o FWA)**.
 
 {{< green >}}
-I dati sono pubblicati solo per i comuni con progetto esecutivo per la fibra approvato, cioè i comuni che si trovano nello stato "In attesa di autorizzazioni", "In esecuzione", "Lavori completati" o "Terminato".
+I dati sono pubblicati solo per i comuni con progetto esecutivo per la fibra approvato.
 {{< /green >}}
 
 {{< toc >}}
