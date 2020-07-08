@@ -54,7 +54,7 @@ La diffusione della VDSL2 in Italia è iniziata **a partire dal 2012** per opera
 
 La copertura TIM raggiunge nel 2020 più di **3000 comuni**, cioè circa l'80% delle abitazioni italiane, attraverso ~110mila armadi.[^rete1] Secondo TIM, l'80% delle abitazioni coperte può avere una velocità di navigazione superiore ai 50 Mbps, mentre il 40% superiore a 100 Mbps (la percentuale include però la copertura FTTH).[^rete2]
 
-La rete FTTC è resa disponibile anche dagli operatori (Vodafone, Fastweb, ecc.), in particolare tramite i servizi all'ingrosso [VULA e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
+La rete FTTC è resa disponibile anche agli altri operatori (Vodafone, Fastweb, ecc.), in particolare tramite i servizi all'ingrosso [VULA e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 
 {{< footer >}}
 
