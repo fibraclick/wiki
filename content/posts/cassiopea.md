@@ -1,7 +1,7 @@
 ---
 title: "Cos'era il piano Cassiopea di TIM"
 slug: cassiopea
-date: 2020-07-08T15:28:36+02:00
+date: 2020-07-10T11:30:00+02:00
 lastmod: 2020-07-10T11:30:00+02:00
 authors: [Matteo]
 description: "Il piano Cassiopea è stato un piano di TIM pensato per ostacolare la concorrenza di Open Fiber. Per le sue condotte TIM è stata sanzionata dall'Antitrust."
