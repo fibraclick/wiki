@@ -2,11 +2,10 @@
 title: "Cos'era il piano Cassiopea di TIM"
 slug: cassiopea
 date: 2020-07-08T15:28:36+02:00
-lastmod: 2020-07-10T10:45:00+02:00
+lastmod: 2020-07-10T11:30:00+02:00
 authors: [Matteo]
 description: "Il piano Cassiopea è stato un piano di TIM pensato per ostacolare la concorrenza di Open Fiber. Per le sue condotte TIM è stata sanzionata dall'Antitrust."
 categories: [FTTC, Copertura, Piano BUL]
-hidden: true
 ---
 
 Il **piano Cassiopea** è stato un progetto concepito da TIM nel 2017 con l'obiettivo di coprire con reti a banda ultralarga le aree bianche del Paese, cioè le aree in cui gli operatori privati non avevano mostrato interesse ad investire.
@@ -68,7 +67,9 @@ A marzo 2020, per via della pandemia di **COVID-19** e per effetto del decreto l
 
 ## Il procedimento dell'Antitrust
 
-L'istruttoria dell'Antitrust si è conclusa a febbraio 2020 con un **documento di più di 200 pagine**, di cui riportiamo alcune parti salienti.[^comunicato] (I grassetti sono aggiunte dell'autore, così come le parentesi quadre.)
+L'istruttoria dell'Antitrust si è conclusa a febbraio 2020 con un **documento di più di 200 pagine**, di cui riportiamo alcune parti salienti.[^comunicato]
+
+(Le parti in grassetto sono state evidenziate dall'autore, mentre le parentesi quadre sono state aggiunte per indicare il paragrafo di riferimento o aggiungere note.)
 
 L'Autorità osserva innanzitutto che TIM iniziò a preparare una strategia per ostacolare Open Fiber non appena quest'ultima fu costituita, nel 2015:
 
