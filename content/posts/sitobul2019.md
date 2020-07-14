@@ -10,14 +10,16 @@ image: /social/piano-bul.jpg
 ---
 
 {{< warn >}}
-⚠ **Il sito BUL è stato aggiornato a metà giugno 2020, per cui questa guida fa temporaneamente riferimento alla vecchia versione. I concetti sono comunque molto simili anche nella nuova versione.**
+⚠ **Il sito BUL è stato aggiornato a metà giugno 2020, per cui questa guida fa temporaneamente riferimento alla vecchia versione. I concetti sono molto simili anche nella nuova versione, ma ci sono alcune differenze.**
+
+**Questo articolo sarà aggiornato dopo l'estate 2020, quando sul sito BUL saranno pubblicati i nuovi dati risultanti dalla [consultazione 2020]({{< relref "/posts/consultazione2020.md" >}}).**
 {{< /warn >}}
 
 Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura della banda larga per i prossimi anni.
 
 I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, e costituiscono la base per gli interventi pubblici dello Stato mirati alla riduzione del digital divide.
 
-Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/verifica-indirizzo/), e poi seguire i paragrafi di questa pagina per comprenderne il risultato.
+Puoi inserire il tuo indirizzo di casa [qua](https://bandaultralarga.italia.it/indirizzo/), e poi seguire i paragrafi di questa pagina per comprenderne il risultato.
 
 {{< warn >}}
 ⚠ Il sito BUL mostra i risultati delle consultazioni ma **non tiene in considerazione le fasi successive di realizzazione e approvazione dei progetti di copertura**. Le informazioni sono quindi da prendere con le pinze. Se qualcosa non ti torna, chiedi sul [forum di FibraClick](https://forum.fibra.click) e proveremo ad aiutarti.
