@@ -82,13 +82,17 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 
 ## Mini PCN
 
-Per velocizzare la vendibilità della rete FTTH o FWA in un comune, Open Fiber utilizza dei PCN temporanei di dimensione ridotta, chiamati "mini PCN", in attesa della costruzione del PCN definitivo.
+Per velocizzare la vendibilità della rete FTTH o FWA in un comune, Open Fiber utilizza da metà 2020 dei PCN temporanei di dimensione ridotta, chiamati "mini PCN", in attesa della costruzione del PCN definitivo.[^minipcn]
 
-Internamente, i mini PCN includono la gestione della parte elettrica e dell'aerazione, la telegestione su rete LTE, gli apparati DWDM per la rete di trasporto, un piccolo [OLT]({{< relref "/posts/gpon.md" >}}) da 16 porte (max 256 linee), i cassetti ottici per collegare le fibre ottiche dei CNO, le BTS afferenti al mini PCN e i "nodi operatore", e le batterie.
+[^minipcn]: https://bandaultralarga.italia.it/wp-content/uploads/2020/07/Linee-guida-piano-di-azione-a-supporto-delle-realizzazioni-BUL-CD-8-sent.cleaned-1.pdf
+
+Internamente, i mini PCN includono la gestione della parte elettrica e dell'aerazione, la telegestione su rete LTE, gli apparati DWDM per la rete di trasporto, un piccolo [OLT]({{< relref "/posts/gpon.md" >}}) da 16 porte (max 256 linee), i cassetti ottici per collegare le fibre ottiche dei CNO, le BTS afferenti al mini PCN e i "nodi operatore", e le batterie.[^minipcn2]
 
 C'è anche un po' di spazio per ampliamenti, ad esempio per aggiungere un secondo OLT o apparati degli operatori in colocazione.
 
 {{< fig src="/images/rete-bul/minipcn.jpg" caption="Un mini PCN BUL. Grazie a @TrtRndS per la foto." vertical="true" >}}
+
+[^minipcn2]: Fonti di FibraClick
 
 {{< footer >}}
  
