@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2020-01-22T15:00:00+01:00
+lastmod: 2020-07-16T12:00:00+02:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -79,6 +79,16 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 {{< fig src="/images/rete-bul/pcn-bul-4.jpg" caption="PCN BUL di Vo'. Grazie a Igor T. per la foto." >}}
 
 {{< fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL di dimensione ridotta. Grazie a @Hadx per la foto." vertical="true" >}}
+
+## Mini PCN
+
+Per velocizzare la vendibilità della rete FTTH o FWA in un comune, Open Fiber utilizza dei PCN temporanei di dimensione ridotta, chiamati "mini PCN", in attesa della costruzione del PCN definitivo.
+
+Internamente, i mini PCN includono la gestione della parte elettrica e dell'aerazione, la telegestione su rete LTE, gli apparati DWDM per la rete di trasporto, un piccolo [OLT]({{< relref "/posts/gpon.md" >}}) da 16 porte (max 256 linee), i cassetti ottici per collegare le fibre ottiche dei CNO, le BTS afferenti al mini PCN e i "nodi operatore", e le batterie.
+
+C'è anche un po' di spazio per ampliamenti, ad esempio per aggiungere un secondo OLT o apparati degli operatori in colocazione.
+
+{{< fig src="/images/rete-bul/minipcn.jpg" caption="Un mini PCN BUL. Grazie a @TrtRndS per la foto." vertical="true" >}}
 
 {{< footer >}}
  
