@@ -2,13 +2,13 @@
 title: "La consultazione Infratel 2020"
 slug: consultazione-2020
 date: 2020-06-24T13:30:00+02:00
-lastmod: 2020-06-24T15:30:00+02:00
+lastmod: 2020-08-06T14:30:00+02:00
 authors: [Matteo]
 description: La consultazione 2020 ha lo scopo di mappare la copertura a banda ultralarga del Paese, per rilevare le aree in cui c'è carenza di reti ad alta velocità.
 categories: [Copertura, Piano BUL]
 ---
 
-La **consultazione Infratel 2020** è un'attività condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 23 giugno 2020 e terminerà il 31 luglio 2020, salvo proroghe.[^cons]
+La **consultazione Infratel 2020** è un'attività condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 23 giugno 2020 ed è terminata il 31 luglio 2020, senza proroghe.[^cons]
 
 [^cons]: https://bandaultralarga.italia.it/documentazione/consultazioni/
 
@@ -16,7 +16,7 @@ Agli operatori è stato chiesto di inviare **per ogni indirizzo civico delle are
 
 [^manuale]: https://bandaultralarga.italia.it/wp-content/uploads/2020/06/Manuale-di-Istruzioni-mappatura-2020.pdf
 
-Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad alta velocità** e si rende quindi necessario un intervento dello Stato (il cosiddetto "piano aree grigie").
+Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad alta velocità** e si rende quindi necessario un intervento dello Stato (il cosiddetto "piano aree grigie"). Salvo imprevisti, i risultati saranno pubblicati sul sito Banda Ultralarga nella prima settimana di settembre.
 
 {{< toc >}}
 
@@ -72,7 +72,7 @@ Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore ch
 
 ## I risultati
 
-I risultati saranno disponibili dopo il termine della consultazione tramite il sito [Banda Ultra Larga](https://bandaultralarga.italia.it).
+I risultati saranno pubblicati a settembre 2020 sul sito [Banda Ultralarga](https://bandaultralarga.italia.it).
 
 A differenza delle consultazioni precedenti, Infratel potrà pubblicare i dati **anche in forma "disaggregata"**, cioè mostrare per ciascun indirizzo **informazioni aggiuntive sugli operatori e sulle tecnologie utilizzate** per la copertura. Gli operatori potranno però presentare richieste motivate per mantenere i dati riservati.[^cons]
 
