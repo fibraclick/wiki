@@ -2,7 +2,7 @@
 title: Cosa significano FTTC, FTTS, FTTE, FTTH e FWA
 slug: architetture
 date: 2019-03-22
-lastmod: 2019-07-12T12:07:00+02:00
+lastmod: 2020-08-09T11:30:00+02:00
 authors: [Matteo]
 description: Le sigle indicano diversi tipi di architetture di rete, in particolare in base all'estensione della tratta in fibra ottica della connessione.
 categories: [Definizioni, FTTC, FTTH, FWA]
@@ -31,7 +31,7 @@ In un'architettura di rete FTTC, **la fibra ottica termina presso un armadio rip
 
 Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che collegano le abitazioni finali dei clienti. La tratta tra la centrale e l'armadio si definisce **tratta primaria**, mentre quella tra l'armadio e le abitazioni è la **tratta secondaria**.[^1]
 
-[^1]: pagina 5 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
+[^1]: La rete in rame di Telecom Italia: caratteristiche e potenzialità per lo sviluppo delle tecnologie xDSL, *Notiziario tecnico Telecom Italia n. 1/2004*. http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf (pagina 5)
 
 {{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
@@ -39,10 +39,9 @@ Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che 
 Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**. In FTTC la distanza conta molto, perché ad alte frequenze (alte velocità) il segnale elettrico si degrada rapidamente con la distanza.
 {{< /green >}}
 
-In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*).[^2] Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^3]
+In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^2]
 
-[^2]: pagina 3 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
-[^3]: pagina 2 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo10.pdf
+[^2]: Evoluzione tecnologica per la rete Ngan, *Notiziario tecnico Telecom Italia n. 2/2012*. https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf (pagina 58 e pagina 117)
 
 {{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
@@ -85,15 +84,14 @@ Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addir
 
 #### Diffusione in Italia
 
-In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, principalmente per merito degli investimenti messi in atto da TIM a partire dal 2012. Si stima che la copertura in FTTC a fine 2018 riguardi **circa l'80% della popolazione**, a seconda della fonte.[^5][^6][^7]
+In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, principalmente per gli investimenti di TIM avviati dal 2012. Si stima che la copertura in FTTC al 2020 riguardi **più dell'80% della popolazione**, raggiungendo a fine 2019 quasi 3mila comuni.[^5][^6][^7]
 
 [^5]: https://maps.agcom.it/
-[^6]: https://rete.gruppotim.it/it/numeri/italia/2018/fibra
-[^7]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/en/
+[^6]: https://rete.gruppotim.it/it/numeri/italia/2020/fibra
+[^7]: https://web.archive.org/web/20191011180156/https://www.tim.it/verifica-copertura
 
-A luglio 2019 TIM dichiara di coprire 2776 comuni.[^8] Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
+Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
 
-[^8]: https://www.tim.it/verifica-copertura
 [^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
@@ -115,7 +113,7 @@ Si parla di FTTE soprattutto in caso di linea telefonica su **rete rigida**, oss
 
 In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra il DSLAM e le abitazioni.
 
-[^11]: pagina 3 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
+[^11]: La rete in rame di Telecom Italia: caratteristiche e potenzialità per lo sviluppo delle tecnologie xDSL, *Notiziario tecnico Telecom Italia n. 1/2004*. http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf (pagina 3)
 
 {{< fig src="/images/architetture-ftte.png" caption="Architettura di rete FTTE con erogazione da centrale" >}}
 
@@ -129,7 +127,7 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 - supporta **velocità di trasmissione molto alte** (1+ Gbps) e **latenze molto basse** (velocità della luce);
 - può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}})).[^12]
 
-[^12]: pagina 9  https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
+[^12]: Evoluzione tecnologica per la rete Ngan, *Notiziario tecnico Telecom Italia n. 2/2012*. https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf (pagina 64) ↩︎
 
 {{< fig src="/images/architetture-ftth.png" caption="Schema generale di una rete FTTH. Le abitazioni sono collegate in fibra ottica" >}}
 
@@ -147,7 +145,7 @@ La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che
 
 In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 grandi città entro il 2023**[^13] e migliaia di piccoli comuni nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}). Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **1 Gbps in download** e upload tra 100 e 300 Mbps.
 
-[^13]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
+[^13]: https://openfiber.it/corporate/chi-siamo/obiettivi/
 
 Esistono anche molti operatori locali che realizzano e vendono reti in fibra ottica (sia per privati che aziende), ad esempio Isiline, Intred, Unidata, ecc.
 
@@ -157,9 +155,9 @@ Esistono anche molti operatori locali che realizzano e vendono reti in fibra ott
 
 Alcuni esempi di operatori FWA e relative tecnologie sono:
 
-- **Eolo** con la tecnologia proprietaria EOLOwave. Nella versione "G" permette di raggiungere fino a 100 Mbps in download
-- **Linkem** in LTE (4G)
-- **Tiscali** in LTE (4G)
+- **EOLO** con la tecnologia EOLOwave. Nella versione "G" permette di raggiungere 100 Mbps in download sfruttando frequenze date in licenza esclusiva all'operatore, che permettono di offrire prestazioni costanti;
+- **Linkem** in 4G/LTE;
+- **Tiscali** in 4G/LTE.
 
 I problemi principali delle connessioni wireless sono la latenza e le (talvolta) scarse prestazioni dei collegamenti radio condivisi.
 
