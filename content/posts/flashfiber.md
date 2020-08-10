@@ -9,7 +9,7 @@ categories: [Definizioni, Copertura, FTTH]
 image: /social/flashfiber.jpg
 ---
 
-**Flash Fiber** è un'azienda partecipata all'**80% da TIM e al 20% da Fastweb**, nata nel 2016 con l'obiettivo di realizzare o completare reti in [FTTH]({{< relref "/posts/architetture.md" >}}) in **29 città italiane entro il 2020**.[^ff1][^ff2]
+**Flash Fiber** è un'azienda partecipata all'**80% da TIM e al 20% da Fastweb**, nata nel 2016 con l'obiettivo di realizzare o completare reti in [FTTH]({{< relref "/posts/architetture.md" >}}) in **29 città italiane entro il 2020**.[^ff1]
 
 Flash Fiber è un operatore *wholesale-only*, e cioè di vendita all'ingrosso. Per poter attivare una linea su rete Flash Fiber bisogna quindi rivolgersi a un operatore al dettaglio come **TIM, Fastweb o altri operatori che ne rivendono la rete**.
 
@@ -68,10 +68,9 @@ I dettagli della rete Flash Fiber sono illustrati nell'apposita sezione nella pa
 {{< fig src="/images/muffola-ff.jpg" vertical="true" caption="Muffola compatta, da non confondere con il ROE, con lo scopo di fare da giunto per collegare più ROE. Grazie a @DDR per la foto" >}}
 
 [^ff1]: https://www.flashfiber.it/chi-siamo/lazienda/
-[^ff2]: https://www.flashfiber.it/chi-siamo/
 [^ff3]: https://www.flashfiber.it/verifica-copertura/
-[^ff4]: https://www.flashfiber.it/larrivo-di-flash-fiber-nel-tuo-edificio/
-[^legge]: Decreto legislativo 33 / 2016, articolo 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+[^ff4]: https://www.flashfiber.it/le-nostre-soluzioni/larrivo-di-flash-fiber-nel-tuo-edificio/
+[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
 [^forum]: https://forum.fibra.click/d/2552-tiscali-espansione-sulla-rete-open-fiber-e-non-solo/6
 
 {{< footer >}}

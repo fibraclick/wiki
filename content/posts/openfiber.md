@@ -39,7 +39,7 @@ Open Fiber ha incorporato alla sua nascita la rete di Metroweb, realizzata con i
 
 La copertura FTTH prevede l'**installazione di un ROE** (*Ripartitore Ottico di Edificio*), una scatola che viene montata nel locale contatori del palazzo o su una parete esterna dell'edificio.
 
-Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^lex]
+Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^legge]
 
 {{< fig src="/images/ofcartello.jpg" caption="Avviso che anticipa l'intervento di Open Fiber in un condominio" alt="Foglio di carta appeso con il logo Open Fiber, che dice \"Arriva OpEn Fiber\"" vertical="true" >}}
 
@@ -93,7 +93,7 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 
 {{< footer >}}
 
-[^of1]: https://openfiber.it/it/fibra-ottica/societa
-[^of2]: https://openfiber.it/it/fibra-ottica/chi-siamo/obiettivi
-[^adnk]: https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
-[^lex]: Decreto legislativo 33 / 2016, articolo 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+[^of1]: https://openfiber.it/corporate/societa/struttura-societaria/
+[^of2]: https://openfiber.it/corporate/chi-siamo/obiettivi/
+[^adnk]: *Open Fiber: 3,5 miliardi per banda ultralarga*, 14 aprile 2018 https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
+[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg

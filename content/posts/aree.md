@@ -17,7 +17,7 @@ Le **aree nere, grigie e bianche** sono una classificazione del territorio stabi
 
 In dettaglio, le aree si definiscono così[^lex]:
 
-[^lex]: https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52013XC0126%2801%29
+[^lex]: *Comunicazione della Commissione — Orientamenti dell’Unione europea per l’applicazione delle norme in materia di aiuti di Stato in relazione allo sviluppo rapido di reti a banda larga* https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A52013XC0126%2801%29
 
 - **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda ultralarga di operatori diversi;
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga;
@@ -52,7 +52,7 @@ I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL"
 
 In Italia, spesso si usa il termine cluster per identificare un insieme di aree[^strategia]. Nello specifico:
 
-[^strategia]: https://www.mise.gov.it/images/stories/documenti/ITALIA_Strategia_BUL-Piano_di_investimenti_fin.pdf
+[^strategia]: *Strategia italiana per la banda ultralarga*, 2015 https://www.mise.gov.it/images/stories/documenti/ITALIA_Strategia_BUL-Piano_di_investimenti_fin.pdf
 
 - **cluster A**: tutte le aree nere
 - **cluster B**: tutte le aree grigie
@@ -60,7 +60,7 @@ In Italia, spesso si usa il termine cluster per identificare un insieme di aree[
 
 La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.[^cipe]
 
-[^cipe]: https://www.gazzettaufficiale.it/eli/id/2015/10/14/15A07661/sg
+[^cipe]: *Fondo sviluppo e coesione 2014-2020: piano di investimenti per la diffusione della banda ultra larga*, delibera CIPE n. 65/2015 https://www.gazzettaufficiale.it/eli/id/2015/10/14/15A07661/sg
 
 Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, con un limite di investimento pari al 70% del totale.
 

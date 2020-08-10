@@ -61,6 +61,6 @@ Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
 Il modello di investimento pubblico indiretto è stato usato per anni per finanziare interventi da parte di TIM in aree a digital divide. Ha riguardato la realizzazione di infrastrutture ADSL, FTTC e FTTH, a seconda del periodo e dei fondi stanziati.
 {{< /green >}}
 
-[^eca]: http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/it/#box6
+[^eca]: *La banda larga negli Stati membri dell’UE* (relazione Corte dei Conti Europea) http://publications.europa.eu/webpub/eca/special-reports/broadband-12-2018/it/#box6
 
 {{< footer >}}

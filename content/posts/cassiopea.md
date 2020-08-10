@@ -28,10 +28,10 @@ TIM decise anche di non presentare offerte per la seconda gara pubblica, la cui 
 
 L'8 marzo 2017 Infratel annunciò ufficialmente che **Open Fiber si era aggiudicata tutti i lotti del primo bando**.[^aggiudicazione] Due settimane dopo, il 23 marzo 2017, l'amministratore delegato di TIM Flavio Cattaneo presentò ufficialmente il **progetto Cassiopea**.[^cassiopea]
 
-[^punteggi]: https://www.dday.it/redazione/22242/fibra-per-tutti-enel-open-fiber-straccia-telecom-e-vince-il-bando
-[^aggiudicazione]:https://www.infratelitalia.it/archivio-news/notizie/banda-ultralarga-open-fiber-si-aggiudica-i-cinque-lotti-della-prima-gara-infratel
-[^rinuncia]: https://www.startmag.it/innovazione/banda-ultralarga-perche-telecom-dice-addio-alle-gare-infratel/
-[^cassiopea]: https://www.telecomitalia.com/it/archivio-stampa/corporate/2017/TIM-FY2016.html
+[^punteggi]: *Fibra per tutti, Enel Open Fiber straccia Telecom e vince il bando*, 25 gennaio 2017 https://www.dday.it/redazione/22242/fibra-per-tutti-enel-open-fiber-straccia-telecom-e-vince-il-bando
+[^aggiudicazione]: *Banda ultralarga, Open Fiber si aggiudica i cinque lotti della prima gara Infratel*, 08 marzo 2017 https://www.infratelitalia.it/archivio-news/notizie/banda-ultralarga-open-fiber-si-aggiudica-i-cinque-lotti-della-prima-gara-infratel
+[^rinuncia]: *Banda ultralarga, perché Telecom dice addio alle gare Infratel*, 21 febbraio 2017 https://www.startmag.it/innovazione/banda-ultralarga-perche-telecom-dice-addio-alle-gare-infratel/
+[^cassiopea]: *TIM: Esaminata e approvata dal Consiglio di Amministrazione la Relazione finanziaria annuale al 31 dicembre 2016*, 23 marzo 2017 https://www.telecomitalia.com/it/archivio-stampa/corporate/2017/TIM-FY2016.html
 
 Il piano prevedeva la copertura del 99% della popolazione italiana entro il 2019, in particolare con **investimenti nelle aree bianche**, cioè le stesse che fino a pochi mesi prima aveva dichiarato di non voler coprire perché non remunerative. Il progetto prevedeva di usare un misto di FTTC e 4G per il cluster C e il 4G per il cluster D, per un totale di 6mila comuni coinvolti. La rete sarebbe stata realizzata attraverso un'apposita società controllata da TIM (Cassiopea).
 
@@ -39,8 +39,8 @@ A fine marzo 2017 **TIM presentò inoltre un esposto** presso la Commissione Eur
 
 Il 25 maggio 2017 TIM diffidò Infratel dal sottoscrivere il contratto con Open Fiber, che poi venne comunque firmato il 16 giugno seguente.[^contratto]
 
-[^esposto]: https://www.corrierecomunicazioni.it/digital-economy/banda-ultralarga-il-piano-italiano-nel-mirino-della-ue/
-[^contratto]: https://www.infratelitalia.it/archivio-news/notizie/banda-ultralarga-infratel-e-open-fiber-firmano-il-contratto-per-la-prima-gara
+[^esposto]: *Tim contro Infratel: “Interventi illegittimi nelle aree in cui investiamo noi”*, 27 marzo 2017 https://www.corrierecomunicazioni.it/digital-economy/banda-ultralarga-il-piano-italiano-nel-mirino-della-ue/
+[^contratto]: *Banda ultralarga: Infratel e Open Fiber firmano il contratto per la prima Gara*, 16 giugno 2017 https://www.infratelitalia.it/archivio-news/notizie/banda-ultralarga-infratel-e-open-fiber-firmano-il-contratto-per-la-prima-gara
 
 Il 28 giugno 2017 **l'AGCM** (l'Antitrust italiana), **aprì un procedimento contro Telecom Italia per abuso di posizione dominante**, su segnalazione di Infratel, Enel, Open Fiber, Vodafone e Wind Tre.[^procedimento]
 
@@ -48,22 +48,22 @@ Le condotte contestate erano le strategie volte ad «**ostacolare lo svolgimento
 
 Il 24 luglio 2017, tre giorni dopo le dimissioni di Flavio Cattaneo, l'agenzia Reuters riportò che **TIM aveva sospeso il piano Cassiopea**, congelando gli interventi nelle aree bianche.[^reuters]
 
-[^procedimento]: https://www.agcm.it/dettaglio?db=41256297003874BD&uid=8AF49EA8F8DF4D47C1258526005ADE60&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=%20%2082_CE/102_CE-Abuso%20di%20posizione%20dominante
-[^reuters]: https://it.reuters.com/article/topNews/idITKBN1A91JH-OITTP
+[^procedimento]: *A514 - CONDOTTE FIBRA TELECOM ITALIA* https://www.agcm.it/dettaglio?db=41256297003874BD&uid=8AF49EA8F8DF4D47C1258526005ADE60&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=%20%2082_CE/102_CE-Abuso%20di%20posizione%20dominante
+[^reuters]: *Tim, sospeso piano Cassiopea per investimenti in aree fallimento di mercato*, 24 luglio 2017 https://it.reuters.com/article/topNews/idITKBN1A91JH-OITTP
 
 A luglio 2018, un anno dopo, TIM presentò degli impegni all'Antitrust, proponendo tra il resto di non investire nelle aree bianche per i successivi 6 mesi, e di farlo poi solo nelle aree remunerative. L'Antitrust rigettò gli impegni di TIM.[^impegni][^impegni2]
 
-[^impegni]: https://www.agcm.it/dettaglio?db=41256297003874BD&uid=425A742933CB2CFCC12582DB00230500&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=Abuso%20di%20posizione%20dominante
-[^impegni2]: https://www.agcm.it/dettaglio?db=41256297003874BD&uid=225867668A5E4B61C12583EB00504537&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=Abuso%20di%20posizione%20dominante
+[^impegni]: *A514 - CONDOTTE FIBRA TELECOM ITALIA - Pubblicazione impegni* https://www.agcm.it/dettaglio?db=41256297003874BD&uid=425A742933CB2CFCC12582DB00230500&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=Abuso%20di%20posizione%20dominante
+[^impegni2]: *A514 - CONDOTTE FIBRA TELECOM ITALIA - Proroga dei termini* https://www.agcm.it/dettaglio?db=41256297003874BD&uid=225867668A5E4B61C12583EB00504537&view=&title=A514-CONDOTTE%20FIBRA%20TELECOM%20ITALIA&fs=Abuso%20di%20posizione%20dominante
 
 Il 25 febbraio 2020 l'Antitrust ha deliberato una **sanzione di 116 milioni di euro** nei confronti di TIM, «per le **condotte volte a ritardare nelle aree dove ce ne sarebbe stato più bisogno lo sviluppo della fibra** nella sua forma più innovativa, ovvero l'FTTH».[^comunicato]
 
-[^comunicato]: https://www.agcm.it/media/comunicati-stampa/2020/3/A514
+[^comunicato]: *A514 - Antitrust: sanzione di 116 mln a TIM per aver ostacolato lo sviluppo della fibra*, 6 marzo 2020 https://www.agcm.it/media/comunicati-stampa/2020/3/A514
 
 A marzo 2020, per via della pandemia di **COVID-19** e per effetto del decreto legge "Cura Italia" e delle decisioni di AGCOM[^covid1], TIM ha avviato **l'attivazione di 5mila armadi FTTC nelle aree bianche di più di 700 comuni**[^covid2], di fatto resuscitando il piano Cassiopea. Open Fiber ha però confermato che queste attivazioni non influiranno sul piano di copertura pubblico.
 
-[^covid1]: https://ilblogdiagcom.blogspot.com/2020/03/agcom-coronavirus-decisioni-in-materia.html?spref=tw
-[^covid2]: https://www.tim.it/assistenza/per-i-consumatori/info-consumatori-fisso/news/la-connessione-ultrabroadband-tim-ha-raggiunto
+[^covid1]: *AGCOM: CORONAVIRUS, DECISIONI IN MATERIA DI RETE, TLC E SERVIZI POSTALI*, 18 marzo 2020 https://ilblogdiagcom.blogspot.com/2020/03/agcom-coronavirus-decisioni-in-materia.html?spref=tw
+[^covid2]: *La connessione Ultrabroadband TIM ha raggiunto altri 700 comuni. E andiamo avanti*, 24 marzo 2020 https://www.tim.it/assistenza/per-i-consumatori/info-consumatori-fisso/news/la-connessione-ultrabroadband-tim-ha-raggiunto
 
 ## Il procedimento dell'Antitrust
 

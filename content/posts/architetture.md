@@ -31,7 +31,7 @@ In un'architettura di rete FTTC, **la fibra ottica termina presso un armadio rip
 
 Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che collegano le abitazioni finali dei clienti. La tratta tra la centrale e l'armadio si definisce **tratta primaria**, mentre quella tra l'armadio e le abitazioni è la **tratta secondaria**.[^1]
 
-[^1]: La rete in rame di Telecom Italia: caratteristiche e potenzialità per lo sviluppo delle tecnologie xDSL, *Notiziario tecnico Telecom Italia n. 1/2004*. http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf (pagina 5)
+[^1]: *Notiziario tecnico Telecom Italia n. 1 / 2004*, pagina 78 http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf
 
 {{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
@@ -41,14 +41,14 @@ Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e
 
 In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^2]
 
-[^2]: Evoluzione tecnologica per la rete Ngan, *Notiziario tecnico Telecom Italia n. 2/2012*. https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf (pagina 58 e pagina 117)
+[^2]: *Notiziario tecnico Telecom Italia n. 2 / 2012*, pagine 58 e 117 https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf
 
 {{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
 #### Perché adottare la FTTC
 Il vantaggio principale della FTTC è che permette di ridurre la lunghezza della tratta secondaria in rame. Le tecnologie xDSL infatti funzionano meglio su brevi distanze e permettono in combinazione con le alte frequenze di **raggiungere anche 100 o 200 Mbps in download** (VDSL2).[^4]
 
-[^4]: Tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
+[^4]: *G.993.2 : Very high speed digital subscriber line transceivers 2 (VDSL2)*, tabella 6-1 https://www.itu.int/rec/T-REC-G.993.2
 
 {{< green >}}
 Si noti che **l'architettura FTTC non implica nessuna tecnologia specifica**. In altre parole, la FTTC può essere potenzialmente utilizzata per erogare anche l'ADSL. In Italia si usa quasi esclusivamente per la VDSL2.
@@ -92,7 +92,7 @@ In Italia, l'architettura FTTC è prevalente in confronto a FTTH e ADSL, princip
 
 Gli altri operatori telefonici (nazionali e locali) possono rivendere il servizio FTTC di TIM in diverse modalità, in particolare NGA, VULA e SLU.[^9][^10]
 
-[^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
+[^9]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?p_r_p_564233524_categoryId=1027776&p_r_p_564233524_activePortletId=noportlet
 [^10]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31057
 
 {{< info >}}
@@ -113,7 +113,7 @@ Si parla di FTTE soprattutto in caso di linea telefonica su **rete rigida**, oss
 
 In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra il DSLAM e le abitazioni.
 
-[^11]: La rete in rame di Telecom Italia: caratteristiche e potenzialità per lo sviluppo delle tecnologie xDSL, *Notiziario tecnico Telecom Italia n. 1/2004*. http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf (pagina 3)
+[^11]: *Notiziario tecnico Telecom Italia n. 1 / 2004*, pagina 76 http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf
 
 {{< fig src="/images/architetture-ftte.png" caption="Architettura di rete FTTE con erogazione da centrale" >}}
 
@@ -127,7 +127,7 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 - supporta **velocità di trasmissione molto alte** (1+ Gbps) e **latenze molto basse** (velocità della luce);
 - può funzionare in modo passivo, rimuovendo quindi la necessità di alimentare apparati in strada (approfondimento in [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}})).[^12]
 
-[^12]: Evoluzione tecnologica per la rete Ngan, *Notiziario tecnico Telecom Italia n. 2/2012*. https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf (pagina 64) ↩︎
+[^12]: *Notiziario tecnico Telecom Italia n. 2 / 2012*, pagina 64 https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf
 
 {{< fig src="/images/architetture-ftth.png" caption="Schema generale di una rete FTTH. Le abitazioni sono collegate in fibra ottica" >}}
 

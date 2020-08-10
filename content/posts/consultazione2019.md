@@ -80,8 +80,8 @@ I dati comune dettagliati (per comune e per indirizzo) sono stati pubblicati il 
 
 Segui [la nostra guida]({{< relref "/posts/sitobul2019.md" >}}) per verificare le previsioni di intervento fino al 2021.
 
-[^infratel1]: https://consultazione.infratelitalia.it/doc/Manuale_Istruzioni_monitoraggio_2019.pdf
-[^infratel2]: http://bandaultralarga.italia.it/infratel-ha-completato-il-monitoraggio-2019-della-consultazione-aree-grigie-e-nere/
+[^infratel1]: *Monitoraggio Consultazioni Aree Grigie e Nere - Manuale di Istruzioni* https://consultazione.infratelitalia.it/doc/Manuale_Istruzioni_monitoraggio_2019.pdf (non più accessibile da luglio 2020)
+[^infratel2]: *Infratel ha completato il Monitoraggio della Consultazione Aree Grigie e Nere*, 3 giugno 2019 https://www.infratelitalia.it/archivio-news/notizie/infratel-ha-completato-il-monitoraggio-della-consultazione-aree-grigie-e-nere
 [^percentuale]: le percentuali indicate da qui in poi si riferiscono sempre ai 19,8 milioni di civici oggetto di consultazione, non al Paese intero
 
 {{< footer >}}

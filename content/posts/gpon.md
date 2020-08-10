@@ -137,11 +137,11 @@ Inoltre, mentre Open Fiber in Open Stream consente ad ogni operatore di collegar
 Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 {{< /info >}}
 
-[^standard]: https://www.itu.int/rec/T-REC-G.984.1
-[^notiziario]: pagina 9 https://www.telecomitalia.com/content/dam/telecomitalia/it/archivio/documenti/Innovazione/NotiziarioTecnico/2012/n2-2012/capitolo6.pdf
-[^ofglossario]: https://openfiber.it/it/fibra-ottica/glossario/P
+[^standard]: *G.984.1 : Gigabit-capable passive optical networks (GPON): General characteristics* https://www.itu.int/rec/T-REC-G.984.1
+[^notiziario]: *Notiziario tecnico Telecom Italia n. 2/2012*, pagina 64 https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf
+[^ofglossario]: https://openfiber.it/glossario/p/
 [^ofservizi]: https://openfiber.it/area-infratel/servizi/commercializzazione-aree-bianche/
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
-[^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?_2_WAR_nwscatalogoportlet_redirect=%2fit%2fcatalogo%2f-%2fcatalogo_aggregator%2farticle%2f31135&_2_WAR_nwscatalogoportlet_resourcePrimKey2=1027774&p_r_p_564233524_activePortletId=noportlet
+[^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/120434490?p_r_p_564233524_categoryId=120410924&p_r_p_564233524_activePortletId=noportlet
 
 {{< footer >}}

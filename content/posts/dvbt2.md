@@ -12,7 +12,7 @@ image: /social/digitale-terrestre-2022.jpg
 A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**[^eulex].
 
 [^freq]: La banda in questione è quella tra i 694 e 790 MHz.
-[^eulex]: https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32017D0899R(02)&from=IT
+[^eulex]: *DECISIONE (UE) 2017/899 DEL PARLAMENTO EUROPEO E DEL CONSIGLIO del 17 maggio 2017 relativa all'uso della banda di frequenza 470-790 MHz nell'Unione* https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32017D0899R(02)&from=IT
 
 La liberazione delle frequenze sarà accompagnata da due cambiamenti importanti nel sistema di diffusione del segnale televisivo, necessari per poter offrire gli stessi canali con una disponibilità inferiore di frequenze.
 
@@ -72,7 +72,7 @@ I canali sono visibili sulle **LCN 100 e 200** (il primo emesso dalla Rai, il se
 
 Dopo aver effettuato una risintonizzazione dei canali, **se riesci a vedere almeno uno dei due canali significa che la tua tv è sicuramente pronta per la transizione del 2022**.
 
-[^cartelli]: https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset
+[^cartelli]: *Attivazione cartelli Test HEVC Main 10 frequenze Rai e Mediaset*, 15 gennaio 2020 https://www.digital-news.it/news/digitale-terrestre/46295/attivazione-cartelli-test-hevc-main-10-frequenze-rai-e-mediaset
 
 Se non vedi i due canali, è più complicato, e si distinguono almeno due casi:
 
@@ -104,5 +104,5 @@ Si stima che i fondi attualmente stanziati saranno sufficienti per tre milioni d
 Per maggiori dettagli sul contributo si rimanda alla [pagina ufficiale del MiSE](https://www.mise.gov.it/index.php/it/incentivi/comunicazioni/bonus-tv), dove è anche possibile consultare la lista dei prodotti idonei.
 {{< /info >}}
 
-[^mise]: https://www.mise.gov.it/images/stories/documenti/dm%20calendario%20rilascio%20banda%20700%20MHz%20con%20estremi%20reg%20CdC.pdf
-[^auditel]: https://www.mise.gov.it/images/stories/documenti/Report-scenari-diffusione-TV-marzo-2019.pdf
+[^mise]: *DM 19 giugno 2019 – Nuovo Calendario rilascio banda 700MHz* https://www.mise.gov.it/index.php/it/198-notizie-stampa/2038544-dm-19-agosto-2019-nuovo-calendario-rilascio-banda-700mhz
+[^auditel]: *Diffusione degli apparati TV in Italiae scenari evolutivi*, marzo 2019 https://www.mise.gov.it/images/stories/documenti/Report-scenari-diffusione-TV-marzo-2019.pdf

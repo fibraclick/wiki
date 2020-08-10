@@ -36,7 +36,7 @@ Significa che l'indirizzo è classificato come [area bianca]({{< relref "/posts/
 - **100 Mbps**: copertura in <abbr title="Fiber To The Home, fibra fino a casa">**FTTH**</abbr> con velocità in download tra i 100 Mbps e i 1000 Mbps (1 Gbps), a seconda del taglio offerto dall'operatore scelto;
 - **30 Mbps**: copertura in <abbr title="Fixed Wireless Access">**FWA**</abbr>, cioè **wireless**, con una tecnologia che possa garantire almeno 30 Mbps in download e 15 in upload. In alcuni casi la scritta 30 Mbps indica copertura realizzata da TIM in FTTC utilizzando fondi pubblici. È un caso frequente in [Sardegna](http://www.sardegnadigital.it/banda-ultra-larga-sardegna-vdsl-fibra-ottica/), Abruzzo, Puglia e Calabria[^bulfttn]. In questo caso la copertura FTTC può in realtà arrivare a 100 o anche 200 Mbps, a seconda della distanza dall'armadio TIM e [altri fattori]({{< relref "/posts/vdsl.md" >}}).
 
-[^bulfttn]: La lista dei comuni è disponibile in questa pagina, nella barra laterale (solo su desktop) http://www.infratelitalia.it/operatori/
+[^bulfttn]: La lista dei comuni è disponibile in questa pagina: http://www.infratelitalia.it/operatori/
 
 La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2020, che prevede un intervento diretto dello Stato con modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di **proprietà dello Stato**.
 
@@ -73,8 +73,8 @@ Il significato delle due sigle è:
 - <abbr title="Next Generation Access">**NGA**</abbr>: connessioni che offrono almeno 30 Mbps in download, cioè <abbr title="Fiber To The Cabinet">FTTC</abbr>, <abbr title="Fixed Wireless Access">FWA</abbr>[^cons2019] e <abbr title="Fiber To The Home">FTTH</abbr>;
 - **NGA-**<abbr title="Very High Capacity Networks">**VHCN**</abbr>: solo connessioni FTTH, che possono offrire velocità notevolmente superiori a 100 Mbps e fino a 1 Gbps.[^cons2019][^vhcn]
 
-[^cons2019]: pagina 10 http://www.infratelitalia.it/wp-content/uploads/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
-[^vhcn]: pagina 43 https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=17183
+[^cons2019]: *Esito Consultazione Aree Grigie e Nere 2019*, pagina 10 https://www.infratelitalia.it/archivio-documenti/documenti/-/media/Infratel/Documents/2019/06/consultazione-2019-Maggio-2019-def_v3.pdf
+[^vhcn]: *Comunicazione della Commissione Europea sulla Gigabit Society*, pagina 43 https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=17183
 
 {{< green >}}
 ###### Cosa indicano i numeri

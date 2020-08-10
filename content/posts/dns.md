@@ -46,7 +46,7 @@ Ci sono diversi **falsi miti** sui presunti benefici che deriverebbero dal cambi
 - ❌ **Download più veloce**: per lo stesso motivo del ping, il DNS non influisce sulla velocità della propria connessione. Anche nel caso in cui vengano usate tecniche di geolocalizzazione per individuare l'indirizzo IP del server più vicino[^anycast], il server DNS di un ISP italiano si trova in Italia e consente quindi una corretta geolocalizzazione.
 - ❌ **Risolvere problemi con un sito**: al netto di censura e complotti, i server DNS non hanno ruolo nel caricamento delle pagine web. Problemi di caricamento non possono essere risolti cambiando il server DNS.
 
-[^anycast]: IP Anycast https://www.cloudflare.com/learning/cdn/glossary/anycast-network/
+[^anycast]: IP Anycast: https://www.cloudflare.com/learning/cdn/glossary/anycast-network/
 
 ## I server DNS alternativi
 
@@ -72,7 +72,7 @@ Dal punto di vista della privacy, Cloudflare non memorizza gli indirizzi IP degl
 
 Google mantiene invece un registro dettagliato per 24-48 ore, dopodiché anonimizza i dati per un paio di settimane e in seguito ne mantiene un piccolo campione in un archivio permanente.[^privacy-google]
 
-[^privacy-cf]: https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/
+[^privacy-cf]: https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/
 [^privacy-google]: https://developers.google.com/speed/public-dns/privacy
 
 {{< footer >}}

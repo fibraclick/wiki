@@ -41,12 +41,12 @@ Durante il 2019 TIM ha avviato una sperimentazione del vectoring molto ristretta
 
 {{< footer >}}
 
-[^itu2]: https://www.itu.int/rec/T-REC-G.993.5
-[^agcom1]: https://www.agcom.it/visualizza-documento/85ee38d8-8977-4fd6-858f-d58e72d58268
-[^vect]: http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html
-[^agcom2]: https://www.agcom.it/visualizza-documento/1fe1fd57-1b27-4755-bfd6-89455e12ce09
+[^itu2]: *G.993.5 : Self-FEXT cancellation (vectoring) for use with VDSL2 transceivers* https://www.itu.int/rec/T-REC-G.993.5
+[^agcom1]: *Delibera n. 747/13/CONS*, 19 dicembre 2013 https://www.agcom.it/visualizza-documento/85ee38d8-8977-4fd6-858f-d58e72d58268
+[^vect]: *VDSL2 vectoring explained* http://www.gazettabyte.com/home/2012/11/9/vdsl2-vectoring-explained.html
+[^agcom2]: *Delibera n. 348/19/CONS*, 18 luglio 2019 https://www.agcom.it/visualizza-documento/1fe1fd57-1b27-4755-bfd6-89455e12ce09
 [^fcvect]: https://forum.fibra.click/d/3450-agcom-via-libera-al-vectoring
 [^slu]: https://it.wikipedia.org/wiki/VDSL2#Copertura_in_Italia
-[^piemonte]: https://www.ilpuntotecnico.com/tim-avvia-la-sperimentazione-del-vectoring-in-piemonte/
+[^piemonte]: *TIM avvia la sperimentazione del vectoring in Piemonte!*, 26 gennaio 2019 https://www.ilpuntotecnico.com/tim-avvia-la-sperimentazione-del-vectoring-in-piemonte/
 [^deployment1]: https://forum.fibra.click/d/7439-vectoring-attivo-in-area-bianca
 [^deployment2]: https://forum.fibra.click/d/8158-stasera-si-e-attivato-il-vectoring-dslam-nokia

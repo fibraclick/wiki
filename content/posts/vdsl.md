@@ -58,7 +58,7 @@ La rete FTTC è resa disponibile anche agli altri operatori (Vodafone, Fastweb, 
 
 {{< footer >}}
 
-[^itu]: https://www.itu.int/rec/T-REC-G.993.2
-[^telecom]: pagina 5 http://www.tlc.dii.univpm.it/blog/wp-content/uploads/2013/10/Rete_di_Accesso_TI.pdf
-[^rete1]: https://rete.gruppotim.it/it/numeri/italia/2018/fibra
-[^rete2]: https://www.telecomitalia.com/content/dam/telecomitalia/en/archive/documents/investors/Presentations/Investor_Relations/2019/CMD-TIM-2020.pdf
+[^itu]: *G.993.2 : Very high speed digital subscriber line transceivers 2 (VDSL2)*, https://www.itu.int/rec/T-REC-G.993.2
+[^telecom]: *Notiziario tecnico Telecom Italia n. 1 / 2004*, pagina 78 http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf
+[^rete1]: https://rete.gruppotim.it/it/numeri/italia/2020/fibra
+[^rete2]: *Capital Market Day 2020*, 11 marzo 2020 https://www.telecomitalia.com/content/dam/telecomitalia/en/archive/documents/investors/Presentations/Investor_Relations/2019/CMD-TIM-2020.pdf
