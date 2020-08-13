@@ -33,21 +33,12 @@
         </div>
       </header>
 
-      <div style="margin-bottom: 2rem">
-        <script>
-          if (Math.random() > 0.5) {
-            if (window.matchMedia('screen and (min-width: 760px)').matches) {
-              document.write('<scr'+'ipt language="javascript" src="https://track.adform.net/adfscript/?bn=30805929;click=https://www.awin1.com/awclick.php?mid=9773&id=548639&gid=344669&linkid=2227930&p="></scr'+'ipt><img src="https://www.awin1.com/cshow.php?s=2227930&v=9773&q=344669&r=548639" style="display: none" border="0" />');
-            }
-            else {
-              document.write('<scr'+'ipt language="javascript" src="https://track.adform.net/adfscript/?bn=30805937;click=https://www.awin1.com/awclick.php?mid=9773&id=548639&gid=344669&linkid=2227904&p="></scr'+'ipt><img src="https://www.awin1.com/cshow.php?s=2227904&v=9773&q=344669&r=548639" style="display: none" border="0" />');
-            }
-          }
-          else {
-            document.write('<div id="34975-1"><scr'+'ipt src="//ads.themoneytizer.com/s/gen.js?type=1"></scr'+'ipt><scr'+'ipt src="//ads.themoneytizer.com/s/requestform.js?siteId=34975&formatId=1"></scr'+'ipt></div>');
-          }
-        </script>
+      {{ with .Site.Params.Ads -}}
+      <div id="34975-1" style="margin-bottom: 2rem; text-align: center">
+        <script src="//ads.themoneytizer.com/s/gen.js?type=1"></script>
+        <script src="//ads.themoneytizer.com/s/requestform.js?siteId=34975&formatId=1"></script>
       </div>
+      {{- end }}
 
       <div class="post-content" itemprop="articleBody">
         {{ .Content }}
