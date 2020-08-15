@@ -78,7 +78,7 @@ Inoltre, l'uso di alte frequenze genera tra i cavi delle interferenze, che non s
 Vedi anche [Cos'è il vectoring]({{< relref "/posts/vectoring.md" >}}), la tecnologia che cura la diafonia.
 {{< /info >}}
 
-Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe sono circa 3,3 milioni.[^14]
+Infine, in molti casi la distanza dall'armadio è superiore a 500 metri (o addirittura a un chilometro), con la conseguenza di abbassare notevolmente la velocità ottenibile. TIM stima che le linee lunghe siano circa 3,3 milioni.[^14]
 
 [^14]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/107983114?p_r_p_564233524_categoryId=109100754&p_r_p_564233524_activePortletId=noportlet
 
