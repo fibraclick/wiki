@@ -159,13 +159,13 @@ Per approfondire:
 
 Come menzionato, la fase 1 del piano BUL ha l'obiettivo di ridurre il divario digitale tra le aree in cui sono presenti investimenti privati in banda larga (es. Open Fiber FTTH o TIM FTTC) e le aree in cui c'è solo l'ADSL (o inferiore).
 
-A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tramite delle apposite **consultazioni pubbliche**. Le aree, aggiornate ogni circa due anni, si distinguono in:[^12]
+A partire da marzo 2015, Infratel mantiene una **mappatura di queste aree** tramite delle apposite **consultazioni pubbliche**. Le aree, aggiornate ogni anno, si distinguono in:[^12]
 
 - **aree nere**: presenza nei prossimi tre anni di almeno due reti a banda larga di operatori diversi
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda larga
 - **aree bianche**: nessuna previsione di investimento privato per banda larga nei prossimi tre anni
 
-**Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**. Inizialmente è stata presa come riferimento la consultazione Infratel 2015, ma in seguito ha assunto valore la consultazione 2017 (poi aggiornata nel 2018).
+**Le aree bianche sono le aree che sono state prese in considerazione per il piano BUL 2015-2020**.
 
 {{< info >}}
 I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
@@ -174,22 +174,6 @@ I dati della consultazione sono consultabili tramite il sito BUL. Leggi [Come co
 {{< green >}}
 Quando si parla di area, non si intende l'intero territorio di un comune. Ogni comune può essere suddiviso in più aree, in modo da distinguere ad esempio tra aree grigie e bianche all'interno dello stesso comune. In Italia sono state definite 94˙645 aree su circa 8˙000 comuni.
 {{< /green >}}
-
-**Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato in materia di banda ultralarga**. Hanno tuttavia un difetto, quello di considerare il numero di infrastrutture presenti ma non il livello di qualità offerto.
-
-Per questo motivo, l'Italia ha definito un'ulteriore distinzione[^12], basata sui **cluster A, B, C e D**. I cluster sono definiti in base alle infrastrutture presenti nei successivi tre anni:
-
-- **cluster A**: aree in cui sarà presente almeno un'infrastruttura che garantisca almeno 100 Mbps in download (in Italia equivale a **FTTH**)
-- **cluster B**: aree in cui sarà presente almeno un'infrastruttura che garantisca almeno 30 Mbps in download (in Italia equivale a **FTTC**, **le connessioni wireless non vengono considerate**)
-- **cluster C e D**: aree in cui non saranno previste connessioni >30 Mbps
-
-{{< green >}}
-Le aree interessate dal **piano BUL 2015-2020** (fase 1) sono quelle dei **cluster C e D**.
-{{< /green >}}
-
-La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.
-
-Anche **nel cluster B è consentito l'intervento diretto dello Stato fino al 70%** degli investimenti totali, il che ci porta alla fase 2 del piano BUL.
 
 ## La fase 2: le aree "grigie"
 
@@ -203,7 +187,7 @@ La fase 2 del piano BUL consiste in un **investimento pubblico con lo scopo di c
 
 Secondo una stima di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, da identificare nel prossimo ciclo di programmazione europea[^grigiefabb].
 
-È attesa per la fine dell'estate 2020 la pubblicazione di un **primo bando** di gara per la copertura delle aree grigie, che avrà a disposizione 1,126 miliardi di euro e si concentrerà quindi nelle **zone ad alta densità di imprese** rispetto alla popolazione.[^grigiebando]
+Un primo bando per la copertura delle aree grigie era atteso per la fine dell'estate 2020, ma è stato poi rimandato al 2021 in modo da poter sfruttare i nuovi fondi europei.[^grigiebando][^grigie2021]
 
 ## Verificare gli interventi
 
@@ -232,5 +216,6 @@ Per approfondire, consulta la pagina [Come controllare la presenza di intervento
 [^berec]: articolo 82 https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32018L1972
 [^grigiefabb]: https://innovazione.gov.it/it/progetti/cobul/
 [^grigiebando]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
+[^grigie2021]: https://forum.fibra.click/d/8885-il-piano-aree-grigie-e-stato-rimandato-al-2021
 
 {{< footer >}}
