@@ -2,9 +2,9 @@
 title: "Cos'è e cosa fa Open Fiber"
 slug: openfiber
 date: 2019-04-17T21:34:32+02:00
-lastmod: 2020-06-16T18:00:00+02:00
+lastmod: 2020-08-16T18:40:00+02:00
 authors: [Matteo]
-description: Open Fiber realizza reti Fiber To The Home in Italia, con l'obiettivo di coprire migliaia di comuni entro il 2022, sia con fondi privati che pubblici.
+description: Open Fiber realizza reti in fibra ottica fino a casa, con l'obiettivo di coprire centinaia di città e migliaia di piccoli comuni entro il 2023.
 categories: [Definizioni, Copertura, FTTH]
 image: /social/openfiber.jpg
 ---
@@ -25,7 +25,9 @@ Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel*
 
 ## Copertura delle città
 
-Open Fiber prevede di coprire in FTTH **circa 270 città entro il 2022**, con un investimento stimato di circa 6,5 miliardi di euro.[^of2][^adnk]
+Open Fiber prevede di coprire in FTTH **più di 270 città entro il 2023**, con un investimento stimato di circa 6,5 miliardi di euro.[^of2][^adnk]
+
+A maggio 2020 ha aggiornato il piano industriale estendendo il progetto ad altre **1,1 milioni di abitazioni** nelle cosiddette aree grigie, cioè **città più piccole** dove però si concentra la maggior parte delle aziende italiane.[^grigie]
 
 La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul2019.md" >}}) il sito istituzionale Banda Ultralarga.
 
@@ -96,4 +98,5 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 [^of1]: https://openfiber.it/corporate/societa/struttura-societaria/
 [^of2]: https://openfiber.it/corporate/chi-siamo/obiettivi/
 [^adnk]: *Open Fiber: 3,5 miliardi per banda ultralarga*, 14 aprile 2018 https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
+[^grigie]: *Open Fiber rilancia sulla rete. Nuovi fondi per contrastare Tim*, 6 agosto 2020 https://rep.repubblica.it/pwa/generale/2020/08/06/news/open_fiber_rilancia_sulla_rete_nuovi_fondi_per_contrastare_tim-263958470/
 [^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
