@@ -36,10 +36,10 @@ Dall'armadio partono **centinaia di doppini** (coppie di cavi intrecciati), che 
 {{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
 {{< green >}}
-Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**. In FTTC la distanza conta molto, perché ad alte frequenze (alte velocità) il segnale elettrico si degrada rapidamente con la distanza.
+Un armadio può collegare **fino a 1200 linee**, e la **distanza** tra armadio e abitazioni è nella maggior parte dei casi **inferiore ai 500 metri**. In FTTC la distanza conta molto, perché ad alte frequenze il segnale elettrico si degrada rapidamente con il crescere della distanza, riducendo le prestazioni.
 {{< /green >}}
 
-In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Si tratta di apparati attivi, cioè che richiedono alimentazione, e nel caso di TIM sono molto spesso inseriti in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^2]
+In corrispondenza dell'armadio deve essere effettuata la conversione del segnale da ottico a elettrico. Questa avviene attraverso un **ONU** (*Optical Network Unit*) con l'ausilio di un **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Si tratta di un apparato attivo, cioè che richiede alimentazione, e nel caso di TIM è molto spesso inserito in una scatola installata sopra l'armadio (il cosiddetto [sopralzo](http://www.composititalia.it/it/prodotti/armadi-per-fibra-ottica-msan-sopralzo.html)).[^2]
 
 [^2]: *Notiziario tecnico Telecom Italia n. 2 / 2012*, pagine 58 e 117 https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf
 
@@ -111,7 +111,7 @@ Con **FTTE** (*Fiber To The Exchange*) si intende un'architettura in cui la fibr
 
 Si parla di FTTE soprattutto in caso di linea telefonica su **rete rigida**, ossia una linea collegata **direttamente alla centrale** senza passare da un armadio ripartilinea.[^11]
 
-In questo caso la "fibra" (precisamente VDSL) **viene erogata dalla centrale** e non dall'armadio su strada. In caso di FTTE le prestazioni sono spesso scarse per via della più probabile elevata distanza tra il DSLAM e le abitazioni.
+In questo caso la VDSL **viene erogata dalla centrale** e non dall'armadio su strada, con prestazioni spesso inferiori rispetto alla FTTC per via della più probabile elevata distanza tra il DSLAM e le abitazioni.
 
 [^11]: *Notiziario tecnico Telecom Italia n. 1 / 2004*, pagina 76 http://www.claudiocancelli.it/tutorial/rete_di_accesso_di_ti.pdf
 
