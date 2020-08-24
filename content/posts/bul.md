@@ -22,6 +22,8 @@ Il piano è composto da diverse parti:
 
 [^mid]: https://innovazione.gov.it/it/progetti/cobul/
 
+I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi del piano, in particolar modo per quanto riguarda le **aree bianche**.
+
 {{< toc >}}
 
 ## Gli obiettivi europei
