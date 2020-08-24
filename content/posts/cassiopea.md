@@ -60,10 +60,11 @@ Il 25 febbraio 2020 l'Antitrust ha deliberato una **sanzione di 116 milioni di e
 
 [^comunicato]: *A514 - Antitrust: sanzione di 116 mln a TIM per aver ostacolato lo sviluppo della fibra*, 6 marzo 2020 https://www.agcm.it/media/comunicati-stampa/2020/3/A514
 
-A marzo 2020, per via della pandemia di **COVID-19** e per effetto del decreto legge "Cura Italia" e delle decisioni di AGCOM[^covid1], TIM ha avviato **l'attivazione di 5mila armadi FTTC nelle aree bianche di più di 700 comuni**[^covid2], di fatto resuscitando il piano Cassiopea. Open Fiber ha però confermato che queste attivazioni non influiranno sul piano di copertura pubblico.
+A marzo 2020, per via della pandemia di **COVID-19** e per effetto del decreto legge "Cura Italia" e delle decisioni di AGCOM[^covid1], TIM ha avviato **l'attivazione di 5mila armadi FTTC nelle aree bianche di più di 700 comuni**[^covid2], di fatto resuscitando il piano Cassiopea. Open Fiber ha però confermato che queste attivazioni non influiranno sul piano di copertura pubblico.[^openfiber]
 
 [^covid1]: *AGCOM: CORONAVIRUS, DECISIONI IN MATERIA DI RETE, TLC E SERVIZI POSTALI*, 18 marzo 2020 https://ilblogdiagcom.blogspot.com/2020/03/agcom-coronavirus-decisioni-in-materia.html?spref=tw
 [^covid2]: *La connessione Ultrabroadband TIM ha raggiunto altri 700 comuni. E andiamo avanti*, 24 marzo 2020 https://www.tim.it/assistenza/per-i-consumatori/info-consumatori-fisso/news/la-connessione-ultrabroadband-tim-ha-raggiunto
+[^openfiber]: https://openfiber.it/app/uploads/2020/06/Domande-e-risposte-Report.pdf
 
 ## Il procedimento dell'Antitrust
 
