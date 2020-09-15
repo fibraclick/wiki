@@ -190,7 +190,7 @@ L'intervento della fase 2 è spesso chiamato (impropriamente) "piano aree grigie
 
 Secondo una stima di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, "da identificare nell'ambito della prossima programmazione europea"[^mid].
 
-Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021, si suppone per poter sfruttare i fondi previsti dal "Recovery Fund" della Commissione Europea.[^grigie2020][^grigie2021]
+Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021, si suppone per poter sfruttare i fondi previsti dal fondo per la ripresa della Commissione Europea.[^grigie2020][^grigie2021]
 
 [^grigie2020]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
 [^grigie2021]: https://forum.fibra.click/d/8885-il-piano-aree-grigie-e-stato-rimandato-al-2021
