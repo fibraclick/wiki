@@ -8,9 +8,9 @@ description: La consultazione Infratel 2019 ha lo scopo di aggiornare le aree ne
 categories: [Copertura, Piano BUL]
 ---
 
-La **consultazione Infratel 2019** è un'attività di raccolta dati svolta nel primo semestre 2019 con lo scopo di aggiornare le previsioni di copertura a banda ultralarga nelle cosiddette aree nere e grigie.
+La **consultazione Infratel 2019** è stata un'attività di raccolta dati svolta nel primo semestre 2019 con lo scopo di aggiornare le previsioni di copertura a banda ultralarga nelle cosiddette aree nere e grigie.
 
-L'attività è coordinata da **Infratel**, l'azienda controllata dal Ministero dello Sviluppo Economico che si occupa di pianificare gli investimenti per lo sviluppo della banda larga e ultralarga sul territorio nazionale.
+L'attività è stata coordinata da **Infratel**, l'azienda controllata dal Ministero dello Sviluppo Economico che si occupa di pianificare gli investimenti per lo sviluppo della banda larga e ultralarga sul territorio nazionale.
 
 L'obiettivo è **produrre una mappatura (civico per civico)** dello stato della banda ultralarga in Italia, e nello specifico **la copertura esistente a dicembre 2018 e le previsioni per fine 2019, 2020 e 2021**.
 
@@ -36,8 +36,6 @@ La Commissione Europea definisce così le aree nere, grigie e bianche:
 ## A cosa serve la consultazione
 
 I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni nelle **aree grigie**, per un upgrade a tecnologie in grado di offrire fino a 1 Gbps di velocità in download.
-
-**I risultati aggregati della consultazione non danno informazioni sulla suddivisione delle aree, ma si può ipotizzare che saranno coinvolte buona parte delle abitazioni indicate come VDSL.**
 
 {{< info >}}
 Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
