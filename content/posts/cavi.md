@@ -1,12 +1,11 @@
 ---
 title: "Come scegliere un cavo di rete"
 slug: cavi
-date: 2020-10-03T15:30:00+02:00
-lastmod: 2020-10-03T15:30:00+02:00
+date: 2020-10-04T13:00:00+02:00
+lastmod: 2020-10-04T13:00:00+02:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
-hidden: true
 ---
 
 Con la progressiva diffusione delle connessioni a Internet ad altissima velocità, molti utenti si stanno interessando alle reti cablate, che a differenza del Wi-Fi permettono di **sfruttare al massimo le velocità e la stabilità di queste connessioni**.
@@ -23,7 +22,7 @@ Va quindi innanzitutto chiarito che **la schermatura** (o l'assenza di schermatu
 
 Allo stesso modo, **un cavo schermato non è di per sé un cavo qualitativamente migliore** rispetto ad un cavo non schermato. È invece un tipo di cavo con caratteristiche particolari e progettato per essere utilizzato in ambiti specifici, ad esempio:[^schermatura]
 
-- situazioni in cui sono presenti apparecchiature industriali ad alta potenza e con caratteristiche particolari, che generano elevate inteferenze elettromagnetiche;
+- situazioni in cui sono presenti apparecchiature industriali ad alta potenza e con caratteristiche particolari, che generano elevate interferenze elettromagnetiche;
 - situazioni in cui ci sono centinaia o migliaia di cavi di rete che viaggiano paralleli per lunghe distanze. (In questi casi si tende però a preferire la fibra ottica, e va anche considerato che le coppie contenute nei cavi di rete sono intrecciate per ridurre le interferenze.)
 
 [^schermatura]: http://www.fiber-optic-components.com/shielded-vs-unshielded-ethernet-cable-use.html
@@ -95,7 +94,7 @@ Per evitare contatti accidentali tra conduttori del cavo di rete e conduttori in
 
 **No**, si tratta di **cavi rigidi che non sopportano bene "movimenti" frequenti**. Andare dunque a crimpare dei connettori per poi connetterli direttamente a un computer o a un dispositivo potrebbe portare nel tempo a un danneggiamento del cavo.
 
-La soluzione migliore è quindi **utilizzare dei "keystone"** (o dei "frutti", magari della stessa serie civile che avete in casa, come nella foto sopra), installandoli in una scatola dell'antenna TV o del telefono, su cui andrete poi a terminare i cavi di rete.
+La soluzione migliore è quindi **utilizzare dei "keystone"** (o dei "frutti", magari della stessa serie civile che avete in casa, come nella foto sopra), installandoli in una scatola dell'antenna TV o del telefono, su cui andare poi a terminare i cavi di rete.
 
 In questo modo **dal keystone/frutto al dispositivo sarà sufficiente utilizzare un cavo di rete "patch"**  della lunghezza desiderata e della stessa categoria del cavo utilizzato per il cablaggio. (Anche i frutti e i keystone devono essere della medesima categoria.)
 
