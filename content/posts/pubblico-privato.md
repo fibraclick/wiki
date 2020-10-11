@@ -27,10 +27,6 @@ Vedi anche [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md
 
 **Un'azienda che investe privatamente può anche ricevere fondi pubblici** dallo Stato o dalle regioni, per realizzare infrastrutture in aree a divario digitale, cioè le cosiddette aree bianche o a fallimento di mercato.
 
-{{< green >}}
-È importante tenere presente che **nello stesso comune ci possono essere sia aree nere/grigie che bianche**. Infatti, in Italia sono state definite quasi 100mila aree per circa 8mila comuni. Ciò si traduce molto frequentemente nella presenza di intervento sia privato che pubblico nello stesso comune.
-{{< /green >}}
-
 ## Intervento pubblico
 
 Con **intervento pubblico** si intende la copertura a banda larga ottenuta tramite **fondi pubblici dello Stato**. Talvolta le infrastrutture realizzate si definiscono quindi *fibra di Stato*.
@@ -43,13 +39,13 @@ Per questioni legate alla normativa sugli **aiuti di Stato**, l'intervento pubbl
 
 Il sostegno pubblico della banda larga può essere di diversi tipi[^eca]:
 
-- **investimento diretto**: le infrastrutture realizzate sono di **proprietà dello Stato** o di una sua azienda (es. Infratel), che ne detiene il controllo. Le reti a investimento diretto sono a disposizione di tutti gli operatori tramite **vendità all'ingrosso**
-- **investimento indiretto**: un'azienda privata riceve fondi pubblici per realizzare una rete aperta che resta però di sua proprietà e gestione
-- altri tipi di sovvenzione
+- **investimento diretto**: le infrastrutture realizzate sono di **proprietà dello Stato** o di una sua azienda (es. Infratel), che ne detiene il controllo. Le reti a investimento diretto sono a disposizione di tutti gli operatori tramite **vendità all'ingrosso**;
+- **investimento indiretto**: un'azienda privata riceve fondi pubblici per realizzare una rete aperta che resta però di sua proprietà e gestione;
+- altri tipi di sovvenzione.
 
 **In Italia, a partire dal 2015 si utilizza a livello nazionale il modello di investimento diretto.**
 
-Il piano BUL 2015-2020 prevede infatti di coprire circa il 25% della popolazione con la realizzazione di una imponente rete pubblica in tutte le aree a fallimento di mercato. La rete realizzata è e resterà di proprietà dello Stato, ma sarà data in concessione per un periodo di tempo limitato a una azienda privata, che ne gestirà l'operatività pratica.
+Il piano BUL 2015-2020 prevede infatti di coprire circa il 25% della popolazione con la realizzazione di una imponente rete pubblica in tutte le aree a fallimento di mercato (le **aree bianche**). La rete realizzata è e resterà di proprietà dello Stato, ma sarà data in concessione a una azienda privata che ne gestirà anche la manutenzione.
 
 {{< info >}}
 Per approfondimenti, leggi [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}) e [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}), l'azienda vincitrice degli appalti per la realizzazione di una rete pubblica nell'ambito del piano BUL 2015-2020.
