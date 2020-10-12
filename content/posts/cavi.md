@@ -2,7 +2,7 @@
 title: "Come scegliere un cavo di rete"
 slug: cavi
 date: 2020-10-04T13:00:00+02:00
-lastmod: 2020-10-04T13:00:00+02:00
+lastmod: 2020-10-12T11:00:00+02:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
