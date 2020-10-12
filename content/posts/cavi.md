@@ -2,7 +2,7 @@
 title: "Come scegliere un cavo di rete"
 slug: cavi
 date: 2020-10-04T13:00:00+02:00
-lastmod: 2020-10-12T11:00:00+02:00
+lastmod: 2020-10-12T13:30:00+02:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
@@ -122,9 +122,9 @@ Inoltre, i cavi in alluminio presentano dei problemi nel caso sia necessario sfr
 {{< green >}}
 ###### I diversi significati di "CCA"
 
-È opportuno sottolineare che all'interno del nostro mercato la sigla "CCA" può avere anche un secondo significato. Sono infatti definite, per le guaine dei cavi, delle **classi di comportamento al fuoco/incendio** e una di queste è proprio la classe Cca.
+È opportuno sottolineare che all'interno del nostro mercato la sigla "CCA" può avere anche un secondo significato. Sono infatti definite, per le guaine dei cavi, delle **classi di comportamento al fuoco** e una di queste è proprio la classe Cca.
 
-Questa classe, in particolare, implica la non propagazione del fuoco e indica un cavo utilizzabile all'interno della maggior parte delle case e degli uffici.
+Questa classe, in particolare, implica la non propagazione dell'incendio e indica un cavo utilizzabile all'interno della maggior parte delle case e degli uffici.
 
 In tal senso, dunque, è bene prestare attenzione quando si valuta un cavo:
 - un cavo con conduttore CCA è un cavo di bassa qualità;
