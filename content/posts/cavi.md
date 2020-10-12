@@ -19,7 +19,7 @@ Questo articolo vi aiuterà nella **scelta di un cavo di rete**, illustrandone l
 I cavi dati non sono tutti uguali, e in particolare è possibile distinguerli in due tipologie:
 
 - i cavi da **cablaggio strutturato**, a cui è principalmente rivolta questa guida. Sono cavi con **conduttori rigidi** e utilizzati solitamente su lunghe distanze;
-- i cavi **patch**. Sono cavi **flessibili, con conduttori sottili** organizzati in trefoli. Vengono utilizzati per collegare ad esempio un computer ad un modem, o in generale per collegare qualsiasi dispositivo ad una presa o a un apparato di rete.
+- i cavi **patch**. Sono cavi **flessibili, con conduttori sottili** organizzati in trefoli. Vengono utilizzati per collegare ad esempio un computer ad un modem, o in generale per collegare qualsiasi dispositivo ad un "frutto" o "keystone" o a un apparato di rete.
 
 Nella pratica, se vi serve un cavo da passare in tubi corrugati per poi installare un frutto/keystone in una scatola, il cavo da utilizzare è un cavo da cablaggio strutturato. Se invece dovete collegare un computer ad un frutto/keystone, dovrete utilizzare un cavo patch, facilmente riconoscibile dal fatto che è solitamente venduto già connettorizzato.
 
@@ -103,9 +103,9 @@ Per evitare contatti accidentali tra conduttori del cavo di rete e conduttori in
 
 **No**, si tratta di **cavi rigidi che non sopportano bene "movimenti" frequenti**. Andare dunque a crimpare dei connettori per poi connetterli direttamente a un computer o a un dispositivo potrebbe portare nel tempo a un danneggiamento del cavo.
 
-La soluzione migliore è quindi **utilizzare dei "keystone"** (o dei "frutti", magari della stessa serie civile che avete in casa, come nella foto sopra), installandoli in una scatola dell'antenna TV o del telefono, su cui andare poi a terminare i cavi di rete.
+La soluzione migliore è quindi **utilizzare dei keystone** (o dei frutti, magari della stessa serie civile che avete in casa, come nella foto sopra), installandoli in una scatola dell'antenna TV o del telefono, su cui andare poi a terminare i cavi di rete.
 
-In questo modo **dal keystone/frutto al dispositivo sarà sufficiente utilizzare un cavo di rete "patch"**  della lunghezza desiderata e della stessa categoria del cavo utilizzato per il cablaggio. (Anche i frutti e i keystone devono essere della medesima categoria.)
+In questo modo **dal keystone/frutto al dispositivo sarà sufficiente utilizzare un cavo di rete patch**  della lunghezza desiderata e della stessa categoria del cavo utilizzato per il cablaggio. (Anche i frutti e i keystone devono essere della medesima categoria.)
 
 ## Rame o alluminio?
 
