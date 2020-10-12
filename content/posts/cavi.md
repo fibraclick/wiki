@@ -14,11 +14,20 @@ Questo articolo vi aiuterà nella **scelta di un cavo di rete**, illustrandone l
 
 {{< toc >}}
 
+## Cavi per cablaggio vs cavi patch
+
+I cavi dati non sono tutti uguali, e in particolare è possibile distinguerli in due tipologie:
+
+- i cavi da **cablaggio strutturato**, a cui è principalmente rivolta questa guida. Sono cavi con **conduttori rigidi** e utilizzati solitamente su lunghe distanze;
+- i cavi **patch**. Sono cavi **flessibili, con conduttori sottili** organizzati in trefoli. Vengono utilizzati per collegare ad esempio un computer ad un modem, o in generale per collegare qualsiasi dispositivo ad una presa o a un apparato di rete.
+
+Nella pratica, se vi serve un cavo da passare in tubi corrugati per poi installare un frutto/keystone in una scatola, il cavo da utilizzare è un cavo da cablaggio strutturato. Se invece dovete collegare un computer ad un frutto/keystone, dovrete utilizzare un cavo patch, facilmente riconoscibile dal fatto che è solitamente venduto già connettorizzato.
+
 ## Schermato o non schermato?
 
 Si incontra spesso l'errata convinzione che i cavi schermati siano di qualità migliore o che permettano il cablaggio in coesistenza con cavi in tensione (230V).
 
-Va quindi innanzitutto chiarito che **la schermatura** (o l'assenza di schermatura) **non è un requisito per poter posare i cavi a fianco a cavi in tensione**: esiste invece una specifica tipologia di cavi compatibile con tali applicazioni, di cui parleremo più avanti nell'articolo.
+Va quindi innanzitutto chiarito che **la schermatura** (o l'assenza di schermatura) **non implica la possibilità di posare i cavi a fianco a cavi in tensione**: esiste invece una specifica tipologia di cavi compatibile con tali applicazioni, di cui parleremo più avanti nell'articolo.
 
 Allo stesso modo, **un cavo schermato non è di per sé un cavo qualitativamente migliore** rispetto ad un cavo non schermato. È invece un tipo di cavo con caratteristiche particolari e progettato per essere utilizzato in ambiti specifici, ad esempio:[^schermatura]
 
@@ -109,6 +118,18 @@ Tuttavia, le specifiche dei cavi di rete richiedono l'**uso obbligatorio di cond
 Inoltre, i cavi in alluminio presentano dei problemi nel caso sia necessario sfruttare la funzionalità PoE (*Power Over Ethernet*, per alimentare dispositivi come access point Wi-Fi tramite il cavo di rete), per via della maggiore resistenza dell'alluminio.
 
 **Assicuratevi quindi che i cavi che scegliete siano in rame.**
+
+{{< green >}}
+###### I diversi significati di "CCA"
+
+È opportuno sottolineare che all'interno del nostro mercato la sigla "CCA" può avere anche un secondo significato. Sono infatti definite, per le guaine dei cavi, delle **classi di comportamento al fuoco/incendio** e una di queste è proprio la classe Cca.
+
+Questa classe, in particolare, implica la non propagazione del fuoco e indica un cavo utilizzabile all'interno della maggior parte delle case e degli uffici.
+
+In tal senso, dunque, è bene prestare attenzione quando si valuta un cavo:
+- un cavo con conduttore CCA è un cavo di bassa qualità;
+- un cavo con guaina rispondente alla classe Cca e con conduttore in rame puro è un ottimo cavo.
+{{< /green >}}
 
 ## Conclusione
 
