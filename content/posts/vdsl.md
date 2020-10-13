@@ -17,9 +17,9 @@ Lo svantaggio è che **la velocità diminuisce rapidamente** con l'aumentare del
 
 {{< fig src="/images/architetture-fttc.png" caption="Architettura di rete FTTC/VDSL2" >}}
 
-L'erogazione di una linea VDSL2 avviene tramite un **apparato attivo**, cioè alimentato, chiamato **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Il DLSAM (o ONU) viene spesso collocato all'interno di un sopralzo, installato sull'armadio ripartilinea di TIM.
+L'erogazione di una linea VDSL2 avviene tramite un **apparato attivo**, cioè alimentato, chiamato **DSLAM** (*Digital Subscriber Line Access Multiplexer*). Il DSLAM (o ONU) viene spesso collocato all'interno di un sopralzo, installato sull'armadio ripartilinea di TIM.
 
-{{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un trasformatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
+{{< fig src="/images/fttc-tim1.jpg" caption="Armadio TIM (a sinistra) con sopralzo ONU-DSLAM (sopra). A destra, la colonnina di alimentazione contenente un alimentatore e un contatore Enel." alt="A sinistra, un armadio ripartilinea TIM con sopra una scatola con il tetto rosso, a destra, una colonnina stretta e alta con il tetto rosso." >}}
 
 ## I profili VDSL2
 
