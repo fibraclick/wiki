@@ -2,7 +2,7 @@
 title: "Cos'è il vectoring"
 slug: vectoring
 date: 2019-04-20T11:40:36+02:00
-lastmod: 2020-06-21T12:00:00+02:00
+lastmod: 2020-10-16T14:30:00+02:00
 authors: [Matteo]
 description: Il vectoring è una tecnologia che permette di migliorare la qualità delle linee fibra misto rame. Come funziona e a che punto siamo in Italia.
 categories: [Definizioni, FTTC]
@@ -37,7 +37,7 @@ Questo è il principale motivo per cui **in Italia il vectoring non è stato app
 
 La delibera Agcom 348/19/CONS[^agcom2] del 18 luglio 2019 **apre finalmente alla possibilità di utilizzare il vectoring** senza MOV nelle aree in cui lo SLU non è presente, cioè circa il 95% dei comuni.[^slu] Prevede anche che in presenza di SLU gli operatori possano procedere con l'attivazione del vectoring anche in assenza di un accordo, una voltra trascorsi 2 mesi dalla proposta.[^fcvect]
 
-Durante il 2019 TIM ha avviato una sperimentazione del vectoring molto ristretta e solo in alcune aree geografiche[^piemonte], mentre **da maggio 2020 risulta in fase di attivazione su molti DSLAM**, soprattutto nelle [aree bianche]({{< relref "/posts/aree.md" >}}).[^deployment1][^deployment2]
+Durante il 2019 TIM ha avviato una sperimentazione del vectoring molto ristretta e solo in alcune aree geografiche[^piemonte], mentre **da maggio 2020 risulta in fase di attivazione su molti DSLAM**, soprattutto nelle [aree bianche]({{< relref "/posts/aree.md" >}}).[^deployment1][^deployment2] Da ottobre 2020 il vectoring ("**supervectoring**") risulta in fase di attivazione anche su linee con profilo 35b (200 Mbps).[^deployment3]
 
 {{< footer >}}
 
@@ -50,3 +50,4 @@ Durante il 2019 TIM ha avviato una sperimentazione del vectoring molto ristretta
 [^piemonte]: *TIM avvia la sperimentazione del vectoring in Piemonte!*, 26 gennaio 2019 https://www.ilpuntotecnico.com/tim-avvia-la-sperimentazione-del-vectoring-in-piemonte/
 [^deployment1]: https://forum.fibra.click/d/7439-vectoring-attivo-in-area-bianca
 [^deployment2]: https://forum.fibra.click/d/8158-stasera-si-e-attivato-il-vectoring-dslam-nokia
+[^deployment3]: https://forum.fibra.click/d/11211-vectoring-su-35b-confermato
