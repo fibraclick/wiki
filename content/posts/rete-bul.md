@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2020-08-18T13:30:00+02:00
+lastmod: 2020-10-21T10:30:00+02:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -89,6 +89,8 @@ Esistono diversi modelli di PCN, che si distinguono in base alla dimensione dell
 {{< fig src="/images/rete-bul/pcn-bul-5.jpg" caption="PCN BUL SH65 nel comune di Sant'Angelo a Cupolo (BN). Grazie al sindaco Fabrizio d'Orta per la foto." >}}
 
 {{< fig src="/images/rete-bul/pcn-bul-6.jpg" caption="PCN BUL SH30 nel comune di San Michele di Ganzaria (CT). Grazie a Giuseppe Loris D. per la foto." >}}
+
+{{< fig src="/images/rete-bul/pcn-bul-7.jpg" caption="PCN BUL CAB24 nel comune di Salcito (CB). Grazie a Fiorenzo L. per la foto." >}}
 
 {{< fig src="/images/rete-bul/pcn-bul-2.jpg" caption="PCN BUL (definitivo) in formato armadio/cab, per coprire poche centinaia di UI. Grazie a @Hadx per la foto." vertical="true" >}}
 
