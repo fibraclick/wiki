@@ -2,7 +2,7 @@
 title: "Come funziona la rete Internet"
 slug: internet
 date: 2020-03-13T16:00:00+01:00
-lastmod: 2020-03-22T10:30:00+01:00
+lastmod: 2020-10-21T10:30:00+02:00
 authors: [Matteo]
 description: "Come funziona Internet? Con un linguaggio semplice, spieghiamo cos'è il modello a strati, i sistemi autonomi, il peering e il transito."
 categories: [Reti]
@@ -130,6 +130,8 @@ In alternativa **il peering può essere anche privato** (anche detto <abbr title
 [Dal 2013](https://www.chimerarevo.com/guide/internet/telecom-italia-depeering-146284/) Telecom Italia ha avviato una politica di depeering, e cioè ha smesso quasi completamente di fare peering pubblico negli IXP (al MIX fa peering solo con il GARR, la rete degli istituti di ricerca e delle università).
 
 Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet](https://www.linux.it/~md/text/depeering-topix.pdf) in Italia, perché il traffico degli operatori non poteva più essere consegnato direttamente a Telecom Italia se non tramite singoli accordi di peering privato (potenzialmente a pagamento per gli operatori più piccoli).
+
+Ad aprile 2020, durante la pandemia di COVID-19, TIM ha [ripreso](https://youtu.be/58muEEZ4PCE) il peering gratuito presso i centri di scambio MIX, NaMeX, TOP-IX e VSIX, mantenendo però una "policy selettiva", cioè stabilendo delle regole per decidere chi può fare peering pubblico con TIM e chi no.
 {{< /green >}}
 
 {{< footer >}}
