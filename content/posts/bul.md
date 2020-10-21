@@ -16,7 +16,7 @@ La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è un proge
 Il piano è composto da diverse parti:
 
 - la **copertura delle aree bianche**, anche dette a "fallimento di mercato", cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps. Questo intervento è in corso e prevede nello specifico la copertura da parte di Open Fiber di circa il 25% della popolazione italiana, in larga parte in fibra ottica [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (1 Gbps) e in parte in wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (100 Mbps). Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023;
-- la **copertura delle aree grigie e nere a "fallimento tecnologico"**: l'intervento si concentrerà nelle aree in cui non è prevista a breve la presenza di reti ad alta capacità con velocità superiore a 100 Mbps e predisposte al Gigabit. Questo intervento sarà avviato nel corso del 2021;[^mid]
+- la **copertura delle aree grigie e nere a "fallimento tecnologico"**: l'intervento si concentrerà nelle aree in cui non è prevista a breve la presenza di reti ad alta capacità. Questo intervento sarà avviato nel corso del 2021;[^mid]
 - la **copertura di tutte le scuole** in fibra ottica, in larghissima parte entro il 2022;[^mid]
 - l'erogazione di **voucher di sostegno alla domanda di connettività**, cioè buoni economici che le famiglie e le imprese possono utilizzare per passare a una connessione più veloce.[^mid]
 
@@ -184,7 +184,7 @@ Ad aprile 2018 Infratel ha annunciato l'inizio della pianificazione della **fase
 
 [^grigie2018]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
 
-La fase 2 del piano BUL consiste quindi in un **investimento pubblico** con lo scopo di realizzare reti ultraveloci nelle aree che ne sono sprovviste, o dove non sono previste nel breve periodo. Questa aree saranno determinate con precisione dagli esiti della [consultazione 2020]({{< relref "/posts/consultazione2020.md" >}}) condotta da Infratel.
+La fase 2 del piano BUL consiste quindi in un **investimento pubblico** con lo scopo di realizzare reti "ad alta capacità" (VHCN) nelle aree che ne sono sprovviste, o dove non sono previste nel breve periodo. Questa aree saranno determinate con precisione dagli esiti della [consultazione 2020]({{< relref "/posts/consultazione2020.md" >}}) condotta da Infratel.
 
 L'intervento della fase 2 è spesso chiamato (impropriamente) "piano aree grigie", nonostante non riguarderà precisamente le aree grigie (dove è presente una sola rete a banda ultralarga, indipendentemente dal tipo di servizio offerto), ma in generale le aree "a fallimento tecnologico" nelle aree grigie e nere.
 
