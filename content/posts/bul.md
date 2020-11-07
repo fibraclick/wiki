@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2020-08-24T23:00:00+02:00
+lastmod: 2020-11-07T18:00:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -16,7 +16,7 @@ La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è un proge
 Il piano è composto da diverse parti:
 
 - la **copertura delle aree bianche**, anche dette a "fallimento di mercato", cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps. Questo intervento è in corso e prevede nello specifico la copertura da parte di Open Fiber di circa il 25% della popolazione italiana, in larga parte in fibra ottica [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (1 Gbps) e in parte in wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (100 Mbps). Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023;
-- la **copertura delle aree grigie e nere a "fallimento tecnologico"**: l'intervento si concentrerà nelle aree in cui non è prevista a breve la presenza di reti ad alta capacità. Questo intervento sarà avviato nel corso del 2021;[^mid]
+- la **copertura delle aree grigie a "fallimento tecnologico"**: l'intervento si concentrerà nelle aree in cui non è prevista a breve la presenza di reti ad alta capacità. Questo intervento sarà avviato nel corso del 2021;[^mid]
 - la **copertura di tutte le scuole** in fibra ottica, in larghissima parte entro il 2022;[^mid]
 - l'erogazione di **voucher di sostegno alla domanda di connettività**, cioè buoni economici che le famiglie e le imprese possono utilizzare per passare a una connessione più veloce.[^mid]
 
@@ -186,13 +186,12 @@ Ad aprile 2018 Infratel ha annunciato l'inizio della pianificazione della **fase
 
 La fase 2 del piano BUL consiste quindi in un **investimento pubblico** con lo scopo di realizzare reti "ad alta capacità" (VHCN) nelle aree che ne sono sprovviste, o dove non sono previste nel breve periodo. Questa aree saranno determinate con precisione dagli esiti della [consultazione 2020]({{< relref "/posts/consultazione2020.md" >}}) condotta da Infratel.
 
-L'intervento della fase 2 è spesso chiamato (impropriamente) "piano aree grigie", nonostante non riguarderà precisamente le aree grigie (dove è presente una sola rete a banda ultralarga, indipendentemente dal tipo di servizio offerto), ma in generale le aree "a fallimento tecnologico" nelle aree grigie e nere.
+Secondo una stima iniziale di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, "da identificare nell'ambito della prossima programmazione europea"[^mid]. In seguito alla [consultazione Infratel 2020]({{< relref "/posts/consultazione2020.md" >}}), il valore dell'intervento è stato ridotto a 519 milioni di euro.[^grigie2020b]
 
-Secondo una stima di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, "da identificare nell'ambito della prossima programmazione europea"[^mid].
-
-Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021, si suppone per poter sfruttare i fondi previsti dal fondo per la ripresa della Commissione Europea.[^grigie2020][^grigie2021]
+Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021.[^grigie2020][^grigie2021]
 
 [^grigie2020]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
+[^grigie2020b]: https://forum.fibra.click/d/12063-bellezza-novita-sito-bul-in-arrivo-nelle-prossime-settimane/2
 [^grigie2021]: https://forum.fibra.click/d/8885-il-piano-aree-grigie-e-stato-rimandato-al-2021
 
 {{< footer >}}

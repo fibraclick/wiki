@@ -28,7 +28,7 @@ Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/p
 
 ## A cosa serve la consultazione
 
-I dati raccolti serviranno per definire più in dettaglio la [fase 2 del piano BUL]({{< relref "/posts/bul.md#il-piano-aree-grigie" >}}), che ha come scopo un **intervento pubblico** per realizzare reti in grado di offrire **connessioni ad altissima velocità**, **superiore a 100 Mbps ed espandibile al Gigabit/s**. L'obiettivo è raggiungere gli obiettivi della Gigabit Society della Commissione Europea.
+I dati raccolti serviranno per definire più in dettaglio la [fase 2 del piano BUL]({{< relref "/posts/bul.md#il-piano-aree-grigie" >}}), che ha come scopo un **intervento pubblico** per realizzare reti in grado di offrire **connessioni ad altissima velocità**. L'obiettivo è raggiungere gli obiettivi della Gigabit Society della Commissione Europea.
 
 Le aree coinvolte dal piano saranno quindi tutte quelle che risulteranno **scoperte nel breve periodo da tecnologie in grado di offrire queste prestazioni**. Non è ancora del tutto chiaro quali tecnologie rientreranno in questa classificazione.
 
