@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2020-10-21T10:30:00+02:00
+lastmod: 2020-11-15T20:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -55,9 +55,11 @@ I CNO (Centri Nodali Ottici) rappresentano il punto di splitting della rete pass
 Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un approfondimento.
 {{< /info >}}
 
-{{< fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica proprietaria della rete). Grazie a @Hadx per la foto." >}}
+{{< fig src="/images/rete-bul/cno-bul-4.jpg" vertical="true" caption="Un CNO BUL nel comune di Ayas (AO). Grazie a Pierre02 per la foto." >}}
 
-{{< fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Altro CNO BUL. Grazie a Federico N. per la foto." >}}
+{{< fig src="/images/rete-bul/cno-bul-1.jpg" caption="CNO BUL con etichetta Invitalia (azienda pubblica a cui fa capo Infratel Italia, proprietaria della rete). Grazie a @Hadx per la foto." >}}
+
+{{< fig src="/images/rete-bul/cno-bul-2.jpg" vertical="true" caption="Un CNO BUL nel comune di Volano (TN). Grazie a Federico N. per la foto." >}}
 
 {{< fig src="/images/rete-bul/cno-bul-3.jpg" vertical="true" caption="Interno di un CNO BUL." >}}
 
