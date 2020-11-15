@@ -2,7 +2,7 @@
 title: "La consultazione Infratel 2020"
 slug: consultazione-2020
 date: 2020-06-24T13:30:00+02:00
-lastmod: 2020-09-18T16:00:00+02:00
+lastmod: 2020-11-15T20:00:00+01:00
 authors: [Matteo]
 description: La consultazione 2020 ha mappato la copertura a banda ultralarga del Paese, per rilevare le aree in cui c'è carenza di reti ad alta capacità.
 categories: [Copertura, Piano BUL]
@@ -16,7 +16,9 @@ Agli operatori è stato chiesto di inviare **per ogni indirizzo civico delle are
 
 [^manuale]: *Mappatura reti a Banda ultralarga 2020 - Manuale di istruzioni* https://bandaultralarga.italia.it/wp-content/uploads/2020/06/Manuale-di-Istruzioni-mappatura-2020.pdf
 
-Il risultato è una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad alta capacità** e si rende quindi necessario un intervento dello Stato (il cosiddetto "piano aree grigie"). I risultati della consultazione sono stati pubblicati a settembre 2020.
+Il risultato è una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad alta capacità** e si rende quindi necessario un intervento dello Stato (il cosiddetto "piano aree grigie").
+
+I risultati della consultazione sono stati pubblicati a settembre 2020, mentre il sito [Banda Ultralarga](https://bandaultralarga.italia.it/) è stato aggiornato con i nuovi dati a novembre 2020.
 
 {{< toc >}}
 
@@ -62,7 +64,9 @@ Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore ch
 
 ## I risultati
 
-Una prima analisi dei dati è stata [pubblicata](https://bandaultralarga.italia.it/esiti-consultazione-2020/) da Infratel il 9 settembre 2020:
+Una prima analisi dei dati è stata pubblicata da Infratel il 9 settembre 2020:[^esiti]
+
+[^esiti]: https://bandaultralarga.italia.it/esiti-consultazione-2020/
 
 - i dati raccolti riguardano quasi **21 milioni di civici**, cioè circa il 70% del totale in Italia;
 - hanno fornito dati di copertura 44 operatori, di cui 16 nuovi rispetto alla consultazione 2019;
@@ -79,8 +83,8 @@ Dei civici [grigi e neri]({{< relref "/posts/aree.md" >}}), a fine 2022 **il 77%
 
 {{< fig src="/images/cons20-tabella.jpg" caption="La copertura privata prevista a fine 2022 per ciascuna regione." >}}
 
-Nelle prossime settimane sarà possibile consultare i risultati della consultazione per ciascun indirizzo tramite il sito [Banda Ultralarga](https://bandaultralarga.italia.it).
-
 A differenza delle consultazioni precedenti, Infratel potrà pubblicare i dati **anche in forma "disaggregata"**, cioè mostrare per ciascun indirizzo **informazioni aggiuntive sugli operatori e sulle tecnologie utilizzate** per la copertura. Sette operatori (TIM, EOLO, VODAFONE, MYNET, TELWEB, TNET SERVIZI, OPEN FIBER) hanno negato il consenso alla pubblicazione dei dati di copertura in forma disaggregata.[^cons]
+
+Il 16 novembre 2020 la verifica per indirizzo presente sul sito [Banda Ultralarga](https://bandaultralarga.italia.it) è stata aggiornata con i dati della consultazione 2020.
 
 {{< footer >}}
