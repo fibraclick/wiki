@@ -7,12 +7,15 @@ authors: [Matteo]
 description: Il sito BUL del Governo permette di controllare le previsioni future per la banda ultralarga al proprio indirizzo. La guida per interpretarlo.
 categories: [Copertura, FTTH, FWA, FTTC, Piano BUL]
 image: /social/piano-bul.jpg
+hidden: true
 ---
 
 {{< warn >}}
-⚠ **Il sito BUL è stato aggiornato a metà giugno 2020, per cui questa guida fa temporaneamente riferimento alla vecchia versione. I concetti sono molto simili anche nella nuova versione, ma ci sono alcune differenze.**
+⚠️ ⚠️ ⚠️ **Il sito BUL è stato rinnovato a giugno 2020, mentre questa guida fa riferimento alla vecchia versione del sito.**
 
-**Questo articolo sarà aggiornato dopo l'estate 2020, quando sul sito BUL saranno pubblicati i nuovi dati risultanti dalla [consultazione 2020]({{< relref "/posts/consultazione2020.md" >}}).**
+Questa guida resterà online come archivio ma **NON SARÀ AGGIORNATA**.
+
+Molte delle indicazioni di questa pagina **NON SI APPLICANO o NON SONO CORRETTE in riferimento al nuovo sito**.
 {{< /warn >}}
 
 Il sito **Banda Ultra Larga** del Governo italiano permette di verificare indirizzo per indirizzo le previsioni di copertura della banda larga per i prossimi anni.
@@ -22,7 +25,7 @@ I dati mostrati sono quelli raccolti tramite le consultazioni Infratel, e costit
 Puoi inserire il tuo indirizzo di casa [qua](https://bandaultralarga.italia.it/indirizzo/), e poi seguire i paragrafi di questa pagina per comprenderne il risultato.
 
 {{< warn >}}
-⚠ Il sito BUL mostra i risultati delle consultazioni ma **non tiene in considerazione le fasi successive di realizzazione e approvazione dei progetti di copertura**. Le informazioni sono quindi da prendere con le pinze. Se qualcosa non ti torna, chiedi sul [forum di FibraClick](https://forum.fibra.click) e proveremo ad aiutarti.
+⚠️ Il sito BUL mostra i risultati delle consultazioni ma **non tiene in considerazione le fasi successive di realizzazione e approvazione dei progetti di copertura**. Le informazioni sono quindi da prendere con le pinze. Se qualcosa non ti torna, chiedi sul [forum di FibraClick](https://forum.fibra.click) e proveremo ad aiutarti.
 {{< /warn >}}
 
 {{< toc >}}
@@ -63,6 +66,14 @@ Per approfondire:
 ## Sfondo arancione
 
 {{< fig src="/images/sitobul-privato.png" caption="Intervento privato con 3 operatori NGA di cui 1 NGA-VHCN" alt="Pagina web con due caselle che indicano il numero 3 in corrispondenza della sigla NGA e il numero 1 in corrispondenza di NGA-VHCN" >}}
+
+{{< warn >}}
+⚠️ ⚠️ ⚠️ **Il sito BUL è stato rinnovato a giugno 2020, mentre questa guida fa riferimento alla vecchia versione del sito.**
+
+Questa guida resterà online come archivio ma **NON SARÀ AGGIORNATA**.
+
+Molte delle indicazioni di questa pagina **NON SI APPLICANO o NON SONO CORRETTE in riferimento al nuovo sito**.
+{{< /warn >}}
 
 Lo sfondo arancione indica la presenza o la pianificazione di **copertura da parte di uno o più operatori con fondi privati**.
 
