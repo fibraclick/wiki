@@ -41,7 +41,7 @@ blocks:
             - pip3 list
             - python3 bul.py
             - cd ..
-            - hugo -v
+            - hugo -v --minify
             - ls -lah public/
             - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
 

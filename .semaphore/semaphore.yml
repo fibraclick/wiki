@@ -36,7 +36,7 @@ blocks:
             - pip3 list
             - python3 bul.py
             - cd ..
-            - hugo -v
+            - hugo -v --minify
             - ls -lah public/
 promotions:
   - name: Deploy
