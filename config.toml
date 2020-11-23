@@ -8,9 +8,8 @@ removePathAccents = true
 
 [params]
   homeTitle = "FibraClick Wiki, risposte sulla fibra ottica"
-  description = "Dubbi sulla fibra ottica, copertura o intervento pubblico? FibraClick Wiki è lo spazio dedicato dove trovare risposte precise e curate."
+  description = "Dubbi sulla fibra ottica, banda ultralarga o reti in generale? FibraClick Wiki è lo spazio dedicato dove trovare risposte precise e curate."
   analytics = "UA-65084561-3"
-  ads = false
 
 [permalinks]
   posts = "/:slug"

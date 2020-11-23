@@ -1,0 +1,51 @@
+<script type="text/javascript">
+    window.klaroConfig = {
+        hideDeclineAll: true,
+        acceptAll: true,
+        groupByPurpose: false,
+        services: [
+            {
+                name: 'analytics',
+                title: 'Google Analytics',
+                purposes: ['analytics']
+            }
+        ],
+        translations: {
+            it: {
+                privacyPolicyUrl: '/privacy/',
+                acceptAll: 'Accetta tutto',
+                acceptSelected: 'Accetta selezionati',
+                ok: 'Va bene',
+                consentModal: {
+                    title: 'Consensi privacy',
+                    description: 'Qua puoi personalizzare i consensi per l\'uso dei cookie su questo sito web.'
+                },
+                consentNotice: {
+                    learnMore: 'Personalizza',
+                    description: 'Ciao, vorremmo chiederti il consenso per utilizzare i cookie per fini statistici. Puoi modificare le tue scelte in qualsiasi momento nella pagina privacy.',
+                    changeDescription: 'Ci sono stati cambiamenti rispetto alla tua ultima visita, per favore rinnova il consenso.'
+                },
+                privacyPolicy: {
+                    name: 'informativa sulla privacy',
+                    text: 'Per saperne di più, consulta la nostra {privacyPolicy}'
+                },
+                service: {
+                    purpose: 'finalità',
+                    purposes: 'finalità'
+                },
+                analytics: {
+                    description: 'Utilizziamo il servizio di terze parti Google Analytics per tracciare le visite degli utenti sul sito. Questo ci permette di sapere quante persone visitano il sito.'
+                }
+            }
+        }
+    };
+</script>
+
+{{ $js := resources.Get "js/klaro.min.js" | fingerprint -}}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+
+<style type="text/css">
+    .klaro .cookie-notice a {
+        border-bottom: 0;
+    }
+</style>
