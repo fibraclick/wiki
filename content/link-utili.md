@@ -12,8 +12,8 @@ description: "Lista di link utili legati alla fibra ottica, copertura, approfond
 - [Sezione news forum FibraClick](https://forum.fibra.click/t/news)
 
 ## Verifica copertura
-- [File Excel FTTC TIM](https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/1027774?p_r_p_564233524_activePortletId=&_2_WAR_nwscatalogoportlet_activePortlet=false&_2_WAR_nwscatalogoportlet_tab=Coperture&p_r_p_564233524_categoryId=1027776&p_r_p_564233524_isList=true), con centrali e armadi attivi e pianificati
-- [File Excel ADSL TIM](https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/31258?p_r_p_564233524_activePortletId=&_2_WAR_nwscatalogoportlet_activePortlet=false&_2_WAR_nwscatalogoportlet_tab=Coperture&p_r_p_564233524_categoryId=31260&p_r_p_564233524_isList=true), con centrali attive e pianificate
+- [File Excel FTTC TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/vula/##heading-custom3), con centrali e armadi attivi e pianificati
+- [File Excel ADSL TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/bitstream/##heading-custom3), con centrali attive e pianificate
 - [Fibermap](https://fibermap.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
 - [Planetel](https://fibra.planetel.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
 - [Planetel accesso alternativo](https://www.planetel.it/verificare-copertura-fibra-ottica/)
