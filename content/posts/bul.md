@@ -171,8 +171,8 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 {{< fig src="/images/bando2b.jpg" caption="L'offerta economica di Open Fiber per i lotti del bando BUL2." >}}
 
 - **Terzo bando**
-  - 60% di copertura FTTH (>100 Mbps)
-  - 30% di copertura FWA (>30 Mbps)
+  - 59% di copertura FTTH (>100 Mbps)
+  - 41% di copertura FWA (>30 Mbps)
 
 {{< fig src="/images/bando3.jpg" caption="Confronto tra requisiti del bando BUL3 e l'offerta di Open Fiber." alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
