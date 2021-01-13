@@ -2,7 +2,7 @@
 title: "Cos'è il piano BUL"
 slug: piano-bul
 date: 2019-03-24
-lastmod: 2020-11-07T18:00:00+01:00
+lastmod: 2021-01-13T15:00:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -52,11 +52,11 @@ Il progetto di copertura delle aree bianche riguarda **circa il 25% della popola
 
 Le aree bianche sono state identificate dal Ministero dello Sviluppo Economico tramite le **consultazioni Infratel**, nelle quali gli operatori hanno specificato in quali zone avevano intenzione di coprire autonomamente e in quali no.
 
-Le abitazioni effettivamente coperte vengono però decise con precisione solo in fase di redazione del **progetto esecutivo**. È possibile consultare le tratte in fibra ottica previste dai progetti esecutivi [tramite il SINFI]({{< relref "/posts/bul-sinfi.md" >}}), o in alternativa è possibile [scrivere a Infratel](https://www.infratelitalia.it/contatti) chiedendo se il proprio indirizzo sarà coinvolto dal piano e con che tecnologia sarà coperto.
+Le abitazioni effettivamente coperte vengono però decise con precisione solo in fase di redazione del **progetto esecutivo** del comune. Una volta disponibile, il progetto viene pubblicato [sul sito BUL](https://bandaultralarga.italia.it/mappa/), dove è possibile vedere per ciascun comune i tracciati in fibra ottica previsti e quali edifici saranno raggiunti in fibra. Se il tuo comune è in fase di esecuzione o con lavori completati e non vedi le tratte, puoi segnalare il problema [a Infratel](https://www.infratelitalia.it/contatti).
 
-Circa il 75% delle aree bianche coinvolte vengono coperte in [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (*Fiber To The Home*), cioè in fibra ottica fino a 1 Gbps, mentre il restante 25% viene coperto con connessioni wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (*Fixed Wireless Access*) a 100 Mbps.
+Circa l'81% delle aree bianche coinvolte sarà coperto in [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (*Fiber To The Home*), cioè in fibra ottica a 1 Gbps (e fino a 300 Mbps in upload), mentre il restante 19% sarà coperto con connessioni wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (*Fixed Wireless Access*) a 100 Mbps (50 Mbps in upload).[^buldashboard]
 
-{{< fig src="/images/sinfi.jpg" caption="Le tratte della rete pubblica in fibra ottica realizzata in un comune delle aree bianche." >}}
+{{< fig src="/images/sitobul-mappa.jpg" caption="Le tratte della rete pubblica in fibra ottica realizzata in un comune delle aree bianche." >}}
 
 {{< green >}}
 ###### I vincoli dell'aiuto di Stato
@@ -97,11 +97,17 @@ L'esecuzione effettiva dei lavori è affidata da Open Fiber a diverse aziende de
 
 Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
-A metà 2020, i comuni con cantiere FTTH aperto erano poco più di 2000, su un totale previsto di più di 7000. Le **unità immobiliari** inizialmente previste erano 9,6 milioni, poi ridotte a 7,9 milioni, di cui 6,4 milioni da coprire in FTTH e il restante in FWA. Di queste, circa **il 56% risultava in corso di lavorazione o con lavori completati a metà 2020**.[^buldashboard]
+A inizio 2021, i comuni con cantiere FTTH in esecuzione erano circa 2000, con quasi altri 1000 comuni con lavori completati e collaudabili, su un totale previsto di circa 6200 comuni.
 
-Secondo Infratel, l'obiettivo per il 2020 è di avviare i lavori in più di 3000 comuni in totale, e di collaudare e rendere disponibili agli operatori la rete in circa 400 comuni.[^bulmappa]
+<!--
+per il me futuro, come estrarre i numeri dalla dashboard:
+comuni "in esecuzione" = somma di "aperto" + "terminato"
+comuni "completati/collaudabili" = "comuni collaudabili"
+-->
 
-Il piano d'azione di Open Fiber prevede inoltre di **completare il 65% dei lavori entro il 2021, e il 92% entro il 2022**. Il restante 8% si trova in 4 regioni particolarmente impegnative come quantità di abitazioni da coprire, cioè Lombardia, Veneto, Piemonte e Liguria. **In queste regioni la copertura terminerà nel corso del 2023**, anno entro cui dovranno essere rendicontati i fondi europei.[^pianoof]
+Le **unità immobiliari** inizialmente previste erano 9,6 milioni, poi ridotte a 7,9 milioni, di cui 6,4 milioni da coprire in FTTH e il restante in FWA. Di queste, a inizio 2021 circa **il 60% risultava in corso di lavorazione o con lavori completati**.[^buldashboard]
+
+Secondo Infratel, l'obiettivo per il 2021 è di avviare i lavori in tutti i 6200 comuni, e di completarli in circa 3000.[^bulmappa] Il piano d'azione di Open Fiber prevede di **completare la copertura del 65% delle abitazioni entro il 2021, e il 92% entro il 2022**. Il restante 8% si trova in 4 regioni particolarmente impegnative come quantità di abitazioni da coprire, cioè Lombardia, Veneto, Piemonte e Liguria. **In queste regioni la copertura terminerà nel corso del 2023**, anno entro cui dovranno essere rendicontati i fondi europei.[^pianoof]
 
 [^buldashboard]: https://bandaultralarga.italia.it/dashboard/
 [^bulmappa]: https://bandaultralarga.italia.it/mappa/
@@ -124,7 +130,7 @@ Alcuni grandi operatori che vendono in area bianca sono attualmente **Tiscali** 
 
 Nel caso di attivazione di una linea **FTTH**, l'**intervento di allaccio** prevede la stesura della **tratta "verticale"** in fibra ottica dalla strada fino all'interno dell'abitazione, solitamente sfruttando tubazioni esistenti (telefono, citofono, ecc.).
 
-Nel caso di **FWA**, è prevista l'installazione di una **piccola parabola esterna** (sul tetto, balcone, ecc.), che deve avere visibilità ottica con la stazione radio base, cioè l'antenna, di Open Fiber.
+Nel caso di **FWA**, è prevista l'installazione di una **piccola parabola esterna** (sul tetto, balcone, ecc.), che deve avere visibilità ottica con la stazione radio base di Open Fiber.
 
 ## Approfondimento: i bandi pubblici e l'offerta di Open Fiber
 
@@ -188,7 +194,7 @@ La fase 2 del piano BUL consiste quindi in un **investimento pubblico** con lo s
 
 Secondo una stima iniziale di Infratel, il **fabbisogno stimato** per la copertura di queste aree è di più di **5 miliardi di euro**, "da identificare nell'ambito della prossima programmazione europea"[^mid]. In seguito alla [consultazione Infratel 2020]({{< relref "/posts/consultazione2020.md" >}}), il valore dell'intervento è stato ridotto a 519 milioni di euro.[^grigie2020b]
 
-Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021.[^grigie2020][^grigie2021]
+Un primo bando per la copertura delle "aree grigie" era atteso per la fine dell'estate 2020 ma è stato poi rimandato al 2021 per essere incluso nel piano europeo per la ripresa.[^grigie2020][^grigie2021]
 
 [^grigie2020]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
 [^grigie2020b]: https://forum.fibra.click/d/12063-bellezza-novita-sito-bul-in-arrivo-nelle-prossime-settimane/2
