@@ -115,13 +115,6 @@ Secondo Infratel, l'obiettivo per il 2021 è di avviare i lavori in tutti i 6200
 
 Lo **stato dei lavori** è pubblicato e aggiornato periodicamente sul sito istituzionale [Banda Ultra Larga](https://bandaultralarga.italia.it/), dove si possono trovare anche le stime di avvio e termine dei lavori per ciascun comune. Alcune informazioni aggiuntive sono pubblicate anche da Open Fiber nell'[Area Infratel](https://openfiber.it/area-infratel/piano-copertura/) del sito ufficiale.
 
-{{< info >}}
-**Per approfondire:**
-
-- [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
-- [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
-{{< /info >}}
-
 ## Come attivare una linea su rete BUL
 
 Open Fiber è un operatore **wholesale-only** (all'ingrosso), e non vende quindi gli abbonamenti direttamente ai clienti finali. Tramite la homepage del [sito di Open Fiber](https://openfiber.it/) è possibile **verificare se la vendibilità è stata aperta** nel proprio comune, se il proprio indirizzo è coperto e vedere anche la **lista degli operatori** tramite cui è possibile richiedere l'attivazione del servizio.
