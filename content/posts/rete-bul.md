@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2020-11-15T20:00:00+01:00
+lastmod: 2021-01-14T23:45:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -79,12 +79,12 @@ Vedi anche [Cos'è e come funziona GPON]({{< relref "/posts/gpon.md" >}}) per un
 Esistono diversi modelli di PCN, che si distinguono in base alla dimensione dello *shelter* e di conseguenza al numero di abitazioni che possono connettere. Nello specifico:
 
 - **PCN SH30**: il più comune, è lungo 3,3 m e ha una superficie interna di 7 mq. Connette al massimo 14mila UI;[^sh30]
-- **PCN SH65**: lungo 6,5 m, connette al massimo 32mila UI;[^sh65]
+- **PCN SH65**: lungo 6,5 m, ha una superficie interna di 14 mq e connette al massimo 32mila UI;[^sh65]
 - **PCN CAB24**: composto da 4 armadi da 0,80 m di lato ciascuno, connette al massimo 3mila UI.[^cab24]
 
 [^sh30]: https://fabriano.trasparenza-valutazione-merito.it/ca/web/trasparenza/papca-ap?p_p_id=jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet&p_p_lifecycle=2&p_p_state=pop_up&p_p_mode=view&p_p_resource_id=downloadAllegato&p_p_cacheability=cacheLevelPage&controlPanelCategory=portlet_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet&_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet_downloadSigned=true&_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet_id=3342850&_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet_action=mostraDettaglio&_jcitygovalbopubblicazioni_WAR_jcitygovalbiportlet_fromAction=recuperaDettaglio
 
-[^sh65]: https://forum.fibra.click/d/9663-quante-ui-serve-un-pcn/4
+[^sh65]: https://www.comune.madignano.cr.it/public/atti/allegato_327.pdf
 
 [^cab24]: https://www.comune.gorgoglione.mt.it/cms/uploads/2018/07/3292018.pdf
 
