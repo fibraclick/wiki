@@ -2,7 +2,7 @@
 title: "Come fare uno speedtest da terminale"
 slug: speedtest
 date: 2020-04-13T21:00:00+02:00
-lastmod: 2020-04-14T12:00:00+02:00
+lastmod: 2021-01-17T18:15:00+01:00
 authors: [Matteo]
 description: "Eseguire gli speedtest tramte il browser non è sempre un metodo affidabile. Questa guida spiega come eseguirli tramite terminale, su Windows e macOS"
 categories: [Reti]
