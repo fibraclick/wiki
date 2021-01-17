@@ -105,7 +105,7 @@ Dopo qualche secondo verrà mostrato il risultato:
 
 Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
 - per il server Vodafone di Milano: `speedtest -s 4302`
-- per il server EOLO di Milano: `speedtest -s 3997`
+- per il server EOLO di Milano: `speedtest -s 11427`
 
 {{< info >}}
 Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
