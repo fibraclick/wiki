@@ -2,18 +2,20 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2021-01-14T23:45:00+01:00
+lastmod: 2021-01-24T23:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
 image: /social/riconoscere-rete-bul.jpg
 ---
 
-La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, e ha l'obiettivo di coprire il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa il 75%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
+La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) aree bianche, e ha l'obiettivo di coprire quasi il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa l'81%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
 
-Un buon inizio per provare a capire se si è coinvolti dal piano è seguire la guida [*Come controllare la presenza di intervento pubblico o privato*]({{< relref "/posts/sitobul2019.md" >}}), che però dà a volte risultati imprecisi o non sufficientemente dettagliati. Il sito [Open Fiber-Area Infratel](https://openfiber.it/it/fibra-ottica/area-infratel/piano-copertura-infratel) fornisce informazioni più affidabili, ma si limita a indicare il numero di unità immobiliari previste o coperte nel comune.
+Per verificare se si è coinvolti dal piano, il metodo più affidabile è utilizzare la [mappa del sito BUL](https://bandaultralarga.italia.it/mappa/), che mostra un pallino nero sulla propria abitazione nel caso di copertura in fibra ottica. (I tracciati e i pallini sono mostrati soltanto in presenza di progetto esecutivo approvato.)
 
-Può quindi essere utile imparare a riconoscere gli elementi della rete BUL, che nei prossimi anni vedrà una notevole espansione.
+È in ogni caso utile imparare a riconoscere gli **elementi chiave della rete BUL** nelle aree bianche, la cui estensione raggiungerà gli 80mila chilometri di fibra ottica in più di 7000 comuni.[^piano-of]
+
+[^piano-of]: https://bandaultralarga.italia.it/wp-content/uploads/2020/07/Linee-guida-piano-di-azione-a-supporto-delle-realizzazioni-BUL-CD-8-sent.cleaned-1.pdf
 
 {{< toc >}}
 
@@ -98,13 +100,13 @@ Esistono diversi modelli di PCN, che si distinguono in base alla dimensione dell
 
 ## Mini PCN
 
-Per velocizzare la vendibilità della rete FTTH o FWA in un comune, Open Fiber utilizza da metà 2020 dei PCN temporanei di dimensione ridotta, chiamati "mini PCN", in attesa della costruzione del PCN definitivo.[^minipcn]
+Per velocizzare la vendibilità della rete FTTH o FWA in un comune, Open Fiber utilizza da metà 2020 dei **PCN temporanei di dimensione ridotta**, chiamati "mini PCN", in attesa della costruzione del PCN definitivo.[^minipcn]
 
 [^minipcn]: https://bandaultralarga.italia.it/wp-content/uploads/2020/07/Linee-guida-piano-di-azione-a-supporto-delle-realizzazioni-BUL-CD-8-sent.cleaned-1.pdf
 
 Internamente, i mini PCN includono la gestione della parte elettrica e dell'aerazione, la telegestione su rete LTE, gli apparati DWDM per la rete di trasporto, un piccolo [OLT]({{< relref "/posts/gpon.md" >}}) da 16 porte (max 256 linee), i cassetti ottici per collegare le fibre ottiche dei CNO, delle BTS FWA e dei "nodi operatore", e le batterie.[^minipcn2]
 
-C'è anche un po' di spazio per ampliamenti, ad esempio per aggiungere OLT aggiuntivi.
+C'è anche spazio per ampliamenti, ad esempio OLT aggiuntivi sia di Open Fiber che di altri operatori.
 
 {{< fig src="/images/rete-bul/minipcn-2.jpg" caption="Mini PCN BUL di Castelbelforte (MN). Grazie a Davide B. per la foto." >}}
 
