@@ -2,7 +2,7 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2020-06-16T18:00:00+02:00
+lastmod: 2021-02-27T15:00:00+01:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
@@ -67,7 +67,7 @@ ROE e PTE si distinguono principalmente in base alla **presenza o meno di uno sp
 
 Infine, all'interno delle abitazioni sono presenti una **borchia ottica e un ONT**. Un ONT è un dispositivo alimentato, concettualmente analogo ad un modem DSL, che **riceve e decifra** (e viceversa) **il segnale ottico**, e lo converte in un segnale elettrico (tramite un'uscita Ethernet), adatto per il collegamento a un router.
 
-Non sempre l'ONT è un dispositivo a sé stante: può anche essere incorporato all'interno di un router, oppure essere fornito come modulo **SPF**, una cartuccia metallica che va inserita in un router o in un convertitore.
+Non sempre l'ONT è un dispositivo a sé stante: può anche essere incorporato all'interno di un router, oppure essere fornito come modulo **SFP**, una cartuccia metallica che va inserita in un router o in un convertitore.
 
 {{< fig src="/images/cavo-fibra.jpg" caption="Cavo di fibra ottica per FTTH con connettore SC" vertical="true" >}}
 
@@ -137,11 +137,47 @@ Inoltre, mentre Open Fiber in Open Stream consente ad ogni operatore di collegar
 Vedi anche [Cos'è e cosa fa Flash Fiber]({{< relref "/posts/flashfiber.md" >}}) e [Cosa significano VULA, SLU e NGA]({{< relref "/posts/vula-slu-nga.md" >}}).
 {{< /info >}}
 
+### FiberCop
+
+La rete [FiberCop]({{< relref "/posts/fibercop.md" >}}) è basata su GPON con un **fattore di splitting complessivo 1:64**, realizzato tramite **due livelli di splitting 1:4 e 1:16**.
+
+Entrambi i livelli di splitting si trovano in un singolo armadio, chiamato armadio ripartilinea ottico (ARLO) oppure **cabinet ripartilinea ottico (CRO)**, generalmente posizionato in prossimità degli armadi ripartilinea esistenti (dove termina anche la rete primaria in fibra ottica per la FTTC, già posata).[^fibercop]
+
+Ciascun armadio ottico serve **al massimo 384 unità immobiliari**, ciascuna delle quali connessa con una fibra ottica punto-punto. Di conseguenza, si può rendere necessaria l'installazione di più di un CRO per ciascun armadio ripartilinea.
+
+[^fibercop]: https://wdc.wholesale.telecomitalia.it/fibercop/servizi/semi-gpon-e-full-gpon/
+
+{{< fig src="/images/fibercop-cro2.jpg" vertical="true" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad Andrea G. per la foto." >}}
+
+{{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad Andrea G. per la foto." >}}
+
+Un'altra conseguenza del fatto che gli splitter sono concentrati nell'armadio ottico è che si rende più **agevole il passaggio di un cliente tra un operatore e l'altro**: non è infatti necessario un intervento sul ROE che si trova presso l'abitazione.
+
+Il PTE svolge quindi solo il ruolo di raccordo e non contiene splitter.
+
+{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad Andrea G. per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
+
+Gli operatori che vogliono acquisire servizi da FiberCop hanno diverse strade:[^fibercop2]
+
+[^fibercop2]: Offerta di Coinvestimento FiberCop https://storage.googleapis.com/tim_media_prod/2021/01/Proposta_Impegni_Coinvestimento_TIM.zip
+
+- richiedere da TIM o altri operatori il servizio [**VULA**]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [**Bitstream**]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}). In questo caso l'investimento dell'operatore non riguarda in alcun modo la rete di accesso;
+- richiedere il **servizio Full-GPON**, che comprende l'intera rete di accesso ad esclusione dell'OLT, che deve essere invece installato dall'operatore nella centrale di riferimento;
+- richiedere il **servizio Semi-GPON**, che consiste nell'acquisizione della sola parte di rete GPON che va dall'armadio ottico alle abitazioni dei clienti. In questo caso il punto di consegna dell'operatore è all'ingresso del CRO, e l'operatore deve quindi dotarsi in autonomia della rete primaria, o acquisirla da TIM o altro operatore.
+
+Negli ultimi due casi, FiberCop si occuperà di installare gli splitter primari e secondari anche per gli altri operatori, come avviene con i servizi passivi di Open Fiber.
+
+{{< fig src="/images/fibercop-wholesale.jpg" >}}
+
+{{< info >}}
+Vedi anche [Cos'è e cosa fa FiberCop]({{< relref "/posts/fibercop.md" >}}).
+{{< /info >}}
+
+{{< footer >}}
+
 [^standard]: *G.984.1 : Gigabit-capable passive optical networks (GPON): General characteristics* https://www.itu.int/rec/T-REC-G.984.1
 [^notiziario]: *Notiziario tecnico Telecom Italia n. 2/2012*, pagina 64 https://www.gruppotim.it/content/dam/telecomitalia/it/archivio/documenti/Innovazione/MnisitoNotiziario/archivio/numeri%20vecchi/2-2012.pdf
 [^ofglossario]: https://openfiber.it/glossario/p/
 [^ofservizi]: https://openfiber.it/area-infratel/servizi/commercializzazione-aree-bianche/
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
 [^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/120434490?p_r_p_564233524_categoryId=120410924&p_r_p_564233524_activePortletId=noportlet
-
-{{< footer >}}

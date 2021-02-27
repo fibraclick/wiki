@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa Flash Fiber"
 slug: flashfiber
 date: 2019-04-05
-lastmod: 2020-06-16T18:00:00+02:00
+lastmod: 2021-02-27T15:00:00+01:00
 authors: [Matteo]
 description: Flash Fiber è la joint venture di TIM e Fastweb che prevede la copertura in fibra ottica di 29 grandi città italiane entro il 2020.
 categories: [Definizioni, Copertura, FTTH]
@@ -15,7 +15,13 @@ Flash Fiber è un operatore *wholesale-only*, e cioè di vendita all'ingrosso. P
 
 L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/gpon.md" >}}), che consente di fornire connessioni con velocità di **1 Gbps in download**. La velocità offerta (nominale ed effettiva) dipende però dall'operatore scelto.
 
-La lista delle 29 città in corso di copertura è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
+La lista delle 29 città ufficialmente coperte è Ancona, Bari, Bergamo, Bologna, Brescia, Catania, Firenze, Genova, Messina, Modena, Monza, Napoli, Padova, Palermo, Parma, Perugia, Pescara, Prato, Reggio Calabria, Reggio Emilia, Roma, Salerno, Siena, Torino, Trento, Trieste, Venezia, Verona, Vicenza.[^ff3]
+
+{{< info >}}
+**Nel corso del 2021, l'attività di Flash Fiber confluirà in FiberCop, che ha un piano di copertura molto più vasto e ambizioso rispetto a Flash Fiber.**
+
+- [Cos'è e cosa fa FiberCop]({{< relref "/posts/fibercop.md" >}})
+{{< /info >}}
 
 {{< warn >}}
 ⚠ **Nella città di Milano Flash Fiber non è presente**, ma esistono invece le infrastrutture separate di **TIM** (dai tempi di Telecom Italia) e **Metroweb**. Metroweb ha realizzato per quasi 20 anni la rete FTTH utilizzata da Fastweb, per poi essere fusa con Open Fiber. Oggi, Fastweb continua a utilizzare e ad attivare utenze sulla ex rete Metroweb.
