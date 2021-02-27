@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2021-02-27T16:30:00+01:00
+lastmod: 2021-02-27T16:45:00+01:00
 authors: [Matteo]
 description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 1610 comuni in FTTH Gigabit entro il 2025. Ecco la lista e i dettagli."
 categories: [Definizioni, Copertura, FTTH]
