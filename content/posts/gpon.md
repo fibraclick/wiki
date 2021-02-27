@@ -163,7 +163,7 @@ Gli operatori che vogliono acquisire servizi da FiberCop hanno diverse strade:[^
 
 - richiedere da TIM o altri operatori il servizio [**VULA**]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [**Bitstream**]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}). In questo caso l'investimento dell'operatore non riguarda in alcun modo la rete di accesso;
 - richiedere il **servizio Full-GPON**, che comprende l'intera rete di accesso ad esclusione dell'OLT, che deve essere invece installato dall'operatore nella centrale di riferimento;
-- richiedere il **servizio Semi-GPON**, che consiste nell'acquisizione della sola parte di rete GPON che va dall'armadio ottico alle abitazioni dei clienti. In questo caso il punto di consegna dell'operatore è all'ingresso del CRO, e l'operatore deve quindi dotarsi in autonomia della rete primaria, o acquisirla da TIM o altro operatore.
+- richiedere il **servizio Semi-GPON**, che consiste nell'acquisizione della sola parte di rete GPON che va dall'armadio ottico alle abitazioni dei clienti. In questo caso il punto di consegna dell'operatore è all'ingresso del CRO, e l'operatore deve quindi dotarsi in autonomia della rete primaria, posandola o acquisendola da TIM o altro operatore.
 
 Negli ultimi due casi, FiberCop si occuperà di installare gli splitter primari e secondari anche per gli altri operatori, come avviene con i servizi passivi di Open Fiber.
 

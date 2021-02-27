@@ -15,7 +15,7 @@ hidden: true
 [^uit]: Le unità immobiliari tecniche sono quelle che nel tempo hanno fatto uso della rete fissa. https://wdc.wholesale.telecomitalia.it/fibercop/
 [^costituzione]: https://www.gruppotim.it/it/archivio-stampa/corporate/2020/CS-TIM-FiberCop-Access.html
 
-FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, cioè, nel momento in cui questo articolo è stato aggiornato, soltanto TIM.
+FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, anche indirettamente tramite TIM.
 
 L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/gpon.md" >}}), che consente di fornire connessioni con velocità di **1 Gbps in download** e centinaia di Mbps in upload, a seconda del profilo scelto dell'operatore.
 
