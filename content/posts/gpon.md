@@ -2,7 +2,7 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2021-02-27T15:00:00+01:00
+lastmod: 2021-02-27T16:30:00+01:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
@@ -143,19 +143,19 @@ La rete [FiberCop]({{< relref "/posts/fibercop.md" >}}) è basata su GPON con un
 
 Entrambi i livelli di splitting si trovano in un singolo armadio, chiamato armadio ripartilinea ottico (ARLO) oppure **cabinet ripartilinea ottico (CRO)**, generalmente posizionato in prossimità degli armadi ripartilinea esistenti (dove termina anche la rete primaria in fibra ottica per la FTTC, già posata).[^fibercop]
 
-Ciascun armadio ottico serve **al massimo 384 unità immobiliari**, ciascuna delle quali connessa con una fibra ottica punto-punto. Di conseguenza, si può rendere necessaria l'installazione di più di un CRO per ciascun armadio ripartilinea.
+Ciascun armadio ottico serve **al massimo 384 unità immobiliari**, ciascuna delle quali connessa con una fibra ottica punto-punto. Di conseguenza, si può rendere necessaria l'installazione di più di un CRO per un armadio ripartilinea.
 
 [^fibercop]: https://wdc.wholesale.telecomitalia.it/fibercop/servizi/semi-gpon-e-full-gpon/
 
-{{< fig src="/images/fibercop-cro2.jpg" vertical="true" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad Andrea G. per la foto." >}}
+{{< fig src="/images/fibercop-cro2.jpg" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad @ag23900 per la foto." >}}
 
-{{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad Andrea G. per la foto." >}}
+{{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad @ag23900 per la foto." >}}
 
 Un'altra conseguenza del fatto che gli splitter sono concentrati nell'armadio ottico è che si rende più **agevole il passaggio di un cliente tra un operatore e l'altro**: non è infatti necessario un intervento sul ROE che si trova presso l'abitazione.
 
 Il PTE svolge quindi solo il ruolo di raccordo e non contiene splitter.
 
-{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad Andrea G. per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
+{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
 
 Gli operatori che vogliono acquisire servizi da FiberCop hanno diverse strade:[^fibercop2]
 

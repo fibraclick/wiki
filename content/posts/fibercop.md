@@ -2,12 +2,11 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2021-02-27T15:00:00+01:00
+lastmod: 2021-02-27T16:30:00+01:00
 authors: [Matteo]
 description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 1610 comuni in FTTH Gigabit entro il 2025. Ecco la lista e i dettagli."
 categories: [Definizioni, Copertura, FTTH]
 image: /social/fibercop.jpg
-hidden: true
 ---
 
 **FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 1610 comuni italiani entro il 2025**, corrispondenti al 56% delle unità immobiliari "tecniche" nazionali.[^uit][^costituzione]
@@ -44,7 +43,7 @@ In genere, i nuovi armadi vengono collocati **accanto a un armadio ripartilinea 
 
 La copertura prevede anche l'installazione di un **Punto di Terminazione di Edificio** (PTE) per abitazione coperta, cioè una scatola che fa da raccordo per la fibra ottica e che viene montata solitamente nel locale contatori del palazzo o su una parete esterna dell'edificio.
 
-{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad Andrea G. per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
+{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
 
 ## Architettura
 
@@ -64,8 +63,8 @@ I dettagli dell'architettura di rete FiberCop, basata sulla tecnologia GPON, son
 
 {{< fig src="/images/fibercop-cro4.jpg" caption="Un CRO \"solitario\" in una zona ad alta densità abitativa di Savona. Grazie ad @ErnyTech per la foto. [Fonte](https://forum.fibra.click/d/16373-nuovo-armadio-fibercop/119)." >}}
 
-{{< fig src="/images/fibercop-cro2.jpg" vertical="true" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad Andrea G. per la foto." >}}
+{{< fig src="/images/fibercop-cro2.jpg" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad @ag23900 per la foto." >}}
 
-{{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad Andrea G. per la foto." >}}
+{{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad @ag23900 per la foto." >}}
 
 {{< footer >}}
