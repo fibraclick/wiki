@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2021-02-27T18:15:00+01:00
+lastmod: 2021-02-28T11:00:00+01:00
 authors: [Matteo]
 description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 1610 comuni in FTTH Gigabit entro il 2025. Ecco la lista e i dettagli."
 categories: [Definizioni, Copertura, FTTH]
@@ -30,7 +30,7 @@ In ciascun comune del piano è prevista la copertura di circa il 75-80% delle un
 
 {{< fig src="/images/fibercop-comuni.jpg" nolink="true" caption="Alcuni dei comuni coinvolti dal piano. La lista completa è pubblicata [qua](https://storage.googleapis.com/tim_media_prod/2021/01/Allegato_1-Piano_di_Copertura_Co_investimento.pdf)." alt="Una lista di alcuni comuni coinvolti dal piano FiberCop." >}}
 
-È possibile verificare se la copertura è in arrivo al proprio indirizzo tramite il sito [Fibermap.it](https://fibermap.it/), dove viene indicato *A BREVE* nel caso in cui il civico sia pianificato per la copertura. Il servizio FTTH sarà poi reso disponibile non solo da TIM ma anche dagli altri operatori che usufruiscono della rete FiberCop all'ingrosso, sia in modalità attiva ([VULA]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [Bitstream-NGA]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}) tramite TIM) che passiva.
+È possibile verificare se la copertura è in arrivo al proprio indirizzo tramite il sito [Fibermap.it](https://fibermap.it/), dove viene indicato *A BREVE* nel caso in cui i lavori per la copertura del proprio civico siano a buon punto e il servizio sarà quindi reso disponibile nelle successive settimane. La FTTH sarà poi disponibile non solo con TIM ma anche con gli altri operatori che usufruiscono della rete FiberCop all'ingrosso, sia in modalità attiva ([VULA]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [Bitstream-NGA]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}) tramite TIM) che passiva.
 
 {{< info >}}
 Per approfondire il wholesale su rete FiberCop, visita la sezione apposita [nella pagina GPON]({{< relref "/posts/gpon.md#fibercop" >}}).
