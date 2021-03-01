@@ -2,7 +2,7 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2021-02-27T16:30:00+01:00
+lastmod: 2021-03-01T11:30:00+01:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
@@ -73,7 +73,7 @@ Non sempre l'ONT è un dispositivo a sé stante: può anche essere incorporato a
 
 ## GPON in Italia
 
-In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber**, **Flash Fiber** (TIM+Fastweb) e **TIM**, tutte realizzate con **tecnologia GPON**.
+In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber**, **Flash Fiber** (TIM+Fastweb) e **TIM/FiberCop**, tutte realizzate con **tecnologia GPON**.
 
 ### Open Fiber
 
@@ -151,7 +151,7 @@ Ciascun armadio ottico serve **al massimo 384 unità immobiliari**, ciascuna del
 
 {{< fig src="/images/fibercop-cro3.jpg" vertical="true" caption="Le uscite di uno splitter primario 1:4 (in alto, si vedono i 4 connettori), e di uno splitter secondario 1:16 (in basso, con 16 connettori). Grazie ad @ag23900 per la foto." >}}
 
-Un'altra conseguenza del fatto che gli splitter sono concentrati nell'armadio ottico è che si rende più **agevole il passaggio di un cliente tra un operatore e l'altro**: non è infatti necessario un intervento sul ROE che si trova presso l'abitazione.
+Un'altra conseguenza del fatto che gli splitter sono concentrati nell'armadio ottico è che si rende più **agevole il passaggio di un cliente tra un operatore e l'altro**: non è infatti necessario un intervento sul ROE che si trova presso l'abitazione, come nel caso di Flash Fiber.
 
 Il PTE svolge quindi solo il ruolo di raccordo e non contiene splitter.
 
