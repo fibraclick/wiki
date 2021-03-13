@@ -15,7 +15,7 @@ blocks:
     task:
       env_vars:
         - name: HUGO_VERSION
-          value: "0.78.1"
+          value: "0.81.0"
       secrets:
         - name: web2
         - name: fibraclick
