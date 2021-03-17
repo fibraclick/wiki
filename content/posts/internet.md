@@ -2,7 +2,7 @@
 title: "Come funziona la rete Internet"
 slug: internet
 date: 2020-03-13T16:00:00+01:00
-lastmod: 2020-10-21T10:30:00+02:00
+lastmod: 2021-03-17T21:30:00+01:00
 authors: [Matteo]
 description: "Come funziona Internet? Con un linguaggio semplice, spieghiamo cos'è il modello a strati, i sistemi autonomi, il peering e il transito."
 categories: [Reti]
@@ -65,13 +65,13 @@ Nel mondo ci sono decine di migliaia di sistemi autonomi[^asstats], e per fare i
 
 Per farlo utilizzano un protocollo chiamato **BGP** (*Border Gateway Protocol*), tramite un'operazione che in gergo si chiama "annunciare". **Un AS annuncia ai suoi "vicini" l'insieme degli indirizzi IP che sono sotto il suo controllo**, in modo che possano essere raggiunti dal resto della rete.
 
-Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti classificate come **Tier 1** (di "primo livello"). Queste reti sono molto poche, ma sono in grado di raggiungere l'intera rete Internet[^tier1]: lo fanno esclusivamente tramite **accordi di peering**, e cioè con lo scambio reciproco di traffico.
+Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti classificate come **Tier 1** (di "primo livello"). Queste reti sono molto poche, ma sono in grado di raggiungere l'intera rete Internet: lo fanno esclusivamente tramite **accordi di peering**, e cioè con lo scambio reciproco di traffico.[^arcep]
 
-[^tier1]: https://en.wikipedia.org/wiki/Tier_1_network
+[^arcep]: https://www.arcep.fr/fileadmin/reprise/observatoire/ipv6/Barometer_of_Data_interconnection_in_France_2020.pdf
 
 La parola *peer* in inglese significa "pari", e infatti gli accordi di peering si hanno di solito tra operatori approssimativamente della stessa dimensione e che devono scambiarsi quantità simili di dati. Un accordo di peering prevede spesso lo scambio del traffico a costo zero (in questo caso viene chiamato *settlement-free peering*), perché permette ad entrambe le parti di accedere a una porzione di Internet a cui altrimenti potrebbero non avere accesso.
 
-**Tutti gli operatori di tipo Tier 1 sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier 1 note sono ad esempio quelle di AT&T, NTT o Telia, nomi che si trovano spesso quando si eseguono *traceroute*.
+**Tutti gli operatori di tipo Tier 1 sono quindi in peering tra loro, e fanno in questo modo da "collage" di Internet**. Uno di questi operatori è italiano, si chiama **Telecom Italia Sparkle** e gestisce una vasta rete di dorsali in tutto il mondo. Altre reti Tier 1 note sono ad esempio quelle di Telia, Lumen (in passato CenturyLink), che comprende la rete Level 3, e GTT, nomi che si trovano spesso quando si eseguono *traceroute*.
 
 {{% green %}}
 ###### Cos'è traceroute?
@@ -85,11 +85,11 @@ La parola *peer* in inglese significa "pari", e infatti gli accordi di peering s
 
 ## Il transito e il peering
 
-Oltre alle reti di tipo Tier 1, esistono anche reti di secondo e terzo livello. Le reti **Tier 3 corrispondono ai piccoli operatori** (<abbr title="Internet Service Provider">ISP</abbr>) o ad altre piccole organizzazioni che gestiscono un sistema autonomo. Per connettersi al resto di Internet, questi operatori siglano degli **accordi di transito con almeno un altro operatore di livello superiore**.
+Oltre alle reti di tipo Tier 1, esistono anche reti di secondo e terzo livello. Le reti **Tier 3 corrispondono in genere ai piccoli operatori** (<abbr title="Internet Service Provider">ISP</abbr>) o ad altre piccole organizzazioni che gestiscono un sistema autonomo. Per connettersi al resto di Internet, questi operatori siglano degli **accordi di transito con almeno un altro operatore di livello superiore**.
 
 In questo modo tutto il traffico Internet generato dall'operatore Tier 3 viene inoltrato all'operatore di livello superiore, che si occuperà poi in modo trasparente di recapitarlo nel modo che preferisce.
 
-Affidarsi a un operatore per il transito ha i suoi vantaggi, ma **quando il traffico cresce può essere limitante**. Entra quindi in gioco di nuovo il **peering**: oltre agli accordi di transito, l'operatore può decidere di fare peering con altri operatori e fornitori di contenuti.
+Affidarsi a un operatore per il transito ha i suoi vantaggi, ma **quando il traffico cresce può essere limitante**. Entra quindi in gioco di nuovo il **peering**: oltre agli accordi di transito, l'operatore può decidere di fare peering con altri operatori e fornitori di contenuti, diventando un operatore **Tier 2**.[^arcep]
 
 Ad esempio, **un operatore potrebbe voler siglare un accordo di peering con Netflix**, in modo che tutto il traffico verso il servizio di streaming venga recapitato direttamente senza passare da altre reti. Questo si traduce tipicamente in una **minore latenza** e in generale **migliori prestazioni, affidabilità e controllo**.[^peering]
 
@@ -109,29 +109,31 @@ Il transito può essere chiamato anche *upstream peering*, proprio perché dipen
 
 Il peering può essere di due tipi: **pubblico o privato**.
 
-Nel primo caso si svolge fisicamente negli **Internet Exchange Point** (IXP), cioè dei luoghi in cui decine o centinaia di operatori si connettono a un'unica grande rete Ethernet che permette lo scambio facilitato dei dati tra tutti gli operatori presenti (comunque a seconda degli accordi di peering).[^ixp]
+Nel primo caso si svolge fisicamente negli **Internet Exchange Point** (IXP) o **Network Access Point** (NAP), cioè dei luoghi in cui decine o centinaia di operatori si connettono a un'unica grande rete Ethernet che permette lo scambio facilitato dei dati tra tutti gli operatori presenti (comunque a seconda degli accordi di peering).[^ixp]
 
 [^ixp]: https://www.cloudflare.com/learning/cdn/glossary/internet-exchange-point-ixp/
 
-In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha una capacità totale di scambio di traffico di più di **5 Tbps** (in condizioni normali non supera però il singolo Tbps).[^ixp2][^mix] La lista degli operatori presenti al MIX, con la relativa capacità di rete, è pubblica e disponibile [sul sito del MIX](https://www.mix-it.net/servizi-di-peering/#content-2). Nella lista ci sono aziende come Netflix (200 Gbps), Google (110 Gbps), Microsoft (200 Gbps), ma anche operatori come Vodafone (200 Gbps), Fastweb (100 Gbps) e EOLO, che nel momento in cui scriviamo detiene il record di 300 Gbps.
+In Italia ci sono diversi IXP, ma il più grande è il **MIX di Milano**, che ha una capacità totale di scambio di traffico di quasi **8 Tbps** (in condizioni normali supera però di poco il singolo Tbps).[^ixp2][^mix] La lista degli operatori presenti al MIX, con la relativa capacità di rete, è pubblica e disponibile [sul sito del MIX](https://www.mix-it.net/servizi-di-peering/#content-2). Nella lista ci sono aziende come Netflix (200 Gbps), Google (400 Gbps), Microsoft (200 Gbps), ma anche operatori come Vodafone (200 Gbps), Fastweb (200 Gbps) e EOLO (300 Gbps).
 
 [^ixp2]: https://en.wikipedia.org/wiki/List_of_Internet_exchange_points
-[^mix]: https://www.mix-it.net/2020/01/15/5-tb-di-capacita-connessa/
+[^mix]: https://www.mix-it.net/
 
 {{< fig src="/images/internet/mix.jpg" caption="Un datacenter di Caldera21, che ospita anche il MIX. Si trova al Caldera Park di via Caldera 21 a Milano. [Fonte](https://www.linkedin.com/showcase/caldera21%C2%AE/about/)." >}}
 
 {{< fig src="/images/internet/tracert1.jpg" caption="Un traceroute fatto da rete Fastweb nel nord Italia mostra chiaramente che il traffico verso l'indirizzo IP `1.1.1.1` viene consegnato all'azienda Cloudflare presso il MIX di Milano (passo 8). Cloudflare è un'importante azienda che fornisce servizi CDN (Content Delivery Network) e protezione da attacchi DDoS." >}}
 
-In alternativa **il peering può essere anche privato** (anche detto <abbr title="Private Network Interconnect">PNI</abbr>), e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico senza passare tramite la rete di un IXP**. Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
+In alternativa **il peering può essere anche privato** (anche detto *Private Network Interconnection*, PNI), e cioè due "operatori" possono accordarsi per lo **scambio diretto del traffico tramite collegamenti dedicati ad alta capacità e senza passare tramite la rete di un IXP**.[^arcep] Questi accordi sono riservati, lo scambio può avvenire in qualsiasi struttura/centrale e non è sempre facile capire quali operatori sono in peering tra loro.
 
 {{< green >}}
 ###### Telecom Italia e il depeering
 
-[Dal 2013](https://www.chimerarevo.com/guide/internet/telecom-italia-depeering-146284/) Telecom Italia ha avviato una politica di depeering, e cioè ha smesso quasi completamente di fare peering pubblico negli IXP (al MIX fa peering solo con il GARR, la rete degli istituti di ricerca e delle università).
+[Dal 2013](https://www.chimerarevo.com/guide/internet/telecom-italia-depeering-146284/) al 2020 Telecom Italia ha portato avanti una politica di depeering, e cioè ha smesso quasi completamente di fare peering pubblico negli IXP (nel periodo indicato era presente al MIX in peering solo con il GARR, la rete degli istituti di ricerca e delle università).
 
 Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet](https://www.linux.it/~md/text/depeering-topix.pdf) in Italia, perché il traffico degli operatori non poteva più essere consegnato direttamente a Telecom Italia se non tramite singoli accordi di peering privato (potenzialmente a pagamento per gli operatori più piccoli).
 
 Ad aprile 2020, durante la pandemia di COVID-19, TIM ha [ripreso](https://youtu.be/58muEEZ4PCE) il peering gratuito presso i centri di scambio MIX, NaMeX, TOP-IX e VSIX, mantenendo però una "policy selettiva", cioè stabilendo delle regole per decidere chi può fare peering pubblico con TIM e chi no.
+
+A partire da febbraio 2021, il peering pubblico con TIM è [diventato a pagamento](https://wdc.wholesale.telecomitalia.it/tw_news/2021/01/22/peering-pubblico-presso-i-nap-prorogato-al-29-1-2021-linvio-del-modulo-per-ladesione-allaccesso-gratuito-alla-rete-dati-di-tim/).
 {{< /green >}}
 
 {{< footer >}}
