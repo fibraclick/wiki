@@ -2,7 +2,7 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2020-06-23T18:00:00+02:00
+lastmod: 2021-03-17T23:00:00+01:00
 authors: [Matteo]
 description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda ultralarga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -23,30 +23,35 @@ In dettaglio, le aree si definiscono così[^lex]:
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga;
 - **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni.
 
-Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Nel contesto italiano si tratta quindi di reti FTTC, FTTH, oppure FWA su frequenze licenziate.
+Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Nel contesto italiano si tratta quindi di reti FTTC, FTTH, oppure FWA (ma solo su frequenze licenziate).
 
 {{< info >}}
 Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}).
 {{< /info >}}
 
 {{< green >}}
-###### Aree vs comuni
-Quando si parla di area, non si intende il territorio di un comune. Ogni comune è suddiviso in più aree, che ricalcano approssimativamente il concetto di "località" definito da ISTAT. In Italia sono state definite 94˙645 aree, su circa 8˙000 comuni, e ciascuna area viene classificata come nera, grigia o bianca per mezzo delle consultazioni svolte annualmente da Infratel.
+###### Reti vs operatori
+
+È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "/posts/vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "/posts/vula-slu-nga.md" >}}) dedicati.
 {{< /green >}}
-
-È importante notare che con l'espressione "due reti" non si intende presenza di due operatori in generale, ma di due infrastrutture di rete. Ad esempio, in Italia, gli operatori che rivendono il servizio FTTC di TIM in modalità [VULA]({{< relref "/posts/vula-slu-nga.md" >}}) non vengono contati come infrastrutture separate. Lo sono invece in caso di presenza di armadi [SLU]({{< relref "/posts/vula-slu-nga.md" >}}) dedicati, come nella foto che segue.
-
-{{< fig src="/images/slu.jpg" caption="Armadi per la FTTC di Fastweb, Vodafone e TIM. La zona coperta dagli armadi è un'area nera. Grazie a Emilio M. per la foto" alt="Strada con marciapiede, sul quale sono posizionati in fila alcuni armadi o box per la FTTC" >}}
 
 **Le aree sono il riferimento a livello europeo per valutare la possibilità di intervento da parte dello Stato**.
 
 In Italia la classificazione delle aree è un compito che spetta a Infratel, cioè l'azienda controllata dal Ministero dello Sviluppo Economico che ha l'obiettivo di incentivare lo sviluppo delle reti di accesso a Internet.
 
-Infratel aggiorna periodicamente una **mappatura delle aree** tramite delle apposite **consultazioni pubbliche**, a cui gli operatori possono rispondere dichiarando la copertura prevista per i prossimi tre anni.
+Infratel aggiorna periodicamente una **mappatura delle aree** tramite delle apposite **consultazioni pubbliche**, a cui gli operatori possono rispondere dichiarando la copertura prevista per i successivi tre anni.
 
-{{< info >}}
-I dati delle consultazioni sono consultabili tramite il sito istituzionale "BUL". Leggi [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}}) per approfondimenti.
-{{< /info >}}
+Quando si parla di area, non si intende però il territorio di un comune. La *Strategia per la banda ultralarga* del 2015 ha suddiviso il territorio italiano in 94.645 aree distribuite sui circa 8.000 comuni italiani, ricalcando approssimativamente il concetto di "località" definito da ISTAT e con lo scopo di permettere una raccolta dei dati di copertura più granulare e precisa.[^aree2015] L'esito della consultazione 2015, condotta in due fasi, ha perciò prodotto per ciascuna area una percentuale di unità immobiliari coperte da servizi a banda ultralarga.
+
+[^aree2015]: https://www.camera.it/temiap/t/news/post-OCD15-11885
+
+In vista dell'avvio dei bandi di gara per il [piano BUL]({{< relref "/posts/bul.md" >}}), **nel 2016 la mappatura è stata rifinita** chiedendo agli operatori di dichiarare le **previsioni di copertura per singolo numero civico**, in modo da stabilire con precisione le zone oggetto di intervento pubblico.[^cons2015]
+
+[^cons2015]: https://www.senato.it/application/xmanager/projects/leg17/attachments/dossier/file_internets/000/002/182/2017_07_04_-_Invitalia_-_Analisi_delle_attivit%C3%A0_e_Fasi_previste_dalla_delibera_CIPE_65-2015.pdf
+
+**Dal 2017 in poi**, le consultazioni Infratel per la mappatura della banda ultralarga **si sono sempre svolte a livello di singolo numero civico**.
+
+Di conseguenza, non è propriamente corretto dire che un comune è ad esempio "area bianca", perché dipende dalla copertura dichiarata per singolo indirizzo. È corretto invece dire che un determinato indirizzo appartiene ad esempio alle aree bianche, oppure che un comune è al 90% bianco.
 
 ## I cluster
 
@@ -54,9 +59,9 @@ In Italia, spesso si usa il termine cluster per identificare un insieme di aree[
 
 [^strategia]: *Strategia italiana per la banda ultralarga*, 2015 https://www.mise.gov.it/images/stories/documenti/ITALIA_Strategia_BUL-Piano_di_investimenti_fin.pdf
 
-- **cluster A**: tutte le aree nere
-- **cluster B**: tutte le aree grigie
-- **cluster C e D**: tutte le aree bianche
+- **cluster A**: tutte le aree nere;
+- **cluster B**: tutte le aree grigie;
+- **cluster C e D**: tutte le aree bianche.
 
 La differenza tra cluster C e D sta nell'entità dell'intervento pubblico consentito allo Stato, che nel cluster C si limita al 70% del totale degli investimenti per quel cluster, mentre nel cluster D non ha limiti.[^cipe]
 
