@@ -1,5 +1,5 @@
 ---
-title: "Benvenuto/a!"
+title: "Ti diamo il benvenuto!"
 date: 2019-04-24T13:52:47+02:00
 ---
 
