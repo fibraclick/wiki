@@ -1,5 +1,5 @@
 ---
-title: "Ti diamo il benvenuto!"
+title: "Ciao!"
 date: 2019-04-24T13:52:47+02:00
 ---
 
