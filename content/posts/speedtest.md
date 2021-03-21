@@ -2,7 +2,7 @@
 title: "Come fare uno speedtest da terminale"
 slug: speedtest
 date: 2020-04-13T21:00:00+02:00
-lastmod: 2021-01-17T18:15:00+01:00
+lastmod: 2021-03-21T21:00:00+01:00
 authors: [Matteo]
 description: "Eseguire gli speedtest tramte il browser non è sempre un metodo affidabile. Questa guida spiega come eseguirli tramite terminale, su Windows e macOS"
 categories: [Reti]
@@ -66,7 +66,7 @@ Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
 - per il server EOLO di Milano: `speedtest -s 11427`
 
 {{< info >}}
-Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
+Non esiste una lista ufficiale completa dei server Speedtest con i loro ID, ma puoi utilizzare il bot Telegram [SpeedtestIDBot](https://t.me/speedtestidbot) per trovarne uno specifico partendo dal suo nome.
 {{< /info >}}
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
@@ -108,7 +108,7 @@ Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
 - per il server EOLO di Milano: `speedtest -s 11427`
 
 {{< info >}}
-Trovi la lista completa dei server di Speedtest.net in [questa pagina XML](https://www.speedtest.net/speedtest-servers.php), da cui puoi estrarre l'ID del server.
+Non esiste una lista ufficiale completa dei server Speedtest con i loro ID, ma puoi utilizzare il bot Telegram [SpeedtestIDBot](https://t.me/speedtestidbot) per trovarne uno specifico partendo dal suo nome.
 {{< /info >}}
 
 Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
