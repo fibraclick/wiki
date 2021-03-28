@@ -4,7 +4,7 @@ slug: speedtest
 date: 2020-04-13T21:00:00+02:00
 lastmod: 2021-03-21T21:00:00+01:00
 authors: [Matteo]
-description: "Eseguire gli speedtest tramte il browser non è sempre un metodo affidabile. Questa guida spiega come eseguirli tramite terminale, su Windows e macOS"
+description: "Eseguire gli speedtest tramite il browser non è sempre un metodo affidabile. Questa guida spiega come eseguirli tramite terminale, su Windows e macOS"
 categories: [Reti]
 image: /social/speedtest.jpg
 ---
