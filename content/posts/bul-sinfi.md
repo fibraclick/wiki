@@ -1,7 +1,6 @@
 ---
 title: "Come consultare le tratte in fibra ottica del piano BUL con il SINFI"
 slug: bul-sinfi
-aliases: bul-sinfi/mappa
 date: 2019-10-28T11:32:11+01:00
 lastmod: 2020-02-24T23:00:00+01:00
 authors: [Matteo]
