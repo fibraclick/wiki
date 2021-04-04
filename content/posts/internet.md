@@ -133,7 +133,7 @@ Lo stop del peering pubblico ha inizialmente [peggiorato la qualità di Internet
 
 Ad aprile 2020, durante la pandemia di COVID-19, TIM ha [ripreso](https://youtu.be/58muEEZ4PCE) il peering gratuito presso i centri di scambio MIX, NaMeX, TOP-IX e VSIX, mantenendo però una "policy selettiva", cioè stabilendo delle regole per decidere chi può fare peering pubblico con TIM e chi no.
 
-A partire da febbraio 2021, il peering pubblico con TIM è [diventato a pagamento](https://wdc.wholesale.telecomitalia.it/tw_news/2021/01/22/peering-pubblico-presso-i-nap-prorogato-al-29-1-2021-linvio-del-modulo-per-ladesione-allaccesso-gratuito-alla-rete-dati-di-tim/) per le interconnessioni con velocità di downstreaming superiori ai 500 Mbps, il peering pubblico resta gratuito per le interconnessioni con velocità inferiori o uguali a 500 Mbps presso MIX e NaMeX.
+A partire da febbraio 2021, il peering pubblico con TIM è [diventato a pagamento](https://wdc.wholesale.telecomitalia.it/tw_news/2021/01/22/peering-pubblico-presso-i-nap-prorogato-al-29-1-2021-linvio-del-modulo-per-ladesione-allaccesso-gratuito-alla-rete-dati-di-tim/), ad eccezione delle interconnessioni con velocità in downstream inferiore a 500 Mbps presso MIX e NaMeX, che restano gratuite.
 {{< /green >}}
 
 {{< footer >}}
