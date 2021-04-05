@@ -10,6 +10,6 @@
   {{- end }}
 
   <figcaption>
-    {{ .Get "caption" | markdownify }}
+    {{ .Get "caption" | .Page.RenderString }}
   </figcaption>
 </figure>
