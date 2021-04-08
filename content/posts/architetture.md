@@ -136,7 +136,7 @@ L'architettura è considerata un modello per quanto riguarda le connessioni Inte
 {{< green >}}
 ###### FTTB
 
-La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo situato nell'edificio in cui si trovano i clienti finali. È poco usata in Italia.
+La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che prevede di terminare la fibra ottica presso un unico apparato attivo situato nell'edificio in cui si trovano i clienti finali. In Italia, questa sigla viene usata principalmente da Open Fiber per indicare le connessioni agli edifici della pubblica amministrazione o delle scuole nelle aree bianche.
 {{< /green >}}
 
 {{< fig src="/images/roe-ff1.jpg" caption="Un ROE Flash Fiber, elemento passivo (non alimentato) delle reti FTTH-GPON. Viene installato nel locale contatori dell'edificio da cablare, oppure su una parete esterna, e ha il ruolo o di \"raccordo\" o di *splitting* della fibra ottica. Grazie a Edoardo C. per la foto." alt="Scatola di un ROE con le etichette Flash Fiber, TIM e Fastweb" vertical="true" >}}
