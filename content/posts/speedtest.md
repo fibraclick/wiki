@@ -115,4 +115,22 @@ Per mostrare tutte le opzioni di Speedtest CLI puoi scrivere `speedtest -h`.
 
 Le volte successive che vorrai eseguire uno speedtest potrai semplicemente aprire il terminale e scrivere `speedtest`.
 
+## Android
+
+È possibile eseguire lo speedtest via terminale anche sui dispositivi Android, è tuttavia necessario installare un emulatore di terminale e di ambiente Linux.
+
+Un esempio di emulatore terminale e ambiente Linux è **Termux**, disponibile nel Play Store, accedi quindi al Play Store, cerca Termux, e installalo nel tuo device Android.
+
+Apri l'applicazione ed esegui come prima cosa il comando `pkg update`, se venisse richiesta qualche tipo di conferma durante il processo di update dei pacchetti, confermare con `Y`
+
+Una volta aggiornata la repository dei pacchetti con il comando precedente puoi aggiornarli con `pkg upgrade`, durante il processo di aggiornamento verranno richieste varie conferme la cui impostazione di default è NO, premere semplicemente invio ad ogni richiesta fino al termine del processo.
+
+È ora necessario installare il database dei pacchetty python, per farlo ti basta eseguire il seguente comando `pkg install python`, anche in questo caso alla richiesta di conferma digita `Y` seguito da invio.
+
+Aggiorna ora python all'ultima versione con `pip install --upgrade pip`
+
+Installato e aggiornato phyton pui ora procedre ad installare Speedtest CLI semplicemente con il comando `pip3 install speedtest-cli`
+
+A questo punto potrai eseguire Speedtest CLI scrivendo semplicemente `speedtest`.
+
 {{< footer >}}
