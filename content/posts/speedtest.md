@@ -125,7 +125,7 @@ Apri l'applicazione ed esegui come prima cosa il comando `pkg update`, se veniss
 
 Una volta aggiornata la repository dei pacchetti con il comando precedente puoi aggiornarli con `pkg upgrade`, durante il processo di aggiornamento verranno richieste varie conferme la cui impostazione di default è NO, premere semplicemente invio ad ogni richiesta fino al termine del processo.
 
-È ora necessario installare il database dei pacchetty python, per farlo ti basta eseguire il seguente comando `pkg install python`, anche in questo caso alla richiesta di conferma digita `Y` seguito da invio.
+È ora necessario installare il database dei pacchetti python, per farlo ti basta eseguire il seguente comando `pkg install python`, anche in questo caso alla richiesta di conferma digita `Y` seguito da invio.
 
 Aggiorna ora python all'ultima versione con `pip install --upgrade pip`
 
