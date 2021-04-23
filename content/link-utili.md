@@ -1,7 +1,7 @@
 ---
 title: "Link utili"
 date: 2019-04-07T00:00:00+02:00
-lastmod: 2020-10-15T18:30:00+02:00
+lastmod: 2021-04-23T21:00:00+02:00
 description: "Lista di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
@@ -20,16 +20,17 @@ description: "Lista di link utili legati alla fibra ottica, copertura, approfond
 - [Vodafone GEA Corporate](http://gea.dsl.vodafone.it/corporate), per controllare i dettagli della copertura Vodafone per indirizzo
 - [Portale LIDO](http://adsl2.csi.telecomitalia.it/), per controllare la vendibilità TIM
 - [Mappa banda larga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura fissa, mobile e wireless in Italia
-- [Open Fiber copertura](https://openfiber.it/verifica-copertura/), per controllare la copertura FTTH per indirizzo
-- [Open Fiber copertura aree bianche](https://openfiber.it/area-infratel/piano-copertura/), per verificare lo stato dei lavori nelle aree bianche, comune per comune
-- [Flash Fiber](https://www.flashfiber.it/), per controllare la copertura FTTH per città o per indirizzo
+- [Open Fiber copertura](https://openfiber.it/verifica-copertura/), per controllare la copertura FTTH per indirizzo, sia nelle città che nelle aree bianche
+- [FiberCop](https://www.fibercop.it/), per controllare la copertura FTTH per città o per indirizzo per la rete Flash Fiber e FiberCop
 
 ## Piano Banda Ultra Larga
 - [Portale BUL](https://bandaultralarga.italia.it/)
+- [Stato lavori (sito Open Fiber)](https://openfiber.it/piano-copertura/stato-dei-lavori/), per verificare lo stato dei lavori nelle aree bianche, comune per comune
+- [Stato lavori (sito BUL)](https://bandaultralarga.italia.it/mappa/)
+- [Evoluzione piano BUL](https://bandaultralarga.italia.it/evoluzione-piano/)
 - [News Infratel](https://www.infratelitalia.it/archivio-news)
-- [GareInfratel.it](https://www.gareinfratel.it/esop/guest/go/public/opportunity/current)
-- [Area Infratel Open Fiber](https://openfiber.it/area-infratel/)
-- [Progetti esecutivi SINFI](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione)
+- [Bandi di gara Infratel](https://gareappalti.infratelitalia.it/)
+- [Progetti esecutivi SINFI (aggiornati al 2020)](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione)
 
 ## Approfondimenti
 - [Notiziario tecnico Telecom Italia](https://www.telecomitalia.com/tit/it/innovazione/notiziario-tecnico.html)
