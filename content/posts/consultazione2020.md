@@ -10,7 +10,7 @@ categories: [Copertura, Piano BUL]
 
 La **consultazione Infratel 2020** è stata un'attività di mappatura condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 23 giugno 2020 ed è terminata il 31 luglio 2020, senza proroghe.[^cons]
 
-[^cons]: *Mappatura 2020 della copertura delle reti a Banda ultralarga* https://bandaultralarga.italia.it/strategia-bul/consultazioni/
+[^cons]: *Mappatura 2020 della copertura delle reti a Banda ultralarga* https://www.infratelitalia.it/archivio-documenti/documenti/avviso-mappatura-2020
 
 Agli operatori è stato chiesto di inviare **per ogni indirizzo civico delle aree nere e grigie** la copertura esistente al **31 dicembre 2019**, oltre alle previsioni per il **31 dicembre 2020, 2021 e 2022**.[^manuale]
 
