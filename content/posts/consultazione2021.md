@@ -6,7 +6,6 @@ lastmod: 2021-05-08T11:20:00+02:00
 authors: [Matteo]
 description: La consultazione 2021 ha lo scopo di mappare le reti a banda ultralarga presenti sul territorio per definire le aree in cui c'è carenza di reti ad altissima capacità.
 categories: [Copertura, Piano BUL]
-hidden: true
 ---
 
 La **consultazione Infratel 2021** è un'attività di mappatura condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 30 aprile 2021 e terminerà il 15 giugno 2021.[^cons]
