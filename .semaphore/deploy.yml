@@ -45,10 +45,10 @@ blocks:
             - ls -lah public/
             - rsync -v -e ssh -r public/ deploy@$IP:$WIKI_DESTINATION/releases/$SEMAPHORE_GIT_SHA
 
-  - name: web2
+  - name: web2@hetzner
     task:
       secrets:
-        - name: web2
+        - name: web2@hetzner
         - name: fibraclick
       prologue:
         commands:
