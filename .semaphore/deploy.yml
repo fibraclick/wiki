@@ -17,7 +17,7 @@ blocks:
         - name: HUGO_VERSION
           value: "0.81.0"
       secrets:
-        - name: web2
+        - name: web2@hetzner
         - name: fibraclick
       prologue:
         commands:
