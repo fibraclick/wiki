@@ -2,17 +2,18 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2021-02-28T11:00:00+01:00
+lastmod: 2021-06-26T21:45:00+02:00
 authors: [Matteo]
-description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 1610 comuni in FTTH Gigabit entro il 2025. Ecco la lista e i dettagli."
+description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 2578 comuni in FTTH Gigabit entro il 2026. Ecco la lista e i dettagli."
 categories: [Definizioni, Copertura, FTTH]
 image: /social/fibercop.jpg
 ---
 
-**FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 1610 comuni italiani entro il 2025**, corrispondenti al 56% delle unità immobiliari "tecniche" nazionali.[^uit][^costituzione]
+**FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 2578 comuni italiani entro metà 2026**, corrispondenti a circa l'80% delle unità immobiliari "tecniche"[^uit] delle aree nere e grigie.[^costituzione][^coinvestimento2]
 
 [^uit]: Le unità immobiliari tecniche sono quelle che nel tempo hanno fatto uso della rete fissa. https://wdc.wholesale.telecomitalia.it/fibercop/
 [^costituzione]: https://www.gruppotim.it/it/archivio-stampa/corporate/2020/CS-TIM-FiberCop-Access.html
+[^coinvestimento2]: https://wdc.wholesale.telecomitalia.it/tw_news/2021/06/25/estensione-della-copertura-dell-offerta-di-co-investimento-di-tim-nella-nuova-rete-in-fibra-di-fibercop/
 
 FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, anche indirettamente tramite TIM.
 
@@ -22,15 +23,19 @@ L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/
 
 ## Città coperte
 
-La lista dei **1610 comuni** che saranno coperti è pubblicata da TIM [in questo file PDF](https://storage.googleapis.com/tim_media_prod/2021/01/Allegato_1-Piano_di_Copertura_Co_investimento.pdf), ed è anche disponibile [una mappa](https://www.google.com/maps/d/viewer?mid=1HAJLRDgqhdg7dcq7LqhXayCLnf2Gq76A&usp=sharing) (non ufficiale). Per ogni comune è indicato l'**anno di completamento della copertura**, ma a detta di TIM **i lavori saranno avviati in tutti i comuni tra il 2021 e il 2022**.[^coinvestimento]
+La lista dei **2578 comuni** che saranno coperti è pubblicata da TIM [in questo file PDF](https://wdc.wholesale.telecomitalia.it/wp-content/uploads/2021/06/Allegato1bs_PianoCoperturaOffertaCoinvestimento-22giu21.pdf), ed è anche disponibile [una mappa](https://www.google.com/maps/d/viewer?mid=1HAJLRDgqhdg7dcq7LqhXayCLnf2Gq76A&usp=sharing) (non ufficiale). Per ogni comune è indicato l'**anno di completamento della copertura**, ma a detta di TIM **i lavori saranno avviati in tutti i comuni tra il 2021 e il 2022**.[^coinvestimento]
 
 [^coinvestimento]: Offerta di Coinvestimento https://storage.googleapis.com/tim_media_prod/2021/01/Proposta_Impegni_Coinvestimento_TIM.zip
 
-In ciascun comune del piano è prevista la copertura di circa il 75-80% delle unità immobiliari tecniche, per un totale di circa 12,9 milioni di UIT entro il 2025, cioè circa il 75% delle [aree nere e grigie]({{< relref "/posts/aree.md" >}}). Tra i comuni che saranno coperti sono presenti anche delle aree bianche (aree teoricamente "a fallimento di mercato").
+In ciascun comune del piano è prevista la copertura di circa il 75-80% delle unità immobiliari tecniche, per un totale di circa 13,6 milioni di UIT entro aprile 2026, cioè circa l'80% delle [aree nere e grigie]({{< relref "/posts/aree.md" >}}). Tra i comuni che saranno coperti sono però presenti anche delle aree bianche (aree teoricamente "a fallimento di mercato").
 
-{{< fig src="/images/fibercop-comuni.jpg" nolink="true" caption="Alcuni dei comuni coinvolti dal piano. La lista completa è pubblicata [qua](https://storage.googleapis.com/tim_media_prod/2021/01/Allegato_1-Piano_di_Copertura_Co_investimento.pdf)." alt="Una lista di alcuni comuni coinvolti dal piano FiberCop." >}}
+{{< fig src="/images/fibercop-comuni.jpg" nolink="true" caption="Alcuni dei comuni coinvolti dal piano. La lista completa è pubblicata [qua](https://wdc.wholesale.telecomitalia.it/wp-content/uploads/2021/06/Allegato1bs_PianoCoperturaOffertaCoinvestimento-22giu21.pdf)." alt="Una lista di alcuni comuni coinvolti dal piano FiberCop." >}}
 
-È possibile verificare se la copertura è in arrivo al proprio indirizzo tramite il sito [Fibermap.it](https://fibermap.it/), dove viene indicato *A BREVE* nel caso in cui i lavori per la copertura del proprio civico siano a buon punto e il servizio sarà quindi reso disponibile nelle successive settimane. La FTTH sarà poi disponibile non solo con TIM ma anche con gli altri operatori che usufruiscono della rete FiberCop all'ingrosso, sia in modalità attiva ([VULA]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [Bitstream-NGA]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}) tramite TIM) che passiva.
+È possibile verificare se la copertura è in arrivo al proprio indirizzo tramite la ricerca per indirizzo presente sul sito [FiberCop.it](https://www.fibercop.it). È anche disponibile una pagina [Cantieri in corso](https://www.fibercop.it/cantieri-in-corso/) che mostra, dopo aver inserito il nome del proprio comune, le aree in cui sono in corso lavori di predisposizione della rete in fibra ottica.
+
+Una volta che un indirizzo risulta coperto sul sito FiberCop, è possibile verificare la disponibilità del servizio con l'operatore TIM tramite il sito [Fibermap.it](https://fibermap.it/), dove viene indicato *A BREVE* nelle settimane precedenti all'effettiva disponibilità del servizio.
+
+La FTTH sarà poi disponibile non solo con TIM ma anche con gli altri operatori che usufruiscono della rete FiberCop all'ingrosso, sia in modalità attiva ([VULA]({{< relref "/posts/vula-slu-nga.md#vula-virtual-unbundled-local-access" >}}) o [Bitstream-NGA]({{< relref "/posts/vula-slu-nga.md#nga-next-generation-access" >}}) tramite TIM) che passiva.
 
 {{< info >}}
 Per approfondire il wholesale su rete FiberCop, visita la sezione apposita [nella pagina GPON]({{< relref "/posts/gpon.md#fibercop" >}}).
@@ -68,6 +73,10 @@ I dettagli dell'architettura di rete FiberCop, basata sulla tecnologia GPON, son
 ## Foto
 
 {{< fig src="/images/fibercop-cro4.jpg" caption="Un CRO \"solitario\" in una zona ad alta densità abitativa di Savona. Grazie ad @ErnyTech per la foto. [Fonte](https://forum.fibra.click/d/16373-nuovo-armadio-fibercop/119)." >}}
+
+{{< fig src="/images/fibercop-cro6.jpg" caption="Un CRO di dimensione ridotta a Chieri (TO), può coprire al massimo 128 unità immobiliari. [Fonte](https://forum.fibra.click/d/16660-avvistamenti-e-mappa-lavori-ftth-fibercop/3236)." >}}
+
+{{< fig src="/images/fibercop-cro5.jpg" caption="Due CRO affiancati a Chiavari (GE). Grazie ad @Salvozzo per la foto. [Fonte](https://forum.fibra.click/d/16660-avvistamenti-e-mappa-lavori-ftth-fibercop/995)." >}}
 
 {{< fig src="/images/fibercop-cro2.jpg" caption="Interno di un CRO. In alto, i 384 connettori per la rete secondaria punto-punto. Al centro, lo spazio per i 14 splitter GPON primari 1:4 (inizialmente ne viene installato solo uno). In basso, lo spazio per 24 splitter secondari 1:16. In basso a destra si vedono i cavi di fibre ottiche primarie in arrivo dalla centrale. Grazie ad @ag23900 per la foto." >}}
 

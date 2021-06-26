@@ -1,16 +1,13 @@
 
-# Created by https://www.gitignore.io/api/hugo,linux,windows,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=hugo,linux,windows,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,linux,windows,visualstudiocode,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,linux,windows,visualstudiocode,macos
 
 ### Hugo ###
-# gitginore template for Hugo projects
-# website: https://gohugo.io
-
-# generated files by hugo
+# Generated files by hugo
 /public/
 /resources/_gen/
 
-# executable may be added to repository
+# Executable may be added to repository
 hugo.exe
 hugo.darwin
 hugo.linux
@@ -30,20 +27,55 @@ hugo.linux
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
 
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+.ionide
 
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
+Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
@@ -66,7 +98,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/hugo,linux,windows,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/hugo,linux,windows,visualstudiocode,macos
 
 .idea
 static/stato-bul
