@@ -60,7 +60,7 @@ Ad esempio, agli operatori è stato chiesto di inviare a Infratel **aggiornament
 
 Un altro vincolo è che **un'abitazione può essere dichiarata coperta solo se l'attivazione «avviene secondo la normale pratica commerciale, senza costi addizionali o straordinari, e quando la tempistica di attivazione non supera le 4 settimane»**. Nel caso di FTTH/FTTB, la rete deve raggiungere il confine della proprietà privata a una distanza inferiore a 50 metri.[^manuale]
 
-Nel caso delle reti wireless, l'abitazione deve trovarsi in prossimità di una stazione radio base (BTS), «tipicamente in visbilità diretta», e il «livello di campo e il rapporto segnale/rumore devono consentire l'attivazione del servizio».
+Nel caso delle reti wireless, l'abitazione deve trovarsi in prossimità di una stazione radio base (BTS), «tipicamente in visibilità diretta», e il «livello di campo e il rapporto segnale/rumore devono consentire l'attivazione del servizio».
 
 Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore che dichiara copertura, ma **Infratel dice che vigilerà su «informazioni fuorvianti, errate o incomplete»** segnalando eventualmente le condotte alle autorità competenti.[^cons]
 
