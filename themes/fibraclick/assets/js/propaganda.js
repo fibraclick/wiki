@@ -12,6 +12,10 @@ window.propaganda = {
               <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Il tuo indirizzo email..." required>
               <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43e7f0aa512956e35c8d37395_8d73a21b79" tabindex="-1" value=""></div>
               <input type="submit" value="ISCRIVITI" name="subscribe" id="mc-embedded-subscribe">
+              <label for="newsletter-signup-privacy" id="newsletter-signup-privacy-label" style="display:block;padding-top:10px">
+                <input type="checkbox" required id="newsletter-signup-privacy" />
+                Accetto l'<a href="https://fibra.click/privacy.pdf" target="_blank">informativa sulla privacy.</a>
+            </label>
           </form>
         </div>
 
