@@ -1,6 +1,6 @@
 ---
 title: "Informativa sull'utilizzo dei cookie"
-slug: privacy
+slug: cookie
 date: 2019-04-23T16:52:46+02:00
 lastmod: 2020-11-23
 ---
