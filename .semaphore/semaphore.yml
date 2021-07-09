@@ -14,7 +14,7 @@ blocks:
     task:
       env_vars:
         - name: HUGO_VERSION
-          value: "0.81.0"
+          value: "0.85.0"
       prologue:
         commands:
           - >-
