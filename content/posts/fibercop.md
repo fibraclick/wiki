@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2021-06-26T21:45:00+02:00
+lastmod: 2021-07-20T21:00:00+02:00
 authors: [Matteo]
 description: "FiberCop è un progetto di TIM, Fastweb e KKR che coprirà 2578 comuni in FTTH Gigabit entro il 2026. Ecco la lista e i dettagli."
 categories: [Definizioni, Copertura, FTTH]
@@ -23,7 +23,7 @@ L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/
 
 ## Città coperte
 
-La lista dei **2578 comuni** che saranno coperti è pubblicata da TIM [in questo file PDF](https://wdc.wholesale.telecomitalia.it/wp-content/uploads/2021/06/Allegato1bs_PianoCoperturaOffertaCoinvestimento-22giu21.pdf), ed è anche disponibile [una mappa](https://www.google.com/maps/d/viewer?mid=1HAJLRDgqhdg7dcq7LqhXayCLnf2Gq76A&usp=sharing) (non ufficiale). Per ogni comune è indicato l'**anno di completamento della copertura**, ma a detta di TIM **i lavori saranno avviati in tutti i comuni tra il 2021 e il 2022**.[^coinvestimento]
+La lista dei **2578 comuni** che saranno coperti è pubblicata da TIM [in questo file PDF](https://wdc.wholesale.telecomitalia.it/wp-content/uploads/2021/06/Allegato1bs_PianoCoperturaOffertaCoinvestimento-22giu21.pdf), ed è anche disponibile [una mappa](https://www.google.com/maps/d/viewer?mid=1Iq0Lc0YlwK_Cx4577Hc-RSf1Zefn5JYW&usp=sharing) (non ufficiale). Per ogni comune è indicato l'**anno di completamento della copertura**, ma a detta di TIM **i lavori saranno avviati in tutti i comuni tra il 2021 e il 2022**.[^coinvestimento]
 
 [^coinvestimento]: Offerta di Coinvestimento https://storage.googleapis.com/tim_media_prod/2021/01/Proposta_Impegni_Coinvestimento_TIM.zip
 
