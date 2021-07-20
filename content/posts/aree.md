@@ -2,7 +2,7 @@
 title: "Cosa sono le aree nere, grigie e bianche"
 slug: aree-nere-grigie-bianche
 date: 2019-04-12T11:45:24+02:00
-lastmod: 2021-03-17T23:00:00+01:00
+lastmod: 2021-07-20T21:00:00+02:00
 authors: [Matteo]
 description: La distinzione tra aree nere, grigie e bianche serve per classificare il grado di investimenti per la banda ultralarga presenti sul territorio.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -23,7 +23,9 @@ In dettaglio, le aree si definiscono così[^lex]:
 - **aree grigie**: presenza nei prossimi tre anni di una sola rete a banda ultralarga;
 - **aree bianche**: nessuna previsione di investimento privato per banda ultralarga nei prossimi tre anni.
 
-Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono velocità in download superiori a 30 Mbps. Nel contesto italiano si tratta quindi di reti FTTC, FTTH, oppure FWA (ma solo su frequenze licenziate).
+Con "banda ultralarga" si intendono reti di tipo NGA (*Next Generation Access*)[^lex], che permettono **velocità in download di almeno 30 Mbps**. Nel contesto italiano si tratta quindi di reti FTTC, FTTH, oppure FWA (ma solo su frequenze licenziate).
+
+Il periodo di riferimento consigliato dalla Commissione Europea è di **tre anni**, ma gli Stati membri possono scegliere periodi più lunghi. Ad esempio in Italia con la [mappatura 2021]({{< relref "/posts/consultazione2021.md" >}}) sono stati raccolti **dati di copertura per 5 anni**, tra 2021 e 2026.
 
 {{< info >}}
 Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}}).
