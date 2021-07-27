@@ -2,11 +2,12 @@
 title: "Cosa succederà al digitale terrestre nel 2022"
 slug: digitale-terrestre-2022
 date: 2019-11-17T20:23:57+01:00
-lastmod: 2020-01-16T22:00:00+01:00
+lastmod: 2021-07-27T13:30:00+02:00
 authors: [Matteo]
-description: "Il digitale terrestre sta per cambiare, ma girano molte informazioni errate. Ecco cosa succederà con precisione e perché probabilmente non c'è da preoccuparsi."
+description: "Il digitale terrestre sta per cambiare, ecco cosa succederà."
 categories: []
 image: /social/digitale-terrestre-2022.jpg
+hidden: true
 ---
 
 A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**[^eulex].
@@ -15,6 +16,14 @@ A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in u
 [^eulex]: *DECISIONE (UE) 2017/899 DEL PARLAMENTO EUROPEO E DEL CONSIGLIO del 17 maggio 2017 relativa all'uso della banda di frequenza 470-790 MHz nell'Unione* https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32017D0899R(02)&from=IT
 
 La liberazione delle frequenze sarà accompagnata da due cambiamenti importanti nel sistema di diffusione del segnale televisivo, necessari per poter offrire gli stessi canali con una disponibilità inferiore di frequenze.
+
+{{< warn >}}
+**‼️ ‼️ ATTENZIONE ‼️ ‼️**
+
+Il piano per lo switch-off DVB-T è variato [a fine luglio 2021](https://www.dday.it/redazione/40168/switch-off-tv-ecco-il-rinvio-il-1-settembre-non-succede-nulla-ecco-le-nuove-date).
+
+**⚠️ I passaggi e le date indicati in questa pagina non sono più corretti. L'articolo sarà aggiornato quando la situazione sarà più chiara.**
+{{< /warn >}}
 
 La transizione si articolerà in due fasi:[^mise]
 
@@ -29,6 +38,14 @@ Vediamo più nello specifico che cosa comporteranno le due transizioni, come ver
 {{< toc >}}
 
 ## Il periodo transitorio (2021-2022)
+
+{{< warn >}}
+**‼️ ‼️ ATTENZIONE ‼️ ‼️**
+
+Il piano per lo switch-off DVB-T è variato [a fine luglio 2021](https://www.dday.it/redazione/40168/switch-off-tv-ecco-il-rinvio-il-1-settembre-non-succede-nulla-ecco-le-nuove-date).
+
+**⚠️ I passaggi e le date indicati in questa pagina non sono più corretti. L'articolo sarà aggiornato quando la situazione sarà più chiara.**
+{{< /warn >}}
 
 In questo periodo avverrà il cambio del **formato di compressione video** dei canali tv. Si passerà dall'attuale MPEG-2 **al formato di codifica H.264** (chiamato anche AVC o MPEG-4 Part 10)[^mise].
 
@@ -48,6 +65,14 @@ Il passaggio a H.264 avverrà in momenti diversi per le tv nazionali e locali:
 
 ## Il passaggio a DVB-T2 (giugno 2022)
 
+{{< warn >}}
+**‼️ ‼️ ATTENZIONE ‼️ ‼️**
+
+Il piano per lo switch-off DVB-T è variato [a fine luglio 2021](https://www.dday.it/redazione/40168/switch-off-tv-ecco-il-rinvio-il-1-settembre-non-succede-nulla-ecco-le-nuove-date).
+
+**⚠️ I passaggi e le date indicati in questa pagina non sono più corretti. L'articolo sarà aggiornato quando la situazione sarà più chiara.**
+{{< /warn >}}
+
 Nell'ultima settimana di **giugno 2022** è disposto invece il **passaggio definitivo** allo standard di trasmissione **DVB-T2**. Attualmente è invece in uso DVB-T, che risale al 1997 e sta diventando obsoleto.
 
 A parità di frequenze, DVB-T2 permette di avere una maggiore capacità tramissiva (e va considerato che ci sarà una riduzione delle frequenze disponibili). Consentirà ad esempio di **trasmettere più canali in HD (senza le versioni SD) e di inserire anche canali UHD/4K**, ipotesi che ad esempio la Rai sta studiando.
@@ -63,6 +88,14 @@ Secondo un'indagine Auditel/FUB, a settembre 2021 (quindi 10 mesi prima della tr
 Chi non è in possesso di una tv compatibile dovrà acquistare un decoder (dal costo base di circa 30 €) oppure sostituire la tv.
 
 ## I canali di test
+
+{{< warn >}}
+**‼️ ‼️ ATTENZIONE ‼️ ‼️**
+
+Il piano per lo switch-off DVB-T è variato [a fine luglio 2021](https://www.dday.it/redazione/40168/switch-off-tv-ecco-il-rinvio-il-1-settembre-non-succede-nulla-ecco-le-nuove-date).
+
+**⚠️ I passaggi e le date indicati in questa pagina non sono più corretti. L'articolo sarà aggiornato quando la situazione sarà più chiara.**
+{{< /warn >}}
 
 Da metà gennaio 2020 sono disponibili sul digitale terrestre **due canali di test** per verificare se la propria tv supporta gli standard più recenti[^cartelli].
 
