@@ -1,28 +1,21 @@
 ---
-title: "Cos'è il piano BUL"
-slug: piano-bul
+title: "Cos'è il piano aree bianche"
+slug: piano-aree-bianche
 date: 2019-03-24
-lastmod: 2021-05-08T11:15:00+02:00
+lastmod: 2021-08-02T16:00:00+02:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/piano-bul.jpg
 ---
 
-La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è un progetto pubblico per la diffusione della banda ultralarga avviato dal Governo Renzi nel marzo del 2015.[^strategia]
+Il **piano aree bianche** è il piano pubblico, parte della [Strategia nazionale per la banda ultralarga]({{< relref "/posts/piano-bul.md">}}), con l'obiettivo di **coprire le zone dette a "fallimento di mercato"**, cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps.
 
-[^strategia]: *Strategia italiana per la banda ultralarga* http://www.governo.it/sites/governo.it/files/strategia_banda_ultralarga.pdf
+Questo intervento è in corso e prevede nello specifico la copertura da parte di [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) di circa il 25% della popolazione italiana, in larga parte **in fibra ottica FTTH** (1 Gbps) e in parte **in wireless FWA (100 Mbps)**.
 
-Il piano è composto da diverse parti:
+Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023.
 
-- la **copertura delle aree bianche**, anche dette a "fallimento di mercato", cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps. Questo intervento è in corso e prevede nello specifico la copertura da parte di Open Fiber di circa il 25% della popolazione italiana, in larga parte in fibra ottica [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (1 Gbps) e in parte in wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (100 Mbps). Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023;
-- la **copertura delle aree grigie e nere a "fallimento tecnologico"**: l'intervento si concentrerà nelle aree in cui non è prevista a breve la presenza di reti ad altissima capacità. Questo intervento sarà avviato nel corso del 2021;[^mid]
-- la **copertura di tutte le scuole** in fibra ottica entro il 2023;[^mid]
-- l'erogazione di **voucher di sostegno alla domanda di connettività**, cioè buoni economici che le famiglie e le imprese possono utilizzare per passare a una connessione più veloce.[^mid]
-
-[^mid]: https://innovazione.gov.it/it/progetti/cobul/
-
-I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi del piano, in particolar modo per quanto riguarda le **aree bianche**.
+I prossimi paragrafi approfondiscono più in dettaglio la nascita e gli sviluppi del piano.
 
 {{< toc >}}
 
@@ -32,15 +25,13 @@ La **Commissione Europea** ha stabilito nel corso degli anni diversi obiettivi p
 
 In particolare, l'**Agenda Digitale 2020** richiede che entro il 2020 tutti i cittadini siano coperti dalla banda larga veloce ad almeno 30 Mbps, e che almeno il 50% delle famiglie sia abbonata con connessioni ad almeno 100 Mbps.[^agendadigitale]
 
-Il **piano BUL italiano** prevede di raggiungere l'obiettivo di copertura totale integrando gli investimenti delle aziende private con un **intervento pubblico diretto**, con lo scopo di realizzare una **rete pubblica in fibra ottica nelle aree bianche**.
+Il **piano BUL italiano del 2015** prevede di raggiungere l'obiettivo di copertura integrando gli investimenti delle aziende private con un **intervento pubblico diretto**, con lo scopo di realizzare una **rete pubblica in fibra ottica nelle aree bianche**.
 
 [^agendadigitale]: *Agenda digitale europea 2020* https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM:2010:0245:FIN:IT:PDF
 
 {{< fig src="/images/pozzetto-bul1.jpg" caption="Un pozzetto della rete pubblica #BUL, elemento distintivo della rete realizzata da Open Fiber nelle aree bianche." alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica." >}}
 
-Nel 2016 la Commissione Europea ha aggiornato gli obiettivi dell'Agenda Europea, fissando nel documento "Verso la Gigabit Society" gli **obiettivi per il 2025**: scuole e uffici pubblici dovranno essere connessi ad almeno 1 Gbps, mentre tutte le famiglie dovranno avere accesso a una connettività di **almeno 100 Mbps ma espandibile al Gigabit**.[^gigabitsociety]
-
-Gli obiettivi della Gigabit Society sono alla base della seconda fase del piano BUL, che prevede la copertura delle aree grigie e nere in cui c'è "fallimento tecnologico", e delle scuole.[^mid]
+Nel 2016 la Commissione Europea ha aggiornato gli obiettivi dell'Agenda Europea, fissando nel documento "Verso la Gigabit Society" gli **obiettivi per il 2025**: scuole e uffici pubblici dovranno essere connessi ad almeno 1 Gbps, mentre tutte le famiglie dovranno avere accesso a una connettività di **almeno 100 Mbps ma espandibile al Gigabit**.[^gigabitsociety] Il piano aree bianche risulta in larghissima parte già conforme agli obiettivi del 2025.
 
 [^gigabitsociety]: *Connettività per un mercato unico digitale competitivo: verso una società dei Gigabit europea* https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:52016DC0587
 
@@ -176,20 +167,5 @@ In particolare, la proposta di Open Fiber è così articolata (le percentuali si
 {{< fig src="/images/bando3.jpg" caption="Confronto tra requisiti del bando BUL3 e l'offerta di Open Fiber." alt="Grafici che mostrano le percentuali del bando e dell'offerta Open Fiber" >}}
 
 {{< fig src="/images/bando3b.jpg" caption="L'offerta economica di Open Fiber per i lotti del bando BUL3." >}}
-
-## Il piano aree grigie
-
-Ad aprile 2018 Infratel ha annunciato l'inizio della pianificazione della **fase 2 del piano BUL**, che ha lo scopo di avvicinarsi agli obiettivi europei della *Gigabit Society*.[^grigie2018] In particolare, si tratta di offrire a tutte le famiglie connessioni con **velocità in download maggiore di 100 Mbps ed espandibile a 1 Gbps**.
-
-[^grigie2018]: http://bandaultralarga.italia.it/pubblicato-il-piano-per-le-aree-grigie-al-via-la-consultazione/
-
-La fase 2 del piano BUL consiste quindi in un **investimento pubblico** con lo scopo di **realizzare reti che possano offrire connessioni fino a 1 Gbps in download e 200 Mbps in upload nelle aree che ne sono sprovviste**, o dove non sono previste nei successivi anni. Il piano è stato rimandato più volte[^grigie2020], e il cronoprogramma attuale prevede la realizzazione e l'aggiudicazione dei bandi di gara entro la prima metà del 2022, con il completamento della rete entro l'inizio del 2026[^pnrr]
-
-Le aree di intervento saranno determinate con precisione dagli esiti della [mappatura 2021]({{< relref "/posts/consultazione2021.md" >}}) condotta da Infratel.
-
-I fondi disponibili per la realizzazione del piano consistono in 3,8 miliardi di euro, come previsto dal *Piano Nazionale per la Ripresa e la Resilienza*, che attinge dal programma europeo Next Generation EU.[^pnrr]
-
-[^pnrr]: https://forum.fibra.click/d/19800-piano-italia-1-gbps-il-cronoprogramma
-[^grigie2020]: https://www.mise.gov.it/images/stories/Piano_scuole_voucher_e_aree_grigie_presentazione_COBUL.pdf
 
 {{< footer >}}
