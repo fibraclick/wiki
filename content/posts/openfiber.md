@@ -18,7 +18,7 @@ L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/
 Le attività di Open Fiber sono finanziate **sia con investimenti propri che con fondi pubblici**. Nel primo caso si tratta di copertura delle aree considerate remunerative (grandi città), mentre nel secondo caso prevalentemente di "aree bianche", cioè zone a fallimento di mercato dove la banda larga non è presente.
 
 {{< info >}}
-Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel** nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}), leggi la sezione "Finanziamenti pubblici e aree bianche".
+Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel** nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), leggi la sezione "Finanziamenti pubblici e aree bianche".
 {{< /info >}}
 
 {{< toc >}}
@@ -29,7 +29,7 @@ Open Fiber prevede di coprire in FTTH **più di 270 città entro il 2023**, con 
 
 A maggio 2020 ha aggiornato il piano industriale estendendo il progetto ad altre **1,1 milioni di abitazioni** nelle cosiddette aree grigie, cioè **città più piccole** dove però si concentra la maggior parte delle aziende italiane.[^grigie]
 
-La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it). Ci si può fare un'idea delle previsioni future di Open Fiber anche [utilizzando]({{< relref "/posts/sitobul2019.md" >}}) il sito istituzionale Banda Ultralarga.
+La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it).
 
 {{< green >}}
 ###### La rete Metroweb
@@ -65,7 +65,7 @@ I dettagli della rete Open Fiber sono illustrati nell'apposita sezione nella pag
 
 ## Finanziamenti pubblici e aree bianche
 
-Nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2015-2020, Open Fiber ha vinto **tre gare pubbliche** per la realizzazione di infrastrutture a banda ultralarga nelle aree svantaggiate del Paese. Queste aree sono le cosiddette "**aree bianche**", o a fallimento di mercato, e sono quelle in cui è presente solo l'ADSL o una tecnologia inferiore. Rappresentano **circa il 25% della popolazione** italiana.
+Nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), Open Fiber ha vinto **tre gare pubbliche** per la realizzazione di infrastrutture a banda ultralarga nelle aree svantaggiate del Paese. Queste aree sono le cosiddette "**aree bianche**", o a fallimento di mercato, e sono quelle in cui è presente solo l'ADSL o una tecnologia inferiore. Rappresentano **circa il 25% della popolazione** italiana.
 
 L'offerta di Open Fiber è di molto superiore a quanto richiesto dai bandi, e prevede di coprire circa il **75% delle aree bianche in FTTH**, e il restante in **FWA** (*Fixed Wireless Access*).
 
@@ -86,10 +86,8 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 
 {{< info >}}
 ###### Per approfondire i temi di questa sezione:
-- [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
+- [Cos'è il piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}})
 - [Cosa sono le aree nere, grigie, e bianche]({{< relref "/posts/aree.md" >}})
-- [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
-- [Come controllare la presenza di intervento pubblico o privato]({{< relref "/posts/sitobul2019.md" >}})
 - [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
 {{< /info >}}
 

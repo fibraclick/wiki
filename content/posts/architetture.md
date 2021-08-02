@@ -143,7 +143,7 @@ La sigla **FTTB** (*Fiber To The Building*) indica una "variante" della FTTH che
 
 #### Diffusione in Italia
 
-In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 grandi città entro il 2023**[^13] e migliaia di piccoli comuni nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}). Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **1 Gbps in download** e upload tra 100 e 300 Mbps.
+In Italia, le due infrastrutture FTTH principali sono quelle di **Open Fiber** e **Flash Fiber**, con la stima di raggiungere **270 grandi città entro il 2023**[^13] e migliaia di piccoli comuni nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}). Gli operatori nazionali solitamente offrono connessioni FTTH in un solo taglio, e cioè **1 Gbps in download** e upload tra 100 e 300 Mbps.
 
 [^13]: https://openfiber.it/corporate/chi-siamo/obiettivi/
 

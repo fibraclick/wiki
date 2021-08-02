@@ -47,7 +47,7 @@ Quando si parla di area, non si intende però il territorio di un comune. La *St
 
 [^aree2015]: https://www.camera.it/temiap/t/news/post-OCD15-11885
 
-In vista dell'avvio dei bandi di gara per il [piano BUL]({{< relref "/posts/bul.md" >}}), **nel 2016 la mappatura è stata rifinita** chiedendo agli operatori di dichiarare le **previsioni di copertura per singolo numero civico**, in modo da stabilire con precisione le zone oggetto di intervento pubblico.[^cons2015]
+In vista dell'avvio dei bandi di gara per il [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), **nel 2016 la mappatura è stata rifinita** chiedendo agli operatori di dichiarare le **previsioni di copertura per singolo numero civico**, in modo da stabilire con precisione le zone oggetto di intervento pubblico.[^cons2015]
 
 [^cons2015]: https://www.senato.it/application/xmanager/projects/leg17/attachments/dossier/file_internets/000/002/182/2017_07_04_-_Invitalia_-_Analisi_delle_attivit%C3%A0_e_Fasi_previste_dalla_delibera_CIPE_65-2015.pdf
 
@@ -75,12 +75,10 @@ Va notato che **anche nel cluster B è consentito l'intervento dello Stato**, co
 ⚠️ Una versione precedente di questa pagina riportava che i cluster sono definiti in base alla velocità minima offerta (30/100 Mbps). La definizione era errata e basata sul linguaggio ambiguo della delibera CIPE 65/2015.
 {{% /warn %}}
 
-## Il piano BUL
+## Il piano banda ultralarga
 
-La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avviato nel 2015 con l'obiettivo di coprire tutte le aree bianche del paese (cluster C e D), riguardanti circa il 25% della popolazione. Si tratta quindi di tutte le abitazioni non coperte da reti NGA (>30 Mbps).
-
-Il piano prevede un [intervento diretto]({{< relref "/posts/pubblico-privato.md" >}}) per la realizzazione di una rete in fibra ottica, che resterà di proprietà pubblica ma sarà data in concessione a [Open Fiber]({{< relref "/posts/openfiber.md" >}}) per vent'anni.
+La *Strategia nazionale per la banda ultralarga* (piano BUL) è il progetto avviato nel 2015 con l'obiettivo di soddisfare gli **obiettivi europei di sviluppo e diffusione della banda ultralarga**.
 
 {{< info >}}
-Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/bul.md" >}}).
+Per approfondimenti sul piano BUL, visita [la pagina dedicata]({{< relref "/posts/piano-bul.md" >}}).
 {{< /info >}}

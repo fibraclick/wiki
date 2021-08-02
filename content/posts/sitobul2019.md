@@ -41,7 +41,7 @@ Significa che l'indirizzo è classificato come [area bianca]({{< relref "/posts/
 
 [^bulfttn]: La lista dei comuni è disponibile in questa pagina: http://www.infratelitalia.it/operatori/
 
-La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) 2020, che prevede un intervento diretto dello Stato con modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di **proprietà dello Stato**.
+La copertura FTTH/FWA con intervento pubblico avviene nell'ambito del [piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), che prevede un intervento diretto dello Stato con modello a concessione. Significa che **la rete sarà realizzata e gestita da [Open Fiber]({{< relref "/posts/openfiber.md" >}})**, l'azienda che ha vinto i tre bandi pubblici, ma resterà di **proprietà dello Stato**.
 
 Per avere la certezza della tecnologia con cui il proprio indirizzo sarà coperto, conviene **contattare il proprio comune**, anche scrivendo all'<abbr title="Ufficio Relazioni con il Pubblico">URP</abbr> oppure all'assessore con delega ai lavori pubblici o alle reti. In alcuni casi è possibile ricevere risposta anche scrivendo a [Infratel](http://www.infratelitalia.it/).
 
@@ -52,12 +52,11 @@ Se il comune si trova nello stato "In attesa di autorizzazioni" o "In esecuzione
 {{< info >}}
 Per approfondire:
 
-- [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}})
+- [Cos'è il piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}})
 - [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}})
 - [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}})
 - [Come consultare le tratte in fibra ottica del piano BUL con il SINFI]({{< relref "/posts/bul-sinfi.md" >}})
 - [Cosa sono le aree nere, grigie e bianche]({{< relref "/posts/aree.md" >}})
-- [Cosa cambia tra intervento pubblico e privato]({{< relref "/posts/pubblico-privato.md" >}})
 - [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/architetture.md" >}})
 {{< /info >}}
 
@@ -115,7 +114,7 @@ Se ti risulta un numero maggiore di 0 nella casella NGA:
 - comprende le connessioni **FWA** come Eolo, Linkem o Fastweb.
 
 {{< info >}}
-La **fase 2** del piano nazionale **Banda Ultra Larga** (piano "aree grigie") prevede la copertura con reti ad alta capacità (VHCN) delle aree che ne sono sprovviste. [Scopri di più sul piano BUL]({{% relref "/posts/bul.md" %}}).
+La **fase 2** del piano nazionale **Banda Ultra Larga** (piano "aree grigie") prevede la copertura con reti ad alta capacità (VHCN) delle aree che ne sono sprovviste. [Scopri di più sul piano BUL]({{% relref "/posts/piano-bul.md" %}}).
 {{< /info >}}
 
 {{< info >}}

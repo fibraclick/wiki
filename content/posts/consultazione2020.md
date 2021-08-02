@@ -26,13 +26,17 @@ I risultati della consultazione sono stati pubblicati a settembre 2020, mentre i
 
 La consultazione ha come oggetto **le aree già precedentemente dichiarate come nere o grigie**, cioè tutti gli indirizzi in cui almeno un operatore aveva dichiarato di coprire o voler coprire con una rete a banda ultralarga.
 
-Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "bul.md" >}}).
+Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}).
 
 ## A cosa serve la consultazione
 
-I dati raccolti serviranno per definire più in dettaglio la [fase 2 del piano BUL]({{< relref "/posts/bul.md#il-piano-aree-grigie" >}}), che ha come scopo un **intervento pubblico** per realizzare reti in grado di offrire **connessioni ad altissima velocità**. L'obiettivo è raggiungere gli obiettivi della Gigabit Society della Commissione Europea.
+I dati raccolti serviranno per definire più in dettaglio la fase 2 del piano BUL, che ha come scopo un **intervento pubblico** per realizzare reti in grado di offrire **connessioni ad altissima velocità**. L'obiettivo è raggiungere gli obiettivi della Gigabit Society della Commissione Europea.
 
 Le aree coinvolte dal piano saranno quindi tutte quelle che risulteranno **scoperte nel breve periodo da tecnologie in grado di offrire queste prestazioni**. Non è ancora del tutto chiaro quali tecnologie rientreranno in questa classificazione.
+
+{{< info >}}
+Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/piano-bul.md" >}}).
+{{< /info >}}
 
 ## I dati raccolti
 

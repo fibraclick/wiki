@@ -15,7 +15,7 @@ La **Strategia nazionale per la banda ultralarga**, o **piano BUL**, è un proge
 
 La *Strategia* si compone di diverse parti:[^mid][^camera]
 
-- il [**piano aree bianche**]({{< relref "/posts/bul.md" >}}), per la copertura delle zone dette a "fallimento di mercato", cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps. Questo intervento è in corso e prevede nello specifico la copertura da parte di [Open Fiber]({{< relref "/posts/openfiber.md" >}}) di circa il 25% della popolazione italiana, in larga parte in fibra ottica [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (1 Gbps) e in parte in wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (100 Mbps). Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023;
+- il [**piano aree bianche**]({{< relref "/posts/piano-aree-bianche.md" >}}), per la copertura delle zone dette a "fallimento di mercato", cioè le aree dove gli operatori non hanno in previsione di portare la banda ultralarga ad almeno 30 Mbps. Questo intervento è in corso e prevede nello specifico la copertura da parte di [Open Fiber]({{< relref "/posts/openfiber.md" >}}) di circa il 25% della popolazione italiana, in larga parte in fibra ottica [FTTH]({{< relref "/posts/architetture.md#ftth-fiber-to-the-home" >}}) (1 Gbps) e in parte in wireless [FWA]({{< relref "/posts/architetture.md#fwa-fixed-wireless-access" >}}) (100 Mbps). Il completato dei lavori in tutti i comuni coinvolti è previsto, dopo molti ritardi, tra il 2022 e il 2023;
 - il **piano Italia 1 Gbps**, per la copertura delle [aree grigie e nere]({{< relref "/posts/aree.md" >}}) in cui non è prevista a breve la presenza di reti ad alta velocità. Saranno incluse anche le case sparse non incluse nel piano aree bianche. Questo intervento sarà avviato tra 2021 e 2022;
 - il **piano Italia 5G**, con l'obiettivo di sostenere la diffusione del 5G nelle aree a fallimento di mercato e lungo le principale arterie stradali e ferroviarie;
 - il **piano voucher**, che prevede l'erogazione di voucher a sostegno della domanda di connettività, cioè buoni economici che le famiglie e le imprese possono utilizzare per passare a una connessione più veloce;
@@ -33,7 +33,7 @@ Puoi trovare informazioni più dettagliate nelle prossime sezioni.
 ## Il piano aree bianche
 
 {{< info >}}
-L'argomento è trattato in dettaglio nella pagina [Cos'è il piano aree bianche]({{< relref "/posts/bul.md" >}}).
+L'argomento è trattato in dettaglio nella pagina [Cos'è il piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}).
 {{< /info >}}
 
 ## Il piano Italia 1 Gbps

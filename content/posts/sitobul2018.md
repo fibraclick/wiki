@@ -23,7 +23,7 @@ Puoi inserire il tuo indirizzo di casa [qua](http://bandaultralarga.italia.it/ve
 Congratulazioni. Salvo imprevisti significa che l'indirizzo sarà coperto tramite **intervento dello Stato con fondi pubblici**.
 
 {{< info >}}
-Consulta [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}) per un approfondimento dettagliato sulla nascita e l'evoluzione del piano per portare la banda ultralarga (BUL) nelle aree svantaggiate del Paese.
+Consulta [Cos'è il piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}) per un approfondimento dettagliato sulla nascita e l'evoluzione del piano per portare la banda ultralarga (BUL) nelle aree svantaggiate del Paese.
 {{< /info >}}
 
 {{< warn >}}
@@ -56,14 +56,14 @@ Per molti comuni è infatti presente il numero di unità immobiliari che saranno
 
 {{< fig src="/images/sitobul2.png" caption="Intervento pubblico 100 Mbps" alt="Scritta bianca su sfondo blu che dice intervento pubblico 100 Mbps" >}}
 
-Significa che l'indirizzo sarà coperto **in FTTH** tramite il [piano BUL]({{< relref "/posts/bul.md" >}}). La velocità di accesso della connessione varierà **tra 100 Mbps e 1 Gbps** (1000 Mbps), a seconda del taglio offerto dall'operatore di linea fissa scelto.
+Significa che l'indirizzo sarà coperto **in FTTH** tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}). La velocità di accesso della connessione varierà **tra 100 Mbps e 1 Gbps** (1000 Mbps), a seconda del taglio offerto dall'operatore di linea fissa scelto.
 
 La copertura sarà coordinata da Infratel e **realizzata da Open Fiber**, l’azienda specializzata in reti in fibra ottica che ha vinto i tre bandi pubblici del piano BUL 2015-2020.
 
 {{< fig src="/images/pozzetto-bul1.jpg" caption="Pozzetto realizzato da Open Fiber in un'area bianca coperta in FTTH" alt="Chiusino di un pozzetto, con la scritta BUL rete pubblica" >}}
 
 {{< info >}}
-Consulta [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}) e [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}) per approfondimenti.
+Consulta [Cos'è e cosa fa Open Fiber]({{< relref "/posts/openfiber.md" >}}) e [Cos'è il piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}) per approfondimenti.
 {{< /info >}}
 
 {{< fig src="/images/sitobul3.png" caption="Intervento pubblico 30 Mbps" alt="Scritta bianca su sfondo blu che dice intervento pubblico 30 Mbps" >}}
@@ -100,7 +100,7 @@ Vedi anche [Cosa significano FTTC, FTTS, FTTE, FTTH e FWA]({{< relref "/posts/ar
 Se il sito indica un operatore 30 Mbps ma sai che l'indirizzo **non è coperto**, ci possono essere diversi motivi:
 
 - la copertura potrebbe essere in ritardo;
-- l'indirizzo potrebbe trovarsi in un'**ex area bianca**, ossia una zona dove TIM aveva inizialmente dichiarato di non voler coprire in FTTC, ma poi l'ha fatto. **Questi interventi sono illegali e sono stati in molti casi sospesi dalle autorità**, per consentire invece la copertura pubblica tramite il [piano BUL]({{< relref "/posts/bul.md" >}}). Il sito BUL non viene aggiornato in caso di sospensione della copertura.
+- l'indirizzo potrebbe trovarsi in un'**ex area bianca**, ossia una zona dove TIM aveva inizialmente dichiarato di non voler coprire in FTTC, ma poi l'ha fatto. **Questi interventi sono illegali e sono stati in molti casi sospesi dalle autorità**, per consentire invece la copertura pubblica tramite il [piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}). Il sito BUL non viene aggiornato in caso di sospensione della copertura.
 
 {{< fig src="/images/sitobul5.png" caption="Intervento privato 30 Mbps, due operatori" alt="Schema che dice intervento privato 30 Mbps con due operatori" >}}
 

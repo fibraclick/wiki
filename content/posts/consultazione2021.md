@@ -2,13 +2,13 @@
 title: "La consultazione Infratel 2021"
 slug: consultazione-2021
 date: 2021-05-08T11:20:00+02:00
-lastmod: 2021-05-08T11:20:00+02:00
+lastmod: 2021-08-2T16:00:00+02:00
 authors: [Matteo]
 description: La consultazione 2021 ha lo scopo di mappare le reti a banda ultralarga presenti sul territorio per definire le aree in cui c'è carenza di reti ad altissima capacità.
 categories: [Copertura, Piano BUL]
 ---
 
-La **consultazione Infratel 2021** è un'attività di mappatura condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 30 aprile 2021 e terminerà il 15 giugno 2021.[^cons]
+La **consultazione Infratel 2021** è un'attività di mappatura condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 30 aprile 2021 ed è terminata il 15 giugno 2021.[^cons]
 
 [^cons]: *Mappatura 2021 reti fisse a banda ultralarga: consultazione degli operatori* https://www.infratelitalia.it/archivio-documenti/documenti/mappatura-2021-reti-fisse-a-banda-ultralarga-consultazione-degli-operatori
 
@@ -16,7 +16,7 @@ Agli operatori è stato chiesto di inviare **per ogni indirizzo civico delle are
 
 [^manuale]: *Manuale di istruzioni mappatura 2021 reti a banda ultralarga fisse NGA e VHCN*. Il manuale non è disponibile pubblicamente ma FibraClick ha potuto prenderne visione.
 
-Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad altissima capacità** e si rende quindi necessario un intervento dello Stato tramite il [Piano Banda Ultralarga]({{< relref "/posts/bul.md" >}}).
+Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad altissima capacità** e si rende quindi necessario un intervento dello Stato tramite il [piano Banda Ultralarga]({{< relref "/posts/piano-bul.md" >}}).
 
 {{< toc >}}
 
@@ -24,7 +24,7 @@ Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazio
 
 La consultazione ha come oggetto **le aree già precedentemente dichiarate come nere o grigie**, cioè tutti gli indirizzi in cui almeno un operatore aveva dichiarato di coprire o voler coprire con una rete a banda ultralarga.
 
-Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "bul.md" >}}). La consultazione potrà però identificare **nuove aree bianche** dove gli operatori hanno ritirato gli impegni di investimento.
+Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}). La consultazione potrà però identificare **nuove aree bianche** dove gli operatori hanno ritirato gli impegni di investimento.
 
 ## A cosa serve la consultazione
 
@@ -66,6 +66,6 @@ Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore ch
 
 ## I risultati
 
-I risultati saranno pubblicati sul sito [bandaultralarga.italia.it](https://bandaultralarga.italia.it) presumibilmente durante l'estate 2021.
+I risultati saranno pubblicati sul sito [bandaultralarga.italia.it](https://bandaultralarga.italia.it) nel mese di settembre 2021.
 
 {{< footer >}}

@@ -77,7 +77,7 @@ In Italia le infrastrutture FTTH a livello nazionale sono quelle di **Open Fiber
 
 ### Open Fiber
 
-Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 grandi città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree bianche cablate tramite il [piano BUL]({{< relref "/posts/bul.md" >}}).
+Nel caso di Open Fiber, le infrastrutture hanno **caratteristiche diverse a seconda che siano state realizzate con fondi privati o pubblici**. Nel primo caso si tratta delle circa 270 grandi città che Open Fiber ha intenzione di cablare entro il 2023, mentre nel secondo si tratta delle aree bianche cablate tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}).
 
 Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Point Of Presence*) posizionati sul territorio, **nei quali sono presenti gli OLT**.
 

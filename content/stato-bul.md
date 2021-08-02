@@ -9,7 +9,7 @@ scss: ["stato-bul.scss"]
 rawjs: ["mithril.min.js"]
 ---
 
-In questa pagina puoi consultare l'archivio dello stato dei cantieri nei comuni coinvolti dal [piano BUL]({{< relref "/posts/bul.md" >}}).
+In questa pagina puoi consultare l'archivio dello stato dei cantieri nei comuni coinvolti dal [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}).
 
 {{< warn >}}
 ‼️ **Da marzo 2020 Infratel non pubblica più gli aggiornamenti mensili con lo stato del piano BUL, per cui questo strumento per il momento non viene più aggiornato.**

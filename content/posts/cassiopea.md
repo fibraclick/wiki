@@ -18,7 +18,7 @@ La prima parte di questo articolo sintetizza i fatti che hanno portato al piano 
 
 ## I fatti
 
-Il contesto è quello dell'inverno 2016/2017: in quel periodo erano in corso le **prime due gare pubbliche** indette da **Infratel** per la realizzazione del [piano BUL]({{< relref "/posts/bul.md" >}}), che prevedevano l'affidamento di lavori per la realizzazione di una rete a banda ultralarga nelle aree bianche di quasi tutte le regioni italiane.
+Il contesto è quello dell'inverno 2016/2017: in quel periodo erano in corso le **prime due gare pubbliche** indette da **Infratel** per la realizzazione del [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}), che prevedevano l'affidamento di lavori per la realizzazione di una rete a banda ultralarga nelle aree bianche di quasi tutte le regioni italiane.
 
 Già a fine 2016 era prevedibile che Open Fiber avrebbe vinto le due gare, perché i bandi privilegiavano gli operatori *wholesale-only* e le reti ad alta velocità (FTTH). Il 24 gennaio 2017 Infratel pubblicò la graduatoria provvisoria per il primo bando, secondo cui **Open Fiber risultava prima con un forte vantaggio su TIM** e sugli altri concorrenti[^punteggi].
 

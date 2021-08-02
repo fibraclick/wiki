@@ -10,7 +10,7 @@ image: /social/sinfi.jpg
 hidden: true
 ---
 
-Da ottobre 2019 il **SINFI** (il catasto nazionale delle infrastrutture) [mette a disposizione](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione) pubblicamente i **tracciati della fibra ottica** posata nell'ambito del [piano nazionale Banda Ultra Larga]({{< relref "/posts/bul.md" >}}).
+Da ottobre 2019 il **SINFI** (il catasto nazionale delle infrastrutture) [mette a disposizione](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione) pubblicamente i **tracciati della fibra ottica** posata nell'ambito del [piano nazionale BUL per le aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}).
 
 I dati, pubblicati in formato Shapefile ESRI[^shapefile], sono stati aggiornati a giugno 2020 e [pochi mesi dopo](https://forum.fibra.click/d/12234-anteprima-nuove-funzionalita-sito-bul-novembre-2020) integrati nella mappa del sito Banda Ultralarga. Non è quindi più necessario utilizzare il *Visualizzatore SINFI* precedentemente reso disponibile da FibraClick.
 

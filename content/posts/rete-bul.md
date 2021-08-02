@@ -9,7 +9,7 @@ categories: [Copertura, FTTH, Piano BUL]
 image: /social/riconoscere-rete-bul.jpg
 ---
 
-La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL]({{< relref "/posts/bul.md" >}}) aree bianche, e ha l'obiettivo di coprire quasi il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa l'81%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
+La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), e ha l'obiettivo di coprire quasi il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa l'81%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
 
 Per verificare se si è coinvolti dal piano, il metodo più affidabile è utilizzare la [mappa del sito BUL](https://bandaultralarga.italia.it/mappa/), che mostra un pallino nero sulla propria abitazione nel caso di copertura in fibra ottica. (I tracciati e i pallini sono mostrati soltanto in presenza di progetto esecutivo approvato.)
 

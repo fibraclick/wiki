@@ -22,7 +22,7 @@ La consultazione 2019 è stata avviata a gennaio 2019 ed è terminata il 15 magg
 
 Per essere precisi, la consultazione 2019 è un **monitoraggio della precedente, tenuta nel 2017**, e raccoglie quindi dati sullo **stato di attuazione degli interventi già pianificati nelle aree nere e grigie**.[^infratel1]
 
-Le aree bianche già oggetto di intervento pubblico nel [piano BUL 2015-2020]({{< relref "bul.md" >}}) non sono di interesse della consultazione, per cui eventuali interventi privati in queste aree non sono stati rilevati.
+Le aree bianche già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}) non sono di interesse della consultazione, per cui eventuali interventi privati in queste aree non sono stati rilevati.
 
 {{< green >}}
 ###### Ripasso sulle aree nere e grigie
@@ -38,7 +38,7 @@ La Commissione Europea definisce così le aree nere, grigie e bianche:
 I dati raccolti serviranno per definire più in dettaglio **la fase 2 del piano BUL**, che ha come scopo un intervento pubblico diretto in favore delle abitazioni nelle **aree grigie**, per un upgrade a tecnologie in grado di offrire fino a 1 Gbps di velocità in download.
 
 {{< info >}}
-Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/bul.md" >}}).
+Per approfondimenti, consulta la pagina [Cos'è il piano BUL]({{< relref "/posts/piano-bul.md" >}}).
 {{< /info >}}
 
 ## I risultati aggregati
