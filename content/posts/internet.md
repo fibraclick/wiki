@@ -63,7 +63,9 @@ Nel mondo ci sono decine di migliaia di sistemi autonomi[^asstats], e per fare i
 
 [^asstats]: https://www-public.imtbs-tsp.eu/~maigron/RIR_Stats/RIR_Delegations/World/ASN-ByNb.html
 
-Per farlo utilizzano un protocollo chiamato **BGP** (*Border Gateway Protocol*), tramite un'operazione che in gergo si chiama "annunciare". **Un AS annuncia ai suoi "vicini" l'insieme degli indirizzi IP che sono sotto il suo controllo**, in modo che possano essere raggiunti dal resto della rete.
+Per farlo utilizzano un protocollo chiamato **BGP** (*Border Gateway Protocol*), tramite un'operazione che in gergo si chiama "annunciare". **Un AS annuncia ai suoi "vicini" l'insieme degli indirizzi IP che sono sotto il suo controllo**, in modo che possano essere raggiunti dal resto della rete.[^bgp]
+
+[^bgp]: https://www.peering101.it/topics/bgp/
 
 Esistono dei **sistemi autonomi molto grandi**, corrispondenti a delle reti classificate come **Tier 1** (di "primo livello"). Queste reti sono molto poche, ma sono in grado di raggiungere l'intera rete Internet: lo fanno esclusivamente tramite **accordi di peering**, e cioè con lo scambio reciproco di traffico.[^arcep]
 
