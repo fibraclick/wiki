@@ -2,24 +2,24 @@
 title: "Cos'è e come funziona GPON"
 slug: gpon
 date: 2019-04-04
-lastmod: 2021-03-01T11:30:00+01:00
+lastmod: 2021-09-09T10:20:00+02:00
 authors: [Matteo]
 description: Come funziona e quali sono gli elementi di una rete GPON, una tecnologia che permette di realizzare reti passive in fibra ottica Fiber To The Home.
 categories: [Definizioni, FTTH]
 image: /social/gpon.jpg
 ---
 
-**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti [**FTTH**]({{< relref "/posts/architetture.md" >}}) (*Fiber To The Home*), in cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
+**GPON** (*Gigabit-capable Passive Optical Network*) è una tecnologia comunemente utilizzata per realizzare reti in modalità [**FTTH**]({{< relref "/posts/architetture.md" >}}) (*Fiber To The Home*), secondo cui la connessione a Internet di una abitazione avviene portando la fibra ottica fino a dentro casa.
 
-GPON fa parte di un insieme di standard *PON*, i quali si differenziano in base alla velocità massima raggiungibile per ciascun albero ottico, una struttura spesso condivisa anche con 64 utenze (il significato di albero ottico è spiegato in dettaglio sotto).
+GPON fa parte di un insieme di standard *PON*, i quali si differenziano in base alla velocità massima complessiva raggiungibile all'interno di ciascun albero ottico, una struttura spesso condivisa anche con 64 utenze (il significato di albero ottico è spiegato in dettaglio sotto).
 
-Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25 Gbps in upload, condivisa però con un numero fisso di utenze**, che può arrivare fino a 128.[^standard] Ciascuna delle linee collegate avrà poi una velocità massima nominale fissata dall'operatore, ad esempio 1 Gbps in download.
+Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25 Gbps in upload, condivisa con un numero prestabilito di utenze**, che può arrivare fino a 128.[^standard] Ciascuna delle linee collegate avrà poi una velocità massima nominale fissata dall'operatore, ad esempio 1 Gbps in download.
 
 {{< fig src="/images/pon.png" caption="Differenze tra gli standard PON. Fonte: Open Fiber." alt="GPON: 2,5 Gigabit in download e 1,25 Gigabit in upload. XG-PON: 10 Gigabit in download e 2,5 Gigabit in upload. XGS-PON: 10 Gigabit in download e 10 Gigabit in upload. NG-PON2: 40 Gigabit in download e 2,5 Gigabit in upload" >}}
 
-La caratteristica fondamentale che rende GPON la soluzione più frequentemente adottata per la FTTH è il fatto che **la rete ottica è passiva**, e cioè che tra i due estremi della rete (centrale e abitazioni) non sono presenti punti alimentati. Questo è un importante vantaggio della tecnologia, perché riduce i costi e la possibilità di guasti. Se in una città di grandi dimensioni coperta in FTTC sono presenti centinaia di apparati attivi (ONU) sparsi sulle strade, in FTTH-GPON gli unici elementi che l'operatore si deve preoccupare di alimentare sono le centrali/POP.
+La caratteristica fondamentale che rende GPON la soluzione più frequentemente adottata per la FTTH è il fatto che **la rete ottica è passiva**, e cioè che tra i due estremi della rete (centrale e abitazioni) non sono presenti punti che richiedano alimentazione elettrica. Questo è un importante vantaggio della tecnologia, perché riduce i costi e la possibilità di guasti. Se in una città di grandi dimensioni coperta in FTTC sono presenti centinaia di apparati attivi (ONU) sparsi sulle strade, in FTTH-GPON gli unici elementi che l'operatore si deve preoccupare di alimentare sono le centrali (o POP).
 
-**GPON è la tecnologia attualmente utilizzata in Italia per realizzare reti FTTH.**
+**GPON è la tecnologia attualmente utilizzata in Italia per realizzare le nuove reti FTTH.**
 
 {{< toc >}}
 
@@ -27,11 +27,11 @@ La caratteristica fondamentale che rende GPON la soluzione più frequentemente a
 
 Una rete ottica passiva (come la GPON) è di tipo **punto-multipunto**. Il "punto" è un apparato dell'operatore (**OLT**, *Optical Line Terminal*), che spesso si trova nella centrale locale, mentre i "multipunto" sono dei dispositivi installati all'interno delle abitazioni dei clienti (**ONT** oppure *ONU*, rispettivamente *Optical Network Terminal* e *Optical Network Unit*).
 
-Nel caso di GPON, un singolo OLT è in grado di collegare per ciascun cavo in fibra ottica in uscita **un numero di utenze che può arrivare al massimo a 128**. Questo numero determina il *fattore di splitting* (o *fattore di diramazione*, in italiano).
+Nel caso di GPON, un singolo OLT in centrale è in grado di collegare per ciascun cavo in fibra ottica in uscita **un numero di utenze che può arrivare al massimo a 128**. Questo numero determina il *fattore di splitting* (o *fattore di diramazione*, in italiano).
 
 Un OLT può avere anche centinaia di porte[^notiziario], e ciascuna di queste realizza un **albero ottico** alla cui estremità è collegato un numero di utenze pari al fattore di splitting. **La velocità di 2,5 / 1,25 Gbps prevista da GPON è condivisa tra tutte le utenze che fanno capo allo stesso albero**.
 
-Per questo motivo, nella pratica il fattore di splitting non è quasi mai 128 ma 64 o anche meno.[^notiziario]
+Per questo motivo, nella pratica il fattore di splitting non è quasi mai 128 ma 64 o inferiore.[^notiziario]
 
 {{< info >}}
 Vedi la sezione *GPON in Italia* più in basso per i dettagli sui fattori di splitting usati in Italia.
@@ -50,16 +50,16 @@ Per fare un esempio, Open Fiber in Italia applica due livelli di splitting, il p
 
 Uno splitter ottico riceve in ingresso (lato OLT) una singola fibra ottica e **produce in uscita N segnali su N fibre ottiche** (fattore di splitting 1:N).
 
-In direzione **downstream** (OLT -> ONT) lo splitter "copia" la luce in ingresso sulle fibre ottiche in uscita, dividendo però così la potenza della luce per N. Per questo motivo una rete GPON ha un limite massimo di estensione, che è di 20 km (tra OLT e ONT più lontano).
+In direzione **downstream** (OLT -> ONT) lo splitter "copia" la luce in ingresso sulle fibre ottiche in uscita, dividendo però così la potenza della luce per N. Per questo motivo una rete GPON ha un limite massimo di estensione, che è di circa 20 km (tra OLT e ONT più lontano).
 
 Da questo comportamento segue anche il fatto che **ciascun ONT riceve anche il traffico destinato agli altri ONT**. Si rende quindi necessario l'uso di tecniche di crittografia per proteggere le informazioni, che vengono scartate a livello di ONT se destinate a un altro ONT.
 
 In direzione **upstream** (ONT -> OLT) lo splitter si occupa di **sommare i contributi di luce portati dalle N fibre ottiche**. Considerato che più ONT possono trasmettere in contemporanea, gli OLT prevedono dei meccanismi di sincronizzazione per fare in modo che la trasmissione sia coordinata e non sovrapposta.
 {{< /green >}}
 
-L'elemento GPON di interesse principale per le utenze finali è però il **ROE** (**Ripartitore Ottico di Edificio**), o in alternativa il **PTE** (**Punto di Terminazione di Edificio**). Il ROE/PTE viene solitamente installato a pochi metri dalle abitazioni: molto spesso si trova nel locale contatori dell'edificio, ma può anche essere montato su una parete esterna, oppure interrato o inserito in una chiostrina.
+L'elemento GPON di interesse principale per le utenze finali è però il **ROE** (**Ripartitore Ottico di Edificio**), a volte chiamato **PTE** (**Punto di Terminazione di Edificio**). Il ROE/PTE viene solitamente installato a pochi metri dalle abitazioni: molto spesso si trova nel locale contatori dell'edificio, ma può anche essere montato su una parete esterna, oppure interrato o inserito in una chiostrina.
 
-ROE e PTE si distinguono principalmente in base alla **presenza o meno di uno splitter** al loro interno. Infatti, mentre il ROE si occupa anche di fare lo splitting della fibra ottica, il PTE serve solo a **dare flessibilità alla rete**. All'interno di un PTE entra un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico a monte), e ne escono altrettante, che andranno direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
+Il ROE/PTE può contenere uno **splitter** oppure svolgere solo il ruolo di **distributore**, con lo scopo di dare flessibilità alla rete. In questo secondo caso, nel ROE/PTE entrerebbe un numero prefissato di fibre ottiche (es. 16, provenienti da uno splitter ottico a monte), e ne uscirebbero altrettante, che andrebbero direttamente alle unità immobiliari (UI) dei clienti finali (tratta *verticale*).
 
 {{< fig src="/images/gpon2.png" caption="Schema della rete FTTH GPON di Flash Fiber. I punti di splitting sono due, rispettivamente i CNO (Centro Nodale Ottico) e i ROE. Il fattore di splitting complessivo è 1:64, mentre per ciascuno splitter è 1:8." >}}
 
@@ -69,7 +69,7 @@ Infine, all'interno delle abitazioni sono presenti una **borchia ottica e un ONT
 
 Non sempre l'ONT è un dispositivo a sé stante: può anche essere incorporato all'interno di un router, oppure essere fornito come modulo **SFP**, una cartuccia metallica che va inserita in un router o in un convertitore.
 
-{{< fig src="/images/cavo-fibra.jpg" caption="Cavo di fibra ottica per FTTH con connettore SC" vertical="true" >}}
+{{< fig src="/images/cavo-fibra.jpg" caption="Cavo di fibra ottica per FTTH con connettore SC/APC" vertical="true" >}}
 
 ## GPON in Italia
 
@@ -83,7 +83,7 @@ Nelle aree a **investimento privato** l'infrastruttura prevede dei **POP** (*Poi
 
 **Il fattore di splitting utilizzato è 1:64**, e lo splitting avviene in due diversi livelli, tramite i **PFP** (**Punto di Flessibilità Primario**) e i **PFS** (**Punto di Flessibilità Secondario**).[^ofglossario] Questi punti possono contenere fino a 20 splitter e non devono necessariamente trovarsi in prossimità degli armadi di TIM.
 
-Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati anche **PTA** (*Punto di Terminazione Arretrato*) se sono interrati.
+Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati anche **PTA** (*Punto di Terminazione Arretrato*) se sono interrati all'interno di appositi pozzetti.
 
 {{< fig src="/images/gpon-of.jpg" caption="Infrastruttura di rete Open Fiber (cluster A). Fonte: Open Fiber" >}}
 
@@ -101,7 +101,11 @@ Come conseguenza, il livello di splitting è soltanto uno ed è effettuato nel C
 
 La scelta di un fattore di splitting inferiore consente inoltre di avere delle **tratte OLT-ONT più lunghe**, in considerazione del fatto che ogni splitting ripartisce la potenza del segnale luminoso tra i rami dell'albero.
 
-Nelle aree a investimento pubblico viene inoltre fatto ampio uso dei **PTA** interrati, in aggiunta ai **PTE**, soprattutto per le aree a bassa densità.
+Nelle aree a investimento pubblico viene inoltre fatto ampio uso dei **PTA**, cioè ROE interrati.
+
+{{< info >}}
+Vedi anche [Come riconoscere la rete pubblica BUL]({{< relref "/posts/rete-bul.md" >}}).
+{{< /info >}}
 
 {{< fig src="/images/gpon-of-infratel.jpg" caption="Infrastruttura di rete Open Fiber nei cluster C e D (aree bianche). Fonte: Open Fiber" >}}
 
@@ -153,9 +157,9 @@ Ciascun armadio ottico serve **al massimo 384 unità immobiliari**, ciascuna del
 
 Un'altra conseguenza del fatto che gli splitter sono concentrati nell'armadio ottico è che si rende più **agevole il passaggio di un cliente tra un operatore e l'altro**: non è infatti necessario un intervento sul ROE che si trova presso l'abitazione, come nel caso di Flash Fiber.
 
-Il PTE svolge quindi solo il ruolo di raccordo e non contiene splitter.
+Il ROE svolge quindi solo il ruolo di raccordo e non contiene splitter.
 
-{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
+{{< fig src="/images/fibercop-roe1.jpg" caption="Un ROE FiberCop montato su un palo della rete telefonica di TIM. Grazie ad @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
 
 Gli operatori che vogliono acquisire servizi da FiberCop hanno diverse strade:[^fibercop2]
 
