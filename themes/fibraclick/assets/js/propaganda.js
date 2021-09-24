@@ -36,6 +36,18 @@ window.propaganda = {
     </div>
 </div>`,
 
+    ad2: `
+<div class="propaganda" style="margin-top:1.5rem">
+    <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7028530372547989"
+            data-ad-slot="9383150637"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+    </div>
+</div>`,
+
     init: function() {
         window.onload = window.propaganda.onLoad;
     },
@@ -50,7 +62,8 @@ window.propaganda = {
 
         var adNode = document.querySelectorAll('h2')[0];
         if (adNode) {
-            adNode.insertAdjacentHTML('beforebegin', window.propaganda.ad);
+            var ad = (Math.random() > 0.5 ? window.propaganda.ad : window.propaganda.ad2);
+            adNode.insertAdjacentHTML('beforebegin', ad);
             (adsbygoogle = window.adsbygoogle || []).push({});
         }
     },
