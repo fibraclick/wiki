@@ -24,6 +24,13 @@ window.propaganda = {
 </div>
 `,
 
+    ad: `<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-7028530372547989"
+     data-ad-slot="7331718272"></ins>`,
+
     init: function() {
         window.onload = window.propaganda.onLoad;
     },
@@ -43,6 +50,16 @@ window.propaganda = {
 
             node.insertAdjacentHTML('beforebegin', html);
 
+            console.log('[Propaganda] Injected');
+        }
+
+        var adNode = document.querySelectorAll('h2')[0];
+
+        console.log('[Propaganda] Chosen ad node:', adNode);
+
+        if (adNode) {
+            adNode.insertAdjacentHTML('beforebegin', window.propaganda.ad);
+            (adsbygoogle = window.adsbygoogle || []).push({});
             console.log('[Propaganda] Injected');
         }
     },
