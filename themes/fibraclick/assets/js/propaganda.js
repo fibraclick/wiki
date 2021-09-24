@@ -1,10 +1,10 @@
 window.propaganda = {
     template: `
 <div class="propaganda">
-    <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
+    <div class="propaganda-header"></span></div>
 
     <div class="propaganda-text">
-        <span class="propaganda-title">Non perderti gli aggiornamenti.</span><br>
+        <span class="propaganda-title">Non perderti le novità.</span><br>
         Iscriviti a <strong>Riflessione ottica</strong>, la newsletter settimanale di FibraClick. <strong>Ogni domenica le principali novità sulla banda ultra larga e Internet in Italia, spiegate in 5 minuti.</strong> Niente spam, promesso.
         
         <div id="mc_embed_signup">
@@ -24,77 +24,35 @@ window.propaganda = {
 </div>
 `,
 
-    ad: `<ins class="adsbygoogle"
-     style="display:block; text-align:center;"
-     data-ad-layout="in-article"
-     data-ad-format="fluid"
-     data-ad-client="ca-pub-7028530372547989"
-     data-ad-slot="7331718272"></ins>`,
+    ad: `
+<div class="propaganda" style="margin-top:1.5rem">
+    <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
+        <ins class="adsbygoogle"
+            style="display:block; text-align:center;"
+            data-ad-layout="in-article"
+            data-ad-format="fluid"
+            data-ad-client="ca-pub-7028530372547989"
+            data-ad-slot="7331718272"></ins>
+    </div>
+</div>`,
 
     init: function() {
         window.onload = window.propaganda.onLoad;
     },
 
     onLoad: function () {
-        console.log('[Propaganda] onLoad');
-
-        var node = window.propaganda.findNode();
-
-        console.log('[Propaganda] Chosen node:', node);
-
-        if (node) {
+        var ctaNode = document.getElementsByClassName('post-footer')[0];
+        if (ctaNode) {
             var url = encodeURIComponent(location.href);
             var html = window.propaganda.template.replace('{url}', url);
-
-            console.log('[Propaganda] Injecting with URL:', url);
-
-            node.insertAdjacentHTML('beforebegin', html);
-
-            console.log('[Propaganda] Injected');
+            ctaNode.insertAdjacentHTML('beforebegin', html);
         }
 
         var adNode = document.querySelectorAll('h2')[0];
-
-        console.log('[Propaganda] Chosen ad node:', adNode);
-
         if (adNode) {
             adNode.insertAdjacentHTML('beforebegin', window.propaganda.ad);
             (adsbygoogle = window.adsbygoogle || []).push({});
-            console.log('[Propaganda] Injected');
         }
-    },
-
-    findNode: function() {
-        var postHeight = document.querySelector('.post-content').offsetHeight;
-        var half = postHeight / 2;
-        var nodes = document.querySelectorAll('h2');
-
-        var putBeforeThis;
-
-        for (var i = 0; i < nodes.length; i++) {
-            if (nodes[i].offsetTop > half) {
-                if (nodes[i].offsetTop / postHeight > 0.8) {
-                    i--;
-                }
-
-                if (nodes[i].offsetTop > half) {
-                    putBeforeThis = nodes[i];
-                }
-
-                break;
-            }
-        }
-
-        if (!putBeforeThis) {
-            if (nodes.length >= 2) {
-                putBeforeThis = nodes[nodes.length - 1];
-            }
-            else {
-                return;
-            }
-        }
-
-        return putBeforeThis;
     },
 };
 
