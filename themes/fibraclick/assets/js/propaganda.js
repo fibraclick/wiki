@@ -1,6 +1,6 @@
 const NEWSLETTER_TEMPLATE = `
 <div class="propaganda">
-    <div class="propaganda-header"></span></div>
+    <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
 
     <div class="propaganda-text">
         <span class="propaganda-title">Non perderti le novità.</span><br>
@@ -48,19 +48,32 @@ const AD2_TEMPLATE = `
 </div>`;
 
 function onLoad() {
-    const ctaNode = document.getElementsByClassName('post-footer')[0];
+    const headings = document.querySelectorAll('h2, h3');
+    const ctaNode = headings[headings.length - 1];
     if (ctaNode) {
         const url = encodeURIComponent(location.href);
         const html = NEWSLETTER_TEMPLATE.replace('{url}', url);
         ctaNode.insertAdjacentHTML('beforebegin', html);
     }
 
-    const adNode = document.querySelectorAll('h2')[0];
-    if (adNode) {
+    let lastNodeOffset;
+    let adNodes = [];
+    headings.forEach((node, i) => {
+        if (i == headings.length - 1) {
+            return;
+        }
+        if (lastNodeOffset && node.offsetTop - lastNodeOffset < window.innerHeight) {
+            return;
+        }
+        lastNodeOffset = node.offsetTop;
+        adNodes.push(node);
+    });
+
+    adNodes.forEach(node => {
         const ad = (Math.random() > 0.5 ? AD1_TEMPLATE : AD2_TEMPLATE);
-        adNode.insertAdjacentHTML('beforebegin', ad);
+        node.insertAdjacentHTML('beforebegin', ad);
         (adsbygoogle = window.adsbygoogle || []).push({});
-    }
+    });
 }
 
 window.onload = onLoad;
