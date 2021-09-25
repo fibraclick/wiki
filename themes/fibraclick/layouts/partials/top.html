@@ -116,7 +116,7 @@
     </script>
 
     {{ if and (.Section) (eq .Section "posts") }}
-    {{ $js := resources.Get "js/propaganda.js" |  minify | fingerprint -}}
+    {{ $js := resources.Get "js/propaganda.js" | js.Build (dict "minify" true "target" "es6") | fingerprint -}}
     <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
     {{- end }}
 

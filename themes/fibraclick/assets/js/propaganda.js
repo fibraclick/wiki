@@ -1,5 +1,4 @@
-window.propaganda = {
-    template: `
+const NEWSLETTER_TEMPLATE = `
 <div class="propaganda">
     <div class="propaganda-header"></span></div>
 
@@ -22,9 +21,9 @@ window.propaganda = {
         <!--Seguici anche su <a target="_blank" href="https://t.me/FibraClick">Telegram</a>, <a target="_blank" href="https://www.facebook.com/fibraclick">Facebook</a> e <a target="_blank" href="https://twitter.com/fibraclick">Twitter</a>.-->
     </div>
 </div>
-`,
+`;
 
-    ad: `
+const AD1_TEMPLATE = `
 <div class="propaganda" style="margin-top:1.5rem">
     <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
         <ins class="adsbygoogle"
@@ -34,9 +33,9 @@ window.propaganda = {
             data-ad-client="ca-pub-7028530372547989"
             data-ad-slot="7331718272"></ins>
     </div>
-</div>`,
+</div>`;
 
-    ad2: `
+const AD2_TEMPLATE = `
 <div class="propaganda" style="margin-top:1.5rem">
     <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
         <ins class="adsbygoogle"
@@ -46,27 +45,22 @@ window.propaganda = {
             data-ad-format="auto"
             data-full-width-responsive="true"></ins>
     </div>
-</div>`,
+</div>`;
 
-    init: function() {
-        window.onload = window.propaganda.onLoad;
-    },
+function onLoad() {
+    const ctaNode = document.getElementsByClassName('post-footer')[0];
+    if (ctaNode) {
+        const url = encodeURIComponent(location.href);
+        const html = NEWSLETTER_TEMPLATE.replace('{url}', url);
+        ctaNode.insertAdjacentHTML('beforebegin', html);
+    }
 
-    onLoad: function () {
-        var ctaNode = document.getElementsByClassName('post-footer')[0];
-        if (ctaNode) {
-            var url = encodeURIComponent(location.href);
-            var html = window.propaganda.template.replace('{url}', url);
-            ctaNode.insertAdjacentHTML('beforebegin', html);
-        }
+    const adNode = document.querySelectorAll('h2')[0];
+    if (adNode) {
+        const ad = (Math.random() > 0.5 ? AD1_TEMPLATE : AD2_TEMPLATE);
+        adNode.insertAdjacentHTML('beforebegin', ad);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+}
 
-        var adNode = document.querySelectorAll('h2')[0];
-        if (adNode) {
-            var ad = (Math.random() > 0.5 ? window.propaganda.ad : window.propaganda.ad2);
-            adNode.insertAdjacentHTML('beforebegin', ad);
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        }
-    },
-};
-
-window.propaganda.init();
+window.onload = onLoad;
