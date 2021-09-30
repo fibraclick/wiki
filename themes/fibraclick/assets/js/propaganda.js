@@ -23,19 +23,7 @@ const NEWSLETTER_TEMPLATE = `
 </div>
 `;
 
-const AD1_TEMPLATE = `
-<div class="propaganda" style="margin-top:1.5rem">
-    <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
-        <ins class="adsbygoogle"
-            style="display:block; text-align:center;"
-            data-ad-layout="in-article"
-            data-ad-format="fluid"
-            data-ad-client="ca-pub-7028530372547989"
-            data-ad-slot="7331718272"></ins>
-    </div>
-</div>`;
-
-const AD2_TEMPLATE = `
+const AD_TEMPLATE = `
 <div class="propaganda" style="margin-top:1.5rem">
     <div class="propaganda-header">Una piccola interruzione. <span>L'articolo prosegue sotto ↓</span></div>
         <ins class="adsbygoogle"
@@ -70,8 +58,7 @@ function onLoad() {
     });
 
     adNodes.forEach(node => {
-        const ad = (Math.random() > 0.5 ? AD1_TEMPLATE : AD2_TEMPLATE);
-        node.insertAdjacentHTML('beforebegin', ad);
+        node.insertAdjacentHTML('beforebegin', AD_TEMPLATE);
         (adsbygoogle = window.adsbygoogle || []).push({});
     });
 }
