@@ -8,6 +8,7 @@ description: "Il digitale terrestre sta per cambiare, ecco cosa succederà."
 categories: []
 image: /social/digitale-terrestre-2022.jpg
 hidden: true
+published: false
 ---
 
 A partire dal 1° luglio 2022, parte delle **frequenze**[^freq] attualmente in uso dalla televisione digitale terrestre sarà **ridestinata alla telefonia mobile, in particolare al 5G**[^eulex].
