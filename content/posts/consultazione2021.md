@@ -1,18 +1,20 @@
 ---
-title: "La consultazione Infratel 2021"
-slug: consultazione-2021
+title: "La mappatura Infratel 2021"
+slug: mappatura-2021
+aliases: [consultazione-2021]
 date: 2021-05-08T11:20:00+02:00
-lastmod: 2021-08-06T22:00:00+02:00
+lastmod: 2021-10-17T19:00:00+02:00
 authors: [Matteo]
 description: La consultazione 2021 ha lo scopo di mappare le reti a banda ultralarga presenti sul territorio per definire le aree in cui c'è carenza di reti ad altissima capacità.
 categories: [Copertura, Piano BUL]
 ---
 
-La **consultazione Infratel 2021** è un'attività di mappatura condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 30 aprile 2021 ed è terminata il 15 giugno 2021.[^cons]
+La **consultazione Infratel 2021 è un'attività di mappatura** condotta da Infratel con lo scopo di raccogliere dagli operatori di rete fissa dati sulla **copertura attuale e futura delle abitazioni** italiane. La consultazione è stata annunciata il 30 aprile 2021 ed è terminata il 15 giugno 2021.[^cons] Il 13 ottobre 2021 è stata avviata una seconda fase per l'aggiornamento delle aree bianche, escluse dalla fase precedente.[^cons2]
 
 [^cons]: *Mappatura 2021 reti fisse a banda ultralarga: consultazione degli operatori* https://www.infratelitalia.it/archivio-documenti/documenti/mappatura-2021-reti-fisse-a-banda-ultralarga-consultazione-degli-operatori
+[^cons2]: *Mappatura 2021 reti fisse a banda ultralarga nelle “Aree bianche 2016” - al via la consultazione degli operatori* https://www.infratelitalia.it/archivio-news/notizie/avviso-mappatura-bul-aree-bianche
 
-Agli operatori è stato chiesto di inviare **per ogni indirizzo civico delle aree nere e grigie** la copertura esistente al **30 aprile 2021** e le previsioni di copertura per i successivi 5 anni, e cioè al **30 aprile 2022, 2023, 2024, 2025 e 2026**.[^esiti]
+Agli operatori è stato quindi chiesto di inviare **per ogni indirizzo civico italiano** la copertura esistente al **30 aprile 2021** e le previsioni di copertura per i successivi 5 anni, e cioè al **30 aprile 2022, 2023, 2024, 2025 e 2026**.[^esiti]
 
 Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazionale, con lo scopo di rilevare le aree in cui c'è **carenza di reti ad altissima capacità** e si rende quindi necessario un intervento dello Stato tramite la [*Strategia per la banda ultralarga*]({{< relref "/posts/piano-bul.md" >}}).
 
@@ -20,9 +22,9 @@ Il risultato sarà una **mappatura della banda ultralarga** sul territorio nazio
 
 ## Aree oggetto di consultazione
 
-La consultazione ha come oggetto **le aree già precedentemente dichiarate come nere o grigie**, cioè tutti gli indirizzi in cui almeno un operatore aveva dichiarato di coprire o voler coprire con una rete a banda ultralarga.
+**La mappatura ha come oggetto l'intero territorio nazionale**. Nella prima fase sono stati raccolti dati per le aree già precedentemente dichiarate come nere o grigie, cioè tutti gli indirizzi in cui almeno un operatore aveva dichiarato di coprire o voler coprire con una rete a banda ultralarga.
 
-Dalla consultazione sono quindi **escluse le** [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL]({{< relref "/posts/piano-aree-bianche.md" >}}). La consultazione potrà però identificare **nuove aree bianche** dove gli operatori hanno ritirato gli impegni di investimento.
+Nella seconda fase sono invece state aggiornate le [**aree bianche**]({{< relref "/posts/aree.md" >}}), che sono in larghissima parte già oggetto di intervento pubblico tramite il [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}).
 
 ## A cosa serve la consultazione
 
@@ -64,7 +66,7 @@ Entrambi i vincoli sulla copertura devono essere auto-valutati dall'operatore ch
 
 ## I risultati
 
-In seguito all'analisi dei dati da parte di Infratel, i risultati della mappatura sono stati [pubblicati](https://www.infratelitalia.it/archivio-news/notizie/esiti-mappatura-delle-reti-fisse-2021) il 6 agosto 2021.
+In seguito all'analisi dei dati da parte di Infratel, i risultati della prima fase della mappatura sono stati [pubblicati](https://www.infratelitalia.it/archivio-news/notizie/esiti-mappatura-delle-reti-fisse-2021) il 6 agosto 2021.
 
 Dalla relazione di sintesi si ricava che:[^esiti]
 
