@@ -60,7 +60,7 @@ La copertura prevede anche l'installazione di un **Punto di Terminazione di Edif
 
 Come accennato, il progetto prevede la **realizzazione della sola rete secondaria**. La **rete primaria**, cioè quella tra armadio e centrale, è invece **già presente** grazie alla copertura **FTTC** (*Fiber To The Cabinet*) realizzata da TIM nel corso degli anni. A seconda della modalità scelta, un operatore terzo che vuole acquisire servizi passivi da FiberCop dovrà costruirsi la propria rete primaria oppure acquisirla da FiberCop/TIM.
 
-L'architettura FTTH scelta è di tipo **passivo**, e cioè non ha bisogno di apparati alimentati (al di là di quelli presenti in centrale e nelle abitazioni dei clienti), e **ruota attorno al concetto di armadio ottico**, quasi sempre situato nei pressi degli armadi ripartilinea esistenti (ARL). L'armadio ottico viene di conseguenza chiamato **CRO** (*Cabinet Ripartilinea Ottico*), e spesso anche **ARLO** (*Armadio Ripartilinea Ottico*) o **CNO** (*Centro Nodale Ottico*). Un armadio ottico serve **fino a 384 unità immobiliari**.
+L'architettura FTTH scelta è di tipo **passivo**, e cioè non ha bisogno di apparati alimentati (al di là di quelli presenti in centrale e nelle abitazioni dei clienti), e **ruota attorno al concetto di armadio ottico**, quasi sempre situato nei pressi degli armadi ripartilinea esistenti (ARL). L'armadio ottico viene di conseguenza chiamato **CRO** (*Cabinet Ripartilinea Ottico*) e spesso anche **ARLO** (*Armadio Ripartilinea Ottico*). Un armadio ottico serve **fino a 384 unità immobiliari**.
 
 [^gpon]: https://wdc.wholesale.telecomitalia.it/fibercop/servizi/semi-gpon-e-full-gpon/
 
