@@ -54,7 +54,7 @@ In genere, i nuovi armadi vengono collocati **accanto a un armadio ripartilinea 
 
 La copertura prevede anche l'installazione di un **Punto di Terminazione di Edificio** (PTE) per abitazione coperta, cioè una scatola che fa da raccordo per la fibra ottica e che viene montata solitamente nel locale contatori del palazzo o su una parete esterna dell'edificio.
 
-{{< fig src="/images/fibercop-pte1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie a @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
+{{< fig src="/images/fibercop-roe1.jpg" caption="Un PTE FiberCop montato su un palo della rete telefonica di TIM. Grazie a @ag23900 per la foto." alt="Primo piano di una scatola rettangolare di plastica con i loghi TIM e FiberCop, montata su un palo di legno." >}}
 
 ## Architettura
 
