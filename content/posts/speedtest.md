@@ -23,10 +23,6 @@ In questo articolo mostriamo come usare **Speedtest CLI**, che è la versione pe
 ###### Cos'è una CLI?
 
 **CLI** sta per **Command Line Interface**, cioè interfaccia a riga di comando. È un modo per impartire comandi al sistema operativo, scrivendoli appunto riga per riga.
-
-Con una semplificazione la CLI viene a volte chiamata anche *shell* (guscio), proprio perché fa da tramite tra l'utente e il sistema operativo. Anche l'interfaccia grafica del sistema operativo è una shell (la GUI).
-
-Ma torniamo in tema...
 {{< /green >}}
 
 {{< toc >}}
