@@ -103,3 +103,4 @@ $RECYCLE.BIN/
 .idea
 static/stato-bul
 venv
+.hugo_build.lock
