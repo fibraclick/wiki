@@ -69,7 +69,6 @@ Se stai testando la velocità massima raggiungibile con la tua connessione, prov
 Per risultati più realistici specialmente in caso di problemi/congestione, prova con:
 - Fastweb (Milano): `speedtest -s 7839`
 - Wind Tre (Milano): `speedtest -s 27363`
-- Aruba (Ponte San Pietro): `speedtest -s 40519`
 
 Se ti trovi al sud, prova anche con:
 - Fastweb (Roma): `speedtest -s 7898`
@@ -126,7 +125,6 @@ Se stai testando la velocità massima raggiungibile con la tua connessione, prov
 Per risultati più realistici specialmente in caso di problemi/congestione, prova con:
 - Fastweb (Milano): `speedtest -s 7839`
 - Wind Tre (Milano): `speedtest -s 27363`
-- Aruba (Ponte San Pietro): `speedtest -s 40519`
 
 Se ti trovi al sud, prova anche con:
 - Fastweb (Roma): `speedtest -s 7898`
