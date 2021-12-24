@@ -86,6 +86,11 @@ Dalla relazione di sintesi si ricava che:[^esiti]
   - **senza FWA**: 71,0%
   - **con FWA** *Served*: 71,2%
   - **con FWA** *Passed*: 73,6%
-- per quanto riguarda la copertura cablata (no FWA), sono stati pubblicati dei [dati in formato CSV](https://www.infratelitalia.it/-/media/infratel/documents/allegatoa_wired_regioni.zip) tramite i quali è possibile verificare per ciascun civico delel aree nere e grigie la velocità prevista al 2026.
+
+I risultati della **seconda fase della mappatura**, riguardante le aree bianche, sono stati [pubblicati](https://www.infratelitalia.it/archivio-documenti/documenti/relazione-2021-reti-fisse-bul) il 24 novembre 2021. Dalla relazione di sintesi si ricava che **al 2026 solo il 30% dei civici non già inclusi nel [piano aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}) sarà coperto in FTTH**. L'82% sarà invece coperto in FWA ad almeno 300 Mbps.[^esiti2]
+
+[^esiti2]: https://www.infratelitalia.it/-/media/infratel/documents/relazione-mappatura-fissa-2021_aree-bianche--2016_24112021_def.pdf
+
+I dati di entrambe le mappature, solo per quanto riguarda la copertura cablata (no FWA), sono consultabili sul sito Banda Ultralarga tramite la pagina [Ricerca per indirizzo](https://bandaultralarga.italia.it/indirizzo) oppure consultando i file in formato CSV pubblicati sul sito Infratel.
 
 {{< footer >}}
