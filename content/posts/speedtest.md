@@ -57,9 +57,23 @@ Dopo qualche secondo verrà mostrato il risultato:
 
 È anche possibile selezionare un server specifico, di cui bisogna però conoscere l'identificativo numerico. Per ottenere una lista dei server più "vicini", scrivi `speedtest -L`, e nella prima colonna troverai l'ID dei server.
 
-Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
-- per il server Vodafone di Milano: `speedtest -s 4302`
-- per il server EOLO di Milano: `speedtest -s 11427`
+Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio, esegui `speedtest -s 4302` per eseguire il test con il server Vodafone Milano.
+
+{{< green >}}
+**Non tutti i server Speedtest sono uguali**: differiscono in base a **capacità** del server, **interconnessioni** di rete, **configurazioni particolari** per ottenere risultati più alti, ecc.
+
+Se stai testando la velocità massima raggiungibile con la tua connessione, prova ad utilizzare questi due server:
+- EOLO (Milano): `speedtest -s 11427`
+- Vodafone (Milano): `speedtest -s 4302`
+
+Per risultati più realistici specialmente in caso di problemi/congestione, prova con:
+- Fastweb (Milano): `speedtest -s 7839`
+- Wind Tre (Milano): `speedtest -s 27363`
+
+Se ti trovi al sud, prova anche con:
+- Fastweb (Roma): `speedtest -s 7898`
+- Wind Tre (Roma): `speedtest -s 29317`
+{{< /green >}}
 
 {{< info >}}
 Non esiste una lista ufficiale completa dei server Speedtest con i loro ID, ma puoi utilizzare il bot Telegram [SpeedtestIDBot](https://t.me/speedtestidbot) per trovarne uno specifico partendo dal suo nome.
@@ -99,9 +113,23 @@ Dopo qualche secondo verrà mostrato il risultato:
 
 È anche possibile selezionare un server specifico, di cui bisogna però conoscere l'identificativo numerico. Per ottenere una lista dei server più "vicini", scrivi `speedtest -L`, e nella prima colonna troverai l'ID dei server.
 
-Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio:
-- per il server Vodafone di Milano: `speedtest -s 4302`
-- per il server EOLO di Milano: `speedtest -s 11427`
+Puoi ora specificare l'ID con l'opzione `-s`. Ad esempio, esegui `speedtest -s 4302` per eseguire il test con il server Vodafone Milano.
+
+{{< green >}}
+**Non tutti i server Speedtest sono uguali**: differiscono in base a **capacità** del server, **interconnessioni** di rete, **configurazioni particolari** per ottenere risultati più alti, ecc.
+
+Se stai testando la velocità massima raggiungibile con la tua connessione, prova ad utilizzare questi due server:
+- EOLO (Milano): `speedtest -s 11427`
+- Vodafone (Milano): `speedtest -s 4302`
+
+Per risultati più realistici specialmente in caso di problemi/congestione, prova con:
+- Fastweb (Milano): `speedtest -s 7839`
+- Wind Tre (Milano): `speedtest -s 27363`
+
+Se ti trovi al sud, prova anche con:
+- Fastweb (Roma): `speedtest -s 7898`
+- Wind Tre (Roma): `speedtest -s 29317`
+{{< /green >}}
 
 {{< info >}}
 Non esiste una lista ufficiale completa dei server Speedtest con i loro ID, ma puoi utilizzare il bot Telegram [SpeedtestIDBot](https://t.me/speedtestidbot) per trovarne uno specifico partendo dal suo nome.
