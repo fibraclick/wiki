@@ -3,7 +3,7 @@ title: "La mappatura Infratel 2021"
 slug: mappatura-2021
 aliases: [consultazione-2021]
 date: 2021-05-08T11:20:00+02:00
-lastmod: 2021-10-17T19:00:00+02:00
+lastmod: 2021-12-24T15:30:00+01:00
 authors: [Matteo]
 description: La consultazione 2021 ha lo scopo di mappare le reti a banda ultralarga presenti sul territorio per definire le aree in cui c'è carenza di reti ad altissima capacità.
 categories: [Copertura, Piano BUL]
