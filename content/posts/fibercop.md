@@ -9,7 +9,7 @@ categories: [Definizioni, Copertura, FTTH]
 image: /social/fibercop.jpg
 ---
 
-**FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 2578 comuni italiani entro metà 2026**, corrispondenti a circa l'80% delle unità immobiliari "tecniche"[^uit] delle aree nere e grigie.[^costituzione][^coinvestimento2]
+**FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare entro metà 2026 reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 2578 comuni italiani**, coprendo così circa l'80% delle unità immobiliari "tecniche"[^uit] delle aree nere e grigie.[^costituzione][^coinvestimento2]
 
 [^uit]: Le unità immobiliari tecniche sono quelle che nel tempo hanno fatto uso della rete fissa. https://wdc.wholesale.telecomitalia.it/fibercop/
 [^costituzione]: https://www.gruppotim.it/it/archivio-stampa/corporate/2020/CS-TIM-FiberCop-Access.html
