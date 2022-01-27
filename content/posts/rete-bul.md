@@ -2,14 +2,14 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2021-07-26T13:45:00+02:00
+lastmod: 2022-01-27T18:00:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
 image: /social/riconoscere-rete-bul.jpg
 ---
 
-La **rete pubblica BUL** è realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}), e ha l'obiettivo di coprire quasi il 25% della popolazione con connessioni <abbr title="Fiber To The Home, fibra fino a casa">FTTH</abbr> (per circa l'81%) e <abbr title="Fixed Wireless Access, connessione senza fili">FWA</abbr> entro il 2020.
+La **rete pubblica #BUL** è una rete in fibra ottica realizzata da [**Open Fiber**]({{< relref "/posts/openfiber.md" >}}) per conto di **Infratel** (società che fa capo al MiSE) nell'ambito del [piano BUL aree bianche]({{< relref "/posts/piano-aree-bianche.md" >}}). Ha l'obiettivo di coprire in fibra ottica (FTTH) tra il 20 e il 25% della popolazione italiana.
 
 Per verificare se si è coinvolti dal piano, il metodo più affidabile è utilizzare la [mappa del sito BUL](https://bandaultralarga.italia.it/mappa/), che mostra un pallino nero sulla propria abitazione nel caso di copertura in fibra ottica. (I tracciati e i pallini sono mostrati soltanto in presenza di progetto esecutivo approvato.)
 
@@ -21,11 +21,11 @@ Per verificare se si è coinvolti dal piano, il metodo più affidabile è utiliz
 
 ## Pozzetti #BUL
 
-Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e sono posizionati ogni circa 40-50 metri sulle vie da coprire in fibra ottica.[^pozz1][^pozz2] Sono l'equivalente di un PTA (Punto di Terminazione Arretrato), e cioè il punto da cui partono le fibre ottiche per le abitazioni.
+Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni e sono posizionati a una distanza massima di 40 metri dalle abitazioni coperte (per la precisione, dal confine della proprietà privata).[^pozz1][^pozz2][^pozz3] Contengono il ROE e sono l'equivalente di un PTA (Punto di Terminazione Arretrato). Questi pozzetti sono il punto da cui partono le fibre ottiche per connettere le abitazioni, posate in fase di allaccio.
 
 [^pozz1]: https://forum.fibra.click/d/1439-incontro-openfiber-volano-tn
 [^pozz2]: http://www.regione.marche.it/Portals/0/Agenda_Digitale/Piano_BUL/TaskForceBUL/2019%2007%2001%20Regione%20%20Marche%20Task%20Force%20Infratel.pdf
-[^pozz3]: http://www.crescitadigitaleincomune.it/wp-content/uploads/2018/04/Presentazione-Cudia.pdf
+[^pozz3]: https://bussola.s3.eu-west-1.amazonaws.com/244172/Progetto%20Bul.ppt
 
 {{< fig src="/images/rete-bul/pozzetto-bul-1.jpg" caption="Pozzetto 76 x 40 cm, per coprire 24 UI (unità immobiliari)." >}}
 
@@ -35,7 +35,7 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni[^pozz3] e son
 
 ## ROE su edifici e pali
 
-Nelle zone ad alta densità di unità immobiliari possono essere installati dei ROE (Ripartitori Ottici di Edificio), con lo stesso scopo dei PTA. I ROE possono essere montati sui pali o sulle pareti degli edifici, ed essere anonimi o avere un'etichetta con scritto #BUL o Infratel.
+Nelle zone ad alta densità di unità immobiliari i ROE (Ripartitori Ottici di Edificio) possono essere installati anche su pali o su pareti degli edifici. Possono essere anonimi oppure avere un'etichetta con scritto #BUL o Infratel. Sono l'equivalente di un PTE (Punto di Terminazione di Edificio).
 
 {{< fig src="/images/rete-bul/roe-bul-1.jpg" caption="ROE BUL su palo. Grazie a @Stregone84 per la foto." vertical="true" >}}
 
@@ -43,11 +43,11 @@ Nelle zone ad alta densità di unità immobiliari possono essere installati dei 
 
 {{< fig src="/images/rete-bul/roe-bul-3.jpg" caption="ROE BUL su palo. Grazie a @TrtRndS per la foto." vertical="true" >}}
 
-## PTA su strada
+## ROE su strada
 
-In alcuni casi i ROE/PTA sono posizionati ai lati delle strade all'interno di scatole che assomigliano alle chiostrine TIM, ma di colore blu e con l'etichetta #BUL.
+In alcuni casi i ROE sono posizionati ai lati delle strade all'interno di elementi di rete che assomigliano alle chiostrine TIM, ma di colore blu e con l'etichetta #BUL.
 
-{{< fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE/PTA BUL su strada. Grazie a Leonardo F. per la foto." vertical="true" >}}
+{{< fig src="/images/rete-bul/pta-bul-1.jpg" caption="ROE BUL su strada. Grazie a Leonardo F. per la foto." vertical="true" >}}
 
 ## CNO
 
