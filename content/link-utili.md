@@ -1,7 +1,7 @@
 ---
 title: "Link utili"
 date: 2019-04-07T00:00:00+02:00
-lastmod: 2021-04-23T21:00:00+02:00
+lastmod: 2022-01-27T18:20:00+01:00
 description: "Lista di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
@@ -15,22 +15,20 @@ description: "Lista di link utili legati alla fibra ottica, copertura, approfond
 - [File Excel FTTC TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/vula/##heading-custom3), con centrali e armadi attivi e pianificati
 - [File Excel ADSL TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/bitstream/##heading-custom3), con centrali attive e pianificate
 - [Fibermap](https://fibermap.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
-- [Planetel](https://fibra.planetel.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
-- [Planetel accesso alternativo](https://www.planetel.it/verificare-copertura-fibra-ottica/)
 - [Vodafone GEA Corporate](http://gea.dsl.vodafone.it/corporate), per controllare i dettagli della copertura Vodafone per indirizzo
 - [Portale LIDO](http://adsl2.csi.telecomitalia.it/), per controllare la vendibilità TIM
-- [Mappa banda larga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura fissa, mobile e wireless in Italia
+- [Mappa banda ultralarga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura a banda ultralarga in Italia ("Mappa per procedura Voucher")
 - [Open Fiber copertura](https://openfiber.it/verifica-copertura/), per controllare la copertura FTTH per indirizzo, sia nelle città che nelle aree bianche
-- [FiberCop](https://www.fibercop.it/), per controllare la copertura FTTH per città o per indirizzo per la rete Flash Fiber e FiberCop
+- [FiberCop](https://www.fibercop.it/), per controllare la copertura FTTH per città o per indirizzo per la rete Flash Fiber e FiberCop (TIM)
+- [Mappa cantieri FiberCop](https://www.fibercop.it/cantieri-in-corso/)
 
-## Piano Banda Ultra Larga
-- [Portale BUL](https://bandaultralarga.italia.it/)
-- [Stato lavori (sito Open Fiber)](https://openfiber.it/piano-copertura/stato-dei-lavori/), per verificare lo stato dei lavori nelle aree bianche, comune per comune
-- [Stato lavori (sito BUL)](https://bandaultralarga.italia.it/mappa/)
+## Piano Banda Ultralarga
+- [Portale Banda Ultralarga](https://bandaultralarga.italia.it/)
+- [Stato lavori aree bianche (sito Open Fiber)](https://openfiber.it/piano-copertura/stato-dei-lavori/), per verificare lo stato dei lavori nelle aree bianche, comune per comune
+- [Stato lavori aree bianche (sito BUL)](https://bandaultralarga.italia.it/mappa/)
 - [Evoluzione piano BUL](https://bandaultralarga.italia.it/evoluzione-piano/)
 - [News Infratel](https://www.infratelitalia.it/archivio-news)
-- [Bandi di gara Infratel](https://gareappalti.infratelitalia.it/)
-- [Progetti esecutivi SINFI (aggiornati al 2020)](https://www.sinfi.it/portal/index.php/35-esecutivi_bul_concessione)
+- [Bandi di gara Infratel](https://ingate.invitalia.it/web/login.shtml)
 
 ## Approfondimenti
 - [Notiziario tecnico Telecom Italia](https://www.telecomitalia.com/tit/it/innovazione/notiziario-tecnico.html)
