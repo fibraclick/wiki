@@ -73,7 +73,7 @@ Si tratta in totale di 32 caratteri raggruppati in 8 "parole" o gruppi da 4 cara
 
 La lunghezza di 128 bit porta ad avere un numero di indirizzi IPv6 estremamente alto. Si tratta infatti di 2<sup>128</sup> indirizzi, cioè 340.282.366.920.938.463.463.374.607.431.768.211.456. È un numero grandissimo (39 cifre) che risolve definitivamente il problema della carenza di indirizzi IP.
 
-L'indirizzo che abbiamo preso come esempio è effettivamente lungo e difficile da ricordare, ma c'è la possibilità di comprimerlo togliendo le parti poco utili. Possiamo ad esempio rimuovere tutti gli zeri all'inizio di ciascun gruppo (*leading zeros*) e comprimere le parti composte solo da zeri.[^formato]
+L'indirizzo che abbiamo preso come esempio è effettivamente lungo e difficile da ricordare, ma c'è la possibilità di **comprimerlo togliendo le parti poco utili**. Possiamo ad esempio rimuovere tutti gli zeri all'inizio di ciascun gruppo (*leading zeros*) e comprimere le parti composte solo da zeri (non più di una volta nello stesso indirizzo).[^formato] Come conseguenza, **lo stesso indirizzo IPv6 può essere scritto in più modi diversi ma equivalenti**.
 
 [^formato]: *RFC 4291, IP Version 6 Addressing Architecture* https://datatracker.ietf.org/doc/html/rfc4291
 
@@ -297,7 +297,7 @@ Viceversa, un ISP che parte da zero potrebbe voler **progettare la propria rete 
 
 ## Diffusione
 
-La diffusione del protocollo a IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità aggiuntive) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.[^reasons]
+La diffusione del protocollo IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità aggiuntive) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.[^reasons]
 
 [^reasons]: *Reasons for servers to support IPv6* https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/
 
