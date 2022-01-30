@@ -1,12 +1,12 @@
 ---
 title: "IPv6 per principianti"
 slug: ipv6
-date: 2022-01-27T21:04:14+01:00
-lastmod: 2022-01-27T21:04:14+01:00
+date: 2022-01-30T16:00:00+01:00
+lastmod: 2022-01-30T16:00:00+01:00
 authors: [Matteo, Edoardo]
-description: ""
+description: "Gli indirizzi IPv4 sono finiti da tempo e la soluzione è la transizione verso IPv6. Tutto quello che c'è da sapere su IPv6, tra indirizzi, configurazione e diffusione in Italia."
 categories: [Reti]
-hidden: true
+image: /social/ipv6.jpg
 ---
 
 La trasmissione di dati tramite Internet si basa sullo scambio di pacchetti tra dispositivi (router, computer, server, ecc.). Questo scambio avviene anche grazie all'**Internet Protocol e al suo sistema di indirizzamento**, la cui versione più nota è **IPv4**, in uso da quando Internet è nata negli anni 80.
