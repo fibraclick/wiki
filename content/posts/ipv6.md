@@ -109,26 +109,24 @@ che come abbiamo visto può essere compresso in:
 
 Anche in IPv6 si utilizza la sintassi CIDR. In questo caso **/128** serve ad indicare una singola interfaccia.[^formato]
 
-In IPv6 l'idea è che **ciascun dispositivo abbia assegnato almeno un indirizzo pubblico** che sia indirizzabile nella rete globale Internet. Per questo motivo un indirizzo di questo tipo è definito **unicast global**, indicazione che spesso si trova nella configurazione del proprio sistema operativo. Un esempio di indirizzo *global* è quello visto sopra (`2600:1409:d000:5a6::b63`).
+In IPv6 l'idea è che **ciascun dispositivo abbia assegnato almeno un indirizzo pubblico** che sia indirizzabile nella rete globale Internet. Per questo motivo un indirizzo di questo tipo è definito **global unicast** (GUA), indicazione che spesso si trova nella configurazione del proprio sistema operativo. Un esempio di indirizzo *global* è quello visto sopra (`2600:1409:d000:5a6::b63`).
 
 {{< green >}}
-Gli indirizzi IPv6 *unicast global* vengono [al momento allocati](https://www.iana.org/assignments/ipv6-unicast-address-assignments/ipv6-unicast-address-assignments.xhtml) partendo dal blocco `2000::/3`, che corrisponde a circa un ottavo dell'intero spazio IPv6. Nella pratica attualmente tutti gli indirizzi IPv6 pubblici iniziano con la cifra `2`.
+Gli indirizzi IPv6 *global unicast* vengono [al momento allocati](https://www.iana.org/assignments/ipv6-unicast-address-assignments/ipv6-unicast-address-assignments.xhtml) partendo dal blocco `2000::/3`, che corrisponde a circa un ottavo dell'intero spazio IPv6. Nella pratica attualmente tutti gli indirizzi IPv6 pubblici iniziano con la cifra `2`.
 {{< /green >}}
 
-Il fatto che ogni dispositivo abbia assegnato un indirizzo IPv6 pubblico è una differenza fondamentale rispetto ad IPv4, dove di solito è solo il router di casa a disporre di un indirizzo pubblico mentre i dispositivi della rete locale utilizzano indirizzi privati (con l'ausilio del NAT). **Anche in IPv6 esistono gli indirizzi privati** (chiamati indirizzi locali o *unique local* (ULA) e riconoscibili perché iniziano sempre con `fc` o `fd`) **ma non sono generalmente usati** perché non portano alcun vantaggio.[^ula]
+Il fatto che ogni dispositivo abbia assegnato un indirizzo IPv6 pubblico è una differenza fondamentale rispetto ad IPv4, dove di solito è solo il router di casa a disporre di un indirizzo pubblico mentre i dispositivi della rete locale utilizzano indirizzi privati (con l'ausilio del NAT). **Anche in IPv6 esistono gli indirizzi privati** (chiamati indirizzi locali o **unique local** (ULA) e riconoscibili perché iniziano sempre con `fc` o `fd`) ma sono meno usati in confronto ad IPv4 per via della presenza degli indirizzi *global*. Risultano spesso utili per servizi che devono rimanere interni, come può avvenire ad esempio nelle reti aziendali.
 
-[^ula]: *3 Ways to Ruin Your Future Network with IPv6 Unique Local Addresses* https://blogs.infoblox.com/ipv6-coe/3-ways-to-ruin-your-future-network-with-ipv6-unique-local/
+Le specifiche di IPv6 impongono anche che ogni interfaccia di rete di ogni dispositivo abbia assegnato un indirizzo di tipo **link-local**, o **locale rispetto al collegamento**. È un indirizzo obbligatorio per il funzionamento di IPv6 perché permette lo scambio di informazioni nel proprio segmento di rete (es. tra tutti i dispositivi connessi allo stesso router di casa) anche in assenza di un indirizzo GUA o ULA. Gli indirizzi *link-local* sono facilmente riconoscibili perché iniziano sempre con `fe80`, facendo parte del blocco `fe80::/10` (negli indirizzi *link-local* i bit 11-64 sono sempre a 0).
 
-Le specifiche di IPv6 impongono anche che ogni interfaccia di rete di ogni dispositivo abbia assegnato un indirizzo di tipo **link-local**, o **locale rispetto al collegamento**. È un indirizzo obbligatorio per il funzionamento di IPv6 perché permette lo scambio di informazioni nel proprio segmento di rete (es. tra tutti i dispositivi connessi allo stesso router di casa) anche in assenza di un indirizzo globale. Gli indirizzi link-local sono facilmente riconoscibili perché iniziano sempre con `fe80`, facendo parte del blocco `fe80::/10` (negli indirizzi link-local i bit 11-64 sono sempre a 0).
-
-Un esempio di indirizzo link-local è:
+Un esempio di indirizzo *link-local* è:
 
 <p style="text-align: center; font-weight: bold; font-size: 125%">
 <span style="color: red">fe80</span>::75d8:7c6d:fda4:d337/64
 </p>
 
 {{< green >}}
-Anche se il tuo operatore non supporta IPv6, **tutti i tuoi dispositivi dovrebbero disporre di un indirizzo link-local**, generato casualmente (come nel caso sopra) oppure a partire dall'indirizzo MAC, come vedremo tra poco. Un indirizzo link-local non è ovviamente sufficiente per poter navigare in IPv6.
+Anche se il tuo operatore non supporta IPv6, **tutti i tuoi dispositivi dovrebbero disporre di un indirizzo link-local**, generato casualmente (come nel caso sopra) oppure a partire dall'indirizzo MAC, come vedremo tra poco. Un indirizzo *link-local* non è ovviamente sufficiente per poter navigare in IPv6.
 {{< /green >}}
 
 ## Prefix Delegation e subnetting
@@ -190,7 +188,7 @@ In alternativa è possibile configurare il **server DHCPv6** sul proprio router 
 
 [^android]: *Android's lack of DHCPv6 support frustrates enterprise network admins* https://www.techrepublic.com/article/androids-lack-of-dhcpv6-support-frustrates-enterprise-network-admins/
 
-Come abbiamo visto tutti i dispositivi che supportano IPv6 dispongono in automatico di un indirizzo link-local. Questo permette ai dispositivi di "scoprire" com'è fatta la rete in cui si trovano e di **auto-configurarsi e quindi auto-assegnarsi un indirizzo IPv6**. Questo sistema si chiama **SLAAC** (*Stateless Address Auto-Configuration*) ed è definito *stateless* (senza stato) perché non richiede di mantenere una lista di IP assegnati come con DHCPv6 (che è *stateful*).[^slaac]
+Come abbiamo visto tutti i dispositivi che supportano IPv6 dispongono in automatico di un indirizzo *link-local*. Questo permette ai dispositivi di "scoprire" com'è fatta la rete in cui si trovano e di **auto-configurarsi e quindi auto-assegnarsi un indirizzo IPv6**. Questo sistema si chiama **SLAAC** (*Stateless Address Auto-Configuration*) ed è definito *stateless* (senza stato) perché non richiede di mantenere una lista di IP assegnati come con DHCPv6 (che è *stateful*).[^slaac]
 
 [^slaac]: *RFC 4862, IPv6 Stateless Address Autoconfiguration* https://datatracker.ietf.org/doc/html/rfc4862
 
@@ -222,7 +220,7 @@ Una volta scelto un indirizzo IPv6 con SLAAC, il dispositivo deve assicurarsi ch
 {{< green >}}
 ###### Configurazione WAN
 
-Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cioè verso la rete dell'operatore. Può ottenerlo sia tramite il server DHCPv6 (dell'ISP) o più frequentemente con SLAAC, utilizzando il protocollo Neighbor Discovery. Questo permette di configurare anche il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP, che può essere raggiungibile sia con un indirizzo link-local che globale, a seconda della configurazione dell'ISP.
+Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cioè verso la rete dell'operatore. Può ottenerlo sia tramite il server DHCPv6 (dell'ISP) o più frequentemente con SLAAC, utilizzando il protocollo Neighbor Discovery. Questo permette di configurare anche il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP, che può essere raggiungibile sia con un indirizzo *link-local* che *global*, a seconda della configurazione dell'ISP.
 {{< /green >}}
 
 ## Altre novità di IPv6
