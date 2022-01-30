@@ -2,7 +2,7 @@
 title: "IPv6 per principianti"
 slug: ipv6
 date: 2022-01-30T16:00:00+01:00
-lastmod: 2022-01-30T16:00:00+01:00
+lastmod: 2022-01-30T22:20:00+01:00
 authors: [Matteo, Edoardo]
 description: "Gli indirizzi IPv4 sono finiti da tempo e la soluzione è la transizione verso IPv6. Tutto quello che c'è da sapere su IPv6, tra indirizzi, configurazione e diffusione in Italia."
 categories: [Reti]
@@ -227,17 +227,13 @@ Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cio
 
 Il passaggio da IPv4 a IPv6 è stato un'occasione per rivedere anche altri aspetti di IPv4 che con il tempo si sono rivelati inadeguati.
 
-- L'header dei pacchetti IPv6 è stato rivisto e semplificato, ad esempio rimuovendo il campo checksum e prevedendo una lunghezza fissa per semplificare e velocizzare l'inoltro dei pacchetti sui router. L'header IPv6 è comunque di base lungo il doppio rispetto a quello IPv4 (40 byte vs 20 byte) per via degli indirizzi più lunghi. L'header IPv6 è anche estensibile, cioè permette di definire funzionalità aggiuntive inserendo header "in catena" come contenuto del pacchetto.[^spec]
+L'header dei pacchetti IPv6 è stato rivisto e semplificato, ad esempio rimuovendo il campo checksum e prevedendo una lunghezza fissa per semplificare e velocizzare l'inoltro dei pacchetti sui router. L'header IPv6 è comunque di base lungo il doppio rispetto a quello IPv4 (40 byte vs 20 byte) per via degli indirizzi più lunghi. L'header IPv6 è anche estensibile, cioè permette di definire funzionalità aggiuntive inserendo header "in catena" come contenuto del pacchetto.[^spec]
 
 [^spec]: *Internet Protocol, Version 6 (IPv6) Specification* https://datatracker.ietf.org/doc/html/rfc8200
 
 {{< fig src="/images/ipv6-header.png" caption="Confronto tra header IPv4 e IPv6. Fonte: RIPE NCC Academy." alt="" >}}
 
-- Una delle funzionalità aggiuntive riguarda IPsec, cioè la versione del protocollo IP che permette di cifrare il contenuto delle comunicazioni (realizzando una VPN). A differenza di quanto avviene in IPv4, il supporto a IPsec nelle implementazioni di IPv6 è obbligatorio.[^sec]
-
-[^sec]: *Common misconceptions about IPv6 security* https://blog.apnic.net/2019/03/18/common-misconceptions-about-ipv6-security/
-
-- IPv6 non include il supporto agli indirizzi di broadcast, che in IPv4 permettono di recapitare un pacchetto a tutti gli host in una sottorete. Sono invece fondamentali gli indirizzi multicast (`ff00::/8`), come visto sopra per le procedure di Neighbor Discovery.
+Un'altra novità è che IPv6 non include il supporto agli indirizzi di broadcast, che in IPv4 permettono di recapitare un pacchetto a tutti gli host in una sottorete. Sono invece fondamentali gli indirizzi multicast (`ff00::/8`), come visto sopra per le procedure di Neighbor Discovery.
 
 ## Navigazione con IPv6
 
@@ -275,6 +271,8 @@ Una **convinzione diffusa** è che IPv6 sia **meno sicuro** perché **a ciascun 
 
 Bisogna però tenere presente che il NAT non è un sistema di sicurezza e non sostituisce la necessità di avere un firewall per bloccare gli accessi dall'esterno.[^sec] Per questo motivo **IPv6 non è meno sicuro**: i router per la casa sono in genere configurati in automatico per impedire l'accesso dall'esterno agli indirizzi IPv6 pubblici.
 
+[^sec]: *Common misconceptions about IPv6 security* https://blog.apnic.net/2019/03/18/common-misconceptions-about-ipv6-security/
+
 ## Transizione a IPv6
 
 Seppur l'obiettivo iniziale di IPv6 era di sostituire interamente IPv4, la lentissima diffusione del nuovo protocollo ha portato al più probabile scenario di un lungo periodo in cui i due protocolli coesisteranno.[^transizione]
@@ -301,7 +299,7 @@ La diffusione del protocollo IPv6 è iniziata a metà degli anni 2000 ma **il pr
 
 [^reasons]: *Reasons for servers to support IPv6* https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/
 
-Secondo le statistiche pubblicate da Google, **a gennaio 2022 il traffico IPv6 in Italia si attestava al 5,31% del totale**, mentre globalmente era attorno al 35%.[^stats] Nel momento in cui questo articolo è stato aggiornato, in Italia tra i grandi operatori solo tre offrivano IPv6: Fastweb tramite tunnel 6rd, Sky Wifi tramite MAP-T e Iliad tramite MAP-E.[^italia]
+Secondo le statistiche pubblicate da Google, **a gennaio 2022 il traffico IPv6 in Italia si attestava al 5,31% del totale**, mentre globalmente era attorno al 35%.[^stats] Nel momento in cui questo articolo è stato aggiornato, in Italia tra i grandi operatori solo tre offrivano IPv6: Fastweb tramite tunnel 6rd e Sky Wifi e Iliad nativamente (rispettivamente con MAP-T e MAP-E per IPv4).[^italia]
 
 [^stats]: *Google IPv6 statistics* https://www.google.com/intl/en/ipv6/statistics.html#tab=per-country-ipv6-adoption
 [^italia]: *Stato di IPv6 in Italia* https://forum.fibra.click/d/21324-stato-di-ipv6-in-italia
