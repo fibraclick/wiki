@@ -29,17 +29,17 @@ La direzione però è ormai decisa ed è importante iniziare a **conoscere IPv6*
 
 Da quando Internet esiste siamo abituati ad avere a che fare con gli **indirizzi IP versione 4**. Un indirizzo IPv4 ha questo aspetto:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 208.67.222.222
-</p>
+{{< /large >}}
 
 È quindi composto da **4 numeri separati da dei punti**. In realtà questa è soltanto una notazione testuale pensata per rendere più semplice a noi umani la lettura degli indirizzi. Internamente gli indirizzi IP vengono memorizzati in **formato binario**, cioè con una sequenza di 0 e 1.
 
 Nel caso di un indirizzo IPv4 **la rappresentazione in binario è lunga 32 bit** (quattro gruppi da 8 bit, spesso chiamati "ottetti"). Ad esempio l'indirizzo sopra corrisponde a:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 11010000.01000011.11011110.11011110
-</p>
+{{< /large >}}
 
 Considerando che ciascuna cifra può assumere due valori, il **numero totale di IPv4 teoricamente esistenti è** 2<sup>32</sup>, cioè **4.294.967.296 (poco più di 4 miliardi)**. Nella pratica alcuni indirizzi sono riservati e quelli realmente utilizzabili sono quindi un po' di meno.
 
@@ -49,9 +49,9 @@ Un indirizzo IPv4 viene sempre diviso in **due parti**: **la prima parte identif
 
 Un esempio che tutti abbiamo visto almeno una volta è la **classica rete privata** spesso utilizzata in casa, che in notazione CIDR possiamo descrivere con:
 
-<p style="text-align: center; font-size: 125%">
+{{< large nobold="true" >}}
 192.168.0.0<span style="font-weight: bold; color: red">/24</span>
-</p>
+{{< /large >}}
 
 Il numero 24 si riferisce al fatto che **i primi 24 bit (quindi i primi tre ottetti) identificano la rete mentre la parte rimanente l'host**. Ovviamente il numero non è necessariamente un multiplo di 8, rendendo a volte non immediato capire dove finisce la rete.
 
@@ -63,15 +63,15 @@ L'esaurimento degli indirizzi IPv4 ha portato a progettare un nuovo protocollo I
 
 La maggiore lunghezza ha portato anche ad utilizzare il **sistema esadecimale** per la rappresentazione testuale. Nella pratica quindi un indirizzo IPv6 si presenta così:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 2600:1409:d000:05a6:0000:0000:0000:0b63
-</p>
+{{< /large >}}
 
 Si tratta in totale di 32 caratteri raggruppati in 8 "parole" o gruppi da 4 caratteri ciascuno, separate dal simbolo due punti. Ciascun carattere può assumere valori tra 0 e 9 e tra la lettera A e la lettera F, cioè 16 valori in totale (esadecimale).[^ipv6-binario] (È indifferente che le lettere siano scritte in maiuscolo o in minuscolo.)
 
 [^ipv6-binario]: Di conseguenza nella rappresentazione binaria ciascun carattere corrisponde a 4 bit, perché 2<sup>4</sup> = 16)
 
-La lunghezza di 128 bit porta ad avere un numero di indirizzi IPv6 estremamente alto. Si tratta infatti di 2<sup>128</sup> indirizzi, cioè 340.282.366.920.938.463.463.374.607.431.768.211.456. È un numero grandissimo (39 cifre) che risolve definitivamente il problema della carenza di indirizzi IP.
+La lunghezza di 128 bit porta ad avere un numero di indirizzi IPv6 estremamente alto. Si tratta infatti di 2<sup>128</sup> indirizzi, cioè <span style="word-wrap: break-word">340.282.366.920.938.463.463.374.607.431.768.211.456</span>. È un numero grandissimo (39 cifre) che risolve definitivamente il problema della carenza di indirizzi IP.
 
 L'indirizzo che abbiamo preso come esempio è effettivamente lungo e difficile da ricordare, ma c'è la possibilità di **comprimerlo togliendo le parti poco utili**. Possiamo ad esempio rimuovere tutti gli zeri all'inizio di ciascun gruppo (*leading zeros*) e comprimere le parti composte solo da zeri (non più di una volta nello stesso indirizzo).[^formato] Come conseguenza, **lo stesso indirizzo IPv6 può essere scritto in più modi diversi ma equivalenti**.
 
@@ -79,15 +79,15 @@ L'indirizzo che abbiamo preso come esempio è effettivamente lungo e difficile d
 
 Ad esempio,
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 2600:1409:d000:<span style="color:red">0</span>5a6:<span style="color:red">0000</span>:<span style="color:red">0000</span>:<span style="color:red">0000</span>:<span style="color:red">0</span>b63
-</p>
+{{< /large >}}
 
 diventa:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 2600:1409:d000:5a6::b63
-</p>
+{{< /large >}}
 
 Il fatto che nell'indirizzo non compresso ci siano così tanti bit a zero non è un caso: in IPv6 **la seconda parte di un indirizzo identifica infatti sempre l'host**, più precisamente chiamato ***interface ID*** perché lo stesso dispositivo può avere più interfacce di rete (es. WiFi e Ethernet). A differenza di IPv4, dove il "confine" tra rete e host è variabile, l'*interface ID* è sempre lungo 64 bit e occupa quindi la seconda metà dell'indirizzo, dal bit 65 al bit 128.[^formato]
 
@@ -97,15 +97,15 @@ La prima parte dell'indirizzo è invece il prefisso di rete e contiene al suo in
 
 Come in IPv4 esiste un indirizzo di **loopback**, corrispondente a *localhost*, che identifica il dispositivo stesso su cui ci troviamo. L'equivalente dell'indirizzo `127.0.0.1` in IPv6 è:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 0000:0000:0000:0000:0000:0000:0000:0001/128
-</p>
+{{< /large >}}
 
 che come abbiamo visto può essere compresso in:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 ::1/128
-</p>
+{{< /large >}}
 
 Anche in IPv6 si utilizza la sintassi CIDR. In questo caso **/128** serve ad indicare una singola interfaccia.[^formato]
 
@@ -121,9 +121,9 @@ Le specifiche di IPv6 impongono anche che ogni interfaccia di rete di ogni dispo
 
 Un esempio di indirizzo *link-local* è:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 <span style="color: red">fe80</span>::75d8:7c6d:fda4:d337/64
-</p>
+{{< /large >}}
 
 {{< green >}}
 Anche se il tuo operatore non supporta IPv6, **tutti i tuoi dispositivi dovrebbero disporre di un indirizzo link-local**, generato casualmente (come nel caso sopra) oppure a partire dall'indirizzo MAC, come vedremo tra poco. Un indirizzo *link-local* non è ovviamente sufficiente per poter navigare in IPv6.
@@ -144,15 +144,15 @@ Secondo le raccomandazioni del RIPE, l'ente che gestisce l'allocazione degli ind
 
 Ricordando che ogni "gruppo" in un indirizzo IPv6 corrisponde a 16 bit, la delega di un prefisso /48 consiste nel poter gestire ad esempio un indirizzo di questo tipo, dove i primi tre gruppi corrispondono al prefisso:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 <span style="color: red">2001:db8:aaaa</span>::/48
-</p>
+{{< /large >}}
 
 Nel caso di /56, invece, l'indirizzo potrebbe essere:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 <span style="color: red">2001:db8:aaaa:1a</span>00::/56
-</p>
+{{< /large >}}
 
 Come abbiamo visto, l'*interface ID* di IPv6 occupa sempre la seconda metà dell'indirizzo e di conseguenza **il prefisso delegato può essere suddiviso in tante sottoreti /64**. Nel caso di un **prefisso /56** abbiamo la possibilità di partizionare la rete locale in **256 sottoreti /64** (2<sup>64-56</sup> = 2<sup>8</sup>). Gli indirizzi assegnati ai dispositivi della rete vengono quindi scelti da una o più di queste sottoreti /64.
 
@@ -160,7 +160,7 @@ Questo permette, ad esempio, di dedicare una sottorete alla rete cablata, una al
 
 Prendendo l'esempio sopra, le sottoreti /64 contenute nel prefisso sarebbero, in ordine:
 
-<p style="text-align: center; font-weight: bold; font-size: 125%">
+{{< large >}}
 <span style="color: red">2001:db8:aaaa:1a</span>00::/64<br>
 <span style="color: red">2001:db8:aaaa:1a</span>01::/64<br>
 <span style="color: red">2001:db8:aaaa:1a</span>02::/64<br>
@@ -168,7 +168,7 @@ Prendendo l'esempio sopra, le sottoreti /64 contenute nel prefisso sarebbero, in
 <span style="color: red">2001:db8:aaaa:1a</span>fd::/64<br>
 <span style="color: red">2001:db8:aaaa:1a</span>fe::/64<br>
 <span style="color: red">2001:db8:aaaa:1a</span>ff::/64
-</p>
+{{< /large >}}
 
 Ciascuna sottorete /64 contiene più di 18 miliardi di miliardi di indirizzi IPv6. Può sembrare uno spreco, ma gli indirizzi IPv6 sono talmente tanti che permettono di seguire un approccio di questo tipo senza preoccupazioni. È stato stimato che anche se assegnassimo in modo permanente un prefisso /48 ad ogni essere umano potremmo andare avanti per 480 anni.[^spreco]
 
