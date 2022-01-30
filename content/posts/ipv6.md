@@ -135,7 +135,7 @@ Se vogliamo utilizzare IPv6 per la navigazione su Internet dobbiamo innanzitutto
 
 Il metodo più utilizzato dagli ISP per la **configurazione di IPv6** consiste nell'uso del **protocollo DHCPv6 con *Prefix Delegation***. In altre parole, un router dell'operatore delega al nostro router di casa la possibilità di gestire un prefisso IPv6, di crearci delle sottoreti e di assegnare così indirizzi pubblici a tutti i dispositivi.[^pd][^pd2]
 
-[^pd]: *RFC 3633, IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version 6* https://datatracker.ietf.org/doc/html/rfc3633; *RFC 8415, Dynamic Host Configuration Protocol for IPv6 (DHCPv6)* https://datatracker.ietf.org/doc/html/rfc8415#section-6.3
+[^pd]: *RFC 3633, IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version 6* https://datatracker.ietf.org/doc/html/rfc3633\; *RFC 8415, Dynamic Host Configuration Protocol for IPv6 (DHCPv6)* https://datatracker.ietf.org/doc/html/rfc8415#section-6.3
 [^pd2]: *Overview of Using DHCPv6 Prefix Delegation* https://www.juniper.net/documentation/en_US/release-independent/nce/topics/concept/subscriber-management-ds-dhcpv6-pd.html
 
 Secondo le raccomandazioni del RIPE, l'ente che gestisce l'allocazione degli indirizzi IP in Europa, **gli ISP devono delegare un prefisso /56 oppure /48 a ciascuna linea**.[^ripe]
@@ -290,7 +290,7 @@ Per gli ISP che non sono ancora pronti per abilitare IPv6 nella propria rete esi
 Viceversa, un ISP che parte da zero potrebbe voler **progettare la propria rete per essere IPv6-only**, in modo da evitare le complessità di dover gestire IPv4 e IPv6 in parallelo. In questo caso è comunque necessario fornire ai clienti finali la possibilità di navigare tramite IPv4. Due metodi per farlo sono:
 
 - **l'incapsulamento dei pacchetti IPv4 in IPv6** tramite un tunnel **4in6**, eventualmente con l'ausilio di MAP-E per condividere lo stesso indirizzo IPv4 tra più linee;[^map]
-- **la traslazione di IPv4 in IPv6**, ottenuta convertendo l'header IPv4 in un header IPv6 e poi viceversa presso un *border relay*. È il caso di **MAP-T** ma in modo simile anche di **464XLAT**, utilizzato soprattutto nelle reti mobili.[^map][^464xlat]
+- **la traduzione di IPv4 in IPv6**, ottenuta convertendo l'header IPv4 in un header IPv6 e poi viceversa presso un *border relay*. È il caso di **MAP-T** ma in modo simile anche di **464XLAT**, utilizzato soprattutto nelle reti mobili.[^map][^464xlat]
 
 [^map]: *MAP-T/MAP-E Packet Processing* https://support.huawei.com/enterprise/it/doc/EDOC1100055044/d28a3f9d/map-t-map-e-packet-processing
 [^464xlat]: *IPv6-only Deployment in Broadband and Cellular Networks IPv4aaS (as-a-Service)* https://www.lacnic.net/innovaportal/file/3900/1/ipv6-only_v15.pdf
