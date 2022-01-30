@@ -65,7 +65,7 @@ La maggiore lunghezza ha portato anche ad utilizzare il **sistema esadecimale** 
 2600:1409:d000:05a6:0000:0000:0000:0b63
 </p>
 
-Si tratta in totale di 32 caratteri raggruppati in 8 "parole" o gruppi da 4 caratteri ciascuno, separate dal simbolo due punti. Ciascun carattere può assumere valori tra 0 e 10 e tra la lettera A e la lettera F, cioè 16 valori in totale (esadecimale).[^ipv6-binario] (È indifferente che le lettere siano scritte in maiuscolo o in minuscolo.)
+Si tratta in totale di 32 caratteri raggruppati in 8 "parole" o gruppi da 4 caratteri ciascuno, separate dal simbolo due punti. Ciascun carattere può assumere valori tra 0 e 9 e tra la lettera A e la lettera F, cioè 16 valori in totale (esadecimale).[^ipv6-binario] (È indifferente che le lettere siano scritte in maiuscolo o in minuscolo.)
 
 [^ipv6-binario]: Di conseguenza nella rappresentazione binaria ciascun carattere corrisponde a 4 bit, perché 2<sup>4</sup> = 16)
 
@@ -113,7 +113,7 @@ In IPv6 l'idea è che **ciascun dispositivo abbia assegnato almeno un indirizzo 
 Gli indirizzi IPv6 *unicast global* vengono [al momento allocati](https://www.iana.org/assignments/ipv6-unicast-address-assignments/ipv6-unicast-address-assignments.xhtml) partendo dal blocco `2000::/3`, che corrisponde a circa un ottavo dell'intero spazio IPv6. Nella pratica attualmente tutti gli indirizzi IPv6 pubblici iniziano con la cifra `2`.
 {{< /green >}}
 
-Il fatto che ogni dispositivo abbia assegnato un indirizzo IPv6 pubblico è una differenza fondamentale rispetto ad IPv4, dove di solito è solo il router di casa a disporre di un indirizzo pubblico mentre i dispositivi della rete locale utilizzano indirizzi privati (con l'ausilio del NAT). **Anche in IPv6 esistono gli indirizzi privati** (chiamati indirizzi locali o *unique local* (ULA) e riconoscibili perché iniziano sempre con `fd`) **ma non sono generalmente usati** perché non portano alcun vantaggio.[^ula]
+Il fatto che ogni dispositivo abbia assegnato un indirizzo IPv6 pubblico è una differenza fondamentale rispetto ad IPv4, dove di solito è solo il router di casa a disporre di un indirizzo pubblico mentre i dispositivi della rete locale utilizzano indirizzi privati (con l'ausilio del NAT). **Anche in IPv6 esistono gli indirizzi privati** (chiamati indirizzi locali o *unique local* (ULA) e riconoscibili perché iniziano sempre con `fc` o `fd`) **ma non sono generalmente usati** perché non portano alcun vantaggio.[^ula]
 
 [^ula]: *3 Ways to Ruin Your Future Network with IPv6 Unique Local Addresses* https://blogs.infoblox.com/ipv6-coe/3-ways-to-ruin-your-future-network-with-ipv6-unique-local/
 
@@ -178,8 +178,6 @@ Ciascuna sottorete /64 contiene più di 18 miliardi di miliardi di indirizzi IPv
 Va detto che **non tutti gli operatori seguono le raccomandazioni RIPE per la delega dei prefissi**, specialmente per le connessioni residenziali, a volte assegnando una singola sottorete /64 per tutta la casa (oppure /62, ad esempio) limitando la possibilità di creare sottoreti.
 {{< /green >}}
 
-Il protocollo DHCPv6 viene di solito utilizzato anche per configurare in modo automatico sul router di casa il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP. A seconda della configurazione dell'ISP il *default gateway* IPv6 può avere un indirizzo globale oppure link-local.
-
 ## Configurazione IPv6
 
 L'assegnazione degli indirizzi IPv6 ai singoli dispositivi all'interno delle sottoreti /64 può avvenire in diversi modi. Va tenuto però presente che, a differenza di IPv4, **in IPv6 ciascuna interfaccia di rete può avere più di un indirizzo pubblico**. Di conseguenza, i metodi di assegnazione non si escludono tra loro.
@@ -217,6 +215,12 @@ Prima di poter scegliere un indirizzo IPv6 un dispositivo deve conoscere qual è
 Il dispositivo invia quindi un pacchetto ICMPv6 di tipo **Router Solicitation** (RS) per individuare il router sulla rete locale. In questa fase il dispositivo sfrutta un **indirizzo di multicast** che corrisponde a tutti i router sulla rete. Il router risponderà con un messaggio **Router Advertisement** (RA), contenente uno o più prefissi.
 
 Una volta scelto un indirizzo IPv6 con SLAAC, il dispositivo deve assicurarsi che non ci siano altri dispositivi nella rete con lo stesso indirizzo. Sfrutta quindi di nuovo il multicast e messaggi di tipo **Neighbor Solicitation** (NS) e **Neighbor Advertisement** (NA) per individuare eventuali altri dispositivi con la stessa assegnazione (*DAD, Duplicate Address Detection*).
+{{< /green >}}
+
+{{< green >}}
+###### Configurazione WAN
+
+Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cioè verso la rete dell'operatore. Può ottenerlo sia tramite il server DHCPv6 (dell'ISP) o più frequentemente con SLAAC, utilizzando il protocollo Neighbor Discovery. Questo permette di configurare anche il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP, che può essere raggiungibile sia con un indirizzo link-local che globale, a seconda della configurazione dell'ISP.
 {{< /green >}}
 
 ## Altre novità di IPv6
@@ -257,7 +261,7 @@ Ovviamente è possibile "pingare" anche un indirizzo IPv6 specifico. L'esempio p
 ping ::1
 ```
 
-In alcuni contesti, come ad esempio nei browser, potrebbe essere necessario **racchiudere l'indirizzo IPv6 tra parentesi quadre**, per evitare che i due punti che separano i gruppi dell'indirizzo si confondano con il numero di porta. Ad esempio per raggiungere una pagina web su localhost su porta 80 in IPv6 dovremo scrivere `http://[::1]:8080`.
+In alcuni contesti, come ad esempio nei browser, potrebbe essere necessario **racchiudere l'indirizzo IPv6 tra parentesi quadre**, per evitare che i due punti che separano i gruppi dell'indirizzo si confondano con il numero di porta. Ad esempio per raggiungere una pagina web su localhost su porta 8080 in IPv6 dovremo scrivere `http://[::1]:8080`.
 
 Il fatto che un nome di dominio come `google.com` risulti accessibile in IPv6 in modo trasparente deriva dal fatto che la **configurazione DNS del dominio** include non solo un record `A` (cioè l'associazione tra dominio e IPv4) ma anche un record `AAAA` (associazione tra dominio e IPv6).
 
@@ -303,7 +307,7 @@ Secondo le statistiche pubblicate da Google, **a gennaio 2022 il traffico IPv6 i
 
 {{< fig src="/images/ipv6-stats2.jpg" caption="Diffusione di IPv6 tra gli utenti Google nel corso del tempo. Fonte: [Google](https://www.google.com/intl/en/ipv6/statistics.html#tab=ipv6-adoption)." alt="" >}}
 
-La situazione potrebbe iniziare a cambiare un po' più rapidamente ora che **sul mercato di compravendita degli IPv4 il prezzo per IP continua ad aumentare** (nel 2021 ha raggiunto picchi di 60$).[^prezzi] Questa crescita sta costringendo molti operatori ad iniziare ad **utilizzare tecnologie come il Carrier-grade NAT**, che nella pratica fanno fronte alla carenza di IPv4 condividendo lo stesso indirizzo pubblico tra più linee (di solito fino a 16).[^cgnat][^vodafone]
+La situazione potrebbe iniziare a cambiare un po' più rapidamente ora che **sul mercato di compravendita degli IPv4 il prezzo per IP sta aumentando significativamente** (nel 2021 ha raggiunto picchi di 60$).[^prezzi] Questa crescita sta costringendo molti operatori ad iniziare ad **utilizzare tecnologie come il Carrier-grade NAT**, che nella pratica fanno fronte alla carenza di IPv4 condividendo lo stesso indirizzo pubblico tra più linee (di solito fino a 16).[^cgnat][^vodafone]
 
 [^cgnat]: *Esaurimento degli indirizzi IP ed obblighi di identificazione degli utenti* https://www.sicurezzaegiustizia.com/wp-content/uploads/2015/05/SeG_I_MMXV_PROTO.pdf
 [^vodafone]: *Vodafone inizia a mettere i clienti in CG-NAT?* https://forum.fibra.click/d/25881-vodafone-inizia-a-mettere-i-clienti-in-cg-nat
