@@ -297,7 +297,7 @@ Viceversa, un ISP che parte da zero potrebbe voler **progettare la propria rete 
 
 ## Diffusione
 
-La diffusione del protocollo IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità aggiuntive) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.[^reasons]
+La diffusione del protocollo IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità e costi aggiuntivi) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.[^reasons]
 
 [^reasons]: *Reasons for servers to support IPv6* https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/
 
