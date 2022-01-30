@@ -3,7 +3,7 @@ title: "IPv6 per principianti"
 slug: ipv6
 date: 2022-01-27T21:04:14+01:00
 lastmod: 2022-01-27T21:04:14+01:00
-authors: [Matteo]
+authors: [Matteo, Edoardo]
 description: ""
 categories: [Reti]
 hidden: true
@@ -11,7 +11,9 @@ hidden: true
 
 La trasmissione di dati tramite Internet si basa sullo scambio di pacchetti tra dispositivi (router, computer, server, ecc.). Questo scambio avviene anche grazie all'**Internet Protocol e al suo sistema di indirizzamento**, la cui versione più nota è **IPv4**, in uso da quando Internet è nata negli anni 80.
 
-Quando il protocollo IP è stato progettato la crescita che Internet avrebbe poi avuto fu ampiamente sottostimata: **la dimensione degli indirizzi IP**, che permettono di indirizzare i pacchetti sulla rete, **si è rivelata insufficiente**. Gli indirizzi IPv4 sono quindi finiti da tempo (tutti i registri regionali hanno assegnato tutti i blocchi a loro disposizione) e la soluzione al problema è la **migrazione al successore di IPv4, cioè IPv6**.
+Quando il protocollo IP è stato progettato la crescita che Internet avrebbe poi avuto fu ampiamente sottostimata: **la dimensione degli indirizzi IP**, che permettono di indirizzare i pacchetti sulla rete, **si è rivelata insufficiente**. Gli indirizzi IPv4 sono quindi finiti da tempo (tutti i registri regionali hanno assegnato sostanzialmente tutti i blocchi a loro disposizione) e la soluzione al problema è la **migrazione al successore di IPv4, cioè IPv6**.[^exhaustion]
+
+[^exhaustion]: *IPv4 Address Report* https://ipv4.potaroo.net/
 
 Come ha scritto Vinton Cerf, uno dei creatori di IP: «Vorrei mi fossi accorto che avremmo avuto bisogno di uno spazio di indirizzamento più grande. Al tempo pensavo che questo fosse solo un esperimento e che avremmo poi sviluppato la versione definitiva. Immagino che la versione definitiva sia IPv6.»[^cerf]
 
@@ -297,7 +299,9 @@ Viceversa, un ISP che parte da zero potrebbe voler **progettare la propria rete 
 
 ## Diffusione
 
-La diffusione del protocollo a IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità aggiuntive) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.
+La diffusione del protocollo a IPv6 è iniziata a metà degli anni 2000 ma **il processo, ovviamente ancora in corso, ha avuto una progressione lentissima**. Il motivo principale è che la maggior parte degli ISP non vedono benefici immediati (e invece complessità aggiuntive) nella migrazione a IPv6, e allo stesso modo i proprietari di siti web non percepiscono l'urgenza di configurare IPv6 considerando che è poco usato e che i server sono comunque sempre accessibili via IPv4.[^reasons]
+
+[^reasons]: *Reasons for servers to support IPv6* https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/
 
 Secondo le statistiche pubblicate da Google, **a gennaio 2022 il traffico IPv6 in Italia si attestava al 5,31% del totale**, mentre globalmente era attorno al 35%.[^stats] Nel momento in cui questo articolo è stato aggiornato, in Italia tra i grandi operatori solo tre offrivano IPv6: Fastweb tramite tunnel 6rd, Sky Wifi tramite MAP-T e Iliad tramite MAP-E.[^italia]
 
