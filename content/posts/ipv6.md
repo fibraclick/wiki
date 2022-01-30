@@ -220,7 +220,7 @@ Una volta scelto un indirizzo IPv6 con SLAAC, il dispositivo deve assicurarsi ch
 {{< green >}}
 ###### Configurazione WAN
 
-Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cioè verso la rete dell'operatore. Può ottenerlo sia tramite il server DHCPv6 (dell'ISP) o più frequentemente con SLAAC, utilizzando il protocollo Neighbor Discovery. Questo permette di configurare anche il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP, che può essere raggiungibile sia con un indirizzo *link-local* che *global*, a seconda della configurazione dell'ISP.
+Anche il router stesso ha bisogno di un indirizzo IPv6 sull'interfaccia WAN, cioè verso la rete dell'operatore. Può ottenerlo tramite il server DHCPv6 (dell'ISP) oppure con SLAAC, utilizzando il protocollo Neighbor Discovery. Questo permette di configurare anche il *default gateway*, cioè il primo router della rete dell'operatore verso cui inviare i pacchetti IP, che può essere raggiungibile sia con un indirizzo *link-local* che *global*, a seconda della configurazione dell'ISP.
 {{< /green >}}
 
 ## Altre novità di IPv6
