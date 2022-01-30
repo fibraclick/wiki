@@ -290,9 +290,10 @@ Per gli ISP che non sono ancora pronti per abilitare IPv6 nella propria rete esi
 Viceversa, un ISP che parte da zero potrebbe voler **progettare la propria rete per essere IPv6-only**, in modo da evitare le complessità di dover gestire IPv4 e IPv6 in parallelo. In questo caso è comunque necessario fornire ai clienti finali la possibilità di navigare tramite IPv4. Due metodi per farlo sono:
 
 - **l'incapsulamento dei pacchetti IPv4 in IPv6** tramite un tunnel **4in6**, eventualmente con l'ausilio di MAP-E per condividere lo stesso indirizzo IPv4 tra più linee;[^map]
-- **la traslazione di IPv4 in IPv6** (**MAP-T**), ottenuta convertendo l'header IPv4 in un header IPv6 e poi viceversa presso un *border relay*.[^map]
+- **la traslazione di IPv4 in IPv6**, ottenuta convertendo l'header IPv4 in un header IPv6 e poi viceversa presso un *border relay*. È il caso di **MAP-T** ma in modo simile anche di **464XLAT**, utilizzato soprattutto nelle reti mobili.[^map][^464xlat]
 
 [^map]: *MAP-T/MAP-E Packet Processing* https://support.huawei.com/enterprise/it/doc/EDOC1100055044/d28a3f9d/map-t-map-e-packet-processing
+[^464xlat]: *IPv6-only Deployment in Broadband and Cellular Networks IPv4aaS (as-a-Service)* https://www.lacnic.net/innovaportal/file/3900/1/ipv6-only_v15.pdf
 
 ## Diffusione
 
