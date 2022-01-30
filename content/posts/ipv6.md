@@ -325,3 +325,5 @@ Per approfondire la situazione di IPv6 in Italia, sul forum di FibraClick puoi t
 
 - [Stato di IPv6 in Italia](https://forum.fibra.click/d/21324-stato-di-ipv6-in-italia)
 {{< /info >}}
+
+{{< footer >}}
