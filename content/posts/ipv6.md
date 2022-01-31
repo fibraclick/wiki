@@ -2,7 +2,7 @@
 title: "IPv6 per principianti"
 slug: ipv6
 date: 2022-01-30T16:00:00+01:00
-lastmod: 2022-01-30T22:20:00+01:00
+lastmod: 2022-01-31T11:10:00+01:00
 authors: [Matteo, Edoardo]
 description: "Gli indirizzi IPv4 sono finiti da tempo e la soluzione è la transizione verso IPv6. Tutto quello che c'è da sapere su IPv6, tra indirizzi, configurazione e diffusione in Italia."
 categories: [Reti]
