@@ -138,7 +138,7 @@ Il metodo più utilizzato dagli ISP per la **configurazione di IPv6** consiste n
 [^pd]: *RFC 3633, IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version 6* https://datatracker.ietf.org/doc/html/rfc3633\; *RFC 8415, Dynamic Host Configuration Protocol for IPv6 (DHCPv6)* https://datatracker.ietf.org/doc/html/rfc8415#section-6.3
 [^pd2]: *Overview of Using DHCPv6 Prefix Delegation* https://www.juniper.net/documentation/en_US/release-independent/nce/topics/concept/subscriber-management-ds-dhcpv6-pd.html
 
-Secondo le raccomandazioni del RIPE, l'ente che gestisce l'allocazione degli indirizzi IP in Europa, **gli ISP devono delegare un prefisso /56 oppure /48 a ciascuna linea**.[^ripe]
+Secondo le raccomandazioni del RIPE, l'ente che gestisce l'allocazione degli indirizzi IP in Europa, **gli ISP dovrebbero delegare un prefisso /56 oppure /48 a ciascuna linea**. Il prefisso dovrebbe inoltre essere **statico**, cioè non variare con il tempo.[^ripe]
 
 [^ripe]: *Best Current Operational Practice for Operators: IPv6 prefix assignment for end-users - persistent vs non-persistent, and what size to choose* https://www.ripe.net/publications/docs/ripe-690
 
@@ -175,7 +175,7 @@ Ciascuna sottorete /64 contiene più di 18 miliardi di miliardi di indirizzi IPv
 [^spreco]: *Frequently Asked Questions (FAQ) on IPv6 adoption and IPv4 exhaustion* https://www.internetsociety.org/deploy360/ipv6/faq/#5
 
 {{< green >}}
-Va detto che **non tutti gli operatori seguono le raccomandazioni RIPE per la delega dei prefissi**, specialmente per le connessioni residenziali, a volte assegnando una singola sottorete /64 per tutta la casa (oppure /62, ad esempio) limitando la possibilità di creare sottoreti.
+Va detto che **non tutti gli operatori seguono le raccomandazioni RIPE per la delega dei prefissi**, specialmente per le connessioni residenziali, a volte assegnando una singola sottorete /64 per tutta la casa (oppure /62, ad esempio) limitando la possibilità di creare sottoreti. Spesso inoltre il prefisso non è statico.
 {{< /green >}}
 
 ## Configurazione IPv6
