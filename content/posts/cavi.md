@@ -2,7 +2,7 @@
 title: "Come scegliere un cavo di rete"
 slug: cavi
 date: 2020-10-04T13:00:00+02:00
-lastmod: 2020-10-12T13:30:00+02:00
+lastmod: 2022-02-04T20:30:00+01:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
@@ -62,7 +62,7 @@ La tabella che segue indica per ciascuna categoria la velocità massima raggiung
 
 | Categoria | Velocità | Lunghezza | Disponibile senza schermatura |
 | --------- | -------- | --------- | ----------------------------- |
-| Cat 5e    | 1 Gbps*  | 100 metri | Sì |
+| Cat 5e    | 5 Gbps*  | 100 metri | Sì |
 | Cat 6     | 10 Gbps  | 55 metri  | Sì |
 | Cat 6     | 1 Gbps   | 100 metri | Sì |
 | Cat 6A    | 10 Gbps  | 100 metri | Sì |
@@ -74,6 +74,18 @@ La tabella che segue indica per ciascuna categoria la velocità massima raggiung
 Risulta quindi evidente che **un cavo Cat 6 è più che sufficiente per pressoché qualsiasi impianto domestico presente e futuro**.
 
 Solo nel caso in cui ci si trovi a dover stendere tratte particolarmente lunghe si consiglia di utilizzare cavi di categoria 6A.
+
+{{< green >}}
+###### Cat 5e e velocità superiori al Gigabit
+
+In seguito all'aumentare della banda richiesta, nel 2016 la IEEE ha preparato un nuovo standard (IEEE Std 802.3bz-2016) in cui ratifica ufficialmente il **supporto dei cavi di Categoria 5e alle velocità di 2,5 e 5 Gb/s per distanze fino a 100 metri**.
+
+Va sottolineato, tuttavia, che il supporto a tali velocità non è incondizionato, ma è anzi soggetto al rispetto di alcuni requisiti prestazionali aggiuntivi*, definiti all’interno dello standard.
+
+Per tali ragioni si raccomanda quindi, in caso di nuovo cablaggio, di **preferire sempre cavi di categoria superiore quando possibile**.
+
+(*\*Si veda ISO/IEC/IEEE 8802-3:2017 Amendment 7, Clausola 126.7 e successive per i dettagli.*)
+{{< /green >}}
 
 ## Va bene un cavo "piatto"?
 
