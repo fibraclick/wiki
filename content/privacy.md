@@ -19,7 +19,7 @@ Per raccogliere statistiche sui visitatori, questo sito utilizza cookie di terze
 
 Inoltre, per mostrare annunci pubblicitari questo sito fa uso dei cookie installati dal servizio di terze parti Google AdSense. Per mostrare annunci in linea con le tue preferenze e sulla base delle tue visite precedenti a questo o altri siti web, questo sito utilizza cookie di profilazione di terze parti. Alcune informazioni relative al modo in cui utilizzi questo sito web sono condivise con i fornitori di tecnologia pubblicitaria elencati [in questa pagina](https://support.google.com/adsense/answer/9012903?hl=it). Puoi trovare una descrizione dei cookie di terze parti utilizzati da Google [in questa pagina](https://policies.google.com/technologies/cookies). Puoi disabilitare la pubblicità personalizzata di Google tramite [questa pagina](https://www.google.com/settings/ads), mentre puoi disattivare l'uso di cookie da parte di fornitori di terze parti per la pubblicità personalizzata tramite [questa pagina](http://www.aboutads.info/choices/).
 
-Puoi gestire il tuo consenso all'uso dei cookie di terze parti, <a style="cursor: pointer" onclick="return klaro.show(undefined, true);">premi qua</a>.
+Puoi gestire il tuo consenso all'uso dei cookie di terze parti, <a style="cursor: pointer" onclick="window.__lxG__consent__.showConsent()">premi qua</a>.
 
 ### Modifiche all'informativa
 

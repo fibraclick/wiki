@@ -80,31 +80,20 @@
     <meta name="msapplication-TileColor" content="#3fc160" />
     <meta name="theme-color" content="#ffffff">
 
-    {{ partial "consent.html" . }}
-
     {{ with .Site.Params.analytics -}}
     <script src="https://www.googletagmanager.com/gtag/js?id={{ . }}" async></script>
-    <script type="text/plain" data-type="text/javascript" data-name="analytics">
+    <script type="text/javascript">
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-      gtag('config', '{{ . }}');
+      gtag('config', '{{ . }}', { 'anonymize_ip': true });
     </script>
     {{- end }}
 
     {{ with .Site.Params.ads -}}
+    <script async type="text/javascript" src="//clickio.mgr.consensu.org/t/consent_224968.js"></script>
+    <style type="text/css">.cl-consent a { border-bottom: none; }</style>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7028530372547989" crossorigin="anonymous"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
-      (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 1;
-    </script>
-    <script type="text/plain" data-type="text/javascript" data-name="ads-basic">
-      (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
-    </script>
-    <script type="text/plain" data-type="text/javascript" data-name="ads-personalized">
-      (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
-      (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
-    </script>
     {{- end }}
     
     <script>
