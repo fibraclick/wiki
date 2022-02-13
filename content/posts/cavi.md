@@ -2,7 +2,7 @@
 title: "Come scegliere un cavo di rete"
 slug: cavi
 date: 2020-10-04T13:00:00+02:00
-lastmod: 2022-02-04T20:30:00+01:00
+lastmod: 2022-02-13T20:30:00+01:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
@@ -64,7 +64,7 @@ La tabella che segue indica per ciascuna categoria la velocità massima raggiung
 | --------- | -------- | --------- | ----------------------------- |
 | Cat 5e    | 5 Gbps*  | 100 metri | Sì |
 | Cat 6     | 10 Gbps  | 55 metri  | Sì |
-| Cat 6     | 1 Gbps   | 100 metri | Sì |
+| Cat 6     | 5 Gbps   | 100 metri | Sì |
 | Cat 6A    | 10 Gbps  | 100 metri | Sì |
 | Cat 7     | 10 Gbps  | 100 metri | No |
 | Cat 8     | 40 Gbps  | ~30 metri | No |
