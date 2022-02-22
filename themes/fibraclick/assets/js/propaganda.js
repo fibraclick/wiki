@@ -37,13 +37,22 @@ const AD_TEMPLATE = `
 
 function onLoad() {
     const headings = document.querySelectorAll('h2, h3');
+    injectCta(headings);
+    if (window.location.hostname == 'fibra.click') {
+        injectAds(headings);
+    }
+}
+
+function injectCta(headings) {
     const ctaNode = headings[headings.length - 1];
     if (ctaNode) {
         const url = encodeURIComponent(location.href);
         const html = NEWSLETTER_TEMPLATE.replace('{url}', url);
         ctaNode.insertAdjacentHTML('beforebegin', html);
     }
+}
 
+function injectAds(headings) {
     let lastNodeOffset;
     let adNodes = [];
     headings.forEach((node, i) => {
