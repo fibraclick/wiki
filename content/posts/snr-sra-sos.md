@@ -10,7 +10,7 @@ categories: [Definizioni, FTTC]
 
 [VDSL2]({{< relref "/posts/vdsl.md" >}}) è la tecnologia che sfrutta la tratta secondaria in rame per fornire accessi ad alta velocità. Trattandosi di un'**evoluzione dell'ADSL**, molti concetti come il significato dell'attenuazione o del margine di rumore restano invariati.
 
-Tuttavia, a differenza dell'ADSL, la VDSL2 utilizza frequenze molto più alte e maggiormente suscettibili a interferenze. Di conseguenza, assumono maggiore importanza concetti come il **margine SNR** e le tecniche **SRA (Seamless Rate Adaption)** e **SOS (Save Our Showtime)**.
+Tuttavia, a differenza dell'ADSL, la VDSL2 utilizza frequenze molto più alte e maggiormente suscettibili a interferenze. Di conseguenza, assumono maggiore importanza concetti come il **margine SNR** e le tecniche **SRA (Seamless Rate Adaptation)** e **SOS (Save Our Showtime)**.
 
 {{< green >}}
 Questo articolo è un'introduzione volutamente semplificata a questi tre concetti. Se ti interessa approfondire, puoi tentare di leggere lo standard VDSL2 ([G.993.2](https://www.itu.int/rec/T-REC-G.993.2)) oppure aprire una discussione [sul forum](https://forum.fibra.click) menzionando @Hadx.
@@ -36,7 +36,7 @@ La variazione dell'SNR ha la conseguenza di determinare anche la **velocità del
 Altri dettagli su SNR, SNRm e la loro relazione sono disponibili in [questo messaggio](https://forum.fibra.click/d/4824-presunto-errore-sulla-wiki/6) del forum e in quelli successivi.
 {{< /info >}}
 
-## SRA (Seamless Rate Adaption)
+## SRA (Seamless Rate Adaptation)
 
 L'**SRA** è una tecnica che permette di innescare un **adattamento del margine SNR** quando questo si discosta troppo dal _target_, un valore configurato dal proprietario della rete sui propri DSLAM, e che viene valutato come un ideale compromesso tra velocità di allineamento e stabilità.
 
