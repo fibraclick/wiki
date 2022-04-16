@@ -3,7 +3,7 @@
   <a href="{{ .Get "src" }}" target="_blank">
   {{- end }}
 
-  <img src="{{ .Get "src" }}" {{ with .Get "alt" }}alt="{{ . }}" {{ end }}>
+  <img src="{{ .Get "src" }}" loading="lazy" {{ with .Get "alt" }}alt="{{ . }}" {{ end }}>
 
   {{- if not (.Get "nolink") }}
   </a>
