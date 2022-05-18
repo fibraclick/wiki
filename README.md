@@ -1,9 +1,11 @@
 # FibraClick Wiki
 
-*📄 Codice sorgente sito web FibraClick Wiki*
+*📄 Source code for the website FibraClick Wiki*
 
-Per eseguire in locale, installa Hugo 0.89.2 extended e esegui:
+To run locally, install Hugo 0.89.2 extended and run:
 
 ```shell
 hugo server
 ```
+
+>**Note on commits**: for a long period the commit titles were in Italian but we've since switched to English. Sorry for the mess.
