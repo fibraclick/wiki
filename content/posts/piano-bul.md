@@ -4,7 +4,7 @@ slug: piano-bul
 date: 2021-08-02T16:00:00+02:00
 lastmod: 2022-03-27T18:00:00+02:00
 authors: [Matteo]
-description: Il Strategia per la banda ultralarga è il progetto pubblico con lo scopo di sostenere lo sviluppo e la diffusione della banda ultralarga in Italia.
+description: La Strategia per la banda ultralarga è il progetto pubblico con lo scopo di sostenere lo sviluppo e la diffusione della banda ultralarga in Italia.
 categories: [Definizioni, Copertura, Piano BUL]
 image: /social/piano-bul.jpg
 ---
