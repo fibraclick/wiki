@@ -15,6 +15,7 @@ description: "Lista di link utili legati alla fibra ottica, copertura, approfond
 - [File Excel FTTC TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/vula/##heading-custom3), con centrali e armadi attivi e pianificati
 - [File Excel ADSL TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/bitstream/##heading-custom3), con centrali attive e pianificate
 - [Fibermap](https://fibermap.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
+- [Trovainternet](https://trovainternet.it/), per verificare la presenza di infrastrutture FTTC, FTTH e FWA anche di operatori locali
 - [Vodafone GEA Corporate](http://gea.dsl.vodafone.it/corporate), per controllare i dettagli della copertura Vodafone per indirizzo
 - [Portale LIDO](http://adsl2.csi.telecomitalia.it/), per controllare la vendibilità TIM
 - [Mappa banda ultralarga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura a banda ultralarga in Italia ("Mappa per procedura Voucher")
