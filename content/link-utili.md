@@ -1,7 +1,7 @@
 ---
 title: "Link utili"
 date: 2019-04-07T00:00:00+02:00
-lastmod: 2022-01-27T18:20:00+01:00
+lastmod: 2022-06-10T17:30:00+02:00
 description: "Lista di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
