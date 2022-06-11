@@ -42,7 +42,7 @@ Il 25 maggio 2017 TIM diffidò Infratel dal sottoscrivere il contratto con Open 
 [^esposto]: *Tim contro Infratel: “Interventi illegittimi nelle aree in cui investiamo noi”*, 27 marzo 2017 https://www.corrierecomunicazioni.it/digital-economy/banda-ultralarga-il-piano-italiano-nel-mirino-della-ue/
 [^contratto]: *Banda ultralarga: Infratel e Open Fiber firmano il contratto per la prima Gara*, 16 giugno 2017 https://www.infratelitalia.it/archivio-news/notizie/banda-ultralarga-infratel-e-open-fiber-firmano-il-contratto-per-la-prima-gara
 
-Il 28 giugno 2017 **l'AGCM** (l'Antitrust italiana), **aprì un procedimento contro Telecom Italia per abuso di posizione dominante**, su segnalazione di Infratel, Enel, Open Fiber, Vodafone e Wind Tre.[^procedimento]
+Il 28 giugno 2017 **l'AGCM** (l'Antitrust italiana) **aprì un procedimento contro Telecom Italia per abuso di posizione dominante**, su segnalazione di Infratel, Enel, Open Fiber, Vodafone e Wind Tre.[^procedimento]
 
 Le condotte contestate erano le strategie volte ad «**ostacolare lo svolgimento delle gare Infratel** per la copertura con reti FTTH delle aree bianche, in modo da **preservare la posizione monopolistica** storicamente detenuta in tali territori ed evitare l'ingresso di un nuovo operatore (Open Fiber)», e ad «accaparrarsi preventivamente la clientela» anche con **politiche commerciali anticoncorrenziali**, ad esempio con prezzi non replicabili dalla concorrenza o offerte con vincoli di lunga durata (4 anni).
 
@@ -70,57 +70,57 @@ A marzo 2020, per via della pandemia di **COVID-19** e per effetto del decreto l
 
 L'istruttoria dell'Antitrust si è conclusa a febbraio 2020 con un **documento di più di 200 pagine**, di cui riportiamo alcune parti salienti.[^comunicato]
 
-(Le parti in grassetto sono state evidenziate dall'autore, mentre le parentesi quadre sono state aggiunte per indicare il paragrafo di riferimento o aggiungere note.)
+*(Le parti in grassetto sono state evidenziate dall'autore, mentre le parentesi quadre sono state aggiunte per indicare il paragrafo di riferimento o aggiungere note.)*
 
 L'Autorità osserva innanzitutto che TIM iniziò a preparare una strategia per ostacolare Open Fiber non appena quest'ultima fu costituita, nel 2015:
 
->In un documento interno risalente a dicembre 2015, sono riportate le prime analisi sulle iniziative da intraprendere per affrontare il mutato scenario competitivo infrastrutturale. In tale documento, **TIM afferma che l’insieme delle ipotesi di reazione analizzate dovrebbe concretizzarsi in una complessiva azione di disturbo**. In particolare, si valuta la possibilità di eccepire che l’intenzione di Enel di utilizzare la rete di distribuzione dell’elettricità possa integrare violazioni della normativa in materia di aiuti di Stato: è proposta, dunque, la presentazione di una denuncia in Commissione, poi effettivamente inoltrata nel corso del 2016. [v. 108]
+>In un documento interno risalente a dicembre 2015, sono riportate le prime analisi sulle iniziative da intraprendere per affrontare il mutato scenario competitivo infrastrutturale. In tale documento, **TIM afferma che l’insieme delle ipotesi di reazione analizzate dovrebbe concretizzarsi in una complessiva azione di disturbo**. In particolare, si valuta la possibilità di eccepire che l’intenzione di Enel di utilizzare la rete di distribuzione dell’elettricità possa integrare violazioni della normativa in materia di aiuti di Stato: è proposta, dunque, la presentazione di una denuncia in Commissione, poi effettivamente inoltrata nel corso del 2016. [paragrafo 108]
 
->La reazione di TIM sembra essere guidata esclusivamente dall’intenzione di **ostacolare, bloccare o ritardare l’ingresso di un nuovo concorrente infrastrutturato**. [v. 113]
+>La reazione di TIM sembra essere guidata esclusivamente dall’intenzione di **ostacolare, bloccare o ritardare l’ingresso di un nuovo concorrente infrastrutturato**. [p. 113]
 
 L'autorità osserva poi che, secondo altri documenti interni di TIM, le aree bianche (cluster C e D) erano considerate dall'azienda stessa come aree «di non interesse»:
 
->[...] in un documento risalente a gennaio 2015 si definivano le aree territoriali ricadenti nei cluster C e D del territorio “di non interesse per TI [Telecom Italia, ndr]”. In tale documento, si affermava altresì che **i territori del cluster D fossero “a chiaro fallimento di mercato” mentre nei cluster C gli investimenti in reti UBB fossero “sostenibili con il solo beneficio fiscale” ossia con un contributo pubblico**. Le medesime valutazioni, d’altronde, apparivano valide per TIM ancora a giugno 2016. [v. 119]
+>[...] in un documento risalente a gennaio 2015 si definivano le aree territoriali ricadenti nei cluster C e D del territorio “di non interesse per TI [Telecom Italia, ndr]”. In tale documento, si affermava altresì che **i territori del cluster D fossero “a chiaro fallimento di mercato” mentre nei cluster C gli investimenti in reti UBB fossero “sostenibili con il solo beneficio fiscale” ossia con un contributo pubblico**. Le medesime valutazioni, d’altronde, apparivano valide per TIM ancora a giugno 2016. [p. 119]
 
 La situazione sembra però cambiare a novembre 2016, quando le due gare Infratel erano già in corso:
 
->[...] la dirigenza aziendale di TIM impartisce la direttiva di valutare un profondo e improvviso cambio di strategia nelle aree bianche: “**supponiamo che volessimo cablare parte delle aree Infratel autonomamente. Evitatemi tutti i se e i ma i non si può ecc....**” [v. 120]
+>[...] la dirigenza aziendale di TIM impartisce la direttiva di valutare un profondo e improvviso cambio di strategia nelle aree bianche: “**supponiamo che volessimo cablare parte delle aree Infratel autonomamente. Evitatemi tutti i se e i ma i non si può ecc....**” [p. 120]
 
 Nello stesso periodo venne costituito un gruppo di lavoro interno per rivalutare la profittabilità degli investimenti nelle aree bianche. L'analisi concluse che nel cluster C una copertura FTTC avrebbe permesso un ritorno economico per TIM, mentre nel cluster D no.
 
->Pertanto, **mentre partecipa alle gare Infratel, contestualmente TIM lavora per tentare di provocarne il loro impedimento**. L’obiettivo delle analisi di redditività svolte per lo studio di un progetto autonomo di copertura delle aree bianche, infatti, è la sospensione del piano di infrastrutturazione pubblico. [v. 124]
+>Pertanto, **mentre partecipa alle gare Infratel, contestualmente TIM lavora per tentare di provocarne il loro impedimento**. L’obiettivo delle analisi di redditività svolte per lo studio di un progetto autonomo di copertura delle aree bianche, infatti, è la sospensione del piano di infrastrutturazione pubblico. [p. 124]
 
 A gennaio 2017 la strategia è decisa: abbandonare i bandi e coprire tutti i comuni delle aree bianche per conto proprio, e con la tecnologia che capita: FTTC, 4G e in alcuni casi FTTH:
 
->La strategia posta in essere da TIM appare diventare puramente volta a porre degli ostacoli allo sviluppo della concorrenza infrastrutturale, sia nelle aree bianche sia nel resto del territorio nazionale. In uno scambio di messaggi di posta elettronica del 26 gennaio 2017, sono fissate le seguenti direttive: “1. BANDO1: AUTONOMO - **marcatura a uomo di EoF [Open Fiber, ndr] su tutti i comuni; scelta di un sottoinsieme di UI (togliamo i garage, pollai, etc..) che copriremo con FTTC, FTTH (pochi) e Wireless in best effort** 2. BANDO 2: come sopra, e non continuiamo l’analisi per la partecipazione al bando 2”. Essenzialmente, si rileva che **TIM abbandona la partecipazione ai bandi di gara per dedicarsi a un progetto finalizzato a impedire del tutto lo svolgimento dell’intervento pubblico**, nel tentativo di vanificarne indebitamente la sostenibilità economica. [v. 136]
+>La strategia posta in essere da TIM appare diventare puramente volta a porre degli ostacoli allo sviluppo della concorrenza infrastrutturale, sia nelle aree bianche sia nel resto del territorio nazionale. In uno scambio di messaggi di posta elettronica del 26 gennaio 2017, sono fissate le seguenti direttive: “1. BANDO1: AUTONOMO - **marcatura a uomo di EoF [Open Fiber, ndr] su tutti i comuni; scelta di un sottoinsieme di UI (togliamo i garage, pollai, etc..) che copriremo con FTTC, FTTH (pochi) e Wireless in best effort** 2. BANDO 2: come sopra, e non continuiamo l’analisi per la partecipazione al bando 2”. Essenzialmente, si rileva che **TIM abbandona la partecipazione ai bandi di gara per dedicarsi a un progetto finalizzato a impedire del tutto lo svolgimento dell’intervento pubblico**, nel tentativo di vanificarne indebitamente la sostenibilità economica. [p. 136]
 
 Da diversi documenti interni di TIM risulta che TIM era consapevole dell'inferiorità tecnologia della sua proposta rispetto alla FTTH, consigliando di non far leva sulla qualità dell'esperienza utente ma piuttosto sul salto di velocità che deriverebbe dal passaggio da ADSL a FTTC.
 
->[...] Dal verbale del CdA di TIM del 23 marzo 2017, risulta che l’allora AD di TIM abbia risposto [...] che “**la differenza di velocità non risulterebbe invero percepibile da un utilizzatore medio**, che apprezzerebbe invece l’incremento (della qualità delle prestazioni, ndr) rispetto a quella di cui attualmente dispone con l’ADSL, a prezzo sostanzialmente invariato, **con effetto di lock-in della customer base esistente**”. [v. 138]
+>[...] Dal verbale del CdA di TIM del 23 marzo 2017, risulta che l’allora AD di TIM abbia risposto [...] che “**la differenza di velocità non risulterebbe invero percepibile da un utilizzatore medio**, che apprezzerebbe invece l’incremento (della qualità delle prestazioni, ndr) rispetto a quella di cui attualmente dispone con l’ADSL, a prezzo sostanzialmente invariato, **con effetto di lock-in della customer base esistente**”. [p. 138]
 
-La strategia diventò quindi sviluppare una rete qualitativamente inferiore a quella prevista dai bandi, con lo scopo di migrare massivamente le utenze sulla nuova rete realizzata, mantenendo però la «parità di condizioni economiche e senza oneri a carico del cliente» (v. 143).
+La strategia diventò quindi sviluppare una rete qualitativamente inferiore a quella prevista dai bandi, con lo scopo di migrare massivamente le utenze sulla nuova rete realizzata, mantenendo però la «parità di condizioni economiche e senza oneri a carico del cliente» (p. 143).
 
 A luglio 2017 il piano Cassiopea venne sospeso, ma secondo i dati raccolti dall'Autorità «circa un quarto dei cabinet previsti dal piano autonomo di copertura erano già stati installati». Inoltre:
 
->L’analisi [...] di queste attivazioni [dati wholesale TIM, ndr] dimostra come TI [Telecom Italia, ndr], anche successivamente all’avvio del procedimento, **abbia continuato a connettere civici per i quali non aveva dichiarato alcun interesse nel corso della consultazione del 2015** e non abbia mai sospeso completamente tale attività fino ad oggi, minando la sostenibilità del piano economico e finanziario sotteso alla concessione [...]. In base a quanto verificato da OF, **circa il 12% dei civici oggetto delle prime due gare Infratel sarebbe stata coperta da rete TIM e ne sarebbe stata avviata la commercializzazione dei servizi di accesso all’ingrosso**. [v. 162]
+>L’analisi [...] di queste attivazioni [dati wholesale TIM, ndr] dimostra come TI [Telecom Italia, ndr], anche successivamente all’avvio del procedimento, **abbia continuato a connettere civici per i quali non aveva dichiarato alcun interesse nel corso della consultazione del 2015** e non abbia mai sospeso completamente tale attività fino ad oggi, minando la sostenibilità del piano economico e finanziario sotteso alla concessione [...]. In base a quanto verificato da OF, **circa il 12% dei civici oggetto delle prime due gare Infratel sarebbe stata coperta da rete TIM e ne sarebbe stata avviata la commercializzazione dei servizi di accesso all’ingrosso**. [p. 162]
 
 In contemporanea, TIM avviò una serie di iniziative legali per rallentare lo svolgimento delle gare:
 
->L’ufficio affari legali di TIM, nel proporre un’azione di impugnativa contro Infratel [...] la presenta affermando che “**Ho deciso di avviare un’ulteriore azione sul bando 1 infratel per violazione dei requisiti soggettivi. È un po’ tirata, ma intanto disturba**”. [v. 168]
+>L’ufficio affari legali di TIM, nel proporre un’azione di impugnativa contro Infratel [...] la presenta affermando che “**Ho deciso di avviare un’ulteriore azione sul bando 1 infratel per violazione dei requisiti soggettivi. È un po’ tirata, ma intanto disturba**”. [p. 168]
 
-L'istruttoria dell'Antitrust si è concentrata anche sulle complesse politiche dei prezzi all'ingrosso adottate da TIM, ad esempio l'abbassamento dei prezzi della FTTH VULA pensato per «ostacolare sul nascere la diffusione delle offerte alternative di Open Fiber» (v. 222).
+L'istruttoria dell'Antitrust si è concentrata anche sulle complesse politiche dei prezzi all'ingrosso adottate da TIM, ad esempio l'abbassamento dei prezzi della FTTH VULA pensato per «ostacolare sul nascere la diffusione delle offerte alternative di Open Fiber» (p. 222).
 
 L'Antitrust ha inoltre rilevato delle strategie di "lock in" con lo scopo di vincolare i clienti, ad esempio con la vendita del modem a rate, con servizi obbligatori come TIM Expert, o la restituzione degli sconti in caso di recesso.
 
 In merito al piano Cassiopea, TIM ha risposto sostenendo la legittimità del suo piano:
 
->**TIM ha ribadito la razionalità e remuneratività degli investimenti previsti** e ha contestato l’esistenza di un obbligo di attendere tre anni prima di potere formulare una modifica ai proprio piani di investimento nelle aree bianche. [v. 392]
+>**TIM ha ribadito la razionalità e remuneratività degli investimenti previsti** e ha contestato l’esistenza di un obbligo di attendere tre anni prima di potere formulare una modifica ai proprio piani di investimento nelle aree bianche. [p. 392]
 
->In particolare, TIM ha evidenziato la **legittimità di una reazione adeguata alla sfida concorrenziale mossale dall’ingresso sul mercato di OF**. La redditività e razionalità di Cassiopea sarebbe confermata dai risultati degli studi realizzati da TIM tra marzo e maggio 2017. [v. 393]
+>In particolare, TIM ha evidenziato la **legittimità di una reazione adeguata alla sfida concorrenziale mossale dall’ingresso sul mercato di OF**. La redditività e razionalità di Cassiopea sarebbe confermata dai risultati degli studi realizzati da TIM tra marzo e maggio 2017. [p. 393]
 
-**TIM** sostiene anche che le **iniziative legali** «**non sono state proposte con l’intento di ritardare le gare** né, quindi, di ostacolare l’ingresso di OF nel relativo mercato» (v. 398).
+**TIM** sostiene anche che le **iniziative legali** «**non sono state proposte con l’intento di ritardare le gare** né, quindi, di ostacolare l’ingresso di OF nel relativo mercato» (p. 398).
 
-Nelle valutazioni finali l'Autorità conclude che la strategia di TIM si spiega con gli obiettivi di «**ritardare l'ingresso di un nuovo operatore infrastrutturato** nelle aree bianche», «**conservare indebitamente la posizione dominante del mercato**» e scongiurare la trasformazione del mercato in un contesto di **competizione infrastrutturale** (v. 476, 643).
+Nelle valutazioni finali l'Autorità conclude che la strategia di TIM si spiega con gli obiettivi di «**ritardare l'ingresso di un nuovo operatore infrastrutturato** nelle aree bianche», «**conservare indebitamente la posizione dominante del mercato**» e scongiurare la trasformazione del mercato in un contesto di **competizione infrastrutturale** (p. 476, 643).
 
 L'insieme delle condotte è valutato dall'Antitrust come una "**violazione grave**": la sanzione finale, considerando le attenuanti, è di 116˙099˙937 €.
 
