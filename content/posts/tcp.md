@@ -14,7 +14,7 @@ katex: true
 
 Il protocollo è stato originariamente ideato negli anni 70 ed è rimasto in larga parte inviariato, anche se nel corso del tempo sono state introdotte diverse varianti per rendere il protocollo più efficiente. Anche se per alcuni scopi sono nati dei protocolli alternativi (come il recente QUIC, basato su UDP), **TCP resta ampiamente dominante** per molti scopi ed è quindi utile conoscerne il funzionamento.
 
-Questo articolo è una **panoramica tecnica** del funzionamento interno di TCP, partendo dai concetti generali e approfondendo poi aspetti un po' più avanzati. Questo articolo è pensato per utenti che non hanno già una preparazione avanzata di reti ma è richiesta una conoscenza base.
+Questo articolo è una **panoramica tecnica** del funzionamento interno di TCP, partendo dai concetti generali e approfondendo poi aspetti un po' più avanzati. Questo articolo è pensato per utenti che non hanno già una preparazione avanzata di reti ma è necessario avere delle nozioni di base.
 
 {{< toc >}}
 
@@ -144,9 +144,10 @@ Per ogni segmento TCP inviato viene creato un timer che determina entro quanto t
 
 Ovviamente il tempo minimo richiesto è dato da un RTT, cioè il tempo richiesto perché il segmento arrivi a destinazione e l'**ACK** torni indietro. Semplificando leggermente, il valore del timeout (RTO) viene calcolato partendo dall'RTT e aggiungendo 4 volte la variazione dell'RTT, cioè {{< math >}}$RTO = RTT + 4 \cdot RTTvar${{< /math >}}.
 
-Lo scopo è tenere conto del fatto che l'RTT non è sempre stabile e può variare nel tempo. Il moltiplicatore `4` è stato scelto empiricamente come un valore che sembrava adeguato per la maggior parte delle situazioni. Le implementazioni di TCP dei sistemi operativi possono stabilire anche un valore minimo di RTO, ad esempio in Linux è 200 ms.[^rto]
+Lo scopo è tenere conto del fatto che l'RTT non è sempre stabile e può variare nel tempo. Il moltiplicatore `4` è stato scelto empiricamente come un valore che sembrava adeguato per la maggior parte delle situazioni. Le implementazioni di TCP dei sistemi operativi possono stabilire anche un valore minimo di RTO, ad esempio in Linux è 200 ms mentre su Windows 300 ms.[^rto1]
 
-[^rto]: *Linux TCP_RTO_MIN, TCP_RTO_MAX and the tcp_retries2 sysctl*, https://pracucci.com/linux-tcp-rto-min-max-and-tcp-retries2.html
+[^rto1]: *Linux TCP_RTO_MIN, TCP_RTO_MAX and the tcp_retries2 sysctl*, https://pracucci.com/linux-tcp-rto-min-max-and-tcp-retries2.html
+[^rto2]: *How to modify the TCP/IP maximum retransmission time-out* https://support.microsoft.com/en-us/topic/how-to-modify-the-tcp-ip-maximum-retransmission-time-out-7ae0982a-4963-fa7e-ee79-ff6d0da73db8
 
 **Quando il timeout scatta, il pacchetto di dati corrispondente viene dato per perso e viene ritrasmesso** (identico). Il valore di RTO per il pacchetto ritrasmesso viene raddoppiato per evitare che il timeout scatti di nuovo (la rete potrebbe essere fortemente congestionata e l'**ACK** potrebbe non arrivare in tempo). TCP continua a ritrasmettere il pacchetto per un numero massimo di volte che dipende dalla configurazione del sistema operativo. Spesso il limite è di 15 ritrasmissioni, che si traduce in diversi minuti di tentativi.
 
@@ -192,9 +193,13 @@ La finestra è definita "scorrevole" perché non appena il trasmettitore riceve 
 
 Se la finestra di ricezione serve per regolare la velocità di invio in base alla capacità del ricevitore, TCP prevede anche l'uso di una **finestra di congestione per regolare la velocità di trasferimento in base alla capacità della rete**. La finestra di trasmissione effettiva è data quindi dal valore minimo tra le due finestre ed è quella che determina nella pratica la banda utilizzata da TCP.
 
-Un grande problema ancora non completamente risolto è riuscire a regolare la finestra di congestione in modo che aderisca il più possibile alla velocità che la rete è in grado di sostenere. Il problema non è banale perché la capacità può variare nel tempo, per cui bisogna tenere conto sia di aumenti che riduzioni nel tempo. Non solo, sulla stessa rete ci possono essere molte connessioni TCP e queste devono riuscire a spartirsi la banda nel modo più equo possibile (si parla infatti spesso di *fairness* delle diverse versioni di TCP, anche tra loro).
+Un grande problema non ancora completamente risolto è riuscire a regolare la finestra di congestione in modo che aderisca il più possibile alla velocità che la rete è in grado di sostenere. Il problema non è banale perché la capacità può variare nel tempo, per cui bisogna tenere conto sia di aumenti che riduzioni nel tempo. Non solo, sulla stessa rete ci possono essere molte connessioni TCP e queste devono riuscire a spartirsi la banda nel modo più equo possibile (si parla infatti spesso di *fairness* delle diverse versioni di TCP, anche tra loro).
 
 Quando parliamo di **algoritmi di controllo della congestione** ci riferiamo proprio alle soluzioni a questo problema. Nel corso degli anni sono state elaborate diverse versioni e vedremo qui in dettaglio le tre più importanti, **NewReno**, **CUBIC** e **BBR**, con qualche accenno storico ad altre versioni storiche.
+
+{{< warn >}}
+Il controllo della congestione si applica alla **singola connessione TCP**, ma in molti casi nella pratica per raggiungere velocità elevate si utilizzano **più connessioni in parallelo**. Questo permette spesso di sfruttare meglio la banda complessiva perché la suscettibilità delle singole connessioni impatta di meno sul throughput complessivo.
+{{< /warn >}}
 
 ### NewReno
 
