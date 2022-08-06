@@ -55,7 +55,7 @@ Nella maggior parte delle implementazioni in realtà per questioni di efficienza
 Sempre per questioni di efficienza i segmenti di dati molto piccoli vengono di solito raggrupppati in un unico segmento (**Nagle's algorithm**).
 {{< /green >}}
 
-**[ SCHEMA DI SEQUENZA ]**
+{{< fig src="/images/tcp/sequence.png" caption="Diagramma di sequenza semplificato del funzionamento base di TCP. Come vedremo meglio in seguito TCP prevede la possibilità di trasmettere più segmenti in contemporeanea." >}}
 
 {{< green >}}
 ##### Trasmettitore e ricevitore
@@ -99,7 +99,7 @@ In particolare un handshake TCP avviene con lo scambio di tre segmenti:
 
 3) l'host A riceve il segmento con il numero di sequenza di B (`Y`) e risponde a sua volta con un segmento **ACK** e il valore `Y+1` nel campo *Acknowledgment number*. In questo segmento può iniziare ad inserire i dati che vuole trasmettere.
 
-**[ DIAGRAMMA DI SEQUENZA SYN ]**
+{{< fig src="/images/tcp/syn.png" caption="Diagramma di sequenza dell'handshake a tre vie di TCP." >}}
 
 La procedura potrebbe sembrare inutilmente complicata ma per capire perché è necessaria è utile vederla divisa in due parti, con ciascuno dei due host che invia un pacchetto di sincronizzazione e attende la relativa conferma. In altre parole: l'host A potrebbe inviare un segmento **SYN** a B e attendere un **ACK**, poi l'host B invierebbe un segmento **SYN** ad A attendendo un **ACK** di risposta. È facile vedere che unendo le due fasi si ottiene proprio l'handshake TCP.
 
@@ -130,7 +130,7 @@ L'handshake TCP introduce un ritardo di un Round-Trip Time (RTT) all'inizio di o
 
 La chiusura di una connessione TCP avviene in modo molto simile all'handshake di apertura, con l'uso del flag **FIN** al posto di **SYN**. In pratica si ha quindi l'invio di un **FIN** da parte dell'host che vuole chiudere la connessione, seguito in risposta da un **FIN+ACK** e poi di nuovo **ACK**. Esiste anche la possibilità di chiudere la connessione in modo più brusco semplicemente smettendo di inviare e ricevere dati e inviando un segmento con il flag **RST** (reset).
 
-**[ DIAGRAMMA DI SEQUENZA FIN ]**
+{{< fig src="/images/tcp/fin.png" caption="Diagramma di sequenza della chiusura ordinata di una connessione TCP." >}}
 
 ## La gestione delle ritrasmissioni
 
@@ -167,7 +167,7 @@ Facciamo un esempio:
 - A riceve l'**ACK** per il segmento `1`, non una volta ma tre volte. Può quindi concludere che qualcosa è andato storto e che probabilmente il segmento `2` è andato perso
 - A ritrasmette il segmento `2`
 
-**[ SCHEMA ]**
+{{< fig src="/images/tcp/dupack.png" caption="Diagramma di sequenza che illustra il funzionamento della ritrasmissione dei segmenti basata su ACK duplicati (DupAck)." >}}
 
 Gli acknowledgment duplicati (**DupAck**) possono quindi essere utilizzati per **rilevare la perdita di pacchetti in modo più rapido rispetto al timeout di ritrasmissione**. Come vedremo in seguito hanno anche un impatto molto più limitato negli algoritmi di controllo della congestione.
 
@@ -187,7 +187,7 @@ Per fare un esempio, se il ricevitore comunica che la propria finestra di ricezi
 
 La finestra è definita "scorrevole" perché non appena il trasmettitore riceve un ACK scorrerà la finestra in avanti, "sbloccando" l'invio di nuovi segmenti di dati.
 
-**[ SCHEMA ]**
+{{< fig src="/images/tcp/flowcontrol.png" caption="Schema del controllo di flusso di TCP tramite finestra scorrevole. La finestra di trasmissione viene regolata in base alla finestra di ricezione e determina quali segmenti di dati possono essere trasmessi. I segmenti fuori dalla finestra di trasmissione non possono essere trasmessi perché il ricevitore non è pronto per riceverli." >}}
 
 ## Il controllo della congestione
 
@@ -212,7 +212,7 @@ Passando più in dettaglio al funzionamento dell'algoritmo, in assenza di conges
 - **Slow start** → Questa è la fase iniziale della trasmissione e prevede una crescita molto rapida della finestra di congestione (che chiameremo **CWND**), in modo da aumentare rapidamente la velocità. La finestra è inizialmente di 1 MSS (1 segmento) e ad ogni ACK ricevuto viene incrementata di 1 MSS. La crescita della finestra in questa fase è esponenziale: la parola "slow" non si riferisce quindi alla crescita ma al fatto che la finestra parte da 1 MSS. Una volta raggiunta una certa soglia (**SSTHRESH**, *slow start threshold*) questa fase finisce e si passa in *congestion avoidance*.
 - **Congestion avoidance** → In questa fase NewReno rallenta molto la crescita della finestra. Ad ogni ACK ricevuto la finestra CWND viene incrementata di {{< math >}}$1 \cdot MSS / CWND${{< /math >}}, con il risultato di aumentare la finestra di 1 MSS ad ogni RTT (anziché ad ogni ACK come in *slow start*). La crescita in questa fase non è più esponenziale ma lineare.
 
-**[ GRAFICO ]**
+{{< fig src="/images/tcp/newreno1.png" caption="Il grafico qualitativo della finestra di congestione mostra la crescita della finestra nel tempo. È una rappresentazione molto semplificata e poco realistica, seppur fedele al funzionamento teorico di NewReno." >}}
 
 In *congestion avoidance* la finestra di TCP **continua a crescere ma a un certo punto raggiungerà il limite di banda della rete**. I router inizieranno a scartare pacchetti e gli host osserveranno che i pacchetti vengono persi. Come visto in precedenza ci sono due modi con cui TCP può accorgersi delle perdite: il timeout (RTO) e gli acknowledgment duplicati.
 
@@ -220,14 +220,13 @@ Il caso più semplice è il **timeout**: NewReno reagisce in modo drastico torna
 
 NewReno "azzera" la finestra in caso di timeout perché la scadenza di un timeout è una situazione considerata grave, indice del fatto che i pacchetti non stanno più transitando in rete. Questo azzeramento comporta inevitabilmente una riduzione della velocità di trasmissione.
 
-**[ GRAFICO ]**
+{{< fig src="/images/tcp/newreno2.png" caption="Rappresentazione semplificata dell'evoluzione della finestra di congestione con NewReno in caso di timeout." >}}
 
 Una situazione più comune è che **solo alcuni pacchetti vengano persi**. In questo caso si possono sfruttare gli **ACK duplicati**: come visto in precedenza al terzo ACK per lo stesso numero di sequenza possiamo ritrasmettere il pacchetto perso. Questo comportamento fa parte di NewReno e viene chiamato **fast retransmit**.
 
 Invece che tornare in *slow start*, dopo un *fast retransmit* TCP NewReno entra in **fast recovery** ("recupero rapido"). Semplificando un po', non appena ricevuta conferma che il pacchetto ritrasmesso è stato ricevuto la connessione torna in *congestion avoidance* e ricomincia a crescere, partendo da metà della finestra raggiunta prima della perdita.
 
-**[ GRAFICO ]**
-(sawtooth)
+{{< fig src="/images/tcp/newreno3.png" caption="Rappresentazione semplificata dell'evoluzione della finestra di congestione in NewReno con *fast recovery*. Il comportamento di NewReno viene spesso definito \"a dente di sega\" (*sawtooth pattern*) proprio per via di questo grafico." >}}
 
 Una complicazione sorge dal fatto che **se viene perso più di un pacchetto** il trasmettitore dovrebbe assicurarsi che tutti i pacchetti persi siano stati recuperati e non soltanto il primo, prima di entrare in *fast recovery*. È questa la principale differenza tra NewReno e il suo predecessore, Reno.[^newreno] In questa fase ha un ruolo molto importante il supporto a SACK (*Selective ACKnowledgments*), che a differenza degli ACK cumulativi permette di sapere quali segmenti sono andati persi con precisione.
 
@@ -247,7 +246,7 @@ A grandi linee CUBIC risolve i problemi di NewReno in due modi:
 
 2) la riduzione della finestra in caso di *packet loss* è meno drastica rispetto a NewReno e la fase di recovery **utilizza una funziona cubica**, molto più rapida nel tornare a regime. CUBIC prevede anche una fase di *probing* (che segue appunto la funzione cubica) per andare a scoprire se è disponibile ulteriore banda utilizzabile.
 
-**[ GRAFICI ]**
+{{< fig src="/images/tcp/cubic.png" caption="Rappresentazione semplificata del funzionamento di TCP CUBIC. Come si può notare dal grafico, la riduzione della finestra in caso di perdite è ridotta e la crescita della finestra è molto rapida grazie alla curva cubica. (Il grafico è semplificato e la curva non segue realmente una funzione cubica.)" >}}
 
 Il fatto che CUBIC sia superiore a NewReno diventa evidente con un esempio: se prendiamo un collegamento da 10 Gbps con RTT di 100 ms, per mantenere la velocità massima NewReno impone che non ci sia più di un pacchetto perso ogni ora, mentre per CUBIC appena 40 secondi.[^cubic]
 
@@ -325,7 +324,7 @@ Un altro approccio è quello di **TCP Westwood+** (2001), che quando rileva una 
 
 {{< info >}}
 ##### Fonti
-La maggior parte delle informazioni contenute in questo articolo sono presenti in qualsiasi libro di reti, anche scolastico. Alcuni riferimenti utili sono i seguenti:
+La maggior parte delle informazioni contenute in questo articolo sono presenti in qualsiasi libro introduttivo di reti, anche scolastico. Alcuni riferimenti utili sono i seguenti:
 
 - [Computer Networks](https://amzn.to/3t3hqjK) (Andrew S. Tanenbaum)
 - [TCP/IP Illustrated, Volume 1](https://amzn.to/3MT7HUZ) (Kevin R. Fall, W. Richard Stevens)
