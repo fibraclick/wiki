@@ -31,7 +31,7 @@ Per una spiegazione più dettagliata dello schema a strati di TCP/IP, leggi [Com
 TCP offre le seguenti funzionalità:
 
 - **la gestione delle connessioni**: TCP è *connection-oriented* e richiede di stabilire una connessione bidirezionale tra i due host prima di poter iniziare la comunicazione. La connessione viene stabilita tramite una procedura chiamata *three-way handshake* ("stretta di mano a tre vie"), che vedremo in seguito;
-- **la consegna ordinata e affidabile**: TCP è un protocollo affidabile perché garantisce che i dati inviati arriveranno prima o poi a destinazione. Garantisce inoltre che i pacchetti di dati vengano consegnati a destinazione nello stesso ordine in cui sono stati trasmessi. Per raggiungere questo obiettivo TCP mantiene un buffer di dati a finestra scorrevole su entrambe le estremità della connessione, consentendo di riordinare i pacchetti nell'ordine errato, rilevare le perdite e invece confermare all'altro capo la ricezione di pacchetti senza errori;
+- **la consegna ordinata e affidabile**: TCP è un protocollo affidabile perché garantisce che i dati inviati arriveranno prima o poi a destinazione. Garantisce inoltre che i pacchetti di dati vengano consegnati a destinazione nello stesso ordine in cui sono stati trasmessi. Per raggiungere questo obiettivo TCP mantiene un buffer di dati a finestra scorrevole su entrambe le estremità della connessione, consentendo di riordinare i pacchetti ricevuti nell'ordine errato, rilevare le perdite e confermare all'altro capo la ricezione di pacchetti senza errori;
 - **il rilevamento degli errori**: ogni pacchetto TCP include una *checksum* che permette di verificare l'integrità dei dati ricevuti e quindi reagire correttamente alla corruzione dei dati che può avvenire durante la trasmissione in rete;
 - **il controllo di flusso**: in TCP il ricevitore segnala continuamente all'altra estremità la quantità di dati che è ancora in grado di ricevere prima di riempire il buffer di dati. Questo permette di "chiedere" al trasmettitore di rallentare l'invio di pacchetti se il sistema non è in quel momento in grado di elaborarli;
 - **il controllo della congestione**: TCP è in grado di rilevare quando la capacità massima della rete è stata raggiunta e adeguare di conseguenza la velocità di trasmissione. Questa è la parte più complessa di TCP e non a caso le varianti di TCP nate nel corso degli anni si distinguono in prevalenza per l'algoritmo di *congestion control* utilizzato.
@@ -207,6 +207,14 @@ Il controllo della congestione si applica alla **singola connessione TCP**, ma i
 
 NewReno è un algoritmo che viene definito **reattivo**: funziona **incrementando la finestra di congestione** (e quindi la velocità di trasmissione) finché non si accorge che sta iniziando a generare **perdite di pacchetti** sulla rete. In altre parole **per riuscire a capire qual è la capacità massima della rete genera di proposito della congestione sulla rete**. La congestione porta i router intermedi della rete a scartare i pacchetti che non sono in grado di gestire e TCP utilizza queste perdite come segnale del fatto che il limite della rete è stato raggiunto. Reagisce poi di conseguenza riducendo la finestra di congestione (e quindi rallentando la trasmissione).
 
+{{< green >}}
+##### ECN e RED
+
+Alcune recenti implementazioni degli algoritmi di congestione sfruttano una funzionalità chiamata **Explicit Congestion Notification** (ECN), che consente ai router di segnalare esplicitamente la presenza di congestione tramite degli appositi campi degli header IP e TCP. Gli algoritmi ricevono così un segnale aggiuntivo al quale possono reagire.
+
+Un'altra tecnica usata è la **Random Early Detection** (RED): prevede che i router inizino a scartare pacchetti prima di aver riempito le code, in modo da evitare che si crei congestione, pur mantenendo invariato il funzionamento degli algoritmi.
+{{< /green >}}
+
 Passando più in dettaglio al funzionamento dell'algoritmo, in assenza di congestione l'algoritmo funziona in due fasi:
 
 - **Slow start** → Questa è la fase iniziale della trasmissione e prevede una crescita molto rapida della finestra di congestione (che chiameremo **CWND**), in modo da aumentare rapidamente la velocità. La finestra è inizialmente di 1 MSS (1 segmento) e ad ogni ACK ricevuto viene incrementata di 1 MSS. La crescita della finestra in questa fase è esponenziale: la parola "slow" non si riferisce quindi alla crescita ma al fatto che la finestra parte da 1 MSS. Una volta raggiunta una certa soglia (**SSTHRESH**, *slow start threshold*) questa fase finisce e si passa in *congestion avoidance*.
@@ -297,7 +305,7 @@ In aggiunta, periodicamente BBR fa un *probing* della rete aumentando la finestr
 
 BBR non è perfetto e non riesce nella pratica a raggiungere pienamente l'obiettivo di non creare di proposito congestione sulla rete. Nelle situazioni in cui i buffer dei router sono piccoli (meno della metà del *bandwidth-delay product*) si hanno comunque perdite, che però BBR ignora per via di come è progettato.
 
-Per questo motivo Google [sta sviluppando](https://groups.google.com/g/bbr-dev/c/5QxDjS6Z28k/m/xfSnsq9sAwAJ) **BBRv2**, ancora sperimentale, che tra le varie modifiche introduce un approccio ibrido che tiene in considerazione anche il *packet loss* come segnale esplicito di superamento della capacità della rete. Questo permette di ridurre drasticamente le ritrasmissioni causate da BBR pur mantenendo un throughput elevato.
+Per questo motivo Google [sta sviluppando](https://groups.google.com/g/bbr-dev/c/5QxDjS6Z28k/m/xfSnsq9sAwAJ) **BBRv2**, ancora sperimentale, che tra le varie modifiche introduce un approccio ibrido che tiene in considerazione anche il *packet loss* come segnale esplicito di superamento della capacità della rete. Inoltre sfrutta anche *Explicit Congestion Control* se disponibile. Questo mix di approcci permette di ridurre drasticamente le ritrasmissioni causate da BBR pur mantenendo un throughput elevato.
 
 {{< fig src="/images/tcp/bbr2.jpg" caption="Dal grafico si nota come BBRv2 riduce significativamente il problema del *packet loss* nelle reti con buffer piccoli. Fonte: [IETF 100](https://datatracker.ietf.org/meeting/100/materials/slides-100-iccrg-a-quick-bbr-update-bbr-in-shallow-buffers).">}}
 {{< /green >}}
