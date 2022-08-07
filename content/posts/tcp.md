@@ -70,7 +70,7 @@ I campi più importanti sono i seguenti:
 
 - **Source/destination port**: le porte sorgente e destinazione che identificano quale applicazione sta inviando i dati e verso quale applicazione è destinato il segmento sull'altro host. Ad esempio, nel caso di una connessione TCP per trasportare traffico HTTP la porta di destinazione sarà 80 oppure 443, mentre quella sorgente sarà scelta casualmente. Il server risponderà utilizzando la porta casuale come porta di destinazione e 80 oppure 443 come porta sorgente. La porta è un valore numerico di 16 bit e può quindi variare tra 0 e 65535 (i primi 1024 valori sono riservati ai servizi più comuni).
 
-- **Sequence number**: è un numero sequenziale che specifica che i dati contenuti nel segmento iniziano dal byte identificato dal numero di sequenza. È un numero a 32 bit e può quindi arrivare ad oltre 4 miliardi (4 GB), dopodiché ricomincia da zero (*wrap around*). Il numero di sequenza è indipendente nelle due direzioni di trasmissioni: entrambi gli host della connessione mantengono un proprio numero di sequenza e lo inseriscono nei propri pacchetti inviati.
+- **Sequence number**: è un contatore che tiene traccia del numero di byte trasmessi da un host. Ad esempio, se un segmento contiene 1000 byte il *sequence number* viene incrementato di 1000 dopo la trasmissione. È indipendente nelle due direzioni di trasmissioni, per cui entrambi gli host della connessione mantengono un proprio numero di sequenza e lo inseriscono nei propri pacchetti inviati. Trattandosi di un numero a 32 bit può arrivare ad oltre 4 miliardi (4 GB), dopodiché ricomincia da zero (*wrap around*).
 
 - **Acknowledgment number**: serve ad indicare all'altro capo della trasmissione che i dati precedenti al numero di sequenza indicato in questo campo sono stati ricevuti correttamente. Ad esempio se il valore è 5000 significa che i byte da 0 a 4999 sono stati ricevuti e che il ricevitore si aspetta ora il byte 5000 (che potrebbe essere già stato inviato ma non ancora arrivato a destinazione). Si tratta quindi di un meccanismo di conferma cumulativo.
 
@@ -107,7 +107,7 @@ La gestione delle connessioni TCP è in genere implementata dai sistemi operativ
 
 ```python
 import socket
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM):
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 s.sendall(b'Hello world')
 ```
