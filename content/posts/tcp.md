@@ -1,8 +1,8 @@
 ---
 title: "Come funziona il protocollo TCP"
 slug: tcp
-date: 2022-08-07T11:00:00+02:00
-lastmod: 2022-08-07T11:00:00+02:00
+date: 2022-08-07T16:45:00+02:00
+lastmod: 2022-08-07T16:45:00+02:00
 authors: [Matteo]
 description: "TCP (Transmission Control Protocol) è uno dei principali protocolli di Internet. Ecco come funziona in dettaglio, tra gestione delle connessioni e controllo della congestione."
 categories: [Reti]
