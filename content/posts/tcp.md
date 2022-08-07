@@ -83,7 +83,7 @@ I campi più importanti sono i seguenti:
 - **Options**: questa sezione è opzionale e permette di estendere l'header TCP con funzionalità aggiuntive. Alcuni esempi di opzioni normalmente utilizzate sono:
   - *Maximum segment size (MSS)*: permette di comunicare all'altro host la quantità massima di dati che è in grado di ricevere in un singolo segmento TCP;
   - *Selective acknowledgments (SACK)*: permette di variare il sistema di ACK da cumulativo a selettivo. In questo modo il ricevitore anziché confermare di aver ricevuto tutti i dati fino a un certo numero di sequenza può confermare più intervalli di dati (comunicando così implicitamente quali pacchetti non sono ancora stati ricevuti);
-  - *Window scale*: permette di moltiplicare il valore della *Window size*, che altrimenti potrebbe arrivare solo fino a 64 KB. In dettaglio, la *window scale* indica il numero di shift bitwise da applicare alla dimensione della finestra, il cui valore effettivo può quindi essere calcolato con la formula {{< math >}}$WindowSize \cdot 2^{WindowScale}${{< /math >}}.
+  - *Window scale*: permette di moltiplicare il valore della *Window size*, che altrimenti potrebbe arrivare solo fino a 64 KB. In dettaglio, la *window scale* indica il numero di shift bitwise da applicare alla dimensione della finestra, il cui valore effettivo può quindi essere calcolato con la formula {{< math >}}$\operatorname{WindowSize} \cdot 2^{\operatorname{WindowScale}}${{< /math >}}.
 
 ## L'handshake a tre vie
 
@@ -142,7 +142,7 @@ TCP è in grado di accorgersi della perdita di un pacchetto (e quindi ritrasmett
 
 Per ogni segmento TCP inviato viene creato un timer che determina entro quanto tempo l'host si attende che il segmento venga confermato tramite un **ACK**.
 
-Ovviamente il tempo minimo richiesto è dato da un Round-Trip Time (RTT), cioè il tempo richiesto perché il segmento arrivi a destinazione e l'**ACK** torni indietro. Semplificando leggermente, il valore del timeout (RTO) viene calcolato partendo dall'RTT e aggiungendo 4 volte la variazione dell'RTT, cioè {{< math >}}$RTO = RTT + 4 \cdot RTTvar${{< /math >}}.
+Ovviamente il tempo minimo richiesto è dato da un Round-Trip Time (RTT), cioè il tempo richiesto perché il segmento arrivi a destinazione e l'**ACK** torni indietro. Semplificando leggermente, il valore del timeout (RTO) viene calcolato partendo dall'RTT e aggiungendo 4 volte la variazione dell'RTT, cioè {{< math >}}$\operatorname{RTO} = \operatorname{RTT} + 4 \cdot \operatorname{RTTvar}${{< /math >}}.
 
 Lo scopo è tenere conto del fatto che l'RTT non è sempre stabile e può variare nel tempo. Il moltiplicatore `4` è stato scelto empiricamente come un valore che sembrava adeguato per la maggior parte delle situazioni. Le implementazioni di TCP dei sistemi operativi possono stabilire anche un valore minimo di RTO, ad esempio in Linux è 200 ms mentre su Windows 300 ms.[^rto1]
 
@@ -218,7 +218,7 @@ Un'altra tecnica usata è la **Random Early Detection** (RED): prevede che i rou
 Passando più in dettaglio al funzionamento dell'algoritmo, in assenza di congestione l'algoritmo funziona in due fasi:
 
 - **Slow start** → Questa è la fase iniziale della trasmissione e prevede una crescita molto rapida della finestra di congestione (che chiameremo **CWND**), in modo da aumentare rapidamente la velocità. La finestra è inizialmente di 1 MSS (1 segmento) e ad ogni ACK ricevuto viene incrementata di 1 MSS. La crescita della finestra in questa fase è esponenziale: la parola "slow" non si riferisce quindi alla crescita ma al fatto che la finestra parte da 1 MSS. Una volta raggiunta una certa soglia (**SSTHRESH**, *slow start threshold*) questa fase finisce e si passa in *congestion avoidance*.
-- **Congestion avoidance** → In questa fase NewReno rallenta molto la crescita della finestra. Ad ogni ACK ricevuto la finestra CWND viene incrementata di {{< math >}}$1 \cdot MSS / CWND${{< /math >}}, con il risultato di aumentare la finestra di 1 MSS ad ogni RTT (anziché ad ogni ACK come in *slow start*). La crescita in questa fase non è più esponenziale ma lineare.
+- **Congestion avoidance** → In questa fase NewReno rallenta molto la crescita della finestra. Ad ogni ACK ricevuto la finestra CWND viene incrementata di {{< math >}}$1 \cdot \operatorname{MSS} / \operatorname{CWND}${{< /math >}}, con il risultato di aumentare la finestra di 1 MSS ad ogni RTT (anziché ad ogni ACK come in *slow start*). La crescita in questa fase non è più esponenziale ma lineare.
 
 {{< fig src="/images/tcp/newreno1.png" caption="Grafico qualitativo della finestra di congestione, che mostra la crescita della finestra nel tempo. È una rappresentazione molto semplificata, seppur fedele al funzionamento teorico di NewReno." >}}
 
@@ -271,13 +271,13 @@ Il fenomeno che porta a riempire i buffer di router e switch sulla rete è defin
 Esiste a livello teorico la possibilità di calcolare la banda effettivamente disponibile sul collegamento di rete escludendo il ruolo dei buffer. In particolare possiamo **calcolare la banda come il rapporto tra la finestra di trasmissione ideale e la latenza quando i buffer sono vuoti** (*quantità di dati massima per unità di tempo*).
 
 {{< math >}}
-$$Bandwidth = \frac{IdealWindow}{Delay}$$
+$$\operatorname{Bandwidth} = \frac{\operatorname{IdealWindow}}{\operatorname{Delay}}$$
 {{< /math >}}
 
 Se invertiamo la formula otteniamo che la finestra ideale che la connessione TCP dovrebbe avere è:
 
 {{< math >}}
-$$IdealWindow = Bandwidth \cdot Delay$$
+$$\operatorname{IdealWindow} = \operatorname{Bandwidth} \cdot \operatorname{Delay}$$
 {{< /math >}}
 
 Questa equazione è di fondamentale importanza e si chiama **bandwidth-delay product** (**BDP**). Se la finestra è inferiore al *bandwidth-delay product* significa che stiamo sprecando capacità di rete, mentre se è superiore stiamo andando oltre quello che la rete è in grado di offrire iniziando a riempire i buffer dei router.
