@@ -234,7 +234,7 @@ Una complicazione sorge dal fatto che **se viene perso più di un pacchetto** il
 
 ### CUBIC
 
-La strategia di controllo della congestione di **NewReno** viene definita **Additive Increase Multiplicative Dicrease** (AIMD) perché la finestra **cresce in modo additivo** (linearmente con un aumento costante) in assenza di *packet loss*, mentre viene **dimezzata in caso di perdite**.
+La strategia di controllo della congestione di **NewReno** viene definita **Additive Increase Multiplicative Decrease** (AIMD) perché la finestra **cresce in modo additivo** (linearmente con un aumento costante) in assenza di *packet loss*, mentre viene **dimezzata in caso di perdite**.
 
 Questo approccio mostra tutti i suoi limiti nelle **reti con molta banda**: anche su una rete a 10 Gbps la perdita di un singolo pacchetto causa il dimezzamento della finestra di congestione e questo rende molto difficile mantenere una velocità di trasmissione così elevata in modo stabile. Un altro caso in cui NewReno funziona male è nelle **reti con latenza e quindi RTT molto elevati**: dato che la finestra viene incrementata di un valore costante ad ogni RTT, le reti come quelle satellitari sono molto svantaggiate (si parla di *RTT unfairness*).
 
