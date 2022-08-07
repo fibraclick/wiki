@@ -320,8 +320,6 @@ Un altro approccio è quello di **TCP Westwood+** (2001), che quando rileva una 
 
 [^compound]: *Compound TCP* https://wiki.geant.org/display/public/EK/Compound+TCP
 
-{{< footer >}}
-
 {{< info >}}
 ##### Fonti
 La maggior parte delle informazioni contenute in questo articolo sono presenti in qualsiasi libro introduttivo di reti, anche scolastico. Alcuni riferimenti utili sono i seguenti:
@@ -332,3 +330,5 @@ La maggior parte delle informazioni contenute in questo articolo sono presenti i
 - [An introduction to computer networks](http://intronetworks.cs.luc.edu/current2/html/) (Peter L. Dordal) [**Creative Commons**]
 - [Computer Networking: Principles, Protocols and Practice](https://www.computer-networking.info/) (Olivier Bonaventure) [**Creative Commons**]
 {{< /info >}}
+
+{{< footer >}}
