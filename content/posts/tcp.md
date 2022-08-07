@@ -278,7 +278,7 @@ La versione iniziale di **BBR** (*Bottleneck Bandwidth and Round-trip propagatio
 
 [^bbr]: *BBR: Congestion-Based Congestion Control* https://queue.acm.org/detail.cfm?id=3022184
 
-{{< fig src="/images/tcp/bbr1.jpg" vertical="true" >}}
+{{< fig src="/images/tcp/bbr1.jpg" vertical="true" caption="Fonte: [Google](https://queue.acm.org/detail.cfm?id=3022184)." >}}
 
 Nei grafici le due linee verticali si riferiscono rispettivamente al *bandwidth-delay product* e al collo di bottiglia della rete, più alto perché include l'effetto dei buffer dei router. Andando da sinistra verso destra stiamo aumentando la dimensione della finestra e quindi la quantità di dati trasmessi ma non confermati. Se stiamo "a sinistra" del *bandwidth-delay product* (prima linea verticale), vediamo che la velocità cresce regolarmente (grafico in basso) mentre la latenza resta stabile (grafico in alto), come ci aspetteremmo.
 
