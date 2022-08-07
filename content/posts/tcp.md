@@ -40,7 +40,7 @@ Tutte queste funzionalità sono abilitate in modo predefinito senza che il codic
 
 ## Funzionamento di base
 
-Come accennato, TCP si basa sulla **suddivisione dei dati in piccoli segmenti**. In principio un segmento potrebbe contenere qualsiasi quantità di byte ma nella pratica la lunghezza massima (**MSS**, *Maximum Segment Size*) viene limitata in modo da permettere l'inserimento del segmento TCP in un pacchetto IP senza costringere a frammentare il segmento in più parti. Di solito l'MSS è di poco inferiore ai 1500 byte (1,5 KB).
+Come accennato, TCP si basa sulla **suddivisione dei dati in piccoli segmenti**. In principio un segmento potrebbe contenere qualsiasi quantità di byte ma nella pratica la lunghezza massima (**MSS**, *Maximum Segment Size*) viene limitata in modo da permettere l'inserimento del segmento TCP in un pacchetto IP senza costringere a frammentare il segmento in più parti. Di solito l'MSS è di poco inferiore ai 1500 byte (1,5 kB).
 
 Oltre ai dati, **ciascun segmento TCP include un header dalla dimensione minima di 20 byte**. L'header contiene informazioni sul segmento che vengono poi utilizzate dall'altra estremità della connessione per sapere ad esempio quanti dati sono contenuti nel segmento o il numero di sequenza (utile ad esempio per poter ricostruire l'ordine dei segmenti).
 
