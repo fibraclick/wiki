@@ -1,18 +1,18 @@
 ---
 title: "Come funziona il protocollo TCP"
 slug: tcp
-date: 2022-05-28T17:19:37+02:00
-lastmod: 2022-05-28T17:19:37+02:00
+date: 2022-08-07T11:00:00+02:00
+lastmod: 2022-08-07T11:00:00+02:00
 authors: [Matteo]
-description: ""
+description: "TCP (Transmission Control Protocol) è uno dei principali protocolli di Internet. Ecco come funziona in dettaglio, tra gestione delle connessioni e controllo della congestione."
 categories: [Reti]
-hidden: true
+image: /social/tcp.jpg
 katex: true
 ---
 
 **TCP (Transmission Control Protocol)** è uno dei principali protocolli della suite protocollare TCP/IP ed è alla base del funzionamento di Internet. Fornisce la possibilità di **trasferire dati in modo affidabile tra due dispositivi/host della rete**, gestendo in modo per lo più trasparente funzioni come le connessioni, la conferma di ricezione dei pacchetti e il mantenimento del loro ordine, le ritrasmissioni, l'integrità dei dati, il controllo di flusso e della congestione.
 
-Il protocollo è stato originariamente ideato negli anni 70 ed è rimasto in larga parte inviariato, anche se nel corso del tempo sono state introdotte diverse varianti per rendere il protocollo più efficiente. Anche se per alcuni scopi sono nati dei protocolli alternativi (come il recente QUIC, basato su UDP), **TCP resta ampiamente dominante** per molti scopi ed è quindi utile conoscerne il funzionamento.
+Il protocollo è stato originariamente ideato negli anni 70 ed è rimasto in larga parte inviariato, anche se nel corso del tempo sono state introdotte diverse varianti per renderlo più efficiente. Anche se per alcuni scopi sono nati dei protocolli alternativi (come il recente QUIC, basato su UDP), **TCP resta ampiamente dominante** per molti scopi ed è quindi utile conoscerne il funzionamento.
 
 Questo articolo è una **panoramica tecnica** del funzionamento interno di TCP, partendo dai concetti generali e approfondendo poi aspetti un po' più avanzati. Questo articolo è pensato per utenti che non hanno già una preparazione avanzata di reti ma è necessario avere delle nozioni di base.
 
@@ -30,7 +30,7 @@ Per una spiegazione più dettagliata dello schema a strati di TCP/IP, leggi [Com
 
 TCP offre le seguenti funzionalità:
 
-- **la gestione delle connessioni**: TCP è *connection-oriented* e richiede di stabilire una connessione bidirezionale tra i due host prima di poter iniziare la comunicazione. La connessione viene stabilita tramite una procedura chiamata *three-way handshake* ("stretta di mano a tre vie"), che vedremo meglio in seguito;
+- **la gestione delle connessioni**: TCP è *connection-oriented* e richiede di stabilire una connessione bidirezionale tra i due host prima di poter iniziare la comunicazione. La connessione viene stabilita tramite una procedura chiamata *three-way handshake* ("stretta di mano a tre vie"), che vedremo in seguito;
 - **la consegna ordinata e affidabile**: TCP è un protocollo affidabile perché garantisce che i dati inviati arriveranno prima o poi a destinazione. Garantisce inoltre che i pacchetti di dati vengano consegnati a destinazione nello stesso ordine in cui sono stati trasmessi. Per raggiungere questo obiettivo TCP mantiene un buffer di dati a finestra scorrevole su entrambe le estremità della connessione, consentendo di riordinare i pacchetti nell'ordine errato, rilevare le perdite e invece confermare all'altro capo la ricezione di pacchetti senza errori;
 - **il rilevamento degli errori**: ogni pacchetto TCP include una *checksum* che permette di verificare l'integrità dei dati ricevuti e quindi reagire correttamente alla corruzione dei dati che può avvenire durante la trasmissione in rete;
 - **il controllo di flusso**: in TCP il ricevitore segnala continuamente all'altra estremità la quantità di dati che è ancora in grado di ricevere prima di riempire il buffer di dati. Questo permette di "chiedere" al trasmettitore di rallentare l'invio di pacchetti se il sistema non è in quel momento in grado di elaborarli;
@@ -40,11 +40,11 @@ Tutte queste funzionalità sono abilitate in modo predefinito senza che il codic
 
 ## Funzionamento di base
 
-Come accennato, TCP si basa sulla **suddivisione di dati in piccoli segmenti**. In principio un segmento potrebbe contenere qualsiasi quantità di byte ma nella pratica la lunghezza massima (**MSS**, *Maximum Segment Size*) viene limitata in modo da permettere l'inserimento del segmento TCP in un pacchetto IP senza costringere a frammentare il segmento in più parti. Di solito l'MSS è di poco inferiore ai 1500 byte (1,5 KB).
+Come accennato, TCP si basa sulla **suddivisione dei dati in piccoli segmenti**. In principio un segmento potrebbe contenere qualsiasi quantità di byte ma nella pratica la lunghezza massima (**MSS**, *Maximum Segment Size*) viene limitata in modo da permettere l'inserimento del segmento TCP in un pacchetto IP senza costringere a frammentare il segmento in più parti. Di solito l'MSS è di poco inferiore ai 1500 byte (1,5 KB).
 
 Oltre ai dati, **ciascun segmento TCP include un header dalla dimensione minima di 20 byte**. L'header contiene informazioni sul segmento che vengono poi utilizzate dall'altra estremità della connessione per sapere ad esempio quanti dati sono contenuti nel segmento o il numero di sequenza (utile ad esempio per poter ricostruire l'ordine dei segmenti).
 
-Concettualmente le trasmissioni TCP si basano quindi sullo **scambio di segmenti in entrambe le direzioni**. Moltissime applicazioni che utilizzano TCP ne fanno un uso fortemente asincrono in termini di quantità di dati scambiati: ad esempio il download di un file prevede una richiesta al server da parte del client (in genere molto piccola e probabilmente contenuta in un singolo segmento) seguita da potenzialmente centinaia o migliaia di segmenti contenenti i dati effettivi.
+Concettualmente le trasmissioni TCP si basano quindi sullo **scambio di segmenti in entrambe le direzioni**. Moltissime applicazioni che utilizzano TCP ne fanno un uso fortemente asincrono in termini di quantità di dati scambiati: ad esempio il download di un file prevede una richiesta al server da parte del client (in genere molto piccola e probabilmente contenuta in un singolo segmento) seguita da potenzialmente centinaia o migliaia di segmenti contenenti i dati effettivi. È importante tenere presente che **TCP non ha il concetto di "file" o "messaggio"**: i dati vengono spezzettati e inseriti in uno o più segmenti e sta poi al ricevitore ricostruire gli oggetti originali.
 
 Ogni pacchetto di dati deve essere confermato tramite un ACK (da **acknowledgment**, conferma), cioè un nuovo segmento che il ricevitore invia al trasmettitore in cui viene specificato che i dati sono stati ricevuti correttamente.
 
@@ -55,7 +55,7 @@ Nella maggior parte delle implementazioni in realtà per questioni di efficienza
 Sempre per questioni di efficienza i segmenti di dati molto piccoli vengono di solito raggrupppati in un unico segmento (**Nagle's algorithm**).
 {{< /green >}}
 
-{{< fig src="/images/tcp/sequence.png" caption="Diagramma di sequenza semplificato del funzionamento base di TCP. Come vedremo meglio in seguito TCP prevede la possibilità di trasmettere più segmenti in contemporeanea." >}}
+{{< fig src="/images/tcp/sequence.png" caption="Diagramma di sequenza semplificato del funzionamento base di TCP. Come vedremo meglio in seguito TCP prevede la possibilità di trasmettere più segmenti \"in contemporeanea\". Inoltre solitamente il segmento ACK contiene a sua volta dei dati (*piggybacking*)." >}}
 
 {{< green >}}
 ##### Trasmettitore e ricevitore
@@ -68,7 +68,7 @@ In TCP entrambi gli host di una connessione sono sia trasmettitore che ricevitor
 
 I campi più importanti sono i seguenti:
 
-- **Source/destination port**: le porte sorgente e destinazione che identificano quale applicazione sta inviando i dati e verso quale applicazione è destinato il segmento sull'altro host. Ad esempio, nel caso di una connessione TCP per trasportare traffico HTTP la porta di destinazione sarà 80 oppure 443, mentre quella sorgente sarà scelta casualmente. Il server risponderà utilizzando la porta casuale come porta di destinazione e 80 oppure 443 come porta sorgente. La porta è un valore numerico di 16 bit e può quindi variare tra 0 e 65535 (ma i primi 1024 valori sono riservati ai servizi più comuni).
+- **Source/destination port**: le porte sorgente e destinazione che identificano quale applicazione sta inviando i dati e verso quale applicazione è destinato il segmento sull'altro host. Ad esempio, nel caso di una connessione TCP per trasportare traffico HTTP la porta di destinazione sarà 80 oppure 443, mentre quella sorgente sarà scelta casualmente. Il server risponderà utilizzando la porta casuale come porta di destinazione e 80 oppure 443 come porta sorgente. La porta è un valore numerico di 16 bit e può quindi variare tra 0 e 65535 (i primi 1024 valori sono riservati ai servizi più comuni).
 
 - **Sequence number**: è un numero sequenziale che specifica che i dati contenuti nel segmento iniziano dal byte identificato dal numero di sequenza. È un numero a 32 bit e può quindi arrivare ad oltre 4 miliardi (4 GB), dopodiché ricomincia da zero (*wrap around*). Il numero di sequenza è indipendente nelle due direzioni di trasmissioni: entrambi gli host della connessione mantengono un proprio numero di sequenza e lo inseriscono nei propri pacchetti inviati.
 
@@ -81,9 +81,9 @@ I campi più importanti sono i seguenti:
 - **Checksum**: un codice che permette di rilevare se i dati si sono corrotti in fase di trasferimento. Il calcolo della checksum in alcuni casi può essere dispendioso e viene quindi spesso implementato in hardware (*checksum offloading*).
 
 - **Options**: questa sezione è opzionale e permette di estendere l'header TCP con funzionalità aggiuntive. Alcuni esempi di opzioni normalmente utilizzate sono:
-  - *Maximum segment size*: permette di comunicare all'altro host la quantità massima di dati che è in grado di ricevere in un singolo segmento TCP;
+  - *Maximum segment size (MSS)*: permette di comunicare all'altro host la quantità massima di dati che è in grado di ricevere in un singolo segmento TCP;
   - *Selective acknowledgments (SACK)*: permette di variare il sistema di ACK da cumulativo a selettivo. In questo modo il ricevitore anziché confermare di aver ricevuto tutti i dati fino a un certo numero di sequenza può confermare più intervalli di dati (comunicando così implicitamente quali pacchetti non sono ancora stati ricevuti);
-  - *Window scale*: permette di moltiplicare il valore della *Window size*, che altrimenti potrebbe arrivare solo fino a 64 KB. La *window scale* indica il numero di shift bitwise da applicare alla dimensione della finestra, il cui valore effettivo può quindi essere calcolato con la formula {{< math >}}$WindowSize \cdot 2^{WindowScale}${{< /math >}}.
+  - *Window scale*: permette di moltiplicare il valore della *Window size*, che altrimenti potrebbe arrivare solo fino a 64 KB. In dettaglio, la *window scale* indica il numero di shift bitwise da applicare alla dimensione della finestra, il cui valore effettivo può quindi essere calcolato con la formula {{< math >}}$WindowSize \cdot 2^{WindowScale}${{< /math >}}.
 
 ## L'handshake a tre vie
 
@@ -99,7 +99,7 @@ In particolare un handshake TCP avviene con lo scambio di tre segmenti:
 
 3) l'host A riceve il segmento con il numero di sequenza di B (`Y`) e risponde a sua volta con un segmento **ACK** e il valore `Y+1` nel campo *Acknowledgment number*. In questo segmento può iniziare ad inserire i dati che vuole trasmettere.
 
-{{< fig src="/images/tcp/syn.png" caption="Diagramma di sequenza dell'handshake a tre vie di TCP." >}}
+{{< fig src="/images/tcp/syn.png" caption="Diagramma di sequenza dell'handshake a tre vie di TCP per l'apertura di una connessione." >}}
 
 La procedura potrebbe sembrare inutilmente complicata ma per capire perché è necessaria è utile vederla divisa in due parti, con ciascuno dei due host che invia un pacchetto di sincronizzazione e attende la relativa conferma. In altre parole: l'host A potrebbe inviare un segmento **SYN** a B e attendere un **ACK**, poi l'host B invierebbe un segmento **SYN** ad A attendendo un **ACK** di risposta. È facile vedere che unendo le due fasi si ottiene proprio l'handshake TCP.
 
@@ -125,7 +125,7 @@ L'attacco è uno dei più comuni e longevi nell'ambito delle reti ed esistono [d
 {{< green >}}
 ##### TCP Fast Open
 
-L'handshake TCP introduce un ritardo di un Round-Trip Time (RTT) all'inizio di ogni connessione prima che si possano trasferire i dati. Un RTT corrisponde al tempo per trasmettere un segmento dall'host A all'host B e tornare indietro. L'estensione **TCP Fast Open** permette ai client di ottenere alla prima connessione TCP un codice, *TFO cookie*, che può essere usato le volte successive come metodo di "autenticazione" per velocizzare l'avvio della connessione. Trasmettendo infatti il *TFO cookie* il client potrà iniziare a trasmettere dati già nel primo segmento **SYN**, senza attendere il completamento dell'handshake.
+L'handshake TCP introduce un ritardo di un Round-Trip Time (RTT) all'inizio di ogni connessione prima che si possano trasferire i dati. Un RTT corrisponde al tempo per trasmettere un segmento dall'host A all'host B e tornare indietro. L'estensione **TCP Fast Open** (TFO) permette ai client di ottenere alla prima connessione TCP un codice, *TFO cookie*, che può essere usato le volte successive come metodo di "autenticazione" per velocizzare l'avvio della connessione. Trasmettendo infatti il *TFO cookie* il client potrà iniziare a trasmettere dati già nel primo segmento **SYN**, senza attendere il completamento dell'handshake.
 {{< /green >}}
 
 La chiusura di una connessione TCP avviene in modo molto simile all'handshake di apertura, con l'uso del flag **FIN** al posto di **SYN**. In pratica si ha quindi l'invio di un **FIN** da parte dell'host che vuole chiudere la connessione, seguito in risposta da un **FIN+ACK** e poi di nuovo **ACK**. Esiste anche la possibilità di chiudere la connessione in modo più brusco semplicemente smettendo di inviare e ricevere dati e inviando un segmento con il flag **RST** (reset).
@@ -142,7 +142,7 @@ TCP è in grado di accorgersi della perdita di un pacchetto (e quindi ritrasmett
 
 Per ogni segmento TCP inviato viene creato un timer che determina entro quanto tempo l'host si attende che il segmento venga confermato tramite un **ACK**.
 
-Ovviamente il tempo minimo richiesto è dato da un RTT, cioè il tempo richiesto perché il segmento arrivi a destinazione e l'**ACK** torni indietro. Semplificando leggermente, il valore del timeout (RTO) viene calcolato partendo dall'RTT e aggiungendo 4 volte la variazione dell'RTT, cioè {{< math >}}$RTO = RTT + 4 \cdot RTTvar${{< /math >}}.
+Ovviamente il tempo minimo richiesto è dato da un Round-Trip Time (RTT), cioè il tempo richiesto perché il segmento arrivi a destinazione e l'**ACK** torni indietro. Semplificando leggermente, il valore del timeout (RTO) viene calcolato partendo dall'RTT e aggiungendo 4 volte la variazione dell'RTT, cioè {{< math >}}$RTO = RTT + 4 \cdot RTTvar${{< /math >}}.
 
 Lo scopo è tenere conto del fatto che l'RTT non è sempre stabile e può variare nel tempo. Il moltiplicatore `4` è stato scelto empiricamente come un valore che sembrava adeguato per la maggior parte delle situazioni. Le implementazioni di TCP dei sistemi operativi possono stabilire anche un valore minimo di RTO, ad esempio in Linux è 200 ms mentre su Windows 300 ms.[^rto1]
 
@@ -157,7 +157,7 @@ La ritrasmissione dei pacchetti persi tramite timeout è un metodo che impedisce
 
 Per questo esiste una strategia aggiuntiva basata sul **rilevamento degli acknowledgment duplicati**, che vengono inviati dal ricevitore quando riceve il segmento "sbagliato".
 
-Facciamo un esempio:
+Facciamo un esempio, aiutandoci con lo schema che trovate di seguito:
 
 - l'host A trasmette 4 segmenti TCP a B, con numeri di sequenza che vanno da `1` a `4` (in questo esempio usiamo i numeri di sequenza come "contatore")
 - ✅ B riceve il segmento `1` e invia l'**ACK** di risposta specificando che ora attende il segmento `2`
@@ -171,7 +171,7 @@ Facciamo un esempio:
 
 Gli acknowledgment duplicati (**DupAck**) possono quindi essere utilizzati per **rilevare la perdita di pacchetti in modo più rapido rispetto al timeout di ritrasmissione**. Come vedremo in seguito hanno anche un impatto molto più limitato negli algoritmi di controllo della congestione.
 
-Il **numero di DupAck** che fa scattare una ritrasmissione è di solito **2** (oltre all'**ACK** originale, quindi 3 in totale come nell'esempio). Il valore è stato scelto come compromesso per evitare che la consegna non ordinata di segmenti (che può capitare nel percorso di rete tra i due host) generi inutili ritrasmissioni.
+Il **numero di DupAck** che fa scattare una ritrasmissione è di solito **2** (oltre all'**ACK** originale, quindi 3 in totale come nell'esempio). Il valore è stato scelto come un compromesso per evitare che la consegna non ordinata di segmenti (che può capitare nel percorso di rete tra i due host) generi inutili ritrasmissioni.
 
 {{< warn >}}
 I **DupAck** non vengono mai ritardati, come può invece avvenire per gli **ACK** normali.
@@ -187,7 +187,7 @@ Per fare un esempio, se il ricevitore comunica che la propria finestra di ricezi
 
 La finestra è definita "scorrevole" perché non appena il trasmettitore riceve un ACK scorrerà la finestra in avanti, "sbloccando" l'invio di nuovi segmenti di dati.
 
-{{< fig src="/images/tcp/flowcontrol.png" caption="Schema del controllo di flusso di TCP tramite finestra scorrevole. La finestra di trasmissione viene regolata in base alla finestra di ricezione e determina quali segmenti di dati possono essere trasmessi. I segmenti fuori dalla finestra di trasmissione non possono essere trasmessi perché il ricevitore non è pronto per riceverli." >}}
+{{< fig src="/images/tcp/flowcontrol.png" caption="Schema semplificato del controllo di flusso di TCP tramite finestra scorrevole. La finestra di trasmissione viene regolata in base alla finestra di ricezione e determina quali segmenti di dati possono essere trasmessi. I segmenti fuori dalla finestra di trasmissione non possono essere trasmessi perché il ricevitore non è pronto per riceverli." >}}
 
 ## Il controllo della congestione
 
@@ -195,10 +195,10 @@ Se la finestra di ricezione serve per regolare la velocità di invio in base all
 
 Un grande problema non ancora completamente risolto è riuscire a regolare la finestra di congestione in modo che aderisca il più possibile alla velocità che la rete è in grado di sostenere. Il problema non è banale perché la capacità può variare nel tempo, per cui bisogna tenere conto sia di aumenti che riduzioni nel tempo. Non solo, sulla stessa rete ci possono essere molte connessioni TCP e queste devono riuscire a spartirsi la banda nel modo più equo possibile (si parla infatti spesso di *fairness* delle diverse versioni di TCP, anche tra loro).
 
-Quando parliamo di **algoritmi di controllo della congestione** ci riferiamo proprio alle soluzioni a questo problema. Nel corso degli anni sono state elaborate diverse versioni e vedremo qui in dettaglio le tre più importanti, **NewReno**, **CUBIC** e **BBR**, con qualche accenno storico ad altre versioni storiche.
+Quando parliamo di **algoritmi di controllo della congestione** ci riferiamo proprio alle soluzioni a questo problema. Nel corso degli anni sono state elaborate diverse versioni e vedremo qui in dettaglio le tre più importanti, **NewReno**, **CUBIC** e **BBR**, con qualche accenno ad altre versioni storiche.
 
 {{< warn >}}
-Il controllo della congestione si applica alla **singola connessione TCP**, ma in molti casi nella pratica per raggiungere velocità elevate si utilizzano **più connessioni in parallelo**. Questo permette spesso di sfruttare meglio la banda complessiva perché la suscettibilità delle singole connessioni impatta di meno sul throughput complessivo.
+Il controllo della congestione si applica alla **singola connessione TCP**, ma in molti casi nella pratica per raggiungere velocità elevate si utilizzano **più connessioni in parallelo**. Questo permette spesso di sfruttare meglio la banda complessiva perché la suscettibilità delle singole connessioni impatta meno sul throughput complessivo.
 {{< /warn >}}
 
 ### NewReno
@@ -212,7 +212,7 @@ Passando più in dettaglio al funzionamento dell'algoritmo, in assenza di conges
 - **Slow start** → Questa è la fase iniziale della trasmissione e prevede una crescita molto rapida della finestra di congestione (che chiameremo **CWND**), in modo da aumentare rapidamente la velocità. La finestra è inizialmente di 1 MSS (1 segmento) e ad ogni ACK ricevuto viene incrementata di 1 MSS. La crescita della finestra in questa fase è esponenziale: la parola "slow" non si riferisce quindi alla crescita ma al fatto che la finestra parte da 1 MSS. Una volta raggiunta una certa soglia (**SSTHRESH**, *slow start threshold*) questa fase finisce e si passa in *congestion avoidance*.
 - **Congestion avoidance** → In questa fase NewReno rallenta molto la crescita della finestra. Ad ogni ACK ricevuto la finestra CWND viene incrementata di {{< math >}}$1 \cdot MSS / CWND${{< /math >}}, con il risultato di aumentare la finestra di 1 MSS ad ogni RTT (anziché ad ogni ACK come in *slow start*). La crescita in questa fase non è più esponenziale ma lineare.
 
-{{< fig src="/images/tcp/newreno1.png" caption="Il grafico qualitativo della finestra di congestione mostra la crescita della finestra nel tempo. È una rappresentazione molto semplificata e poco realistica, seppur fedele al funzionamento teorico di NewReno." >}}
+{{< fig src="/images/tcp/newreno1.png" caption="Grafico qualitativo della finestra di congestione, che mostra la crescita della finestra nel tempo. È una rappresentazione molto semplificata, seppur fedele al funzionamento teorico di NewReno." >}}
 
 In *congestion avoidance* la finestra di TCP **continua a crescere ma a un certo punto raggiungerà il limite di banda della rete**. I router inizieranno a scartare pacchetti e gli host osserveranno che i pacchetti vengono persi. Come visto in precedenza ci sono due modi con cui TCP può accorgersi delle perdite: il timeout (RTO) e gli acknowledgment duplicati.
 
@@ -246,7 +246,7 @@ A grandi linee CUBIC risolve i problemi di NewReno in due modi:
 
 2) la riduzione della finestra in caso di *packet loss* è meno drastica rispetto a NewReno e la fase di recovery **utilizza una funziona cubica**, molto più rapida nel tornare a regime. CUBIC prevede anche una fase di *probing* (che segue appunto la funzione cubica) per andare a scoprire se è disponibile ulteriore banda utilizzabile.
 
-{{< fig src="/images/tcp/cubic.png" caption="Rappresentazione semplificata del funzionamento di TCP CUBIC. Come si può notare dal grafico, la riduzione della finestra in caso di perdite è ridotta e la crescita della finestra è molto rapida grazie alla curva cubica. (Il grafico è semplificato e la curva non segue realmente una funzione cubica.)" >}}
+{{< fig src="/images/tcp/cubic.png" caption="Rappresentazione semplificata del funzionamento di TCP CUBIC. Come si può notare dal grafico, la riduzione della finestra in caso di perdite è limitata e la crescita della finestra è molto rapida grazie alla curva cubica. (Il grafico è semplificato e la curva non segue realmente una funzione cubica.)" >}}
 
 Il fatto che CUBIC sia superiore a NewReno diventa evidente con un esempio: se prendiamo un collegamento da 10 Gbps con RTT di 100 ms, per mantenere la velocità massima NewReno impone che non ci sia più di un pacchetto perso ogni ora, mentre per CUBIC appena 40 secondi.[^cubic]
 
@@ -280,7 +280,7 @@ La versione iniziale di **BBR** (*Bottleneck Bandwidth and Round-trip propagatio
 
 {{< fig src="/images/tcp/bbr1.jpg" vertical="true" >}}
 
-Nel grafico le due linee verticali si riferiscono rispettivamente al *bandwidth-delay product* e al collo di bottiglia della rete, più alto perché include l'effetto dei buffer dei router. Andando da sinistra verso destra stiamo aumentando la dimensione della finestra e quindi la quantità di dati trasmessi ma non confermati. Se stiamo "a sinistra" del *bandwidth-delay product* (prima linea verticale), vediamo che la velocità cresce regolarmente (grafico in basso) mentre la latenza resta stabile (grafico in alto), come ci aspetteremmo.
+Nei grafici le due linee verticali si riferiscono rispettivamente al *bandwidth-delay product* e al collo di bottiglia della rete, più alto perché include l'effetto dei buffer dei router. Andando da sinistra verso destra stiamo aumentando la dimensione della finestra e quindi la quantità di dati trasmessi ma non confermati. Se stiamo "a sinistra" del *bandwidth-delay product* (prima linea verticale), vediamo che la velocità cresce regolarmente (grafico in basso) mentre la latenza resta stabile (grafico in alto), come ci aspetteremmo.
 
 Una volta superato il *bandwidth-delay product*, che corrisponde alla banda massima della rete, la velocità non cresce più e aumenta invece il Round-Trip Time, perché i pacchetti iniziano ad essere messi in coda nei router creando ritardi nella consegna. Superata anche la seconda riga verticale (*BDP+* o *BtlneckBufSize*), anche i buffer dei router sono pieni e inizia quindi ad esserci *packet loss*.
 
@@ -293,7 +293,7 @@ In aggiunta, periodicamente BBR fa un *probing* della rete aumentando la finestr
 **BBR ha nella pratica prestazioni di gran lunga superiori** rispetto alle alternative come CUBIC, specialmente in situazioni in cui è presente già normalmente *packet loss*. Può inoltre essere abilitato anche soltanto da uno dei due host della connessione TCP, rendendo possibile un deployment solo lato server lasciando intoccati i dispositivi client.
 
 {{< green >}}
-##### I problemi di BBR e BBRv2
+##### I problemi di BBR e la nuova versione BBRv2
 
 BBR non è perfetto e non riesce nella pratica a raggiungere pienamente l'obiettivo di non creare di proposito congestione sulla rete. Nelle situazioni in cui i buffer dei router sono piccoli (meno della metà del *bandwidth-delay product*) si hanno comunque perdite, che però BBR ignora per via di come è progettato.
 
