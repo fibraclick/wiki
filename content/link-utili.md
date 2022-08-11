@@ -1,7 +1,7 @@
 ---
 title: "Link utili"
 date: 2019-04-07T00:00:00+02:00
-lastmod: 2022-06-10T17:30:00+02:00
+lastmod: 2022-08-11T21:00:00+02:00
 description: "Lista di link utili legati alla fibra ottica, copertura, approfondimenti, offerte, ecc."
 ---
 
@@ -16,6 +16,7 @@ description: "Lista di link utili legati alla fibra ottica, copertura, approfond
 - [File Excel ADSL TIM](https://wdc.wholesale.telecomitalia.it/tw_servizi/bitstream/##heading-custom3), con centrali attive e pianificate
 - [Fibermap](https://fibermap.it/), per controllare la pianificazione FTTC/FTTH di TIM per indirizzo
 - [Trovainternet](https://trovainternet.it/), per verificare la presenza di infrastrutture FTTC, FTTH e FWA anche di operatori locali
+- [Mappatura Infratel 2017-2021](https://handymenny.github.io/mappaturaInfratel/) di @handymenny, per verificare la copertura dichiarata nelle mappature Infratel e prevista dal Piano Italia 1 Giga
 - [Vodafone GEA Corporate](http://gea.dsl.vodafone.it/corporate), per controllare i dettagli della copertura Vodafone per indirizzo
 - [Portale LIDO](http://adsl2.csi.telecomitalia.it/), per controllare la vendibilità TIM
 - [Mappa banda ultralarga Agcom](https://maps.agcom.it/), per una rappresentazione grafica della copertura a banda ultralarga in Italia ("Mappa per procedura Voucher")
