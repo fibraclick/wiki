@@ -2,14 +2,16 @@
 title: "Cos'è e cosa fa Open Fiber"
 slug: openfiber
 date: 2019-04-17T21:34:32+02:00
-lastmod: 2020-08-16T18:40:00+02:00
+lastmod: 2022-08-21T21:00:00+02:00
 authors: [Matteo]
-description: Open Fiber realizza reti in fibra ottica fino a casa, con l'obiettivo di coprire centinaia di città e migliaia di piccoli comuni entro il 2023.
+description: Open Fiber realizza reti in fibra ottica FTTH, con l'obiettivo di coprire centinaia di città e migliaia di piccoli comuni nel corso dei prossimi anni.
 categories: [Definizioni, Copertura, FTTH]
 image: /social/openfiber.jpg
 ---
 
-**Open Fiber** è un'azienda nata a dicembre 2015 con l'obiettivo di realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) sul territorio italiano. La società è partecipata **al 50% da Enel e al 50% da CDP**, l'azienda statale che finanzia opere e infrastrutture che offrono servizi pubblici.[^of1]
+**Open Fiber** è un'azienda nata a dicembre 2015 con l'obiettivo di realizzare reti [FTTH]({{< relref "/posts/architetture.md" >}}) sul territorio italiano. Fino al 2021 era partecipata al 50% da Enel e al 50% da Cassa Depositi e Prestiti (CDP), la società a controllo pubblico che finanzia opere e infrastrutture. Da quando Enel è uscita dal progetto **CDP detiene il 60% della società** mentre il restante 40% fa capo al fondo di investimento australiano Macquarie.[^società]
+
+[^società]: *Open Fiber - Struttura societaria* https://openfiber.it/corporate/societa/struttura-societaria/
 
 Open Fiber è un operatore *wholesale-only*, e cioè di vendità all'ingrosso. Per poter attivare una linea Internet su rete Open Fiber bisogna quindi rivolgersi a un operatore al dettaglio, come Vodafone, Tiscali, Wind Tre, Fastweb, ecc.
 
@@ -25,11 +27,20 @@ Se stai cercando informazioni sulla **rete pubblica** realizzata per **Infratel*
 
 ## Copertura delle città
 
-Open Fiber prevede di coprire in FTTH **più di 270 città entro il 2023**, con un investimento stimato di circa 6,5 miliardi di euro.[^of2][^adnk]
+Il piano originale di Open Fiber prevedeva di coprire in FTTH **circa 270 città entro il 2023**, con un investimento stimato di circa 6,5 miliardi di euro.[^obiettivi][^adnk]
 
-A maggio 2020 ha aggiornato il piano industriale estendendo il progetto ad altre **1,1 milioni di abitazioni** nelle cosiddette aree grigie, cioè **città più piccole** dove però si concentra la maggior parte delle aziende italiane.[^grigie]
+[^obiettivi]: *Open Fiber - Obiettivi* https://openfiber.it/corporate/chi-siamo/obiettivi/
+[^adnk]: *Open Fiber: 3,5 miliardi per banda ultralarga*, 14 aprile 2018 https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
 
-La lista completa delle città non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it/it).
+A maggio 2020 Open Fiber ha aggiornato il piano estendendolo ad altre **1,1 milioni di abitazioni** nelle cosiddette aree grigie, cioè **città più piccole** dove però si concentra la maggior parte delle aziende italiane.[^grigie]
+
+[^grigie]: *Open Fiber rilancia sulla rete. Nuovi fondi per contrastare Tim*, 6 agosto 2020 https://rep.repubblica.it/pwa/generale/2020/08/06/news/open_fiber_rilancia_sulla_rete_nuovi_fondi_per_contrastare_tim-263958470/
+
+A fine 2021 il piano industriale è stato ulteriormente aggiornato e prevede ora investimenti per raggiungere **24 milioni di unità immobiliari** grazie a 11 miliardi di euro di investimenti.[^piano2021]
+
+[^piano2021]: *Open Fiber: via libera al nuovo Piano Industriale. In campo circa 11 miliardi di nuovi investimenti* https://openfiber.it/media/comunicati-stampa/open-fiber-piano-industriale/
+
+La lista completa delle città pianificate non è pubblica, ma le città in cui la rete è in realizzazione vengono inserite sul [sito ufficiale di Open Fiber](https://openfiber.it).
 
 {{< green >}}
 ###### La rete Metroweb
@@ -39,15 +50,17 @@ Open Fiber ha incorporato alla sua nascita la rete di Metroweb, realizzata con i
 
 ## Lavori di copertura
 
-La copertura FTTH prevede l'**installazione di un ROE** (*Ripartitore Ottico di Edificio*), una scatola che viene montata nel locale contatori del palazzo o su una parete esterna dell'edificio.
+La copertura FTTH prevede l'**installazione di un PTE** (*Punto di Terminazione di Edificio*), una scatola che viene montata nel locale contatori del palazzo o su una parete esterna dell'edificio.
 
 Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^legge]
 
+[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+
 {{< fig src="/images/ofcartello.jpg" caption="Avviso che anticipa l'intervento di Open Fiber in un condominio" alt="Foglio di carta appeso con il logo Open Fiber, che dice \"Arriva OpEn Fiber\"" vertical="true" >}}
 
-{{< fig src="/images/roe-of1.jpg" caption="ROE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un ROE con l'etichetta Open Fiber" vertical="true" >}}
+{{< fig src="/images/roe-of1.jpg" caption="PTE Open Fiber. Grazie a Edoardo M. per la foto" alt="Scatola di un PTE con l'etichetta Open Fiber" vertical="true" >}}
 
-{{< fig src="/images/roe-ff-of.jpg" caption="ROE Flash Fiber (in alto) e doppio ROE Open Fiber. Grazie a Luca Z. per la foto" alt="Tre scatole di ROE attaccate al muro di una casa" vertical="true" >}}
+{{< fig src="/images/roe-ff-of.jpg" caption="ROE Flash Fiber (in alto) e doppio PTE Open Fiber. Grazie a Luca Z. per la foto" alt="Tre scatole di ROE/PTE attaccate al muro di una casa" vertical="true" >}}
 
 ## Operatori disponibili
 
@@ -92,9 +105,3 @@ Nelle aree in cui è presente la rete pubblica si trovano sulla strada numerosi 
 {{< /info >}}
 
 {{< footer >}}
-
-[^of1]: https://openfiber.it/corporate/societa/struttura-societaria/
-[^of2]: https://openfiber.it/corporate/chi-siamo/obiettivi/
-[^adnk]: *Open Fiber: 3,5 miliardi per banda ultralarga*, 14 aprile 2018 https://www.adnkronos.com/soldi/economia/2018/04/13/open-fiber-miliardi-per-banda-ultralarga_nJdSg9xbVbg0vhxPjMBqFJ.html
-[^grigie]: *Open Fiber rilancia sulla rete. Nuovi fondi per contrastare Tim*, 6 agosto 2020 https://rep.repubblica.it/pwa/generale/2020/08/06/news/open_fiber_rilancia_sulla_rete_nuovi_fondi_per_contrastare_tim-263958470/
-[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
