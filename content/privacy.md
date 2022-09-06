@@ -2,7 +2,7 @@
 title: "Informativa sull'utilizzo dei cookie"
 slug: cookie
 date: 2019-04-23T16:52:46+02:00
-lastmod: 2022-08-10T22:00:00+02:00
+lastmod: 2022-09-06T23:00:00+02:00
 ---
 
 I cookie sono delle piccole porzioni di testo memorizzate dal browser quando un sito web viene visitato da un utente. Le informazioni contenute nei cookie possono essere lette dal sito web alla visita successiva.
@@ -23,6 +23,6 @@ Puoi gestire il tuo consenso all'uso dei cookie di terze parti, <a style="cursor
 
 Eventuali modifiche all'informativa saranno pubblicate su questa pagina.
 
-Ultimo aggiornamento: 10/08/2022.
+Ultimo aggiornamento: 06/09/2022.
 
 Questo documento è di dominio pubblico.
