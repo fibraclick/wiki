@@ -11,15 +11,7 @@
     <script src="https://unpkg.com/shpjs@3.5.0/dist/shp.js"></script>
 
     {{ with .Site.Params.Analytics -}}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', '{{ . }}');
-        gtag('config', '{{ . }}', { 'anonymize_ip': true });
-    </script>
+    <script defer data-domain="fibra.click" src="https://plausible.fibra.click/js/script.outbound-links.js"></script>
     {{- end }}
 
     <style>
