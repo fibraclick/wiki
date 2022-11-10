@@ -2,7 +2,7 @@
 title: "Come scegliere un cavo di rete"
 slug: cavi
 date: 2020-10-04T13:00:00+02:00
-lastmod: 2022-02-13T20:30:00+01:00
+lastmod: 2022-11-10T13:30:00+01:00
 authors: [Andrea (Hadx)]
 description: "Se stai pensando di cablare casa tua con un cavo Cat 8 piatto e schermato, fermati subito e leggi prima questo articolo."
 categories: [Reti]
@@ -34,13 +34,15 @@ Allo stesso modo, **un cavo schermato non è di per sé un cavo qualitativamente
 - situazioni in cui sono presenti apparecchiature industriali ad alta potenza e con caratteristiche particolari, che generano elevate interferenze elettromagnetiche;
 - situazioni in cui ci sono centinaia o migliaia di cavi di rete che viaggiano paralleli per lunghe distanze. (In questi casi si tende però a preferire la fibra ottica, e va anche considerato che le coppie contenute nei cavi di rete sono intrecciate per ridurre le interferenze.)
 
-[^schermatura]: http://www.fiber-optic-components.com/shielded-vs-unshielded-ethernet-cable-use.html
+[^schermatura]: *Shielded vs Unshielded Ethernet Cable: Which Should You Use?* http://www.fiber-optic-components.com/shielded-vs-unshielded-ethernet-cable-use.html
 
 **In un contesto casalingo la schermatura non porta quindi nei fatti ad alcun beneficio**, anzi: nella maggior parte dei casi serve solo ad aumentare la complessità dell'impianto. La schermatura richiede infatti la selezione di componenti (frutti, connettori, switch, ecc.) compatibili, nonché la loro contemporanea (e corretta) messa a terra.
 
 Se ciò non viene fatto la presenza della schermatura diventa del tutto inutile, e anzi in alcuni casi potrebbe addirittura peggiorare le prestazioni dell'impianto rispetto ad un cavo non schermato (seppur in ambiente domestico probabilmente non ci si accorgerebbe).[^schermatura]
 
-Pertanto, **quando scegliete un cavo di rete per il cablaggio domestico assicuratevi che sia non schermato**, più precisamente di tipo UTP (o U/UTP), perfettamente in grado di offrire le prestazioni di cui avete bisogno.
+Pertanto, **quando scegliete un cavo di rete per il cablaggio domestico assicuratevi che sia non schermato**, più precisamente di tipo UTP (o U/UTP), perfettamente in grado di offrire le prestazioni di cui avete bisogno.[^utp]
+
+[^utp]: *What does UTP, S/UTP, FTP, STP and SFTP mean?* https://www.universalnetworks.co.uk/faq/what-does-utp-s-utp-ftp-stp-and-sftp-mean/
 
 ## Cat 6, 7, 8, o...?
 
@@ -58,7 +60,7 @@ Va da sé quindi che anche se si vogliono sfruttare apparati di rete a 10 Gbps n
 
 La tabella che segue indica per ciascuna categoria la velocità massima raggiungibile in base alla lunghezza del cavo:[^cat]
 
-[^cat]: https://en.wikipedia.org/wiki/ISO/IEC_11801
+[^cat]: *ISO/IEC 11801* https://en.wikipedia.org/wiki/ISO/IEC_11801
 
 | Categoria | Velocità | Lunghezza | Disponibile senza schermatura |
 | --------- | -------- | --------- | ----------------------------- |
@@ -99,7 +101,7 @@ Nel caso in cui si debbano far passare cavi di rete accanto a cavi elettrici in 
 <strong>CEI-UNEL 36762 C-4 (U0=400V)</strong>
 </p>
 
-[^tensione]: https://www.cavel.it/it/supporto-tecnico/certificazioni/coesistenza-tra-cavi-per-telecomunicazioni-e-cavi-energia
+[^tensione]: *Coesistenza tra cavi per telecomunicazioni e cavi energia* https://www.cavel.it/it/supporto-tecnico/certificazioni/coesistenza-tra-cavi-per-telecomunicazioni-e-cavi-energia
 
 Anche i cavi conformi a tale requisito, tuttavia, non possono essere terminati (più in generale, non potete "spellarlo" della guaina esterna) in una scatola di derivazione dove passino anche cavi elettrici o nella stessa scatola dove ci siano frutti in tensione, come nelle foto che seguono.
 
@@ -125,7 +127,7 @@ A causa del costo del rame, in tutti gli ambiti è diventato ormai sempre più c
 
 Tuttavia, le specifiche dei cavi di rete richiedono l'**uso obbligatorio di conduttori in rame**[^cca]. Ciò significa che i cavi CCA non soddisfano i requisiti della categoria a cui sono associati, e pertanto non ha senso parlare di CAT 5e, 6, 7 quando ci si riferisce a cavi in alluminio.
 
-[^cca]: https://www.showmecables.com/blog/post/copper-clad-aluminum-vs-pure-copper-cables
+[^cca]: *Copper Clad Aluminum vs. Pure Copper Cables* https://www.showmecables.com/blog/post/copper-clad-aluminum-vs-pure-copper-cables
 
 Inoltre, i cavi in alluminio presentano dei problemi nel caso sia necessario sfruttare la funzionalità PoE (*Power Over Ethernet*, per alimentare dispositivi come access point Wi-Fi tramite il cavo di rete), per via della maggiore resistenza dell'alluminio.
 
