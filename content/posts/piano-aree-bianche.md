@@ -2,7 +2,7 @@
 title: "Cos'è il piano aree bianche"
 slug: piano-aree-bianche
 date: 2019-03-24
-lastmod: 2023-01-02T19:00:00+01:00
+lastmod: 2023-01-15T10:00:00+01:00
 authors: [Matteo]
 description: Il piano BUL è il progetto avviato nel 2015 dal governo Renzi per portare la banda ultralarga in tutte le case italiane entro il 2020.
 categories: [Definizioni, Copertura, Piano BUL]
@@ -88,22 +88,22 @@ L'esecuzione effettiva dei lavori è affidata da Open Fiber a diverse aziende de
 
 Per via dei numerosi ricorsi e dei tempi richiesti per ottenere le autorizzazioni, la copertura è stata avviata solo durante il 2018, con notevole ritardo.
 
-A fine 2022, **i comuni con rete FTTH realizzata erano circa 3900 su un totale previsto di circa 6200 comuni**. In termini di unità immobiliari (UI), il dato corrisponde a 3,6 milioni di UI su un totale previsto di 6,4 milioni.
+A fine 2022, **i comuni con rete FTTH realizzata erano 4054 su un totale previsto di circa 6200 comuni**. In termini di unità immobiliari (UI), il dato corrisponde a 3,8 milioni di UI su un totale previsto di 6,4 milioni.
 
-I comuni effettivamente **vendibili** erano circa **3000**, corrispondenti a 2,8 milioni di unità immobiliari.[^of2022]
+I comuni effettivamente **vendibili** erano circa **3000**, corrispondenti a 2,9 milioni di unità immobiliari.[^of2022]
 
-[^of2022]: *Avanzamento lavori Aree Bianche* https://openfiber.it/piano-copertura/avanzamento-lavori-aree-bianche/ (https://archive.is/X7Let)
+[^of2022]: *Avanzamento lavori Aree Bianche* https://openfiber.it/piano-copertura/avanzamento-lavori-aree-bianche/ (https://archive.is/H28AC)
 
 {{< green >}}
 Le unità immobiliari inizialmente previste erano 9,6 milioni, poi ridotte a 7,9 milioni, di cui 6,4 milioni da coprire in FTTH e il restante in FWA.
 {{< /green >}}
 
-Secondo Open Fiber, il ritmo di realizzazione dell'infrastruttura rilevato a fine 2022 consentirà di terminare il piano secondo il cronoprogramma presentato al Governo durante il 2022. Il cronoprograma non è stato reso pubblico, ma in varie interviste Open Fiber ha indicato che **il completamento dei lavori avverrà nel primo semestre del 2024**.[^pianoof2022]
+Secondo Open Fiber, il ritmo di realizzazione dell'infrastruttura rilevato a fine 2022 consentirà di terminare il piano secondo il cronoprogramma presentato al Governo durante il 2022. Il piano prevede il completamento di tutti i comuni finanziati con fondi europei **FESR** (Fondo europeo di sviluppo regionale) **entro giugno 2023**, i comuni **FEASR** (Fondo europeo agricolo per lo sviluppo rurale) entro **dicembre 2023** e i comuni finanziati con fondi nazionali **FSC** (Fondo di sviluppo e coesione) **entro settembre 2024**.[^pianoof2022]
 
 Un piano precedente di Open Fiber, reso noto nell'estate del 2020, prevedeva di completare la copertura del 65% delle abitazioni entro il 2021, e il 92% entro il 2022. Il restante 8% si trovava in 4 regioni particolarmente impegnative come quantità di abitazioni da coprire, cioè Lombardia, Veneto, Piemonte e Liguria. In queste regioni era previsto che la copertura terminasse nel corso del 2023, anno entro cui dovrebbero essere rendicontati i fondi europei.[^pianoof]
 
 [^pianoof]: *Linee guida del piano di azioni Open Fiber a supporto del Piano 2020-2023* https://bandaultralarga.italia.it/wp-content/uploads/2020/07/Linee-guida-piano-di-azione-a-supporto-delle-realizzazioni-BUL-CD-8-sent.cleaned-1.pdf
-[^pianoof2022]: *Corriere della Sera - L'economia*, 28 novembre 2022, intervista a Mario Rossetti.
+[^pianoof2022]: *Urso in audizione alla Camera: ‘Gravi i ritardi di Open Fiber’* https://www.key4biz.it/urso-in-audizione-alla-camera-gravi-i-ritardi-di-open-fiber/430570/
 
 Lo **stato dei lavori** è pubblicato e aggiornato periodicamente sul sito istituzionale [Banda Ultra Larga](https://bandaultralarga.italia.it/), dove si possono trovare anche le stime di avvio e termine dei lavori per ciascun comune. Alcune informazioni aggiuntive sono pubblicate anche da Open Fiber nelle pagine [Avanzamento lavori](https://openfiber.it/piano-copertura/stato-dei-lavori/) e [Avanzamento lavori aree bianche](https://openfiber.it/piano-copertura/avanzamento-lavori-aree-bianche/) del sito ufficiale.
 
