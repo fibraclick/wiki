@@ -2,7 +2,7 @@
 title: "Come riconoscere la rete pubblica BUL"
 slug: riconoscere-rete-bul
 date: 2019-09-01T20:56:49+02:00
-lastmod: 2022-01-27T18:00:00+01:00
+lastmod: 2023-02-02T18:30:00+01:00
 authors: [Matteo]
 description: "La rete pubblica BUL copre in banda ultralarga il 25% della popolazione. Può quindi essere utile conoscerne gli elementi principali."
 categories: [Copertura, FTTH, Piano BUL]
@@ -32,6 +32,8 @@ Nelle aree coperte in FTTH, questi pozzetti sono di due dimensioni e sono posizi
 {{< fig src="/images/rete-bul/pozzetto-bul-2.jpg" caption="Pozzetto 125 x 80 cm, per coprire 48 UI." >}}
 
 {{< fig src="/images/rete-bul/pozzetto-bul-3.jpg" caption="Pozzetto 76 x 40 cm aperto. Si vede il ROE per coprire 24 UI." vertical="true" >}}
+
+{{< fig src="/images/rete-bul/pozzetto-bul-4.jpg" caption="Interno di un ROE da 24 UI. Grazie a @Angelo_V per la foto." >}}
 
 ## ROE su edifici e pali
 
