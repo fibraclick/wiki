@@ -84,10 +84,7 @@
         display: block;
         flex: 0 0 3rem;
         margin-right: 1rem;
-
-        @media screen and (min-width: $break-small) {
-          margin-right: 2rem;
-        }
+        font-family: monospace;
       }
     }
   

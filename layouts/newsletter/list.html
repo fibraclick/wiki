@@ -24,17 +24,30 @@
         
         <section class="posts">
           <h1>Archivio</h1>
-          <ol>
-            {{ range (where .Pages "Type" "newsletter").ByDate.Reverse -}}
-            <li>
-              <time class="time-left" datetime="{{ .Date.Format "2006-01-02 MST" }}">{{ .Date.Format "02/01/2006"}}</time>
-              #{{ .Params.num }}: <a target="_blank" href="{{ .Params.link }}">{{ .Title }}</a>
-            </li>
-            {{- end }}
+          <ol class="posts-list">
+            Caricamento...
           </ol>
         </section>
       </div>
 
     </article>
+
+    <script>
+      async function load() {
+        let resp = await fetch('/api/newsletter');
+        let data = await resp.json();
+        let list = document.querySelector('.posts-list');
+        list.innerHTML = '';
+        data.forEach(item => {
+          let date = item.date.substring(8, 10) + '/' + item.date.substring(5, 7) + '/' + item.date.substring(0, 4);
+          let li = `<li>
+            <time class="time-left" datetime="${item.date}">${date}</time>
+            <a target="_blank" href="${item.link}">${item.title}</a>
+          </li>`;
+          list.insertAdjacentHTML('beforeend', li);
+        });
+      }
+      load();
+    </script>
 
 {{ partial "bottom.html" . }}
