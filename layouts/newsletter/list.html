@@ -42,7 +42,7 @@
           let date = item.date.substring(8, 10) + '/' + item.date.substring(5, 7) + '/' + item.date.substring(0, 4);
           let li = `<li>
             <time class="time-left" datetime="${item.date}">${date}</time>
-            <a target="_blank" href="${item.link}">${item.title}</a>
+            <a target="_blank" href="${item.url}">${item.title}</a>
           </li>`;
           list.insertAdjacentHTML('beforeend', li);
         });
