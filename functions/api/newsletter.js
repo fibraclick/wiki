@@ -38,7 +38,7 @@ export async function onRequest(context) {
     return new Response(JSON.stringify(campaigns), {
         headers: {
             'Content-Type': 'application/json',
-            'CDN-Cache-Control': 'max-age=1800'
+            'Cache-Control': 'public, max-age=3600'
         }
     });
 }
