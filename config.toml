@@ -25,6 +25,3 @@ removePathAccents = true
       unsafe = true
     [markup.goldmark.parser]
       autoHeadingIDType = "blackfriday"
-
-[author]
-  email = "info@fibraclick.it"
