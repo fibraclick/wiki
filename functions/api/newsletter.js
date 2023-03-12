@@ -13,6 +13,16 @@ export async function onRequest(context) {
         }
     });
 
+    if (!response.ok) {
+        console.log('Error fetching newsletter data');
+        console.log('Status: ' + response.status);
+        console.log('Body: ' + await response.text());
+        return new Response('', {
+            status: 500,
+            statusText: 'Error fetching newsletter data'
+        });
+    }
+
     let data = await response.json();
 
     let campaigns = data.campaigns.map(campaign => {
