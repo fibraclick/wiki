@@ -34,7 +34,7 @@
 
     <script>
       async function load() {
-        let resp = await fetch('/api/newsletter');
+        let resp = await fetch('/newsletter/index.json');
         let data = await resp.json();
         let list = document.querySelector('.posts-list');
         list.innerHTML = '';
