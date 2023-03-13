@@ -32,8 +32,14 @@ export async function onRequest(context) {
             guid: campaign.settings.title,
             date: campaign.send_time
         };
-    }).filter(campaign => {
-        return campaign.guid.length == 10
+    });
+
+    let v2duplicates = campaigns.filter(campaign => campaign.guid.length > 10);
+    campaigns = campaigns.filter(campaign => {
+        if (campaign.guid.length > 10) return false;
+        let v2 = v2duplicates.find(v2 => v2.guid.startsWith(campaign.guid));
+        if (v2) campaign.url = v2.url;
+        return true;
     });
 
     let xml = `<?xml version="1.0" encoding="utf-8" standalone="yes"?>
