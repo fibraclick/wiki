@@ -82,7 +82,7 @@ function buildRFC822Date(date) {
     const time = `${addLeadingZero(date.getHours())}:${addLeadingZero(date.getMinutes())}:${addLeadingZero(date.getSeconds())}`;
 
     const timezoneOffset = date.getTimezoneOffset();
-    let timezoneOffsetString = timezoneOffset < 0 ? "+" : "-";
+    let timezoneOffsetString = timezoneOffset <= 0 ? '+' : '-';
     timezoneOffsetString += addLeadingZero(Math.abs(timezoneOffset / 60));
     timezoneOffsetString += addLeadingZero(Math.abs(timezoneOffset % 60));
 
