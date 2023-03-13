@@ -47,8 +47,6 @@ export async function onRequest(context) {
         <atom:link href="https://fibra.click/newsletter/index.xml" rel="self" type="application/rss+xml" />`;
 
     campaigns.forEach(campaign => {
-        console.log(campaign.date);
-        console.log(new Date(campaign.date));
         xml += `
         <item>
             <title>${campaign.title}</title>
