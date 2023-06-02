@@ -2,7 +2,7 @@
 
 *📄 Source code for the website FibraClick Wiki*
 
-To run locally, install Hugo 0.89.2 extended and run:
+To run locally, install Hugo 0.112.7 extended and run:
 
 ```shell
 hugo server
