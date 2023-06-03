@@ -6,7 +6,6 @@ lastmod: 2023-06-03T21:30:00+02:00
 authors: [kmorwath]
 description: Il VoIP è molto in uso sulle connessioni in fibra italiane, oltre che nelle aziende di tutto il mondo, vediamo come funziona.
 categories: [Protocolli]
-image: /social/vectoring.jpg
 ---
 
 {{< warn >}}
