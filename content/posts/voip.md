@@ -11,7 +11,7 @@ image: /social/vectoring.jpg
 
 {{< warn >}}
 
-Questo articolo è un po' più tecnico del solito e richiede conoscenze basi di come funzionano le reti ed i protocolli Internet più comuni.
+La comprensione di questo articolo richiede conoscenze di base di come funzionano le reti ed i protocolli Internet più comuni.
 
 {{</ warn >}}
 
