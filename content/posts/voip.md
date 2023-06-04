@@ -2,7 +2,7 @@
 title: "Come funziona e come si configura il VoIP"
 slug: voip
 date: 2023-06-04T18:00:00+02:00
-lastmod: 2023-06-04T18:00:00+02:00
+lastmod: 2023-06-04T22:00:00+02:00
 authors: [kmorwath]
 description: Il VoIP è la tecnologia usata per fare e ricevere chiamate tramite la rete ed è molto usato sulle connessioni di rete fissa. Ecco come funziona e come si configura.
 categories: [Protocolli]
@@ -18,7 +18,7 @@ In questo articolo approfondiremo il **funzionamento generale** del VoIP, i prin
 
 Come abbiamo detto, il VoIP è basato sui protocolli della suite TCP/IP. Questo significa che le telefonate viaggiano su una connessione a **commutazione di pacchetto**, invece di commutazione di circuito come accadeva con le vecchie connessioni analogiche.
 
-Ciò implica che i pacchetti audio sono soggetti alla **latenza** della connessione che, se eccessiva, può causare una cattiva qualità della chiamata. La banda utilizzata invece dipende dal _codec_ (vedi sotto) usato e può variare da poche decine di kilobit/secondo a qualche centinaio.
+Ciò implica che i pacchetti audio sono soggetti a **perdite, latenza e jitter**, che, se eccessivi, possono degradare la qualità della chiamata. La banda utilizzata invece dipende dal _codec_ (vedi sotto) usato e può variare da poche decine di kilobit/secondo a qualche centinaio.
 
 {{< green >}}
 ##### Commutazione di pacchetto vs circuito
@@ -47,7 +47,7 @@ SIP può essere utilizzato sia via **TCP** che **UDP**, quest'ultimo è più com
 
 Il protocollo SIP assomiglia un po' ad HTTP e nei suoi header trasporta le informazioni necessarie per le connessioni e le chiamate, compresi *purtroppo* l'IP e le porte da utilizzare, così come visti dal sistema VoIP. 
 
-Questo causa non pochi problemi quando il sistema è dietro NAT, in quanto di default vengono usati gli IP e le porte visibili solo dalla LAN e non quelli visibili in WAN. Sono pertanto necessarie configurazioni specifiche <!-- SIP ALG? --> per risolvere questo problema.
+Questo causa non pochi problemi quando il sistema è dietro NAT, in quanto di default vengono usati gli IP e le porte visibili solo dalla LAN e non quelli visibili in WAN. Sono pertanto necessarie configurazioni specifiche per risolvere questo problema.
 
 ### RTP
 
