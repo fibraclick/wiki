@@ -1,7 +1,7 @@
 ---
 title: "Come funziona e come si configura il VoIP"
 slug: voip
-date: 2023-06-04T12:00:00+02:00
+date: 2023-06-04T09:30:00+02:00
 lastmod: 2023-06-04T12:00:00+02:00
 authors: [kmorwath]
 description: Il VoIP è la tecnologia usata per fare e ricevere chiamate tramite la rete ed è molto usato sulle connessioni di rete fissa. Ecco come funziona.
