@@ -1,10 +1,10 @@
 ---
 title: "Come funziona e come si configura il VoIP"
 slug: voip
-date: 2023-06-04T09:30:00+02:00
-lastmod: 2023-06-04T12:00:00+02:00
+date: 2023-06-04T18:00:00+02:00
+lastmod: 2023-06-04T18:00:00+02:00
 authors: [kmorwath]
-description: Il VoIP è la tecnologia usata per fare e ricevere chiamate tramite la rete ed è molto usato sulle connessioni di rete fissa. Ecco come funziona.
+description: Il VoIP è la tecnologia usata per fare e ricevere chiamate tramite la rete ed è molto usato sulle connessioni di rete fissa. Ecco come funziona e come si configura.
 categories: [Protocolli]
 ---
 
@@ -65,7 +65,7 @@ Non sono definite porte standard per RTP ma spesso si usano **le porte a partire
 
 Trasporta informazioni quali il numero di byte ricevuti, latenza, pacchetti persi, ecc. che possono essere usati per gestire automaticamente la qualità della chiamata. Funziona via **UDP** e usa automaticamente la porta di numero dispari successiva alla porta RTP usata per la chiamata.
 
-{{< fig src="/images/voip/message-exchange.png" caption="Tipica sequenza di una chiamata VoIP" >}}
+{{< fig src="/images/voip/message-exchange.png" caption="Tipica sequenza di una chiamata VoIP." >}}
 
 ## Configurazione di un sistema VoIP
 
@@ -111,7 +111,7 @@ A seconda del tipo di **risoluzione dei nomi** usato, del setup VoIP del **provi
 I **proxy SIP** sono i server che gestiscono le chiamate “per conto” (“proxy”) dei client, risolvendo l'indirizzo finale della chiamata e instradandola verso la destinazione richiesta, magari attraverso altri proxy e gateway VoIP.
 {{< /green >}}
 
-In genere, se il fornitore usa record di tipo SRV/NAPTR, occorre solo il **Dominio/Realm** e tutto il resto è ottenuto dinamicamente. In tutti gli altri casi va inserito il nome host del *Proxy* e, se richiesto, dell'*Outbound Proxy* e/o del *Registrar*.
+In genere, se il fornitore usa record di tipo SRV/NAPTR, occorre solo il **Dominio/Realm** e se richiesto l'**Outbound Proxy**, mentre tutto il resto è ottenuto dinamicamente. In tutti gli altri casi va inserito il nome host del *Proxy* e, se richiesto, dell'*Outbound Proxy* e/o del *Registrar*.
 
 Può essere che sia necessario inserire gli stessi dati in più campi, ad esempio se un client VoIP richiede **Registrar** e **Proxy** separatamente, ma il provider usa lo stesso host, va inserito lo stesso dato in entrambi.
 
@@ -140,13 +140,15 @@ Questa configurazione è necessaria **se il dispositivo VoIP è a valle di un NA
 
 Quando il sistema VoIP è integrato nel router, e il router ha IP pubblico, in generale l'IP e le porte sono gestite automaticamente come necessario. Nel caso di router in cascata rimane la necessità di configurare il NAT traversal.
 
-Ci sono diversi modi per risolvere il problema del NAT:
+Ci sono diversi modi per risolvere il problema del NAT:[^nat]
 
 - **ALG (*Application Layer Gateway*, o *passthrough*) VoIP attivo sul router**: questo è il sistema più semplice che non richiede alcuna impostazione sull'apparato VoIP. Il router ha una specifica funzione in grado di **intercettare il traffico SIP**, modificare i parametri necessari e **aprire automaticamente le porte** selezionate. Ci sono però casi nei quali non è in grado di farlo correttamente, creando malfunzionamenti. Alcuni dispositivi possono usare *UPnP*, se attivo sul router, per ottenere un effetto simile. Sono in grado in tal caso di identificare l'IP pubblico da usare e aprire automaticamente le porte, senza quindi alcuna necessità di manipolazione del traffico.
 
 - **Apertura manuale delle porte sul router**: affinché funzionino le chiamate in entrata, è necessario che il dispositivo VoIP sia **in ascolto sulla porta SIP selezionata** e che questa sia raggiungibile dall'esterno. Si può quindi fare **forwarding delle porte** necessarie sul router verso il dispositivo VoIP. Di solito bisogna solo aprire le porte SIP necessarie, ma se la connessione RTP è iniziata anche dall'esterno (ad esempio il server non supporta Symmetric RTP, RFC 4961[^rfc-4961], per riusare la connessione del client) è necessario aprire anche queste (ricordando anche la porta RTCP), pena audio monodirezionale.
 
 - **NAT keep-alive**: quando viene stabilita una connessione, un router che fa NAT crea una **mappatura nella tabella di NAT** (`IP:porta pubblici <-> IP:porta privati`) per gestire i pacchetti di ritorno in ingresso in modo da ricevere dati dall'esterno. La durata di questa mappatura dipende dal router e dal protocollo (TCP o UDP). È possibile inviare ad intervalli regolari pacchetti di **keep-alive** per evitare che la mappatura scada e sia eliminata. Questa funzione ha appunto il nome “NAT keep-alive” o simile. Non richiede particolari impostazioni sul router ma è necessario avere un'idea della durata delle mappature per impostare correttamente l'intervallo di keep-alive. Lo svantaggio di questa modalità è che crea traffico “inutile”, e l'intervallo va pertanto regolato con un po' di attenzione.
+
+[^nat]: *VoIP behind NAT* https://www.sandon.it/2022/11/13/voip-behind-nat/
 
 L'apertura manuale delle porte e il keep-alive dipendono però dalla **corretta individuazione dell'IP e della porta pubblici** per permettere le chiamate in ingresso. Se si ha un IP pubblico statico è spesso possibile inserirlo nel dispositivo come IP WAN, così da poterlo utilizzare direttamente nei messaggi SIP inviati.
 
