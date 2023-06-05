@@ -2,7 +2,7 @@
 title: "Come funziona e come si configura il VoIP"
 slug: voip
 date: 2023-06-04T18:00:00+02:00
-lastmod: 2023-06-04T22:00:00+02:00
+lastmod: 2023-06-05T11:00:00+02:00
 authors: [kmorwath]
 description: Il VoIP è la tecnologia usata per fare e ricevere chiamate tramite la rete ed è molto usato sulle connessioni di rete fissa. Ecco come funziona e come si configura.
 categories: [Protocolli]
@@ -27,7 +27,7 @@ In una rete a **commutazione di circuito** per ogni utente è creato un canale d
 La **vecchia rete telefonica analogica** con i suoi apparati elettromeccanici che di volta in volta creavano un circuito tra due telefoni è un esempio tipico di rete a commutazione di circuito. **LAN e Internet (TCP/IP)** sono esempi di rete a commutazione di pacchetto.
 {{< /green >}}
 
-**VoIP non usa un singolo protocollo come il web**, assomiglia di più alla posta elettronica dove sono usati assieme diversi protocolli (SMTP, IMAP, POP) per implementare il servizio. Al contrario di web e posta elettronica, però, le connessioni non sono sempre e solo iniziate dal client. 
+**VoIP non usa un singolo protocollo come il web**, assomiglia di più alla posta elettronica dove i client usano diversi protocolli (SMTP, IMAP, POP) per gestire i messaggi. Al contrario di browser e client di posta elettronica, però, nel VoIP le connessioni non sono sempre e solo iniziate dal client.
 
 In caso di **chiamata in ingresso**, è il server remoto che inizia la connessione verso il sistema di destinazione, perciò è necessario che questo sia sempre in ascolto e accessibile dall'esterno.
 
