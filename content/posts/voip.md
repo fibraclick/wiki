@@ -31,7 +31,7 @@ La **vecchia rete telefonica analogica** con i suoi apparati elettromeccanici ch
 
 In caso di **chiamata in ingresso**, è il server remoto che inizia la connessione verso il sistema di destinazione, perciò è necessario che questo sia sempre in ascolto e accessibile dall'esterno.
 
-VoIP può essere usato direttamente tramite dispositivi in grado di connettersi via TCP/IP e gestire direttamente i protocolli, ad esempio **telefoni/basi DECT VoIP** connessi via Ethernet o WiFi, oppure tramite *"softphone"* (applicazioni VoIP installate su PC, tablet o smartphone), o anche usando "normali" telefoni analogici connessi a dispositivi di conversione chiamati **ATA** (Analog Telephone Adapter), che possono essere anche integrati in dispositivi all-in-one come i classici "router internet" destinati alle installazioni domestiche o in piccole aziende. 
+VoIP può essere usato direttamente tramite dispositivi in grado di connettersi via TCP/IP e gestire direttamente i protocolli, ad esempio **telefoni/basi DECT VoIP** connessi via Ethernet o WiFi, oppure tramite *"softphone"* (applicazioni VoIP installate su PC, tablet o smartphone), o anche usando "normali" telefoni analogici connessi a dispositivi di conversione chiamati **ATA** (Analog Telephone Adapter), che possono essere anche integrati in dispositivi all-in-one come i classici "router internet" destinati alle installazioni domestiche o in piccole aziende.
 
 L'ATA funziona da una parte come telefono VoIP, e dall'altra come fosse una mini-centrale telefonica analogica. Esistono anche centralini (PBX) VoIP e sistemi misti per connettere più dispositivi sia VoIP che analogici.
 
@@ -43,9 +43,9 @@ I protocolli utilizzati sono **SIP** (Session Initiation Protocol), **RTP** (Rea
 
 **SIP** è utilizzato per la **gestione delle connessioni e delle chiamate.**  Tramite questo protocollo il sistema VoIP si registra con i server remoti, sono inviate e ricevute le richieste di chiamata, di termine della chiamata ed altre richieste e informazioni.
 
-SIP può essere utilizzato sia via **TCP** che **UDP**, quest'ultimo è più comunemente usato. Ogni connessione VoIP deve utilizzare una porta specifica, di solito a partire dalla 5060. 
+SIP può essere utilizzato sia via **TCP** che **UDP**, quest'ultimo è più comunemente usato. Ogni connessione VoIP deve utilizzare una porta specifica, di solito a partire dalla 5060.
 
-Il protocollo SIP assomiglia un po' ad HTTP e nei suoi header trasporta le informazioni necessarie per le connessioni e le chiamate, compresi *purtroppo* l'IP e le porte da utilizzare, così come visti dal sistema VoIP. 
+Il protocollo SIP assomiglia un po' ad HTTP e nei suoi header trasporta le informazioni necessarie per le connessioni e le chiamate, compresi *purtroppo* l'IP e le porte da utilizzare, così come visti dal sistema VoIP.
 
 Questo causa non pochi problemi quando il sistema è dietro NAT, in quanto di default vengono usati gli IP e le porte visibili solo dalla LAN e non quelli visibili in WAN. Sono pertanto necessarie configurazioni specifiche per risolvere questo problema.
 
@@ -123,7 +123,7 @@ Una singola registrazione può comunque permettere più di una chiamata contempo
 {{</ green >}}
 
 {{< warn >}}
-Purtroppo non tutti i sistemi usano una nomenclatura coerente, né supportano tutti i tipi, perciò va consultata la documentazione. 
+Purtroppo non tutti i sistemi usano una nomenclatura coerente, né supportano tutti i tipi, perciò va consultata la documentazione.
 {{</ warn >}}
 
 ### Intervallo di registrazione SIP
@@ -176,7 +176,7 @@ Se sia il client che il server VoIP supportano (e usano) il protocollo **IPv6**,
 
 [^sip-via]: Vedi ad esempio: https://thanhloi2603.wordpress.com/2017/05/02/lets-play-sip-received-and-rport/
 
-### Codec supportati 
+### Codec supportati
 
 I codec (*coder-decoder*) sono gli algoritmi che effettuano la **digitalizzazione dell'audio** (e il processo inverso). VoIP non prescrive specifici codec lasciando ai sistemi la decisione di quale codec usare per una chiamata.
 
@@ -189,7 +189,7 @@ Durante la fase di configurazione della chiamata, **le due parti si scambiano in
 
 I dispositivi VoIP possono supportare **molti altri codec** ma è spesso possibile usarli solo in LAN perché non sono supportati dagli ISP o dai fornitori di servizi VoIP. La scelta spesso è dettata, oltre dalla banda utilizzata, dalle **necessità computazionali dei codec**, per poter essere utilizzati anche su dispositivi con hardware poco performante.
 
-G.711 offre un buon compromesso fra qualità audio e banda, G.729 è da utilizzare quando ogni kilobit risparmiato è utile. 
+G.711 offre un buon compromesso fra qualità audio e banda, G.729 è da utilizzare quando ogni kilobit risparmiato è utile.
 
 Se non si hanno problemi di banda e/o latenza, il consiglio è quello di **selezionare i codec di qualità migliore a priorità più alta.**
 
@@ -209,7 +209,7 @@ I toni emessi alla pressione dei tasti possono essere trasportati in modalità d
 
 ### Packetization time
 
-Il **packetization time** è la durata dell'audio nei singoli pacchetti RTP. Va impostata a quella richiesta, se non lo è già, **di solito è 20 ms.** 
+Il **packetization time** è la durata dell'audio nei singoli pacchetti RTP. Va impostata a quella richiesta, se non lo è già, **di solito è 20 ms.**
 
 Di solito è anche richiesto di disabilitare *Voice Activation Detection*, la funzione che riduce l'utilizzo di banda trasmettendo solo se qualcuno sta effettivamente parlando.
 
