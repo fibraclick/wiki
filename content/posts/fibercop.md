@@ -72,6 +72,8 @@ I dettagli dell'architettura di rete FiberCop, basata sulla tecnologia GPON, son
 
 ## Foto
 
+{{< fig src="/images/fibercop-pozzetto.jpg" caption="Pozzetto FiberCop." alt="Chiusino di un pozzetto, con la scritta FiberCop e relativo logo" >}}
+
 {{< fig src="/images/fibercop-cro4.jpg" caption="Un CRO \"solitario\" in una zona ad alta densità abitativa di Savona. Grazie a @ErnyTech per la foto. [Fonte](https://forum.fibra.click/d/16373-nuovo-armadio-fibercop/119)." >}}
 
 {{< fig src="/images/fibercop-cro6.jpg" caption="Un CRO di dimensione ridotta a Chieri (TO), può coprire al massimo 128 unità immobiliari. [Fonte](https://forum.fibra.click/d/16660-avvistamenti-e-mappa-lavori-ftth-fibercop/3236)." >}}
