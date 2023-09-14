@@ -54,7 +54,7 @@ La copertura FTTH prevede l'**installazione di un PTE** (*Punto di Terminazione 
 
 Nel caso di un condominio, Open Fiber chiederà l'autorizzazione per procedere all'amministratore, che però per legge non può opporsi (vedi nota).[^legge]
 
-[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.gazzettaufficiale.it/eli/id/2016/03/09/16G00041/sg
+[^legge]: *DECRETO LEGISLATIVO 15 febbraio 2016, n. 33*, art. 8 https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2016-02-15;33!vig=2023-09-14
 
 {{< fig src="/images/ofcartello.jpg" caption="Avviso che anticipa l'intervento di Open Fiber in un condominio" alt="Foglio di carta appeso con il logo Open Fiber, che dice \"Arriva OpEn Fiber\"" vertical="true" >}}
 
