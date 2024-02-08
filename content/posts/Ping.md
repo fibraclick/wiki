@@ -20,6 +20,7 @@ Non è tuttavia formalmente corretto parlare di “ping” per riferirsi a ciò,
 Per riferirsi al tempo necessario alla trasmissione di questo pacchetto sarebbe quindi più appropriato parlare di latenza.
 La latenza è influenzata principalmente dalla distanza fisica tra il nostro apparato che sta inviando il pacchetto ed il server o router che lo riceve e risponde.
 Un computer che si trova in Sicilia e che invia un ping verso un server locato a Francoforte (a oltre 1700 km), non potrà mai avere una latenza inferiore a 12 ms, inteso come limite fisico assoluto tenendo conto della velocità della luce e immaginando che ci sia un collegamento diretto tra casa nostra e il server (di fatto una situazione impossibile).
+
 ---
 
 {{< green >}}
