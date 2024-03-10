@@ -7,13 +7,15 @@ const NEWSLETTER_TEMPLATE = `
         Iscriviti a <strong>Riflessione ottica</strong>, la newsletter settimanale di FibraClick. <strong>Ogni domenica le principali novità sulla banda ultra larga e Internet in Italia, spiegate in 5 minuti.</strong> Niente spam, promesso.
         
         <div id="mc_embed_signup">
-          <form action="https://click.us20.list-manage.com/subscribe/post?u=43e7f0aa512956e35c8d37395&amp;id=8d73a21b79&amp;SIGNUP=propaganda&amp;WIKIURL={url}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-              <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Il tuo indirizzo email..." required>
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_43e7f0aa512956e35c8d37395_8d73a21b79" tabindex="-1" value=""></div>
-              <input type="submit" value="ISCRIVITI" name="subscribe" id="mc-embedded-subscribe">
+          <form action="https://newsletter.fibra.click/subscription/form" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+              <input type="email" value="" name="email" class="email" id="mce-EMAIL" placeholder="Il tuo indirizzo email..." required>
+              <input type="hidden" name="l" value="44de0b25-d6e5-435f-abcd-56b890a6316e">
+              <input type="hidden" name="name" value="">
+              <input type="hidden" name="nonce" value="">
+              <input type="submit" value="ISCRIVITI" id="mc-embedded-subscribe">
               <label for="newsletter-signup-privacy" id="newsletter-signup-privacy-label" style="display:block;padding-top:10px">
                 <input type="checkbox" required id="newsletter-signup-privacy" />
-                Accetto l'<a href="https://fibra.click/privacy.pdf" target="_blank">informativa sulla privacy.</a>
+                Ho letto l'<a href="https://fibra.click/privacy.pdf" target="_blank">informativa sulla privacy</a>.
             </label>
           </form>
         </div>
