@@ -105,3 +105,6 @@ static/stato-bul
 venv
 .hugo_build.lock
 hugo
+.wrangler
+.dev.vars
+node_modules
