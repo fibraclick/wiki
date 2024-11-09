@@ -76,6 +76,10 @@
         -moz-appearance: none;
     }
 
+    .h-captcha {
+        margin-top: 10px;
+    }
+
     @media screen and (max-width: 600px) {
         #mce-EMAIL {
             width: 100%;

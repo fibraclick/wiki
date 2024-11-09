@@ -17,6 +17,8 @@ const NEWSLETTER_TEMPLATE = `
                 <input type="checkbox" required id="newsletter-signup-privacy" />
                 Ho letto l'<a href="https://fibra.click/privacy.pdf" target="_blank">informativa sulla privacy</a>.
             </label>
+            <div class="h-captcha" data-sitekey="9ba852e0-266e-4570-8f24-1a4028c686cc">
+            </div>
           </form>
         </div>
 
@@ -51,6 +53,9 @@ function injectCta(headings) {
         const url = encodeURIComponent(location.href);
         const html = NEWSLETTER_TEMPLATE.replace('{url}', url);
         ctaNode.insertAdjacentHTML('beforebegin', html);
+        document.querySelector('#mc-embedded-subscribe-form').addEventListener('click', function(e) {
+            hcaptcha.render(document.querySelector('.h-captcha'));
+        });
     }
 }
 
