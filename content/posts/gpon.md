@@ -95,7 +95,7 @@ Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati an
 Quando **Open Fiber è nata, nel 2016, ha incorporato la rete Metroweb** realizzata nel decennio precedente a Milano, Torino, Bologna e Genova. Anche la rete Metroweb prevede due livelli di splitting, ma uno dei due avviene direttamente all'edificio (nei ROE), come nel caso di Flash Fiber.
 {{< /green >}}
 
-Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. La scelta di un fattore di splitting inferiore consente inoltre di avere delle **tratte OLT-ONT più lunghe**, in considerazione del fatto che ogni splitting ripartisce la potenza del segnale luminoso tra i rami dell'albero in quanto nelle aree bianche, risulta più conveniente installare qualche OLT in più e coprire distanze maggiori: eliminare uno splitter consente infatti di estendere la rete di ulteriori 9 km.[^attenuazione]
+Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. La scelta di un fattore di splitting inferiore consente inoltre di avere delle **tratte OLT-ONT più lunghe**, in considerazione del fatto che ogni splitting ripartisce la potenza del segnale luminoso tra i rami dell'albero in quanto nelle aree bianche, risulta più conveniente installare qualche OLT in più e coprire distanze maggiori: eliminare uno splitter consente infatti di estendere la rete di ulteriori numerosi km.[^attenuazione]
 
 Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON. Questo garantisce inoltre il rispetto dei requisiti dei bandi pubblici del piano BUL, cioè di garantire almeno 100 Mbps in download e 50 Mbps in upload per ogni utente, anche in caso di connessioni simultanee, nonostante ciò questa motivazione è al quanto poco pratica il GPON è stato ideato in quanto è estremanente improbabile che più utenti utilizzino pienamente la banda a disposizione.
 
@@ -183,4 +183,4 @@ Vedi anche [Cos'è e cosa fa FiberCop]({{< relref "/posts/fibercop.md" >}}).
 [^ofservizi]: https://openfiber.it/area-infratel/servizi/commercializzazione-aree-bianche/
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
 [^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/120434490?p_r_p_564233524_categoryId=120410924&p_r_p_564233524_activePortletId=noportlet
-[^attenuazione]: Uno splitter 1:16 ha una attenuazione di circa 13,5 dB, equivalenti a quindi 9 km di fibra ottica considerando una attenuazione di 1,5 dB/km
+[^attenuazione]: Uno splitter 1:16 ha una attenuazione di circa 13,5 dB, equivalenti a oltre 50 km di fibra ottica considerando una attenuazione di 0,2 dB/km
