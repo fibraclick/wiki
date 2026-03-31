@@ -9,7 +9,7 @@ categories: [Definizioni, Copertura, PI1G]
 image: /social/piano-italia-1-giga.jpg
 ---
 
-Il **Piano Italia 1 Gbps** (PI1G) è un intervento pubblico con l'obiettivo di **realizzare reti in grado di offrire connessioni fino a 1 Gbps in download e 200 Mbps in upload**, nelle aree in cui non sono presenti connessioni ad almeno 300 Mbps in download o dove non sono previste entro il 2026.
+Il **Piano Italia 1 Gbps** (PI1G) è un intervento pubblico finalizzato alla **realizzazione di reti con una capacità minima garantita di 1 Gbps in download e 200 Mbps in upload**, nelle aree prive di connessioni ad almeno 300 Mbps in download o dove tali connessioni non siano previste entro il 2026. Le velocità effettivamente commercializzate agli utenti finali rimangono a discrezione dell'operatore, nel rispetto delle proprie strategie commerciali.
 
 Il piano nasce per avvicinarsi agli obiettivi europei per il digitale del 2030, che prevedono connettività **Gigabit per tutti i cittadini europei**. Le infrastrutture devono inoltre essere **"10G ready"**, ovvero progettate per garantire la **scalabilità fino a 10 Gbps** e l'evoluzione verso reti **XGS-PON o equivalenti**, in linea con gli obiettivi della **Gigabit Society 2030**.[^specifiche]
 
