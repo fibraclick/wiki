@@ -9,13 +9,21 @@ categories: [Definizioni, Copertura, FTTH]
 image: /social/fibercop.jpg
 ---
 
-**FiberCop** è un'azienda partecipata da TIM (58%), Fastweb (4,5%) e il fondo statunitense KKR (37,5%) con lo scopo di **realizzare entro metà 2026 reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 2578 comuni italiani**, coprendo così circa l'80% delle unità immobiliari "tecniche"[^uit] delle aree nere e grigie.[^costituzione][^coinvestimento2]
+**FiberCop** è una società controllata dal fondo statunitense KKR tramite la controllata Optics BidCo[^fibercop2024], a seguito dell’acquisizione nel 2024 delle infrastrutture di rete fissa di TIM (ad eccezione del ramo Sparkle), rendendo TIM un operatore senza più infrastrutture. In precedenza, FiberCop era partecipata da TIM (58%)[^tim2024], Fastweb (4,5%)[^fastweb2024] e KKR (37,5%) con l’obiettivo di sviluppare la rete in fibra ottica in Italia. 
+
+L’azienda punta a **realizzare entro metà 2026 reti [FTTH]({{< relref "/posts/architetture.md" >}}) in 2578 comuni italiani**, coprendo così circa l'80% delle unità immobiliari "tecniche"[^uit] delle aree nere e grigie[^costituzione][^coinvestimento2] (cioè quelle a investimento privato). In più FiberCop si è aggiudicata 7 lotti relativi al "Piano Italia 1 Giga"[^fibercopP1G].
 
 [^uit]: Le unità immobiliari tecniche sono quelle che nel tempo hanno fatto uso della rete fissa. https://wdc.wholesale.telecomitalia.it/fibercop/
 [^costituzione]: https://www.gruppotim.it/it/archivio-stampa/corporate/2020/CS-TIM-FiberCop-Access.html
 [^coinvestimento2]: https://wdc.wholesale.telecomitalia.it/tw_news/2021/06/25/estensione-della-copertura-dell-offerta-di-co-investimento-di-tim-nella-nuova-rete-in-fibra-di-fibercop/
+[^fibercop2024]: https://www.fibercop.com/wp-content/uploads/2025/06/ENG_FiberCop_FS_FY_2024.pdf
+[^fastweb2024]: https://www.fastweb.it/corporate/media/comunicati-stampa/fastweb-vende-la-sua-quota-in-fibercop/
+[^tim2024]: https://www.gruppotim.it/it/archivio-stampa/corporate/2024/CS-Closing-NetCo-1-luglio.html
+[^tim2022_2]: https://www.gruppotim.it/content/dam/gt/investitori/webcast/2022/TIM%20Capital%20Market%20Day,%207%20July%202022.pdf
+[^tim2022_1]: https://www.gruppotim.it/it/archivio-stampa/corporate/2022/CS-TIM-CMD-07-07-2022.html
+[^fibercopP1G]: https://www.fibercop.com/bandi-pnrr/piano-italia-1-giga/
 
-FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, anche indirettamente tramite TIM.
+FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, tramite i propri [partner](https://www.fibercop.com/en/our-partners/).
 
 L'infrastruttura FTTH è realizzata con la tecnologia [GPON]({{< relref "/posts/gpon.md" >}}), che consente di fornire connessioni con velocità di **1 Gbps in download** e centinaia di Mbps in upload, a seconda del profilo scelto dell'operatore.
 
@@ -58,7 +66,7 @@ La copertura prevede anche l'installazione di un **Punto di Terminazione di Edif
 
 ## Architettura
 
-Come accennato, il progetto prevede la **realizzazione della sola rete secondaria**. La **rete primaria**, cioè quella tra armadio e centrale, è invece **già presente** grazie alla copertura **FTTC** (*Fiber To The Cabinet*) realizzata da TIM nel corso degli anni. A seconda della modalità scelta, un operatore terzo che vuole acquisire servizi passivi da FiberCop dovrà costruirsi la propria rete primaria oppure acquisirla da FiberCop/TIM.
+Come accennato, il progetto prevede la **realizzazione della sola rete secondaria**. La **rete primaria**, cioè quella tra armadio e centrale, è invece **già presente** grazie alla copertura **FTTC** (*Fiber To The Cabinet*) realizzata da TIM nel corso degli anni, ora di properità di FiberCop. A seconda della modalità scelta, un operatore terzo che vuole acquisire servizi passivi da FiberCop dovrà costruirsi la propria rete primaria oppure acquisirla da FiberCop.
 
 L'architettura FTTH scelta è di tipo **passivo**, e cioè non ha bisogno di apparati alimentati (al di là di quelli presenti in centrale e nelle abitazioni dei clienti), e **ruota attorno al concetto di armadio ottico**, quasi sempre situato nei pressi degli armadi ripartilinea esistenti (ARL). L'armadio ottico viene di conseguenza chiamato **CRO** (*Cabinet Ripartilinea Ottico*) e spesso anche **ARLO** (*Armadio Ripartilinea Ottico*). Un armadio ottico serve **fino a 384 unità immobiliari**.
 
