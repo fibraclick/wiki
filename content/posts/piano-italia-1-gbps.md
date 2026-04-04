@@ -6,7 +6,6 @@ lastmod: 2026-03-28T10:00:00+01:00
 authors: [Leoventu]
 description: Il Piano Italia 1 Gbps (PI1G) è il progetto pubblico finanziato dal PNRR per portare connessioni fino a 1 Gbps in download nelle aree italiane prive di copertura adeguata.
 categories: [Definizioni, Copertura, PI1G]
-image: /social/piano-italia-1-giga.jpg
 ---
 
 Il **Piano Italia 1 Gbps** (PI1G) è un intervento pubblico finalizzato alla **realizzazione di reti con una capacità minima garantita di 1 Gbps in download e 200 Mbps in upload**, nelle aree prive di connessioni ad almeno 300 Mbps in download o dove tali connessioni non siano previste entro il 2026. Le velocità effettivamente commercializzate agli utenti finali rimangono a discrezione dell'operatore, nel rispetto delle proprie strategie commerciali.
