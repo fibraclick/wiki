@@ -39,6 +39,8 @@ Il bando prevede la divisione dei civici coinvolti in 15 lotti geografici, asseg
 - **Open Fiber** per 8 lotti (Puglia, Toscana, Lazio, Sicilia, Emilia-Romagna, Campania, Friuli Venezia Giulia-Veneto, Lombardia), per un valore di **circa 2 miliardi di euro**;
 - **TIM/FiberCop** per i restanti 7 lotti (Sardegna, Abruzzo-Molise-Marche-Umbria, Piemonte-Liguria-Val d'Aosta, Calabria Sud, Calabria Nord, Basilicata, PA Trento e PA Bolzano), per un valore di **circa 1,6 miliardi di euro**.
 
+{{< fig src="/images/italy_map_pi1g.png" caption="Mappa dell'Italia che illustra la suddivisione regionale dei lotti del Piano Italia 1 Gbps assegnati a Open Fiber e TIM/FiberCop. Fonte mappa base: [es:Usuario:Mnemoc](https://commons.wikimedia.org/wiki/File:Italy_Regions_Blank.svg), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), via Wikimedia Commons" >}}
+
 Il **primo cantiere** del piano è stato avviato da **Open Fiber** il **29 settembre 2022** a **Mugnano di Napoli**.
 
 ## Architettura di rete
