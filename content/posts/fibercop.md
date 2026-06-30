@@ -2,7 +2,7 @@
 title: "Cos'è e cosa fa FiberCop"
 slug: fibercop
 date: 2021-02-27T15:00:00+01:00
-lastmod: 2026-06-22T00:00:00+02:00
+lastmod: 2026-06-30T00:00:00+02:00
 authors: [Matteo,LeoVentu]
 description: "FiberCop è l'operatore infrastrutturale wholesale che gestisce la rete fissa di accesso in Italia, con oltre 6.200 comuni raggiunti e circa 14,3 milioni di unità immobiliari raggiunte in FTTH."
 categories: [Definizioni, Copertura, FTTH]
@@ -15,7 +15,7 @@ Il 1° luglio 2024, nell'ambito dell'operazione di cessione della rete fissa di 
 
 L'attuale assetto societario vede come azionisti KKR Infrastructure (37,8%), CPP Investments (17,5%), ADIA (17,5%), il Ministero dell'Economia e delle Finanze (16%) e F2i (11,2%)[^fibercop2024].
 
-FiberCop gestisce oggi un'infrastruttura che raggiunge **oltre 6.200 comuni italiani**, di cui più di **3.200 connessi in [FTTH]({{< relref "/posts/architetture.md" >}})**, per circa **14,3 milioni di unità immobiliari** al 31 dicembre 2025[^fibercopAzienda], salite a circa 15 milioni secondo comunicazioni FiberCop di giugno 2026, con l'obiettivo di superare i **20 milioni entro fine 2027**[^fibercop2025]. FiberCop si è inoltre aggiudicata **7 lotti** relativi al **Piano Italia 1 Giga**[^fibercopP1G], nell'ambito del quale ha dichiarato di aver raggiunto il **100% della milestone intermedia di giugno 2025**[^fibercopH12025].
+FiberCop gestisce oggi un'infrastruttura che raggiunge **oltre 6.200 comuni italiani**, di cui più di **3.200 connessi in [FTTH]({{< relref "/posts/architetture.md" >}})**, per circa **14,3 milioni di unità immobiliari** al 31 dicembre 2025[^fibercopAzienda], salite a circa 15 milioni secondo comunicazioni FiberCop di giugno 2026, con l'obiettivo di superare i **20 milioni entro fine 2027**[^fibercop2025]. FiberCop è inoltre coinvolta nei **7 lotti** del **Piano Italia 1 Giga** originariamente aggiudicati a TIM in raggruppamento temporaneo d'impresa con FiberCop[^fibercopP1G].
 
 FiberCop è un operatore che opera solo all'ingrosso, e cioè **non vende direttamente ai clienti finali**. Per attivare una linea su rete FiberCop è necessario quindi rivolgersi agli operatori al dettaglio che usufruiscono della rete FiberCop, tramite i propri [partner](https://www.fibercop.com/en/our-partners/).
 
@@ -31,9 +31,11 @@ La disponibilità commerciale della linea dipende dagli operatori che utilizzano
 
 ## Piani di sviluppo
 
-FiberCop ha annunciato un piano di investimenti complessivo di circa **10 miliardi di euro** nel periodo 2024–2027 per l'espansione e il potenziamento della rete FTTH su tutto il territorio nazionale[^fibercopAzienda]. L'obiettivo è raggiungere **oltre 20 milioni di unità immobiliari** entro fine 2027, rispetto alle 14,3 milioni coperte a dicembre 2025.
+Il primo piano di sviluppo della rete FTTH risale al **2021**, con l'offerta di coinvestimento presentata da TIM ad AGCOM il 29 gennaio 2021 per la realizzazione di una rete in fibra ottica punto-punto nella rete di accesso secondaria di **1.610 comuni**, con completamento previsto entro il 2025[^fibercopOfferta]. Nel giugno dello stesso anno il piano è stato **ampliato** con l'inserimento di ulteriori 968 comuni nelle aree grigie, raggiungendo un totale di **2.578 comuni** e circa **13,6 milioni di unità immobiliari tecniche (UIT)**[^uit] (pari a circa l'80% delle UIT delle aree nere e grigie), con la data di completamento **prorogata** dal 31 dicembre 2025 al 30 aprile 2026[^fibercopOfferta]. Nell'agosto 2023, a seguito dell'approvazione del Piano Strategico 2023-25 di TIM, il piano complessivo di copertura FTTH di TIM/FiberCop è stato ulteriormente **ampliato**, con l'obiettivo di raggiungere a fine **2028** circa **16 milioni di UIT**, pari a circa il 65% delle UIT totali presenti sul territorio nazionale[^fibercop2028].
 
-Parallelamente al piano autonomo, FiberCop è impegnata nei progetti PNRR, per i quali è destinataria di circa **2,3 miliardi di euro**. Nell’ambito del **Piano Italia 1 Giga**, il raggruppamento TIM-FiberCop si è aggiudicato **7 lotti**: dopo il walk-in del 30 giugno 2023 sono stati individuati **1.334.545 civici** da raggiungere con connettività ad almeno **1 Gbit/s** entro il 2026, per **1.628 milioni di euro** di fondi stanziati. Con il completamento delle attività legate al PNRR, l’azienda prevede di accelerare ulteriormente il ritmo di copertura, arrivando a connettere circa **3 milioni di nuove unità immobiliari all’anno**[^fibercopH12025].
+Nel nuovo assetto societario, FiberCop ha annunciato un piano di investimenti complessivo di circa **10 miliardi di euro** nel periodo 2024–2027 per l'espansione e il potenziamento della rete FTTH su tutto il territorio nazionale[^fibercopAzienda]. L'obiettivo è raggiungere **oltre 20 milioni di unità immobiliari** entro fine 2027, rispetto alle 14,3 milioni coperte a dicembre 2025.
+
+Parallelamente al piano autonomo, FiberCop è impegnata nei progetti PNRR, per i quali è destinataria di circa **2,3 miliardi di euro**. Nell’ambito del **Piano Italia 1 Giga**, i **7 lotti** furono aggiudicati al raggruppamento temporaneo d'impresa tra TIM e FiberCop; il 1° luglio 2024 si è conclusa l'operazione di conferimento del ramo d'azienda relativo alla rete fissa primaria in fibra e rame da TIM a **FiberCop**, che era già titolare della rete secondaria[^fibercopP1G][^tim2024]. Dopo il walk-in del 30 giugno 2023 sono stati individuati **1.334.545 civici** da raggiungere con connettività ad almeno **1 Gbit/s** entro il 2026, per **1.628 milioni di euro** di fondi stanziati. Con il completamento delle attività legate al PNRR, l’azienda prevede di accelerare ulteriormente il ritmo di copertura, arrivando a connettere circa **3 milioni di nuove unità immobiliari all’anno**[^fibercopH12025].
 
 Sempre dal 2026 è previsto l'avvio dello **switch-off della rete in rame**, cioè la dismissione progressiva delle linee telefoniche tradizionali a favore della fibra ottica, con l'obiettivo di completare la transizione entro il 2027[^fibercopH12025].
 
@@ -55,7 +57,7 @@ La copertura prevede anche l'installazione di un **Punto di Terminazione di Edif
 
 ## Architettura
 
-FiberCop gestisce oggi l'**intera infrastruttura di rete fissa**, sia la rete primaria (tra centrale e armadio) che la rete secondaria (tra armadio e abitazione), acquisita da TIM il 1° luglio 2024. La rete primaria era già presente grazie alla copertura **FTTC** (*Fiber To The Cabinet*) realizzata da TIM nel corso degli anni. Un operatore terzo che vuole acquisire servizi passivi da FiberCop può quindi appoggiarsi all'intera infrastruttura esistente oppure costruirsi la propria rete primaria.
+FiberCop gestisce oggi l'**intera infrastruttura di rete fissa**: oltre alla rete primaria (tra centrale e armadio) e alla rete secondaria (tra armadio e abitazione), gestisce anche le **centrali di attestazione** — circa 10.500 in tutta Italia — acquisite da TIM il 1° luglio 2024[^fibercopAzienda]. La rete primaria era già presente grazie alla copertura **FTTC** (*Fiber To The Cabinet*) realizzata da TIM nel corso degli anni. Un operatore terzo che vuole acquisire servizi passivi da FiberCop può quindi appoggiarsi all'intera infrastruttura esistente oppure costruirsi la propria rete primaria.
 
 L'architettura FTTH scelta è di tipo **passivo**, e cioè non ha bisogno di apparati alimentati (al di là di quelli presenti in centrale e nelle abitazioni dei clienti), e **ruota attorno al concetto di armadio ottico**, quasi sempre situato nei pressi degli armadi ripartilinea esistenti (ARL). L'armadio ottico viene di conseguenza chiamato **CRO** (*Cabinet Ripartilinea Ottico*) e spesso anche **ARLO** (*Armadio Ripartilinea Ottico*). Un armadio ottico serve **fino a 384 unità immobiliari**.
 
@@ -84,6 +86,9 @@ I dettagli dell'architettura di rete FiberCop, basata su tecnologie GPON e XGS-P
 [^tim2024]: https://www.gruppotim.it/it/archivio-stampa/corporate/2024/CS-Closing-NetCo-1-luglio.html
 [^fibercopP1G]: https://www.fibercop.com/bandi-pnrr/piano-italia-1-giga/
 [^fibercopAzienda]: https://www.fibercop.com/en/about-us/the-company/
+[^fibercopOfferta]: https://www.fibercop.com/2021/06/28/estensione-della-copertura-dell-offerta-di-co-investimento-di-tim-nella-nuova-rete-in-fibra-di-fibercop/
+[^uit]: Le unità immobiliari tecniche (UIT) rappresentano le unità immobiliari del territorio nazionale per le quali, nel tempo, è stata attivata una linea telefonica e/o di banda larga. https://www.fibercop.com/wp-content/uploads/2022/10/Testo-consolidato-dellofferta-di-co-investimento-di-TIM-nella-nuova-rete-in-fibra-di-FiberCop_21.10.22-1.pdf
+[^fibercop2028]: https://www.fibercop.com/2023/08/10/evoluzione-al-2028-del-piano-di-copertura-ftth-di-tim-fibercop/
 [^fibercop2025]: https://www.fibercop.com/en/comunicati-stampa/fibercop-celebrates-its-first-anniversary-and-looks-to-the-future-a-new-identity-and-new-values-to-accelerate-the-countrys-digital-transformation/
 [^fibercopH12025]: https://www.fibercop.com/comunicati-stampa/fibercop-confermate-le-linee-guida-strategiche-risultati-in-linea-con-le-aspettative-nel-primo-semestre-2025/
 [^fibercopFdSF]: https://www.fibercop.com/comunicati-stampa/fibercop-porta-la-fibra-ottica-ultraveloce-a-parabita/
