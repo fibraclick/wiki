@@ -18,7 +18,12 @@ Il **Fondo Nazionale Connettività** (abbreviato FNC) è un **piano di copertura
 
 Nel suo complesso, il bando pubblicato il 9 aprile 2026 da Invitalia **riguarda 1.75 milioni di civici suddivisi in due grandi gruppi: 385.000 e 1.353.535**, provenienti da scenari e mappature differenti.
 
-Entrambi possono essere consultati [sulla pagina del bando](https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=18813), rispettivamente negli Allegati 3 e 4.
+- 385.000 facevano parte del Piano Italia 1 Giga ma poi sono stati scartati
+- Gli altri 1.3 milioni sono quelli risultati privi di copertura al 2028 durante la Mappatura 2025.
+
+L'elenco completo dei civici può essere consultato [sulla pagina del bando](https://ingate.invitalia.it/esop/guest/go/opportunity/detail?opportunityId=18813), rispettivamente negli Allegati 3 e 4.
+
+Vediamo nel dettaglio qual è stato l'iter che ha permesso di individuare queste due categorie di civici.
 
 ### Civici stralciati dal Piano Italia 1 Giga
 
@@ -58,13 +63,13 @@ La tabella di seguito mostra il numero complessivo di civici che saranno effetti
 
 |Lotto|Regioni|Civici Totali|Obbligatori|Facoltativi|
 |---:|:---|:---:|:---:|:---:|
-1|Toscana Nord|**54662**|78858|24196
-2|Toscana Sud|**48039**|52713|4674
+1|Toscana Nord|**78858**|54662|24196
+2|Toscana Sud|**52713**|48039|4674
 3|Friuli-Venezia G. -Trento/Bolzano - Veneto|**71069**|71069|0
-4|Emilia-Romagna - Marche - Umbria|**56401**|72033|15632
+4|Emilia-Romagna - Marche - Umbria|**72033**|56401|15632
 5|Abruzzo - Lazio - Molise - Sardegna|**53526**|53526|0
 6|Piemonte - Valle d'Aosta - Liguria - Lombardia|**57401**|57401|0
-7|Basilicata - Campania - Puglia - Calabria - Sicilia|**61798**|91921|30123
+7|Basilicata - Campania - Puglia - Calabria - Sicilia|**91921**|61798|30123
 
 
 {{< green >}}
@@ -107,7 +112,7 @@ Di seguito una cronostoria dell’intero Fondo Nazionale Connettività, fin dall
 - 11 maggio 2026: Chiusura delle candidature
 - 25 giugno 2026: **Pubblicazione degli esiti della gara**, che risulta aggiudicata da FiberCop in quanto unico partecipante per tutti i lotti.
 
-L’inizio dei lavori è previsto per la seconda metà del 2026, con le **attività concentrate nel triennio 2027-2029** per arrivare alla **conclusione del piano il 30 giugno 2026**.
+L’inizio dei lavori è previsto per la seconda metà del 2026, con le **attività concentrate nel triennio 2027-2029** per arrivare alla **conclusione del piano il 30 giugno 2030**.
 
 Infratel Italia ha stabilito delle tappe intermedie che, se raggiunte, permetteranno di vedersi corrisposto l’incentivo pubblico, che in parte sarà anche erogato come anticipo di cassa nel corso del 2026.
 
