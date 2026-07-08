@@ -71,9 +71,6 @@ La tabella di seguito mostra il numero complessivo di civici che saranno effetti
 6|Piemonte - Valle d'Aosta - Liguria - Lombardia|**57401**|57401|0
 7|Basilicata - Campania - Puglia - Calabria - Sicilia|**91921**|61798|30123
 
-
-{{< green >}}
-
 ### Il Walk-In
 
 Come già successo per il Piano Italia 1 Giga, **anche per il FNC FiberCop è richiesto il walk-in**, ovvero una verifica sul campo dell’effettiva esistenza di ciascun civico alle coordinate in possesso di Infratel.
@@ -81,6 +78,8 @@ Come già successo per il Piano Italia 1 Giga, **anche per il FNC FiberCop è ri
 L’obiettivo è verificare se il civico esista, se sia inutilizzabile (poiché inesistente, associato a garage o a un edificio inagibile) o già coperto da reti FTTH.
 
 Questa attività riguarda solamente i civici provenienti dalla mappatura 2025 poiché per quelli ex Piano Italia 1 Giga Open Fiber aveva già fatto questa attività, che potrebbe comportare un ulteriore ridimensionamento della copertura.
+
+{{< green >}}
 
 ### Che fine faranno i civici esclusi?
 
