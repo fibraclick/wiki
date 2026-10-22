@@ -13,7 +13,7 @@ image: /social/gpon.jpg
 
 GPON fa parte di un insieme di standard *PON*, i quali si differenziano in base alla velocità massima complessiva raggiungibile all'interno di ciascun albero ottico, una struttura spesso condivisa anche con 64 utenze (il significato di albero ottico è spiegato in dettaglio sotto).
 
-Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25 Gbps in upload, condivisa con un numero prestabilito di utenze**, che può arrivare fino a 128.[^standard] Ciascuna delle linee collegate avrà poi una velocità massima nominale fissata dall'operatore, ad esempio 1 Gbps in download. Il tutto funziona estremamente bene perché è estremanente improbabile che più utenti utilizzino pienamente la banda a disposizione.
+Nel caso di GPON, **la velocità massima è di circa 2,5 Gbps in download e 1,25 Gbps in upload, condivisa con un numero prestabilito di utenze**, che può arrivare fino a 128.[^standard] Ciascuna delle linee collegate avrà poi una velocità massima nominale fissata dall'operatore, ad esempio 1 Gbps in download. Il tutto funziona bene perché è estremanente improbabile che più utenti utilizzino pienamente la banda a disposizione.
 
 {{< fig src="/images/pon.png" caption="Differenze tra gli standard PON. Fonte: Open Fiber." alt="GPON: 2,5 Gigabit in download e 1,25 Gigabit in upload. XG-PON: 10 Gigabit in download e 2,5 Gigabit in upload. XGS-PON: 10 Gigabit in download e 10 Gigabit in upload. NG-PON2: 40 Gigabit in download e 2,5 Gigabit in upload" >}}
 
@@ -37,7 +37,7 @@ Per questo motivo, nella pratica il fattore di splitting non è quasi mai 128 ma
 Vedi la sezione *GPON in Italia* più in basso per i dettagli sui fattori di splitting usati in Italia.
 {{< /info >}}
 
-Nelle reti PON lo **splitting** della fibra ottica avviene **in modo passivo**, e cioè a livello fisico senza bisogno di apparati alimentati questo permette di ridurre i costi operativi della FTTH rispetto alle altre tecnologie. I dispositivi che si occupano di effettuare lo splitting si chiamano **splitter ottici** (o *diramatori ottici*, in italiano).
+Nelle reti PON lo **splitting** della fibra ottica avviene **in modo passivo**, e cioè a livello fisico senza bisogno di apparati alimentati e questo permette di ridurre i costi operativi della FTTH rispetto alle altre tecnologie. I dispositivi che si occupano di questa operazione si chiamano **splitter ottici** (o *diramatori ottici*, in italiano).
 
 {{< fig src="/images/gpon1.png" caption="Schema di una rete GPON con fattore di splitting 1:16. Ogni fibra ottica in uscita dall'OLT realizza un albero. Lo splitter divide la fibra ottica in 16 fibre, ciascuna delle quali connette un ONT." >}}
 
@@ -95,7 +95,7 @@ Infine, nei pressi delle abitazioni Open Fiber installa dei **PTE**, chiamati an
 Quando **Open Fiber è nata, nel 2016, ha incorporato la rete Metroweb** realizzata nel decennio precedente a Milano, Torino, Bologna e Genova. Anche la rete Metroweb prevede due livelli di splitting, ma uno dei due avviene direttamente all'edificio (nei ROE), come nel caso di Flash Fiber.
 {{< /green >}}
 
-Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. La scelta di un fattore di splitting inferiore consente inoltre di avere delle **tratte OLT-ONT più lunghe**, in considerazione del fatto che ogni splitting ripartisce la potenza del segnale luminoso tra i rami dell'albero in quanto nelle aree bianche, risulta più conveniente installare qualche OLT in più e coprire distanze maggiori: eliminare uno splitter consente infatti di estendere la rete di ulteriori numerosi km.[^attenuazione]
+Nelle aree a **investimento pubblico** (cluster C e D), la differenza fondamentale è che **il fattore di splitting è 1:16**, anziché 1:64. La scelta di un fattore di splitting inferiore consente di avere delle **tratte OLT-ONT più lunghe**: dato che ogni splitter ripartisce la potenza del segnale luminoso tra i rami dell'albero, eliminare uno splitter consente di avere più segnale a disposizione (power budget).
 
 Ciò significa che ad ogni albero possono essere collegati al massimo 16 ONT, che condivideranno la banda 2,5 / 1,25 Gbps prevista da GPON. Questo garantisce inoltre il rispetto dei requisiti dei bandi pubblici del piano BUL, cioè di garantire almeno 100 Mbps in download e 50 Mbps in upload per ogni utente, anche in caso di connessioni simultanee, nonostante ciò questa motivazione è al quanto poco pratica il GPON è stato ideato in quanto è estremanente improbabile che più utenti utilizzino pienamente la banda a disposizione.
 
@@ -183,4 +183,3 @@ Vedi anche [Cos'è e cosa fa FiberCop]({{< relref "/posts/fibercop.md" >}}).
 [^ofservizi]: https://openfiber.it/area-infratel/servizi/commercializzazione-aree-bianche/
 [^pcn]: http://www.utesandonatosangiuliano.org/InforMatica/Documentazione/Tecnologie-Open%20Fiber.pdf
 [^vula]: https://www.wholesale.telecomitalia.com/it/catalogo/-/catalogo_aggregator/article/120434490?p_r_p_564233524_categoryId=120410924&p_r_p_564233524_activePortletId=noportlet
-[^attenuazione]: Uno splitter 1:16 ha una attenuazione di circa 13,5 dB, equivalenti a oltre 50 km di fibra ottica considerando una attenuazione di 0,2 dB/km
